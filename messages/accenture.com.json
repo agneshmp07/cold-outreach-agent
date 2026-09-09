@@ -1,0 +1,73 @@
+{
+  "company_name": "Accenture",
+  "fallback_mode": true,
+  "generated_from": {
+    "trigger_count": 0,
+    "top_score": 0,
+    "pain_hypothesis": "There is no evidence in the provided sources to support a hypothesis regarding campus placement operations or pain points."
+  },
+  "emails": [
+    {
+      "angle": "category-fit",
+      "subject": "Campus hiring at IT services firms",
+      "body": "Accenture provides large-scale IT services and enterprise consulting. IT services firms running high-volume campus drives often face operational friction and fragmented communication across placement offices.\n\nWe are building MNGO to standardize campus placement infrastructure in India around direct recruiter needs.\n\nHow do you currently manage coordination across multiple college placement cells during recruitment drives?\n\nBest,\nAgnesh",
+      "trigger_used": "",
+      "word_count": 56,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null
+    },
+    {
+      "angle": "open-question",
+      "subject": "Managing campus drives across India",
+      "body": "How does your university relations team handle student data collection and scheduling across different placement offices during campus hiring seasons?\n\nWe are building MNGO, a campus placement infrastructure in India, designed directly around how recruiters operate.\n\nBest,\nAgnesh",
+      "trigger_used": "",
+      "word_count": 38,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null
+    },
+    {
+      "angle": "short-intro",
+      "subject": "Campus placement infrastructure",
+      "body": "I am Agnesh, building MNGO as campus placement infrastructure for India. We are currently onboarding our initial colleges and designing the recruiter side around what companies actually need. What is your biggest operational bottleneck when recruiting from campuses today?\n\nBest,\nAgnesh",
+      "trigger_used": "",
+      "word_count": 41,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "category-fit",
+      "text": "Accenture provides enterprise IT services. Large IT firms doing campus drives usually face fragmented coordination across placement cells. We are building MNGO to solve this infrastructure gap. How do you handle multi-college drives?",
+      "trigger_used": "",
+      "char_count": 233,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null
+    },
+    {
+      "angle": "open-question",
+      "text": "How does your campus team currently manage student data and scheduling across multiple college placement offices? We are building MNGO—campus placement infrastructure in India—around actual recruiter needs.",
+      "trigger_used": "",
+      "char_count": 206,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null
+    },
+    {
+      "angle": "short-intro",
+      "text": "I am Agnesh, building MNGO to modernize campus placement infrastructure in India. We are shaping the platform based on actual company inputs rather than guessing. What is your primary challenge during campus hiring drives?",
+      "trigger_used": "",
+      "char_count": 222,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null
+    }
+  ],
+  "warnings": [
+    "NO TRIGGER FOUND - these messages are generic. Nothing in them is specific to this company, and they will convert far worse than trigger-backed messages."
+  ]
+}
