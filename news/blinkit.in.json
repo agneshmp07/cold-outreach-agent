@@ -1,8 +1,8 @@
 {
-  "domain": "blinkit.com",
-  "company_name": "Blinkit",
-  "query": "\"Blinkit\" (hiring OR funding OR expansion OR launch OR appoints)",
-  "fetched_at": "2026-09-09T10:15:51.200282+00:00",
+  "domain": "blinkit.in",
+  "company_name": "blinkit",
+  "query": "\"blinkit\" (hiring OR funding OR expansion OR launch OR appoints)",
+  "fetched_at": "2026-09-09T10:21:57.882732+00:00",
   "articles": [
     {
       "title": "Blinkit - 2026 Funding Rounds & List of Investors",
@@ -69,20 +69,20 @@
       "link": "https://www.outlookbusiness.com/corporate/eternal-pumps-600-crore-into-blinkit-as-quick-commerce-race-intensifies"
     },
     {
-      "title": "AAHL, Blinkit launch India's first in-terminal quick commerce service at Mumbai Airport",
-      "snippet": "Adani Airport Holdings Limited (AAHL), India's largest private airport operator, in partnership with Blinkit, India's leading quick commerce platform,...",
-      "date_relative": "5 months ago",
-      "date_approx": "2026-04-12",
-      "source": "ANI News",
-      "link": "https://www.aninews.in/news/business/aahl-blinkit-launch-indias-first-in-terminal-quick-commerce-service-at-mumbai-airport20260401145105"
-    },
-    {
       "title": "Lower Average Order Value Threatens Blinkit’s Tier-2 Expansion",
       "snippet": "Blinkit's push into Tier-2 cities is running into a problem, lower order values are testing whether its metro model can scale.",
       "date_relative": "1 month ago",
       "date_approx": "2026-08-10",
       "source": "Equitypandit",
       "link": "https://www.equitypandit.com/lower-average-order-value-threatens-blinkits-tier-2-expansion/"
+    },
+    {
+      "title": "28 BLACK Energy Drink Expands India Footprint With Blinkit Launch",
+      "snippet": "Mumbai (Maharashtra) [India], May 28: 28 BLACK, the premium German energy drink, continues to scale its presence in India with its launch on Blinkit,...",
+      "date_relative": "3 months ago",
+      "date_approx": "2026-06-11",
+      "source": "ThePrint",
+      "link": "https://theprint.in/ani-press-releases/28-black-energy-drink-expands-india-footprint-with-blinkit-launch/2943706/"
     }
   ]
 }

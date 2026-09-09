@@ -1,6 +1,27 @@
 {
   "company_name": "Xoxoday",
-  "triggers": [],
-  "pain_hypothesis": "There is no evidence in the provided sources to support a hypothesis regarding campus placement operations, as Xoxoday is a corporate B2B SaaS technology vendor rather than an educational institution.",
-  "no_trigger_found": true
+  "triggers": [
+    {
+      "fact": "Careers page lists 46 open roles, including several entry-level and intern positions such as Operations Intern, SEO Intern, Marketing Intern/Fresher, and IT Support Intern.",
+      "source_page": "https://xoxoday.com/careers",
+      "relevance_score": 9
+    },
+    {
+      "fact": "Raised a Series C funding round to accelerate global expansion (reported 7 months ago).",
+      "source_page": "https://www.prnewswire.com/in/news-releases/xoxoday-raises-series-c-to-accelerate-global-expansion-302661046.html",
+      "relevance_score": 8
+    },
+    {
+      "fact": "Raised $30 million from Giift and Apis Partners to fuel company growth (reported 6 months ago).",
+      "source_page": "https://www.fintechfutures.com/press-releases/xoxoday-raises-us-30-million-from-giift-and-apis-partners-to-help-businesses-make-every-day-of-their-growth-story-rewarding",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Acquired Amara.ai to bring real-time AI listening into HR and integrate conversational feedback into its Empuls platform (reported 3 months ago).",
+      "source_page": "https://sea.peoplemattersglobal.com/news/funding-and-investment/xoxoday-acquires-amaraai-to-bring-real-time-ai-listening-into-hr-49979",
+      "relevance_score": 6
+    }
+  ],
+  "pain_hypothesis": "With active entry-level hiring across marketing, operations, and IT alongside rapid global expansion, Xoxoday likely faces operational friction in efficiently coordinating campus recruitment drives and standardizing candidate evaluation.",
+  "no_trigger_found": false
 }

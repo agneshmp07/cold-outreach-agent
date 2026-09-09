@@ -99,11 +99,14 @@ st.markdown("""
            border: 1px solid rgba(232,103,76,.25);
            border-radius: 20px; padding: .1rem .5rem; margin-right: .5rem; }
 
-  .person { background: #101014; border-left: 2px solid #4ADE80;
+  .person { background: #101014; border-left: 2px solid #4A5568;
             border-radius: 0 8px 8px 0; padding: .8rem 1.1rem;
             margin-bottom: .6rem; }
   .person-name { color: #D8D8DC; font-weight: 600; font-size: .95rem; }
   .person-role { color: #8C8C94; font-size: .85rem; margin-top: .2rem; }
+
+  .null-result { color: #7A7A84; font-size: .88rem; line-height: 1.65;
+                 border-left: 2px solid #33333D; padding-left: 1rem; }
 
   section[data-testid="stSidebar"] { border-right: 1px solid #1F1F25; }
 </style>
@@ -133,32 +136,26 @@ with st.sidebar:
     new_domain = st.text_input("Domain", placeholder="razorpay.com",
                                label_visibility="collapsed")
     use_news = st.checkbox("Include news search", value=True)
-    use_linkedin = st.checkbox("Find contacts on LinkedIn", value=False,
-                               help="Searches for talent acquisition roles at "
-                                    "this company. About $0.10 per run.")
+    use_linkedin = st.checkbox("Include LinkedIn scan", value=False,
+                               help="Costs about $0.10 per company and rarely "
+                                    "finds anyone. See the LinkedIn panel.")
 
     if st.button("Run pipeline", use_container_width=True) and new_domain.strip():
         d = new_domain.strip()
-        # LinkedIn runs after triggers, because it reuses the company name
-        # triggers.py extracted - "Razorpay" matches better than "razorpay.com".
         steps = [("Scraping site", "scrape.py")]
         if use_news:
             steps.append(("Searching news", "news.py"))
-        steps.append(("Extracting triggers", "triggers.py"))
         if use_linkedin:
-            steps.append(("Finding contacts", "linkedin.py"))
-        steps.append(("Writing messages", "generate.py"))
+            steps.append(("Scanning LinkedIn", "linkedin.py"))
+        steps += [("Extracting triggers", "triggers.py"),
+                  ("Writing messages", "generate.py")]
 
         for label, script in steps:
             with st.spinner(label):
                 p = subprocess.run([sys.executable, str(BASE / script), d],
                                    capture_output=True, text=True)
             if p.returncode != 0:
-                err = (p.stderr or p.stdout or "").strip()
-                st.error(f"{label} failed")
-                if err:
-                    st.code(err[-600:])
-                break
+                st.error(f"{label} failed"); break
         else:
             st.success("Done"); st.rerun()
 
@@ -173,10 +170,10 @@ st.markdown("""
   <h1>Cold Outreach Agent</h1>
   <div class="lede">
     Reads a company's site and recent news, extracts
-    <strong>verifiable triggers</strong>, finds who to send to, and writes
-    three emails and three LinkedIn messages built on them. Every claim is
-    checked back against what was actually found, and every source is linked
-    so you can open it and check the work yourself.
+    <strong>verifiable triggers</strong>, and writes three emails and three
+    LinkedIn messages built on them. Every claim is checked back against what
+    was actually found, and every source is linked so you can open it and
+    check the work yourself.
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -266,38 +263,6 @@ if not is_fallback and trigger_file.exists():
                 else:
                     st.caption(f"source: {src}")
 
-# Who to send it to. The search is scoped by title AND company, so these are
-# actual recruiters rather than a random sample of employees.
-li_file = BASE / "linkedin" / f"{domain}.json"
-if li_file.exists():
-    try:
-        ldata = json.loads(li_file.read_text(encoding="utf-8"))
-    except Exception:
-        ldata = {}
-    people = ldata.get("people", [])
-    total = ldata.get("total_matching", 0)
-    if people:
-        label = f"Who to contact · {len(people)}"
-        if total:
-            label += f" of {total} at this company"
-        with st.expander(label):
-            st.caption(f'LinkedIn search: "{ldata.get("query", "")}" · '
-                       f'longest tenure first')
-            for p in people:
-                bits = []
-                if p.get("years_at_company"):
-                    bits.append(f"{p['years_at_company']} years")
-                if p.get("location"):
-                    bits.append(p["location"])
-                sub = " · ".join([p["role"]] + bits)
-                st.markdown(
-                    f'<div class="person">'
-                    f'<div class="person-name">{p["name"]}</div>'
-                    f'<div class="person-role">{sub}</div>'
-                    f'</div>', unsafe_allow_html=True)
-                if p.get("linkedin_url"):
-                    st.caption(p["linkedin_url"])
-
 news_file = BASE / "news" / f"{domain}.json"
 if news_file.exists():
     try:
@@ -313,6 +278,44 @@ if news_file.exists():
                 st.markdown(f"[{a['title']}]({a['link']})")
                 st.caption(f"{a.get('source', 'unknown')} · "
                            f"{a.get('date', 'undated')}")
+
+# LinkedIn: shown even when it finds nobody, because the null result is the
+# honest finding. The actor has no title filter, so it samples blind.
+li_file = BASE / "linkedin" / f"{domain}.json"
+if li_file.exists():
+    try:
+        ldata = json.loads(li_file.read_text(encoding="utf-8"))
+    except Exception:
+        ldata = {}
+    scanned = ldata.get("scanned", 0)
+    people = ldata.get("people", [])
+    if scanned:
+        with st.expander(f"LinkedIn scan · {len(people)} of {scanned} in a "
+                         f"hiring role"):
+            if people:
+                st.caption("Who to send this to.")
+                for p in people:
+                    st.markdown(
+                        f'<div class="person">'
+                        f'<div class="person-name">{p["name"]}</div>'
+                        f'<div class="person-role">{p["role"]}</div>'
+                        f'</div>', unsafe_allow_html=True)
+                    if p.get("linkedin_url"):
+                        st.caption(p["linkedin_url"])
+            else:
+                st.markdown(
+                    f'<div class="null-result">'
+                    f'Scanned {scanned} employees, none in a hiring role.<br><br>'
+                    f'The scraper has no title filter, so this samples blind. A '
+                    f'company with 3,000 people on LinkedIn has perhaps 1% in '
+                    f'talent acquisition; 25 random profiles will usually miss '
+                    f'all of them. Finding them reliably would mean pulling '
+                    f'thousands of profiles and storing personal data for '
+                    f'thousands of people to reach three.<br><br>'
+                    f'Kept in the demo because the null result is the finding: '
+                    f'at this volume, searching LinkedIn by hand is faster and '
+                    f'more accurate than automating it.'
+                    f'</div>', unsafe_allow_html=True)
 
 
 # ---------------------------------------------------------------- messages

@@ -1,70 +1,82 @@
 {
   "company_name": "Razorpay",
-  "fallback_mode": false,
   "generated_from": {
-    "trigger_count": 4,
-    "top_score": 5,
-    "pain_hypothesis": "As Razorpay expands its AI-led product suite and international offerings, scaling campus hiring to find specialized tech talent across multiple engineering colleges creates operational friction in coordinating drives and evaluating candidates."
+    "trigger_count": 3,
+    "top_score": 7,
+    "pain_hypothesis": "As Razorpay scales its AI-led product capabilities and international expansion, coordinating entry-level talent drives across multiple engineering campuses to filter specialized AI candidates can create operational bottlenecks.",
+    "forced": false
   },
   "emails": [
     {
       "angle": "trigger-direct",
-      "subject": "campus hiring for AI builders at Razorpay",
-      "body": "Noticing your team is actively recruiting AI Builders across engineering and product.\n\nI am Agnesh, building MNGO. We are onboarding our first colleges now to build campus placement infrastructure tailored for tech hiring in India, designing the platform around what recruiters actually need.\n\nAs you look for specialized engineering talent across campuses, what usually breaks first in your campus recruitment workflow?\n\nAgnesh",
-      "trigger_used": "Razorpay's careers page actively advertises hiring for AI Builders across engineering and product teams.",
+      "subject": "ai builder hiring at razorpay",
+      "body": "Notice on your careers page that you are actively recruiting AI Builders across engineering, product, and design.\n\nWe are building MNGO to fix campus hiring, and we are onboarding our first colleges right now. Instead of guessing what recruiters need, I am reaching out directly: what breaks for your team when you try to recruit entry-level engineering talent from campuses today?\n\nAgnesh",
+      "trigger_used": "Razorpay's careers page highlights active recruitment focus on AI Builders across engineering, product, and design teams.",
+      "trigger_link": "Hiring AI Builders at scale requires sourcing early-stage technical talent directly from engineering campuses.",
       "word_count": 62,
       "grounded": true,
       "invented_number": null,
-      "overclaim": null
+      "overclaim": null,
+      "asset_claim": null
     },
     {
       "angle": "problem-check",
-      "subject": "coordinating campus drives across colleges",
-      "body": "With Razorpay focusing on AI-led products and global expansion, campus hiring becomes critical for scaling engineering teams.\n\nIn campus drives, hiring teams often deal with unformatted resume PDFs, endless email chains with placement cells, and no unified way to compare candidates across different institutes.\n\nWe are building MNGO and currently onboarding our first colleges. Does this match your experience when running campus drives, or is friction somewhere else for you?\n\nAgnesh",
-      "trigger_used": "Razorpay is focusing on artificial intelligence-led products, international expansion, and new software offerings for its next phase of growth.",
-      "word_count": 71,
+      "subject": "campus hiring for ai product expansion",
+      "body": "As Razorpay doubles down on AI-led products and global expansion, building an early-career tech pipeline becomes critical.\n\nIn campus recruiting, most teams deal with unstructured PDF resumes, endless email threads with placement officers, and no clean way to compare candidates across different institutions. Does this match what your hiring team experiences, or is something else harder for you?\n\nAgnesh",
+      "trigger_used": "Razorpay is expanding globally and doubling down on AI-led products and new software offerings for its next phase of growth.",
+      "trigger_link": "Expanding AI-led software offerings demands a continuous pipeline of fresh engineering talent from colleges.",
+      "word_count": 59,
       "grounded": true,
       "invented_number": null,
-      "overclaim": null
+      "overclaim": null,
+      "asset_claim": null
     },
     {
-      "angle": "early-access",
-      "subject": "recruiter pilot for campus tech hiring",
-      "body": "Following Razorpay's launch of RAY on WhatsApp, scaling your engineering capabilities requires streamline campus hiring.\n\nWe are building MNGO—campus placement infrastructure for India—and are onboarding our first colleges now. We are opening a recruiter pilot to gather direct input on candidate evaluation workflows so we build what hiring leads actually need.\n\nWould you be open to a short call to share what breaks in your campus drives before we launch the pilot?\n\nAgnesh",
-      "trigger_used": "Razorpay launched RAY, an AI-powered account manager on WhatsApp for businesses in partnership with IndusInd Bank.",
-      "word_count": 73,
+      "angle": "conditional-ask",
+      "subject": "entry-level engineering talent at razorpay",
+      "body": "Following your latest funding round, I imagine scaling your technical teams is top of mind.\n\nWe are currently onboarding our first engineering colleges onto MNGO to streamline entry-level hiring. If we brought you a pre-screened, structured shortlist of final-year engineering candidates from these colleges, would you be open to looking at it?\n\nNo commitment or cost involved—just want to see if structured campus talent would be helpful.\n\nAgnesh",
+      "trigger_used": "Razorpay's funding history updated with 2026 funding round details and investor information.",
+      "trigger_link": "Securing new funding signals accelerated talent acquisition across engineering campuses.",
+      "word_count": 68,
       "grounded": true,
       "invented_number": null,
-      "overclaim": null
+      "overclaim": null,
+      "asset_claim": null
     }
   ],
   "linkedin_messages": [
     {
       "angle": "connection-note",
-      "text": "Hi! Noticed Razorpay is hiring AI Builders across engineering and product. I am building MNGO and onboarding our first colleges to fix campus placement infrastructure. Would love to connect.",
-      "trigger_used": "Razorpay's careers page actively advertises hiring for AI Builders across engineering and product teams.",
-      "char_count": 190,
+      "text": "Saw Razorpay is actively recruiting AI Builders. I'm building MNGO to fix campus hiring infrastructure in India. Would love to connect.",
+      "trigger_used": "Razorpay's careers page highlights active recruitment focus on AI Builders across engineering, product, and design teams.",
+      "trigger_link": "Focusing on AI Builders requires dedicated campus pipelines for entry-level engineering roles.",
+      "char_count": 135,
       "grounded": true,
       "invented_number": null,
-      "overclaim": null
+      "overclaim": null,
+      "asset_claim": null
     },
     {
       "angle": "post-accept-dm",
-      "text": "Thanks for connecting! As Razorpay focuses on AI-led products and global expansion, how are you currently managing campus hiring across engineering colleges—is it mostly managed via manual spreadsheets and placement cell emails?",
-      "trigger_used": "Razorpay is focusing on artificial intelligence-led products, international expansion, and new software offerings for its next phase of growth.",
-      "char_count": 228,
+      "text": "Thanks for connecting. With Razorpay expanding globally and leaning into AI-led products, how is your team currently handling entry-level campus drives for technical roles? Do you recruit from specific campuses directly or rely on inbound applications?",
+      "trigger_used": "Razorpay is expanding globally and doubling down on AI-led products and new software offerings for its next phase of growth.",
+      "trigger_link": "Global software expansion requires predictable early-career talent acquisition from technical universities.",
+      "char_count": 252,
       "grounded": true,
       "invented_number": null,
-      "overclaim": null
+      "overclaim": null,
+      "asset_claim": null
     },
     {
       "angle": "value-first",
-      "text": "Hi! Saw Razorpay launched Multi-Currency Accounts for exporters. As you scale engineering teams, campus hiring often creates resume clutter. I created a checklist on structuring candidate evaluation workflows across multiple campus drives. Happy to send it over if helpful!",
-      "trigger_used": "Razorpay launched a Multi-Currency Account to enable exporters to receive settlements in foreign currencies.",
-      "char_count": 273,
+      "text": "Congrats on the recent funding update. We are currently speaking with placement cells across technical institutes. Happy to share insights on how campus placement drives are structured this year once we gather the data, if useful for your hiring plan.",
+      "trigger_used": "Razorpay's funding history updated with 2026 funding round details and investor information.",
+      "trigger_link": "New funding rounds drive increased volume in campus talent acquisition.",
+      "char_count": 251,
       "grounded": true,
       "invented_number": null,
-      "overclaim": null
+      "overclaim": null,
+      "asset_claim": null
     }
   ],
   "warnings": []

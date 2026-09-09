@@ -2,26 +2,21 @@
   "company_name": "Razorpay",
   "triggers": [
     {
-      "fact": "Razorpay is focusing on artificial intelligence-led products, international expansion, and new software offerings for its next phase of growth.",
+      "fact": "Razorpay's funding history updated with 2026 funding round details and investor information.",
+      "source_page": "https://tracxn.com/d/companies/razorpay/__ARWa67NVJPe3TC11rYSBnp-0zVHbDAze4xZvzRsZzAI/funding-and-investors",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Razorpay is expanding globally and doubling down on AI-led products and new software offerings for its next phase of growth.",
       "source_page": "https://www.thehindubusinessline.com/companies/razorpay-bets-on-ai-agents-global-expansion-to-power-next-phase-of-growth/article70735437.ece",
       "relevance_score": 5
     },
     {
-      "fact": "Razorpay's careers page actively advertises hiring for AI Builders across engineering and product teams.",
+      "fact": "Razorpay's careers page highlights active recruitment focus on AI Builders across engineering, product, and design teams.",
       "source_page": "https://razorpay.com/careers",
-      "relevance_score": 4
-    },
-    {
-      "fact": "Razorpay launched RAY, an AI-powered account manager on WhatsApp for businesses in partnership with IndusInd Bank.",
-      "source_page": "https://analyticsindiamag.com/ai-news/razorpay-indusind-bank-launch-ai-account-manager-ray-on-whatsapp-for-businesses",
-      "relevance_score": 3
-    },
-    {
-      "fact": "Razorpay launched a Multi-Currency Account to enable exporters to receive settlements in foreign currencies.",
-      "source_page": "https://m.thewire.in/article/ptiprnews/razorpay-launches-multi-currency-account-helping-exporters-retain-international-earnings-in-foreign-currencies/amp",
-      "relevance_score": 3
+      "relevance_score": 5
     }
   ],
-  "pain_hypothesis": "As Razorpay expands its AI-led product suite and international offerings, scaling campus hiring to find specialized tech talent across multiple engineering colleges creates operational friction in coordinating drives and evaluating candidates.",
+  "pain_hypothesis": "As Razorpay scales its AI-led product capabilities and international expansion, coordinating entry-level talent drives across multiple engineering campuses to filter specialized AI candidates can create operational bottlenecks.",
   "no_trigger_found": false
 }

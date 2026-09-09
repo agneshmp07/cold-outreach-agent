@@ -1,0 +1,13 @@
+# One company name per line. Lines starting with # are ignored.
+# Seeded from the 'Who does NOT fit' table in context/icp.md.
+TCS
+Tata Consultancy
+Infosys
+Wipro
+HCL
+Cognizant
+Accenture
+Capgemini
+Tech Mahindra
+LTIMindtree
+Razorpay

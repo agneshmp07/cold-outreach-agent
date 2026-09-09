@@ -1,73 +1,71 @@
 {
   "company_name": "Xoxoday",
-  "fallback_mode": true,
+  "fallback_mode": false,
   "generated_from": {
-    "trigger_count": 0,
-    "top_score": 0,
-    "pain_hypothesis": "There is no evidence in the provided sources to support a hypothesis regarding campus placement operations, as Xoxoday is a corporate B2B SaaS technology vendor rather than an educational institution."
+    "trigger_count": 4,
+    "top_score": 9,
+    "pain_hypothesis": "With active entry-level hiring across marketing, operations, and IT alongside rapid global expansion, Xoxoday likely faces operational friction in efficiently coordinating campus recruitment drives and standardizing candidate evaluation."
   },
   "emails": [
     {
-      "angle": "category-fit",
-      "subject": "Campus hiring for B2B SaaS",
-      "body": "Xoxoday builds B2B SaaS for rewards and incentive management. Growing software companies often struggle to filter qualified technical and business talent across fragmented college placement cells without dedicated on-ground campus teams.\n\nWe are building MNGO to standardize campus placement infrastructure across India and tailor the recruiter workflow to what technology companies actually need.\n\nHow do you currently manage your campus hiring drives across different engineering and management colleges?\n\nRegards,\nAgnesh",
-      "trigger_used": "",
-      "word_count": 70,
-      "grounded": false,
+      "angle": "trigger-direct",
+      "subject": "campus hiring for entry-level roles",
+      "body": "I noticed Xoxoday is currently hiring across several intern and entry-level positions in marketing, operations, and IT.\n\nWe are building MNGO—a campus placement infrastructure platform—and currently onboarding our first colleges. Rather than guessing what recruiters need, we are building the recruiter side around real hiring requirements.\n\nAs you scale these entry-level roles, what usually breaks first in your campus hiring workflow?\n\nBest,\nAgnesh",
+      "trigger_used": "Careers page lists 46 open roles, including several entry-level and intern positions such as Operations Intern, SEO Intern, Marketing Intern/Fresher, and IT Support Intern.",
+      "word_count": 63,
+      "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
-      "angle": "open-question",
-      "subject": "Campus recruitment process at Xoxoday",
-      "body": "When hiring entry-level talent from colleges, do you work directly with individual placement cells or rely on third-party agencies to manage the coordination?\n\nI ask because we are building MNGO, a unified campus placement infrastructure in India designed to streamline how companies run their college drives.\n\nRegards,\nAgnesh",
-      "trigger_used": "",
-      "word_count": 48,
-      "grounded": false,
+      "angle": "problem-check",
+      "subject": "coordinating campus hiring while expanding",
+      "body": "Following Xoxoday's Series C round to accelerate expansion, team growth usually brings recruitment complexity.\n\nWhen hiring entry-level talent across locations, many teams deal with chaotic email threads with placement officers and unstructured resumes that make cross-college evaluation tedious.\n\nWe are building MNGO to address these operational issues and are currently onboarding our first colleges. Does this friction with fragmented college communication match your experience?\n\nBest,\nAgnesh",
+      "trigger_used": "Raised a Series C funding round to accelerate global expansion (reported 7 months ago).",
+      "word_count": 66,
+      "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
-      "angle": "short-intro",
-      "subject": "Campus hiring infrastructure",
-      "body": "I am Agnesh, founder of MNGO. We are building campus placement infrastructure in India to simplify how companies recruit early-career talent. We are shaping the platform around actual recruiter workflows rather than static job boards. How does Xoxoday currently handle placement cell outreach for graduate hiring?\n\nRegards,\nAgnesh",
-      "trigger_used": "",
-      "word_count": 48,
-      "grounded": false,
+      "angle": "early-access",
+      "subject": "building campus recruitment workflows",
+      "body": "With Xoxoday's $30 million funding raised from Giift to fuel growth, scaling entry-level recruitment becomes key.\n\nWe are building MNGO to streamline campus placement workflows and are currently onboarding our first colleges. We are offering a select group of hiring leads early access to our recruiter pilot when it opens, asking only for product feedback to ensure it solves actual hiring pain points.\n\nWould you be open to a brief 10-minute call this week to share how you handle campus drives and help shape the pilot?\n\nBest,\nAgnesh",
+      "trigger_used": "Raised $30 million from Giift and Apis Partners to fuel company growth (reported 6 months ago).",
+      "word_count": 88,
+      "grounded": true,
       "invented_number": null,
       "overclaim": null
     }
   ],
   "linkedin_messages": [
     {
-      "angle": "category-fit",
-      "text": "Xoxoday builds B2B SaaS rewards platforms. Fast-scaling tech vendors often face friction coordinating directly with fragmented placement cells for campus hiring. We are building MNGO to fix this. How do you manage college drives today?",
-      "trigger_used": "",
-      "char_count": 235,
-      "grounded": false,
+      "angle": "connection-note",
+      "text": "Hi, I saw Xoxoday is hiring for several entry-level and intern positions. I am Agnesh, building MNGO for campus hiring infrastructure. We are onboarding our first colleges and getting recruiter input on what breaks in campus hiring. Would love to connect.",
+      "trigger_used": "Careers page lists 46 open roles, including several entry-level and intern positions such as Operations Intern, SEO Intern, Marketing Intern/Fresher, and IT Support Intern.",
+      "char_count": 255,
+      "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
-      "angle": "open-question",
-      "text": "Do you manage your campus placement outreach directly with college cells or through external agencies? I ask because I am Agnesh, building MNGO to create a unified campus placement infrastructure for recruiters in India.",
-      "trigger_used": "",
-      "char_count": 220,
-      "grounded": false,
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. Following Xoxoday's Series C round, how does your team currently manage campus recruitment drives across different colleges?",
+      "trigger_used": "Raised a Series C funding round to accelerate global expansion (reported 7 months ago).",
+      "char_count": 147,
+      "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
-      "angle": "short-intro",
-      "text": "I am Agnesh, building MNGO. We are constructing campus placement infrastructure in India to streamline college hiring. We design the platform directly around recruiter needs. How do you currently handle campus recruitment?",
-      "trigger_used": "",
-      "char_count": 222,
-      "grounded": false,
+      "angle": "value-first",
+      "text": "Saw Xoxoday's acquisition of Amara.ai to bring real-time listening into HR.\n\nAs we build MNGO and onboard our first colleges, we put together a simple checklist of common campus drive bottlenecks and candidate evaluation frameworks.\n\nWould it be helpful if I shared it here?",
+      "trigger_used": "Acquired Amara.ai to bring real-time AI listening into HR and integrate conversational feedback into its Empuls platform (reported 3 months ago).",
+      "char_count": 274,
+      "grounded": true,
       "invented_number": null,
       "overclaim": null
     }
   ],
-  "warnings": [
-    "NO TRIGGER FOUND - these messages are generic. Nothing in them is specific to this company, and they will convert far worse than trigger-backed messages."
-  ]
+  "warnings": []
 }

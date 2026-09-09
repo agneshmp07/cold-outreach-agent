@@ -1,0 +1,33 @@
+{
+  "company_name": "Blinkit",
+  "generated_at": "2026-09-09T10:22:13.284262+00:00",
+  "model": "gemini-3.6-flash",
+  "triggers": [
+    {
+      "fact": "Parent company Eternal injected Rs 450 crore into Blinkit via a rights issue in April 2026 to fund its quick commerce expansion.",
+      "source_page": "https://www.moneycontrol.com/news/business/eternal-injects-rs-450-crore-into-blinkit-via-rights-issue-as-quick-commerce-battle-intensifies-13858303.html",
+      "relevance_score": 8,
+      "source_verified": true
+    },
+    {
+      "fact": "Blinkit secured a ₹600 crore capital infusion in December 2025 specifically to support aggressive dark store network expansion.",
+      "source_page": "https://b2b.economictimes.indiatimes.com/news/entrepreneur/blinkit-gets-600-crore-cash-boost-from-parent-eternal/125610564",
+      "relevance_score": 7,
+      "source_verified": true
+    },
+    {
+      "fact": "Blinkit is actively pushing into Tier-2 cities as part of its geographic expansion strategy as of August 2026.",
+      "source_page": "https://www.equitypandit.com/lower-average-order-value-threatens-blinkits-tier-2-expansion/",
+      "relevance_score": 6,
+      "source_verified": true
+    },
+    {
+      "fact": "Blinkit's careers page states that they only accept job applications through employee referrals.",
+      "source_page": "https://blinkit.in/careers",
+      "relevance_score": 5,
+      "source_verified": true
+    }
+  ],
+  "pain_hypothesis": "As Blinkit aggressively expands dark store operations into Tier-2 cities, relying strictly on employee referrals creates a major bottleneck for sourcing and coordinating high-volume entry-level talent across regional campuses.",
+  "no_trigger_found": false
+}

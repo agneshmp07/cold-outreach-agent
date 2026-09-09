@@ -2,26 +2,26 @@
   "company_name": "Blinkit",
   "triggers": [
     {
-      "fact": "Maharashtra Labour Department moved to regulate hiring practices for Blinkit, Zomato, and Swiggy, introducing potential unified registration systems and stricter audits.",
-      "source_page": "https://www.deccanchronicle.com/nation/maharashtra-labour-dept-moves-to-regulate-zomato-swiggy-blinkit-hiring-1949403",
-      "relevance_score": 8
-    },
-    {
-      "fact": "Parent company Eternal injected Rs 450 crore into Blinkit via a rights issue to support expansion amid quick commerce competition.",
-      "source_page": "https://www.moneycontrol.com/news/business/eternal-injects-rs-450-crore-into-blinkit-via-rights-issue-as-quick-commerce-battle-intensifies-13858303.html",
-      "relevance_score": 7
-    },
-    {
-      "fact": "Blinkit is increasing dark-store capital expenditure as quick commerce shifts toward larger hubs.",
-      "source_page": "https://www.business-standard.com/industry/news/blinkit-instamart-dark-store-capex-quick-commerce-ubs-report-126090400571_1.html",
-      "relevance_score": 6
-    },
-    {
-      "fact": "Blinkit's official careers page states that the company only accepts job applications through employee referrals.",
-      "source_page": "https://blinkit.com/careers",
+      "fact": "Blinkit received a ₹600 crore cash boost from parent Eternal to support aggressive dark store expansion and growth initiatives.",
+      "source_page": "https://b2b.economictimes.indiatimes.com/news/entrepreneur/blinkit-gets-600-crore-cash-boost-from-parent-eternal/125610564",
       "relevance_score": 5
+    },
+    {
+      "fact": "Blinkit is expanding its quick commerce operations into Tier-2 cities.",
+      "source_page": "https://www.equitypandit.com/lower-average-order-value-threatens-blinkits-tier-2-expansion/",
+      "relevance_score": 5
+    },
+    {
+      "fact": "Eternal injected an additional Rs 450 crore into Blinkit via a rights issue to fund ongoing expansion.",
+      "source_page": "https://www.moneycontrol.com/news/business/eternal-injects-rs-450-crore-into-blinkit-via-rights-issue-as-quick-commerce-battle-intensifies-13858303.html",
+      "relevance_score": 5
+    },
+    {
+      "fact": "Blinkit's official careers page states that they only accept job applications through employee referrals.",
+      "source_page": "https://blinkit.com/careers",
+      "relevance_score": 4
     }
   ],
-  "pain_hypothesis": "Blinkit risks recruitment bottlenecks and compliance friction as it scales dark-store operations while exclusively relying on employee referrals and facing new labor department regulatory scrutiny on hiring.",
+  "pain_hypothesis": "As Blinkit aggressively expands dark stores and pushes into Tier-2 markets, relying strictly on employee referrals creates a bottleneck in sourcing entry-level operations and management talent across multiple college campuses efficiently.",
   "no_trigger_found": false
 }

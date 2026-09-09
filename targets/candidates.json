@@ -1,0 +1,166 @@
+{
+  "min_score": 5,
+  "resolved": true,
+  "signal": "campus-hiring post collecting resumes via Google Form or personal email",
+  "results_seen": 68,
+  "rejected_count": 34,
+  "rejection_reasons": {
+    "sells campus-hiring or recruitment software": 2,
+    "no company name found in the result": 31,
+    "on the exclude list": 1
+  },
+  "candidates": [
+    {
+      "company": "Instagram",
+      "domain": "instagram.com",
+      "score": 7,
+      "name_from": "own-site",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language",
+        "drive or bulk hiring language"
+      ],
+      "title": "FRESHER OPPORTUNITY | ₹5.2 LPA CTC: ₹5.2 LPA ... - Instagram",
+      "snippet": "... docs.google.com/forms/d/e/1FAIpQLScpP4gumlhiPX55P0ATckrAt_sAE ... campus hiring, off campus drive, be btech jobs, bca jobs, mca jobs ...",
+      "link": "https://www.instagram.com/reel/DcRIN6PIH22/",
+      "date": "Aug 20, 2026",
+      "query": "\"campus hiring\" India \"docs.google.com/forms\" resume freshers",
+      "hits": 12
+    },
+    {
+      "company": "Google",
+      "domain": "google.com",
+      "score": 7,
+      "name_from": "own-site",
+      "evidence": [
+        "resumes to a personal address (gmail.com)",
+        "campus or fresher hiring language",
+        "drive or bulk hiring language"
+      ],
+      "title": "AV Career Development Centre - Jobs - Google Drive: Sign-in",
+      "snippet": "Interested can send their resume at Vaishnav.utkarsh3150@gmail.com Or 9705473588(WhatsApp) ... Off – Campus Recruitment DriveEngineering/MCA Batch | Off – Campus ...",
+      "link": "https://sites.google.com/view/avc-career-development-centre/placement/jobs",
+      "date": "",
+      "query": "\"campus recruitment\" India send resume \"@gmail.com\" engineering freshers",
+      "hits": 5
+    },
+    {
+      "company": "Scribd",
+      "domain": "scribd.com",
+      "score": 7,
+      "name_from": "own-site",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language",
+        "drive or bulk hiring language"
+      ],
+      "title": "Google Recruitment for B.Tech CS/IT 2025 | PDF | Computing",
+      "snippet": "who alrady filled the google form for this they also have to register at below given link. ... SPCET Campus Placement Drive 2025-26. 2 pages. Vodafone Idea ...",
+      "link": "https://www.scribd.com/document/797946441/Google-Incoporation-Placement-Notice-2025-batch",
+      "date": "",
+      "query": "\"placement drive\" 2026 batch engineering \"google form\" company hiring",
+      "hits": 2
+    },
+    {
+      "company": "Punjabiuniversity",
+      "domain": "punjabiuniversity.ac.in",
+      "score": 7,
+      "name_from": "own-site",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language",
+        "drive or bulk hiring language"
+      ],
+      "title": "The mission of the Placement Cell is to enhance ...",
+      "snippet": "ON CAMPUS PLACEMENT DRIVE FOR BATCH 2021 AND BATCH 2022 BY UNSCHOOL ... Click here to view the Company's Details and Job profile. Registration Google Form ...",
+      "link": "https://punjabiuniversity.ac.in/placement/e_Notice_Board.htm",
+      "date": "",
+      "query": "\"placement drive\" 2026 batch engineering \"google form\" company hiring",
+      "hits": 1
+    },
+    {
+      "company": "Walk-In Drive –",
+      "domain": "joinsaarthi.com",
+      "score": 7,
+      "name_from": "title",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language",
+        "drive or bulk hiring language"
+      ],
+      "title": "Walk-In Drive – Hiring Freshers in Bangalore!  Start Your IT ...",
+      "snippet": "... google form : https://forms. gle/JKSY1NaH6YyXhhwu8 We encourage you ... Placement Drive For Freshers | BTech/MCA/MBA/BCA/BBA | 2016 ...",
+      "link": "https://www.facebook.com/AscentSoftwareTrainingInstitute/posts/walk-in-drive-hiring-freshers-in-bangalore-start-your-it-career-with-clhr-servic/1459966939484948/",
+      "date": "4 weeks ago",
+      "query": "\"placement drive\" 2026 batch engineering \"google form\" company hiring",
+      "hits": 1,
+      "domain_source": "https://joinsaarthi.com/drives/walk-in"
+    },
+    {
+      "company": "Threads",
+      "domain": "threads.com",
+      "score": 6,
+      "name_from": "own-site",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language"
+      ],
+      "title": "Infosys Off Campus Hiring Multiple Role   Freshly Posted Again ...",
+      "snippet": "Off Campus Jobs (@off_campus.jobs). 1 Reply. 28K Views. Infosys Off Campus Hiring ... India ... forms.gle/au5Xr… OCR Infosys BPM INFOSYS ...",
+      "link": "https://www.threads.com/@off_campus.jobs/post/DZvEb-YgCiD/infosys-off-campus-hiring-multiple-role-freshly-posted-again-today-role-process/",
+      "date": "",
+      "query": "\"campus recruiter\" OR \"campus hiring\" jobs India \"forms.gle\"",
+      "hits": 2
+    },
+    {
+      "company": "Anveshanaindia",
+      "domain": "anveshanaindia.com",
+      "score": 6,
+      "name_from": "own-site",
+      "evidence": [
+        "resumes to a personal address (gmail.com)",
+        "campus or fresher hiring language"
+      ],
+      "title": "[PDF] ANALYSIS OF CAMPUS RECRUITMENT PARAMETERS IN AN ...",
+      "snippet": "hemanth.s.venu@gmail.com. ABSTRACT. Campus recruitment is the process by which the corporate recruit students who are about to graduate from the educational ...",
+      "link": "http://publications.anveshanaindia.com/wp-content/uploads/2021/07/ANALYSIS-OF-CAMPUS-RECRUITMENT-PARAMETERS-IN-AN-INDIAN-COMPANIES.pdf",
+      "date": "",
+      "query": "\"campus recruitment\" India send resume \"@gmail.com\" engineering freshers",
+      "hits": 1
+    },
+    {
+      "company": "Campus",
+      "domain": "campusshoes.com",
+      "score": 6,
+      "name_from": "title",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language"
+      ],
+      "title": "Campus Hiring Opportunity! Hexaware SEGUE 2027 is coming to ...",
+      "snippet": "Campus Hiring Opportunity! Hexaware SEGUE 2027 is coming to ... forms.gle/yUMpXyWR1KZiLxvYA We have attached the Placement Brochure ...",
+      "link": "https://www.facebook.com/saecautonomous/posts/-campus-hiring-opportunityhexaware-segue-2027-is-coming-to-sa-engineering-colleg/1393555036250637/",
+      "date": "Aug 7, 2026",
+      "query": "\"campus recruiter\" OR \"campus hiring\" jobs India \"forms.gle\"",
+      "hits": 1,
+      "domain_source": "https://www.campusshoes.com/"
+    },
+    {
+      "company": "Riya Chandra's Post - Urban Company- Campus",
+      "domain": "instagram.com",
+      "score": 6,
+      "name_from": "title",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language"
+      ],
+      "title": "Riya Chandra's Post - Urban Company- Campus Hiring - LinkedIn",
+      "snippet": "Urban Company- Campus Hiring docs.google.com ... job interest form https://forms.gle/Ywn9xmMxMbbeuPGn8. Like · Reply · 9 ...",
+      "link": "https://www.linkedin.com/posts/riya-chandra-87a679193_urban-company-campus-hiring-activity-7331689830457786368--JV1",
+      "date": "May 23, 2025",
+      "query": "\"campus recruiter\" OR \"campus hiring\" jobs India \"forms.gle\"",
+      "hits": 1,
+      "domain_source": "https://www.instagram.com/reel/DZmT0hsJ-6-/"
+    }
+  ]
+}
