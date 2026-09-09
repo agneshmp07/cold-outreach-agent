@@ -1,14 +1,15 @@
 """
-linkedin.py - optional stage. Finds who to contact at a company.
+linkedin.py - who to send the message to.
 
-Uses HarvestAPI's Apify actor, which scrapes without a session cookie, so no
-LinkedIn account of yours is involved.
+Uses HarvestAPI's LinkedIn Profile Search actor, which scrapes without a
+session cookie - no LinkedIn account of yours is involved.
 
-Cost: roughly $3 per 1,000 basic profiles.
+An earlier version used their company-employees actor. It had no title filter,
+so it sampled employees blind: 25 profiles from Razorpay's 3,355 returned zero
+recruiters. This one searches by title within a company, which is the
+difference between a lottery and a lookup.
 
-The actor returns enormous records - recommendations, education, endorsements,
-personal websites. We keep four fields. The rest is personal data we have no
-business storing to route a business message.
+Cost: $0.10 per search page (up to 25 profiles).
 
 Usage:
     python linkedin.py razorpay.com
@@ -29,21 +30,12 @@ except ImportError:
     pass
 
 BASE_DIR = Path(__file__).resolve().parent
+TRIGGERS_DIR = BASE_DIR / "triggers"
 OUT_DIR = BASE_DIR / "linkedin"
 
-ACTOR_ID = "harvestapi~linkedin-company-employees"
-MAX_PROFILES = 25
-
-# Roles that would own campus hiring. Matched against the person's current
-# position at THIS company, not their headline - headlines are self-written
-# marketing and match everything.
-WANTED = [
-    "talent", "recruit", "hiring", "campus", "university",
-    "human resources", "hr ", "people ", "people operations",
-]
-
-# Anything with these in the position is not an employee for our purposes.
-EXCLUDE = ["partner", "consultant", "advisor", "freelance", "investor"]
+ACTOR_ID = "harvestapi~linkedin-profile-search"
+SEARCH_QUERY = "talent acquisition recruiter hiring"
+MAX_PROFILES = 10
 
 
 def die(message):
@@ -59,14 +51,33 @@ def clean_domain(arg):
     return d.split("/")[0].strip()
 
 
-def run_actor(token, company_url):
+def company_name(domain):
+    """
+    The name to filter on.
+
+    triggers.py already asked Gemini for the company's real name, so reuse it -
+    "Razorpay" matches better than "razorpay.com".
+    """
+    trig = TRIGGERS_DIR / f"{domain}.json"
+    if trig.exists():
+        try:
+            name = json.loads(trig.read_text(encoding="utf-8")).get("company_name")
+            if name:
+                return name
+        except Exception:
+            pass
+    return domain.split(".")[0].capitalize()
+
+
+def run_actor(token, company):
     """Run synchronously and get the dataset back in one call."""
     url = (f"https://api.apify.com/v2/acts/{ACTOR_ID}"
            f"/run-sync-get-dataset-items?token={token}")
     payload = {
-        "companies": [company_url],
+        "profileScraperMode": "Short",
+        "searchQuery": SEARCH_QUERY,
         "maxItems": MAX_PROFILES,
-        "profileScraperMode": "Short ($4 per 1k)",
+        "currentCompanies": [company],
     }
     try:
         r = requests.post(url, json=payload, timeout=300)
@@ -75,6 +86,8 @@ def run_actor(token, company_url):
 
     if r.status_code == 401:
         die("Apify rejected the token. Check APIFY_TOKEN in your .env file.")
+    if r.status_code == 400:
+        die(f"Apify rejected the input: {r.text[:400]}")
     if r.status_code == 403:
         die(f"Apify refused the run - the actor may need renting: {r.text[:300]}")
     if r.status_code not in (200, 201):
@@ -83,49 +96,42 @@ def run_actor(token, company_url):
     return r.json()
 
 
-def current_role_at(person, company_slug):
+def tidy(items, company):
     """
-    Their job title AT THIS COMPANY.
+    Name, title, tenure, URL. Nothing else.
 
-    A person's headline is self-written and often lists five companies. The
-    currentPosition array says what they actually do where.
-    """
-    for pos in person.get("currentPosition") or []:
-        universal = (pos.get("companyUniversalName") or "").lower()
-        if universal == company_slug:
-            return (pos.get("position") or "").strip()
-    return ""
-
-
-def relevant(role):
-    r = f" {role.lower()} "
-    if any(x in r for x in EXCLUDE):
-        return False
-    return any(w in r for w in WANTED)
-
-
-def tidy(items, company_slug):
-    """
-    Four fields. Nothing else.
-
-    The actor hands back education, endorsements, recommendations and personal
-    sites. None of that helps route a business message, and storing it would
-    make this a dossier rather than a contact list.
+    The actor also returns each person's self-written summary - often several
+    hundred words about their career. None of it helps route a business
+    message, and storing it would make this a dossier rather than a contact
+    list.
     """
     people = []
     for p in items:
-        role = current_role_at(p, company_slug)
-        if not role or not relevant(role):
-            continue
-        name = " ".join(filter(None, [p.get("firstName"), p.get("lastName")])).strip()
+        name = " ".join(filter(None, [p.get("firstName"),
+                                      p.get("lastName")])).strip()
         if not name:
             continue
+
+        role, years = "", None
+        for pos in p.get("currentPositions") or []:
+            if (pos.get("companyName") or "").lower() == company.lower():
+                role = (pos.get("title") or "").strip()
+                tenure = pos.get("tenureAtCompany") or {}
+                years = tenure.get("numYears")
+                break
+        if not role:
+            continue
+
         people.append({
             "name": name,
             "role": role,
+            "years_at_company": years,
             "linkedin_url": (p.get("linkedinUrl") or "").strip(),
-            "location": ((p.get("location") or {}).get("parsed") or {}).get("text", ""),
+            "location": ((p.get("location") or {}).get("linkedinText") or "").strip(),
         })
+
+    # Longest tenure first: they know the org and are usually more senior.
+    people.sort(key=lambda x: x["years_at_company"] or 0, reverse=True)
     return people
 
 
@@ -141,42 +147,46 @@ def main():
             "https://console.apify.com/account/integrations")
 
     domain = clean_domain(args[0])
-    slug = domain.split(".")[0]
-    company_url = f"https://www.linkedin.com/company/{slug}"
+    company = company_name(domain)
     out_path = OUT_DIR / f"{domain}.json"
 
     if out_path.exists() and not force:
         existing = json.loads(out_path.read_text(encoding="utf-8"))
-        print(f"Already have LinkedIn data for {domain} (nothing spent).")
+        print(f"Already have contacts for {domain} (nothing spent).")
         for p in existing.get("people", []):
             print(f"  {p['name']} - {p['role']}")
-        print("\nRe-run with --force to query again.")
+        print("\nRe-run with --force to search again.")
         sys.exit(0)
 
-    print(f"\nScraping {company_url}")
-    print(f"Up to {MAX_PROFILES} profiles, filtering for hiring roles...")
+    print(f"\nSearching LinkedIn: \"{SEARCH_QUERY}\" at {company}")
 
-    items = run_actor(token, company_url)
-    people = tidy(items, slug)
+    items = run_actor(token, company)
+    total = 0
+    if items:
+        total = ((items[0].get("_meta") or {}).get("pagination") or {}).get(
+            "totalElements", 0)
+    people = tidy(items, company)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(
-        json.dumps({"domain": domain, "source": "linkedin",
-                    "scanned": len(items), "people": people},
-                   indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        json.dumps({"domain": domain, "company": company,
+                    "query": SEARCH_QUERY, "total_matching": total,
+                    "people": people}, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8")
 
-    print(f"\nScanned {len(items)} profile(s), kept {len(people)}.")
     if not people:
-        print("  No one in a hiring role surfaced. LinkedIn returns whoever "
-              "listed this company, in no useful order - a bigger MAX_PROFILES "
-              "or a different search would be needed.")
+        print(f"\n  No one matching \"{SEARCH_QUERY}\" at {company}. Either the "
+              f"company name is wrong or they have no in-house recruiters - "
+              f"which is itself a signal.")
     else:
+        print(f"\n  {len(people)} of {total} matching profiles:\n")
         for p in people:
-            print(f"\n  {p['name']}")
-            print(f"    {p['role']}")
-            print(f"    {p['linkedin_url']}")
+            yrs = f" · {p['years_at_company']}y" if p["years_at_company"] else ""
+            print(f"  {p['name']} - {p['role']}{yrs}")
+            print(f"    {p['location']}")
+            print(f"    {p['linkedin_url']}\n")
 
-    print(f"\nSaved to {out_path}")
+    print(f"Saved to {out_path}")
 
 
 if __name__ == "__main__":

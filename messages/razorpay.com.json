@@ -3,36 +3,36 @@
   "fallback_mode": false,
   "generated_from": {
     "trigger_count": 4,
-    "top_score": 7,
-    "pain_hypothesis": "Following senior operations leadership departure alongside new marketing executive onboarding and aggressive AI/global expansion goals, Razorpay likely faces urgent hiring demand for specialized talent across operations, marketing, and AI engineering."
+    "top_score": 5,
+    "pain_hypothesis": "As Razorpay expands its AI-led product suite and international offerings, scaling campus hiring to find specialized tech talent across multiple engineering colleges creates operational friction in coordinating drives and evaluating candidates."
   },
   "emails": [
     {
       "angle": "trigger-direct",
-      "subject": "hiring AI builders at razorpay",
-      "body": "Razorpay's careers page is actively looking for AI builders to build autonomous agents. \n\nWe are early at MNGO, building campus placement infrastructure in India. We are onboarding our first colleges right now and designing the recruiter experience around actual hiring needs rather than assumptions.\n\nWhat currently breaks for your team when running campus hiring for specialized engineering roles?\n\nBest,\nAgnesh",
-      "trigger_used": "[5/10] Careers page actively calls for hiring AI builders to build autonomous agents and scale fintech systems.",
-      "word_count": 60,
+      "subject": "campus hiring for AI builders at Razorpay",
+      "body": "Noticing your team is actively recruiting AI Builders across engineering and product.\n\nI am Agnesh, building MNGO. We are onboarding our first colleges now to build campus placement infrastructure tailored for tech hiring in India, designing the platform around what recruiters actually need.\n\nAs you look for specialized engineering talent across campuses, what usually breaks first in your campus recruitment workflow?\n\nAgnesh",
+      "trigger_used": "Razorpay's careers page actively advertises hiring for AI Builders across engineering and product teams.",
+      "word_count": 62,
       "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
       "angle": "problem-check",
-      "subject": "campus hiring for marketing roles",
-      "body": "With Apuarv Sethi taking over as CMO, scaling marketing teams will likely require fresh pipeline. \n\nIn campus hiring, teams usually deal with unstructured PDF resumes, endless email chains with placement officers, and no clear way to compare candidate quality across different colleges. \n\nDoes that match your experience at Razorpay, or is your friction somewhere else entirely?\n\nBest,\nAgnesh",
-      "trigger_used": "[7/10] Appointed Apuarv Sethi as Chief Marketing Officer, effective May 15, 2026.",
-      "word_count": 58,
+      "subject": "coordinating campus drives across colleges",
+      "body": "With Razorpay focusing on AI-led products and global expansion, campus hiring becomes critical for scaling engineering teams.\n\nIn campus drives, hiring teams often deal with unformatted resume PDFs, endless email chains with placement cells, and no unified way to compare candidates across different institutes.\n\nWe are building MNGO and currently onboarding our first colleges. Does this match your experience when running campus drives, or is friction somewhere else for you?\n\nAgnesh",
+      "trigger_used": "Razorpay is focusing on artificial intelligence-led products, international expansion, and new software offerings for its next phase of growth.",
+      "word_count": 71,
       "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
       "angle": "early-access",
-      "subject": "recruiter pilot for razorpay's next growth phase",
-      "body": "As Razorpay focuses on AI-led products and international expansion, entry-level hiring needs will likely shift toward specialized skill sets.\n\nAt MNGO, we are building campus placement infrastructure and onboarding our first colleges now. Before opening our platform widely, we are inviting select hiring leads to our early recruiter pilot. The goal is to get your input on how you evaluate campus talent so we build what you actually need.\n\nWould you be open to a 10-minute call this week to share how you currently evaluate campus hires?\n\nBest,\nAgnesh",
-      "trigger_used": "[6/10] Announced a strategic focus on AI-led products, international expansion, and new software offerings to power its next growth phase.",
-      "word_count": 89,
+      "subject": "recruiter pilot for campus tech hiring",
+      "body": "Following Razorpay's launch of RAY on WhatsApp, scaling your engineering capabilities requires streamline campus hiring.\n\nWe are building MNGO—campus placement infrastructure for India—and are onboarding our first colleges now. We are opening a recruiter pilot to gather direct input on candidate evaluation workflows so we build what hiring leads actually need.\n\nWould you be open to a short call to share what breaks in your campus drives before we launch the pilot?\n\nAgnesh",
+      "trigger_used": "Razorpay launched RAY, an AI-powered account manager on WhatsApp for businesses in partnership with IndusInd Bank.",
+      "word_count": 73,
       "grounded": true,
       "invented_number": null,
       "overclaim": null
@@ -41,27 +41,27 @@
   "linkedin_messages": [
     {
       "angle": "connection-note",
-      "text": "Hi, following your recent leadership change in operations, I imagine team structures are top of mind. I am building MNGO (campus placement infrastructure) and onboarding our first colleges now. Would love to connect.",
-      "trigger_used": "[6/10] A Senior Vice President of Business Operations departed the company in September 2026.",
-      "char_count": 216,
+      "text": "Hi! Noticed Razorpay is hiring AI Builders across engineering and product. I am building MNGO and onboarding our first colleges to fix campus placement infrastructure. Would love to connect.",
+      "trigger_used": "Razorpay's careers page actively advertises hiring for AI Builders across engineering and product teams.",
+      "char_count": 190,
       "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
       "angle": "post-accept-dm",
-      "text": "Thanks for connecting! I saw Razorpay is actively hiring AI builders for autonomous agents. As we build MNGO's recruiter platform while onboarding our first colleges, how do you currently evaluate and filter for niche AI skills directly from campuses?",
-      "trigger_used": "[5/10] Careers page actively calls for hiring AI builders to build autonomous agents and scale fintech systems.",
-      "char_count": 251,
+      "text": "Thanks for connecting! As Razorpay focuses on AI-led products and global expansion, how are you currently managing campus hiring across engineering colleges—is it mostly managed via manual spreadsheets and placement cell emails?",
+      "trigger_used": "Razorpay is focusing on artificial intelligence-led products, international expansion, and new software offerings for its next phase of growth.",
+      "char_count": 228,
       "grounded": true,
       "invented_number": null,
       "overclaim": null
     },
     {
       "angle": "value-first",
-      "text": "As Razorpay expands into AI-led products, evaluating entry-level technical talent requires a different playbook. We put together a short checklist comparing standard campus coding evaluations against AI builder skill assessments. Would it be helpful if I sent it over?",
-      "trigger_used": "[6/10] Announced a strategic focus on AI-led products, international expansion, and new software offerings to power its next growth phase.",
-      "char_count": 268,
+      "text": "Hi! Saw Razorpay launched Multi-Currency Accounts for exporters. As you scale engineering teams, campus hiring often creates resume clutter. I created a checklist on structuring candidate evaluation workflows across multiple campus drives. Happy to send it over if helpful!",
+      "trigger_used": "Razorpay launched a Multi-Currency Account to enable exporters to receive settlements in foreign currencies.",
+      "char_count": 273,
       "grounded": true,
       "invented_number": null,
       "overclaim": null

@@ -2,26 +2,26 @@
   "company_name": "Razorpay",
   "triggers": [
     {
-      "fact": "Appointed Apuarv Sethi as Chief Marketing Officer, effective May 15, 2026.",
-      "source_page": "https://bfsi.economictimes.indiatimes.com/articles/razorpay-appoints-apuarv-sethi-as-new-chief-marketing-officer/131112601",
-      "relevance_score": 7
-    },
-    {
-      "fact": "A Senior Vice President of Business Operations departed the company in September 2026.",
-      "source_page": "https://entrackr.com/snippets/pine-labs-appoints-razorpay-svp-jayaram-karthik-as-chief-operations-officer-12483570",
-      "relevance_score": 6
-    },
-    {
-      "fact": "Announced a strategic focus on AI-led products, international expansion, and new software offerings to power its next growth phase.",
+      "fact": "Razorpay is focusing on artificial intelligence-led products, international expansion, and new software offerings for its next phase of growth.",
       "source_page": "https://www.thehindubusinessline.com/companies/razorpay-bets-on-ai-agents-global-expansion-to-power-next-phase-of-growth/article70735437.ece",
-      "relevance_score": 6
+      "relevance_score": 5
     },
     {
-      "fact": "Careers page actively calls for hiring AI builders to build autonomous agents and scale fintech systems.",
+      "fact": "Razorpay's careers page actively advertises hiring for AI Builders across engineering and product teams.",
       "source_page": "https://razorpay.com/careers",
-      "relevance_score": 5
+      "relevance_score": 4
+    },
+    {
+      "fact": "Razorpay launched RAY, an AI-powered account manager on WhatsApp for businesses in partnership with IndusInd Bank.",
+      "source_page": "https://analyticsindiamag.com/ai-news/razorpay-indusind-bank-launch-ai-account-manager-ray-on-whatsapp-for-businesses",
+      "relevance_score": 3
+    },
+    {
+      "fact": "Razorpay launched a Multi-Currency Account to enable exporters to receive settlements in foreign currencies.",
+      "source_page": "https://m.thewire.in/article/ptiprnews/razorpay-launches-multi-currency-account-helping-exporters-retain-international-earnings-in-foreign-currencies/amp",
+      "relevance_score": 3
     }
   ],
-  "pain_hypothesis": "Following senior operations leadership departure alongside new marketing executive onboarding and aggressive AI/global expansion goals, Razorpay likely faces urgent hiring demand for specialized talent across operations, marketing, and AI engineering.",
+  "pain_hypothesis": "As Razorpay expands its AI-led product suite and international offerings, scaling campus hiring to find specialized tech talent across multiple engineering colleges creates operational friction in coordinating drives and evaluating candidates.",
   "no_trigger_found": false
 }
