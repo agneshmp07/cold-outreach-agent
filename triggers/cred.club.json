@@ -1,0 +1,12 @@
+{
+  "company_name": "CRED",
+  "triggers": [
+    {
+      "fact": "Careers page lists open roles including Lead (Payments - CREDpay), Business Development & Strategic Partnerships (CREDpay and Consumer Products), Long Form Content Writer/Editor, and Copywriter.",
+      "source_page": "careers subdomain",
+      "relevance_score": 7
+    }
+  ],
+  "pain_hypothesis": "With active hiring across business development, content, and strategy functions, CRED may face bandwidth constraints in manually screening and interviewing candidates for these specialized positions.",
+  "no_trigger_found": false
+}

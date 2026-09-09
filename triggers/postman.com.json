@@ -1,0 +1,17 @@
+{
+  "company_name": "Postman",
+  "triggers": [
+    {
+      "fact": "Closed a $225 million Series D investment round led by Insight Partners, joined by Coatue, Battery Ventures, BOND, CRV, and Nexus Venture Partners",
+      "source_page": "/about",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Operates global offices in San Francisco, Bangalore, and Tokyo, alongside distributed team members across multiple continents",
+      "source_page": "/about",
+      "relevance_score": 5
+    }
+  ],
+  "pain_hypothesis": "With a $225 million Series D round and international offices in San Francisco, Bangalore, and Tokyo, Postman likely faces complexity in coordinating and automating hiring workflows across multiple geographic regions.",
+  "no_trigger_found": false
+}

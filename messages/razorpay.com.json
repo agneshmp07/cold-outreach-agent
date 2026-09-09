@@ -1,0 +1,65 @@
+{
+  "company_name": "Razorpay",
+  "fallback_mode": false,
+  "generated_from": {
+    "trigger_count": 4,
+    "top_score": 7,
+    "pain_hypothesis": "Following senior operations leadership departure alongside new marketing executive onboarding and aggressive AI/global expansion goals, Razorpay likely faces urgent hiring demand for specialized talent across operations, marketing, and AI engineering."
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "scaling ai engineering hiring at razorpay",
+      "body": "With your careers page actively recruiting AI builders to build autonomous agents and fintech systems, your engineering pipeline is likely seeing a surge of inbound applications. Managing manual screening and interview setups for specialized tech roles quickly slows down hiring velocity. We build software that screens incoming applicants and schedules interviews automatically without needing a dedicated recruiter. How are you currently filtering through the influx of candidate applications for these AI roles?\n\n[Your Name]",
+      "trigger_used": "[5/10] Careers page actively calls for hiring AI builders to build autonomous agents and scale fintech systems.",
+      "word_count": 74,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "problem-cost",
+      "subject": "handling ops candidate volume post-leadership shift",
+      "body": "Following the recent SVP of Business Operations departure, is your talent team spending excessive time manually screening applicant resumes and coordinating interview slots? Filling key operational roles often creates a heavy administrative burden that drags on hiring managers. [Your Product] automates resume screening and handles candidate interview scheduling automatically to keep applicant pipelines moving. Would you be open to a 10-minute call next week to see how it works?\n\n[Your Name]",
+      "trigger_used": "[6/10] A Senior Vice President of Business Operations departed the company in September 2026.",
+      "word_count": 71,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "peer-pattern",
+      "subject": "hiring bottlenecks during ai and global expansion",
+      "body": "When fintech scaleups push heavily into AI-led products and international expansion like Razorpay is doing, talent pipelines usually bottleneck on initial screening and scheduling across multiple focus areas. The main challenge is rarely candidate volume, but the manual coordination required to move applicants through the pipeline quickly. We provide software that screens inbound candidates and automates interview booking without recruiter intervention. Are you noticing interview scheduling delays as you scale these teams?\n\n[Your Name]",
+      "trigger_used": "[6/10] Announced a strategic focus on AI-led products, international expansion, and new software offerings to power its next growth phase.",
+      "word_count": 74,
+      "grounded": true,
+      "invented_number": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw Razorpay appointed Apuarv Sethi as CMO. As marketing scales alongside your expansion, I would love to connect with team leaders managing growth and hiring here on LinkedIn.",
+      "trigger_used": "[7/10] Appointed Apuarv Sethi as Chief Marketing Officer, effective May 15, 2026.",
+      "char_count": 176,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. With Razorpay actively hiring AI builders for autonomous agents, how is the team managing the screening load and interview scheduling without burning coordinator hours?",
+      "trigger_used": "[5/10] Careers page actively calls for hiring AI builders to build autonomous agents and scale fintech systems.",
+      "char_count": 191,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "value-first",
+      "text": "As Razorpay expands into new software offerings and global markets, interview scheduling can easily slow down hiring velocity. I put together a checklist on setting up automated candidate screening workflows for tech scaleups. Happy to send it over here if you'd like to take a look.",
+      "trigger_used": "[6/10] Announced a strategic focus on AI-led products, international expansion, and new software offerings to power its next growth phase.",
+      "char_count": 283,
+      "grounded": true,
+      "invented_number": null
+    }
+  ],
+  "warnings": []
+}

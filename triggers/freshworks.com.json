@@ -1,0 +1,22 @@
+{
+  "company_name": "Freshworks",
+  "triggers": [
+    {
+      "fact": "Careers page lists 12 open positions in Bengaluru, India, including Senior Director - Product Design, Principal Value Engineer, and Lead Solution Engineers.",
+      "source_page": "careers subdomain",
+      "relevance_score": 8
+    },
+    {
+      "fact": "Careers page lists 12 open positions in Boston, MA, including Product Marketing Manager (AI), Sr. Solution Architect, and Digital Marketing Lead.",
+      "source_page": "careers subdomain",
+      "relevance_score": 8
+    },
+    {
+      "fact": "Careers page lists 6 open positions in Berlin, Germany, focusing on regional sales and channel management roles such as Channel Partner Manager - DACH.",
+      "source_page": "careers subdomain",
+      "relevance_score": 7
+    }
+  ],
+  "pain_hypothesis": "With simultaneous open hiring requisitions across multiple international offices like Bengaluru, Boston, and Berlin, Freshworks likely faces high candidate application volumes and coordination bottlenecks across regional recruiting teams.",
+  "no_trigger_found": false
+}

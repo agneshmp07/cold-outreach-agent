@@ -1,0 +1,27 @@
+{
+  "company_name": "Razorpay",
+  "triggers": [
+    {
+      "fact": "Appointed Apuarv Sethi as Chief Marketing Officer, effective May 15, 2026.",
+      "source_page": "https://bfsi.economictimes.indiatimes.com/articles/razorpay-appoints-apuarv-sethi-as-new-chief-marketing-officer/131112601",
+      "relevance_score": 7
+    },
+    {
+      "fact": "A Senior Vice President of Business Operations departed the company in September 2026.",
+      "source_page": "https://entrackr.com/snippets/pine-labs-appoints-razorpay-svp-jayaram-karthik-as-chief-operations-officer-12483570",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Announced a strategic focus on AI-led products, international expansion, and new software offerings to power its next growth phase.",
+      "source_page": "https://www.thehindubusinessline.com/companies/razorpay-bets-on-ai-agents-global-expansion-to-power-next-phase-of-growth/article70735437.ece",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Careers page actively calls for hiring AI builders to build autonomous agents and scale fintech systems.",
+      "source_page": "https://razorpay.com/careers",
+      "relevance_score": 5
+    }
+  ],
+  "pain_hypothesis": "Following senior operations leadership departure alongside new marketing executive onboarding and aggressive AI/global expansion goals, Razorpay likely faces urgent hiring demand for specialized talent across operations, marketing, and AI engineering.",
+  "no_trigger_found": false
+}

@@ -1,0 +1,67 @@
+{
+  "company_name": "Amazon",
+  "fallback_mode": true,
+  "generated_from": {
+    "trigger_count": 0,
+    "top_score": 0,
+    "pain_hypothesis": "There is no evidence in the provided text to support a recruitment pain hypothesis."
+  },
+  "emails": [
+    {
+      "angle": "category-fit",
+      "subject": "Inbound applicant screening at scale",
+      "body": "Large enterprise technology organizations receive high volumes of inbound applications. Companies operating in this space often face operational bottlenecks while manually screening resumes and coordinating interview schedules. [Your Product] automates inbound screening and schedules candidate interviews directly. How does your talent team currently manage inbound candidate scheduling?\n\nRegards,\n[Your Name]",
+      "trigger_used": "",
+      "word_count": 50,
+      "grounded": false,
+      "invented_number": null
+    },
+    {
+      "angle": "open-question",
+      "subject": "Inbound candidate pipeline coordination",
+      "body": "How do your talent teams currently manage the manual workload of screening inbound applicants and scheduling interviews across teams?\n\nManaging this coordination manually often slows down recruitment pipelines. [Your Product] automates applicant screening and interview scheduling to keep recruitment pipelines moving without dedicated coordination staff.\n\nRegards,\n[Your Name]",
+      "trigger_used": "",
+      "word_count": 48,
+      "grounded": false,
+      "invented_number": null
+    },
+    {
+      "angle": "short-intro",
+      "subject": "Recruitment pipeline automation",
+      "body": "I am [Your Name] with [Your Product]. We build recruitment automation software that screens inbound applicants and schedules interviews automatically. Our platform keeps hiring pipelines moving without requiring full-time coordinators. Would automated screening and scheduling be relevant to your talent operations?\n\nRegards,\n[Your Name]",
+      "trigger_used": "",
+      "word_count": 44,
+      "grounded": false,
+      "invented_number": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "category-fit",
+      "text": "Global technology companies process large volumes of applicants. Enterprise hiring teams in this category often face delays screening candidates and coordinating schedules. [Your Product] automates inbound screening and scheduling. Is this relevant to your process?",
+      "trigger_used": "",
+      "char_count": 265,
+      "grounded": false,
+      "invented_number": null
+    },
+    {
+      "angle": "open-question",
+      "text": "How does your talent team handle the manual work of screening inbound applicants and scheduling interviews? [Your Product] provides recruitment automation to keep candidate pipelines moving smoothly without extra coordination staff.",
+      "trigger_used": "",
+      "char_count": 232,
+      "grounded": false,
+      "invented_number": null
+    },
+    {
+      "angle": "short-intro",
+      "text": "I am [Your Name] from [Your Product]. We provide SaaS that automatically screens inbound applicants and schedules interviews without dedicated coordinators. Could automated pipeline scheduling assist your talent team?",
+      "trigger_used": "",
+      "char_count": 217,
+      "grounded": false,
+      "invented_number": null
+    }
+  ],
+  "warnings": [
+    "NO TRIGGER FOUND - these messages are generic. Nothing in them is specific to this company, and they will convert far worse than trigger-backed messages."
+  ]
+}
