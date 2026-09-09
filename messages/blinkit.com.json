@@ -1,0 +1,65 @@
+{
+  "company_name": "Blinkit",
+  "fallback_mode": false,
+  "generated_from": {
+    "trigger_count": 4,
+    "top_score": 8,
+    "pain_hypothesis": "Blinkit risks recruitment bottlenecks and compliance friction as it scales dark-store operations while exclusively relying on employee referrals and facing new labor department regulatory scrutiny on hiring."
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "labor department hiring audits in maharashtra",
+      "body": "With the Maharashtra Labour Department moving to regulate hiring practices and introduce stricter audits for quick commerce platforms, tracking compliant candidate records becomes critical. As Blinkit scales, managing high-volume applicant screening manually increases compliance risk during audits.\n\n[Your Product] automates candidate screening and interview scheduling while maintaining clear audit trails for every applicant.\n\nWould you be open to a 10-minute call this Thursday to see how this simplifies your compliance workflows?\n\n[Your Name]",
+      "trigger_used": "[8/10] Maharashtra Labour Department moved to regulate hiring practices for Blinkit, Zomato, and Swiggy, introducing potential unified registration systems and stricter audits.",
+      "word_count": 73,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "problem-cost",
+      "subject": "managing blinkit's referral pipeline bottleneck",
+      "body": "Is your talent team spending too many coordinator hours manually tracking and screening candidates coming strictly through your employee referral system?\n\nRelying exclusively on employee referrals ensures candidate quality, but managing the screening load and interview scheduling manually can slow down time-to-hire across teams.\n\n[Your Product] automates the initial screening of inbound referral applicants and schedules interviews automatically, keeping your referral pipeline moving without adding manual coordination work.\n\nAre you open to exploring how this handles referral screening load?\n\n[Your Name]",
+      "trigger_used": "[5/10] Blinkit's official careers page states that the company only accepts job applications through employee referrals.",
+      "word_count": 81,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "peer-pattern",
+      "subject": "hiring operations for blinkit's larger dark-store hubs",
+      "body": "As Blinkit expands dark-store capital expenditure and shifts toward larger hubs, recruitment teams typically hit operational friction trying to staff expanded operations without adding recruitment coordinators.\n\nWhen quick commerce hubs scale rapidly, screening inbound ground operations candidates and coordinating multi-stage interviews manually creates hiring bottlenecks. [Your Product] handles automated applicant screening and instant interview scheduling to keep your pipeline moving continuously.\n\nHow are you currently preventing interview scheduling delays as dark-store hiring scales up?\n\n[Your Name]",
+      "trigger_used": "[6/10] Blinkit is increasing dark-store capital expenditure as quick commerce shifts toward larger hubs.",
+      "word_count": 76,
+      "grounded": true,
+      "invented_number": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw that Eternal injected Rs 450 crore into Blinkit to support expansion. Interested in following how your talent team scales operations during this growth phase. Would love to connect.",
+      "trigger_used": "[7/10] Parent company Eternal injected Rs 450 crore into Blinkit via a rights issue to support expansion amid quick commerce competition.",
+      "char_count": 185,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. Given that Blinkit accepts job applications strictly through employee referrals, how are you currently managing the manual screening and scheduling workload to ensure high-grade referral candidates don't stall in the pipeline?",
+      "trigger_used": "[5/10] Blinkit's official careers page states that the company only accepts job applications through employee referrals.",
+      "char_count": 249,
+      "grounded": true,
+      "invented_number": null
+    },
+    {
+      "angle": "value-first",
+      "text": "With the Maharashtra Labour Department moving to regulate quick commerce hiring practices and audit candidate data, I put together a compliance checklist for recruitment workflows. It outlines data logging steps to maintain clear applicant audit trails without manual tracking. Let me know if you'd like me to send it over.",
+      "trigger_used": "[8/10] Maharashtra Labour Department moved to regulate hiring practices for Blinkit, Zomato, and Swiggy, introducing potential unified registration systems and stricter audits.",
+      "char_count": 323,
+      "grounded": true,
+      "invented_number": null
+    }
+  ],
+  "warnings": []
+}

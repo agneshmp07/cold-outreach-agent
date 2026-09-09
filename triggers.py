@@ -1,13 +1,15 @@
 """
-triggers.py - step 2 of the cold outreach generator.
+triggers.py - step 2 of the MNGO outreach generator.
 
-Takes the text that scrape.py saved for one company (and, if news.py has run,
+Takes the text that scrape.py saved for one college (and, if news.py has run,
 recent headlines about it), asks Gemini to pull out "triggers" - specific,
 recent, verifiable facts that justify a cold message existing - and writes the
 result to triggers/<domain>.json.
 
+Target: Indian colleges, specifically their placement cells.
+
 Usage:
-    python triggers.py razorpay.com
+    python triggers.py somecollege.edu.in
 """
 
 import datetime
@@ -152,7 +154,7 @@ def load_news(domain):
     """
     Read the articles news.py saved, formatted for the prompt.
 
-    A company's own site goes stale; news is dated and externally verifiable,
+    A college's own site goes stale; news is dated and externally verifiable,
     which makes it a better trigger source. Returns "" when no news file exists,
     so this stage stays entirely optional.
     """
@@ -183,26 +185,31 @@ def load_news(domain):
 
 def build_prompt(domain, corpus, news_block=""):
     today = datetime.date.today().isoformat()
-    return f"""You are a research analyst preparing cold outreach for a hiring and
-recruitment automation SaaS. Today's date is {today}.
+    return f"""You are a research analyst preparing cold outreach for MNGO, a campus
+placement platform sold to Indian colleges. Today's date is {today}.
 
-Below are two sources about an Indian company at {domain}: recent news
-headlines, and text scraped from their own website.
+Below are two sources about an Indian college at {domain}: recent news, and
+text scraped from their own website.
 
 Your job: extract TRIGGERS. A trigger is a specific, recent, verifiable fact
-about this company that would justify a cold message existing right now.
+about this college that would justify a message about their placement
+operations existing right now.
 
 Good triggers (specific, checkable, time-bound):
-- "Hiring 4 backend engineers and 2 SDET roles, posted on their careers page"
-- "Raised a Series B in March 2026, led by Accel"
-- "Appointed a new Chief Marketing Officer in June 2026"
-- "Opened a second office in Pune"
-- "Careers page lists 18 open roles but names no in-house recruiter"
+- "Placement report 2025 lists 340 offers across 62 visiting recruiters"
+- "Appointed a new Training and Placement Officer in June 2026"
+- "Announced placement season 2026-27 starting in August"
+- "Placement page names 40+ recruiters but gives students no way to track
+  their own application status"
+- "Added a new B.Tech CSE (AI and Data Science) branch for the 2026 intake"
+- "Placement cell publishes drive notices as PDF downloads only"
+- "Student intake listed as 1,200 across 6 branches"
 
 Not triggers (generic, undated, or marketing fluff):
-- "They are a fast-growing company"
-- "They value their people"
-- "They work in fintech"
+- "They are a reputed institution"
+- "They have excellent infrastructure and experienced faculty"
+- "They focus on holistic development"
+- "Their vision is to create industry-ready professionals"
 - Anything you inferred, guessed, or would have to look up elsewhere
 
 Hard rules:
@@ -211,25 +218,34 @@ Hard rules:
 2. "source_page" must be either the exact PAGE label from the scraped text, or
    the exact article URL from the news section - whichever the fact came from.
    A reader must be able to open that source and check the claim.
-3. "relevance_score" is 0-10: how strongly this fact signals a need for hiring
-   or recruitment automation. Active hiring is high. A funding round or a
-   senior leadership appointment is medium-high, because both usually precede
-   team building. Unrelated product news is low.
-4. Prefer dated facts. A news item from the last few months beats an undated
-   claim on a marketing page, even if the marketing page sounds more relevant.
-   If a fact has no date anywhere in the source, cap its score at 5.
+3. "relevance_score" is 0-10: how strongly this fact signals PLACEMENT CELL
+   WORKLOAD.
+   - High (7-10): large offer counts, many visiting recruiters, big student
+     intake, a newly appointed TPO, an announced placement season. More drives
+     and more students means more coordination.
+   - Medium (4-6): new branches or programmes, growing intake, a placement
+     brochure with no online application flow.
+   - Low (0-3): accreditation, rankings, campus facilities, faculty
+     achievements, sports or cultural news. These are real facts but say
+     nothing about placement operations.
+4. Prefer dated facts. A news item or a dated placement report beats an undated
+   claim on a marketing page. If a fact has no date anywhere in the source, cap
+   its score at 5.
 5. Return at most 5 triggers, best first.
 6. If there is no genuine trigger, set "no_trigger_found" to true and return an
    empty "triggers" list. Returning nothing is the correct, expected answer for
-   a company with a thin website and no news. An empty list is a success, not
-   a failure.
-7. "pain_hypothesis" is one sentence on the recruitment pain this company
-   plausibly has, based only on the evidence below. If there are no triggers,
-   say plainly that there is no evidence to support a hypothesis.
-8. Never name an individual employee in connection with a departure,
-   resignation or exit - not in a trigger, not in the pain hypothesis. Write
-   "a senior operations leader departed", never the person's name. Naming
-   someone's exit in outreach reads as surveillance.
+   a college with a thin website and no placement data published. An empty list
+   is a success, not a failure.
+7. "pain_hypothesis" is one sentence on the placement-cell pain this college
+   plausibly has, based only on the evidence below - coordination load, manual
+   tracking, students chasing updates, recruiter scheduling. If there are no
+   triggers, say plainly that there is no evidence to support a hypothesis.
+8. Never name an individual in connection with a departure, resignation or
+   exit - not in a trigger, not in the pain hypothesis. An appointment may name
+   the person, because that is public and positive; an exit may not.
+9. Do NOT extract student names, individual placement records, or salary
+   figures for named individuals. Aggregate placement statistics are fine;
+   personal records are not.
 
 Reply with JSON only, matching this shape exactly:
 {SCHEMA_EXAMPLE}
@@ -367,7 +383,7 @@ def main():
 
     print(f"\n{result['company_name']}")
     if result["no_trigger_found"]:
-        print("  No genuine triggers found - this company is not worth a cold message.")
+        print("  No genuine triggers found - not worth a cold message.")
     else:
         for trigger in result["triggers"]:
             print(f"  [{trigger['relevance_score']}/10] {trigger['fact']}")

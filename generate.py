@@ -1,12 +1,13 @@
 """
-generate.py - step 3 (final) of the cold outreach generator.
+generate.py - step 3 (final) of the MNGO outreach generator.
 
 Reads the triggers that triggers.py found for one company and writes 3 cold
-emails + 3 LinkedIn messages.
+emails + 3 LinkedIn messages, each one built on a specific trigger.
 
-Two modes:
-  grounded  - a trigger was found; every message is built on it and checked
-  fallback  - no trigger; generic messages, clearly labelled as such
+Target: companies that hire entry-level talent from Indian campuses.
+Pitch:  MNGO is early. We are onboarding our first colleges and building the
+        recruiter side around what companies actually need. The ask is input,
+        not a sale.
 
 Output:
     messages/<domain>.json
@@ -27,15 +28,18 @@ from triggers import MODEL, ask_gemini, die, genai
 
 # ---------------------------------------------------------------------------
 # EDIT THIS BLOCK to describe whatever you are selling.
+#
+# NOTE: no college count, no student numbers. Nothing is signed yet, and
+# overstating the network is the one mistake that cannot be walked back.
 # ---------------------------------------------------------------------------
 PRODUCT = {
-    "name": "[Your Product]",
+    "name": "MNGO",
     "one_liner": (
-        "a hiring and recruitment automation SaaS: it screens inbound applicants, "
-        "schedules interviews automatically, and keeps the pipeline moving without "
-        "a full-time coordinator"
+        "campus placement infrastructure for India: we are onboarding our "
+        "first colleges now and building the recruiter side around what "
+        "companies actually need from campus hiring, rather than guessing"
     ),
-    "sender": "[Your Name]",
+    "sender": "Agnesh",
 }
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -47,36 +51,39 @@ MAX_EMAIL_WORDS = 120
 MAX_LINKEDIN_CHARS = 300
 
 EMAIL_ANGLES = [
-    ("trigger-direct", "Lead with the trigger fact in the first line. State in one "
-                       "sentence why that fact makes this relevant. Ask one small question."),
-    ("problem-cost", "Lead with the operational cost the trigger implies (screening "
-                     "load, time-to-hire, coordinator hours). Frame it as a question, "
-                     "never as an invented statistic."),
-    ("peer-pattern", "Lead with the pattern you see in companies at this stage, but "
-                     "anchor it to this specific company in the first sentence. The "
-                     "message must be unusable for any other company."),
+    ("trigger-direct", "Lead with the company's hiring signal in the first "
+                       "line. Say plainly that MNGO is early and being built "
+                       "now. Ask what breaks for them in campus hiring today."),
+    ("problem-check", "Lead with one specific thing that is usually broken in "
+                      "campus hiring - resumes arriving as PDFs, email chains "
+                      "with placement officers, no way to compare candidates "
+                      "across colleges. Ask whether that matches their "
+                      "experience. Do not assert that it is their problem."),
+    ("early-access", "Offer a place in the recruiter pilot when it opens. The "
+                     "offer is input into the product, not access to a network "
+                     "that does not exist yet. Anchor it to their trigger."),
 ]
 
 LINKEDIN_ANGLES = [
     ("connection-note", "A connection request note. Must fit in 300 characters. "
                         "Reference the trigger, no pitch, no link."),
     ("post-accept-dm", "A short DM sent after they accept. One specific question "
-                       "about how they handle the thing the trigger implies."),
-    ("value-first", "Offer one concrete useful thing (a teardown, a checklist, a "
-                    "benchmark) with no call booking attached. Describe it plainly - "
-                    "never claim a result or percentage it achieves."),
+                       "about how they run campus hiring today."),
+    ("value-first", "Offer one concrete useful thing - a teardown, a checklist, "
+                    "a comparison. Describe it plainly, never claim a result or "
+                    "percentage it achieves."),
 ]
 
-# Used only when no trigger was found. Deliberately modest angles: with no
-# hook, the honest move is a short, low-claim message, not a confident pitch.
+# Used only when no trigger was found. Deliberately modest: with no hook, the
+# honest move is a short, low-claim message, not a confident pitch.
 FALLBACK_ANGLES = [
-    ("category-fit", "State what the company does, then the hiring problem "
-                     "companies in that category usually have. No claim that "
-                     "this specific company has it."),
-    ("open-question", "Ask one honest question about how they handle hiring "
+    ("category-fit", "State what the company does, then the campus-hiring "
+                     "problem companies in that category usually have. No claim "
+                     "that this specific company has it."),
+    ("open-question", "Ask one honest question about how they run campus hiring "
                       "today. No pitch until the last line."),
-    ("short-intro", "Four sentences maximum. Who you are, what you do, one "
-                    "question. No preamble."),
+    ("short-intro", "Four sentences maximum. Who you are, what you are building, "
+                    "one question. No preamble."),
 ]
 
 SCHEMA_EXAMPLE = """{
@@ -148,9 +155,9 @@ def build_prompt(company_name, triggers, pain_hypothesis):
     email_angles = "\n".join(f'- "{name}": {brief}' for name, brief in EMAIL_ANGLES)
     linkedin_angles = "\n".join(f'- "{name}": {brief}' for name, brief in LINKEDIN_ANGLES)
 
-    return f"""You write cold outreach that a busy Indian founder or hiring lead would
-actually reply to. You are writing on behalf of {PRODUCT['sender']}, who sells
-{PRODUCT['name']} - {PRODUCT['one_liner']}.
+    return f"""You write cold outreach that a busy Indian hiring lead or founder would
+actually reply to. You are writing on behalf of {PRODUCT['sender']}, who is
+building {PRODUCT['name']} - {PRODUCT['one_liner']}.
 
 TARGET COMPANY: {company_name}
 
@@ -179,27 +186,37 @@ HARD RULES:
 3. NO NUMBERS that are not in the trigger list. No percentages, no multipliers,
    no "40% fewer drop-offs", no "3x faster", no "saves 10 hours a week". If you
    want to describe a benefit, describe it in words with no figure attached.
-4. Spread the messages across different triggers where the trigger list allows
+4. MNGO HAS NO CONFIRMED COLLEGE PARTNERS YET. Never state or imply a number
+   of colleges, campuses or students. Never say "our network", "our colleges",
+   or "we have access to". Say "we are onboarding our first colleges" and
+   nothing more specific. Overstating this is the one mistake that cannot be
+   walked back.
+5. The ask is INPUT, not a sale. You are asking what breaks for them in campus
+   hiring, or offering a place in the recruiter pilot when it opens. Do not
+   promise candidates, shortlists, or hires.
+6. Spread the messages across different triggers where the trigger list allows
    it. Do not build all six on trigger 1.
-5. Subject lines: under {MAX_SUBJECT_CHARS} characters, lowercase or sentence
+7. Subject lines: under {MAX_SUBJECT_CHARS} characters, lowercase or sentence
    case, specific. No "Quick question", no "Touching base", no clickbait.
-6. Email body: under {MAX_EMAIL_WORDS} words. Plain text. No "Hope this finds
+8. Email body: under {MAX_EMAIL_WORDS} words. Plain text. No "Hope this finds
    you well", no "I came across your impressive company", no flattery opener.
    Get to the trigger in the first sentence.
-7. One ask per message. Prefer a question they can answer in one line. Only ONE
+9. One ask per message. Prefer a question they can answer in one line. Only ONE
    of the three emails may ask for a call - the other two must end in a question.
-8. LinkedIn "connection-note" must be under {MAX_LINKEDIN_CHARS} characters.
-9. Sign emails as {PRODUCT['sender']}. Do not invent a phone number, a
-   calendar link, or a company website.
-10. Indian business context: professional and direct. No "Dear Sir/Madam", no
+10. LinkedIn "connection-note" must be under {MAX_LINKEDIN_CHARS} characters.
+11. Sign emails as {PRODUCT['sender']}. Do not invent a phone number, a
+    calendar link, or a company website.
+12. Indian business context: professional and direct. No "Dear Sir/Madam", no
     "Respected Sir", no American sales slang either.
-11. Each of the six messages must be genuinely different. If two would say the
+13. Each of the six messages must be genuinely different. If two would say the
     same thing, change the angle, not just the wording.
-12. If a trigger has no date attached, do not imply it is recent. Write
-    "you've raised from Insight Partners", not "recently closed".
-13. Never name an individual employee in connection with a departure,
-    resignation, or exit. A leadership vacancy can be referenced as
-    "your recent ops leadership change" without naming who left.
+14. If a trigger has no date attached, do not imply it is recent.
+15. Never name an individual employee in connection with a departure,
+    resignation, or exit. A leadership vacancy can be referenced as "your
+    recent leadership change" without naming who left.
+16. Being early is not a weakness to hide. A founder saying "we are building
+    this, here is what we do not know yet" gets replies. A founder pretending
+    to have scale gets deleted. Write like the former.
 
 Reply with JSON only, matching this shape exactly:
 {SCHEMA_EXAMPLE}"""
@@ -215,13 +232,12 @@ def build_fallback_prompt(company_name, description):
     """
     angles = "\n".join(f'- "{n}": {b}' for n, b in FALLBACK_ANGLES)
     return f"""You are writing cold outreach on behalf of {PRODUCT['sender']},
-who sells {PRODUCT['name']} - {PRODUCT['one_liner']}.
+who is building {PRODUCT['name']} - {PRODUCT['one_liner']}.
 
 TARGET COMPANY: {company_name}
 
 There is NO verified trigger for this company. Nothing recent or specific was
-found on their site. You are writing generic outreach and you must not pretend
-otherwise.
+found. You are writing generic outreach and you must not pretend otherwise.
 
 What is known: {description or "only the company name"}
 
@@ -237,13 +253,15 @@ HARD RULES:
 1. Invent NOTHING. No funding, no hiring, no headcount, no news, no "I saw
    that...". You did not see anything.
 2. No numbers, percentages or multipliers anywhere.
-3. Do not imply you researched them. No "I've been following your work", no
-   "your impressive growth", no flattery of any kind.
-4. Under 80 words per email. Under 250 characters per LinkedIn message.
-5. One question per message. No call asks - you have not earned one.
-6. Leave "trigger_used" as an empty string. There is no trigger.
-7. Sign emails as {PRODUCT['sender']}.
-8. Indian business context: professional and direct. No "Dear Sir/Madam", no
+3. MNGO has no confirmed college partners. Never state or imply a number of
+   colleges, campuses or students.
+4. Do not imply you researched them. No "I've been following your work", no
+   flattery of any kind.
+5. Under 80 words per email. Under 250 characters per LinkedIn message.
+6. One question per message. No call asks - you have not earned one.
+7. Leave "trigger_used" as an empty string. There is no trigger.
+8. Sign emails as {PRODUCT['sender']}.
+9. Indian business context: professional and direct. No "Dear Sir/Madam", no
    American sales slang.
 
 Reply with JSON only, matching this shape exactly:
@@ -290,6 +308,14 @@ def is_grounded(trigger_used, known_facts):
 
 NUMBER_PATTERN = re.compile(r"\d+\s*(?:%|x\b|percent|times)", re.I)
 
+# Phrases that claim a network MNGO does not have yet. Caught in the body
+# because the model will reach for them under sales pressure.
+OVERCLAIM_PATTERN = re.compile(
+    r"\b(our (network|colleges|campuses|partner colleges|student pool)"
+    r"|\d+\s*(colleges|campuses|institutions)"
+    r"|access to (our|a) (network|pool)"
+    r"|we (have|work with) \d+)\b", re.I)
+
 
 def invented_number(text, known_facts):
     """
@@ -304,6 +330,17 @@ def invented_number(text, known_facts):
         if match.group(0).lower() not in joined:
             return match.group(0)
     return None
+
+
+def overclaim(text):
+    """
+    Find language claiming a college network that does not exist yet.
+
+    This is the check that matters most commercially. A company that hears
+    "our network of colleges" will ask which ones, and there is no answer.
+    """
+    match = OVERCLAIM_PATTERN.search(text)
+    return match.group(0) if match else None
 
 
 def similar(a, b):
@@ -355,6 +392,11 @@ def clean_result(data, source, warnings, fallback=False):
             warnings.append(f"email {i + 1} ({angle}): contains '{fake}' - no trigger "
                             f"supports this number, it was invented")
 
+        claim = overclaim(body)
+        if claim:
+            warnings.append(f"email {i + 1} ({angle}): says '{claim}' - MNGO has no "
+                            f"confirmed colleges yet. DO NOT SEND.")
+
         if not grounded and not fallback:
             warnings.append(f"email {i + 1} ({angle}): cites a trigger that is not in "
                             f"the triggers file - check it for invented facts")
@@ -367,6 +409,7 @@ def clean_result(data, source, warnings, fallback=False):
             "word_count": word_count,
             "grounded": grounded,
             "invented_number": fake,
+            "overclaim": claim,
         })
 
     linkedin = []
@@ -392,6 +435,11 @@ def clean_result(data, source, warnings, fallback=False):
             warnings.append(f"linkedin {i + 1} ({angle}): contains '{fake}' - no trigger "
                             f"supports this number, it was invented")
 
+        claim = overclaim(text)
+        if claim:
+            warnings.append(f"linkedin {i + 1} ({angle}): says '{claim}' - MNGO has no "
+                            f"confirmed colleges yet. DO NOT SEND.")
+
         if not grounded and not fallback:
             warnings.append(f"linkedin {i + 1} ({angle}): cites a trigger that is not in "
                             f"the triggers file - check it for invented facts")
@@ -403,6 +451,7 @@ def clean_result(data, source, warnings, fallback=False):
             "char_count": len(text),
             "grounded": grounded,
             "invented_number": fake,
+            "overclaim": claim,
         })
 
     if len(emails) != 3:
@@ -463,6 +512,8 @@ def to_markdown(result):
             flags += "  :warning: **ungrounded**"
         if email.get("invented_number"):
             flags += f"  :warning: **invented number: {email['invented_number']}**"
+        if email.get("overclaim"):
+            flags += f"  :rotating_light: **OVERCLAIM: {email['overclaim']}**"
         lines += [f"### {i}. {email['angle']}{flags}",
                   f"**Subject:** {email['subject']}", "",
                   email["body"], ""]
@@ -477,6 +528,8 @@ def to_markdown(result):
             flags += "  :warning: **ungrounded**"
         if msg.get("invented_number"):
             flags += f"  :warning: **invented number: {msg['invented_number']}**"
+        if msg.get("overclaim"):
+            flags += f"  :rotating_light: **OVERCLAIM: {msg['overclaim']}**"
         lines += [f"### {i}. {msg['angle']}{flags}", "",
                   msg["text"], ""]
         if msg["trigger_used"]:
@@ -512,6 +565,8 @@ def print_summary(result):
             mark += "  [UNGROUNDED]"
         if email.get("invented_number"):
             mark += f"  [INVENTED: {email['invented_number']}]"
+        if email.get("overclaim"):
+            mark += f"  [OVERCLAIM: {email['overclaim']}]"
         print(f"  Email {i} ({email['angle']}){mark}")
         print(f"    subject: {email['subject']}")
         print(f"    {email['word_count']} words")
@@ -521,6 +576,8 @@ def print_summary(result):
             mark += "  [UNGROUNDED]"
         if msg.get("invented_number"):
             mark += f"  [INVENTED: {msg['invented_number']}]"
+        if msg.get("overclaim"):
+            mark += f"  [OVERCLAIM: {msg['overclaim']}]"
         print(f"  LinkedIn {i} ({msg['angle']}){mark}: {msg['char_count']} chars")
 
     if result["warnings"]:
@@ -547,9 +604,6 @@ def main():
     triggers = source["triggers"]
     client = genai.Client(api_key=api_key)
 
-    # No trigger: fall back to generic messages, labelled as such. The label is
-    # the point - the alternative is inventing a hook, which is what the two
-    # grounding checks exist to prevent.
     if source.get("no_trigger_found") or not triggers:
         print(f"{source.get('company_name') or domain}: no triggers found.")
         print("Generating FALLBACK messages (generic, low reply probability)...")

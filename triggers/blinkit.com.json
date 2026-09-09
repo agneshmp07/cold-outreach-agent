@@ -1,0 +1,27 @@
+{
+  "company_name": "Blinkit",
+  "triggers": [
+    {
+      "fact": "Maharashtra Labour Department moved to regulate hiring practices for Blinkit, Zomato, and Swiggy, introducing potential unified registration systems and stricter audits.",
+      "source_page": "https://www.deccanchronicle.com/nation/maharashtra-labour-dept-moves-to-regulate-zomato-swiggy-blinkit-hiring-1949403",
+      "relevance_score": 8
+    },
+    {
+      "fact": "Parent company Eternal injected Rs 450 crore into Blinkit via a rights issue to support expansion amid quick commerce competition.",
+      "source_page": "https://www.moneycontrol.com/news/business/eternal-injects-rs-450-crore-into-blinkit-via-rights-issue-as-quick-commerce-battle-intensifies-13858303.html",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Blinkit is increasing dark-store capital expenditure as quick commerce shifts toward larger hubs.",
+      "source_page": "https://www.business-standard.com/industry/news/blinkit-instamart-dark-store-capex-quick-commerce-ubs-report-126090400571_1.html",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Blinkit's official careers page states that the company only accepts job applications through employee referrals.",
+      "source_page": "https://blinkit.com/careers",
+      "relevance_score": 5
+    }
+  ],
+  "pain_hypothesis": "Blinkit risks recruitment bottlenecks and compliance friction as it scales dark-store operations while exclusively relying on employee referrals and facing new labor department regulatory scrutiny on hiring.",
+  "no_trigger_found": false
+}
