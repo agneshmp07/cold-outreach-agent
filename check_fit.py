@@ -120,7 +120,7 @@ def search_terms(client):
     client's own description rather than hardcoded.
     """
     sells = str(client.get("what_you_sell") or client.get("one_liner") or "")
-    buyers = str(client.get("who_buys_it") or "")
+    buyers = str(client.get("who_pays_for_it") or client.get("who_buys_it") or "")
     problem = " ".join(sells.split()[:12])
     signal = " ".join((sells + " " + buyers).split()[:12])
     return problem or "operations", signal or "process"

@@ -46,6 +46,9 @@ SCHEMA_EXAMPLE = """{
   "company_name": "string",
   "what_you_sell": "string",
   "one_liner": "string",
+  "business_model": "direct|marketplace|platform",
+  "who_uses_it": "string",
+  "who_pays_for_it": "string",
   "who_buys_it": "string",
   "claims_to_check": ["string"],
   "icp": {
@@ -113,26 +116,40 @@ Rules:
 2. "one_liner" is how the company would describe itself in one sentence to a
    stranger, in plain words. No marketing adjectives - no "leading", "innovative",
    "cutting-edge", "world-class". If the site is full of them, strip them out.
-3. The ICP is the important part. For "fits", give at most 3 segments. Each needs
-   an industry, a size range, one thing that must be TRUE about that company for
-   this product to matter, and why they would care.
+3. WHO PAYS IS NOT ALWAYS WHO USES. Decide this before anything else, because
+   everything downstream depends on it.
+   - "who_uses_it": the people who open the app or log in day to day.
+   - "who_pays_for_it": the ones who sign a contract or hand over money.
+   - "business_model": "marketplace" if the site serves two different sides
+     (buyers and sellers, riders and restaurants, students and recruiters);
+     "platform" if one side pays to reach another; "direct" if the user and the
+     payer are the same person.
+   A consumer website almost always describes the USER side, because that is who
+   it is marketing to. If this is a marketplace, the ICP below must target the
+   side that PAYS - the businesses - not the consumers who use the app. Getting
+   this backwards produces an ICP full of the company's own customers rather
+   than its prospects, and every search built on it looks for the wrong people.
+   Set "who_buys_it" to the paying side.
+5. The ICP is the important part, and it describes WHO PAYS. For "fits", give at
+   most 3 segments. Each needs an industry, a size range, one thing that must be
+   TRUE about that company for this product to matter, and why they would care.
 4. For "does_not_fit", name at most 4 company types that LOOK like good targets
    and are wrong. This must be genuinely different from the inverse of the fits
    list. If you cannot name any, the product description is too vague and you
    should say that in "weakest_assumption".
-5. For "signals", every signal MUST be visible from outside the company - on a
+6. For "signals", every signal MUST be visible from outside the company - on a
    public website, a job board, a LinkedIn page, a review site or a press item.
    If you could not see it without being an employee, do not list it. At most 4.
    This rule matters more than any other: an invisible signal is useless to
    someone doing cold outreach.
-6. "claims_to_check" is the important safety field. List the specific claims
+7. "claims_to_check" is the important safety field. List the specific claims
    this company's website makes or implies about scale, traction, customers or
    results - the ones a cold email would be tempted to repeat and that might not
    be true yet. Examples of the shape: "implies it already has many customers",
    "implies an established partner network", "quotes a results percentage".
    These are things for the human to CONFIRM or FORBID, not facts you are
    asserting. List at most 5.
-7. "weakest_assumption" is the one thing in your ICP you are least sure about,
+8. "weakest_assumption" is the one thing in your ICP you are least sure about,
    and how the human could check it. Be specific. Do not hedge everything.
 
 Reply with JSON only, matching this shape exactly:
@@ -164,6 +181,9 @@ def icp_markdown(domain, data):
              "> Drafted by profile.py from the company's own website. Read it and "
              "cut what is wrong before trusting it. A generated ICP that nobody "
              "graded is a guess with formatting.", "",
+             f"**This describes who PAYS:** {data.get('who_pays_for_it') or data.get('who_buys_it', 'not stated')}", "",
+             f"_Business model: {data.get('business_model', 'not stated')}. "
+             f"Day-to-day users: {data.get('who_uses_it', 'not stated')}._", "",
              "## Who fits", "",
              "| Industry | Company size | What must be true | Why they would care |",
              "| --- | --- | --- | --- |"]
@@ -209,7 +229,10 @@ def client_json(domain, data, icp_path):
         "name": data.get("company_name", domain),
         "one_liner": data.get("one_liner", ""),
         "what_you_sell": data.get("what_you_sell", ""),
-        "who_buys_it": data.get("who_buys_it", ""),
+        "business_model": data.get("business_model", ""),
+        "who_uses_it": data.get("who_uses_it", ""),
+        "who_pays_for_it": data.get("who_pays_for_it", ""),
+        "who_buys_it": data.get("who_buys_it") or data.get("who_pays_for_it", ""),
         "sender": "",
         "cannot_claim": [],
         "verified_assets": [],
@@ -251,7 +274,13 @@ def print_summary(domain, data, client_path, icp_path):
     print(f"{data.get('company_name', domain)}")
     print(f"{'=' * 60}")
     print(f"\n  Sells   : {data.get('what_you_sell', '-')}")
-    print(f"  Buyers  : {data.get('who_buys_it', '-')}")
+    print(f"  Model   : {data.get('business_model', '-')}")
+    print(f"  Users   : {data.get('who_uses_it', '-')}")
+    print(f"  PAYERS  : {data.get('who_pays_for_it') or data.get('who_buys_it', '-')}")
+    if str(data.get("business_model", "")).lower() in ("marketplace", "platform"):
+        print("            ^ two-sided. The ICP targets the PAYING side. If that")
+        print("              line names consumers rather than businesses, the ICP")
+        print("              is aimed at your own customers - re-run or edit it.")
     print(f"\n  One-liner:\n    {data.get('one_liner', '-')}")
 
     fits = icp.get("fits") or []

@@ -162,7 +162,13 @@ def build_query_prompt(client, icp_text):
 
 WHO IS SELLING: {client['name']} - {client['one_liner']}
 WHAT THEY SELL: {client.get('what_you_sell') or client['one_liner']}
-WHO BUYS IT: {client.get('who_buys_it') or 'not stated'}
+WHO PAYS: {client.get('who_pays_for_it') or client.get('who_buys_it') or 'not stated'}
+WHO USES IT DAY TO DAY: {client.get('who_uses_it') or 'same as who pays'}
+BUSINESS MODEL: {client.get('business_model') or 'not stated'}
+
+You are looking for the people who PAY, not the people who use the product. On a
+marketplace those are different groups, and searching for users finds this
+company's own customers instead of its prospects.
 
 THEIR ICP, including the buying signals that survived grading:
 ---
@@ -186,6 +192,17 @@ Rules:
 5. Include a geography only if the ICP names one.
 6. If a buying signal in the ICP is not findable through a web search, skip it
    rather than writing a query that will return noise.
+7. Never write a `site:` query against a host where the employer's NAME will not
+   appear in the result title. Social feeds, form services, link shorteners and
+   document hosts - instagram.com, facebook.com, forms.gle, docs.google.com,
+   scribd.com, medium.com, reddit.com, t.me - all return pages titled after the
+   poster or the file, not the company. Those results are unusable no matter how
+   well the query matches, so a query aimed at them wastes a search.
+   Job boards are different: linkedin.com/jobs and naukri.com put the employer
+   in the title, so `site:` queries against those are fine.
+8. Every query must be able to surface a company that has its own website. If
+   the only place a signal appears is inside someone's social post, it is not a
+   findable signal - skip it.
 
 Reply with JSON only:
 {{"queries": ["string", "string"], "note": "one sentence on what these will and will not find"}}"""
