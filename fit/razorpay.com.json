@@ -1,0 +1,317 @@
+{
+  "domain": "razorpay.com",
+  "checked_against": "icp.md",
+  "result": {
+    "company_name": "Razorpay",
+    "what_they_do": "Full-stack financial solutions and fintech company providing online payment processing APIs and payment suite for businesses [2, 3, 7].",
+    "size": {
+      "estimate": "4,042 employees",
+      "evidence": "[9]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Fintech and regulated financial services",
+      "in_icp": false,
+      "why": "Razorpay is a fintech company, which is explicitly cut and excluded from the target ICP segments.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No official campus hiring job posts on company career pages, LinkedIn, or Naukri that collect resumes via Google Forms or personal emails.",
+      "evidence": "[8, 22, 33, 36]",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Fintech and regulated financial services",
+      "Companies at Razorpay's profile"
+    ],
+    "verdict": "SKIP",
+    "reason": "Razorpay matches two explicit disqualifiers in the 'Who does NOT fit' section: 'Fintech and regulated financial services' and 'Companies at Razorpay's profile'.",
+    "could_not_find": [
+      "Exact annual fresher hiring count from campus placement drives.",
+      "The list of specific tier-2/3 engineering colleges visited for campus recruitment."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About Razorpay and The Team Behind it",
+      "snippet": "Founded by IIT Roorkee alumni, Razorpay aims to revolutionize money management for online businesses by providing clean, developer-friendly APIs and hassle-free ...",
+      "link": "https://razorpay.com/about/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Razorpay",
+      "snippet": "Razorpay is India's first full-stack financial solutions company. We are on a mission to enhance the payment experience of over 300 million end consumers. And ...",
+      "link": "https://in.linkedin.com/company/razorpay",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Razorpay - Best Payment Solution for Online Payments India",
+      "snippet": "Online Payments India: Start Accepting Payments Instantly with Razorpay's Payment Suite, which Supports Netbanking, Credit Card & Debit Cards, UPI etc.",
+      "link": "https://razorpay.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What is Razorpay? Is it safe to make a payment using it?",
+      "snippet": "",
+      "link": "https://www.quora.com/What-is-Razorpay-Is-it-safe-to-make-a-payment-using-it",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What is the real developer experience with Razorpay's customer support ...",
+      "snippet": "",
+      "link": "https://www.quora.com/What-is-the-real-developer-experience-with-Razorpays-customer-support-in-India-in-2026",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "DO NOT USE RAZORPAY! WORST COMPANY FOR DEVELOPERS AND ...",
+      "snippet": "",
+      "link": "https://www.reddit.com/r/indianstartups/comments/1o85vev/do_not_use_razorpay_worst_company_for_developers/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Razorpay: India's only full-stack financial solutions ...",
+      "snippet": "Today, Razorpay powers online payments for 76 Of 100 startup unicorns and millions of businesses in India. The core premise of what Razorpay was founded in 2014 ...",
+      "link": "https://www.ycombinator.com/companies/razorpay",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Jobs, Hiring & Career Opportunities at Razorpay",
+      "snippet": "India's leading fintech powering millions of businesses. Explore openings in engineering, product, design, marketing & more for freshers and ...",
+      "link": "https://razorpay.com/careers/",
+      "date": "Join Razorpay"
+    },
+    {
+      "asking_about": "size",
+      "title": "Razorpay",
+      "snippet": "View all 4,042 employees · Overview · Jobs · Life. About us. Power your finance, grow your business. Razorpay is India's first full-stack financial solutions ...",
+      "link": "https://in.linkedin.com/company/razorpay",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Garima Nanda - Associate Director - HRBP at Razorpay",
+      "snippet": "Experience · Razorpay. 7 years 1 month. Associate Director, HRBP. Razorpay. May 2024 - Present 2 years 5 months · Human Resources Business Partner. Info Edge ...",
+      "link": "https://in.linkedin.com/in/garima-nanda-74314890",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Akshay Jindal - Director- HR @Razorpay | Ex-Flipkart & Cairn",
+      "snippet": "Director- HR @Razorpay | Ex-Flipkart & Cairn | NMIMS Mumbai · An HR professional with expertise in HR Excellence, Employee Experience; ...",
+      "link": "https://in.linkedin.com/in/akshay-jindal",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Razorpay's AI initiative: Empowering employees, not ...",
+      "snippet": "Our goal at Razorpay isn't replacing people with AI, it's empowering them. We believe companies that don't will be left behind.",
+      "link": "https://www.linkedin.com/posts/chettyarun_our-goal-at-razorpay-isnt-replacing-people-activity-7368246789197524994-v8OR",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Rahul Kothari - COO at Razorpay",
+      "snippet": "COO at Razorpay · - 15 years of sales, product management, strategic and operational leadership experience in technology led businesses - Built new product ...",
+      "link": "https://in.linkedin.com/in/rahulkothari",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn Ranks Razorpay #6 in India's Top Startups List",
+      "snippet": "LinkedIn Ranks Razorpay #6 in India's Top Startups List. September 22 ... With a headcount of over 1000 employees as of today, the ...",
+      "link": "https://razorpay.com/newsroom/linkedin-ranks-razorpay-6-in-indias-top-startups-list/",
+      "date": "22 Sept 2020"
+    },
+    {
+      "asking_about": "size",
+      "title": "Razorpay POS Employee Directory, Headcount & Staff",
+      "snippet": "Browse Razorpay POS's employee directory of 123 employees. Find verified email addresses and direct contact information with LeadIQ.",
+      "link": "https://leadiq.com/c/razorpay-pos/5a1d7c7f24000024005647b0/employee-directory",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn recognises Razorpay among India's top 10 ...",
+      "snippet": "For the second year running, Razorpay ranked number 4 in the annual list of 'India's Hottest Companies to Work for' by LinkedIn. Last year ...",
+      "link": "https://www.aninews.in/news/business/linkedin-recognises-razorpay-among-indias-top-10-startups-to-work-with20190904170005",
+      "date": "4 Sept 2019"
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "Jobs, Hiring & Career Opportunities at Razorpay",
+      "snippet": "Join Razorpay — India's leading fintech powering millions of businesses. Explore openings in engineering, product, design, marketing & more for freshers and",
+      "link": "https://razorpay.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "Razorpay Off Campus Recruitment | Junior Analyst – Fresher - BeBee",
+      "snippet": "Razorpay is hiring candidates for the role of Junior Analyst – Risk Management for the Bangalore, India location. The complete details about Razorpay Off Campus ...",
+      "link": "https://bebee.com/in/jobs/razorpay-off-campus-recruitment-junior-analyst-fresher-fresher-jobs-bengaluru-karnataka--t7xk-788579887",
+      "date": ""
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "Ansh Kumar - Talent Acquisition @ Razorpay | Ex-Ola - LinkedIn",
+      "snippet": "Talent Acquisition @ Razorpay | Ex-Ola | Campus ... Coordinating pan-India campus hiring and recruitment operations, ensuring seamless candidate experience from ...",
+      "link": "https://in.linkedin.com/in/ansh-kumar-0b3362211",
+      "date": ""
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "RazorPay Recruitment Process - GeeksforGeeks",
+      "snippet": "HR. RazorPay Eligibility Criteria : Educational Qualification: BE/B.Tech; 60% or 6.5 CGPA and above in 10th, 12th, and Graduation; No active ...",
+      "link": "https://www.geeksforgeeks.org/interview-experiences/razorpay-recruitment-process/",
+      "date": "Jul 23, 2025"
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "RazorPay Campus Placement Experience - So close, yet so far",
+      "snippet": "RazorPay Campus Placement Experience - So close, yet so far · Technical Interview · DSA · SQL · HR Interview · Panel Feedback: · Logistics & Offer.",
+      "link": "https://www.reddit.com/r/developersIndia/comments/1n32hs7/razorpay_campus_placement_experience_so_close_yet/",
+      "date": "Aug 29, 2025"
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "Jobs at Razorpay Software Private Limited - Greenhouse",
+      "snippet": "Current openings at Razorpay Software Private Limited ... Level-up your career by having opportunities at Razorpay Software Private Limited sent directly to your ...",
+      "link": "http://job-boards.greenhouse.io/razorpaysoftwareprivatelimited",
+      "date": ""
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "Mega Off-Campus Hiring! JP Morgan + Wipro + Razorpay - YouTube",
+      "snippet": "Big Mass Hiring Drive for Freshers – 2024/2025/2026/2027 Batch! Top companies like JP Morgan, HCL Life, Wipro, and Razorpay are conducting ...",
+      "link": "https://www.youtube.com/watch?v=GmNPF4DGQJ8",
+      "date": "Feb 25, 2026"
+    },
+    {
+      "asking_about": "campus hiring",
+      "title": "Razorpay Off Campus 2026 Hiring Fresher For Associate Business ...",
+      "snippet": "Knowledge of SQL is required; Strong communication skills; Ability to work 24/7 in shifts. How To Apply Razorpay Off Campus Drive 2026?? All ...",
+      "link": "https://www.fresheroffcampus.com/razorpay-off-campus-hiring-fresher/",
+      "date": "Apr 14, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Follow @hiring.dev and Comment \"yes\" for this Razorpay Direct ...",
+      "snippet": "Razorpay hiring alerts Commemt for google form link. #razorpay #hiring #internships #coding · View all 98 comments · 5 days ago ...",
+      "link": "https://www.instagram.com/reel/DcjExahT4bR/",
+      "date": "Aug 27, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Razorpay is Hiring Alert ⚠️ #trending #viralreels ... - Instagram",
+      "snippet": "... Razorpay AI Builder Internship 2026 patilprakash8868@gmail.com No resume screening. ... DIRECT GOOGLE FORM HIRING Razorpay OUTGROW ORDINARY ...",
+      "link": "https://www.instagram.com/reel/DTxvGYRkdCI/",
+      "date": "Jan 21, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "OFF Campus Drive For 2025, 2024, 2023 Batch | Fresher - YouTube",
+      "snippet": "... Razorpay : https ... Email For Paid Promotions : jobsknacademy@gmail.com Connect For Mock Interview & Resume Review : ...",
+      "link": "https://www.youtube.com/watch?v=Put_dx3gPWw",
+      "date": "Jun 6, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "RAZORPAY IS HIRING INTERNS! Looking for an internship ...",
+      "snippet": "Looking for an internship? Razorpay's AI Builder Internship 2026 is accepting applications through a Google Form. AI + Builder ...",
+      "link": "https://www.instagram.com/reel/Dcbm1PRyBJl/",
+      "date": "Aug 24, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Razorpay is #hiring #software #engineer. Check LINK IN BIO to ...",
+      "snippet": "Razorpay is #hiring #software # ... Interested candidates, please share your updated resume with us at bharathrecruiter06@gmail.com.",
+      "link": "https://m.facebook.com/jobsandinternships4you/photos/razorpay-is-hiring-software-engineer-check-link-in-bio-to-submit-your-applicatio/768467872006579/",
+      "date": "Feb 1, 2024"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Arsh Bhatia's Post - LinkedIn",
+      "snippet": "Internship Opportunity at Razorpay How to Apply for referral: Send me your resume with the following ...",
+      "link": "https://www.linkedin.com/posts/arsh-bhatia-_interested-cfbr-razorpay-activity-7303259103852642306-QMTe",
+      "date": "Mar 5, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "weakfeministladki - Instagram",
+      "snippet": "... Jobs, IT Hiring, Off Campus Drives, Freshers Jobs & Internship Updates. ... Razorpay hiring alerts Commemt for google form link. #razorpay ...",
+      "link": "https://www.instagram.com/reel/Dck9qXAyekh/",
+      "date": "Aug 28, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mega Off-Campus Hiring! JP Morgan + Wipro + Razorpay - YouTube",
+      "snippet": "... gmail.com Don't Forget To Like , Comment , Share & Subscribe. ... hiring hcl life hiring wipro off campus razorpay careers mass hiring 2024 ...",
+      "link": "https://www.youtube.com/watch?v=GmNPF4DGQJ8",
+      "date": "Feb 25, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs, Hiring & Career Opportunities at Razorpay",
+      "snippet": "Join Razorpay — India's leading fintech powering millions of businesses. Explore openings in engineering, product, design, marketing & more for freshers and",
+      "link": "https://razorpay.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "SOLD OUT: HOW TO PLAN YOUR CAREER? - Razorpay",
+      "snippet": "A live-conversation to help freshers plan their careers, as you graduate in these tough times! It was meant to be the last phase of your college. You were ...",
+      "link": "https://pages.razorpay.com/warikoo-planning-your-career",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Off-Campus Placement Mentorship - Razorpay",
+      "snippet": "Off-Campus is a comprehensive end-to-end program that assists students in securing the best placements and exploring opportunities outside of Campus Placements.",
+      "link": "https://pages.razorpay.com/pl_KHT51okCBar0Wc/view",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Tech at Razorpay",
+      "snippet": "All teams Currently, we have no job openings. Please. View all tech and business openings … email us at jobs@razorpay.com",
+      "link": "https://razorpay.com/tech/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Technical Writing as a Career - Razorpay Learn",
+      "snippet": "55,400 Technical Writer jobs floated in the year 2021, entry-level pay ranging from ₹ 4,00,000 to ₹ 7,50,000 annually.",
+      "link": "https://razorpay.com/learn/technical-writing-as-a-career/",
+      "date": "Oct 31, 2022"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Engineer Placement Preparation Community - Razorpay",
+      "snippet": "This community helps you spend less time searching and more time preparing—so you can focus on getting placed. Perfect For. B.Tech Students. MCA Students.",
+      "link": "https://pages.razorpay.com/codestudio01",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Job Search Workshop: Sahaj Bana - Razorpay",
+      "snippet": "Job Search workshop by Sahaj Bana. TIMING: 8 PM - 10 PM. What You Will Learn Over 3 Value-Packed Days? The Job Search workshop has a total of 3 modules.",
+      "link": "https://pages.razorpay.com/pl_JpHXFKscdy56De/view",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "9 Methods of Recruitment Nobody Told You - RazorpayX Payroll",
+      "snippet": "1. Internal Recruitment. Internal job posting is the most effective way to fill job vacancies. The most crucial benefit of this recruitment ...",
+      "link": "https://razorpay.com/payroll/learn/methods-of-recruitment/",
+      "date": "Feb 21, 2023"
+    }
+  ]
+}

@@ -1,12 +1,11 @@
 # Rejected results
 
-_34 of 68 result(s) thrown away._
+_30 of 66 result(s) thrown away._
 
 ## Why
 
-- no company name found in the result: 31 (46%)
+- no company name found in the result: 28 (42%)
 - sells campus-hiring or recruitment software: 2 (3%)
-- on the exclude list: 1 (1%)
 
 > If 'sells campus-hiring or recruitment software' is the biggest bucket, the query list is the problem, not the filters. Vendors publish far more campus-hiring content than buyers do, so they win on any keyword a buyer would also use. Rewrite QUERY_TEMPLATES toward wording only a hiring company would produce.
 
@@ -21,9 +20,6 @@ _34 of 68 result(s) thrown away._
 - **(unknown)** — no company name found in the result
   - Campus Recruitment Jobs - Placement India
   - https://www.placementindia.com/job-search/campus-recruitment-jobs.htm
-- **Join Yen from HCLTech Vietnam's Campus** — on the exclude list (hcl)
-  - Join Yen from HCLTech Vietnam's Campus Hiring team as she ...
-  - https://www.facebook.com/HCLTechOfficial/posts/-join-yen-from-hcltech-vietnams-campus-hiring-team-as-she-takes-you-through-her-/1500003965507179/
 - **(unknown)** — no company name found in the result
   - *Interested candidates have to fill up the Google form (Attached ...
   - https://www.facebook.com/groups/1378988842314172/posts/4402803839932642/
@@ -49,31 +45,25 @@ _34 of 68 result(s) thrown away._
   - Freshershunt - Off Campus Drive Updates – Telegram
   - https://t.me/s/freshershunt?after=279
 - **(unknown)** — no company name found in the result
-  - Qualcomm Recruitment 2026 | Freshers Hiring! Dreaming of starting ...
-  - https://www.facebook.com/61590984976508/posts/-qualcomm-recruitment-2026-freshers-hiringdreaming-of-starting-your-career-at-qu/122107189845366165/
-- **(unknown)** — no company name found in the result
   - 216 Campus Recruiter jobs in India - LinkedIn
   - https://in.linkedin.com/jobs/campus-recruiter-jobs
 - **(unknown)** — no company name found in the result
   - 893 Campus Recruiter jobs in Bengaluru - LinkedIn
   - https://in.linkedin.com/jobs/campus-recruiter-jobs-bengaluru
 - **(unknown)** — no company name found in the result
-  - Campus Recruiter at HireRight — Bengaluru, Karnataka, India
-  - https://in.linkedin.com/jobs/view/campus-recruiter-at-hireright-4368108707
-- **(unknown)** — no company name found in the result
-  - Hr Campus Recruiter Jobs in India (3,000+ Open Roles) | LinkedIn
-  - https://in.linkedin.com/jobs/hr-campus-recruiter-jobs
+  - Campus Recruiter Jobs in Gurgaon (50 Open Roles) | LinkedIn
+  - https://in.linkedin.com/jobs/campus-recruiter-jobs-gurgaon
 - **(unknown)** — no company name found in the result
   - 1,000+ Admissions Recruiter jobs in India - LinkedIn
   - https://in.linkedin.com/jobs/admissions-recruiter-jobs
 - **(unknown)** — no company name found in the result
-  - Multi India Recruiter Jobs in India (1,000+ Open Roles) | LinkedIn
-  - https://in.linkedin.com/jobs/multi-india-recruiter-jobs?trk=jobs_jserp_pagination_4&start=0&count=25
+  - Campus Recruiter at HireRight — Bengaluru, Karnataka, India
+  - https://in.linkedin.com/jobs/view/campus-recruiter-at-hireright-4368108707
 - **(unknown)** — no company name found in the result
-  - Campus Recruiter at Hike Education — Gurugram, Haryana, India
-  - https://in.linkedin.com/jobs/view/campus-recruiter-at-hike-education-4462296532
+  - 1,000+ Resource Recruiter jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/resource-recruiter-jobs
 - **(unknown)** — no company name found in the result
-  - Off Campus Jobs in India (61 Open Roles) - LinkedIn
+  - Off Campus Jobs in India (59 Open Roles) - LinkedIn
   - https://in.linkedin.com/jobs/off-campus-jobs
 - **(unknown)** — no company name found in the result
   - 18 Be B Tech Fresher Associate Engineer jobs in India - LinkedIn
@@ -97,20 +87,17 @@ _34 of 68 result(s) thrown away._
   - 30,000+ Business Programmer Analyst jobs in India - LinkedIn
   - https://in.linkedin.com/jobs/business-programmer-analyst-jobs?trk=jobs_jserp_pagination_4&start=0&count=25
 - **(unknown)** — no company name found in the result
-  - 31,000+ Microsoft Network Programmer jobs in India - LinkedIn
-  - https://in.linkedin.com/jobs/microsoft-network-programmer-jobs
-- **(unknown)** — no company name found in the result
   - 1,000+ Summer Internship jobs in India - LinkedIn
   - https://in.linkedin.com/jobs/summer-internship-jobs
+- **(unknown)** — no company name found in the result
+  - 31,000+ Microsoft Network Programmer jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/microsoft-network-programmer-jobs
 - **(unknown)** — no company name found in the result
   - Pool Campus Drive | JADE Global We are pleased to ...
   - https://www.facebook.com/sageuniversityindore/posts/pool-campus-drive-jade-globalwe-are-pleased-to-announce-a-pool-campus-recruitmen/1458226816306610/
 - **(unknown)** — no company name found in the result
-  - News Details - Delhi University
-  - https://www.du.ac.in/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=17208&cntnt01returnid=219
-- **(unknown)** — no company name found in the result
-  - Freshershunt - Off Campus Drive Updates
-  - https://t.me/s/freshershunt?before=175
-- **(unknown)** — no company name found in the result
   - Freshershunt - Off Campus Drive Updates
   - https://telegram.me/s/freshershunt/20792?q=%23job
+- **(unknown)** — no company name found in the result
+  - Join us at the virtual recruitment drive on ...
+  - https://www.facebook.com/AdvancedTechnologyConsultingService/posts/join-us-at-the-virtual-recruitment-drive-on-tuesday-15th-february-2022-the-acces/4997400650298398/

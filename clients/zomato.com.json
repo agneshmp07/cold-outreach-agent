@@ -1,0 +1,23 @@
+{
+  "domain": "zomato.com",
+  "name": "Zomato",
+  "one_liner": "Zomato connects consumers with local restaurants and delivery partners for food ordering, while offering ingredient supply chain services to restaurant businesses.",
+  "what_you_sell": "Food ordering and delivery platform services, B2B restaurant supply chain solutions (Hyperpure), quick-commerce grocery delivery (Blinkit), and entertainment/dining experience bookings (District).",
+  "who_buys_it": "Consumers ordering food or groceries online, and restaurant owners seeking online order delivery networks and raw material sourcing.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [
+    "hhgvgv"
+  ],
+  "verified_assets": [],
+  "icp_file": "context/icp-zomato.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims to service 300,000+ restaurants across 800+ cities",
+    "Claims to have 27 million+ monthly active app customers",
+    "Claims 600,000+ delivery partners earn their livelihood through the platform",
+    "Claims over 3 billion+ total orders delivered",
+    "Claims 20,000+ partner restaurants offer up to 30% extra off under the Gold program"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

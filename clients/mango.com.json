@@ -1,0 +1,20 @@
+{
+  "domain": "mango.com",
+  "name": "Mango",
+  "one_liner": "Mango designs and sells fashion apparel online and through retail stores.",
+  "what_you_sell": "Fashion apparel, clothing collections, and store franchise opportunities.",
+  "who_buys_it": "Individual retail shoppers looking for fashion clothing, and business operators seeking retail franchise partnerships.",
+  "sender": "",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-mango.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": false,
+  "_claims_to_check": [
+    "Implies over 3.1 billion euros in revenue",
+    "Implies over 2,700 points of sale worldwide",
+    "Implies 33% of total sales originate from online channels",
+    "Implies more than 35 years of history in fashion design"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

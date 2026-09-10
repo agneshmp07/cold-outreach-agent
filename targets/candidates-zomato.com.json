@@ -1,0 +1,22 @@
+{
+  "client": "Zomato",
+  "client_domain": "zomato.com",
+  "min_score": 5,
+  "resolved": true,
+  "queries": [
+    "\"now open\" \"cloud kitchen\" \"home delivery\" \"Bangalore\" OR \"Delhi\" OR \"Mumbai\"",
+    "\"Purchase Manager\" OR \"Procurement Manager\" \"restaurant\" OR \"cloud kitchen\" \"ingredients\" site:linkedin.com/jobs",
+    "\"for home delivery call\" \"menu\" restaurant site:.in -zomato -swiggy",
+    "\"newly opened\" \"cafe\" OR \"restaurant\" \"accepting delivery orders\" site:instagram.com",
+    "\"kitchen manager\" \"inventory\" \"raw materials\" \"cloud kitchen\" site:naukri.com",
+    "\"looking for reliable suppliers\" OR \"vegetable vendor\" \"restaurant\" OR \"kitchen\" India"
+  ],
+  "note": "These queries surface newly opened Indian restaurants/cloud kitchens, businesses hiring for raw ingredient procurement, and eateries attempting manual home delivery without structured platform partnerships.",
+  "results_seen": 51,
+  "rejected_count": 49,
+  "rejection_reasons": {
+    "not a company - a host, a form link or a social post": 29,
+    "no signal in the snippet": 20
+  },
+  "candidates": []
+}

@@ -2,12 +2,11 @@
   "min_score": 5,
   "resolved": true,
   "signal": "campus-hiring post collecting resumes via Google Form or personal email",
-  "results_seen": 68,
-  "rejected_count": 34,
+  "results_seen": 66,
+  "rejected_count": 30,
   "rejection_reasons": {
     "sells campus-hiring or recruitment software": 2,
-    "no company name found in the result": 31,
-    "on the exclude list": 1
+    "no company name found in the result": 28
   },
   "candidates": [
     {
@@ -25,7 +24,7 @@
       "link": "https://www.instagram.com/reel/DcRIN6PIH22/",
       "date": "Aug 20, 2026",
       "query": "\"campus hiring\" India \"docs.google.com/forms\" resume freshers",
-      "hits": 12
+      "hits": 11
     },
     {
       "company": "Google",
@@ -45,6 +44,23 @@
       "hits": 5
     },
     {
+      "company": "Edu",
+      "domain": "edu.in",
+      "score": 7,
+      "name_from": "own-site",
+      "evidence": [
+        "collects resumes via a Google Form",
+        "campus or fresher hiring language",
+        "drive or bulk hiring language"
+      ],
+      "title": "Apply for the post of Assistant professor",
+      "snippet": "Fill Google Form (Mandatory) --> Click Here. Updated Resume. Qualification ... Placement News!!! Aurionpro Placement Drive. Tap to unmute. Your browser can ...",
+      "link": "https://www.apsit.edu.in/apply",
+      "date": "",
+      "query": "\"placement drive\" 2026 batch engineering \"google form\" company hiring",
+      "hits": 2
+    },
+    {
       "company": "Scribd",
       "domain": "scribd.com",
       "score": 7,
@@ -54,16 +70,16 @@
         "campus or fresher hiring language",
         "drive or bulk hiring language"
       ],
-      "title": "Google Recruitment for B.Tech CS/IT 2025 | PDF | Computing",
-      "snippet": "who alrady filled the google form for this they also have to register at below given link. ... SPCET Campus Placement Drive 2025-26. 2 pages. Vodafone Idea ...",
-      "link": "https://www.scribd.com/document/797946441/Google-Incoporation-Placement-Notice-2025-batch",
+      "title": "Accenture Campus Recruitment 2026 Registration | PDF",
+      "snippet": "Adhere to the instructions mentioned in google form. Eligibility Criteria ... MWIDM Placement Drive for Students. 2 pages. HR & Digital Media Internship ...",
+      "link": "https://www.scribd.com/document/982470138/Accenture",
       "date": "",
       "query": "\"placement drive\" 2026 batch engineering \"google form\" company hiring",
       "hits": 2
     },
     {
-      "company": "Punjabiuniversity",
-      "domain": "punjabiuniversity.ac.in",
+      "company": "Forms",
+      "domain": "forms.gle",
       "score": 7,
       "name_from": "own-site",
       "evidence": [
@@ -71,10 +87,10 @@
         "campus or fresher hiring language",
         "drive or bulk hiring language"
       ],
-      "title": "The mission of the Placement Cell is to enhance ...",
-      "snippet": "ON CAMPUS PLACEMENT DRIVE FOR BATCH 2021 AND BATCH 2022 BY UNSCHOOL ... Click here to view the Company's Details and Job profile. Registration Google Form ...",
-      "link": "https://punjabiuniversity.ac.in/placement/e_Notice_Board.htm",
-      "date": "",
+      "title": "Wipro Off-Campus Placement Drive",
+      "snippet": "... Google Form Link : https://forms.gle/vLigJcweRnteYHiA9 At ... Wipro Off-Campus Placement Drive | Your Gateway to a Successful Tech Career ...",
+      "link": "https://forms.gle/vLigJcweRnteYH",
+      "date": "2 months ago",
       "query": "\"placement drive\" 2026 batch engineering \"google form\" company hiring",
       "hits": 1
     },
@@ -143,7 +159,24 @@
       "date": "Aug 7, 2026",
       "query": "\"campus recruiter\" OR \"campus hiring\" jobs India \"forms.gle\"",
       "hits": 1,
-      "domain_source": "https://www.campusshoes.com/"
+      "domain_source": "https://www.campusshoes.com/?srsltid=AfmBOooTmPkp4cASUT0icC1CK97SyXkCsLaHctk4eDh8pCKPpAQTY_7q"
+    },
+    {
+      "company": "Mass",
+      "domain": "massindia.co",
+      "score": 6,
+      "name_from": "title",
+      "evidence": [
+        "resumes to a personal address (gmail.com)",
+        "campus or fresher hiring language"
+      ],
+      "title": "Mass Hiring Day at Hindustan Engineering College A great ...",
+      "snippet": "*Send to*: Hrdepartjob@gmail.com 3. *Receive Your Offer Letter ... Ltd.\" is conducting campus recruitment Note: Students should be in ...",
+      "link": "https://www.facebook.com/61558923910788/posts/mass-hiring-day-at-hindustan-engineering-collegea-great-opportunity-for-final-ye/122232515540297463/",
+      "date": "Aug 29, 2026",
+      "query": "\"campus recruitment\" India send resume \"@gmail.com\" engineering freshers",
+      "hits": 1,
+      "domain_source": "https://www.massindia.co/"
     },
     {
       "company": "Riya Chandra's Post - Urban Company- Campus",

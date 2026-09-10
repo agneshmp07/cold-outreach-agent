@@ -1,0 +1,19 @@
+{
+  "domain": "blinkit.com",
+  "name": "Blinkit",
+  "one_liner": "Blinkit delivers groceries and daily essentials from nearby stores to urban consumers in 8 minutes.",
+  "what_you_sell": "On-demand doorstep delivery of groceries, snacks, and household essentials.",
+  "who_buys_it": "Individual consumer households needing quick-commerce delivery of daily groceries and household items.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-blinkit.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims delivery in 8 minutes.",
+    "Claims a product catalog of 30,000+ items.",
+    "Claims all job applications are only accepted via employee referrals."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

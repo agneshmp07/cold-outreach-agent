@@ -1,31 +1,25 @@
 """
-find_targets.py - step 0 of the MNGO outreach pipeline.
+find_targets.py - sourcing.
 
-Finds companies that show the buying signal from context/icp.md, rather than
-starting from a list of company names you already thought of. The signal that
-survived grading:
+    python find_targets.py <client-domain>
+    python find_targets.py mngo.in --resolve
 
-    a campus-hiring job post that collects resumes through a Google Form or a
-    personal email address
+Finds companies that show the buying signals in THAT CLIENT's ICP, rather than
+starting from a list of company names you already thought of.
 
-That is visible from outside, and it is diagnostic: a company running structured
-campus hiring at volume does not collect CVs on forms.gle. A company that does
-is coordinating by hand.
+The searches are built from the ICP at run time, by one Gemini call. That is the
+only honest way to make this general: one client's signal is a campus job post
+collecting resumes on a Google Form, another's is a restaurant chain advertising
+delivery roles. Hardcoded queries would find the first client's signal no matter
+whose ICP was loaded - which is exactly the bug this version fixes.
 
-What this does NOT do: it does not confirm the company is in the ICP. It finds a
-signal and scores it. Staffing agencies and rival campus-hiring platforms show
-the same signal and are not buyers - they are filtered, but read the list anyway.
+What this does NOT do: it does not confirm a company is in the ICP. It finds a
+signal and scores it. Run check_fit.py on anything you pick.
 
 Output:
-    targets/candidates.json
-    targets/candidates.md
-    targets/rejected.md     - everything thrown away, and why
-
-Usage:
-    python find_targets.py
-    python find_targets.py --min-score 6
-    python find_targets.py --resolve          # look up each company's domain
-    python find_targets.py --limit 40
+    targets/candidates-<client>.json
+    targets/candidates-<client>.md
+    targets/rejected-<client>.md     - everything thrown away, and why
 
 Nothing is contacted. This script only writes files.
 """
@@ -41,35 +35,23 @@ from urllib.parse import urlparse
 
 import requests
 
-from triggers import die  # also loads .env
+from generate import load_client
+from resolve import NOT_A_COMPANY
+from triggers import MODEL, ask_gemini, die, genai
 
 BASE_DIR = Path(__file__).resolve().parent
-CONTEXT_DIR = BASE_DIR / "context"
 OUT_DIR = BASE_DIR / "targets"
-EXCLUDE_PATH = CONTEXT_DIR / "exclude.txt"
 
 SERPER_URL = "https://google.serper.dev/search"
 RESULTS_PER_QUERY = 10
 DEFAULT_MIN_SCORE = 5
 REQUEST_PAUSE_SECONDS = 1.0
+MAX_QUERIES = 7
 
-# ---------------------------------------------------------------------------
-# The searches. Each one hunts the same signal from a different angle.
-# Edit these freely - they are the cheapest thing in the pipeline to change.
-# No company names here. Company names live in context/, per the ICP file.
-# ---------------------------------------------------------------------------
-QUERY_TEMPLATES = [
-    '"campus recruiter" OR "campus hiring" jobs India "forms.gle"',
-    '"campus hiring" India "docs.google.com/forms" resume freshers',
-    '"campus recruitment" India send resume "@gmail.com" engineering freshers',
-    'site:linkedin.com/jobs "campus recruiter" India',
-    'site:linkedin.com/jobs "campus hiring" freshers India engineering',
-    '"placement drive" 2026 batch engineering "google form" company hiring',
-    '"campus drive" India IT services freshers "share your resume at"',
-]
-
-# Sites that host the posts. The company is named in the title or snippet, not
-# in the URL, so these are never treated as the target themselves.
+# Sites that HOST posts rather than being the employer. The company is named in
+# the title, not the URL. Treating the host as the company is what produced
+# candidates called "Instagram", "Forms" and "Scribd" - the domain of the thing
+# the signal MENTIONS, not the company that has the problem.
 AGGREGATOR_DOMAINS = {
     "linkedin.com", "naukri.com", "indeed.com", "indeed.co.in", "glassdoor.com",
     "glassdoor.co.in", "ambitionbox.com", "shine.com", "monsterindia.com",
@@ -77,48 +59,52 @@ AGGREGATOR_DOMAINS = {
     "instahyre.com", "apna.co", "workindia.in", "freshersworld.com",
     "placementindia.com", "youtube.com", "facebook.com", "x.com", "twitter.com",
     "reddit.com", "quora.com", "telegram.me", "t.me", "medium.com",
+    "instagram.com", "scribd.com", "slideshare.net", "issuu.com", "pinterest.com",
+    "jobstreet.com", "simplyhired.com", "glassdoor.co.uk", "wellfound.com",
 }
 
+# Infrastructure the signal points AT: form hosts, link shorteners, mail
+# providers, generic TLD landing pages. Never a target company.
+INFRA_DOMAINS = {
+    "forms.gle", "docs.google.com", "google.com", "drive.google.com",
+    "forms.office.com", "office.com", "microsoft.com", "typeform.com",
+    "airtable.com", "jotform.com", "surveymonkey.com", "gmail.com",
+    "googlemail.com", "yahoo.com", "outlook.com", "hotmail.com",
+    "bit.ly", "tinyurl.com", "lnkd.in", "wa.me", "whatsapp.com",
+    "chat.whatsapp.com", "edu.in", "ac.in", "gov.in", "co.in", "org.in",
+    "zoom.us", "calendly.com", "notion.so", "canva.com", "dropbox.com",
+}
+
+BLOCKED_AS_COMPANY = AGGREGATOR_DOMAINS | INFRA_DOMAINS | NOT_A_COMPANY
+
 # Words that mark a result as a recruiter or agency rather than a company that
-# hires for itself. These are not your buyer.
+# hires or buys for itself.
 AGENCY_MARKERS = re.compile(
     r"\b(staffing|manpower|consultanc|consultants?|recruit(ers?|ment) (agency|services|firm|partners?)"
     r"|placement (agency|consultan|services)|hr solutions|talent solutions|rpo"
     r"|outsourc|hiring partner)\b", re.I)
 
-# Companies that SELL campus-hiring software. They are the reason this filter
-# exists at all: a vendor writes about campus hiring far more than a buyer does,
-# publishes blog posts stuffed with these exact keywords, and advertises sales
-# roles that mention campus drives. They outrank real buyers on every query in
-# the list above. They are competitors, not prospects.
-VENDOR_MARKERS = re.compile(
-    r"\b(placement (platform|software|portal|automation|management system)"
-    r"|campus (hiring|recruitment|recruiting|placement) "
-    r"(platform|software|solution|automation|suite|tool|portal|system)"
-    r"|university recruit(ing|ment) platform"
-    r"|recruitment (platform|software|automation|management system)"
-    r"|hiring (platform|software|automation)"
-    r"|applicant tracking|\bats\b|\bhrms\b|\bhcm\b"
-    r"|assessment platform|coding assessment|proctoring"
-    r"|job (portal|board)|talent (platform|marketplace|cloud)"
-    r"|edtech|upskilling platform|hackathon platform)\b", re.I)
+# Companies that SELL what the client sells. A vendor writes about the problem
+# far more than a sufferer does, and outranks real buyers on every keyword.
+# The category words come from the client's own description at run time.
+VENDOR_SUFFIXES = (r"platform|software|solution|automation|suite|tool|portal"
+                   r"|system|saas|app|service provider|vendor")
 
-FORM_MARKERS = re.compile(r"forms\.gle|docs\.google\.com/forms|google form", re.I)
-PERSONAL_EMAIL = re.compile(
-    r"[\w.+-]+@(gmail|yahoo|outlook|hotmail|rediffmail|ymail)\.(com|co\.in|in)", re.I)
-CAMPUS_TERMS = re.compile(r"\b(campus|fresher|final year|placement|batch \d{4}|\d{4} batch)\b", re.I)
-VOLUME_TERMS = re.compile(r"\b(drive|bulk|walk-?in|multiple colleges|pan[- ]india)\b", re.I)
+# Company names that are really page titles.
+POST_MARKERS = re.compile(r"('s post\b|\bposted\b|\bshared\b|\bcomments? on\b"
+                          r"|\blikes? this\b|\bon linkedin\b)", re.I)
 
-# Title shapes that name the employer.
 COMPANY_FROM_TITLE = [
-    re.compile(r"^(.{2,60}?)\s+hiring\s", re.I),                 # "Acme hiring Campus Recruiter..."
-    re.compile(r"\bat\s+([A-Z][\w&.\- ]{2,50}?)\s*(?:\||-|,|$)"),  # "... at Acme | LinkedIn"
+    re.compile(r"^(.{2,60}?)\s+hiring\s", re.I),
+    re.compile(r"\bat\s+([A-Z][\w&.\- ]{2,50}?)\s*(?:\||-|,|$)"),
     re.compile(r"\bjobs?\s+in\s+([A-Z][\w&.\- ]{2,50}?)\s*(?:\||-|,|$)", re.I),
 ]
 
 TITLE_NOISE = re.compile(
     r"\b(linkedin|naukri|indeed|glassdoor|jobs?|careers?|hiring|vacanc|apply|india|"
-    r"bengaluru|bangalore|mumbai|pune|hyderabad|chennai|delhi|noida|gurgaon|remote)\b", re.I)
+    r"forms?|google|drive|post|profile|page|home|welcome|login|sign ?in|"
+    r"bengaluru|bangalore|mumbai|pune|hyderabad|chennai|delhi|noida|gurgaon|remote)\b",
+    re.I)
 
 
 # ------------------------------------------------------------------ arguments
@@ -126,6 +112,7 @@ TITLE_NOISE = re.compile(
 def parse_args(argv):
     args = list(argv[1:])
     opts = {"min_score": DEFAULT_MIN_SCORE, "resolve": False, "limit": 0}
+    positional = []
 
     i = 0
     while i < len(args):
@@ -141,38 +128,94 @@ def parse_args(argv):
                 sys.exit(f"{arg} needs a number, got {args[i + 1]!r}.")
             opts["min_score" if arg == "--min-score" else "limit"] = value
             i += 1
+        elif arg.startswith("--"):
+            sys.exit(f"Unknown option {arg!r}.")
         else:
-            sys.exit(f"Unknown option {arg!r}. "
-                     f"Usage: python {Path(__file__).name} "
-                     f"[--min-score N] [--limit N] [--resolve]")
+            positional.append(arg)
         i += 1
+
+    if len(positional) != 1:
+        sys.exit(f"Usage: python {Path(__file__).name} <client-domain> "
+                 f"[--min-score N] [--limit N] [--resolve]\n"
+                 f"Example: python {Path(__file__).name} mngo.in --resolve")
+    opts["client"] = positional[0]
     return opts
 
 
-# -------------------------------------------------------------------- excludes
+# --------------------------------------------------------- searches from ICP
 
-def load_excludes():
-    """
-    Company names to skip, one per line, from context/exclude.txt.
+def load_icp(client):
+    rel = str(client.get("icp_file") or "").strip()
+    if not rel:
+        die(f"{client['_path']} has no \"icp_file\".")
+    path = BASE_DIR / rel
+    if not path.exists():
+        die(f"No ICP at {path}. Run:  python profile.py {client['_slug']}")
+    text = path.read_text(encoding="utf-8").strip()
+    if len(text) < 100:
+        die(f"{path} is nearly empty. Fill it in before sourcing targets.")
+    return text, path
 
-    Kept in context/ rather than in this file on purpose. The ICP file says no
-    company name belongs in a prompt or a script - the day you point this at a
-    different product, a hardcoded list would quietly keep filtering the wrong
-    companies without erroring.
-    """
-    CONTEXT_DIR.mkdir(parents=True, exist_ok=True)
-    if not EXCLUDE_PATH.exists():
-        EXCLUDE_PATH.write_text(
-            "# One company name per line. Lines starting with # are ignored.\n"
-            "# Seeded from the 'Who does NOT fit' table in context/icp.md,\n"
-            "# plus competitors - other campus placement platforms.\n"
-            "TCS\nTata Consultancy\nInfosys\nWipro\nHCL\nCognizant\nAccenture\n"
-            "Capgemini\nTech Mahindra\nLTIMindtree\nRazorpay\n"
-            "Superset\njoinsuperset\nGreat Learning\n",
-            encoding="utf-8")
-        print(f"Created {EXCLUDE_PATH} - edit it to add companies to skip.")
+
+def build_query_prompt(client, icp_text):
+    return f"""You write web search queries that find COMPANIES WITH A PROBLEM.
+
+WHO IS SELLING: {client['name']} - {client['one_liner']}
+WHAT THEY SELL: {client.get('what_you_sell') or client['one_liner']}
+WHO BUYS IT: {client.get('who_buys_it') or 'not stated'}
+
+THEIR ICP, including the buying signals that survived grading:
+---
+{icp_text}
+---
+
+Write up to {MAX_QUERIES} Google search queries that would surface companies
+showing those buying signals RIGHT NOW.
+
+Rules:
+1. Each query hunts a SIGNAL, not a category. "companies that need X" finds
+   nothing. A query that finds the visible evidence of the problem finds real
+   companies.
+2. Use the exact strings a sufferer would publish - the wording that appears on
+   their job post, their careers page, their listing. Quote distinctive phrases.
+3. Do NOT write queries that surface companies SELLING this product. Vendors
+   publish far more about the problem than sufferers do and will drown the
+   results. Avoid words like {VENDOR_SUFFIXES}.
+4. Vary the angle across queries: a job board, the company's own site, a review
+   site, a press item. Do not write seven versions of one query.
+5. Include a geography only if the ICP names one.
+6. If a buying signal in the ICP is not findable through a web search, skip it
+   rather than writing a query that will return noise.
+
+Reply with JSON only:
+{{"queries": ["string", "string"], "note": "one sentence on what these will and will not find"}}"""
+
+
+def get_queries(api, client, icp_text):
+    raw = ask_gemini(api, build_query_prompt(client, icp_text))
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        die("The model did not return usable search queries. Try again.")
+    queries = [str(q).strip() for q in (data.get("queries") or []) if str(q).strip()]
+    if not queries:
+        die(f"No searchable signal could be built from {client['_slug']}'s ICP.\n"
+            f"Usually this means the buying signals are not visible from outside "
+            f"a company. Open the ICP and rewrite them, or name targets yourself.")
+    return queries[:MAX_QUERIES], str(data.get("note") or "").strip()
+
+
+def load_excludes(client):
+    rel = str(client.get("exclude_file") or "context/exclude.txt").strip()
+    path = BASE_DIR / rel
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("# One company name per line. Lines starting with # are "
+                        "ignored.\n# Companies to never surface as targets.\n",
+                        encoding="utf-8")
+        print(f"Created {path} - add companies to skip, one per line.")
     names = []
-    for line in EXCLUDE_PATH.read_text(encoding="utf-8").splitlines():
+    for line in path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if line and not line.startswith("#"):
             names.append(line.lower())
@@ -182,12 +225,11 @@ def load_excludes():
 # --------------------------------------------------------------------- search
 
 def serper_search(api_key, query, num=RESULTS_PER_QUERY):
-    """One Serper call. Network problems warn and return nothing, never crash."""
     try:
         response = requests.post(
             SERPER_URL,
             headers={"X-API-KEY": api_key, "Content-Type": "application/json"},
-            json={"q": query, "num": num, "gl": "in", "hl": "en"},
+            json={"q": query, "num": num},
             timeout=30,
         )
     except requests.RequestException as exc:
@@ -225,13 +267,25 @@ def registrable_domain(url):
     return ".".join(parts[-2:]) if len(parts) >= 2 else host
 
 
+def blocked_host(domain):
+    """Is this domain a host, an aggregator or infrastructure rather than a company?"""
+    if not domain:
+        return True
+    if domain in BLOCKED_AS_COMPANY:
+        return True
+    # forms.gle style: the registrable domain is itself a bare public suffix
+    if domain.count(".") == 1 and domain.split(".")[0] in (
+            "edu", "ac", "gov", "co", "org", "net", "forms", "docs", "drive"):
+        return True
+    return False
+
+
 def clean_company(name):
     name = re.sub(r"\s+", " ", name or "").strip(" -|,·:")
     name = re.sub(r"\b(pvt\.?|private|ltd\.?|limited|inc\.?|llp)\b", "", name, flags=re.I)
     name = re.sub(r"\s+", " ", name).strip(" -|,·:")
     if len(name) < 3 or len(name) > 50:
         return ""
-    # A "company name" made only of job-board words is not a company name.
     residue = TITLE_NOISE.sub("", name).strip(" -|,·:")
     if len(residue) < 3:
         return ""
@@ -242,16 +296,20 @@ def extract_company(result):
     """
     Work out who the employer is.
 
-    For an aggregator URL the company is in the title. For a company's own
-    careers page the domain is the company. Returns (name, source, domain) where
-    source says which route was used, so you can distrust the weaker one.
+    A result hosted on a job board, a form service or a social site is never the
+    company - the company is named in the title. Only a company's OWN site lets
+    the domain stand in for the name.
     """
     link = result.get("link") or ""
     domain = registrable_domain(link)
     title = result.get("title") or ""
 
-    if domain and domain not in AGGREGATOR_DOMAINS:
-        return clean_company(domain.split(".")[0].replace("-", " ").title()) or "", "own-site", domain
+    if POST_MARKERS.search(title):
+        return "", "post", ""
+
+    if not blocked_host(domain):
+        return clean_company(domain.split(".")[0].replace("-", " ").title()) or "", \
+               "own-site", domain
 
     for pattern in COMPANY_FROM_TITLE:
         match = pattern.search(title)
@@ -262,47 +320,62 @@ def extract_company(result):
     return "", "unknown", ""
 
 
-def score_result(result):
+def build_signal_patterns(icp_text):
     """
-    How strongly does this result show the signal?
+    Pull the distinctive words out of the ICP's buying-signal rows.
 
-    Weighted so that the two hard markers - a form link or a personal email -
-    carry the result on their own, and the softer campus wording only tops up.
+    Crude on purpose: the point is to score a result higher when it echoes the
+    client's own signal wording, without needing to understand the industry.
     """
-    text = f"{result.get('title', '')} {result.get('snippet', '')}"
+    signals = []
+    in_section = False
+    for line in icp_text.splitlines():
+        stripped = line.strip().lower()
+        if stripped.startswith("## buying signal"):
+            in_section = True
+            continue
+        if in_section and stripped.startswith("##"):
+            break
+        if in_section and stripped.startswith("|") and "---" not in stripped:
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if cells and cells[0] and cells[0].lower() != "signal":
+                signals.append(cells[0])
+    return signals
+
+
+def score_result(result, signals):
+    """How strongly does this result echo the client's buying signals?"""
+    text = f"{result.get('title', '')} {result.get('snippet', '')}".lower()
     score = 0
     evidence = []
 
-    if FORM_MARKERS.search(text):
-        score += 4
-        evidence.append("collects resumes via a Google Form")
-    email = PERSONAL_EMAIL.search(text)
-    if email:
-        score += 4
-        evidence.append(f"resumes to a personal address ({email.group(0).split('@')[1]})")
-    if CAMPUS_TERMS.search(text):
-        score += 2
-        evidence.append("campus or fresher hiring language")
-    if VOLUME_TERMS.search(text):
-        score += 1
-        evidence.append("drive or bulk hiring language")
+    for signal in signals:
+        words = [w for w in re.findall(r"[a-z]{4,}", signal.lower())
+                 if w not in ("that", "with", "from", "this", "their", "your",
+                              "collect", "collects", "would", "where", "outside")]
+        if not words:
+            continue
+        hits = sum(1 for w in set(words) if w in text)
+        if hits >= max(2, len(set(words)) // 3):
+            score += 4
+            evidence.append(signal[:90])
 
-    return score, evidence
+    # A concrete artifact in the snippet is worth more than matching words.
+    if re.search(r"forms\.gle|docs\.google\.com/forms|google form|spreadsheet", text):
+        score += 3
+        evidence.append("points at a form or spreadsheet")
+    if re.search(r"[\w.+-]+@(gmail|yahoo|outlook|hotmail|rediffmail)\.", text):
+        score += 3
+        evidence.append("points at a personal email address")
+
+    return min(score, 11), evidence
 
 
-def classify_reject(company, text, excludes):
-    """
-    Decide whether to throw this result away, and say why.
-
-    The reason matters more than the rejection. If most results come back
-    'vendor', the queries are finding people who SELL campus hiring software
-    rather than people who suffer from not having it, and the fix is the query
-    list, not the filters.
-    """
+def classify_reject(company, text, excludes, vendor_pattern):
     if not company:
-        return "no company name found in the result"
-    if VENDOR_MARKERS.search(text):
-        return "sells campus-hiring or recruitment software (competitor, not a buyer)"
+        return "not a company - a host, a form link or a social post"
+    if vendor_pattern and vendor_pattern.search(text):
+        return "sells this kind of product (competitor, not a buyer)"
     if AGENCY_MARKERS.search(text):
         return "staffing or recruitment agency (hires on behalf of others)"
     for name in excludes:
@@ -311,33 +384,33 @@ def classify_reject(company, text, excludes):
     return ""
 
 
-# ------------------------------------------------------------------- resolving
-
-def resolve_domain(api_key, company):
+def build_vendor_pattern(client):
     """
-    Find a company's website with one extra search.
+    Catch companies selling what this client sells.
 
-    Returns the domain and the URL it came from, so the guess is checkable. Never
-    constructs a domain from the name - a guessed domain wastes a scrape and
-    poisons everything downstream.
+    Built from the client's own words plus generic product nouns, so it adapts:
+    a placement-software client filters placement platforms, a logistics client
+    filters logistics platforms.
     """
-    results = serper_search(api_key, f"{company} India official website", num=5)
-    for result in results:
-        domain = registrable_domain(result.get("link") or "")
-        if domain and domain not in AGGREGATOR_DOMAINS:
-            return domain, result.get("link") or ""
-    return "", ""
+    words = re.findall(r"[a-z]{5,}",
+                       f"{client.get('what_you_sell', '')} "
+                       f"{client.get('one_liner', '')}".lower())
+    stop = {"their", "which", "there", "these", "those", "other", "provides",
+            "company", "companies", "system", "manage", "management", "using",
+            "central", "replaces", "dedicated", "single", "across", "about"}
+    keywords = sorted({w for w in words if w not in stop}, key=len, reverse=True)[:8]
+    if not keywords:
+        return None
+    return re.compile(r"\b(" + "|".join(re.escape(k) for k in keywords) + r")\b"
+                      r"[^.]{0,40}\b(" + VENDOR_SUFFIXES + r")\b", re.I)
 
 
 # --------------------------------------------------------------------- output
 
-def collect(api_key, excludes, limit):
-    found = {}
-    rejected = []
-    reasons = Counter()
-    seen_results = 0
+def collect(api_key, queries, signals, excludes, vendor_pattern, limit):
+    found, rejected, reasons, seen_results = {}, [], Counter(), 0
 
-    for query in QUERY_TEMPLATES:
+    for query in queries:
         print(f"searching: {query}")
         results = serper_search(api_key, query)
         seen_results += len(results)
@@ -347,28 +420,21 @@ def collect(api_key, excludes, limit):
             company, source, own_domain = extract_company(result)
             text = f"{company} {result.get('title', '')} {result.get('snippet', '')}"
 
-            reason = classify_reject(company, text, excludes)
+            reason = classify_reject(company, text, excludes, vendor_pattern)
             if reason:
                 reasons[reason.split(" (")[0]] += 1
-                rejected.append({
-                    "company": company or "(unknown)",
-                    "reason": reason,
-                    "title": result.get("title", ""),
-                    "link": result.get("link", ""),
-                    "query": query,
-                })
+                rejected.append({"company": company or "(unknown)", "reason": reason,
+                                 "title": result.get("title", ""),
+                                 "link": result.get("link", ""), "query": query})
                 continue
 
-            score, evidence = score_result(result)
+            score, evidence = score_result(result, signals)
             if score == 0:
                 reasons["no signal in the snippet"] += 1
-                rejected.append({
-                    "company": company,
-                    "reason": "no signal found in the title or snippet",
-                    "title": result.get("title", ""),
-                    "link": result.get("link", ""),
-                    "query": query,
-                })
+                rejected.append({"company": company,
+                                 "reason": "no signal found in the title or snippet",
+                                 "title": result.get("title", ""),
+                                 "link": result.get("link", ""), "query": query})
                 continue
 
             key = company.lower()
@@ -378,36 +444,43 @@ def collect(api_key, excludes, limit):
                 continue
 
             found[key] = {
-                "company": company,
-                "domain": own_domain,
-                "score": score,
-                "name_from": source,
-                "evidence": evidence,
-                "title": result.get("title", ""),
-                "snippet": result.get("snippet", ""),
-                "link": result.get("link", ""),
-                "date": result.get("date", ""),
-                "query": query,
-                "hits": (existing["hits"] if existing else 0) + 1,
+                "company": company, "domain": own_domain, "score": score,
+                "name_from": source, "evidence": evidence,
+                "title": result.get("title", ""), "snippet": result.get("snippet", ""),
+                "link": result.get("link", ""), "date": result.get("date", ""),
+                "query": query, "hits": (existing["hits"] if existing else 0) + 1,
             }
         time.sleep(REQUEST_PAUSE_SECONDS)
 
-    candidates = sorted(found.values(), key=lambda c: (-c["score"], -c["hits"], c["company"]))
+    candidates = sorted(found.values(),
+                        key=lambda c: (-c["score"], -c["hits"], c["company"]))
     if limit:
         candidates = candidates[:limit]
     return candidates, rejected, reasons, seen_results
 
 
-def to_markdown(candidates, min_score, resolved):
-    lines = ["# Target candidates", "",
+def resolve_domain(api_key, company):
+    results = serper_search(api_key, f"{company} official website", num=5)
+    for result in results:
+        domain = registrable_domain(result.get("link") or "")
+        if not blocked_host(domain):
+            return domain, result.get("link") or ""
+    return "", ""
+
+
+def to_markdown(client, candidates, min_score, queries, note):
+    lines = [f"# Target candidates for {client['name']}", "",
              f"_{len(candidates)} candidate(s) at or above score {min_score}._", "",
-             "> Sourced from the campus-hiring signal in `context/icp.md`. A high score "
-             "means the signal is present, not that the company is in the ICP. Check "
-             "size and segment yourself before running `scrape.py`.", ""]
+             "> Sourced from the buying signals in this client's ICP. A high score "
+             "means the signal is present, not that the company fits the ICP. Run "
+             "check_fit.py before researching one.", ""]
+    if note:
+        lines += [f"_{note}_", ""]
+    lines += ["## Searches used", ""] + [f"- `{q}`" for q in queries] + [""]
+
     for i, c in enumerate(candidates, start=1):
         lines += [f"## {i}. {c['company']}  ·  {c['score']}/11",
-                  f"- Domain: {c['domain'] or '_not resolved_'}"
-                  + ("" if resolved or c["domain"] else "  (run with --resolve)"),
+                  f"- Domain: {c['domain'] or '_not resolved_'}",
                   f"- Name taken from: {c['name_from']}",
                   f"- Seen in {c['hits']} result(s)"]
         for item in c["evidence"]:
@@ -421,13 +494,6 @@ def to_markdown(candidates, min_score, resolved):
 
 
 def rejected_markdown(rejected, reasons, seen_results):
-    """
-    Everything thrown away, and why.
-
-    Read the counts before the list. They tell you whether the queries are
-    working: mostly 'vendor' means you are searching the words that vendors
-    market with, and no filter will fix that - the queries have to change.
-    """
     lines = ["# Rejected results", "",
              f"_{len(rejected)} of {seen_results} result(s) thrown away._", "",
              "## Why", ""]
@@ -435,37 +501,37 @@ def rejected_markdown(rejected, reasons, seen_results):
         share = (count / seen_results * 100) if seen_results else 0
         lines.append(f"- {reason}: {count} ({share:.0f}%)")
     lines += ["",
-              "> If 'sells campus-hiring or recruitment software' is the biggest "
-              "bucket, the query list is the problem, not the filters. Vendors "
-              "publish far more campus-hiring content than buyers do, so they win "
-              "on any keyword a buyer would also use. Rewrite QUERY_TEMPLATES "
-              "toward wording only a hiring company would produce.", "",
+              "> If 'sells this kind of product' is the biggest bucket, the "
+              "queries are finding vendors rather than sufferers. If 'not a "
+              "company' is, the signal points at infrastructure - a form host, a "
+              "social post - and the query needs to name the employer's context "
+              "instead.", "",
               "## What was thrown away", ""]
     for r in rejected:
         lines += [f"- **{r['company']}** — {r['reason']}",
-                  f"  - {r['title']}",
-                  f"  - {r['link']}"]
+                  f"  - {r['title']}", f"  - {r['link']}"]
     return "\n".join(lines)
 
 
-def save(candidates, rejected, reasons, seen_results, min_score, resolved):
+def save(client, candidates, rejected, reasons, seen_results, min_score,
+         resolved, queries, note):
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    slug = client["_slug"]
     payload = {
-        "min_score": min_score,
-        "resolved": resolved,
-        "signal": "campus-hiring post collecting resumes via Google Form or personal email",
-        "results_seen": seen_results,
-        "rejected_count": len(rejected),
-        "rejection_reasons": dict(reasons),
-        "candidates": candidates,
+        "client": client["name"], "client_domain": slug,
+        "min_score": min_score, "resolved": resolved,
+        "queries": queries, "note": note,
+        "results_seen": seen_results, "rejected_count": len(rejected),
+        "rejection_reasons": dict(reasons), "candidates": candidates,
     }
-    json_path = OUT_DIR / "candidates.json"
-    md_path = OUT_DIR / "candidates.md"
-    rejected_path = OUT_DIR / "rejected.md"
+    json_path = OUT_DIR / f"candidates-{slug}.json"
+    md_path = OUT_DIR / f"candidates-{slug}.md"
+    rejected_path = OUT_DIR / f"rejected-{slug}.md"
     try:
         json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
                              encoding="utf-8")
-        md_path.write_text(to_markdown(candidates, min_score, resolved), encoding="utf-8")
+        md_path.write_text(to_markdown(client, candidates, min_score, queries, note),
+                           encoding="utf-8")
         rejected_path.write_text(rejected_markdown(rejected, reasons, seen_results),
                                  encoding="utf-8")
     except OSError as exc:
@@ -478,14 +544,32 @@ def save(candidates, rejected, reasons, seen_results, min_score, resolved):
 def main():
     opts = parse_args(sys.argv)
 
-    api_key = os.environ.get("SERPER_API_KEY", "").strip()
-    if not api_key:
+    serper_key = os.environ.get("SERPER_API_KEY", "").strip()
+    if not serper_key:
         die("SERPER_API_KEY is not set. Put it in your .env next to this script.")
+    gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not gemini_key:
+        die("GEMINI_API_KEY is not set. Put it in your .env next to this script.")
 
-    excludes = load_excludes()
-    print(f"{len(excludes)} name(s) excluded from context/exclude.txt\n")
+    client = load_client(opts["client"])
+    icp_text, icp_path = load_icp(client)
+    excludes = load_excludes(client)
 
-    candidates, rejected, reasons, seen_results = collect(api_key, excludes, opts["limit"])
+    print(f"Client: {client['name']}  ·  ICP: {icp_path.name}")
+    print(f"{len(excludes)} name(s) excluded\n")
+    print(f"Asking {MODEL} to turn the ICP's buying signals into searches...")
+
+    api = genai.Client(api_key=gemini_key)
+    queries, note = get_queries(api, client, icp_text)
+    if note:
+        print(f"  {note}")
+    print()
+
+    signals = build_signal_patterns(icp_text)
+    vendor_pattern = build_vendor_pattern(client)
+
+    candidates, rejected, reasons, seen_results = collect(
+        serper_key, queries, signals, excludes, vendor_pattern, opts["limit"])
     kept = [c for c in candidates if c["score"] >= opts["min_score"]]
 
     if opts["resolve"]:
@@ -493,14 +577,15 @@ def main():
         for c in kept:
             if c["domain"]:
                 continue
-            domain, source = resolve_domain(api_key, c["company"])
+            domain, source = resolve_domain(serper_key, c["company"])
             c["domain"] = domain
             c["domain_source"] = source
             print(f"  {c['company']}: {domain or 'not found'}")
             time.sleep(REQUEST_PAUSE_SECONDS)
 
     json_path, md_path, rejected_path = save(
-        kept, rejected, reasons, seen_results, opts["min_score"], opts["resolve"])
+        client, kept, rejected, reasons, seen_results, opts["min_score"],
+        opts["resolve"], queries, note)
 
     print(f"\n{seen_results} result(s) seen, {len(rejected)} rejected, "
           f"{len(candidates)} candidate(s), {len(kept)} at or above "
@@ -519,8 +604,7 @@ def main():
     print(f"        {md_path}")
     print(f"        {rejected_path}")
     print("\nA score means the signal is there, not that the company fits the ICP.")
-    print("Read rejected.md first - the reason counts tell you if the queries work.")
-    print("Then:  python scrape.py <domain>")
+    print(f"Next:  python check_fit.py {client['_slug']} <their-domain>")
 
 
 if __name__ == "__main__":

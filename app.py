@@ -5,9 +5,13 @@ import sys
 import streamlit as st
 from pathlib import Path
 
+from resolve import to_domain
+
 BASE = Path(__file__).resolve().parent
 MESSAGES = BASE / "messages"
 TARGETS = BASE / "targets"
+CLIENTS = BASE / "clients"
+FIT = BASE / "fit"
 
 st.set_page_config(page_title="Cold Outreach Agent", layout="wide",
                    initial_sidebar_state="expanded")
@@ -16,6 +20,36 @@ st.set_page_config(page_title="Cold Outreach Agent", layout="wide",
 def esc(value):
     """Escape anything model-written before it goes into raw HTML."""
     return html.escape(str(value or ""))
+
+
+def run_script(script, *args):
+    """Run one pipeline script and hand back its result for display."""
+    return subprocess.run(
+        [sys.executable, str(BASE / script), *[str(a) for a in args]],
+        capture_output=True, text=True)
+
+
+def show_output(result, expanded_label="Output"):
+    out = (result.stdout or "").strip()
+    err = (result.stderr or "").strip()
+    if out:
+        with st.expander(expanded_label):
+            st.code(out)
+    if err:
+        with st.expander("stderr"):
+            st.code(err)
+
+
+def load_clients():
+    if not CLIENTS.exists():
+        return {}
+    found = {}
+    for path in sorted(CLIENTS.glob("*.json")):
+        try:
+            found[path.stem] = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+    return found
 
 
 st.markdown("""
@@ -32,7 +66,6 @@ st.markdown("""
   }
   @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
 
-  /* ---------------------------------------------------------- hero */
   .hero { padding: 3.5rem 0 2.5rem; border-bottom: 1px solid #1F1F25;
           margin-bottom: 2.5rem; animation: rise .5s ease-out both; }
   .eyebrow { font-size: .7rem; letter-spacing: .18em; text-transform: uppercase;
@@ -47,7 +80,6 @@ st.markdown("""
           animation: rise .6s .1s ease-out both; }
   .lede strong { color: #D8D8DC; font-weight: 500; }
 
-  /* -------------------------------------------------------- metrics */
   .stats { display: flex; gap: 1rem; margin: 2rem 0 2.5rem;
            animation: rise .6s .2s ease-out both; }
   .stat { flex: 1; background: #131317; border: 1px solid #22222A;
@@ -61,7 +93,6 @@ st.markdown("""
   .stat-value.accent { color: #E8674C; }
   .stat-value.danger { color: #F87171; }
 
-  /* ---------------------------------------------------------- cards */
   .msg { background: #131317; border: 1px solid #22222A; border-radius: 12px;
          padding: 1.5rem 1.75rem; margin-bottom: 1rem;
          animation: rise .45s ease-out both;
@@ -69,8 +100,7 @@ st.markdown("""
                      box-shadow .25s ease; }
   .msg:hover { border-color: #3A3A46; transform: translateY(-3px);
                box-shadow: 0 12px 32px rgba(0,0,0,.4); }
-  .msg.blocked { border-color: rgba(248,113,113,.45);
-                 background: linear-gradient(#17121400, #17101200), #131317; }
+  .msg.blocked { border-color: rgba(248,113,113,.45); }
   .msg:nth-of-type(1) { animation-delay: .04s; }
   .msg:nth-of-type(2) { animation-delay: .1s; }
   .msg:nth-of-type(3) { animation-delay: .16s; }
@@ -87,6 +117,12 @@ st.markdown("""
   .bad { color: #F87171; background: rgba(248,113,113,.08);
          border: 1px solid rgba(248,113,113,.2); }
   .stop { color: #FFF; background: #B91C1C; border: 1px solid #F87171; }
+  .verdict { color: #4ADE80; background: rgba(74,222,128,.08);
+             border: 1px solid rgba(74,222,128,.2); }
+  .verdict.skip { color: #F87171; background: rgba(248,113,113,.08);
+                  border-color: rgba(248,113,113,.2); }
+  .verdict.unclear { color: #E8B34C; background: rgba(232,179,76,.08);
+                     border-color: rgba(232,179,76,.2); }
 
   .subject { font-weight: 600; font-size: 1.1rem; margin-bottom: 1rem;
              letter-spacing: -0.01em; }
@@ -120,17 +156,19 @@ st.markdown("""
            border: 1px solid rgba(232,103,76,.25);
            border-radius: 20px; padding: .1rem .5rem; margin-right: .5rem; }
 
-  .person { background: #101014; border-left: 2px solid #4A5568;
+  .person, .cand, .fitrow { background: #101014;
             border-radius: 0 8px 8px 0; padding: .8rem 1.1rem;
             margin-bottom: .6rem; }
-  .person-name { color: #D8D8DC; font-weight: 600; font-size: .95rem; }
-  .person-role { color: #8C8C94; font-size: .85rem; margin-top: .2rem; }
-
-  .cand { background: #101014; border-left: 2px solid #4ADE80;
-          border-radius: 0 8px 8px 0; padding: .8rem 1.1rem;
-          margin-bottom: .6rem; }
-  .cand-name { color: #D8D8DC; font-weight: 600; font-size: .95rem; }
-  .cand-sig { color: #8C8C94; font-size: .82rem; margin-top: .25rem; }
+  .person { border-left: 2px solid #4A5568; }
+  .cand   { border-left: 2px solid #4ADE80; }
+  .fitrow { border-left: 2px solid #33333D; }
+  .person-name, .cand-name, .fit-label { color: #D8D8DC; font-weight: 600;
+            font-size: .95rem; }
+  .person-role, .cand-sig, .fit-value { color: #8C8C94; font-size: .85rem;
+            margin-top: .2rem; }
+  .tag { font-size: .64rem; letter-spacing: .1em; color: #6E6E76;
+         border: 1px solid #2A2A33; border-radius: 4px; padding: .05rem .35rem;
+         margin-left: .4rem; }
 
   .null-result { color: #7A7A84; font-size: .88rem; line-height: 1.65;
                  border-left: 2px solid #33333D; padding-left: 1rem; }
@@ -144,14 +182,14 @@ def blocking_reasons(message):
     """
     Reasons this message must not be sent, as opposed to merely reviewed.
 
-    An overclaim about colleges MNGO does not have, or an offer of a document
-    that does not exist, is not a quality note - it is a commitment you cannot
-    honour. These used to be written into the JSON and never shown here, which
-    meant the demo could display a fabricated claim under a green badge.
+    A claim the client told us it may never make, or an offer of a document that
+    does not exist, is not a quality note - it is a commitment the sender cannot
+    honour. What counts as a forbidden claim comes from the client profile, so
+    this stays correct whichever company is using the tool.
     """
     reasons = []
     if message.get("overclaim"):
-        reasons.append(f"claims a college network that does not exist: "
+        reasons.append(f"makes a claim this company said it may never make: "
                        f"\u201c{message['overclaim']}\u201d")
     if message.get("asset_claim"):
         reasons.append(f"offers something that has not been made: "
@@ -174,13 +212,11 @@ def card(angle, subject, body, meta_bits, message):
 
     subj = f'<div class="subject">{esc(subject)}</div>' if subject else ""
 
-    stop_html = ""
-    for reason in blocked:
-        stop_html += f'<div class="stop-line">{esc(reason)}</div>'
+    stop_html = "".join(f'<div class="stop-line">{esc(r)}</div>' for r in blocked)
 
     link = message.get("trigger_link")
-    link_html = (f'<div class="link-line"><span class="lbl">Link to campus '
-                 f'hiring</span><br>{esc(link)}</div>') if link else ""
+    link_html = (f'<div class="link-line"><span class="lbl">Why it connects'
+                 f'</span><br>{esc(link)}</div>') if link else ""
 
     st.markdown(
         f'<div class="msg{" blocked" if blocked else ""}"><div class="msg-head">'
@@ -194,91 +230,170 @@ def card(angle, subject, body, meta_bits, message):
 
 # ------------------------------------------------------------------ sidebar
 
+clients = load_clients()
+
 with st.sidebar:
+    st.markdown("### Your company")
+
+    options = list(clients.keys())
+    selected = st.selectbox(
+        "Client", options + ["+ New company"],
+        index=0 if options else 0,
+        label_visibility="collapsed") if options else "+ New company"
+
+    if selected == "+ New company":
+        st.caption("Type your company name or domain. The tool reads your "
+                   "site and works out what you sell and who buys it.")
+        own_domain = st.text_input("Your domain", placeholder="Your company name",
+                                   label_visibility="collapsed")
+        if st.button("Read my site", use_container_width=True) and own_domain.strip():
+            typed = own_domain.strip()
+            resolved = to_domain(typed, quiet=True)
+            if not resolved:
+                st.error(f"Could not find a website for {typed!r}. "
+                         f"Try typing the domain instead.")
+                st.stop()
+            st.caption(f"Resolved to {resolved}")
+            with st.spinner(f"Reading {resolved}"):
+                p = run_script("profile.py", resolved)
+            if p.returncode == 0:
+                st.success("Profile created")
+                show_output(p, "What it found")
+                st.rerun()
+            else:
+                st.error("Could not build a profile")
+                show_output(p)
+        st.stop()
+
+    client = clients[selected]
+    client_path = CLIENTS / f"{selected}.json"
+    st.caption(client.get("one_liner", ""))
+
+    # The review gate. profile.py can read a website; it cannot know what the
+    # company is not allowed to claim, because a marketing site implies traction
+    # the company may not have yet. Nothing downstream runs until this is filled.
+    if not client.get("reviewed"):
+        st.warning("Needs review before anything can run.")
+        with st.form("review"):
+            st.caption("Two things the tool cannot work out from your website.")
+            sender = st.text_input("Name that signs the emails",
+                                   value=client.get("sender", ""))
+            implied = client.get("_claims_to_check") or []
+            if implied:
+                st.caption("Your site implies these. Any that are not true yet "
+                           "belong in the box below:")
+                for c in implied:
+                    st.caption(f"• {c}")
+            forbidden = st.text_area(
+                "What must these messages NEVER claim? One per line.",
+                placeholder="a number of customers\nour partner network",
+                height=110)
+            if st.form_submit_button("Save and unlock", use_container_width=True):
+                if not sender.strip():
+                    st.error("A sender name is required.")
+                else:
+                    client["sender"] = sender.strip()
+                    client["cannot_claim"] = [
+                        line.strip() for line in forbidden.splitlines()
+                        if line.strip()]
+                    client["reviewed"] = True
+                    client_path.write_text(
+                        json.dumps(client, indent=2, ensure_ascii=False) + "\n",
+                        encoding="utf-8")
+                    st.rerun()
+        st.stop()
+
+    st.divider()
     st.markdown("### Find companies")
-    st.caption("Searches for the buying signal in context/icp.md and returns "
-               "companies that show it. About 7 searches, plus one per company "
-               "when resolving domains.")
+    st.caption("Searches for the buying signal in your ICP and returns companies "
+               "showing it. About 7 searches, plus one per company resolved.")
     resolve = st.checkbox("Resolve domains", value=True)
     if st.button("Find targets", use_container_width=True):
-        cmd = [sys.executable, str(BASE / "find_targets.py")]
-        if resolve:
-            cmd.append("--resolve")
+        args = [selected] + (["--resolve"] if resolve else [])
         with st.spinner("Searching for the signal"):
-            p = subprocess.run(cmd, capture_output=True, text=True)
-        if p.returncode == 0:
-            st.success("Done")
-        else:
-            st.error("find_targets.py failed")
-        if p.stdout.strip():
-            with st.expander("Output"):
-                st.code(p.stdout.strip())
-        if p.stderr.strip():
-            with st.expander("Errors"):
-                st.code(p.stderr.strip())
+            p = run_script("find_targets.py", *args)
+        st.success("Done") if p.returncode == 0 else st.error("find_targets.py failed")
+        show_output(p)
 
     st.divider()
     st.markdown("### Run a company")
-    new_domain = st.text_input("Domain", placeholder="example.com",
+    new_domain = st.text_input("Domain", placeholder="Their company name",
                                label_visibility="collapsed")
+    check_first = st.checkbox("Check fit first", value=True,
+                              help="Stops the run if they are not visibly a "
+                                   "buyer. Cheaper than researching them.")
     use_news = st.checkbox("Include news search", value=True)
     use_linkedin = st.checkbox("Include LinkedIn scan", value=False,
                                help="Costs about $0.10 per company and rarely "
                                     "finds anyone. See the LinkedIn panel.")
 
     if st.button("Run pipeline", use_container_width=True) and new_domain.strip():
-        d = new_domain.strip()
-        steps = [("Scraping site", "scrape.py")]
+        typed_target = new_domain.strip()
+        d = to_domain(typed_target, quiet=True)
+        if not d:
+            st.error(f"Could not find a website for {typed_target!r}. "
+                     f"Try typing the domain instead.")
+            st.stop()
+        st.caption(f"Resolved to {d}")
+        steps = []
+        if check_first:
+            steps.append(("Checking fit", "check_fit.py", [selected, d]))
+        steps.append(("Reading their site", "scrape.py", [d]))
         if use_news:
-            steps.append(("Searching news", "news.py"))
+            steps.append(("Searching news", "news.py", [d]))
         if use_linkedin:
-            steps.append(("Scanning LinkedIn", "linkedin.py"))
-        steps += [("Extracting triggers", "triggers.py"),
-                  ("Writing messages", "generate.py")]
+            steps.append(("Scanning LinkedIn", "linkedin.py", [d]))
+        steps += [("Extracting triggers", "triggers.py", [d]),
+                  ("Writing messages", "generate.py", [selected, d])]
 
         halted = False
-        for label, script in steps:
+        for label, script, args in steps:
             with st.spinner(label):
-                p = subprocess.run([sys.executable, str(BASE / script), d],
-                                   capture_output=True, text=True)
+                p = run_script(script, *args)
+
+            # check_fit.py exits 1 on SKIP and 2 on UNCLEAR; generate.py exits
+            # non-zero when there is no usable trigger. Those refusals are the
+            # most useful thing the pipeline produces on a bad company, so they
+            # are shown rather than swallowed behind "failed".
+            if script == "check_fit.py" and p.returncode in (1, 2):
+                st.warning("Not a fit - stopping before spending on research.")
+                st.code((p.stdout or "").strip())
+                halted = True
+                break
             if p.returncode != 0:
-                # generate.py exits non-zero on purpose when there is no usable
-                # trigger, or when the top trigger is below the quality floor.
-                # That refusal text is the most useful thing the pipeline
-                # produces on a bad company, so it gets shown, not swallowed.
-                output = (p.stdout or "").strip()
-                errors = (p.stderr or "").strip()
                 if script == "generate.py":
                     st.warning(f"{label}: nothing was written.")
                 else:
                     st.error(f"{label} failed")
-                if output:
-                    st.code(output)
-                if errors:
+                if (p.stdout or "").strip():
+                    st.code(p.stdout.strip())
+                if (p.stderr or "").strip():
                     with st.expander("stderr"):
-                        st.code(errors)
+                        st.code(p.stderr.strip())
                 halted = True
                 break
+
         if not halted:
             st.success("Done")
             st.rerun()
 
-    st.caption("3 Gemini calls (triggers, messages, proofread) + 1 news search "
+    st.caption("1 fit check + 3 Gemini calls (triggers, messages, proofread) "
                "per company.")
 
 
 # --------------------------------------------------------------------- hero
 
-st.markdown("""
+st.markdown(f"""
 <div class="hero">
-  <div class="eyebrow">Trigger-grounded outreach</div>
+  <div class="eyebrow">Trigger-grounded outreach for {esc(client.get('name', selected))}</div>
   <h1>Cold Outreach Agent</h1>
   <div class="lede">
-    Finds companies showing a <strong>visible buying signal</strong>, reads
-    their site and recent news, extracts <strong>verifiable triggers</strong>,
-    and writes three emails and three LinkedIn messages built on them. Every
-    claim is checked back against what was actually found. When nothing
-    verifiable turns up, it writes nothing and says why.
+    Finds companies showing a <strong>visible buying signal</strong>, checks each
+    one against your ICP before spending anything on it, reads their site and
+    recent news, extracts <strong>verifiable triggers</strong>, and writes three
+    emails and three LinkedIn messages built on them. Every claim is checked back
+    against what was actually found. When nothing verifiable turns up, it writes
+    nothing and says why.
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -286,7 +401,9 @@ st.markdown("""
 
 # ------------------------------------------------------------- target panel
 
-candidates_file = TARGETS / "candidates.json"
+candidates_file = TARGETS / f"candidates-{selected}.json"
+if not candidates_file.exists():
+    candidates_file = TARGETS / "candidates.json"  # pre-client-split runs
 if candidates_file.exists():
     try:
         cdata = json.loads(candidates_file.read_text(encoding="utf-8"))
@@ -366,6 +483,14 @@ data = dict(results)[domain]
 info = data.get("generated_from") or {}
 st.markdown(f"### {data.get('company_name', domain)}")
 
+written_for = data.get("client")
+if written_for and written_for != client.get("name"):
+    st.markdown(
+        f'<div class="note-block">These messages were written for '
+        f'<strong>{esc(written_for)}</strong>, not {esc(client.get("name"))}. '
+        f'Re-run the pipeline to rewrite them for the selected client.</div>',
+        unsafe_allow_html=True)
+
 if info.get("forced"):
     st.markdown(
         '<div class="note-block"><strong>Drafted below the quality floor.</strong> '
@@ -382,6 +507,65 @@ if has_blocked(data):
 
 for w in data.get("warnings") or []:
     st.warning(w)
+
+
+# ------------------------------------------------------------- fit expander
+
+fit_file = FIT / f"{domain}.json"
+if fit_file.exists():
+    try:
+        fdata = json.loads(fit_file.read_text(encoding="utf-8"))
+    except Exception:
+        fdata = {}
+    fit = fdata.get("result") or {}
+    verdict = fit.get("verdict", "")
+    if verdict:
+        klass = {"PROCEED": "verdict", "SKIP": "verdict skip"}.get(
+            verdict, "verdict unclear")
+        with st.expander(f"Fit check · {verdict}"):
+            st.markdown(f'<span class="badge {klass}">{esc(verdict)}</span>',
+                        unsafe_allow_html=True)
+            st.caption(fit.get("reason", ""))
+
+            for label, block in (("Size", fit.get("size")),
+                                 ("ICP segment", fit.get("segment")),
+                                 ("Buying signal", fit.get("signal"))):
+                block = block or {}
+                if label == "Size":
+                    value = block.get("estimate", "not found")
+                elif label == "ICP segment":
+                    value = (f"{block.get('best_match', '-')} — "
+                             f"{'in ICP' if block.get('in_icp') else 'NOT in ICP'}")
+                else:
+                    value = (block.get("what")
+                             or ("found" if block.get("found") else "not found"))
+                status = block.get("status", "")
+                tag = f'<span class="tag">{esc(status)}</span>' if status else ""
+                evidence_line = ""
+                if block.get("evidence"):
+                    evidence_line = (f'<div class="fit-value">'
+                                     f'{esc(block["evidence"])}</div>')
+                st.markdown(
+                    f'<div class="fitrow"><div class="fit-label">{label}{tag}</div>'
+                    f'<div class="fit-value">{esc(value)}</div>'
+                    f'{evidence_line}'
+                    f'</div>', unsafe_allow_html=True)
+
+            for d in fit.get("disqualifiers") or []:
+                st.error(d)
+
+            missing = fit.get("could_not_find") or []
+            if missing:
+                st.caption("Could not find out:")
+                for m in missing:
+                    st.caption(f"• {m}")
+
+            evidence = fdata.get("evidence") or []
+            if evidence:
+                st.caption(f"{len(evidence)} search result(s) used:")
+                for i, e in enumerate(evidence, start=1):
+                    if e.get("link"):
+                        st.markdown(f"[{i}] [{e.get('title', e['link'])}]({e['link']})")
 
 
 # ------------------------------------------------------- evidence expanders

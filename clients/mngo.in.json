@@ -1,0 +1,20 @@
+{
+  "domain": "mngo.in",
+  "name": "MNGO",
+  "one_liner": "MNGO provides software for Indian college placement cells to manage student drive applications, tracking, and recruiter updates in one central system.",
+  "what_you_sell": "A campus placement platform that replaces spreadsheets and messaging groups with a dedicated management system for college placement cells, students, and recruiters.",
+  "who_buys_it": "Training and Placement Officers (TPOs) and college administrators at higher education institutions in India.",
+  "sender": "Agnesh",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-mngo.in.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Implies the platform is fully ready for a 30-minute live setup today, while the roadmap states the MVP is in build and pilots begin in Q3 2026.",
+    "Implies active company/recruiter workflows are live, but the roadmap schedules the company network and recruiter portal launch for late 2026/2027.",
+    "Claims full DPDP compliance and database-level isolation for college student data.",
+    "Claims exactly 5 founding partner college slots remain for the free pilot program."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

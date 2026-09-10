@@ -1,0 +1,318 @@
+{
+  "domain": "happiestminds.com",
+  "client": "MNGO",
+  "client_domain": "mngo.in",
+  "checked_against": "icp-mngo.in.md",
+  "result": {
+    "company_name": "Happiest Minds",
+    "what_they_do": "Happiest Minds is an AI-first digital engineering and Mindful IT company providing solutions across product engineering, cybersecurity, and cloud transformation.",
+    "size": {
+      "estimate": "4,472 employees",
+      "evidence": "[12]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Corporate IT / Digital Engineering Services",
+      "in_icp": false,
+      "why": "Happiest Minds is an IT services and digital engineering enterprise, not an Indian Engineering or Degree College.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No evidence of college placement cell operations or placement drive management using manual spreadsheets/Google Forms.",
+      "evidence": "None",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Corporate Recruitment Teams hiring campus graduates"
+    ],
+    "verdict": "SKIP",
+    "reason": "Happiest Minds is an IT services and digital engineering corporation, not a Higher Education college/university with a placement cell. It is explicitly disqualified as a corporate entity.",
+    "could_not_find": [
+      "Details on whether Happiest Minds conducts campus recruitment drives directly using third-party tools.",
+      "Information on internal graduate hiring tools used by Happiest Minds' Talent Acquisition team."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About Happiest Minds | AI First Digital Engineering & ...",
+      "snippet": "Happiest Minds is an AI First digital engineering and Mindful IT company ... It's important to note that these cookies do not store any personal ...",
+      "link": "https://www.happiestminds.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Happiest Minds Technologies",
+      "snippet": "With an integrated approach that spans from chip to cloud, Happiest Minds delivers secure and scalable solutions across product engineering, cybersecurity, ...",
+      "link": "https://www.linkedin.com/company/happiest-minds-technologies",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Happiest Minds | AI First Customer-Centric Digital Engineering ...",
+      "snippet": "Happiest Minds is an AI-first, customer-centric digital engineering and mindful IT company focused on building intelligent, scalable solutions for business ...",
+      "link": "https://www.happiestminds.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Locations - HappiestMinds",
+      "snippet": "Happiest Minds Technologies is an AI First, customer-centric digital engineering company committed to delivering 'Happiest People . Happiest Customers'. With ...",
+      "link": "https://www.happiestminds.com/location/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Life at Happiest Minds Technologies",
+      "snippet": "Happiest Minds - The Culture of Happiness. A mindful IT company enabling digital transformation with purpose, empathy, and joyful innovation.",
+      "link": "https://www.ambitionbox.com/overview/happiest-minds-technologies-overview",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Happiest Minds",
+      "snippet": "Happiest Minds Technologies Limited is an AI-first, customer-focused digital engineering and Mindful IT company committed to delivering 'Happiest People.",
+      "link": "https://pimcore.com/en/partners/find-a-solution-partner/happiest-minds",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Happiest Minds Technologies Ltd share price",
+      "snippet": "Happiest Minds · Mkt Cap: 5167 Crore (down -40.1% in 1 year) · Revenue: 2394 Cr · Profit: 223 Cr · Promoter holding has decreased over last 3 years: -9.03% ...",
+      "link": "https://www.screener.in/company/HAPPSTMNDS/consolidated/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Happiest Minds Technologies | Bangalore",
+      "snippet": "The merger of Happiest Minds and ITC Infotech unlocks massive scale and global growth potential! · Agentic interfaces are redefining how enterprises interact ...",
+      "link": "https://www.facebook.com/happiestminds/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Happiest Minds Technologies",
+      "snippet": "Employees at Happiest Minds Technologies ; Ashok Soota. Chairman & Chief Mentor, Happiest Minds… ; Soumendu Mukhopadhyay. General Manager and Business Head, APAC.",
+      "link": "https://www.linkedin.com/company/happiest-minds-technologies",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Balaram Ananda - Happiest Minds Technologies",
+      "snippet": "View Balaram's full profile. Balaram can introduce you to 10+ people at Happiest Minds Technologies.",
+      "link": "https://in.linkedin.com/in/balaram-ananda-aa4166199",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Preeti Menon - EVP & COO (Product & Digital Engineering ...",
+      "snippet": "I currently lead Global Delivery and Operations for the Product & Digital Engineering and Services Business (PDES) Unit at Happiest Minds Technologies.",
+      "link": "https://in.linkedin.com/in/preetirmenon",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Happiest Minds Technologies Employees List & Directory",
+      "snippet": "Happiest Minds Technologies employs 4472 employees. Reveal contacts of top Happiest Minds Technologies managers and employees.",
+      "link": "https://www.signalhire.com/companies/happiest-minds-technologies/employees",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Working at Happiest Minds Technologies",
+      "snippet": "As of September 2026, Happiest Minds Technologies holds a 3.8/5 company culture rating, which is 2% higher than the Information Technology industry average.",
+      "link": "https://www.glassdoor.com/Overview/Working-at-Happiest-Minds-Technologies-EI_IE505450.11,38.htm",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Happiest minds technologies ltd linkedin jobs",
+      "snippet": "26 Happiest Minds Technologies Ltd Linkedin jobs available on Indeed.com. Apply to Staff Software Engineer, Accountant, Development Director and more!",
+      "link": "https://www.indeed.com/q-happiest-minds-technologies-ltd-linkedin-jobs.html",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Abhijit Raghunathan - Business Development @ Happiest ...",
+      "snippet": "With 10 years of experience across sales, marketing, and entrepreneurship, I drive account growth at Happiest Minds, helping CIOs and CISOs of GCCs, ...",
+      "link": "https://in.linkedin.com/in/abhijit-raghu",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Happiest Minds | AI First Customer-Centric Digital Engineering ...",
+      "snippet": "Happiest Minds is an AI-first, customer-centric digital engineering and mindful IT company focused on building intelligent, scalable solutions for business ...",
+      "link": "https://www.happiestminds.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "happiestminds-annual-report-2024. ...",
+      "snippet": "The integration of Generative AI has synergized with other business verticals within the Happiest Minds ecosystem, enhancing overall.",
+      "link": "https://www.happiestminds.com/digital-integrated-annual-report-2023-2024/pdf/happiestminds-annual-report-2024.pdf",
+      "date": "Jul 5, 2024"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Viswanath Subramaniam - EDTech Happiest Minds",
+      "snippet": "Happiest Minds Technologies ... 1) Evolving business strategy, provide domain and technology focus across the subsegments - Pre-K, K-12, HiED, Professional ...",
+      "link": "https://in.linkedin.com/in/viswanathsubramaniam98",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Happiest Minds Technologies is hiring a Microsoft Power ...",
+      "snippet": "Happiest Minds Technologies is hiring a Microsoft Power Platform Architect in Bengaluru & Pune. Lead AI innovation, design low‑code solutions, ...",
+      "link": "https://www.facebook.com/happiestminds/posts/happiest-minds-technologies-is-hiring-a-microsoft-power-platform-architect-in-be/1303212218519449/",
+      "date": "8 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "ESG Integrated Annual report 2024-25",
+      "snippet": "At Happiest Minds, learning is focused on driving innovation, growth, and operational excellence across all areas. Integrated Annual Report.",
+      "link": "https://www.happiestminds.com/investors/esg-profile/ESG-Integrated-Annual-report-2024-25.pdf",
+      "date": "Nov 17, 2025"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Want an IT Career but HATE Coding? No Problem! Did you ...",
+      "snippet": "Hi everyone, I am Jyothi. I have got a job as a Snowflake developer in Happiest Minds with the 13 LPA. I worked in non-IT for 4+ years of ...",
+      "link": "https://www.instagram.com/reel/DZJbSEbh3ip/",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "G-Cloud 15 suppliers starting with H",
+      "snippet": "HAPPIEST MINDS TECHNOLOGIES LIMITED. Happiest Minds Technologies (NSE: HAPPSTMNDS), a Mindful IT Company, enables digital transformation for enterprises and ...",
+      "link": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-15/suppliers?prefix=H",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Premjeet Sahu - Senior Architect @ Happiest Minds",
+      "snippet": "Senior Architect @ Happiest Minds | Trusted Advisor for GenAI, Agentic AI & Cloud Transformation | DevSecOps | Cloud Governance & Responsible AI | Platform ...",
+      "link": "https://in.linkedin.com/in/premjeet-sahu",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "AI can't replace interviewers... Watch some of our top webinars ...",
+      "snippet": "In a conversation with The Times of India, Rajesh Chandran Sogasu, Head of Talent Acquisition and L&D at Happiest Minds, stated that it is ...",
+      "link": "https://www.facebook.com/IIBA.org/posts/ai-cant-replace-interviewers-watch-some-of-our-top-webinars-back-for-a-limited-t/1479970060831376/",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Happiest Minds merges with ITC Infotech to form $1 billion ...",
+      "snippet": "Happiest Minds today announced the signing of definitive agreements to combine its business with ITC Infotech India Limited, creating a scaled ...",
+      "link": "https://www.facebook.com/happiestminds/posts/happiest-minds-today-announced-the-signing-of-definitive-agreements-to-combine-i/1527548339419168/",
+      "date": "1 week ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "happiestminds-annual-report-2024. ...",
+      "snippet": "The integration of Generative AI has synergized with other business verticals within the Happiest Minds ecosystem, enhancing overall.",
+      "link": "https://www.happiestminds.com/digital-integrated-annual-report-2023-2024/pdf/happiestminds-annual-report-2024.pdf",
+      "date": "Jul 5, 2024"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Premjeet Sahu - Senior Architect @ Happiest Minds",
+      "snippet": "Senior Architect @ Happiest Minds | Trusted Advisor for GenAI, Agentic AI & Cloud Transformation | DevSecOps | Cloud Governance & Responsible AI | Platform ...",
+      "link": "https://in.linkedin.com/in/premjeet-sahu",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "ESG Integrated Annual report 2024-25",
+      "snippet": "At Happiest Minds, learning is focused on driving innovation, growth, and operational excellence across all areas. Integrated Annual Report.",
+      "link": "https://www.happiestminds.com/investors/esg-profile/ESG-Integrated-Annual-report-2024-25.pdf",
+      "date": "Nov 17, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Want an IT Career but HATE Coding? No Problem! Did you ...",
+      "snippet": "Hi everyone, I am Jyothi. I have got a job as a Snowflake developer in Happiest Minds with the 13 LPA. I worked in non-IT for 4+ years of ...",
+      "link": "https://www.instagram.com/reel/DZJbSEbh3ip/",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Why did Ashok Soota start Happiest Minds? Wasn't he ...",
+      "snippet": "Why did Ashok Soota start Happiest Minds? Wasn't he Happy with Mindtree?",
+      "link": "https://www.quora.com/Why-did-Ashok-Soota-start-Happiest-Minds-Wasnt-he-Happy-with-Mindtree",
+      "date": "9 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Excellence is achieved when knowledge meets innovation. ...",
+      "snippet": "In placement, I placed in organization Happiest Minds as a Business Analyst. From last ten months I'm working as a Business Analyst there ...",
+      "link": "https://www.instagram.com/reel/Dbx3lzThzp4/",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "G-Cloud 15 suppliers starting with H",
+      "snippet": "HAPPIEST MINDS TECHNOLOGIES LIMITED. Happiest Minds Technologies (NSE: HAPPSTMNDS), a Mindful IT Company, enables digital transformation for enterprises and ...",
+      "link": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-15/suppliers?prefix=H",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Happiest Minds Careers",
+      "snippet": "No information is available for this page. · Learn why",
+      "link": "https://careers.happiestminds.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "AI First Digital Engineering & Mindful IT ... - About Happiest Minds",
+      "snippet": "Happiest Minds is an AI First digital engineering and Mindful IT company delivering secure, scalable solutions across industries with a global footprint and ...",
+      "link": "https://www.happiestminds.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at Happiest Minds",
+      "snippet": "Explore exciting career opportunities at Happiest Minds. Be a part of a forward-thinking company that fosters growth, innovation, and diversity.",
+      "link": "https://jobs.happiestminds.com/happiestminds/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at Happiest Minds | Join Our Innovative & Dynamic Team",
+      "snippet": "Explore exciting career opportunities at Happiest Minds. Be a part of a forward-thinking company that fosters growth, innovation, ...",
+      "link": "https://jobs.happiestminds.com/happiestminds/jobview/technical-lead-lead-bengaluru-2026021319530370?id=1167853",
+      "date": "Aug 23, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Login - Persistent Careers",
+      "snippet": "Candidate Portal to manage your job applications, complete profile details, upload documents, and track interview updates.",
+      "link": "https://jobs.happiestminds.com/candidate",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Happiest Minds | AI First Customer-Centric Digital Engineering and ...",
+      "snippet": "Happiest Minds is an AI-first, customer-centric digital engineering and mindful IT company focused on building intelligent, scalable solutions for business ...",
+      "link": "https://www.happiestminds.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at Happiest Minds | Join Our Innovative & Dynamic Team",
+      "snippet": "Explore exciting career opportunities at Happiest Minds. Be a part of a forward-thinking company that fosters growth, innovation, and diversity.",
+      "link": "https://jobs.happiestminds.com/happiestminds/jobview/technical-engineer-cyber-security-bengaluru-2026063019040781?id=1134202",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at Happiest Minds | Join Our Innovative & Dynamic Team",
+      "snippet": "Explore exciting career opportunities at Happiest Minds. Be a part of a forward-thinking company that fosters growth, innovation, ...",
+      "link": "https://jobs.happiestminds.com/happiestminds/jobview/technical-lead-lead-bengaluru-2026021319530370?id=1167871",
+      "date": "Aug 23, 2026"
+    }
+  ]
+}

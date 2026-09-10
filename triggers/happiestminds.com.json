@@ -1,0 +1,22 @@
+{
+  "company_name": "Happiest Minds",
+  "triggers": [
+    {
+      "fact": "Job posts for off-campus hiring drives direct candidates to submit resumes via Google Forms and a personal Gmail address (techbengaluru4@gmail.com).",
+      "source_page": "https://in.linkedin.com/company/happiest-minds-technologies",
+      "relevance_score": 9
+    },
+    {
+      "fact": "Happiest Minds announced a merger with ITC Infotech to create a technology services enterprise targeting US$ 1 billion in revenue by FY28.",
+      "source_page": "https://happiestminds.com",
+      "relevance_score": 4
+    },
+    {
+      "fact": "Happiest Minds launched Rel(AI)Build, an agentic AI platform for enterprise software delivery, on June 11, 2026.",
+      "source_page": "https://www.happiestminds.com/press-releases/happiest-minds-launches-relaibuild-an-agentic-ai-platform-to-transform-enterprise-software-delivery/",
+      "relevance_score": 2
+    }
+  ],
+  "pain_hypothesis": "Collecting candidate resumes through unstandardized Google Forms and personal Gmail accounts during hiring drives creates heavy manual coordination overhead and potential candidate drop-off.",
+  "no_trigger_found": false
+}

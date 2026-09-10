@@ -1,0 +1,160 @@
+# Rejected results
+
+_49 of 51 result(s) thrown away._
+
+## Why
+
+- not a company - a host, a form link or a social post: 29 (57%)
+- no signal in the snippet: 20 (39%)
+
+> If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
+
+## What was thrown away
+
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Cloud kitchen serving traditional meals in Bangalore - Facebook
+  - https://www.facebook.com/groups/1121799551805770/posts/1897354547583596/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Bangalore Cloud Kitchen • 4.7K reels on Instagram
+  - https://www.instagram.com/popular/bangalore-cloud-kitchen/?hl=en
+- **Justdial** — no signal found in the title or snippet
+  - Cloud Kitchen and Tiffin Services in Dwarka,Delhi - Justdial
+  - https://www.justdial.com/Delhi/Cloud-Kitchen-and-Tiffin-Services-Near-Vegas-Mall-Dwarka/011PXX11-XX11-230915153034-Y4J6_BZDET
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Hidden cloud kitchen but BIG on taste Crisp N Bites Kitchen serving ...
+  - https://www.instagram.com/reel/DXBYF7Yk8k2/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - New Cloud Kitchen in Vasai Virar delivering delicious Food ...
+  - https://www.facebook.com/yogita.naik.37/posts/new-cloud-kitchen-in-vasai-virar-delivering-delicious-food-desserts-siddhi-tanaw/4186016364864624/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Cloud Kitchen Promotion Reel - Instagram
+  - https://www.instagram.com/popular/cloud-kitchen-promotion-reel/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Cloud Kitchen Rental - Instagram
+  - https://www.instagram.com/popular/cloud-kitchen-rental/
+- **Hinoida** — no signal found in the title or snippet
+  - Home Chefs / Cloud Kitchens | Find Local Businesses in Noida
+  - https://hinoida.com/category/home-chefs-cloud-kitchens
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Bangalore cloud kitchen delivery services available | Bengaluru ...
+  - https://www.facebook.com/groups/1146301908764687/posts/26949033981398126/
+- **Mangokurry** — no signal found in the title or snippet
+  - Cloud Kitchen -Start With This Guide - Mango Kurry
+  - https://mangokurry.in/blog/cloud-kitchen-delivery-start-guide/
+- **United States** — no signal found in the title or snippet
+  - 8000+ Procurement Manager Food Jobs in United States - LinkedIn
+  - https://www.linkedin.com/jobs/procurement-manager-food-jobs
+- **Team Housing Solutions** — no signal found in the title or snippet
+  - Food Procurement Manager at Team Housing Solutions, Inc.
+  - https://www.linkedin.com/jobs/view/food-procurement-manager-at-team-housing-solutions-inc-4436411686
+- **Food People** — no signal found in the title or snippet
+  - Food People hiring Procurement Manager - Restaurants in Dubai ...
+  - https://www.linkedin.com/jobs/view/4375529099/
+- **Monster Energy** — no signal found in the title or snippet
+  - Procurement Manager, Commodities at Monster Energy - LinkedIn
+  - https://www.linkedin.com/jobs/view/procurement-manager-commodities-at-monster-energy-4401576515
+- **Fort Worth** — no signal found in the title or snippet
+  - 992 Purchasing Materials Manager jobs in Fort Worth - LinkedIn
+  - https://www.linkedin.com/jobs/purchasing-materials-manager-jobs-fort-worth-tx
+- **Chipotle Mexican Grill** — no signal found in the title or snippet
+  - Procurement Manager at Chipotle Mexican Grill - Jobs - LinkedIn
+  - https://www.linkedin.com/jobs/view/procurement-manager-at-chipotle-mexican-grill-4432907568
+- **Shake Shack** — no signal found in the title or snippet
+  - Shake Shack hiring Procurement Manager - Protein in Atlanta, GA
+  - https://www.linkedin.com/jobs/view/procurement-manager-protein-at-shake-shack-4460786123
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Procurement Manager, Foodservice - AVI Foodsystems - LinkedIn
+  - https://www.linkedin.com/jobs/view/procurement-manager-foodservice-at-avi-foodsystems-4429400359
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Purchasing Manager at Pollo Tropical — Miami, FL | LinkedIn Jobs
+  - https://www.linkedin.com/jobs/view/purchasing-manager-at-pollo-tropical-4453274615
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Restaurant Purchasing Manager - Self Opportunity, Inc. - LinkedIn
+  - https://www.linkedin.com/jobs/view/restaurant-purchasing-manager-at-self-opportunity-inc-4453255021
+- **Tripadvisor** — no signal found in the title or snippet
+  - Picture of Mikado Restaurant & Sushi Bar, Abu Dhabi - Tripadvisor
+  - https://www.tripadvisor.in/LocationPhotoDirectLink-g294013-d9729481-i206522777-Mikado_Restaurant_Sushi_Bar-Abu_Dhabi_Emirate_of_Abu_Dhabi.html
+- **Magicpin** — no signal found in the title or snippet
+  - Photos of Shuchi Ruchi Multicuisine Family Restaurant ... - magicpin
+  - https://magicpin.in/Rangareddy/Ragannaguda/Restaurant/Shuchi-Ruchi-Multicuisine-Family-Restaurant/store/627836/photos?srsltid=AfmBOorZKclWamJSFTJsUEnnQ-3gM5QO5xYusCsS_vlkkyNjDrXl8mVT
+- **Indiatoday** — no signal found in the title or snippet
+  - Help is on hand for concerned Mumbaikar in the form of Trim With ...
+  - https://www.indiatoday.in/magazine/your-week/story/19991220-help-is-on-hand-for-concerned-mumbaikar-in-the-form-of-trim-with-taste-781305-1999-12-19
+- **Tripadvisor** — no signal found in the title or snippet
+  - Mikado Restaurant & Sushi Bar - Emirate of Abu Dhabi - Tripadvisor
+  - https://www.tripadvisor.in/Restaurant_Review-g294013-d9729481-Reviews-Mikado_Restaurant_Sushi_Bar-Abu_Dhabi_Emirate_of_Abu_Dhabi.html
+- **Restaurant Guru** — no signal found in the title or snippet
+  - Koshe Kosha, Digha (কষে কষা, দীঘা) - Restaurant Guru
+  - https://restaurant-guru.in/Koshe-Kosha-Digha-%E0%A6%95%E0%A7%8B%E0%A6%B7%E0%A7%87-%E0%A6%95%E0%A6%B7%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%98%E0%A6%BE-Digha
+- **Indads** — no signal found in the title or snippet
+  - Welcome to 'Just Kerela' restaurant at Chakala, Andheri East ...
+  - https://mumbai.indads.in/item/318216/
+- **Sunstaronline** — no signal found in the title or snippet
+  - Masala Hut Restaurant: Best Restaurant in Pala, Kottayam
+  - https://sunstaronline.in/
+- **Restaurant Guru** — no signal found in the title or snippet
+  - Koshe Kosha - Serampore, Kolkata - Restaurant menu, prices and ...
+  - https://restaurant-guru.in/Koshe-Kosha-Serampore-India
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Thane's only place to serve delicious kebabs & Mediterranean food ...
+  - https://www.instagram.com/reel/DG5XPGEvC1L/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Come join us at our newly opened storefront - 5925(A) North Clinton ...
+  - https://www.instagram.com/p/DbwTmI9FX-w/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Cravings Station - Instagram
+  - https://www.instagram.com/popular/cravings-station/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - We're officially open! Come by, grab your favorite drink, and enjoy a ...
+  - https://www.instagram.com/p/DWkpYOaEoIF/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Sunsit&Tea | Authentic Taiwanese Milktea | A place to sit awhile and ...
+  - https://www.instagram.com/reel/DcWPVtxysVk/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - MMMatcha Bar where every cup is crafted from premium matcha ...
+  - https://www.instagram.com/reel/DZvAif-keFy/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - SuperSpy (@superspy_minihotpot) · Mandaluyong - Instagram
+  - https://www.instagram.com/superspy_minihotpot/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Pwede pa ba kami makisali? Ngayon lang nagka-Canva pro eh But ...
+  - https://www.instagram.com/p/DRlgqEBgblX/?hl=ne
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Reel by MetroManila TouristClub (@touristclubmetromanila) · July 7 ...
+  - https://www.instagram.com/reel/Daf9YZpS26x/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Our kind of addiction >>> Start your day with daily doze of Matcha ...
+  - https://www.instagram.com/reel/DW1KpQMk7cK/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Manager - Mohali,Noida,Rudrapur - Atithi Industrial Solutions - 4 to 7 ...
+  - https://www.naukri.com/job-listings-manager-atithi-industrial-solutions-noida-mohali-rudrapur-4-to-7-years-200826036212
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Looking for a Reliable Vegetable Vendor for Restaurant Supply in ...
+  - https://www.reddit.com/r/surat/comments/1uu5hcx/looking_for_a_reliable_vegetable_vendor_for/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Looking for a vegetable vendor/supplier for a restaurant - Facebook
+  - https://www.facebook.com/groups/484920106304329/posts/967001304762871/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - From a vegetable vendor to a restaurant owner: Leelavathi's ...
+  - https://www.linkedin.com/pulse/from-vegetable-vendor-restaurant-owner-leelavathis-inspiring-yjxhc
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 5 years of serving fresh fruits and vegetables with quick 1-day ...
+  - https://www.instagram.com/reel/DOvNhKqErhX/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Vegetable Vendor, Who Broke Down On Camera, Meets Rahul ...
+  - https://www.youtube.com/watch?v=GGauirzLjc0
+- **(unknown)** — not a company - a host, a form link or a social post
+  - POV: In a world of 10 mins delivery, you like Sabzi Mandi! Weekend ...
+  - https://www.facebook.com/thekunalkapur/videos/pov-in-a-world-of-10-mins-delivery-you-like-sabzi-mandi-weekend-calls-for-visiti/7395924153796102/
+- **Flickr** — no signal found in the title or snippet
+  - Vegetable vendor in Nadiad, Gujarat, India | Kitchen Thinker - Flickr
+  - https://www.flickr.com/photos/curcumari/3251032098
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Zest Eat gives you the digital presence your business deserves. Join ...
+  - https://www.instagram.com/reel/DVBkUeBjwQh/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 95 Year Old Vegetable Vendor in Bhubaneswar - YouTube
+  - https://www.youtube.com/watch?v=CK7FMOWDqF8
+- **Ebay** — no signal found in the title or snippet
+  - Vintage Cotton Print Kitchen Towel Featuring Vegetable Vendor ...
+  - https://www.ebay.com/itm/137173028000
