@@ -1,0 +1,173 @@
+# Rejected results
+
+_53 of 56 result(s) thrown away._
+
+## Why
+
+- not a company - a host, a form link or a social post: 30 (54%)
+- no signal in the snippet: 20 (36%)
+- sells this kind of product: 3 (5%)
+
+> If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
+
+## What was thrown away
+
+- **(unknown)** — not a company - a host, a form link or a social post
+  - I spend 2 weeks looking for design partners, I've found no ...
+  - https://www.reddit.com/r/startups/comments/1w63fn0/i_spend_2_weeks_looking_for_design_partners_ive/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Kamyar Mohager's Post - Gambit
+  - https://www.linkedin.com/posts/kammohager_gambit-the-system-of-record-for-product-activity-7465039174237147136-gHYZ
+- **(unknown)** — not a company - a host, a form link or a social post
+  - ALLi Works with Real FRONTSTEPS Data for AI
+  - https://www.linkedin.com/posts/frontsteps1_alli-knows-your-data-and-keeps-it-safe-activity-7475937174849421314-P6Uz
+- **Cloudgeometry** — sells this kind of product (competitor, not a buyer)
+  - AI for better BI with the data
+  - https://www.cloudgeometry.com/ai-for-better-bi-with-the-data
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Perplexity Launches Comet Enterprise AI Browser for Teams
+  - https://www.linkedin.com/posts/calepissarra_perplexity-just-launched-comet-enterprise-activity-7439720930949525504-j6ZN
+- **Cyborg** — no signal found in the title or snippet
+  - The Cyborg Hackathon: Build Real-Time Encrypted AI
+  - https://www.cyborg.co/blog/hackathon/
+- **Healthedge** — sells this kind of product (competitor, not a buyer)
+  - HealthEdge® CTO Update: Key Areas of Investment for 2025
+  - https://healthedge.com/resources/blog/healthedge-cto-update-key-areas-of-investment-for-2025
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Massive's Post
+  - https://www.linkedin.com/posts/joinmassive_building-in-stealth-mode-scaling-on-a-tight-activity-7415376050051829760-VjvQ
+- **Substack** — no signal found in the title or snippet
+  - Stealth Startup Spy #81 - by Drake Dukes
+  - https://stealthstartupspy.substack.com/p/stealth-startup-spy-81
+- **Seedops** — no signal found in the title or snippet
+  - Stealth Startup is hiring engineers in data infrastructure and ...
+  - https://www.seedops.co/signals/stealth-startup-stealth-startup-is-hiring-engineers-in-data-infrastructure-and-data-exploration-34933
+- **Tfsfventures** — no signal found in the title or snippet
+  - Venture Studios Building in Stealth for Clients
+  - https://tfsfventures.com/blog/venture-studios-building-in-stealth-for-clients
+- **(unknown)** — not a company - a host, a form link or a social post
+  - AI-Native Companies Disrupt Go-to-Market Efficiency 10x to 100x
+  - https://www.linkedin.com/posts/sophiebuonassisi_new-a-tsunami-wave-of-ai-native-companies-activity-7460713058009530368-qUz5
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Stealth Startup Spy on X: "🔎Frank Jiang is now building ...
+  - https://x.com/StealthCoSpy/status/2074961728866320794
+- **Osmu** — no signal found in the title or snippet
+  - (a16z) Building Companies in Stealth: Travis Kalanick's ... - OSMU
+  - https://osmu.app/en/blog/building-companies-in-stealth-travis-kalanicks-atoms-vision
+- **(unknown)** — not a company - a host, a form link or a social post
+  - FPV Labs Launches Human Data Infrastructure for Robotics
+  - https://www.linkedin.com/posts/abhishekanand1994_after-8-months-of-building-in-stealth-and-activity-7445816336854728704-BObA
+- **Substack** — no signal found in the title or snippet
+  - Stealth Startup Spy #309 - by Drake Dukes - Substack
+  - https://stealthstartupspy.substack.com/p/stealth-startup-spy-309
+- **Stealth AI Startup** — no signal found in the title or snippet
+  - Founding Engineer at Stealth AI Startup - Jobs - LinkedIn
+  - https://www.linkedin.com/jobs/view/founding-engineer-at-stealth-ai-startup-4439407849
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Stealth Ai Company Jobs in United States (1000+ Open Roles)
+  - https://www.linkedin.com/jobs/stealth-ai-company-jobs
+- **Stealth** — no signal found in the title or snippet
+  - AI/ML Developer (MS/PhD) - Founding Engineer at Stealth - LinkedIn
+  - https://www.linkedin.com/jobs/view/ai-ml-developer-ms-phd-founding-engineer-at-stealth-ai-social-network-4206724152
+- **Stealth Startup** — sells this kind of product (competitor, not a buyer)
+  - Founding AI Engineer [33412] at Stealth Startup - LinkedIn
+  - https://www.linkedin.com/jobs/view/founding-ai-engineer-33412-at-stealth-startup-4459504293
+- **Stealth AI Infrastructure Startup** — no signal found in the title or snippet
+  - Founding Engineer at Stealth AI Infrastructure Startup - LinkedIn
+  - https://www.linkedin.com/jobs/view/founding-engineer-at-stealth-ai-infrastructure-startup-4451184651
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Founding AI Software Engineer, Backend Focus - LinkedIn
+  - https://www.linkedin.com/jobs/view/founding-ai-software-engineer-backend-focus-at-stealth-defense-ai-startup-4216491104
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 1,000+ Founding Engineer jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/founding-engineer-jobs
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Founding Senior Mobile Engineer (React Native) - LinkedIn
+  - https://www.linkedin.com/jobs/view/founding-senior-mobile-engineer-react-native-at-stealth-ai-startup-4462985916
+- **Stealth AI Startup** — no signal found in the title or snippet
+  - Stealth AI Startup hiring Founding Engineer in Vilnius, Vilniaus ...
+  - https://lt.linkedin.com/jobs/view/founding-engineer-at-stealth-ai-startup-4309562921
+- **Stealth YC company at Jack & Jill** — no signal found in the title or snippet
+  - Founding AI Engineer at Stealth YC company at Jack & Jill - LinkedIn
+  - https://www.linkedin.com/jobs/view/founding-ai-engineer-at-stealth-yc-company-at-jack-jill-4401042710
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Deep-tech founders: Staying in the lab can be deadly
+  - https://www.linkedin.com/posts/pranav-vempati-245176175_the-most-dangerous-thing-for-a-deep-tech-activity-7419612268503449600-WLNJ
+- **(unknown)** — not a company - a host, a form link or a social post
+  - TribeROI builds a platform that helps B2B tech companies ...
+  - https://www.instagram.com/p/DXGsbYbjYsp/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Seeking design partners for accounting platform
+  - https://www.facebook.com/groups/malaysiaentrepreneurship/posts/3883964051734665/
+- **Genesysgrowth** — no signal found in the title or snippet
+  - IDEO Alternatives – 2026
+  - https://genesysgrowth.com/blog/ideo-alternatives
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Introducing Wave: AI-Powered Product Agent for Self-Improving ...
+  - https://www.linkedin.com/posts/spenserskates_today-were-introducing-wave-a-proactive-activity-7470525958865895425-0qsf
+- **(unknown)** — not a company - a host, a form link or a social post
+  - My First Startup Failed: Lessons in Partnership and Timing
+  - https://www.linkedin.com/posts/fahadaziz449_startups-founders-b2b-activity-7430662240699162624-cmlG
+- **Qiaidesign** — no signal found in the title or snippet
+  - QIAI Design – Empowering Designers & Architects
+  - https://qiaidesign.com/
+- **Hashnode** — no signal found in the title or snippet
+  - Why Partner with Top UI/UX Agencies? This Global Top 100 ...
+  - https://thegrid.hashnode.dev/why-partner-with-top-uiux-agencies-this-global-top-100-list-has-the-answers
+- **Substack** — no signal found in the title or snippet
+  - Stealth Startup Spy #226 - by Drake Dukes - Substack
+  - https://stealthstartupspy.substack.com/p/stealth-startup-spy-226
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Meet Stealth Founders for Lunar New Year
+  - https://www.linkedin.com/posts/stealth-startup-community_stealth-startups-founders-activity-7429564859991838720-Ih5h
+- **Substack** — no signal found in the title or snippet
+  - Stealth Startup Spy #328 - by Drake Dukes
+  - https://stealthstartupspy.substack.com/p/stealth-startup-spy-328
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Reposts by Stealth Startup Spy (@StealthCoSpy) ...
+  - https://x.com/StealthCoSpy/reposts
+- **Substack** — no signal found in the title or snippet
+  - Stealth Startup Spy #22 - by Drake Dukes - Substack
+  - https://stealthstartupspy.substack.com/p/stealth-startup-spy-22
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Stealth Startup | 14 comments
+  - https://www.linkedin.com/posts/stealth-startup-community_stealth-venturecapital-startup-activity-7340755259947995136-WHXk
+- **Octosignal** — no signal found in the title or snippet
+  - OctoSignal — Long Horizon Attendee Intelligence
+  - https://octosignal.app/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Emil Bayazitov - LinkedIn, Facebook
+  - https://me.sh/profile/emil-bayazitov
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Gaurav Garg's Post
+  - https://www.linkedin.com/posts/gauravgarg25_startups-ai-founder-activity-7395492437852311552-fKtA
+- **(unknown)** — not a company - a host, a form link or a social post
+  - CEO & Founder | IT, Combinatorial Optimization Venture | Pre-Seed
+  - https://www.linkedin.com/jobs/view/ceo-founder-it-combinatorial-optimization-venture-pre-seed-founder-equity-at-needtech-labs-4455683864
+- **(unknown)** — not a company - a host, a form link or a social post
+  - AI Co-Founder / CEO (100 % remote) (m/f/d) - Jobs - LinkedIn
+  - https://www.linkedin.com/jobs/view/ai-co-founder-ceo-100-%25-remote-m-f-d-at-ewor-4457315250
+- **(unknown)** — not a company - a host, a form link or a social post
+  - CEO & Founder, Cellular Network Venture | Pre-Seed - LinkedIn
+  - https://www.linkedin.com/jobs/view/ceo-founder-cellular-network-venture-pre-seed-founder-equity-at-needtech-labs-4455699018
+- **(unknown)** — not a company - a host, a form link or a social post
+  - CEO & Founder at a Supply Chain AI Startup (Equity Only) - LinkedIn
+  - https://www.linkedin.com/jobs/view/ceo-founder-at-a-supply-chain-ai-startup-equity-only-at-needtech-labs-4458619264
+- **(unknown)** — not a company - a host, a form link or a social post
+  - CEO & Founder, Predictive Maintenance Venture (Pre-Seed, No ...
+  - https://www.linkedin.com/jobs/view/ceo-founder-predictive-maintenance-venture-pre-seed-no-salary-equity-only-at-needtech-labs-4455690872
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Co-founder & CEO - Stealth Marketplace SaaS - LinkedIn Singapore
+  - https://sg.linkedin.com/jobs/view/co-founder-ceo-at-stealth-marketplace-saas-4306195996
+- **Jack & Jill** — no signal found in the title or snippet
+  - Jack & Jill hiring Cofounder-in-Residence (Up to £250k Pre-Seed + ...
+  - https://uk.linkedin.com/jobs/view/cofounder-in-residence-up-to-%C2%A3250k-pre-seed-%2B-equity-at-global-deep-tech-venture-builder-at-jack-jill-4456650950
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Investor (Technical Software Focus) at January Capital — Singapore
+  - https://sg.linkedin.com/jobs/view/investor-technical-software-focus-at-january-capital-4378828533
+- **Vertex AI Pte. .** — no signal found in the title or snippet
+  - Vertex AI Pte. Ltd. hiring Co-Founder | AI Startup in Singapore
+  - https://sg.linkedin.com/jobs/view/co-founder-ai-startup-at-vertex-ai-pte-ltd-4439495835
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Co-Founder/CTO - A Pre-Seed Agentic AI StartUp - LinkedIn
+  - https://il.linkedin.com/jobs/view/co-founder-cto-a-pre-seed-agentic-ai-startup-at-hi-tech-consulting-ltd-4434525961

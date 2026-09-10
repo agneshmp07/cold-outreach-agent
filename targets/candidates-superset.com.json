@@ -1,0 +1,23 @@
+{
+  "client": "super{set}",
+  "client_domain": "superset.com",
+  "min_score": 5,
+  "resolved": true,
+  "queries": [
+    "\"looking for design partners\" \"enterprise AI\"",
+    "\"building in stealth\" \"data infrastructure\"",
+    "site:linkedin.com/jobs \"founding engineer\" \"stealth\" \"AI\"",
+    "\"seeking design partners\" \"B2B\" \"AI\"",
+    "\"ex-Google\" \"stealth startup\" \"building in AI\"",
+    "site:linkedin.com/jobs \"co-founder\" \"AI\" \"pre-seed\""
+  ],
+  "note": "These queries surface stealth-stage or pre-seed B2B AI and data founders currently recruiting early team members or seeking initial design partners.",
+  "results_seen": 56,
+  "rejected_count": 53,
+  "rejection_reasons": {
+    "not a company - a host, a form link or a social post": 30,
+    "sells this kind of product": 3,
+    "no signal in the snippet": 20
+  },
+  "candidates": []
+}

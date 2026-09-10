@@ -1,0 +1,318 @@
+{
+  "domain": "elevationcapital.com",
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "checked_against": "icp-kpmg.com.md",
+  "result": {
+    "company_name": "Elevation Capital",
+    "what_they_do": "Elevation Capital is an early-stage venture capital firm that invests in globally-impactful technology companies and startups.",
+    "size": {
+      "estimate": "11-50 employees",
+      "evidence": "[14]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "None",
+      "in_icp": false,
+      "why": "Elevation Capital is a venture capital firm, not a Healthcare & Hospital System, Multinational Law Firm, or Global Enterprise / Industrial Manufacturing firm with $1B+ in revenue.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No target buying signals such as job postings for CSRD Compliance Lead, Oracle ERP Integration Manager, or Global Tax Director were found.",
+      "evidence": "N/A",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Does not belong to any of the ICP target industries (Healthcare Systems, Multinational Law Firms, or $1B+ Industrial Manufacturing Enterprises)."
+    ],
+    "verdict": "SKIP",
+    "reason": "Elevation Capital is an early-stage venture capital firm with 11-50 employees [1, 7, 14], which does not fit any of the required ICP enterprise segments (Healthcare & Hospital Systems, Multinational Law Firms, or $1B+ Industrial Manufacturing companies).",
+    "could_not_find": [
+      "Specific annual revenue figures for Elevation Capital.",
+      "Evidence of any enterprise ERP or cross-border tax compliance advisory spending."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Elevation Capital | Capital for a better world",
+      "snippet": "Elevation Capital is an early-stage venture fund that invests in globally-impactful companies united by a common vision of humanity as the highest purpose.",
+      "link": "https://www.elevationcapital.vc/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Elevation Capital",
+      "snippet": "We invested in Urban Company during their MVP days and doubled down as they became full-stack ... © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Team – Elevation Capital",
+      "snippet": "We strive to elevate founders to achieve their audacious goals ... © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/team",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Elevation Capital Group | Private Real Estate Investments",
+      "snippet": "Elevation Capital Group ... Strategic asset management, capital allocation, and investment oversight. Asset Management. + ...",
+      "link": "https://elevationcapitalgroup.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Elevation Capital",
+      "snippet": "Elevation Capital. Venture Capital and Private Equity Principals. Gurgaon, Haryana 160,020 followers. Built for the Audacious. See jobs ...",
+      "link": "https://in.linkedin.com/company/elevationcap",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Portfolio",
+      "snippet": "Vridhi Home Finance is a 'Tech-enabled Brick and Mortar' housing finance company. ... © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/portfolio",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Elevation Capital (Canada) investment portfolio",
+      "snippet": "Founded in 2012, Elevation Capital is a venture capital firm based in Vancouver, Canada. The firm seeks to invest in companies operating in the consumer ...",
+      "link": "https://pitchbook.com/profiles/investor/500679-28",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Elevation Capital (@elevationcap)",
+      "snippet": "The next challenge is building world-class go-to-market teams. In this episode of Day One by Elevation Capital, the Portkey co-founders Rohit Agarwal and ...",
+      "link": "https://www.instagram.com/elevationcap/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Elevation Capital",
+      "snippet": "Employees at Elevation Capital. Click here to view Ravi Adusumalli's profile ... Head of Marketing jobs. 2,010 open jobs · Developer jobs. 73,513 open jobs ...",
+      "link": "https://in.linkedin.com/company/elevationcap",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Elevation Capital Jobs in Worldwide (1000+ Open Roles)",
+      "snippet": "Today's top 1000+ Elevation Capital jobs in Worldwide. Leverage your professional network, and get hired. New Elevation Capital jobs added daily.",
+      "link": "https://www.linkedin.com/jobs/elevation-capital-jobs-worldwide",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mark Mains - Chief of Staff | Strategic Operations Leader",
+      "snippet": "Experience ; Chief of Staff & VP Operations - Business Operations, Product, & Strategy. Elevation Capital. Apr 2023 ; Director of Strategy - Strategy & Business ...",
+      "link": "https://www.linkedin.com/in/mmains",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Team – Elevation Capital",
+      "snippet": "... Road, Bellandur, Bengaluru, 560103. Follow. Contact. community@elevationcapital.com. Back to top. © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/team",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Thrilled to share some exciting news!  Elevation Capital has ...",
+      "snippet": "Thrilled to share some exciting news! Elevation Capital has officially launched its brand new office right here in Bengaluru!",
+      "link": "https://www.linkedin.com/posts/satwikpradhann_thrilled-to-share-some-exciting-news-activity-7308442246264016897-DtET",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Elevation Capital: Employee Directory",
+      "snippet": "How many employees does Elevation Capital have? Elevation Capital has 11-50 employees ... Linkedin · Twitter · Instagram · Facebook · Youtube. PxPixel.",
+      "link": "https://www.zoominfo.com/pic/elevation-capital/470120780",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Akhil Andasu - Elevation Capital",
+      "snippet": "View Akhil's full profile. Akhil can introduce you to 10+ people at Elevation Capital.",
+      "link": "https://in.linkedin.com/in/akhilandasu",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mukul Arora - Co-Managing Partner at Elevation Capital",
+      "snippet": "Co-Managing Partner at Elevation Capital · Experience: Elevation Capital · Education: IIM Lucknow · Location: Bengaluru · 500+ connections on LinkedIn.",
+      "link": "https://in.linkedin.com/in/mukularora1",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Elevation Capital | Capital for a better world",
+      "snippet": "Elevation Capital is an early-stage venture fund that invests in globally-impactful companies united by a common vision of humanity as the highest purpose.",
+      "link": "https://www.elevationcapital.vc/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Elevation Capital",
+      "snippet": "... Road, Bellandur, Bengaluru, 560103. Follow. Contact. community@elevationcapital.com. Back to top. © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Elevation Capital Strategies",
+      "snippet": "Insurance services offered by its affiliate Elevation Capital Strategies, Inc. Neither the firm nor its representatives may give tax or legal advice.",
+      "link": "https://www.elevationcapitalstrategies.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Portfolio",
+      "snippet": "Driving efficiency improvement through digital transformation Investing Stage Series A Founders ... © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/portfolio",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Ankur Jain - Vice President Finance at Elevation Capital",
+      "snippet": "Vice President Finance at Elevation Capital · Chartered Accountant with 13+ years post-qualification experience of working in Venture Capital and Investment ...",
+      "link": "https://in.linkedin.com/in/ankur-jain-19558819",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Speakers | AI Case Studies Conference 2025",
+      "snippet": "He later served as Vice President at Elevation Capital, one of India's leading venture capital firms, where he invested in high-growth technology companies.",
+      "link": "https://www.financialexecutives.org/Events/Conferences/AI-Case-Studies-Conference/Info/Speakers.aspx",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Become Capital Ready - Elevation Tax Pros",
+      "snippet": "Before Elevation Capital Group can create a personalized credit education or funding strategy, you must complete the ECG Credit Readiness Check™ using our ...",
+      "link": "https://joinelevationtaxpros.com/capital",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "2024 Year in Review",
+      "snippet": "... Bellandur, Bengaluru, 560103. Follow. Contact. community@elevationcapital.com. Back to top. © 2026 Elevation Capital. Privacy & TermsCaution ...",
+      "link": "https://elevationcapital.com/perspectives/2024-year-in-review",
+      "date": "Dec 23, 2024"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Elevation Capital | Capital for a better world",
+      "snippet": "Elevation Capital is an early-stage venture fund that invests in globally-impactful companies united by a common vision of humanity as the highest purpose.",
+      "link": "https://www.elevationcapital.vc/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Elevation Capital",
+      "snippet": "... Road, Bellandur, Bengaluru, 560103. Follow. Contact. community@elevationcapital.com. Back to top. © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Portfolio",
+      "snippet": "Driving efficiency improvement through digital transformation Investing Stage Series A Founders ... © 2026 Elevation Capital. Privacy & TermsCaution Notice.",
+      "link": "https://elevationcapital.com/portfolio",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Ankur Jain - Vice President Finance at Elevation Capital",
+      "snippet": "Vice President Finance at Elevation Capital · Chartered Accountant with 13+ years post-qualification experience of working in Venture Capital and Investment ...",
+      "link": "https://in.linkedin.com/in/ankur-jain-19558819",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Risk, Compliance & Security Service Providers for GCCs",
+      "snippet": "Their services include operating model design, transformation, and talent advisory. ... Elevation Capital, and other investors. Core servicesAI-Driven GRCAudit ...",
+      "link": "https://www.businessofgcc.com/gcc-partners/risk-compliance",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Speakers | AI Case Studies Conference 2025",
+      "snippet": "He later served as Vice President at Elevation Capital, one of India's leading venture capital firms, where he invested in high-growth technology companies.",
+      "link": "https://www.financialexecutives.org/Events/Conferences/AI-Case-Studies-Conference/Info/Speakers.aspx",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Become Capital Ready - Elevation Tax Pros",
+      "snippet": "Before Elevation Capital Group can create a personalized credit education or funding strategy, you must complete the ECG Credit Readiness Check™ using our ...",
+      "link": "https://joinelevationtaxpros.com/capital",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "2024 Year in Review",
+      "snippet": "... Bellandur, Bengaluru, 560103. Follow. Contact. community@elevationcapital.com. Back to top. © 2026 Elevation Capital. Privacy & TermsCaution ...",
+      "link": "https://elevationcapital.com/perspectives/2024-year-in-review",
+      "date": "Dec 23, 2024"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Hiring – SaaS Compass - Elevation Capital",
+      "snippet": "Hiring – SaaS Compass Field Guides Captains Perspectives SaaS @ Elevation Pitch Pitch. Touchsaas@elevationcapital.com+91 124 4965500. Up +91 124 4965500saas@ ...",
+      "link": "https://saas-compass.elevationcapital.com/hiring",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About – SaaS Compass - Elevation Capital",
+      "snippet": "Hiring key early employees in global markets is crucial, and SaaS founders urgently need insights to better understand the market",
+      "link": "https://saas-compass.elevationcapital.com/about",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Sanskar Jain – Elevation Capital",
+      "snippet": "Sanskar focuses on early-stage investments in Enterprise AI at Elevation and is based in San Francisco. skar holds a B.Tech in Mechanical Engineering from IIT ...",
+      "link": "https://www.elevationcapital.com/team/sanskar-jain",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Vitthal Dhingra – Elevation Capital",
+      "snippet": "Vitthal focuses on leadership hiring across portfolio companies. He focuses on roles of strategic importance, complex hires and helping founders",
+      "link": "https://www.elevationcapital.com/team/vitthal-dhingra",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Sourav Sahoo – Elevation Capital",
+      "snippet": "At Elevation, Sourav is dedicated to helping our portfolio companies recruit the best tech talent. Personal Interests. Travelling. Experiencing diverse cuisines.",
+      "link": "https://elevationcapital.com/team/sourav-sahoo",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "The 'No BS' Guide To Negotiating A Term Sheet - Elevation Capital",
+      "snippet": "After you've nailed the pitch deck (Episode 1), the next critical milestone is signing a term sheet. But what exactly goes into those 2-3 pages?",
+      "link": "https://elevationcapital.com/perspectives/the-no-bs-guide-to-negotiating-a-term-sheet-podcast",
+      "date": "Oct 15, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Investing in Journeyfront – Elevation Capital",
+      "snippet": "Helping companies more accurately hire the right people for the right jobs.",
+      "link": "https://www.elevationcapital.com/perspectives/portfolio-blog/investing-in-journeyfront",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "BUILDING GLOBAL SALES ORGANISATIONS - SaaS Compass",
+      "snippet": "Sales Development Representatives (SDRs) — They form the first touchpoint of your sales org. They handle inbound leads and also take care of prospecting. ...",
+      "link": "https://saas-compass.elevationcapital.com/field-guides/building-global-sales-organisations",
+      "date": ""
+    }
+  ]
+}

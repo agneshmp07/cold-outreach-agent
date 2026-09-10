@@ -1,0 +1,86 @@
+{
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "company_name": "Mesa School of Business",
+  "disqualifiers": [],
+  "generated_from": {
+    "trigger_count": 1,
+    "top_score": 7,
+    "pain_hypothesis": "As Mesa School of Business expands following its Series A funding round, managing campus drives and candidate evaluation across multiple colleges manually could create recruiting bottlenecks.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "workspace setup after your series a",
+      "body": "Now that Mesa School of Business is preparing to raise its Series A round, you are likely planning your next growth phase. As team size and regional footprint expand, setting up physical workspace often creates operational friction.\n\nWhat usually breaks for you today when trying to scale office capacity or establish satellite locations quickly?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round.",
+      "trigger_link": "Raising a Series A funding round typically drives headcount growth and geographical expansion, creating a need for adaptable workspace options.",
+      "word_count": 56,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "managing flexible team growth",
+      "body": "Locking an expanding business into long-term commercial real estate leases before headcount stabilizes often leads to wasted budget or overcrowded offices.\n\nDoes that match your experience as Mesa School of Business grows, or are you managing flexible office needs differently today?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round.",
+      "trigger_link": "Raising a Series A funding round typically drives headcount growth and geographical expansion, creating a need for adaptable workspace options.",
+      "word_count": 43,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "office options for your series a expansion",
+      "body": "With Mesa School of Business set to raise around Rs 100 crore in Series A funding, expanding your physical presence will likely become a focus.\n\nIf we brought you customized, move-in ready flexible office setups across your target locations, would you be open to reviewing them? It costs nothing and commits you to nothing.\n\nWould a brief call next week make sense to explore this?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round.",
+      "trigger_link": "Raising a Series A funding round typically drives headcount growth and geographical expansion, creating a need for adaptable workspace options.",
+      "word_count": 67,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Congrats on Mesa School of Business preparing for its Series A round. Would love to connect here on LinkedIn as you prepare for your next growth phase.",
+      "trigger_used": "Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round.",
+      "trigger_link": "Raising a Series A funding round typically drives headcount growth and geographical expansion, creating a need for adaptable workspace options.",
+      "char_count": 151,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. As Mesa School of Business expands following your funding plans, how are you currently handling flexible workspace setup and team expansion across cities?",
+      "trigger_used": "Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round.",
+      "trigger_link": "Raising a Series A funding round typically drives headcount growth and geographical expansion, creating a need for adaptable workspace options.",
+      "char_count": 177,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "We are currently mapping out how growing education platforms set up scalable workspaces without committing to rigid leases. Happy to share what we learn as we build these insights if you are thinking about real estate flexibility for Mesa School of Business.",
+      "trigger_used": "Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round.",
+      "trigger_link": "Raising a Series A funding round typically drives headcount growth and geographical expansion, creating a need for adaptable workspace options.",
+      "char_count": 258,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "superset.com",
+  "name": "super{set}",
+  "one_liner": "super{set} is a startup studio that co-founds, funds, and scales data and AI enterprise software companies.",
+  "what_you_sell": "Co-founding partnership, operational execution support, and pre-seed/seed capital for data and AI startups.",
+  "target_group": "super{set} targets experienced technical builders, product leaders, and domain experts who want to co-found a data or AI software company. They focus on individuals or micro-teams at the pre-seed or idea stage targeting high-stakes B2B industries. Good prospects are founders who want hands-on operational partners and capital to de-risk company building from day one.",
+  "business_model": "direct",
+  "who_uses_it": "Startup co-founders, CEOs, and technical builders working within the studio's portfolio companies.",
+  "who_pays_for_it": "Entrepreneurs and prospective founders who exchange equity in their company for studio co-building services, operational support, and funding.",
+  "who_buys_it": "Aspiring startup founders, technical executives, and product leaders looking to launch a data or AI business.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-superset.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Implies partnering with them drastically increases chances of hitting escape velocity.",
+    "Implies having an entire team of seasoned co-founders ready on day one.",
+    "Quotes founder claims of providing a risk-adjusted path to building startups.",
+    "Implies a proven operational playbook from idea to exit."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

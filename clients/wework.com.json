@@ -1,0 +1,26 @@
+{
+  "domain": "wework.com",
+  "name": "WeWork",
+  "one_liner": "WeWork provides flexible, move-in ready office spaces and coworking memberships for businesses and individuals.",
+  "what_you_sell": "Flexible workspace solutions including private offices, coworking memberships, meeting rooms, and enterprise space management technology.",
+  "target_group": "WeWork sells flexible workspace solutions to mid-sized growing businesses, enterprise companies, and remote-first teams. They target Heads of Real Estate, Workplace Experience Managers, and Operations Directors who need adaptable office space without committing to long-term commercial leases. A strong prospect is a business undergoing geographic expansion or shifting to a hybrid work model.",
+  "sells_to_businesses": true,
+  "b2c_note": "While individual freelancers can purchase coworking memberships, the high-value paying side consists of business organizations purchasing dedicated offices and enterprise real estate solutions.",
+  "business_model": "direct",
+  "who_uses_it": "Employees, distributed teams, freelancers, and business professionals needing daily workspace or meeting facilities.",
+  "who_pays_for_it": "Company operations leaders, real estate heads, HR leaders, or individual business owners.",
+  "who_buys_it": "Heads of Real Estate, Chief Operations Officers, Workplace Managers, and Chief People Officers at businesses seeking flexible physical footprint.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-wework.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Operates 600+ locations across 30+ countries and 100+ cities",
+    "Provides access to 2,000+ partner locations globally",
+    "Manages 45M square feet and serves 550K members",
+    "Saves real estate costs while offering custom space management technology"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

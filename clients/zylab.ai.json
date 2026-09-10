@@ -1,0 +1,25 @@
+{
+  "domain": "zylab.ai",
+  "name": "ZyLab",
+  "one_liner": "ZyLab provides AI tools and services to generate product photos, promo videos, and audio content for digital marketing.",
+  "what_you_sell": "AI-powered media generation software for product photography, promotional videos, and podcasts, alongside done-for-you content creation services and training cohorts.",
+  "target_group": "ZyLab sells to e-commerce brands and marketing agencies with under 50 employees that need a continuous volume of visual marketing assets. Good prospects frequently launch products or run video ad campaigns on social channels and need studio-quality visuals without traditional production overhead. They buy either access to the AI platform or direct agency support.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "E-commerce managers, social media marketers, graphic designers, and content creators.",
+  "who_pays_for_it": "E-commerce brand owners, digital agency directors, and marketing leaders.",
+  "who_buys_it": "E-commerce brands and marketing agencies that require frequent visual content and product media.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-zylab.ai.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "implies availability of an active creator network ('créateur Dinzy') for full delegation",
+    "implies an active two-week training cohort program",
+    "implies integration of advanced video models like 'Seedance 2.5'"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

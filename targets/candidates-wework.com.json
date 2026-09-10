@@ -1,0 +1,164 @@
+{
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Growth-Stage B2B Software Companies",
+      "why_they_buy": "They require immediate, turnkey office footprints in new regional markets to support rapid hiring without committing to long-term commercial leases.",
+      "example_of_a_buyer": "A Series B software company with 150 employees expanding remote satellite hubs across three major tech cities."
+    },
+    {
+      "sector": "Enterprise Financial Services and Banking",
+      "why_they_buy": "They need to reduce fixed capital expenditure on traditional real estate while providing flexible, fully managed regional hubs for a hybrid workforce.",
+      "example_of_a_buyer": "A 2,000-person financial institution downsizing its centralized corporate headquarters in favor of regional hub-and-spoke offices."
+    },
+    {
+      "sector": "Management Consulting and Boutique Professional Services",
+      "why_they_buy": "They need central, client-ready meeting spaces and office infrastructure without the operational burden of managing facilities, utilities, or long-term lease terms.",
+      "example_of_a_buyer": "A 30-person strategy consultancy that frequently deploys temporary project teams in new metros for long-term client engagements."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Perfios Software Solutions",
+      "sector": "Growth-Stage B2B Software Companies",
+      "why": "Fast-growing B2B fintech SaaS company requiring workspace for expanding software and product teams.",
+      "seen_in": "100 Top SaaS Companies in Bangalore · September 2026",
+      "domain": "perfios.ai"
+    },
+    {
+      "company": "APERIO",
+      "sector": "Growth-Stage B2B Software Companies",
+      "why": "Recently funded B2B SaaS startup scaling operations and requiring private office space for new hires.",
+      "seen_in": "List of Funded B2B SaaS Companies (2026)",
+      "domain": "blackrock.com"
+    },
+    {
+      "company": "ArcSpan Technologies",
+      "sector": "Growth-Stage B2B Software Companies",
+      "why": "Funded B2B SaaS marketing tech company expanding its business and engineering teams.",
+      "seen_in": "List of Funded B2B SaaS Companies (2026)",
+      "domain": "arcspan.com"
+    },
+    {
+      "company": "Ameyo",
+      "sector": "Growth-Stage B2B Software Companies",
+      "why": "Established contact center software company needing flexible office hubs for technical and support staff.",
+      "seen_in": "A List of Top SaaS Companies Data in India",
+      "domain": "ameyo.com"
+    },
+    {
+      "company": "Alphabricks Technologies",
+      "sector": "Growth-Stage B2B Software Companies",
+      "why": "Growing IT consulting and SaaS firm requiring adaptable office space for growing tech teams.",
+      "seen_in": "A List of Top SaaS Companies Data in India",
+      "domain": "alphabricks.com"
+    },
+    {
+      "company": "Even Healthcare",
+      "sector": "Growth-Stage B2B Software Companies",
+      "why": "Healthtech firm appointing C-level executives and expanding its commercial B2B operations.",
+      "seen_in": "Even Healthcare Appoints Vignesh PV as CCO to Lead Insurance and B2B Growth",
+      "domain": "evenhealthcare.com"
+    },
+    {
+      "company": "BusinessNext",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Banking software company securing $40 million in funding to scale AI platform operations globally.",
+      "seen_in": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "domain": "businessnext.com"
+    },
+    {
+      "company": "Paytm",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Digital financial services provider launching new enterprise AI divisions requiring dedicated team spaces.",
+      "seen_in": "Paytm to foray into enterprise AI with ‘Paytm Intelligence’",
+      "domain": "google.com"
+    },
+    {
+      "company": "State Bank of India",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Major bank investing $1 billion in enterprise AI framework, needing workspace for new tech initiatives.",
+      "seen_in": "SBI plans $1 billion investment to build bank-wide AI framework, move beyond isolated use cases: CIO Abhay P..",
+      "domain": "bank.in"
+    },
+    {
+      "company": "HDFC Bank",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Large commercial bank expanding enterprise footprint and regional satellite team offices.",
+      "seen_in": "List of Financial Services Companies",
+      "domain": "bank.in"
+    },
+    {
+      "company": "ICICI Bank",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Enterprise banking institution requiring flexible workspace solutions for regional operational hubs.",
+      "seen_in": "List of Financial Services Companies",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Axis Bank",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Major private sector bank needing flexible enterprise office solutions for digital project teams.",
+      "seen_in": "List of Financial Services Companies",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Kotak Mahindra Bank",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Diversified banking firm expanding financial operations and requiring scalable office environments.",
+      "seen_in": "List of Financial Services Companies",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Bajaj Finserv",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Financial services conglomerate actively growing teams across retail and corporate divisions.",
+      "seen_in": "Top Financial Services Companies in India",
+      "domain": "bajajfinserv.in"
+    },
+    {
+      "company": "Muthoot Finance",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Major financial services firm requiring office suites and regional admin workspace.",
+      "seen_in": "Top Financial Services Companies in India",
+      "domain": "muthootfinance.com"
+    },
+    {
+      "company": "ICICI Prudential Life Insurance",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Large insurance enterprise expanding distribution and tech support teams across markets.",
+      "seen_in": "Top Financial Services Companies in India",
+      "domain": "iciciprulife.com"
+    },
+    {
+      "company": "Bank of America",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Global enterprise bank leveraging flexible swing spaces and technology centers worldwide.",
+      "seen_in": "List of largest financial services companies by revenue",
+      "domain": "bankofamerica.com"
+    },
+    {
+      "company": "Morgan Stanley",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Global investment bank requiring workspace for specialized units and regional support functions.",
+      "seen_in": "Top Largest Companies In The Financial Services Sector List",
+      "domain": "morganstanley.com"
+    },
+    {
+      "company": "India Shelter Finance Corporation",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Actively hiring housing finance institution expanding workforce and regional branch presence.",
+      "seen_in": "List of top Banking & Finance companies hiring in India",
+      "domain": "indiashelter.in"
+    },
+    {
+      "company": "Satin Creditcare Network",
+      "sector": "Enterprise Financial Services and Banking",
+      "why": "Financial institution actively recruiting talent and needing flexible workspace for operational teams.",
+      "seen_in": "List of top Banking & Finance companies hiring in India",
+      "domain": "satincreditcare.com"
+    }
+  ]
+}

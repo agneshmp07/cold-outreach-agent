@@ -4,31 +4,31 @@
   "client_domain": "blinkit.com",
   "checked_against": "icp-blinkit.com.md",
   "result": {
-    "company_name": "Blinkit: Groceries & more",
-    "what_they_do": "Blinkit is an online quick-commerce and e-grocery app platform in India that delivers groceries, fresh produce, snacks, and household essentials to customers' doorsteps [2, 3, 7, 17, 36].",
+    "company_name": "Blinkit",
+    "what_they_do": "Blinkit is an online grocery shopping and quick-commerce platform in India that delivers groceries, fresh produce, and daily essentials in minutes [2, 3, 7].",
     "size": {
       "estimate": "NOT FOUND",
-      "evidence": "Search results mention over 16 million monthly transacting users [6] and 25M+ downloads [5], but do not provide exact employee headcount.",
+      "evidence": "Search results mention over 16 million monthly transacting users and a $15 billion valuation, but do not state employee headcount [6].",
       "status": "NOT FOUND"
     },
     "segment": {
-      "best_match": "Consumer / Retail Grocery (1 to 5 people Household)",
+      "best_match": "Consumer / Household (1-10 people)",
       "in_icp": false,
-      "why": "Blinkit is an e-grocery company and corporate platform [6, 36], not an individual consumer household of 1 to 5 people.",
+      "why": "Blinkit is a major e-grocery corporate platform rather than an individual consumer or household of 1-10 people looking for home grocery delivery [6, 37].",
       "status": "VERIFIED"
     },
     "signal": {
       "found": true,
-      "what": "Blinkit app download availability and user reviews on Google Play Store and Apple App Store.",
-      "evidence": "[1], [2], [3], [30]",
+      "what": "Promotional claims of delivery in 8 minutes and catalog listing 30,000+ products [2, 3, 19, 24].",
+      "evidence": "[2], [3], [19], [24]",
       "status": "VERIFIED"
     },
     "disqualifiers": [],
     "verdict": "SKIP",
-    "reason": "The company under test is Blinkit itself—a major instant commerce corporate platform [6, 36]—and does not fit the target ICP segment of a 1 to 5 person consumer household.",
+    "reason": "The company under test is a large quick-commerce enterprise rather than an individual consumer or household of 1-10 people, so it does not fit the target segment [6, 37].",
     "could_not_find": [
       "Exact employee headcount for Blinkit",
-      "Information regarding a separate vendor portal for B2B supplier acquisition"
+      "Specific breakdown of corporate office locations"
     ]
   },
   "evidence": [
@@ -83,10 +83,10 @@
     },
     {
       "asking_about": "what they do",
-      "title": "Blinkit's 10-Minute Delivery Is Coming Soon to Palwal! Enjoy ...",
-      "snippet": "Blinkit: Groceries & more. Blinkit's 10-Minute Delivery Is Coming Soon to Palwal! Enjoy FREE Delivery On All Orders. Shakun Airflex and 6 ...",
-      "link": "https://www.facebook.com/blinkit.india/videos/blinkits-10-minute-delivery-is-coming-soon-to-palwal-enjoy-free-delivery-on-all-/959885716347122/",
-      "date": "1 year ago"
+      "title": "Blinkit: Groceries & more",
+      "snippet": "Blinkit: Groceries & more. Top Charts. US. Log in to unlock. Free App. Everyone ... All third-party product, service, and company names and logos are trademarks ...",
+      "link": "https://appmagic.rocks/google-play/blinkit-groceries-and-more/com.grofers.customerapp",
+      "date": ""
     },
     {
       "asking_about": "size",
@@ -147,155 +147,162 @@
     {
       "asking_about": "the problem area",
       "title": "Blinkit: Groceries & more - Apps on Google Play",
-      "snippet": "Blinkit: Groceries & more. Blinkit. 4.8star. 9.29M reviews. Content rating ... Buy milk products, fresh fruits & vegetables, daily grocery, kitchen, home & office ...",
+      "snippet": "Blinkit: Groceries & more. Blinkit. 4.8star. 9.29M reviews. Content rating ... Trusted by millions, it is your everyday online grocery shopping app that home- ...",
       "link": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_US",
       "date": ""
     },
     {
       "asking_about": "the problem area",
       "title": "Blinkit: Groceries & more - App Store",
-      "snippet": "Blinkit: Groceries & more ... Blinkit is India's last minute app. Trusted by millions, it is your everyday online grocery shopping app that home-delivers 30,000+ ...",
-      "link": "https://apps.apple.com/be/app/blinkit-groceries-more/id960335206",
+      "snippet": "Blinkit: Groceries & more. Fruits, vegetables & groceries. Only for iPhone ... You can get delivery of daily grocery, festival special products, and even gourmet ...",
+      "link": "https://apps.apple.com/gr/app/blinkit-groceries-more/id960335206",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Blinkit: Groceries & more - Food & Drink App",
+      "snippet": "You'll start kissing the courier when he arrives in 8 minutes. Blinkit 10/10 ... Blinkit: Groceries & more: Official App Store screenshot #8. Blinkit ...",
+      "link": "https://mwm.ai/apps/blinkit-groceries-more/960335206",
       "date": ""
     },
     {
       "asking_about": "the problem area",
       "title": "Blinkit: Groceries & more - App Store - Apple",
-      "snippet": "Blinkit: Groceries & more. Fruits, vegetables & groceries. Only for iPhone ... Buy milk products, fresh fruits & vegetables, daily grocery, kitchen, home & office ...",
+      "snippet": "Blinkit: Groceries & more. Fruits, vegetables & groceries. Only for iPhone ... You can get delivery of daily grocery, festival special products, and even gourmet ...",
       "link": "https://apps.apple.com/in/app/blinkit-groceries-more/id960335206",
       "date": ""
     },
     {
       "asking_about": "the problem area",
-      "title": "Blinkit Customer Care Helpline Number 9134382805 Toll-free # ...",
-      "snippet": "Blinkit: Groceries & more Blinkit Customer Care Helpline Number 7363837523 Call Now India's Last Minute App 30,000+ products delivered at your doorstep FREE ...",
-      "link": "https://www.instagram.com/p/Daw12PXCUIj/",
+      "title": "Blinkit: Groceries & more 18.75.0 Free Download",
+      "snippet": "Blinkit: Groceries & more - Blinkit is India's last minute app. Trusted by millions, it is your everyday online grocery shopping app that home-delivers ...",
+      "link": "https://play.google.com/store/apps/details/Blinkit_Grocery_in_10_minutes?id=com.grofers.customerapp&hl=en_GB",
       "date": ""
     },
     {
       "asking_about": "the problem area",
-      "title": "Blinkit",
-      "snippet": "... groceries, household items, and more. It supports various payment ... . Blinkit: Groceries & more . 苹果公司网站 . 2026-06-17. 10. Blinkit Velocity ...",
-      "link": "https://play.google.com/store/apps/details?id=app.blinkit.onboarding&hl=en_US",
+      "title": "Blinkit's Smartest Marketing Stunt Ever! . . #marketingstrategy # ...",
+      "snippet": "... par daalne lage. OCR. SCREAM for Ice-cream YOU WON EXTRA 50% OFF Blinkit: Groceries & more. fin_withvinay's profile picture · fin_withvinay. •. Follow.",
+      "link": "https://www.instagram.com/reel/DZIE87_TNQb/",
       "date": ""
     },
     {
       "asking_about": "the problem area",
-      "title": "She made ₹30L in 6 months on Blinkit. Comment ' ...",
-      "snippet": "Now local shop owners can sell groceries, snacks & daily essentials ... Blinkit: Groceries & more. mayankal_official's profile picture ...",
-      "link": "https://www.instagram.com/reel/DVYiiyjEzYp/",
-      "date": "6 months ago"
+      "title": "foodpanda: Food & Groceries - Download",
+      "snippet": "Blinkit: Groceries & more. As a comprehensive online grocery platform ... grocery shopping with home delivery of over 10,000 daily essentials. Latest ...",
+      "link": "https://foodpanda-food-groceries.updatestar.com/",
+      "date": ""
     },
     {
       "asking_about": "the problem area",
-      "title": "#blinkit",
-      "snippet": "Blinkit: Groceries & more Blinkit Customer Care Helpline Number ... ZaikaWheels SINCE 2026 Delicious FOOD DELIVERED FAST AT YOUR DOORSTEP FREE ...",
-      "link": "https://www.instagram.com/p/DWjxrSlgW8L/",
-      "date": "5 months ago"
-    },
-    {
-      "asking_about": "the problem area",
-      "title": "Basket.app : Grocery Shopping - Download",
-      "snippet": "Save time by shopping for groceries online, then have them delivered to your door! ... Blinkit: Groceries & more FREE Blinkit is India's last minute app. Trusted ...",
-      "link": "https://basket-grocery-shopping-ios.apps112.com/",
+      "title": "Amarji Gupta | @blinkit.fanpage @blinkitcharkhidadri @ ...",
+      "snippet": "Blinkit: Groceries & more India's Last Minute App Blinkit Customer Care Helpline Number 7363837523 Call Now 30,000+ products delivered at ...",
+      "link": "https://www.instagram.com/amarji90_official/reel/Dbp3VLXBbFf/",
       "date": ""
     },
     {
       "asking_about": "the signal",
       "title": "Blinkit: Groceries & more - Apps on Google Play",
-      "snippet": "Blinkit: Groceries & more - Apps on Google Play. Games · Apps · Movies & TV · Books ... Enjoy easy and smooth app experience with doorstep delivery. ✓ Fresh ...",
+      "snippet": "Blinkit: Groceries & more. Blinkit. 4.8star. 9.29M reviews. Content rating ... Trusted by millions, it is your everyday online grocery shopping app that home- ...",
       "link": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_US",
       "date": ""
     },
     {
       "asking_about": "the signal",
+      "title": "Blinkit: Groceries & more - App Store",
+      "snippet": "Blinkit: Groceries & more ... Blinkit is India's last minute app. Trusted by millions, it is your everyday online grocery shopping app that home-delivers 30,000+ ...",
+      "link": "https://apps.apple.com/gr/app/blinkit-groceries-more/id960335206",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Blinkit: Groceries & more - Food & Drink App",
+      "snippet": "Blinkit: Groceries & more by BLINK COMMERCE PRIVATE LIMITED. Food & Drink app, 4.7/5, 25M+ downloads. Screenshots, features, analysis.",
+      "link": "https://mwm.ai/apps/blinkit-groceries-more/960335206",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
       "title": "Blinkit: Groceries & more - App Store - Apple",
-      "snippet": "Blinkit: Groceries & more. Fruits, vegetables & groceries. Only for iPhone ... Enjoy an easy and smooth app experience with doorstep delivery. - Best ...",
+      "snippet": "Blinkit: Groceries & more ... Blinkit is India's last minute app. Trusted by millions, it is your everyday online grocery shopping app that home-delivers 30,000+ ...",
+      "link": "https://apps.apple.com/ca/app/blinkit-groceries-more/id960335206?l=fr-CA",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Blinkit: Groceries & more 18.75.0 Free Download",
+      "snippet": "Blinkit: Groceries & more - Blinkit is India's last minute app. Trusted by millions, it is your everyday online grocery shopping app that home-delivers ...",
+      "link": "https://grofers-online-grocery-ios.soft112.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Amarji Gupta | @blinkit.fanpage @blinkitcharkhidadri @ ...",
+      "snippet": "Blinkit: Groceries & more India's Last Minute App Blinkit Customer Care Helpline Number 7363837523 Call Now 30,000+ products delivered at ...",
       "link": "https://play.google.com/store/apps/details/Blinkit_Grocery_in_10_minutes?id=com.grofers.customerapp&hl=en_GB",
       "date": ""
     },
     {
       "asking_about": "the signal",
-      "title": "Zulzi - Food & Drink App",
-      "snippet": "The Zulzi app offers groceries, fresh produce, snacks, drinks, household items, and local specialties. ... Blinkit: Groceries & more.",
-      "link": "https://mwm.ai/apps/zulzi/1142657503",
+      "title": "foodpanda: Food & Groceries - Download",
+      "snippet": "Blinkit: Groceries & more. As a comprehensive online grocery platform ... grocery shopping with home delivery of over 10,000 daily essentials. Latest ...",
+      "link": "https://foodpanda-food-groceries.updatestar.com/",
       "date": ""
     },
     {
       "asking_about": "the signal",
-      "title": "Find D Mart in Siyarha - Gorakhpur",
-      "snippet": "Blinkit: Groceries & more Blinkit #Customer care `` 977_5420_283`` .. Blinkit whatsapp number . contact us toll free number. Rakesh yadav1 hour. D Mart · D Mart.",
-      "link": "https://play.google.com/store/apps/details?id=app.blinkit.onboarding&hl=en_US",
-      "date": ""
-    },
-    {
-      "asking_about": "the signal",
-      "title": "Grace Online Supermarket - Food & Drink App",
-      "snippet": "Blinkit: Groceries & more. BLINK COMMERCE PRIVATE LIMITED. View profile. Keeta - Food Delivery. Kangaroo Limited.",
-      "link": "https://mwm.ai/apps/grace-online-supermarket/1546482342",
-      "date": ""
-    },
-    {
-      "asking_about": "the signal",
-      "title": "Blinkit: Groceries & more - Ratings & Reviews - App Store",
-      "snippet": "Blinkit: Groceries & more. Ratings & Reviews. 4.7. out of 5. 51K Ratings ... No customer care calls, neither for me nor for delivery boy. They also tried they ...",
-      "link": "https://apps.apple.com/us/app/blinkit-groceries-more/id960335206?see-all=reviews",
-      "date": ""
-    },
-    {
-      "asking_about": "the signal",
-      "title": "Sprinkle - Order Cake Online - Descargar",
-      "snippet": "Blinkit: Groceries & more. As a comprehensive online grocery platform ... grocery shopping with home delivery of over 10,000 daily essentials. Última ...",
-      "link": "https://sprinkle-order-cake-online.updatestar.com/es",
-      "date": ""
+      "title": "She made ₹30L in 6 months on Blinkit. Comment ' ...",
+      "snippet": "OCR. SCREAM for Ice-cream YOU WON EXTRA 50% OFF Blinkit: Groceries & more. mayankal_official's profile picture · mayankal_official. •. Follow.",
+      "link": "https://www.instagram.com/reel/DVYiiyjEzYp/",
+      "date": "6 months ago"
     },
     {
       "asking_about": "careers page",
       "title": "Careers - Hiring at Eternal",
       "snippet": "Hiring is the most important role. We are always on the lookout for exceptional folks to join Eternal,",
-      "link": "https://blinkit.com/careers/?srsltid=AfmBOoq8rAVnG1cee0F_-B0wfSyyRJUymc0IUjyQfqsF8y6X8IqdLQr7",
+      "link": "https://blinkit.com/careers/?srsltid=AfmBOorHBUtEHKYNXK_Jk0l9rkA0wg2tKDjnoIwnRqWecA-x4X5OHG8e",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "careers - blinkit",
       "snippet": "We are always looking for driven individuals to join us in making instant commerce indistinguishable from magic. Come build the future with us! info@blinkit. ...",
-      "link": "https://blinkit.com/careers/careers/careers/?srsltid=AfmBOoqP3E5wUZMHT47LXywQ18iONU0w5yNo4hod7gJeUg9p5cYyEPJf",
+      "link": "https://blinkit.com/careers/careers/careers/?srsltid=AfmBOorbWEC0HJna0Eo1UcNJ5Z1o1oaPTWQRZ7W-_mUWH1_7Bs2xvOOk",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "careers - blinkit",
       "snippet": "Join India&#39;s #1 instant commerce platform. Job Listing open positions. Roorkee teams Finance Marketing Product Growth Design Tech Non Tech … info@blinkit. ...",
-      "link": "https://blinkit.com/careers/jobs?srsltid=AfmBOor-8ttBDQOXXO7BhJ9FMolqqp6iCcPP0KGEl90255wR6wSGYzvS",
+      "link": "https://blinkit.com/careers/jobs?srsltid=AfmBOoo6wCyhSXDpSfMu1GE_ylRrnm3TiN5vRb9C5Yhmb8qdY1a7aTtZ",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "Warehouse-English - blinkit",
       "snippet": "Become a warehouse partner and get best in class pay, plus benefits like nutritious meals, transportation facility, provident fund – in addition to salary,",
-      "link": "https://blinkit.com/warehouse-partner?srsltid=AfmBOopVfKBR2hK3QyUzUF_9aatbBZONqVRZCyPA5G4GsYbrnkMMbG-0",
+      "link": "https://blinkit.com/warehouse-partner?srsltid=AfmBOoqeJ_3SvAlVm4heoIGQb51ao0x9_BfGDgoDEQ_gSwjM9MNBI9iE",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "About Us - blinkit",
       "snippet": "We are already one of the largest e-grocery companies in India. If you are ambitious, smart, and don't have an ego about it, we'd love to hear from you. ...",
-      "link": "https://blinkit.com/careers/aboutus?srsltid=AfmBOoougvprGzs7iT-nqzKgRJzNPGWGzHyJTYrNvcd6VGSR48tCkGkG",
+      "link": "https://blinkit.com/careers/aboutus?srsltid=AfmBOoqFLuHdHAvfrTixnEnoFJWdVtbraxfFS1C8d7qwoMLu4UqvZGv3",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "Blinkit - Eternal",
       "snippet": "Leading the quick commerce evolution ... Blinkit is powered by a dynamic network of customers, store partners, and delivery partners working together seamlessly.",
-      "link": "https://blinkit.com/aboutus?srsltid=AfmBOoo_23bQreN0ONviDNyBeoyhGRL5b-4ZOA90SFH7klNkbQ1okfl4",
+      "link": "https://blinkit.com/aboutus?srsltid=AfmBOooGm2avbQdqQlfLnNrn3JloMhLmxtJRozjtRiV7stsoDtML6tOI",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "Barbie Careers Dentist Doll Playset Price - Blinkit",
       "snippet": "Buy Barbie Careers Dentist Doll Playset online in India at lowest price and get it delivered to your doorstep with easy returns.",
-      "link": "https://blinkit.com/prn/barbie-careers-dentist-doll-playset/prid/607680?srsltid=AfmBOorxw8X6h5mKsBotg69G-Tdr8uGU7KdwOvHzxNDgZiTfmCaXNnKU",
+      "link": "https://blinkit.com/prn/barbie-careers-dentist-doll-playset/prid/607680?srsltid=AfmBOoqsJXK9qxF6CCVvWGn_78HxJoeO4ph6VYSLPb7r4m1BGozjn5d8",
       "date": ""
     },
     {

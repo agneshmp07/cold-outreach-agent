@@ -1,0 +1,169 @@
+{
+  "client": "Zylabs",
+  "client_domain": "zylabs.ai",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Enterprise SaaS & Cybersecurity Companies",
+      "why_they_buy": "They operate active outbound sales teams targeting enterprise decision-makers but face sub-1% response rates from generic cold outreach.",
+      "example_of_a_buyer": "A 50-to-200 employee B2B cybersecurity company with a dedicated SDR team pitching high-ACV contracts to corporate IT leaders."
+    },
+    {
+      "sector": "Managed IT Services & Cloud Infrastructure Providers",
+      "why_they_buy": "Their high-value contracts are tied to specific external catalysts like cloud migrations or software end-of-support, making automated trigger tracking essential.",
+      "example_of_a_buyer": "A 30-person MSP seeking regional corporate clients transitioning away from legacy on-premise infrastructure."
+    },
+    {
+      "sector": "Boutique B2B Management Consulting Firms",
+      "why_they_buy": "Senior partners handle enterprise sales manually and need to automate deep account research and personalized proposals without hiring a dedicated sales ops team.",
+      "example_of_a_buyer": "A 15-employee corporate strategy firm where partners spend high-value billable hours manually drafting account dossiers and pitch decks."
+    },
+    {
+      "sector": "Outbound B2B Sales & Lead Generation Agencies",
+      "why_they_buy": "They manage multi-channel outbound campaigns for B2B clients and need automated trigger identification to increase reply rates across client accounts.",
+      "example_of_a_buyer": "A 25-person outsourced SDR agency looking to improve prospect research efficiency and message personalization for their tech clients."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Astra Security",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "SaaS cybersecurity company providing automated vulnerability scanning and security testing to enterprise software platforms.",
+      "seen_in": "Top Cyber Security Startups in India",
+      "domain": "getastra.com"
+    },
+    {
+      "company": "Amazon",
+      "sector": "Managed IT Services & Cloud Infrastructure Providers",
+      "why": "Provides enterprise cloud infrastructure and AI solutions requiring automated outbound B2B sales and deal engineering.",
+      "seen_in": "Amazon announces it will invest $48 billion in India by 2030",
+      "domain": "amazon.com"
+    },
+    {
+      "company": "Tata Electronics",
+      "sector": "Electronics Manufacturing",
+      "why": "Manufactures precision electronic products for major enterprise technology clients globally.",
+      "seen_in": "EXCLUSIVE: India's Tata Electronics hit by cyber breach claiming to expose Apple, Tesla trade secrets",
+      "domain": "tataelectronics.com"
+    },
+    {
+      "company": "Tesla",
+      "sector": "Automotive & Clean Energy",
+      "why": "Designs and manufactures electric vehicles and energy storage hardware utilizing complex enterprise B2B supply chains.",
+      "seen_in": "EXCLUSIVE: India's Tata Electronics hit by cyber breach claiming to expose Apple, Tesla trade secrets",
+      "domain": "tesla.com"
+    },
+    {
+      "company": "Apple",
+      "sector": "Consumer Electronics & Enterprise Technology",
+      "why": "Global hardware and software vendor managing enterprise B2B supply contracts and institutional sales.",
+      "seen_in": "EXCLUSIVE: India's Tata Electronics hit by cyber breach claiming to expose Apple, Tesla trade secrets",
+      "domain": "apple.com"
+    },
+    {
+      "company": "CrowdStrike",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "Delivers cloud-native endpoint protection and enterprise cybersecurity software requiring sales prospecting tools.",
+      "seen_in": "43 Top Cybersecurity Companies to Know 2026",
+      "domain": "crowdstrike.com"
+    },
+    {
+      "company": "Axio",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "SaaS provider enabling enterprises to evaluate cybersecurity risk and posture.",
+      "seen_in": "43 Top Cybersecurity Companies to Know 2026",
+      "domain": "google.com"
+    },
+    {
+      "company": "Netskope",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "Offers cloud security and SASE platforms to global enterprise IT organizations.",
+      "seen_in": "Top Cyber Security Startups in India",
+      "domain": "netskope.com"
+    },
+    {
+      "company": "Cyberhaven",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "Provides data detection and response security software for B2B enterprise customers.",
+      "seen_in": "Top Cyber Security Startups in India",
+      "domain": "cyberhaven.com"
+    },
+    {
+      "company": "HashiCorp",
+      "sector": "Enterprise SaaS & Cloud Infrastructure",
+      "why": "Provides infrastructure automation and cloud security software to enterprise tech teams.",
+      "seen_in": "Top Cyber Security Startups in India",
+      "domain": "hashicorp.com"
+    },
+    {
+      "company": "Bitwarden",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "Sells enterprise password management and security credentials software to commercial businesses.",
+      "seen_in": "Top Cyber Security Startups in India",
+      "domain": "bitwarden.com"
+    },
+    {
+      "company": "CloudSEK",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "Provides AI-driven digital risk monitoring and threat intelligence software to enterprises.",
+      "seen_in": "Top Cyber Security Startups in India",
+      "domain": "cloudsek.com"
+    },
+    {
+      "company": "ESET",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "Sells cybersecurity software, managed detection response, and professional services to business clients.",
+      "seen_in": "ESET expands into India with a local entity, signals distributor-led entry",
+      "domain": "eset.com"
+    },
+    {
+      "company": "Securis360",
+      "sector": "Enterprise SaaS & Cybersecurity",
+      "why": "Specializes in managed security services, corporate privacy tech, and enterprise threat detection.",
+      "seen_in": "Securis360 Accelerates Global Cybersecurity Growth With U.S. Expansion, Enterprise Customer Wins, Strategic Technology Alliances and New Privacy Technology",
+      "domain": "securis360.com\"\u0002\u0010\u0001h\u0000"
+    },
+    {
+      "company": "CSG Technosol",
+      "sector": "Enterprise SaaS & IT Services",
+      "why": "Offers AI-driven automation, cloud engineering, enterprise software, and cybersecurity solutions to business clients.",
+      "seen_in": "CSG Technosol Pvt Ltd sets new benchmark in AI-driven IT ,SaaS and Cloud Solutions",
+      "domain": "csgtechnosol.com"
+    },
+    {
+      "company": "ESDS",
+      "sector": "Managed IT Services & Cloud Infrastructure Providers",
+      "why": "Provides enterprise cloud platforms, GPU infrastructure, and managed security services.",
+      "seen_in": "ESDS: India's Enterprise Cloud & AI Ecosystem Provider",
+      "domain": "esds.co.in"
+    },
+    {
+      "company": "Utho",
+      "sector": "Managed IT Services & Cloud Infrastructure Providers",
+      "why": "Sells scalable cloud server infrastructure and hosting solutions targeted at developers and tech startups.",
+      "seen_in": "Utho Cloud Services, Best Cloud Server Provider in India",
+      "domain": "utho.com"
+    },
+    {
+      "company": "NxtGen",
+      "sector": "Managed IT Services & Cloud Infrastructure Providers",
+      "why": "Operates sovereign cloud infrastructure and AI server factory solutions for corporate clients.",
+      "seen_in": "Dell Technologies Enables NxtGen to Build India’s Largest AI Factory",
+      "domain": "nextgen.com"
+    },
+    {
+      "company": "Dell Technologies",
+      "sector": "Managed IT Services & Cloud Infrastructure Providers",
+      "why": "Provides enterprise hardware, cloud servers, and data center infrastructure globally.",
+      "seen_in": "Dell Technologies Enables NxtGen to Build India’s Largest AI Factory",
+      "domain": "dell.com"
+    },
+    {
+      "company": "Oracle",
+      "sector": "Enterprise SaaS & Cloud Infrastructure",
+      "why": "Sells database management software, cloud networking, and enterprise SaaS solutions to corporate accounts.",
+      "seen_in": "Oracle and AWS Collaborate to Expand Multicloud Networking",
+      "domain": "oracle.com"
+    }
+  ]
+}

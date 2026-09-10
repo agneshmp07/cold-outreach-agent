@@ -1,0 +1,202 @@
+# Rejected results
+
+_63 of 69 result(s) thrown away._
+
+## Why
+
+- no signal in the snippet: 37 (54%)
+- not a company - a host, a form link or a social post: 26 (38%)
+
+> If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
+
+## What was thrown away
+
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Performance Video Editor (Meta/TikTok Ads) - LinkedIn Serbia
+  - https://rs.linkedin.com/jobs/view/performance-video-editor-meta-tiktok-ads-at-smarcomms-4297298981
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Google Veo Video Editor – Meta & TikTok Ads - LinkedIn
+  - https://www.linkedin.com/jobs/view/google-veo-video-editor-%25E2%2580%2593-meta-tiktok-ads-at-activate-talent-4255390290
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Senior Video Editor (Facebook, Instagram & TikTok Ads) - LinkedIn
+  - https://www.linkedin.com/jobs/view/senior-video-editor-facebook-instagram-tiktok-ads-at-bruntwork-4421903505
+- **ArtSpark™** — no signal found in the title or snippet
+  - ArtSpark™ hiring Video Editor for Meta and TikTok ads in Lithuania ...
+  - https://lt.linkedin.com/jobs/view/video-editor-for-meta-and-tiktok-ads-at-artspark%25E2%2584%25A2-4176139958
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Ad Video Editor - TikTok & Facebook Ads (Remote Position)
+  - https://rs.linkedin.com/jobs/view/ad-video-editor-tiktok-facebook-ads-remote-position-at-factive-media-4139734511
+- **Sunnyvale** — no signal found in the title or snippet
+  - 69 Video Editor jobs in Sunnyvale - LinkedIn
+  - https://www.linkedin.com/jobs/video-editor-jobs-sunnyvale-ca
+- **Easy Outsource** — no signal found in the title or snippet
+  - Easy Outsource hiring Freelance Video Editor in APAC | LinkedIn
+  - https://www.linkedin.com/jobs/view/freelance-video-editor-at-easy-outsource-4288222650
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Meta and TikTok Video Editor at Proppel — Latin America - LinkedIn
+  - https://www.linkedin.com/jobs/view/meta-and-tiktok-video-editor-at-proppel-4297620915
+- **Lithuania** — no signal found in the title or snippet
+  - 100 Film Video Editor jobs in Lithuania - Vilnius
+  - https://lt.linkedin.com/jobs/film-video-editor-jobs
+- **(unknown)** — not a company - a host, a form link or a social post
+  - I am desperate to become a product photographer. Please ...
+  - https://www.reddit.com/r/productphotography/comments/17hc8i6/i_am_desperate_to_become_a_product_photographer/
+- **Productphotography** — no signal found in the title or snippet
+  - Product Photography That Grows With Your Brand
+  - https://www.productphotography.com/
+- **Wonderfulmachine** — no signal found in the title or snippet
+  - 7 Best Product Photographers in Miami
+  - https://wonderfulmachine.com/article/7-best-product-photographers-in-miami/
+- **EVERY LEVEL** — no signal found in the title or snippet
+  - Product Photography at EVERY LEVEL
+  - https://www.youtube.com/watch?v=NOXiE_9qTOs
+- **Ziprecruiter** — no signal found in the title or snippet
+  - Product Photographer Jobs in Miami, FL (NOW HIRING)
+  - https://www.ziprecruiter.com/Jobs/Product-Photographer/-in-Miami,FL
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Miami Product Photographer & Video
+  - https://www.instagram.com/renproductstudio/?hl=en
+- **Shootify** — no signal found in the title or snippet
+  - Product Photography Studio Miami – How to Choose the ...
+  - https://shootify.us/blog/product-photography-studio-miami/
+- **Miami** — no signal found in the title or snippet
+  - Career Opportunity in Product Photography
+  - https://customcareer.miami.edu/blog/2024/11/21/career-opportunity-in-product-photography/
+- **Lindsaykphoto** — no signal found in the title or snippet
+  - Product Photographers | Who Needs One & What Do They ...
+  - https://lindsaykphoto.com/product-photographers-who-needs-one-what-do-they-do/
+- **Workable** — no signal found in the title or snippet
+  - Senior Creative Strategist - Paid Social (Meta Ads) - Pavago
+  - https://apply.workable.com/pavago/j/E067289627
+- **Workable** — no signal found in the title or snippet
+  - Senior Creative Strategist - Paid Social (Meta Ads) - Pavago
+  - https://apply.workable.com/pavago/j/D96B8BED08/
+- **Workable** — no signal found in the title or snippet
+  - Full-Stack Content Creator/Creative Strategist - Everyday Dose Inc.
+  - https://apply.workable.com/everyday-dose-inc/j/9F8F40F5DE/
+- **Workable** — no signal found in the title or snippet
+  - Senior Ads Creative Strategist / Media Buyer - Impact Clients
+  - https://apply.workable.com/impact-clients/j/2D1FDFA86C/
+- **Workable** — no signal found in the title or snippet
+  - Creative Strategist - GrowthPair - Workable Jobs
+  - https://apply.workable.com/growthpair/j/A0E207945F/
+- **Workable** — no signal found in the title or snippet
+  - Performance Creative Strategist - KittySpout - Workable Jobs
+  - https://apply.workable.com/kittyspout/j/8E42241E21
+- **Workable** — no signal found in the title or snippet
+  - Media Buyer / Creative Strategist - Sweat Pants Agency
+  - https://apply.workable.com/sweat-pants-agency/j/1E4C04CFA7/
+- **Workable** — no signal found in the title or snippet
+  - Creative Strategist - Soar With Us - Workable Jobs
+  - https://apply.workable.com/soar-with-us/j/BD7565E606/
+- **Workable** — no signal found in the title or snippet
+  - Creative Strategist / Senior Designer (Ecommerce) - Activate Talent
+  - https://apply.workable.com/careersactivatetalent/j/260BB0ACA8/
+- **Workable** — no signal found in the title or snippet
+  - Senior Ads Creative Strategist / Media Buyer - Impact Clients
+  - https://apply.workable.com/impact-clients/j/2D1FDFA86C/apply/
+- **Applytojob** — no signal found in the title or snippet
+  - Photographer - Gymreapers - Career Page
+  - https://gymreapers.applytojob.com/apply/sxcacLGFYS/Photographer
+- **Maven** — no signal found in the title or snippet
+  - AI Product Photography for E-Commerce Teams by Jamey Gannon ...
+  - https://maven.com/jameygannon/ai-product-photography-for-e-commerce-teams
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Automated product photography for small retail brands - Facebook
+  - https://www.facebook.com/groups/claudecommunity/posts/1039768945230437/
+- **Debutify** — no signal found in the title or snippet
+  - Product Photography Ops for DTC Brands · Debutify
+  - https://debutify.com/blog/how-growing-dtc-brands-manage-visual-assets
+- **Designproject** — no signal found in the title or snippet
+  - Senior UX/UI & CRO Designer, DTC Landing Pages (Design-to-Build)
+  - https://designproject.io/jobs/senior-uxui-and-cro-designer-dtc-landing-pages-design-to-build-at-hyprwork-kvde9o
+- **Getlandra** — no signal found in the title or snippet
+  - Best AI Product-Photo Tools for DTC Brands (2026) | Landra
+  - https://www.getlandra.com/blog/best-ai-product-photo-tools-dtc
+- **Adp** — no signal found in the title or snippet
+  - Marketing, Production Artist - Career Center | Recruitment
+  - https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=176d5db1-da68-4a36-b4e3-b17b4e8ef976&jobId=593595
+- **(unknown)** — not a company - a host, a form link or a social post
+  - AI Revolutionizes Product Photography Economics | Iran Hossain ...
+  - https://www.linkedin.com/posts/iran-hossain-2b482b302_aiproductphotography-productphotography-aiphotography-activity-7492137885060521984-MhaB
+- **Creatify** — no signal found in the title or snippet
+  - AI Product Photography | Generate E-Commerce Images - Creatify AI
+  - https://creatify.ai/tool/product-photography
+- **EY Digital** — no signal found in the title or snippet
+  - EY Digital hiring UGC Creator Coordinator for E-Commerce in Latvia
+  - https://lv.linkedin.com/jobs/view/ugc-creator-coordinator-for-e-commerce-at-ey-digital-media-4289841439
+- **(unknown)** — not a company - a host, a form link or a social post
+  - E-commerce Content & Community Growth Manager (TikTok ...
+  - https://www.linkedin.com/jobs/view/e-commerce-content-community-growth-manager-tiktok-instagram-ugc-at-belula-care-4442869904
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Manager of Influencer, UGC & Social Media - Porte + Hall - LinkedIn
+  - https://www.linkedin.com/jobs/view/manager-of-influencer-ugc-social-media-at-porte-%2B-hall-4414253885
+- **(unknown)** — not a company - a host, a form link or a social post
+  - UGC Creator at Plutus Media — New York City Metropolitan Area
+  - https://www.linkedin.com/jobs/view/ugc-creator-at-plutus-media-4430750010
+- **(unknown)** — not a company - a host, a form link or a social post
+  - UGC Coordinator for DTC e-commerce brand (Remote — US Market)
+  - https://www.linkedin.com/jobs/view/4444130071/
+- **Reveshare** — no signal found in the title or snippet
+  - Reveshare hiring UGC creator for SAAS in United States - LinkedIn
+  - https://www.linkedin.com/jobs/view/ugc-creator-for-saas-at-reveshare-4366433574
+- **Icon** — no signal found in the title or snippet
+  - Icon hiring UGC Lead in Southeast Asia | LinkedIn
+  - https://www.linkedin.com/jobs/view/ugc-lead-at-icon-4311804214
+- **JTS Growth** — no signal found in the title or snippet
+  - TikTok Shop Content Creator at JTS Growth - LinkedIn
+  - https://www.linkedin.com/jobs/view/tiktok-shop-content-creator-at-jts-growth-4406827472
+- **(unknown)** — not a company - a host, a form link or a social post
+  - UGC & Influencer Marketing Specialist (Remote | Full-Time)
+  - https://jm.linkedin.com/jobs/view/ugc-influencer-marketing-specialist-remote-full-time-at-talentpop-app-4433758486
+- **(unknown)** — not a company - a host, a form link or a social post
+  - TikTok Shop Livestream Host, Content Creator - LinkedIn
+  - https://www.linkedin.com/jobs/view/tiktok-shop-livestream-host-content-creator-at-millet-ai-4360949123
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Digital Content Creator & Shopify Manager - LinkedIn
+  - https://au.linkedin.com/jobs/view/digital-content-creator-shopify-manager-at-the-furniture-gallery-au-4273038581
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Creator & Content Marketing Manager (Meta Ads, Shopify) - LinkedIn
+  - https://www.linkedin.com/jobs/view/creator-content-marketing-manager-meta-ads-shopify-at-bruntwork-4446629640
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Content Creator - Good English at Shopify Digital Solution — Pakistan
+  - https://pk.linkedin.com/jobs/view/content-creator-good-english-at-shopify-digital-solution-4462522827
+- **(unknown)** — not a company - a host, a form link or a social post
+  - YouTube Host & Writer — Learn with Shopify - Cinedept - LinkedIn
+  - https://www.linkedin.com/jobs/view/youtube-host-writer-%E2%80%94-learn-with-shopify-at-cinedept-4319362483
+- **Zommerce | Shopify plus agency** — no signal found in the title or snippet
+  - Zommerce | Shopify plus agency hiring Content Creator Intern in India
+  - https://in.linkedin.com/jobs/view/content-creator-intern-at-zommerce-shopify-cro-studio-4417549828
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Video Content Creator at Binary (Shopify Plus Agency) - LinkedIn
+  - https://in.linkedin.com/jobs/view/video-content-creator-at-binary-shopify-plus-agency-4236346068
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Video Content Creator - Whitby, Ontario, Canada - LinkedIn
+  - https://ca.linkedin.com/jobs/view/video-content-creator-at-miramedia-retail-inc-4282983765
+- **(unknown)** — not a company - a host, a form link or a social post
+  - The best video editors in performance marketing
+  - https://www.linkedin.com/posts/ciaran-finn_the-best-video-editors-in-performance-marketing-activity-7369036246532259842-O25a
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Is a marketer with video editing skills a valuable dual-profession?
+  - https://www.reddit.com/r/marketing/comments/j0a3rw/is_a_marketer_with_video_editing_skills_a/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Video editors needed for performance marketing videos
+  - https://www.facebook.com/groups/6320719404694598/posts/6631194210313781/
+- **Ericjkuhns** — no signal found in the title or snippet
+  - Why Your Video Editor Should Know Marketing
+  - https://www.ericjkuhns.com/blog/why-your-video-editor-should-know-marketing-and-why-i-do
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Performance Marketing Editing Jobs : r/videography
+  - https://www.reddit.com/r/videography/comments/1l8nnpz/performance_marketing_editing_jobs/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Now Hiring: 700 Performance Marketing Video Editor Jobs
+  - https://www.indeed.com/q-performance-marketing-video-editor-jobs.html
+- **Simera** — no signal found in the title or snippet
+  - Hire a Performance Marketing Video Editor | 2026 Guide
+  - https://simera.io/blog/hire-a-performance-marketing-video-editor-2025-guide
+- **Workable** — no signal found in the title or snippet
+  - Performance Marketing Video Editor - Everyday Dose Inc.
+  - https://apply.workable.com/everyday-dose-inc/j/3258E92CED/
+- **Ziprecruiter** — no signal found in the title or snippet
+  - Q: What is a performance marketing video editor?
+  - https://www.ziprecruiter.com/e/Performance-Marketing-Video-Editor-What-is-a-Performance-Marketing-Video-Editor

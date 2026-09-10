@@ -1,27 +1,31 @@
 """
-find_targets.py - sourcing.
+find_targets.py - sourcing, by working down the value chain.
 
     python find_targets.py <client-domain>
-    python find_targets.py mngo.in --resolve
+    python find_targets.py mngo.in --limit 20
 
-Finds companies that show the buying signals in THAT CLIENT's ICP, rather than
-starting from a list of company names you already thought of.
+Two stages, because that is how a person would do it:
 
-The searches are built from the ICP at run time, by one Gemini call. That is the
-only honest way to make this general: one client's signal is a campus job post
-collecting resumes on a Google Form, another's is a restaurant chain advertising
-delivery roles. Hardcoded queries would find the first client's signal no matter
-whose ICP was loaded - which is exactly the bug this version fixes.
+  1. WHO BUYS FROM THIS COMPANY?  Not a signal, a sector. A sugarcane wholesaler
+     sells to sugar mills. A placement platform sells to companies that hire
+     from campuses. A coworking operator sells to firms opening a new city
+     office. This comes from the client's ICP plus what they sell.
 
-What this does NOT do: it does not confirm a company is in the ICP. It finds a
-signal and scores it. Run check_fit.py on anything you pick.
+  2. WHO IS ACTUALLY IN THAT SECTOR?  Industry lists, directories, trade press
+     and recent news name real companies. Those names are the candidates.
+
+The previous version searched for a buying signal in the text of search results
+and threw away everything that did not echo it. That works when the signal is
+publicly visible - a job post exposing a Google Form - and finds nothing at all
+when it is not, which is most industries. Naming the sector first and then
+finding its companies works either way.
+
+Nothing here decides whether a company is a good prospect. check_fit.py does
+that, one company at a time, against the ICP.
 
 Output:
     targets/candidates-<client>.json
     targets/candidates-<client>.md
-    targets/rejected-<client>.md     - everything thrown away, and why
-
-Nothing is contacted. This script only writes files.
 """
 
 import json
@@ -29,7 +33,6 @@ import os
 import re
 import sys
 import time
-from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -43,90 +46,56 @@ BASE_DIR = Path(__file__).resolve().parent
 OUT_DIR = BASE_DIR / "targets"
 
 SERPER_URL = "https://google.serper.dev/search"
+SERPER_NEWS_URL = "https://google.serper.dev/news"
 RESULTS_PER_QUERY = 10
-DEFAULT_MIN_SCORE = 5
 REQUEST_PAUSE_SECONDS = 1.0
-MAX_QUERIES = 7
+MAX_SECTORS = 4
+QUERIES_PER_SECTOR = 3
+DEFAULT_LIMIT = 20
 
-# Sites that HOST posts rather than being the employer. The company is named in
-# the title, not the URL. Treating the host as the company is what produced
-# candidates called "Instagram", "Forms" and "Scribd" - the domain of the thing
-# the signal MENTIONS, not the company that has the problem.
-AGGREGATOR_DOMAINS = {
-    "linkedin.com", "naukri.com", "indeed.com", "indeed.co.in", "glassdoor.com",
-    "glassdoor.co.in", "ambitionbox.com", "shine.com", "monsterindia.com",
-    "foundit.in", "timesjobs.com", "internshala.com", "hirist.com", "cutshort.io",
-    "instahyre.com", "apna.co", "workindia.in", "freshersworld.com",
-    "placementindia.com", "youtube.com", "facebook.com", "x.com", "twitter.com",
-    "reddit.com", "quora.com", "telegram.me", "t.me", "medium.com",
-    "instagram.com", "scribd.com", "slideshare.net", "issuu.com", "pinterest.com",
-    "jobstreet.com", "simplyhired.com", "glassdoor.co.uk", "wellfound.com",
+# Never a candidate: directories, aggregators, social, infrastructure.
+NOT_A_TARGET = NOT_A_COMPANY | {
+    "indiamart.com", "tradeindia.com", "exportersindia.com", "justdial.com",
+    "sulekha.com", "yellowpages.in", "zaubacorp.com", "tofler.in",
+    "thecompanycheck.com", "instafinancials.com", "linkedin.com", "forms.gle",
+    "docs.google.com", "scribd.com", "slideshare.net", "issuu.com",
+    "researchgate.net", "statista.com", "ibef.org", "wikipedia.org",
 }
 
-# Infrastructure the signal points AT: form hosts, link shorteners, mail
-# providers, generic TLD landing pages. Never a target company.
-INFRA_DOMAINS = {
-    "forms.gle", "docs.google.com", "google.com", "drive.google.com",
-    "forms.office.com", "office.com", "microsoft.com", "typeform.com",
-    "airtable.com", "jotform.com", "surveymonkey.com", "gmail.com",
-    "googlemail.com", "yahoo.com", "outlook.com", "hotmail.com",
-    "bit.ly", "tinyurl.com", "lnkd.in", "wa.me", "whatsapp.com",
-    "chat.whatsapp.com", "edu.in", "ac.in", "gov.in", "co.in", "org.in",
-    "zoom.us", "calendly.com", "notion.so", "canva.com", "dropbox.com",
-}
+SECTOR_SCHEMA = """{
+  "sectors": [
+    {"sector": "string", "why_they_buy": "string", "example_of_a_buyer": "string"}
+  ]
+}"""
 
-BLOCKED_AS_COMPANY = AGGREGATOR_DOMAINS | INFRA_DOMAINS | NOT_A_COMPANY
-
-# Words that mark a result as a recruiter or agency rather than a company that
-# hires or buys for itself.
-AGENCY_MARKERS = re.compile(
-    r"\b(staffing|manpower|consultanc|consultants?|recruit(ers?|ment) (agency|services|firm|partners?)"
-    r"|placement (agency|consultan|services)|hr solutions|talent solutions|rpo"
-    r"|outsourc|hiring partner)\b", re.I)
-
-# Companies that SELL what the client sells. A vendor writes about the problem
-# far more than a sufferer does, and outranks real buyers on every keyword.
-# The category words come from the client's own description at run time.
-VENDOR_SUFFIXES = (r"platform|software|solution|automation|suite|tool|portal"
-                   r"|system|saas|app|service provider|vendor")
-
-# Company names that are really page titles.
-POST_MARKERS = re.compile(r"('s post\b|\bposted\b|\bshared\b|\bcomments? on\b"
-                          r"|\blikes? this\b|\bon linkedin\b)", re.I)
-
-COMPANY_FROM_TITLE = [
-    re.compile(r"^(.{2,60}?)\s+hiring\s", re.I),
-    re.compile(r"\bat\s+([A-Z][\w&.\- ]{2,50}?)\s*(?:\||-|,|$)"),
-    re.compile(r"\bjobs?\s+in\s+([A-Z][\w&.\- ]{2,50}?)\s*(?:\||-|,|$)", re.I),
-]
-
-TITLE_NOISE = re.compile(
-    r"\b(linkedin|naukri|indeed|glassdoor|jobs?|careers?|hiring|vacanc|apply|india|"
-    r"forms?|google|drive|post|profile|page|home|welcome|login|sign ?in|"
-    r"bengaluru|bangalore|mumbai|pune|hyderabad|chennai|delhi|noida|gurgaon|remote)\b",
-    re.I)
+EXTRACT_SCHEMA = """{
+  "companies": [
+    {"name": "string", "sector": "string", "why": "string", "seen_in": "string"}
+  ]
+}"""
 
 
 # ------------------------------------------------------------------ arguments
 
 def parse_args(argv):
     args = list(argv[1:])
-    opts = {"min_score": DEFAULT_MIN_SCORE, "resolve": False, "limit": 0}
+    opts = {"limit": DEFAULT_LIMIT, "resolve": True}
     positional = []
 
     i = 0
     while i < len(args):
         arg = args[i]
-        if arg == "--resolve":
+        if arg == "--no-resolve":
+            opts["resolve"] = False
+        elif arg == "--resolve":
             opts["resolve"] = True
-        elif arg in ("--min-score", "--limit"):
+        elif arg == "--limit":
             if i + 1 >= len(args):
-                sys.exit(f"{arg} needs a number after it.")
+                sys.exit("--limit needs a number after it.")
             try:
-                value = int(args[i + 1])
+                opts["limit"] = int(args[i + 1])
             except ValueError:
-                sys.exit(f"{arg} needs a number, got {args[i + 1]!r}.")
-            opts["min_score" if arg == "--min-score" else "limit"] = value
+                sys.exit(f"--limit needs a number, got {args[i + 1]!r}.")
             i += 1
         elif arg.startswith("--"):
             sys.exit(f"Unknown option {arg!r}.")
@@ -136,140 +105,208 @@ def parse_args(argv):
 
     if len(positional) != 1:
         sys.exit(f"Usage: python {Path(__file__).name} <client-domain> "
-                 f"[--min-score N] [--limit N] [--resolve]\n"
-                 f"Example: python {Path(__file__).name} mngo.in --resolve")
+                 f"[--limit N] [--no-resolve]")
     opts["client"] = positional[0]
     return opts
 
 
-# --------------------------------------------------------- searches from ICP
-
 def load_icp(client):
     rel = str(client.get("icp_file") or "").strip()
-    if not rel:
-        die(f"{client['_path']} has no \"icp_file\".")
-    path = BASE_DIR / rel
-    if not path.exists():
-        die(f"No ICP at {path}. Run:  python profile.py {client['_slug']}")
-    text = path.read_text(encoding="utf-8").strip()
-    if len(text) < 100:
-        die(f"{path} is nearly empty. Fill it in before sourcing targets.")
-    return text, path
-
-
-def build_query_prompt(client, icp_text):
-    return f"""You write web search queries that find COMPANIES WITH A PROBLEM.
-
-WHO IS SELLING: {client['name']} - {client['one_liner']}
-WHAT THEY SELL: {client.get('what_you_sell') or client['one_liner']}
-WHO PAYS: {client.get('who_pays_for_it') or client.get('who_buys_it') or 'not stated'}
-WHO USES IT DAY TO DAY: {client.get('who_uses_it') or 'same as who pays'}
-BUSINESS MODEL: {client.get('business_model') or 'not stated'}
-
-You are looking for the people who PAY, not the people who use the product. On a
-marketplace those are different groups, and searching for users finds this
-company's own customers instead of its prospects.
-
-THEIR ICP, including the buying signals that survived grading:
----
-{icp_text}
----
-
-Write up to {MAX_QUERIES} Google search queries that would surface companies
-showing those buying signals RIGHT NOW.
-
-Rules:
-1. Each query hunts a SIGNAL, not a category. "companies that need X" finds
-   nothing. A query that finds the visible evidence of the problem finds real
-   companies.
-2. Use the exact strings a sufferer would publish - the wording that appears on
-   their job post, their careers page, their listing. Quote distinctive phrases.
-3. Do NOT write queries that surface companies SELLING this product. Vendors
-   publish far more about the problem than sufferers do and will drown the
-   results. Avoid words like {VENDOR_SUFFIXES}.
-4. Vary the angle across queries: a job board, the company's own site, a review
-   site, a press item. Do not write seven versions of one query.
-5. Include a geography only if the ICP names one.
-6. If a buying signal in the ICP is not findable through a web search, skip it
-   rather than writing a query that will return noise.
-7. Never write a `site:` query against a host where the employer's NAME will not
-   appear in the result title. Social feeds, form services, link shorteners and
-   document hosts - instagram.com, facebook.com, forms.gle, docs.google.com,
-   scribd.com, medium.com, reddit.com, t.me - all return pages titled after the
-   poster or the file, not the company. Those results are unusable no matter how
-   well the query matches, so a query aimed at them wastes a search.
-   Job boards are different: linkedin.com/jobs and naukri.com put the employer
-   in the title, so `site:` queries against those are fine.
-8. Every query must be able to surface a company that has its own website. If
-   the only place a signal appears is inside someone's social post, it is not a
-   findable signal - skip it.
-
-Reply with JSON only:
-{{"queries": ["string", "string"], "note": "one sentence on what these will and will not find"}}"""
-
-
-def get_queries(api, client, icp_text):
-    raw = ask_gemini(api, build_query_prompt(client, icp_text))
-    try:
-        data = json.loads(raw)
-    except json.JSONDecodeError:
-        die("The model did not return usable search queries. Try again.")
-    queries = [str(q).strip() for q in (data.get("queries") or []) if str(q).strip()]
-    if not queries:
-        die(f"No searchable signal could be built from {client['_slug']}'s ICP.\n"
-            f"Usually this means the buying signals are not visible from outside "
-            f"a company. Open the ICP and rewrite them, or name targets yourself.")
-    return queries[:MAX_QUERIES], str(data.get("note") or "").strip()
+    path = BASE_DIR / rel if rel else None
+    if not path or not path.exists():
+        return ""
+    return path.read_text(encoding="utf-8").strip()
 
 
 def load_excludes(client):
     rel = str(client.get("exclude_file") or "context/exclude.txt").strip()
     path = BASE_DIR / rel
     if not path.exists():
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text("# One company name per line. Lines starting with # are "
-                        "ignored.\n# Companies to never surface as targets.\n",
-                        encoding="utf-8")
-        print(f"Created {path} - add companies to skip, one per line.")
-    names = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if line and not line.startswith("#"):
-            names.append(line.lower())
-    return names
+        return []
+    return [line.strip().lower()
+            for line in path.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.strip().startswith("#")]
 
 
-# --------------------------------------------------------------------- search
+# --------------------------------------------------- stage 1: who buys this
 
-def serper_search(api_key, query, num=RESULTS_PER_QUERY):
+def build_sector_prompt(client, icp_text):
+    return f"""Work out which kinds of company would BUY from the business below,
+then say how to find real examples of them.
+
+THE SELLER: {client['name']} - {client['one_liner']}
+WHAT THEY SELL: {client.get('what_you_sell') or client['one_liner']}
+WHO PAYS: {client.get('who_pays_for_it') or client.get('who_buys_it') or 'not stated'}
+
+THEIR ICP:
+---
+{icp_text or "not written yet - work it out from what they sell"}
+---
+
+Think down the supply chain, not sideways. A sugarcane wholesaler's customers
+are sugar mills and jaggery producers, not other wholesalers. A packaging
+printer's customers are the brands that need boxes. A campus placement platform's
+customers are the companies that hire graduates.
+
+Give at most {MAX_SECTORS} sectors, most promising first. For each:
+- "sector": the industry, named the way an industry list would name it. Be
+  concrete: "sugar mills and distilleries", not "food and beverage".
+- "why_they_buy": one sentence on what makes a company in this sector need what
+  the seller offers.
+- "example_of_a_buyer": the kind of company inside that sector that would need
+  it most - a size, a stage, a situation.
+
+Do not list the seller's own competitors. Do not list consultancies, agencies or
+software vendors serving the sector unless they are genuinely the buyer.
+
+Reply with JSON only:
+{SECTOR_SCHEMA}"""
+
+
+def get_sectors(api, client, icp_text):
+    raw = ask_gemini(api, build_sector_prompt(client, icp_text))
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        die("Could not work out who buys from this company. Try again.")
+    sectors = [s for s in (data.get("sectors") or []) if s.get("sector")]
+    if not sectors:
+        die(f"Could not work out which sectors buy from {client['name']}.\n"
+            f"Usually this means the ICP is too vague. Open "
+            f"{client.get('icp_file')} and make the segments concrete.")
+    return sectors[:MAX_SECTORS]
+
+
+# ------------------------------------------------ stage 2: name the companies
+
+def search(api_key, query, news=False, num=RESULTS_PER_QUERY):
+    url = SERPER_NEWS_URL if news else SERPER_URL
     try:
         response = requests.post(
-            SERPER_URL,
+            url,
             headers={"X-API-KEY": api_key, "Content-Type": "application/json"},
             json={"q": query, "num": num},
             timeout=30,
         )
     except requests.RequestException as exc:
-        print(f"  ! search failed ({type(exc).__name__}) - skipping this query")
+        print(f"  ! search failed ({type(exc).__name__})")
         return []
-
     if response.status_code == 403:
         die("Serper rejected the key (403). Check SERPER_API_KEY in your .env.")
-    if response.status_code == 429:
-        print("  ! Serper rate limit (429) - skipping this query")
-        return []
     if response.status_code != 200:
-        print(f"  ! Serper returned {response.status_code} - skipping this query")
+        print(f"  ! Serper returned {response.status_code}")
         return []
-
     try:
-        return response.json().get("organic") or []
+        body = response.json()
     except ValueError:
-        print("  ! Serper returned something that is not JSON - skipping")
+        return []
+    return body.get("news" if news else "organic") or []
+
+
+def sector_queries(sector):
+    """
+    Three angles on the same sector.
+
+    A directory list names many companies at once. A news search names the ones
+    doing something right now, which is also where a trigger would come from.
+    A regional cut catches the mid-sized firms the national lists leave out.
+    """
+    name = sector["sector"]
+    return [
+        (f"list of {name} companies India", False),
+        (f"top {name} companies India", False),
+        (f"{name} India expansion OR investment OR new plant", True),
+    ][:QUERIES_PER_SECTOR]
+
+
+def build_extract_prompt(client, results_block):
+    return f"""Pull real COMPANY NAMES out of the search results below.
+
+You are building a prospect list for {client['name']}, which sells:
+{client.get('what_you_sell') or client['one_liner']}
+
+Rules:
+1. Only companies that are named in the results. Do not add companies you happen
+   to know. If a result is a directory page listing twelve companies and the
+   snippet names four of them, take those four.
+2. Skip anything that is not an operating company: directories, marketplaces,
+   news outlets, government bodies, industry associations, research firms,
+   consultancies and software vendors serving the sector.
+3. Skip {client['name']} itself and any company that sells the same thing.
+4. Give the company's name as it would appear on its own website. No taglines,
+   no "Ltd" unless it is part of the name, no city suffixes.
+5. "why" is one short line on why this company plausibly buys what is sold - the
+   sector it is in and what it does. Do not invent facts about it.
+6. "seen_in" is the exact title of the result you took it from, so a human can
+   check.
+7. At most 25 companies. Prefer ones that appear in more than one result.
+
+Reply with JSON only:
+{EXTRACT_SCHEMA}
+
+--- SEARCH RESULTS ---
+{results_block}
+--- END SEARCH RESULTS ---"""
+
+
+def gather(api_key, sectors):
+    blocks, seen_links = [], set()
+    for sector in sectors:
+        print(f"\nsector: {sector['sector']}")
+        print(f"  ({sector.get('why_they_buy', '')})")
+        for query, is_news in sector_queries(sector):
+            kind = "news" if is_news else "web"
+            print(f"  searching [{kind}]: {query}")
+            results = search(api_key, query, news=is_news)
+            print(f"    {len(results)} result(s)")
+            for r in results:
+                link = r.get("link") or ""
+                if link in seen_links:
+                    continue
+                seen_links.add(link)
+                blocks.append(
+                    f"[sector: {sector['sector']}] {r.get('title', '')}\n"
+                    f"  {r.get('snippet', '')}\n  {link}"
+                    + (f"\n  ({r.get('date', '')})" if r.get("date") else ""))
+            time.sleep(REQUEST_PAUSE_SECONDS)
+    return "\n\n".join(blocks)
+
+
+def extract_companies(api, client, results_block, excludes):
+    if not results_block.strip():
+        return []
+    raw = ask_gemini(api, build_extract_prompt(client, results_block))
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        print("  ! could not read the company list back")
         return []
 
+    out, seen = [], set()
+    client_name = str(client.get("name", "")).lower()
+    for item in data.get("companies") or []:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name") or "").strip()
+        if not name or len(name) < 3 or len(name) > 60:
+            continue
+        key = name.lower()
+        if key in seen or key == client_name:
+            continue
+        if any(x in key for x in excludes):
+            continue
+        seen.add(key)
+        out.append({
+            "company": name,
+            "sector": str(item.get("sector") or "").strip(),
+            "why": str(item.get("why") or "").strip(),
+            "seen_in": str(item.get("seen_in") or "").strip(),
+            "domain": "",
+        })
+    return out
 
-# ------------------------------------------------------------------ extraction
+
+# -------------------------------------------------------------- domain lookup
 
 def registrable_domain(url):
     try:
@@ -284,276 +321,57 @@ def registrable_domain(url):
     return ".".join(parts[-2:]) if len(parts) >= 2 else host
 
 
-def blocked_host(domain):
-    """Is this domain a host, an aggregator or infrastructure rather than a company?"""
-    if not domain:
-        return True
-    if domain in BLOCKED_AS_COMPANY:
-        return True
-    # forms.gle style: the registrable domain is itself a bare public suffix
-    if domain.count(".") == 1 and domain.split(".")[0] in (
-            "edu", "ac", "gov", "co", "org", "net", "forms", "docs", "drive"):
-        return True
-    return False
-
-
-def clean_company(name):
-    name = re.sub(r"\s+", " ", name or "").strip(" -|,·:")
-    name = re.sub(r"\b(pvt\.?|private|ltd\.?|limited|inc\.?|llp)\b", "", name, flags=re.I)
-    name = re.sub(r"\s+", " ", name).strip(" -|,·:")
-    if len(name) < 3 or len(name) > 50:
-        return ""
-    residue = TITLE_NOISE.sub("", name).strip(" -|,·:")
-    if len(residue) < 3:
-        return ""
-    return name
-
-
-def extract_company(result):
-    """
-    Work out who the employer is.
-
-    A result hosted on a job board, a form service or a social site is never the
-    company - the company is named in the title. Only a company's OWN site lets
-    the domain stand in for the name.
-    """
-    link = result.get("link") or ""
-    domain = registrable_domain(link)
-    title = result.get("title") or ""
-
-    if POST_MARKERS.search(title):
-        return "", "post", ""
-
-    if not blocked_host(domain):
-        return clean_company(domain.split(".")[0].replace("-", " ").title()) or "", \
-               "own-site", domain
-
-    for pattern in COMPANY_FROM_TITLE:
-        match = pattern.search(title)
-        if match:
-            name = clean_company(match.group(1))
-            if name:
-                return name, "title", ""
-    return "", "unknown", ""
-
-
-def build_signal_patterns(icp_text):
-    """
-    Pull the distinctive words out of the ICP's buying-signal rows.
-
-    Crude on purpose: the point is to score a result higher when it echoes the
-    client's own signal wording, without needing to understand the industry.
-    """
-    signals = []
-    in_section = False
-    for line in icp_text.splitlines():
-        stripped = line.strip().lower()
-        if stripped.startswith("## buying signal"):
-            in_section = True
-            continue
-        if in_section and stripped.startswith("##"):
-            break
-        if in_section and stripped.startswith("|") and "---" not in stripped:
-            cells = [c.strip() for c in line.strip().strip("|").split("|")]
-            if cells and cells[0] and cells[0].lower() != "signal":
-                signals.append(cells[0])
-    return signals
-
-
-def score_result(result, signals):
-    """How strongly does this result echo the client's buying signals?"""
-    text = f"{result.get('title', '')} {result.get('snippet', '')}".lower()
-    score = 0
-    evidence = []
-
-    for signal in signals:
-        words = [w for w in re.findall(r"[a-z]{4,}", signal.lower())
-                 if w not in ("that", "with", "from", "this", "their", "your",
-                              "collect", "collects", "would", "where", "outside")]
-        if not words:
-            continue
-        hits = sum(1 for w in set(words) if w in text)
-        if hits >= max(2, len(set(words)) // 3):
-            score += 4
-            evidence.append(signal[:90])
-
-    # A concrete artifact in the snippet is worth more than matching words.
-    if re.search(r"forms\.gle|docs\.google\.com/forms|google form|spreadsheet", text):
-        score += 3
-        evidence.append("points at a form or spreadsheet")
-    if re.search(r"[\w.+-]+@(gmail|yahoo|outlook|hotmail|rediffmail)\.", text):
-        score += 3
-        evidence.append("points at a personal email address")
-
-    return min(score, 11), evidence
-
-
-def classify_reject(company, text, excludes, vendor_pattern):
-    if not company:
-        return "not a company - a host, a form link or a social post"
-    if vendor_pattern and vendor_pattern.search(text):
-        return "sells this kind of product (competitor, not a buyer)"
-    if AGENCY_MARKERS.search(text):
-        return "staffing or recruitment agency (hires on behalf of others)"
-    for name in excludes:
-        if name in company.lower():
-            return f"on the exclude list ({name})"
+def resolve_domain(api_key, company):
+    for result in search(api_key, f"{company} official website", num=5):
+        domain = registrable_domain(result.get("link") or "")
+        if domain and domain not in NOT_A_TARGET:
+            return domain
     return ""
-
-
-def build_vendor_pattern(client):
-    """
-    Catch companies selling what this client sells.
-
-    Built from the client's own words plus generic product nouns, so it adapts:
-    a placement-software client filters placement platforms, a logistics client
-    filters logistics platforms.
-    """
-    words = re.findall(r"[a-z]{5,}",
-                       f"{client.get('what_you_sell', '')} "
-                       f"{client.get('one_liner', '')}".lower())
-    stop = {"their", "which", "there", "these", "those", "other", "provides",
-            "company", "companies", "system", "manage", "management", "using",
-            "central", "replaces", "dedicated", "single", "across", "about"}
-    keywords = sorted({w for w in words if w not in stop}, key=len, reverse=True)[:8]
-    if not keywords:
-        return None
-    return re.compile(r"\b(" + "|".join(re.escape(k) for k in keywords) + r")\b"
-                      r"[^.]{0,40}\b(" + VENDOR_SUFFIXES + r")\b", re.I)
 
 
 # --------------------------------------------------------------------- output
 
-def collect(api_key, queries, signals, excludes, vendor_pattern, limit):
-    found, rejected, reasons, seen_results = {}, [], Counter(), 0
+def to_markdown(client, sectors, candidates):
+    lines = [f"# Prospects for {client['name']}", "",
+             f"_{len(candidates)} company(ies) found._", "",
+             "> Named from industry lists and recent news in the sectors that "
+             "buy from this company. Being on this list means the company is in "
+             "a buying sector, not that it is a good prospect - run check_fit.py "
+             "on any you like.", "",
+             "## Who buys from this company", ""]
+    for s in sectors:
+        lines += [f"**{s['sector']}** — {s.get('why_they_buy', '')}"]
+        if s.get("example_of_a_buyer"):
+            lines.append(f"  Best fit: {s['example_of_a_buyer']}")
+        lines.append("")
 
-    for query in queries:
-        print(f"searching: {query}")
-        results = serper_search(api_key, query)
-        seen_results += len(results)
-        print(f"  {len(results)} result(s)")
-
-        for result in results:
-            company, source, own_domain = extract_company(result)
-            text = f"{company} {result.get('title', '')} {result.get('snippet', '')}"
-
-            reason = classify_reject(company, text, excludes, vendor_pattern)
-            if reason:
-                reasons[reason.split(" (")[0]] += 1
-                rejected.append({"company": company or "(unknown)", "reason": reason,
-                                 "title": result.get("title", ""),
-                                 "link": result.get("link", ""), "query": query})
-                continue
-
-            score, evidence = score_result(result, signals)
-            if score == 0:
-                reasons["no signal in the snippet"] += 1
-                rejected.append({"company": company,
-                                 "reason": "no signal found in the title or snippet",
-                                 "title": result.get("title", ""),
-                                 "link": result.get("link", ""), "query": query})
-                continue
-
-            key = company.lower()
-            existing = found.get(key)
-            if existing and existing["score"] >= score:
-                existing["hits"] += 1
-                continue
-
-            found[key] = {
-                "company": company, "domain": own_domain, "score": score,
-                "name_from": source, "evidence": evidence,
-                "title": result.get("title", ""), "snippet": result.get("snippet", ""),
-                "link": result.get("link", ""), "date": result.get("date", ""),
-                "query": query, "hits": (existing["hits"] if existing else 0) + 1,
-            }
-        time.sleep(REQUEST_PAUSE_SECONDS)
-
-    candidates = sorted(found.values(),
-                        key=lambda c: (-c["score"], -c["hits"], c["company"]))
-    if limit:
-        candidates = candidates[:limit]
-    return candidates, rejected, reasons, seen_results
-
-
-def resolve_domain(api_key, company):
-    results = serper_search(api_key, f"{company} official website", num=5)
-    for result in results:
-        domain = registrable_domain(result.get("link") or "")
-        if not blocked_host(domain):
-            return domain, result.get("link") or ""
-    return "", ""
-
-
-def to_markdown(client, candidates, min_score, queries, note):
-    lines = [f"# Target candidates for {client['name']}", "",
-             f"_{len(candidates)} candidate(s) at or above score {min_score}._", "",
-             "> Sourced from the buying signals in this client's ICP. A high score "
-             "means the signal is present, not that the company fits the ICP. Run "
-             "check_fit.py before researching one.", ""]
-    if note:
-        lines += [f"_{note}_", ""]
-    lines += ["## Searches used", ""] + [f"- `{q}`" for q in queries] + [""]
-
+    lines += ["## Companies", ""]
     for i, c in enumerate(candidates, start=1):
-        lines += [f"## {i}. {c['company']}  ·  {c['score']}/11",
-                  f"- Domain: {c['domain'] or '_not resolved_'}",
-                  f"- Name taken from: {c['name_from']}",
-                  f"- Seen in {c['hits']} result(s)"]
-        for item in c["evidence"]:
-            lines.append(f"- Signal: {item}")
-        if c.get("date"):
-            lines.append(f"- Posted: {c['date']}")
-        lines += [f"- Source: {c['link']}", ""]
-        if c.get("snippet"):
-            lines += [f"> {c['snippet']}", ""]
+        lines += [f"### {i}. {c['company']}",
+                  f"- Sector: {c.get('sector', '-')}",
+                  f"- Domain: {c.get('domain') or '_not resolved_'}",
+                  f"- Why: {c.get('why', '-')}"]
+        if c.get("seen_in"):
+            lines.append(f"- Found in: {c['seen_in']}")
+        lines.append("")
     return "\n".join(lines)
 
 
-def rejected_markdown(rejected, reasons, seen_results):
-    lines = ["# Rejected results", "",
-             f"_{len(rejected)} of {seen_results} result(s) thrown away._", "",
-             "## Why", ""]
-    for reason, count in reasons.most_common():
-        share = (count / seen_results * 100) if seen_results else 0
-        lines.append(f"- {reason}: {count} ({share:.0f}%)")
-    lines += ["",
-              "> If 'sells this kind of product' is the biggest bucket, the "
-              "queries are finding vendors rather than sufferers. If 'not a "
-              "company' is, the signal points at infrastructure - a form host, a "
-              "social post - and the query needs to name the employer's context "
-              "instead.", "",
-              "## What was thrown away", ""]
-    for r in rejected:
-        lines += [f"- **{r['company']}** — {r['reason']}",
-                  f"  - {r['title']}", f"  - {r['link']}"]
-    return "\n".join(lines)
-
-
-def save(client, candidates, rejected, reasons, seen_results, min_score,
-         resolved, queries, note):
+def save(client, sectors, candidates):
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     slug = client["_slug"]
-    payload = {
-        "client": client["name"], "client_domain": slug,
-        "min_score": min_score, "resolved": resolved,
-        "queries": queries, "note": note,
-        "results_seen": seen_results, "rejected_count": len(rejected),
-        "rejection_reasons": dict(reasons), "candidates": candidates,
-    }
+    payload = {"client": client["name"], "client_domain": slug,
+               "method": "sector", "sectors": sectors, "candidates": candidates}
     json_path = OUT_DIR / f"candidates-{slug}.json"
     md_path = OUT_DIR / f"candidates-{slug}.md"
-    rejected_path = OUT_DIR / f"rejected-{slug}.md"
     try:
         json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
                              encoding="utf-8")
-        md_path.write_text(to_markdown(client, candidates, min_score, queries, note),
+        md_path.write_text(to_markdown(client, sectors, candidates),
                            encoding="utf-8")
-        rejected_path.write_text(rejected_markdown(rejected, reasons, seen_results),
-                                 encoding="utf-8")
     except OSError as exc:
         die(f"Could not write to {OUT_DIR}: {exc}")
-    return json_path, md_path, rejected_path
+    return json_path, md_path
 
 
 # ------------------------------------------------------------------------ main
@@ -569,58 +387,52 @@ def main():
         die("GEMINI_API_KEY is not set. Put it in your .env next to this script.")
 
     client = load_client(opts["client"])
-    icp_text, icp_path = load_icp(client)
+    icp_text = load_icp(client)
     excludes = load_excludes(client)
-
-    print(f"Client: {client['name']}  ·  ICP: {icp_path.name}")
-    print(f"{len(excludes)} name(s) excluded\n")
-    print(f"Asking {MODEL} to turn the ICP's buying signals into searches...")
-
     api = genai.Client(api_key=gemini_key)
-    queries, note = get_queries(api, client, icp_text)
-    if note:
-        print(f"  {note}")
-    print()
 
-    signals = build_signal_patterns(icp_text)
-    vendor_pattern = build_vendor_pattern(client)
+    print(f"Client: {client['name']}")
+    print(f"Asking {MODEL} which sectors buy from them...\n")
+    sectors = get_sectors(api, client, icp_text)
 
-    candidates, rejected, reasons, seen_results = collect(
-        serper_key, queries, signals, excludes, vendor_pattern, opts["limit"])
-    kept = [c for c in candidates if c["score"] >= opts["min_score"]]
+    print(f"{client['name']} sells to:")
+    for s in sectors:
+        print(f"  - {s['sector']}")
+        print(f"    {s.get('why_they_buy', '')}")
+
+    results_block = gather(serper_key, sectors)
+    if not results_block.strip():
+        die("The searches returned nothing at all. Check SERPER_API_KEY.")
+
+    print(f"\nAsking {MODEL} to pull the company names out...")
+    candidates = extract_companies(api, client, results_block, excludes)
+    candidates = candidates[:opts["limit"]]
+
+    if not candidates:
+        print("\nNo company names could be pulled from the results.")
+        print("The sectors may be too broad, or the searches returned only "
+              "directories. Try naming a company yourself instead.")
+        save(client, sectors, [])
+        sys.exit(1)
 
     if opts["resolve"]:
-        print("\nresolving domains...")
-        for c in kept:
-            if c["domain"]:
-                continue
-            domain, source = resolve_domain(serper_key, c["company"])
-            c["domain"] = domain
-            c["domain_source"] = source
-            print(f"  {c['company']}: {domain or 'not found'}")
+        print(f"\nfinding websites for {len(candidates)} company(ies)...")
+        for c in candidates:
+            c["domain"] = resolve_domain(serper_key, c["company"])
+            print(f"  {c['company']}: {c['domain'] or 'not found'}")
             time.sleep(REQUEST_PAUSE_SECONDS)
 
-    json_path, md_path, rejected_path = save(
-        client, kept, rejected, reasons, seen_results, opts["min_score"],
-        opts["resolve"], queries, note)
+    json_path, md_path = save(client, sectors, candidates)
 
-    print(f"\n{seen_results} result(s) seen, {len(rejected)} rejected, "
-          f"{len(candidates)} candidate(s), {len(kept)} at or above "
-          f"score {opts['min_score']}")
-
-    if reasons:
-        print("\nWhy results were rejected:")
-        for reason, count in reasons.most_common():
-            print(f"  {count:>3}  {reason}")
-
-    print()
-    for c in kept[:15]:
-        print(f"  {c['score']:>2}  {c['company']:<35} {c['domain'] or '-'}")
+    print(f"\n{len(candidates)} company(ies) found\n")
+    for c in candidates:
+        print(f"  {c['company']:<38} {c.get('domain') or '-'}")
+        print(f"    {c.get('sector', '')}")
 
     print(f"\nSaved to {json_path}")
     print(f"        {md_path}")
-    print(f"        {rejected_path}")
-    print("\nA score means the signal is there, not that the company fits the ICP.")
+    print("\nBeing on this list means the company is in a buying sector, not "
+          "that it is a good prospect.")
     print(f"Next:  python check_fit.py {client['_slug']} <their-domain>")
 
 

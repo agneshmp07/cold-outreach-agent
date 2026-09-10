@@ -8,12 +8,12 @@
   "who_uses_it": "Individual consumers ordering groceries and household items online.",
   "who_pays_for_it": "Individual consumers paying for their grocery orders and delivery.",
   "who_buys_it": "Individual consumers and households located within delivery zones.",
-  "sender": "",
+  "sender": "agneshmp07@gmail.com",
   "cannot_claim": [],
   "verified_assets": [],
   "icp_file": "context/icp-blinkit.com.md",
   "exclude_file": "context/exclude.txt",
-  "reviewed": false,
+  "reviewed": true,
   "_claims_to_check": [
     "Offers 30,000+ products for delivery",
     "Delivers orders within 8 minutes"

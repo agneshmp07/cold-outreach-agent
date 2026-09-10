@@ -1,0 +1,27 @@
+{
+  "domain": "mesaschool.co",
+  "name": "Mesa School of Business",
+  "one_liner": "Mesa School of Business offers a 12-month business program in Bangalore focused on startup leadership, hands-on building, and entrepreneurship.",
+  "what_you_sell": "A 12-month full-time, residential Post Graduate Program (PGP) in Startup Leadership & Entrepreneurship.",
+  "target_group": "Mesa targets venture-backed startups and growth-stage companies with 20 to 500 employees looking to hire for founder's office, product, and growth roles. A good prospect is an actively scaling Indian startup that values practical building experience over traditional MBA degrees. A bad prospect is a large, highly matrixed enterprise with rigid traditional hiring requirements.",
+  "sells_to_businesses": false,
+  "b2c_note": "Mesa School of Business has a business side consisting of hiring partner startups and VC firms that recruit graduates, evaluate startup pitches, or participate in campus hackathons and live projects.",
+  "business_model": "marketplace",
+  "who_uses_it": "Students enrolled in the PGP program learning business, AI tools, and sales while building ventures.",
+  "who_pays_for_it": "Individual students who pay tuition fees for the PGP program.",
+  "who_buys_it": "Fast-growing startups and VC firms looking to hire candidates for founder-facing roles or evaluate student ventures for investment.",
+  "sender": "",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-mesaschool.co.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": false,
+  "_claims_to_check": [
+    "Claims an average placement CTC of 26 Lakhs and a 2.8X average CTC jump.",
+    "Claims 58% of students are placed in founder-facing roles.",
+    "Claims active partnerships with 500+ partner startups and 100+ VCs on campus.",
+    "Claims access to a 5 Crore in-house incubator fund.",
+    "Implies students launch 3 real AI products and gain 100 loyal customers in 3-4 weeks."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

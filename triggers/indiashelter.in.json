@@ -1,0 +1,13 @@
+{
+  "company_name": "India Shelter Finance Corporation Ltd",
+  "triggers": [
+    {
+      "fact": "Increased headcount by 982 employees, representing a 25.72% year-over-year growth to reach approximately 2,700 employees as of July 2026",
+      "source_page": "https://leadiq.com/c/india-shelter-finance-corporation-ltd/5a1d7c84240000240056563c/employee-directory",
+      "relevance_score": 7
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "With rapid headcount growth of over 25% annually across regional branches, India Shelter likely faces operational friction in managing and coordinating entry-level campus recruitment drives at scale.",
+  "no_trigger_found": false
+}

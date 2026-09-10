@@ -4,17 +4,20 @@
   "min_score": 5,
   "resolved": true,
   "queries": [
-    "site:linkedin.com/jobs \"Key Account Manager\" \"Quick Commerce\"",
-    "site:naukri.com \"Quick Commerce\" \"FMCG\" OR \"D2C\"",
-    "\"expanding into quick commerce\" OR \"launching on quick commerce\"",
-    "site:linkedin.com/jobs \"Manager - Quick Commerce\""
+    "\"grocery delivery\" \"took too long\"",
+    "\"instant delivery\" \"not available in my area\"",
+    "\"grocery delivery\" \"out of stock\"",
+    "\"deliver groceries\" \"in 10 minutes\"",
+    "\"urgent grocery\" \"online delivery\"",
+    "\"need groceries\" \"delivered fast\""
   ],
-  "note": "These queries search for FMCG and D2C brands actively hiring quick-commerce account managers or announcing quick-commerce distribution expansion.",
-  "results_seen": 40,
-  "rejected_count": 40,
+  "note": "These queries surface consumer discussions and searches seeking fast, instant grocery delivery options or expressing frustration with delayed deliveries.",
+  "results_seen": 54,
+  "rejected_count": 52,
   "rejection_reasons": {
-    "not a company - a host, a form link or a social post": 25,
-    "no signal in the snippet": 15
+    "not a company - a host, a form link or a social post": 27,
+    "no signal in the snippet": 24,
+    "sells this kind of product": 1
   },
   "candidates": []
 }

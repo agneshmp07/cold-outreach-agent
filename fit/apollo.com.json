@@ -1,0 +1,169 @@
+{
+  "domain": "apollo.com",
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "checked_against": "icp-kpmg.com.md",
+  "result": {
+    "company_name": "Apollo Global Management",
+    "what_they_do": "Apollo Global Management is an asset manager, capital provider, and financial services firm offering wealth management and retirement solutions [10, 13, 15].",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Search results do not provide explicit employee headcount or annual revenue figures [1, 9].",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "None",
+      "in_icp": false,
+      "why": "Apollo Global Management operates in asset management and financial services [10, 13], which does not match any of the three ICP industries (Healthcare & Hospital Systems, Multinational Law Firms & Professional Services, or Global Enterprise / Industrial Manufacturing).",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None of the specified ICP buying signals (job postings for CSRD Compliance Lead, Oracle ERP Integration Manager, or Global Tax Director) were present in the search results.",
+      "evidence": "Search results discuss general careers and financial insights but show no required target job postings [12, 16, 18].",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "SKIP",
+    "reason": "Apollo Global Management is an asset management firm [10, 13] and does not belong to any target industry segment specified in the ICP.",
+    "could_not_find": [
+      "Exact annual revenue and employee count to verify if enterprise size criteria are met.",
+      "Specific job postings or announcements regarding CSRD compliance or Oracle ERP integration."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Apollo Global Management Subsidiaries",
+      "snippet": "Home Apollo Global Management Home Apollo is addressing the approximately 90T worth ... Corporation, a business development company that provides capital ...",
+      "link": "https://webdev.jacksonms.gov/browse/Ebbo6V/0OK005/ApolloGlobalManagementSubsidiaries.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Apollo Global Management's AI Strategy: Analysis of ...",
+      "snippet": "Apollo Global Management: Home, accessed July 4, 2025, https://www.apollo.com/; AI in banking: Obstacles to transformation – Coalition ...",
+      "link": "https://www.apollo.com/; AI in b",
+      "date": "Jul 30, 2025"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "5 Tips for Long-Term Health Planning Every Apollo Global ...",
+      "snippet": "... you age, a common consideration among employees preparing for retirement from Apollo Global Management. Home accessibility plays an important role since ...",
+      "link": "https://www.theretirementgroup.com/featured-article/5448073/5-tips-for-longterm-health-planning-every-apollo-global-management-employee-should-consider",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "APOLLO GLOBAL MANAGEMENT SUBSIDIARIES",
+      "snippet": "Home Apollo Global Management Home At Apollo we ask what if to create what is because yesterday s strategies may not solve tomorrow s challenges. The answer ...",
+      "link": "https://aulavirtual.jhalebet.edu.pe/virtual-library/MVTF7X/8FE147/ApolloGlobalManagementSubsidiaries.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Apollo Competitive Intelligence & Landscape | ForesightIQ",
+      "snippet": "... Apollo Global Management: Home. apollo.com · Financial Services | Apollo Global ...",
+      "link": "https://www.foresightiq.co/competitive-landscape/apollo",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Marcia Heroux Pounds – Page 137",
+      "snippet": "ADT shareholders will vote April 22 on a $6.9 billion acquisition by an affiliate of Apollo Global Management. Home security company ADT, headquartered in Boca ...",
+      "link": "https://www.sun-sentinel.com/author/marcia-heroux-pounds/page/137/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Endemol president to take same role in production ...",
+      "snippet": "Rupert Murdoch's 21st Century Fox, owner of Shine, and Apollo Global Management, home to Endemol and Core Media, finalised the deal to combine ...",
+      "link": "https://www.theguardian.com/media/2014/oct/27/endemol-media-tim-hincks-sophie-turner-laing-shine-core-media",
+      "date": "Oct 27, 2014"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Marsha Janke - LinkedIn",
+      "snippet": "Highlights. Feb 12 · apollo.com. Apollo Global Management: Home. Nov 11 ... that has a much broader group of people that your company knows. Some of those ...",
+      "link": "https://me.sh/profile/marsha-janke",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "5 Tips for Long-Term Health Planning Every Apollo Global ...",
+      "snippet": "... employees preparing for retirement from Apollo Global Management. Home accessibility plays an important role since falls remain the leading cause of injury ...",
+      "link": "https://www.theretirementgroup.com/featured-article/5448073/5-tips-for-longterm-health-planning-every-apollo-global-management-employee-should-consider",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Apollo Global Management: Home",
+      "snippet": "We help institutions and individuals achieve long-term financial goals through diverse investment strategies designed to deliver strong risk-adjusted returns.",
+      "link": "https://www.apollo.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Apollo Global Management: Home",
+      "snippet": "We help institutions and individuals achieve long-term financial goals through diverse investment strategies designed to deliver strong risk-adjusted returns.",
+      "link": "https://www.apollo.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers | Apollo Global Management",
+      "snippet": "Join our team to learn from some of the brightest problem-solvers in the world and make your mark on the future of financial and retirement services.",
+      "link": "https://www.apollo.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Apollo",
+      "snippet": "Apollo an innovative capital provider, future-focused asset manager and leader in wealth management and retirement solutions.",
+      "link": "https://www.apollo.com/aboutus",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "AI's Most Exposed Industry Keeps Hiring | The Daily Spark",
+      "snippet": "Nearly two million workers in the Philippines now work in call centers, up every year since 2016 and through the AI boom.",
+      "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ais-most-exposed-industry-keeps-hiring",
+      "date": "May 2, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Apollo Global Management: Home",
+      "snippet": "Apollo an innovative capital provider, future-focused asset manager and leader in wealth management and retirement solutions.",
+      "link": "https://www.apollo.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Life at Apollo",
+      "snippet": "All available roles are posted to our careers page in the fall for the upcoming summer. Interested in growing your career at Apollo? Hear directly from our ...",
+      "link": "https://www.apollo.com/careers/life-at-apollo",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "A New Look at AI's Impact on Jobs - Ramp",
+      "snippet": "Firms making the largest AI roles, including engineering, sales, administration, and customer service. adopt AI grow employment by 10%, including entry-level ...",
+      "link": "https://go2.apollo.com/e/1047283/data-ai-jobs-impact/45kv8/578891635/h/QhNcpE7cSd0GT8v2X9Ejo4PJZ2UgG20vXa0rG7UGEwY",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Apollo in India",
+      "snippet": "Apollo is a leading provider of alternative asset management and retirement solutions. build meaningful, long-term careers with us. Opportunities in Mumbai ...",
+      "link": "https://www.apollo.com/careers/apollo-in-india",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Mistaking a Hiring Freeze for a Robot | The Daily Spark",
+      "snippet": "The chart below shows the unemployment rate for recent college graduates rising above the rate for college graduates overall, an unusual gap ...",
+      "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/Mistaking-a-Hiring-Freeze-for-a-Robot",
+      "date": "Jun 18, 2026"
+    }
+  ]
+}

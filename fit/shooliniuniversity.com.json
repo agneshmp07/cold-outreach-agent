@@ -1,0 +1,316 @@
+{
+  "domain": "shooliniuniversity.com",
+  "client": "MNGO",
+  "client_domain": "mngo.in",
+  "checked_against": "icp-mngo.in.md",
+  "result": {
+    "company_name": "Shoolini University",
+    "what_they_do": "A private, research-focused university in India offering higher education degree programs across engineering, biotechnology, management, and other fields.",
+    "size": {
+      "estimate": "501-1,000 employees",
+      "evidence": "LinkedIn lists company size as 501-1,000 employees [10], and SignalHire lists 575 employees [15].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Higher Education / Indian Engineering & Degree Colleges",
+      "in_icp": true,
+      "why": "Shoolini University is an Indian higher education institution offering engineering, management, and degree programs with an active campus placement cell [5, 18, 24].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None of the specific ICP buying signals (public placement drives via Google Forms, TPO manual posts on LinkedIn, or open TPO job listings) were visible in the search results.",
+      "evidence": "None",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Shoolini University matches the target segment of Indian higher education and degree colleges. In accordance with the verdict rules, a target segment match with no buying signals found evaluates to PROCEED.",
+    "could_not_find": [
+      "The exact annual count of graduating students to verify if it falls within the 500 to 5,000 student threshold.",
+      "Whether the placement cell currently uses manual spreadsheets, Google Forms, and WhatsApp groups for placement drives."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Shoolini University - Top Private University in India",
+      "snippet": "Shoolini University is opening a career academy - Yogananda Career Academy which will have expert faculties for coaching for civil services exams , both ...",
+      "link": "https://shooliniuniversity.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Why International Students Are Choosing Shoolini University",
+      "snippet": "Established in 2009 by leading academicians and professionals, Shoolini University is a not-for-profit, research-focused institution. Over the ...",
+      "link": "https://shooliniuniversity.com/blog/why-international-students-are-choosing-shoolini-university/",
+      "date": "Jun 10, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Shoolini University",
+      "snippet": "At Shoolini University, students learn through research, industry exposure, global collaborations, mentorship, and experiences that go beyond ...",
+      "link": "https://www.facebook.com/ShooliniUniversityOfficial/posts/a-university-is-more-than-a-place-to-earn-a-degree-it-is-where-ambition-takes-sh/1341280491499466/",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Reality of Shoolini university : r/Indiancolleges",
+      "snippet": "I am an alumini of shoolini university, so let me break it down for you. This is the worst university to be in if u are studious/practical ...",
+      "link": "https://www.reddit.com/r/Indiancolleges/comments/1ucjgyk/reality_of_shoolini_university/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Shoolini University of Biotechnology and Management ...",
+      "snippet": "Shoolini University of Biotechnology and Management Sciences is a private, research-orientated university. The university was established in 2009 in Kasauli ...",
+      "link": "https://www.timeshighereducation.com/world-university-rankings/shoolini-university-biotechnology-and-management-sciences",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "5 Standout Features That Make Shoolini Business School ...",
+      "snippet": "Established in 2009 by leading academicians and professionals, Shoolini University is a not-for-profit, research-focused institution. Over the ...",
+      "link": "https://shooliniuniversity.com/blog/5-standout-features-that-make-shoolini-business-school-different/",
+      "date": "Sep 23, 2025"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What's the first thing Shoolini students do when they step onto ...",
+      "snippet": "At Shoolini University, students learn through research, industry exposure, global collaborations, mentorship, and experiences that go beyond ...",
+      "link": "https://www.instagram.com/reel/DaujQihTLKZ/",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Shoolini Online: India's No.1 Private University Offering Pay ...",
+      "snippet": "Shoolini University is a leader in outcome based higher education. Our online degree programs are designed to secure your future, first, and give your ...",
+      "link": "https://shoolini.online/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Shoolini University Online",
+      "snippet": "Website: https://shoolini.online/. External link for Shoolini University Online ; Industry: Education ; Company size: 201-500 employees ; Headquarters: Solan, ...",
+      "link": "https://in.linkedin.com/company/shoolinionline",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Shoolini University Employees, Location, Alumni",
+      "snippet": "Website: http://www.shooliniuniversity.com. External link for Shoolini University ; Industry: Education Management ; Company size: 501-1,000 employees.",
+      "link": "https://in.linkedin.com/school/shooliniuniversity/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Faculty of Applied Sciences and Biotechnology - Shoolini ...",
+      "snippet": "Close menu. View all 9 employees. About us. \"Welcome to the official LinkedIn page of the Faculty of Applied Sciences and Biotechnology at Shoolini University!",
+      "link": "https://in.linkedin.com/company/faculty-of-applied-sciences-and-biotechnology-shoolini-university",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Shoolini University Company Profile",
+      "snippet": "How many employees does Shoolini University have? Shoolini University has 423 employees. Where is Shoolini University headquarters located? Shoolini University ...",
+      "link": "https://www.datanyze.com/companies/shoolini-university/346627101",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Shoolini University Online – a premier destination for education ...",
+      "snippet": "Welcome to Shoolini University Online – a premier destination for education that blends cutting-edge infrastructure with world-class faculty ...",
+      "link": "https://www.linkedin.com/posts/shoolinionline_welcome-to-shoolini-university-online-a-activity-7274344667297562626-KLCV",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Atul Khosla's Post",
+      "snippet": "Atul Khosla's Post. View profile for Atul Khosla · Atul Khosla. Founder & Vice-Chancellor, Shoolini University | Honorary Professor, University ...",
+      "link": "https://www.linkedin.com/posts/atulkhosla1_this-is-our-new-faculty-housing-at-shoolini-activity-6957368050677370881-_O-K",
+      "date": "4 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Shoolini University Employees List & Directory",
+      "snippet": "Shoolini University employs 575 employees. Reveal contacts of top Shoolini University managers and employees.",
+      "link": "https://www.signalhire.com/companies/shoolini-university/employees",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Life at Shoolini University: Culture, Salary, Reviews ...",
+      "snippet": "About Shoolini University ; Founded in. 2009 (17 yrs old) ; India Employee Count. 201-500 ; Global Employee Count. 1k-5k ; Office Locations. -- ; Primary Industry.",
+      "link": "https://www.ambitionbox.com/overview/shoolini-university-overview",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Placements",
+      "snippet": "Join Shoolini University — one of the top campus placement colleges in Himachal and India — and take the first step toward a successful career. Apply Now.",
+      "link": "https://shooliniuniversity.com/placements",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Shoolini Placements 2026 🎓✨ Congratulations to Kartik ...",
+      "snippet": "The Placement Cell of Shoolini University ensures lucrative employability for students by making them industry-ready through Live Projects ...",
+      "link": "https://www.facebook.com/ShooliniUniversityOfficial/posts/shoolini-placements-2026-congratulations-to-kartik-chaudhary-mca-artificial-inte/1182504234043760/",
+      "date": "7 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Shoolini Online: India's No.1 Private University Offering Pay ...",
+      "snippet": "Complete AI-powered placement platform ... (Master of Business Administration) · 2 Years. MBA Premium Program is a two-year degree provided by Shoolini University ...",
+      "link": "https://shoolini.online/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Placements continue online",
+      "snippet": "Placements continue online at Shoolini University. Nearly 80% of our MBA students have already found rewarding placements, ...",
+      "link": "https://shooliniuniversity.com/blog/placements-continue-online/",
+      "date": "Apr 21, 2020"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Shoolini University - Top Private University in India",
+      "snippet": "Shoolini University, a top private university in India, blends innovation-led research, global partnerships, and 100% placements to empower future leaders.",
+      "link": "https://shooliniuniversity.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "How is the education environment at Shoolini University?",
+      "snippet": "How is the education environment at Shoolini University?",
+      "link": "https://www.quora.com/How-is-the-education-environment-at-Shoolini-University",
+      "date": "8 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "MBA Placement: The Ultimate Goal",
+      "snippet": "Top-Notch MBA Placement & Internship Opportunites: Shoolini University's MBA program boasts a record year-on-year. The Placement Cell ...",
+      "link": "https://shooliniuniversity.com/blog/mba-placement-the-ultimate-goal/",
+      "date": "Jan 12, 2024"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "🎓 Shoolini Placements 2026 Our MBA student Eva Kapil ...",
+      "snippet": "Discover your future at Shoolini University, India's top private university in the lap of the Himalayas. 🏔️ CSE Program – ₹8.5 Lakh Total ...",
+      "link": "https://www.instagram.com/p/DSbwhAXE189/?hl=en",
+      "date": "8 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Placements",
+      "snippet": "Join Shoolini University — one of the top campus placement colleges in Himachal and India — and take the first step toward a successful career. Apply Now.",
+      "link": "https://shooliniuniversity.com/placements",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Shoolini Placements 2026 🎓✨ Congratulations to Kartik ...",
+      "snippet": "The Placement Cell of Shoolini University ensures lucrative employability for students by making them industry-ready through Live Projects ...",
+      "link": "https://www.facebook.com/ShooliniUniversityOfficial/posts/shoolini-placements-2026-congratulations-to-kartik-chaudhary-mca-artificial-inte/1182504234043760/",
+      "date": "7 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Shoolini Online: India's No.1 Private University Offering Pay ...",
+      "snippet": "Complete AI-powered placement platform ... (Master of Business Administration) · 2 Years. MBA Premium Program is a two-year degree provided by Shoolini University ...",
+      "link": "https://shoolini.online/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Placements continue online",
+      "snippet": "Placements continue online at Shoolini University. Nearly 80% of our MBA students have already found rewarding placements, ...",
+      "link": "https://shooliniuniversity.com/blog/placements-continue-online/",
+      "date": "Apr 21, 2020"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Shoolini University - Top Private University in India",
+      "snippet": "Shoolini University, a top private university in India, blends innovation-led research, global partnerships, and 100% placements to empower future leaders.",
+      "link": "https://shooliniuniversity.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "MBA Placement: The Ultimate Goal",
+      "snippet": "Top-Notch MBA Placement & Internship Opportunites: Shoolini University's MBA program boasts a record year-on-year. The Placement Cell ...",
+      "link": "https://shooliniuniversity.com/blog/mba-placement-the-ultimate-goal/",
+      "date": "Jan 12, 2024"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "How is the education environment at Shoolini University?",
+      "snippet": "How is the education environment at Shoolini University?",
+      "link": "https://www.quora.com/How-is-the-education-environment-at-Shoolini-University",
+      "date": "8 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "🎓 Shoolini Placements 2026 Our MBA student Eva Kapil ...",
+      "snippet": "Discover your future at Shoolini University, India's top private university in the lap of the Himalayas. 🏔️ CSE Program – ₹8.5 Lakh Total ...",
+      "link": "https://www.instagram.com/p/DSbwhAXE189/?hl=en",
+      "date": "8 months ago"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Career | Shoolini University",
+      "snippet": "Shoolini is the fastest growing research oriented private university where you can achieve your dreams & grow a career professionally.",
+      "link": "https://shooliniuniversity.com/career",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "7 Types of IT Careers & How to Find the Best Fit - Shoolini University",
+      "snippet": "The world of IT is full of exciting possibilities. Read and navigate through different types of IT careers to help you find your ideal ...",
+      "link": "https://shooliniuniversity.com/blog/7-types-of-it-careers-and-how-to-choose-one/",
+      "date": "Nov 8, 2023"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Why BBA in Marketing Can Lead to Careers Across Industries",
+      "snippet": "BBA Marketing graduates can work across industries in areas such as sales, brand management, market research, customer relationship management, ...",
+      "link": "https://shooliniuniversity.com/blog/why-bba-in-marketing-can-lead-to-careers-across-industries/",
+      "date": "Aug 19, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Pharmaceutical Sciences Careers Shaping Modern Healthcare",
+      "snippet": "Explore top Pharmaceutical Sciences Careers shaping modern healthcare, emerging roles, skills needed, and future opportunities. Read more.",
+      "link": "https://shooliniuniversity.com/blog/pharmaceutical-sciences-careers-shaping-modern-healthcare/",
+      "date": "Jan 7, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Best Non-MBBS Medical Careers With High Salary in India",
+      "snippet": "The best non-MBBS medical careers today include biotechnology, microbiology, pharmacy, nutrition, medical lab technology, and food technology.",
+      "link": "https://shooliniuniversity.com/blog/best-non-mbbs-medical-careers-with-high-salary-in-india/",
+      "date": "Jun 12, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Tips to Make a Successful Career in the Tech Industry",
+      "snippet": "You can work in roles like data analysis, cloud support, cybersecurity, system design, UX design, product support, and even technology strategy.",
+      "link": "https://shooliniuniversity.com/blog/tips-to-make-a-successful-career-in-the-tech-industry/",
+      "date": "Feb 27, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Offbeat Careers for BA Journalism & Mass Communication Grads",
+      "snippet": "With your background in mass communication, you can excel in roles like SEO specialist, email marketer, or PPC (Pay-Per-Click) campaign manager.",
+      "link": "https://shooliniuniversity.com/blog/offbeat-careers-for-ba-journalism-mass-communication-grads/",
+      "date": "Jun 19, 2024"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Hotel Management Careers Beyond Hotels - Shoolini University",
+      "snippet": "Explore hotel management careers beyond hotels, from aviation to luxury retail and events. Graduates work in airlines, event management, luxury ...",
+      "link": "https://shooliniuniversity.com/blog/hotel-management-careers-beyond-hotels/",
+      "date": "Jan 14, 2026"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "domain": "zylabs.ai",
+  "name": "Zylabs",
+  "one_liner": "Software that analyzes a company's website to find in-market B2B buyers based on specific triggers, sends personalized cold outreach, and generates sales proposals.",
+  "what_you_sell": "An automated B2B sales prospecting and deal engineering platform that maps buying triggers, automates tailored cold outreach, builds account dossiers, and generates proposals.",
+  "target_group": "Zylabs sells to B2B technology companies, service providers, and agencies, such as SaaS, IT services, cybersecurity, and consulting firms. These businesses typically range from 10 to 500 employees and sell high-value solutions requiring consultative outreach. A good prospect is an organization with an existing outbound sales effort that struggles with low cold email response rates.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Account Executives, SDRs, Founders, and sales teams running outbound campaigns.",
+  "who_pays_for_it": "Heads of Sales, VPs of Revenue, Chief Executive Officers, or Agency Owners.",
+  "who_buys_it": "B2B sales leaders, agency owners, and founders looking to automate outbound prospecting and account research.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-zylabs.ai.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims to increase enterprise deal win rates from 17% to 40%.",
+    "Claims to map over 500 atomic buying triggers across 21 channels and 100+ sources.",
+    "Claims to generate personalized proposals, meeting prep, and battle cards in 90 seconds.",
+    "Implies outreach runs automatically with zero minutes of seller time required until a prospect replies.",
+    "Implies the platform instantly finds hundreds of ranked, in-market accounts merely by entering a website URL."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

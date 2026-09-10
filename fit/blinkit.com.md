@@ -1,36 +1,36 @@
-# Fit check - Blinkit: Groceries & more
+# Fit check - Blinkit
 
 _Checked for Blinkit._
 
 ## SKIP
 
-The company under test is Blinkit itself—a major instant commerce corporate platform [6, 36]—and does not fit the target ICP segment of a 1 to 5 person consumer household.
+The company under test is a large quick-commerce enterprise rather than an individual consumer or household of 1-10 people, so it does not fit the target segment [6, 37].
 
 **Domain:** blinkit.com
 
-**What they do:** Blinkit is an online quick-commerce and e-grocery app platform in India that delivers groceries, fresh produce, snacks, and household essentials to customers' doorsteps [2, 3, 7, 17, 36].
+**What they do:** Blinkit is an online grocery shopping and quick-commerce platform in India that delivers groceries, fresh produce, and daily essentials in minutes [2, 3, 7].
 
 ## Size
 
 - NOT FOUND  [NOT FOUND]
-- Evidence: Search results mention over 16 million monthly transacting users [6] and 25M+ downloads [5], but do not provide exact employee headcount.
+- Evidence: Search results mention over 16 million monthly transacting users and a $15 billion valuation, but do not state employee headcount [6].
 
 ## ICP segment
 
-- Best match: Consumer / Retail Grocery (1 to 5 people Household)
+- Best match: Consumer / Household (1-10 people)
 - In the ICP: no  [VERIFIED]
-- Why: Blinkit is an e-grocery company and corporate platform [6, 36], not an individual consumer household of 1 to 5 people.
+- Why: Blinkit is a major e-grocery corporate platform rather than an individual consumer or household of 1-10 people looking for home grocery delivery [6, 37].
 
 ## Buying signal
 
 - Found: yes  [VERIFIED]
-- What: Blinkit app download availability and user reviews on Google Play Store and Apple App Store.
-- Evidence: [1], [2], [3], [30]
+- What: Promotional claims of delivery in 8 minutes and catalog listing 30,000+ products [2, 3, 19, 24].
+- Evidence: [2], [3], [19], [24]
 
 ## Could not find out
 
 - Exact employee headcount for Blinkit
-- Information regarding a separate vendor portal for B2B supplier acquisition
+- Specific breakdown of corporate office locations
 
 ## Search results used
 
@@ -55,8 +55,8 @@ The company under test is Blinkit itself—a major instant commerce corporate pl
 [7] _what they do_ - Blinkit: Groceries & more 18.19.0 Free Download
   https://play.google.com/store/apps/details?id=app.blinkit.onboarding&hl=en_US
 
-[8] _what they do_ (1 year ago) - Blinkit's 10-Minute Delivery Is Coming Soon to Palwal! Enjoy ...
-  https://www.facebook.com/blinkit.india/videos/blinkits-10-minute-delivery-is-coming-soon-to-palwal-enjoy-free-delivery-on-all-/959885716347122/
+[8] _what they do_ - Blinkit: Groceries & more
+  https://appmagic.rocks/google-play/blinkit-groceries-and-more/com.grofers.customerapp
 
 [9] _size_ - Blinkit Picker Onboarding - Apps on Google Play
   https://play.google.com/store/apps/details?id=com.blinkit.storeob&hl=en_US
@@ -86,67 +86,70 @@ The company under test is Blinkit itself—a major instant commerce corporate pl
   https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_US
 
 [18] _the problem area_ - Blinkit: Groceries & more - App Store
-  https://apps.apple.com/be/app/blinkit-groceries-more/id960335206
+  https://apps.apple.com/gr/app/blinkit-groceries-more/id960335206
 
-[19] _the problem area_ - Blinkit: Groceries & more - App Store - Apple
+[19] _the problem area_ - Blinkit: Groceries & more - Food & Drink App
+  https://mwm.ai/apps/blinkit-groceries-more/960335206
+
+[20] _the problem area_ - Blinkit: Groceries & more - App Store - Apple
   https://apps.apple.com/in/app/blinkit-groceries-more/id960335206
 
-[20] _the problem area_ - Blinkit Customer Care Helpline Number 9134382805 Toll-free # ...
-  https://www.instagram.com/p/Daw12PXCUIj/
+[21] _the problem area_ - Blinkit: Groceries & more 18.75.0 Free Download
+  https://play.google.com/store/apps/details/Blinkit_Grocery_in_10_minutes?id=com.grofers.customerapp&hl=en_GB
 
-[21] _the problem area_ - Blinkit
-  https://play.google.com/store/apps/details?id=app.blinkit.onboarding&hl=en_US
+[22] _the problem area_ - Blinkit's Smartest Marketing Stunt Ever! . . #marketingstrategy # ...
+  https://www.instagram.com/reel/DZIE87_TNQb/
 
-[22] _the problem area_ (6 months ago) - She made ₹30L in 6 months on Blinkit. Comment ' ...
-  https://www.instagram.com/reel/DVYiiyjEzYp/
+[23] _the problem area_ - foodpanda: Food & Groceries - Download
+  https://foodpanda-food-groceries.updatestar.com/
 
-[23] _the problem area_ (5 months ago) - #blinkit
-  https://www.instagram.com/p/DWjxrSlgW8L/
-
-[24] _the problem area_ - Basket.app : Grocery Shopping - Download
-  https://basket-grocery-shopping-ios.apps112.com/
+[24] _the problem area_ - Amarji Gupta | @blinkit.fanpage @blinkitcharkhidadri @ ...
+  https://www.instagram.com/amarji90_official/reel/Dbp3VLXBbFf/
 
 [25] _the signal_ - Blinkit: Groceries & more - Apps on Google Play
   https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_US
 
-[26] _the signal_ - Blinkit: Groceries & more - App Store - Apple
+[26] _the signal_ - Blinkit: Groceries & more - App Store
+  https://apps.apple.com/gr/app/blinkit-groceries-more/id960335206
+
+[27] _the signal_ - Blinkit: Groceries & more - Food & Drink App
+  https://mwm.ai/apps/blinkit-groceries-more/960335206
+
+[28] _the signal_ - Blinkit: Groceries & more - App Store - Apple
+  https://apps.apple.com/ca/app/blinkit-groceries-more/id960335206?l=fr-CA
+
+[29] _the signal_ - Blinkit: Groceries & more 18.75.0 Free Download
+  https://grofers-online-grocery-ios.soft112.com/
+
+[30] _the signal_ - Amarji Gupta | @blinkit.fanpage @blinkitcharkhidadri @ ...
   https://play.google.com/store/apps/details/Blinkit_Grocery_in_10_minutes?id=com.grofers.customerapp&hl=en_GB
 
-[27] _the signal_ - Zulzi - Food & Drink App
-  https://mwm.ai/apps/zulzi/1142657503
+[31] _the signal_ - foodpanda: Food & Groceries - Download
+  https://foodpanda-food-groceries.updatestar.com/
 
-[28] _the signal_ - Find D Mart in Siyarha - Gorakhpur
-  https://play.google.com/store/apps/details?id=app.blinkit.onboarding&hl=en_US
+[32] _the signal_ (6 months ago) - She made ₹30L in 6 months on Blinkit. Comment ' ...
+  https://www.instagram.com/reel/DVYiiyjEzYp/
 
-[29] _the signal_ - Grace Online Supermarket - Food & Drink App
-  https://mwm.ai/apps/grace-online-supermarket/1546482342
-
-[30] _the signal_ - Blinkit: Groceries & more - Ratings & Reviews - App Store
-  https://apps.apple.com/us/app/blinkit-groceries-more/id960335206?see-all=reviews
-
-[31] _the signal_ - Sprinkle - Order Cake Online - Descargar
-  https://sprinkle-order-cake-online.updatestar.com/es
-
-[32] _careers page_ - Careers - Hiring at Eternal
-  https://blinkit.com/careers/?srsltid=AfmBOoq8rAVnG1cee0F_-B0wfSyyRJUymc0IUjyQfqsF8y6X8IqdLQr7
-
-[33] _careers page_ - careers - blinkit
-  https://blinkit.com/careers/careers/careers/?srsltid=AfmBOoqP3E5wUZMHT47LXywQ18iONU0w5yNo4hod7gJeUg9p5cYyEPJf
+[33] _careers page_ - Careers - Hiring at Eternal
+  https://blinkit.com/careers/?srsltid=AfmBOorHBUtEHKYNXK_Jk0l9rkA0wg2tKDjnoIwnRqWecA-x4X5OHG8e
 
 [34] _careers page_ - careers - blinkit
-  https://blinkit.com/careers/jobs?srsltid=AfmBOor-8ttBDQOXXO7BhJ9FMolqqp6iCcPP0KGEl90255wR6wSGYzvS
+  https://blinkit.com/careers/careers/careers/?srsltid=AfmBOorbWEC0HJna0Eo1UcNJ5Z1o1oaPTWQRZ7W-_mUWH1_7Bs2xvOOk
 
-[35] _careers page_ - Warehouse-English - blinkit
-  https://blinkit.com/warehouse-partner?srsltid=AfmBOopVfKBR2hK3QyUzUF_9aatbBZONqVRZCyPA5G4GsYbrnkMMbG-0
+[35] _careers page_ - careers - blinkit
+  https://blinkit.com/careers/jobs?srsltid=AfmBOoo6wCyhSXDpSfMu1GE_ylRrnm3TiN5vRb9C5Yhmb8qdY1a7aTtZ
 
-[36] _careers page_ - About Us - blinkit
-  https://blinkit.com/careers/aboutus?srsltid=AfmBOoougvprGzs7iT-nqzKgRJzNPGWGzHyJTYrNvcd6VGSR48tCkGkG
+[36] _careers page_ - Warehouse-English - blinkit
+  https://blinkit.com/warehouse-partner?srsltid=AfmBOoqeJ_3SvAlVm4heoIGQb51ao0x9_BfGDgoDEQ_gSwjM9MNBI9iE
 
-[37] _careers page_ - Blinkit - Eternal
-  https://blinkit.com/aboutus?srsltid=AfmBOoo_23bQreN0ONviDNyBeoyhGRL5b-4ZOA90SFH7klNkbQ1okfl4
+[37] _careers page_ - About Us - blinkit
+  https://blinkit.com/careers/aboutus?srsltid=AfmBOoqFLuHdHAvfrTixnEnoFJWdVtbraxfFS1C8d7qwoMLu4UqvZGv3
 
-[38] _careers page_ - Barbie Careers Dentist Doll Playset Price - Blinkit
-  https://blinkit.com/prn/barbie-careers-dentist-doll-playset/prid/607680?srsltid=AfmBOorxw8X6h5mKsBotg69G-Tdr8uGU7KdwOvHzxNDgZiTfmCaXNnKU
+[38] _careers page_ - Blinkit - Eternal
+  https://blinkit.com/aboutus?srsltid=AfmBOooGm2avbQdqQlfLnNrn3JloMhLmxtJRozjtRiV7stsoDtML6tOI
 
-[39] _careers page_ - About Us | Bistro by Blinkit
+[39] _careers page_ - Barbie Careers Dentist Doll Playset Price - Blinkit
+  https://blinkit.com/prn/barbie-careers-dentist-doll-playset/prid/607680?srsltid=AfmBOoqsJXK9qxF6CCVvWGn_78HxJoeO4ph6VYSLPb7r4m1BGozjn5d8
+
+[40] _careers page_ - About Us | Bistro by Blinkit
   https://bistro.blinkit.com/about-us

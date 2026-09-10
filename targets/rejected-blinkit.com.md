@@ -1,133 +1,170 @@
 # Rejected results
 
-_40 of 40 result(s) thrown away._
+_52 of 54 result(s) thrown away._
 
 ## Why
 
-- not a company - a host, a form link or a social post: 25 (62%)
-- no signal in the snippet: 15 (38%)
+- not a company - a host, a form link or a social post: 27 (50%)
+- no signal in the snippet: 24 (44%)
+- sells this kind of product: 1 (2%)
 
 > If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
 
 ## What was thrown away
 
 - **(unknown)** — not a company - a host, a form link or a social post
-  - 164 Key Account Manager Ecommerce Jobs in India - LinkedIn
-  - https://in.linkedin.com/jobs/key-account-manager-ecommerce-jobs
-- **Bengaluru ...** — no signal found in the title or snippet
-  - Key Account Manager Ecommerce Jobs in Bengaluru ... - LinkedIn
-  - https://in.linkedin.com/jobs/key-account-manager-ecommerce-jobs-bengaluru
-- **Washington DC** — no signal found in the title or snippet
-  - 1,000+ Ecommerce Manager jobs in Washington DC-Baltimore Area
-  - https://www.linkedin.com/jobs/ecommerce-manager-jobs-washington-dc-baltimore-area
-- **Origin Nutrition** — no signal found in the title or snippet
-  - Key Account Manager - Quick Commerce at Origin Nutrition - LinkedIn
-  - https://in.linkedin.com/jobs/view/key-account-manager-quick-commerce-at-origin-nutrition-4439820385
-- **Mumbai Metropolitan ...** — no signal found in the title or snippet
-  - 910 Ecommerce Account Manager jobs in Mumbai Metropolitan ...
-  - https://in.linkedin.com/jobs/ecommerce-account-manager-jobs-mumbai-metropolitan-region
+  - complaints about delivery wait times and tipping
+  - https://www.facebook.com/groups/reallawtongrapevine/posts/25748654704757382/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - 387 Commerce Specialist jobs in Bengaluru - LinkedIn
-  - https://in.linkedin.com/jobs/commerce-specialist-jobs-bengaluru
-- **San Jose** — no signal found in the title or snippet
-  - 1,000+ Ecommerce Manager jobs in San Jose - LinkedIn
-  - https://www.linkedin.com/jobs/ecommerce-manager-jobs-san-jose-ca
+  - My food took over an hour and a half to get here. It was ...
+  - https://www.reddit.com/r/doordash/comments/1ouuegp/my_food_took_over_an_hour_and_a_half_to_get_here/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - 1,000+ Key Account Manager Modern Trade jobs in India - LinkedIn
-  - https://in.linkedin.com/jobs/key-account-manager-modern-trade-jobs
-- **The Hershey Company** — no signal found in the title or snippet
-  - The Hershey Company hiring Manager Key Accounts Ecommerce in ...
-  - https://in.linkedin.com/jobs/view/manager-key-accounts-ecommerce-at-the-hershey-company-4426609313
-- **Bengaluru Rural** — no signal found in the title or snippet
-  - 1,000+ Key Account Manager E Commerce jobs in Bengaluru Rural
-  - https://in.linkedin.com/jobs/key-account-manager-e-commerce-jobs-bengaluru-rural-ka?trk=public_jobs_search-for-more-jobs-link
+  - Please help me understand if you deliver for Walmart. I tracked ...
+  - https://www.facebook.com/shaunathebarber/posts/please-help-me-understand-if-you-deliver-for-walmart-i-tracked-my-order-to-my-ho/10164473688202482/
+- **Doordash** — no signal found in the title or snippet
+  - Order the best Grocery near Washington, DC
+  - https://www.doordash.com/food-delivery/washington-dc-restaurants/grocery/?srsltid=AfmBOooyH8fjoHSq19yJIkzoGOGOXiJ-k3Jqa-eHCbVy1s0APiIN1X2w
 - **(unknown)** — not a company - a host, a form link or a social post
-  - D2C Quick Commerce Executive - Flipkart & Quick Commerce ...
-  - https://www.naukri.com/job-listings-d2c-quick-commerce-executive-flipkart-quick-commerce-platforms-workradius-ai-technologies-hyderabad-1-to-4-years-270826000006
+  - Ben Portsmouth's Post
+  - https://www.linkedin.com/posts/benportsmouth-building-the-future-of-restaurant-delivery-process-from-order-to-door_after-30-years-in-delivery-i-kept-seeing-activity-7466065882369294337-4Kmi
+- **Apple** — no signal found in the title or snippet
+  - Wolt Delivery: Food and more - App Store
+  - https://apps.apple.com/pl/app/wolt-delivery-food-and-more/id943905271
+- **Tiktok** — no signal found in the title or snippet
+  - Why Does It Take You So Long to Unload The Groceries
+  - https://www.tiktok.com/discover/why-does-it-take-you-so-long-to-unload-the-groceries
+- **Trustpilot** — no signal found in the title or snippet
+  - The English Grocer Reviews
+  - https://ie.trustpilot.com/review/englishgrocer.ch?page=3
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Quick Commerce Ads Specialist (Skincare, FMCG Brand) - Navi ...
-  - https://www.naukri.com/job-listings-quick-commerce-ads-specialist-skincare-fmcg-brand-ifc-ventures-navi-mumbai-mumbai-all-areas-2-to-4-years-290826013192
+  - How do you decide how much to tip a delivery driver if your ...
+  - https://www.quora.com/How-do-you-decide-how-much-to-tip-a-delivery-driver-if-your-order-arrives-late-or-cold
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Accounts Manager - Multi-Entity D2C / Quick Commerce Operations ...
-  - https://www.naukri.com/job-listings-accounts-manager-multi-entity-d2c-quick-commerce-operations-oye-happy-giftcom-pvt-ltd-hyderabad-3-to-8-years-010826008593
-- **Faridabad And Haryana** — no signal found in the title or snippet
-  - E Commerce Manager Jobs In Faridabad And Haryana - Naukri.com
-  - https://www.naukri.com/e-commerce-manager-jobs-in-faridabad-and-haryana
+  - Word's out. Zipline delivers food by air and people are ...
+  - https://www.facebook.com/flyzipline/posts/words-out-zipline-delivers-food-by-air-and-people-are-loving-it-see-what-the-hyp/1305662375099515/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Store Manager Quick Commerce - Superk - 3 to 5 years of experience
-  - https://www.naukri.com/job-listings-store-manager-quick-commerce-superk-chittoor-3-to-5-years-170626024511
+  - Quick delivery : r/guwahati
+  - https://www.reddit.com/r/guwahati/comments/1moxk0l/quick_delivery/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - E-Commerce National Key Account Manager - Navi Mumbai - Loyka
-  - https://www.naukri.com/job-listings-e-commerce-national-key-account-manager-loyka-navi-mumbai-5-to-8-years-070926008911
+  - We're making it easier to get what you need with FREE pickup. ...
+  - https://www.facebook.com/Kroger/videos/free-pickup/3083419695030702/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Operations Executive - Quick Commerce (B2B) - Ugaoo Agritech
-  - https://www.naukri.com/job-listings-operations-executive-quick-commerce-b2b-ugaoo-com-gurugram-2-to-5-years-310826501294
+  - Why Blinkit Is Not Available In My Area
+  - https://www.instagram.com/popular/why-blinkit-is-not-available-in-my-area/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - 1015 Quick Job Vacancies In Hyderabad Secunderabad - Naukri.com
-  - https://www.naukri.com/quick-jobs-in-hyderabad-secunderabad
+  - Bharti Airtel Q1 FY27 Financial Results
+  - https://www.linkedin.com/posts/airtel_bhartiairtel-activity-7490392606854705152-zUTN
+- **Twopagescurtains** — no signal found in the title or snippet
+  - TWOPAGES Gift Card
+  - https://twopagescurtains.com/products/twopages-gift-card?srsltid=AfmBOoqAVMSAqf0J3ESMF7PMP9WubjJBkoAx-tX6OKNFeQk3v7JmYCHk
+- **Etsy** — no signal found in the title or snippet
+  - Reviews - StephanieMcRaeArt - Page 2
+  - https://www.etsy.com/ca/shop/StephanieMcRaeArt/reviews?page=2
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Deputy Key Account Manager-Quick Commerce - Naukri.com
-  - https://www.naukri.com/job-listings-deputy-key-account-manager-quick-commerce-synergy-resource-solutions-ahmedabad-5-to-10-years-070726503151
+  - Checking availability of a product on Walmart's website
+  - https://www.facebook.com/Tara.gadlinwilliams2/posts/i-was-just-talking-about-this-last-night-i-wanted-to-do-this-i-went-to-the-walma/4407184962870565/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Assistant Manager Quick Commerce (Q-Com) Intergrow - Kochi
-  - https://www.naukri.com/job-listings-assistant-manager-quick-commerce-q-com-intergrow-intergrow-brands-pvt-ltd-kochi-5-to-10-years-251125506529
-- **Maction** — no signal found in the title or snippet
-  - D2C Brands Are Launching on Quick Commerce First. Here's Why.
-  - https://maction.com/quick-commerce-product-launch-d2c-india/
+  - Don't miss out on free Swiss Beauty blushes, lipsticks and ...
+  - https://www.instagram.com/reel/DcSx9yNx1uJ/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Reliance-owned JioMart opens 600 dark stores in quick commerce ...
-  - https://x.com/madhavchanchani/status/1999308428544737670
+  - Walmart grocery delivery issues with out of stock items
+  - https://www.facebook.com/groups/395655440136183/posts/983493828019005/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Read the Full Blog: https://maction.com/quick-commerce-product ...
-  - https://www.instagram.com/p/Dcvm4PADDIH/?__d=1%2F
+  - Why does Walmart say an item is out of stock and not ...
+  - https://www.reddit.com/r/Walmartcustomer/comments/1vx7e0d/why_does_walmart_say_an_item_is_out_of_stock_and/
+- **Instacart** — no signal found in the title or snippet
+  - Instacart | Grocery Delivery or Pickup from Local Stores Near ...
+  - https://www.instacart.com/
+- **Grubtech** — no signal found in the title or snippet
+  - Why Grocery Orders Get It Wrong Even When Everything Is ...
+  - https://grubtech.com/en/blog/why-grocery-orders-get-it-wrong-even-when-everything-is-in-stock-1788331357790/
+- **Justanswer** — no signal found in the title or snippet
+  - Walmart App Out of Stock Issues? Expert Help & Solutions
+  - https://www.justanswer.com/software/vsyp6-frozen-deli-items-out-of-stock-app.html
 - **(unknown)** — not a company - a host, a form link or a social post
-  - 5 Quick Commerce Trends Every Brand Should Know | Teaser
-  - https://www.youtube.com/shorts/Pv94SVFmyn4
+  - Why is Walmart grocery delivery often showing low stock ...
+  - https://www.facebook.com/madison.mitchell.79677/posts/is-anyone-elses-walmart-grocery-delivery-showing-low-in-stock-on-almost-everythi/4524869601115828/
+- **Illinois** — no signal found in the title or snippet
+  - Leader Guide: Grocery Shopping Online | Illinois Extension
+  - https://extension.illinois.edu/sites/default/files/grocery_shopping_online_full_lesson.pdf
+- **Doordash** — no signal found in the title or snippet
+  - Groceries Delivered to your Door
+  - https://www.doordash.com/en/p/grocery-delivery?srsltid=AfmBOoraJJgduxpJ4S7B-Fq47EKyqeHj4boJg4jTKWuNv6_ZFMcujB_a
+- **Grocerydive** — no signal found in the title or snippet
+  - The future of grocery delivery: What manufacturers and ...
+  - https://www.grocerydive.com/news/the-future-of-grocery-delivery-what-manufacturers-and-retailers-should-ant/535788/
+- **Apple** — sells this kind of product (competitor, not a buyer)
+  - getir: groceries, food&beyond - App Store - Apple
+  - https://apps.apple.com/gb/app/getir-groceries-food-beyond/id995280265
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Inwess Asset Management's Post - LinkedIn
-  - https://www.linkedin.com/posts/inwess_zomatos-recipe-for-success-mastering-indias-activity-7251957776707379200-v86-
+  - How 10 Minute Delivery Works? We've all experienced ...
+  - https://www.facebook.com/firstpostin/posts/how-10-minute-delivery-worksweve-all-experienced-the-magic-of-quick-commerce-you/1497513955742920/
+- **Abc7Ny** — no signal found in the title or snippet
+  - 'Gorillas,' promising grocery deliveries in 10 minutes or less ...
+  - https://abc7ny.com/post/gorillas-grocery-delivery-10-minutes-or-less-brooklyn/10718579/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Quick fashion delivery startup Klydo has paused its consumer ...
-  - https://www.facebook.com/startup.pedia7/posts/quick-fashion-delivery-startup-klydo-has-paused-its-consumer-business-and-is-tak/1505385641602593/
-- **Imarcamplify** — no signal found in the title or snippet
-  - Quick Commerce Advertising: Grow on Blinkit, Zepto & More
-  - https://www.imarcamplify.com/blog/quick-commerce-advertising-how-brand-can-grow
-- **Base** — no signal found in the title or snippet
-  - Quick Commerce Unit Economics: Why Most Brands Get the Math ...
-  - https://base.com/en-IN/blog/quick-commerce-unit-economics-why-most-brands-get-the-math-wrong/
-- **Qsrmedia** — no signal found in the title or snippet
-  - Boba Bhai launches on quick-commerce app Blinkit | QSR Media Asia
-  - https://qsrmedia.asia/food-services/news/boba-bhai-launches-quick-commerce-app-blinkit
-- **Openspacecapital** — no signal found in the title or snippet
-  - SariSuki raises from Openspace, expands into quick commerce
-  - https://www.openspacecapital.com/insights/sarisuki-raises-from-openspace-expands-into-quick-commerce
-- **Amazon** — no signal found in the title or snippet
-  - Sr Program Manager - Quick Commerce NYC Strategy at Amazon
-  - https://www.linkedin.com/jobs/view/sr-program-manager-quick-commerce-nyc-strategy-at-amazon-4465090764
+  - How is Grofers delivering groceries in 10 minutes?
+  - https://www.quora.com/How-is-Grofers-delivering-groceries-in-10-minutes
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Growth Performance Manager - Delivery Hero - LinkedIn Singapore
-  - https://sg.linkedin.com/jobs/view/growth-performance-manager-quick-commerce-at-delivery-hero-4367211550
+  - 🚨 The Harsh Reality of 10-Minute Delivery 🚨 | Yash Sisodia
+  - https://www.linkedin.com/posts/yash-sisodia-1a443218b_the-harsh-reality-of-10-minute-delivery-activity-7374808390126145536-2ZGi
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Finance Manager, Quick Commerce (Amazon Now) - LinkedIn
-  - https://www.linkedin.com/jobs/view/finance-manager-quick-commerce-amazon-now-at-amazon-4455918662
+  - Groceries slipping your mind? No problem! Order on Zepto ...
+  - https://www.facebook.com/Zeptonow/posts/groceries-slipping-your-mind-no-problem-order-on-zepto-and-get-them-delivered-to/1098855332481049/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Quick Commerce And E-commerce Growth Manager - LinkedIn
-  - https://in.linkedin.com/jobs/view/quick-commerce-and-e-commerce-growth-manager-at-i-j-l-son-s-enterprises-4351836226
-- **San Jose** — no signal found in the title or snippet
-  - 1,000+ Ecommerce Manager jobs in San Jose - LinkedIn
-  - https://www.linkedin.com/jobs/ecommerce-manager-jobs-san-jose-ca
+  - Grocery/household supplies/shopping deliveries in East ...
+  - https://www.reddit.com/r/Edinburgh/comments/rox8g8/groceryhousehold_suppliesshopping_deliveries_in/
+- **Thepacker** — no signal found in the title or snippet
+  - Schnuck Markets partners with Instacart, offers shoppers ...
+  - https://www.thepacker.com/news/retail/schnuck-markets-partners-instacart-offers-shoppers-quick-delivery-e-commerce
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Marketplace Growth Manager (E-commerce & Quick ... - LinkedIn
-  - https://in.linkedin.com/jobs/view/marketplace-growth-manager-e-commerce-quick-commerce-at-growpreneur-4444677472
+  - When life happens, foodpanda's all you need. Get your ...
+  - https://www.facebook.com/foodpandaBangladesh/posts/when-life-happens-foodpandas-all-you-need-get-your-favourite-food-delivered-to-m/1546297710874872/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Marketplace and Quick Commerce Manager - Jobs - LinkedIn
-  - https://in.linkedin.com/jobs/view/marketplace-and-quick-commerce-manager-at-zoom-into-web-4455861339
+  - foodpanda
+  - https://www.facebook.com/foodpandaphilippines/posts/from-your-online-shopping-finds-to-forgotten-items-pandago-will-deliver-it-all-i/648887343935209/
+- **Yelp** — no signal found in the title or snippet
+  - TOP 10 BEST Grocery Pickup and Delivery in Palo Alto, CA
+  - https://www.yelp.com/search?find_desc=grocery+pickup+and+delivery&find_loc=Palo+Alto%2C+CA
+- **Informs** — no signal found in the title or snippet
+  - Browsing the Aisles or Browsing the App? How Online ...
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2022.0292
+- **Thetribune** — no signal found in the title or snippet
+  - Grocery delivery services help communities stay socially ...
+  - https://www.thetribune.ca/student-life/grocery-delivery-services-help-communities-stay-socially-distanced-10142020/
+- **Mordorintelligence** — no signal found in the title or snippet
+  - Australia and New Zealand Quick Commerce Market Size ...
+  - https://www.mordorintelligence.com/industry-reports/australia-and-new-zealand-quick-commerce-market
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Sr. Program Manager, Quick Commerce Expansion Planning
-  - https://www.linkedin.com/jobs/view/sr-program-manager-quick-commerce-expansion-planning-at-amazon-4461523204
+  - have you ever abandoned an order after seeing the final ...
+  - https://www.instagram.com/reel/DcLiNeUy8b3/
+- **Expatnetherlandshub** — no signal found in the title or snippet
+  - Best Food Delivery Apps Netherlands 2026: 6 Compared
+  - https://expatnetherlandshub.com/guides/daily-life/best-food-delivery-apps-netherlands-2026/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Ops Manager - Quick Commerce Last Mile, Amazon NOW - LinkedIn
-  - https://in.linkedin.com/jobs/view/ops-manager-quick-commerce-last-mile-amazon-now-at-amazon-4455900348
+  - Get fresh groceries, bakeries, and household essentials ...
+  - https://www.facebook.com/Breadfast/posts/get-fresh-groceries-bakeries-and-household-essentials-delivered-fast-to-your-doo/1324229149913305/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Category Manager, Amazon Now Quick Commerce 10 minute delivery
-  - https://in.linkedin.com/jobs/view/category-manager-amazon-now-quick-commerce-10-minute-delivery-at-amazon-4455796153
+  - Get your groceries delivered in just 60 minutes
+  - https://www.facebook.com/CheckersSixty60App/posts/get-your-groceries-delivered-in-just-60-minutes-/1127682143106802/
+- **Samsclub** — no signal found in the title or snippet
+  - Same-Day & 1-Hour Express Grocery Delivery Service
+  - https://www.samsclub.com/cp/same-day-delivery/30001741
+- **Apple** — no signal found in the title or snippet
+  - Quicklly - App Store - Apple
+  - https://apps.apple.com/us/app/quicklly/id1536958907
+- **Ubereats** — no signal found in the title or snippet
+  - Fast Grocery Delivery in March
+  - https://www.ubereats.com/gb/category/march-eng/grocery?srsltid=AfmBOoqnPSQa1Bgj_hnL9WO3BBbRCKIq6Zeq6skTRZHZqzzByF7e6YjY
+- **(unknown)** — not a company - a host, a form link or a social post
+  - get fresher groceries delivered fast from your store.
+  - https://www.facebook.com/Safeway/posts/skip-the-warehouse-get-fresher-groceries-delivered-fast-from-your-store/1511376671024179/
+- **Instant Genie** — no signal found in the title or snippet
+  - Fast Local Deliveries for Everyday Essentials
+  - https://instant-genie.com/post/fast-local-deliveries-for-everyday-essentials
+- **Budgetingcouple** — no signal found in the title or snippet
+  - Top 5 Grocery Delivery Services for Your Budget
+  - https://budgetingcouple.com/grocery-delivery-services/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Need to order last-minute groceries and essentials for your ...
+  - https://www.facebook.com/samsclub/posts/need-to-order-last-minute-groceries-and-essentials-for-your-family-same-day-deli/10160596669037682/

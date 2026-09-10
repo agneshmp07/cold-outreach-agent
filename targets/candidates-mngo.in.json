@@ -1,0 +1,169 @@
+{
+  "client": "MNGO",
+  "client_domain": "mngo.in",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Private Engineering and Technology Colleges",
+      "why_they_buy": "They run dozens of high-volume campus recruitment drives each season and struggle to manage thousands of student eligibility profiles and shortlists across fragmented spreadsheets and WhatsApp groups.",
+      "example_of_a_buyer": "A NAAC-accredited private engineering college in Tier-2/3 cities with 800–1,500 graduating students managing 50+ visiting recruiters manually."
+    },
+    {
+      "sector": "Private Multidisciplinary Universities",
+      "why_they_buy": "They need a single centralized system to coordinate concurrent placement drives across multiple departments without administrative overlap or communication bottlenecks.",
+      "example_of_a_buyer": "A 10-year-old regional private university in South India with 2,500+ graduating students across engineering, management, and computer applications."
+    },
+    {
+      "sector": "Autonomous Business and Management Institutes",
+      "why_they_buy": "They operate high-density placement seasons with complex multi-round interview schedules and require real-time tracking of offer statuses for lean placement teams.",
+      "example_of_a_buyer": "An AICTE-approved autonomous management institute graduating 400 MBA students annually with a small two-person placement office."
+    },
+    {
+      "sector": "State-Affiliated Arts, Science, and Commerce Degree Colleges",
+      "why_they_buy": "They are formalizing their placement cells to boost graduate employability metrics but lack institutional enterprise IT tools, relying entirely on manual Google Forms.",
+      "example_of_a_buyer": "A high-enrollment affiliated degree college with 1,200 final-year undergraduates building out its first structured placement drives for regional service firms."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "BITS Pilani",
+      "sector": "Higher Education",
+      "why": "Private university with extensive campus placement operations requiring automated workflow management.",
+      "seen_in": "Top 10 Private Engineering Colleges in India 2026",
+      "domain": "bits-pilani.ac.in"
+    },
+    {
+      "company": "VIT Vellore",
+      "sector": "Higher Education",
+      "why": "Large private technology university with thousands of graduating students needing campus placement coordination.",
+      "seen_in": "Top 10 Private Engineering Colleges in India 2026",
+      "domain": "vit.ac.in"
+    },
+    {
+      "company": "SRM Institute of Science and Technology",
+      "sector": "Higher Education",
+      "why": "Private multidisciplinary university managing large-scale student placement drives across multiple campuses.",
+      "seen_in": "Top 10 Private Engineering Colleges in India 2026",
+      "domain": "edu.in"
+    },
+    {
+      "company": "Manipal Academy of Higher Education",
+      "sector": "Higher Education",
+      "why": "Major private multidisciplinary university running campus placement drives across diverse degree programs.",
+      "seen_in": "India's Best Private Multi-Disciplinary Universities 2025-26",
+      "domain": "manipal.edu"
+    },
+    {
+      "company": "Dayananda Sagar University",
+      "sector": "Higher Education",
+      "why": "Multidisciplinary private university in Bengaluru actively placing graduates in tech and industry roles.",
+      "seen_in": "Bengaluru’s Dayananda Sagar University partners with NVIDIA to launch AI factory on campus",
+      "domain": "edu.in"
+    },
+    {
+      "company": "Chandigarh University",
+      "sector": "Higher Education",
+      "why": "Large private university with active career services and placement drives for thousands of students.",
+      "seen_in": "Top 10 Private Universities in India",
+      "domain": "cuchd.in"
+    },
+    {
+      "company": "Ashoka University",
+      "sector": "Higher Education",
+      "why": "Private liberal arts and sciences university with a dedicated placement cell for graduating students.",
+      "seen_in": "IIRF India University Rankings 2026: Top ...",
+      "domain": "edu.in"
+    },
+    {
+      "company": "Amity University",
+      "sector": "Higher Education",
+      "why": "Multi-campus private university running placement management for thousands of students and recruiters.",
+      "seen_in": "EducationWorld India Private Multidisciplinary Universities ...",
+      "domain": "amity.edu"
+    },
+    {
+      "company": "FORE School of Management",
+      "sector": "Higher Education",
+      "why": "Management institute managing corporate recruiters, interviews, and student placement workflows.",
+      "seen_in": "Private Universities with Best Employability in India",
+      "domain": "fsm.ac.in"
+    },
+    {
+      "company": "Indian School of Business",
+      "sector": "Higher Education",
+      "why": "Business school with intensive corporate recruitment drives requiring placement management tools.",
+      "seen_in": "Top 10 Accredited Business Schools in India",
+      "domain": "isb.edu"
+    },
+    {
+      "company": "IMT Ghaziabad",
+      "sector": "Higher Education",
+      "why": "Business management institute with regular corporate recruitment cycles for MBA students.",
+      "seen_in": "Private Universities with Best Employability in India",
+      "domain": "imt.edu"
+    },
+    {
+      "company": "SSN College of Engineering",
+      "sector": "Higher Education",
+      "why": "Autonomous engineering college managing high-volume campus recruitment drives.",
+      "seen_in": "Top 10 Engineering Colleges in India , Fee , Ranking , ...",
+      "domain": "edu.in"
+    },
+    {
+      "company": "PSG College of Technology",
+      "sector": "Higher Education",
+      "why": "Engineering institute with active corporate placement drives for graduating engineering students.",
+      "seen_in": "Top 50 Private Engineering Colleges in India | PDF",
+      "domain": "psgtech.edu"
+    },
+    {
+      "company": "Cambridge Institute of Technology",
+      "sector": "Higher Education",
+      "why": "Engineering college operating campus placement cells to connect recruiters with engineering graduates.",
+      "seen_in": "Top 125 Private Engineering Institute Rankings 2026",
+      "domain": "edu.in"
+    },
+    {
+      "company": "Thadomal Shahani Engineering College",
+      "sector": "Higher Education",
+      "why": "Engineering institute managing placement cells, student profiles, and recruiter interactions.",
+      "seen_in": "Top 125 Private Engineering Institute Rankings 2026",
+      "domain": "tsec.edu"
+    },
+    {
+      "company": "BMS College of Engineering",
+      "sector": "Higher Education",
+      "why": "Private engineering college with high campus placement activity requiring placement cell software.",
+      "seen_in": "Top Engineering Colleges in India 2026: Rankings, ROI, ...",
+      "domain": "bmsce.ac.in"
+    },
+    {
+      "company": "KIET Group of Institutions",
+      "sector": "Higher Education",
+      "why": "Technical institution managing campus recruitment drives across engineering and management streams.",
+      "seen_in": "Top Engineering Colleges in India 2026: Rankings, ROI, ...",
+      "domain": "kiet.edu"
+    },
+    {
+      "company": "Shoolini University",
+      "sector": "Higher Education",
+      "why": "Private university offering technical and professional programs with dedicated campus placement activities.",
+      "seen_in": "Food Technology Careers Beyond Laboratory Research at Shoolini University in 2026",
+      "domain": "shooliniuniversity.com"
+    },
+    {
+      "company": "NMAM Institute of Technology",
+      "sector": "Higher Education",
+      "why": "Private engineering institute coordinating corporate placement drives and student recruitment workflows.",
+      "seen_in": "Engineering (Private) | Breeding new-gen techies | NMAM Institute of Technology, NITTE, Karkala",
+      "domain": "edu.in"
+    },
+    {
+      "company": "Alva's Institute of Engineering & Technology",
+      "sector": "Higher Education",
+      "why": "Engineering college running campus placement programs for graduating BTech students.",
+      "seen_in": "Which Are the Top 5 Private BTech Colleges in India?",
+      "domain": "aiet.org.in"
+    }
+  ]
+}

@@ -51,6 +51,8 @@ SCHEMA_EXAMPLE = """{
   "who_pays_for_it": "string",
   "who_buys_it": "string",
   "target_group": "string",
+  "sells_to_businesses": true,
+  "b2c_note": "string",
   "claims_to_check": ["string"],
   "icp": {
     "fits": [
@@ -156,7 +158,17 @@ Rules:
    them a good prospect rather than a bad one. No tables, no jargon, no
    marketing adjectives. If the company sells to two different sides, say so and
    name the side that pays.
-9. "weakest_assumption" is the one thing in your ICP you are least sure about,
+9. "sells_to_businesses": true if the paying customer is an organisation that
+   someone could write a business email to. false if the paying customer is an
+   individual member of the public buying for themselves - a shopper, a rider, a
+   viewer, a patient. Be honest here. A consumer app has no cold-outreach
+   audience, and pretending otherwise produces an ICP that rejects every company
+   it is ever shown, because no company is a household.
+   If false, put one sentence in "b2c_note" naming any BUSINESS side this
+   company does have - advertisers, suppliers, franchise partners, sellers on
+   the platform - or say plainly that there is not one. Then build the ICP
+   around THAT business side, not around the consumers.
+10. "weakest_assumption" is the one thing in your ICP you are least sure about,
    and how the human could check it. Be specific. Do not hedge everything.
 
 Reply with JSON only, matching this shape exactly:
@@ -239,6 +251,8 @@ def client_json(domain, data, icp_path):
         "one_liner": data.get("one_liner", ""),
         "what_you_sell": data.get("what_you_sell", ""),
         "target_group": data.get("target_group", ""),
+        "sells_to_businesses": data.get("sells_to_businesses", True),
+        "b2c_note": data.get("b2c_note", ""),
         "business_model": data.get("business_model", ""),
         "who_uses_it": data.get("who_uses_it", ""),
         "who_pays_for_it": data.get("who_pays_for_it", ""),
@@ -305,6 +319,20 @@ def print_summary(domain, data, client_path, icp_path):
     print(wrap(data.get("target_group")
                or data.get("who_pays_for_it")
                or data.get("who_buys_it") or "not stated"))
+
+    if data.get("sells_to_businesses") is False:
+        print(f"\n{'!' * 60}")
+        print("  THIS COMPANY SELLS TO THE PUBLIC, NOT TO BUSINESSES.")
+        print(f"{'!' * 60}\n")
+        print(wrap("Cold outreach means writing to a named person at a company. "
+                   "There is no such person for a consumer product, so an ICP "
+                   "built on its shoppers will reject every company you test - "
+                   "no business is a household."))
+        if data.get("b2c_note"):
+            print("\n" + wrap(data["b2c_note"]))
+        print("\n" + wrap("If the business side named above is real, edit the ICP "
+                          "to describe it. If there is no business side, this "
+                          "company is not a fit for this tool."))
 
     print(f"\n{'-' * 60}")
     print("Detail")

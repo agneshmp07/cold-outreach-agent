@@ -1,0 +1,318 @@
+{
+  "domain": "wework.com",
+  "client": "Blinkit",
+  "client_domain": "blinkit.com",
+  "checked_against": "icp-blinkit.com.md",
+  "result": {
+    "company_name": "WeWork",
+    "what_they_do": "WeWork is a global real estate provider offering flexible workplace solutions, coworking spaces, and office space for businesses, entrepreneurs, and freelancers [1, 4, 6].",
+    "size": {
+      "estimate": "5,600 employees",
+      "evidence": "WeWork has approximately 5.6K employees as of July 2026 [16].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "None",
+      "in_icp": false,
+      "why": "WeWork operates in the Real Estate / Workspace industry providing B2B coworking solutions [1, 4, 9], which does not match the target segment of individual consumers or households.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None of Blinkit's buying signals (8-minute delivery claim, 30,000+ catalog count, grocery search prompt, or referral-only hiring notice) were found.",
+      "evidence": "None",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "WeWork is a commercial enterprise/business entity rather than an individual consumer or household ordering retail groceries for residential delivery [1, 4, 6]."
+    ],
+    "verdict": "SKIP",
+    "reason": "WeWork is a B2B real estate and flexible workspace provider [1, 4], not an individual consumer or household, which falls completely outside Blinkit's target ICP.",
+    "could_not_find": [
+      "Whether individual employees or members within WeWork offices place personal consumer grocery delivery orders.",
+      "Whether any specific WeWork property address resides within an active local delivery radius of a Blinkit fulfillment center."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About us",
+      "snippet": "WeWork is a leading global real estate provider that empowers businesses to thrive through world-class flexible workplace solutions, innovative technology ...",
+      "link": "https://www.wework.com/about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "I Dont Understand the WeWork Concept : r/WeCrashed",
+      "snippet": "There's a big problem with the core of WeWork business; they own nothing. Everything they do and all of their cost is considered leasehold ...",
+      "link": "https://www.reddit.com/r/WeCrashed/comments/tztvvs/i_dont_understand_the_wework_concept/",
+      "date": "4 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "WeWork | Office Space and Workspace Solutions",
+      "snippet": "From flexible memberships to move-in ready offices, we give you the space and solutions to do your best work. ... Working with WeWork made it easy for us to speed ...",
+      "link": "https://www.wework.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "WeWork",
+      "snippet": "WeWork Inc. is an American company headquartered in New York City that provides coworking spaces, including physical and virtual shared spaces, ...",
+      "link": "https://en.wikipedia.org/wiki/WeWork",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Home - Careers at WeWork",
+      "snippet": "At WeWork, we give our employees the freedom, flexibility, and support to help them push boundaries and achieve their goals. This shared vision drives us to ...",
+      "link": "https://www.wework.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "The WeWork Business Model Explained [+ PDF Guide]",
+      "snippet": "WeWork was founded in New York in 2010 with a goal to offer coworking spaces to entrepreneurs, startup companies, freelancers, and even larger enterprises. The ...",
+      "link": "https://www.coworkingresources.org/blog/the-wework-business-model",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "WeWork",
+      "snippet": "About us. Whether you're an established enterprise or a growing startup, discover flexible spaces and solutions to move your business forward with WeWork.",
+      "link": "https://www.linkedin.com/company/wework",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "WeWork | Coworking Company, IPO, Adam Neumann, & ...",
+      "snippet": "Under SoftBank, WeWork sought to cut costs by laying off thousands of employees, selling side businesses, reworking expensive leases, and restructuring its debt ...",
+      "link": "https://www.britannica.com/money/WeWork",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "WeWork India",
+      "snippet": "Website: https://wework.co.in/. External link for WeWork India ; Industry: Real Estate ; Company size: 201-500 employees ; Headquarters: Bengaluru North, Karnataka.",
+      "link": "https://<b>wework</b>.co.in/. Ex",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Scott Pollack's Post",
+      "snippet": "When I joined WeWork, there were 700 employees. Three months later, there were 1200. I got a front-row seat to one of the most rapid growth ...",
+      "link": "https://www.linkedin.com/posts/slpollack_when-i-joined-wework-there-were-700-employees-activity-7297271365622026240-j9Ib",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "WeWork (WE) Employee Count & Headcount Trends",
+      "snippet": "WeWork (WE) has 0 employees according to LinkedIn, roughly flat (+0.0%) over the past three months. The LinkedIn count includes everyone who lists WeWork as ...",
+      "link": "https://altindex.com/ticker/we/employees-linkedin",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "WeWork LinkedIn Employee Headcount",
+      "snippet": "Join the businesses who have begun to edge out competitors by scouring the web for alternative data.",
+      "link": "https://www.thinknum.com/embed/react-chart/snapshot/linkedin_company/98cd6f947b094e94b9b9fea2c4f20cac?theme=mReg&title=WeWork+LinkedIn+Employee+Headcount&bo=h",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Kiran Sabale - WeWork's Rise and Fall: Lessons for Startups",
+      "snippet": "WeWork Rise & Fall.... Rise: - Raised over $12 billion from investors - Hit $47 billion valuation at its peak - Dominated the market for a ...",
+      "link": "https://www.linkedin.com/posts/kiransabale_startups-leadership-finance-activity-7372307004545097728-bVWZ",
+      "date": "12 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Reasons for WeWork's Ongoing Financial Challenges",
+      "snippet": "WeWork's ongoing financial challenges stem from a mismatch between its long-term lease obligations and short-term customer contracts, as well as leadership ...",
+      "link": "https://www.linkedin.com/top-content/business-strategy/navigating-business-challenges/reasons-for-wework-s-ongoing-financial-challenges/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "WeWork Cuts About 300 Employees, Ahead of a Hiring Binge",
+      "snippet": "As the co-working giant dismisses 3 percent of staff, it plans to increase headcount by more than half this year ... WeWork Cuts About 300 ...",
+      "link": "https://www.bloomberg.com/news/articles/2019-03-01/wework-cuts-about-300-employees-ahead-of-a-hiring-binge",
+      "date": "Mar 1, 2019"
+    },
+    {
+      "asking_about": "size",
+      "title": "WeWork Employee Directory, Headcount & Staff",
+      "snippet": "WeWork has approximately 5.6K employees as of July 2026. These team members are located across 6 continents, including North AmericaAsiaEurope. Who are ...",
+      "link": "https://leadiq.com/c/wework/5a1d8d6b54000059007403c4/employee-directory",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Small business owners in New York fear thousands of ...",
+      "snippet": "... groceries delivered in minutes. http://npr.org/2022/02/18 ... Just as their start-up ancestors, Uber or WeWork, did. “It's the ...",
+      "link": "http://npr.org/2022/02/18",
+      "date": "4 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "This week we delivered our 10 millionth order in Philly (plus 10 ...",
+      "snippet": "It's a small list — only 25 in the U.S. as of 2019. The Philly company can now rub elbows with Uber, DoorDash, Juul, WeWork, Lyft and Airbnb.",
+      "link": "https://www.facebook.com/gopuff/posts/this-week-we-delivered-our-10-millionth-order-in-philly-plus-10-million-puff-poi/5079802152123661/",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "On-Demand Coworking, Offices & Meeting Rooms",
+      "snippet": "Book coworking space or private offices by the day and meeting rooms by the hour; Choose from 300+ WeWork locations and thousands of partner spaces ...",
+      "link": "https://www.wework.com/solutions/wework-on-demand",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Tesco Expands to UK with On-Demand Grocery",
+      "snippet": "Head of Commercial Enablement & GTM @ Deliveroo | ex-WeWork. 1mo ... We will be Tesco's first delivery marketplace, bringing even more everyday ...",
+      "link": "https://play.google.com/store/apps/details?id=in.freshiyo.customer&hl=en_US",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "World's #1 Online Grocery Ordering & Delivery Software ...",
+      "snippet": "Deliver the essentials right to customers' doorsteps in record time. ... WeWork DLF Forum, Cybercity, Phase III, Gurugram, HR 122002. Hyperzod Logo.",
+      "link": "https://www.hyperzod.com/online-grocery-ordering-and-delivery-software-solution",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "10-minute delivery enabled by infrastructure density, not rider ...",
+      "snippet": "CIO | WeWork | Driving AI & Platform Consolidation Across 28 ... If you're a grocery retailer under pressure to scale click & collect ...",
+      "link": "https://www.linkedin.com/posts/kritishpuri_if-you-think-10-minute-delivery-works-because-activity-7413453704487694338-8VeX",
+      "date": "8 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Can I have mail and packages delivered to my WeWork ...",
+      "snippet": "Your membership allows you to have mail and packages delivered to your WeWork home location. Visit our website to find out more about WeWork Business Address ...",
+      "link": "https://help.wework.com/s/article/Can-I-have-mail-and-packages-delivered-to-my-WeWork-location-How-do-I-get-notified-if-it-has-arrived",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Everyone assumes Blinkit makes money by delivering ...",
+      "snippet": "... groceries and other household goods often reaching customers in under 10-30 minutes. ... WeWork, Airbnb и другие. Весь их «дисрапшн» — продажа ...",
+      "link": "https://www.facebook.com/Venturloop/posts/everyone-assumes-blinkit-makes-money-by-delivering-groceries-in-10-minutes-that-/122189042918879260/",
+      "date": "3 weeks ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Small business owners in New York fear thousands of ...",
+      "snippet": "... groceries delivered in minutes. http://npr.org/2022/02/18 ... Just as their start-up ancestors, Uber or WeWork, did. “It's the ...",
+      "link": "https://www.facebook.com/CBSNewYork/posts/small-business-owners-in-new-york-fear-thousands-of-bodegas-could-close-in-the-c/10159105223044024/",
+      "date": "4 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "This week we delivered our 10 millionth order in Philly (plus 10 ...",
+      "snippet": "It's a small list — only 25 in the U.S. as of 2019. The Philly company can now rub elbows with Uber, DoorDash, Juul, WeWork, Lyft and Airbnb.",
+      "link": "https://www.facebook.com/gopuff/posts/this-week-we-delivered-our-10-millionth-order-in-philly-plus-10-million-puff-poi/5079802152123661/",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Tesco Expands to UK with On-Demand Grocery",
+      "snippet": "Head of Commercial Enablement & GTM @ Deliveroo | ex-WeWork. 1mo ... We will be Tesco's first delivery marketplace, bringing even more everyday ...",
+      "link": "https://www.linkedin.com/posts/deliveroo_big-news-tesco-is-coming-to-roo-customers-activity-7485300057500667904-nzXV",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "World's #1 Online Grocery Ordering & Delivery Software ...",
+      "snippet": "Deliver the essentials right to customers' doorsteps in record time. ... WeWork DLF Forum, Cybercity, Phase III, Gurugram, HR 122002. Hyperzod Logo.",
+      "link": "https://www.hyperzod.com/online-grocery-ordering-and-delivery-software-solution",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "10-minute delivery enabled by infrastructure density, not rider ...",
+      "snippet": "CIO | WeWork | Driving AI & Platform Consolidation Across 28 ... If you're a grocery retailer under pressure to scale click & collect ...",
+      "link": "https://www.linkedin.com/posts/kritishpuri_if-you-think-10-minute-delivery-works-because-activity-7413453704487694338-8VeX",
+      "date": "8 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Freshiyo - Apps on Google Play",
+      "snippet": "Fresh groceries delivered fast, right to your doorstep ... Wework Rajapushpa Summit, 130p, 115/1p Nanakramguda Gachibowli, Seri ...",
+      "link": "https://play.google.com/store/apps/details?id=in.freshiyo.customer&hl=en_US",
+      "date": "Aug 13, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "#ForbesUnder30 honoree Daria Rebenok founded Grabr to ...",
+      "snippet": "... groceries to be delivered in 15 minutes or less. Operated by well ... Just as their start-up ancestors, Uber or WeWork, did. “It's the ...",
+      "link": "https://www.facebook.com/forbes/posts/forbesunder30-honoree-daria-rebenok-founded-grabr-to-help-shoppers-get-the-items/10157037558422509/",
+      "date": "7 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Blinkit's revenue jumped 552%, but the bigger story is what ...",
+      "snippet": "Groceries, snacks, medicines and daily essentials can reach your doorstep in minutes. ... → WeWork blitzscaled, lost $1.9B, went bankrupt → ...",
+      "link": "https://www.instagram.com/reel/Db8jnFYJuyA/",
+      "date": "4 weeks ago"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Home - Careers at WeWork",
+      "snippet": "At WeWork, we give our employees the freedom, flexibility, and support to help them push boundaries and achieve their goals. This shared vision drives us to ...",
+      "link": "https://www.wework.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "How we hire - Careers at WeWork",
+      "snippet": "The hiring process is an opportunity for us to get to know you, and for you to get to know WeWork. Step 1: Find your team",
+      "link": "https://www.wework.com/careers/how-we-hire/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About us - WeWork",
+      "snippet": "WeWork is a leading global real estate provider that empowers businesses to thrive through world-class flexible workplace solutions,",
+      "link": "https://www.wework.com/about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Internal vs. external recruitment: pros, cons, and methods - WeWork",
+      "snippet": "Hiring from within the company allows you to avoid many of the most common costs involved in recruitment, such as job board fees, marketing the ...",
+      "link": "https://www.wework.com/ideas/professional-development/management-leadership/internal-vs-external-recruitment-pros-cons-and-methods",
+      "date": "Jan 20, 2022"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us - Careers at WeWork",
+      "snippet": "WeWork was founded in 2010 with the vision to create environments where people and companies come together, get inspired, and do their best work.",
+      "link": "https://www.wework.com/careers/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Career cushioning in 2025: How to future-proof your job in the age ...",
+      "snippet": "Simply put, career cushioning refers to the steps you take to safeguard your career. It's about having a backup plan in case something happens ...",
+      "link": "https://www.wework.com/ideas/professional-development/career-cushioning-in-2025",
+      "date": "Aug 29, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Perfecting the hiring formula - WeWork",
+      "snippet": "Make sure you're where your candidates are; either virtually, using job postings or job ads, or physically, at conferences or events. But don't ...",
+      "link": "https://www.wework.com/ideas/professional-development/perfecting-the-hiring-formula",
+      "date": "Dec 19, 2013"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "What Your Workspace Says About Your Brand (And Why Clients ...",
+      "snippet": "Your office, meeting room, or Zoom background is talking to your clients before you do. Here's how they shape brand perception, and how to make ...",
+      "link": "https://www.wework.com/ideas/professional-development/what-your-workspace-says-about-your-brand-and-why-clients-notice",
+      "date": "19 hours ago"
+    }
+  ]
+}

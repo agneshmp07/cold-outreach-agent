@@ -1,0 +1,316 @@
+{
+  "domain": "mesaschool.co",
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "checked_against": "icp-wework.com.md",
+  "result": {
+    "company_name": "Mesa School of Business",
+    "what_they_do": "Mesa School of Business is a startup-focused business school and incubator based in Bengaluru, offering PGP and undergraduate programs in entrepreneurship and startup leadership [1, 6, 8, 32].",
+    "size": {
+      "estimate": "11-50 employees",
+      "evidence": "ZoomInfo lists the employee count as 11-50 [15].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Higher Education / Startup Incubator",
+      "in_icp": false,
+      "why": "The ICP specifically targets Technology & Software, Enterprise & Financial Services, and Professional Services & Agencies. Mesa School of Business is a higher education institution and startup incubator [6, 15].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No external buying signals listed in the ICP (such as headcount growth >20% over 6 months or multi-city expansion hiring pushes) were evidenced in the search results.",
+      "evidence": "None [1-40].",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Mesa School of Business is a business school/incubator [6, 8], which falls outside the explicit industry segment labels in the ICP (Tech, Enterprise, Agencies). However, it plausibly has a strong need for flexible workspace solutions—in fact, it established its campus inside a WeWork facility [23]. Per rule 8, companies not in a named segment that plausibly have the need should be marked UNCLEAR.",
+    "could_not_find": [
+      "Recent 6-month headcount growth percentage to verify buying signals.",
+      "Whether Mesa School of Business plans to expand campus locations or open hubs in other cities outside Bengaluru."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Mesa School of Business — Business School in Bangalore",
+      "snippet": "That you will gain expertise in. Build <br> Automation Agents. Build ... By submitting, you authorise Mesa School of Business to contact you with ...",
+      "link": "https://mesaschool.co/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "I want to do mba from mesa school of business How good is it",
+      "snippet": "I want to do mba from mesa school of business How good is it. Specific Question. Cause I I have pretty good profile but not so good acads How is ...",
+      "link": "https://www.reddit.com/r/CATpreparation/comments/18p3kwy/i_want_to_do_mba_from_mesa_school_of_business_how/",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mesa School of Business (@mesa.school)",
+      "snippet": "Mesa School of Business. 252K followers. 2 following. Building People Who Build India Bengaluru What's New ⬇️. Follow. Message. Accounts you might like.",
+      "link": "https://www.instagram.com/mesa.school/?hl=en",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mesa School of Business founder shares mindset for young ...",
+      "snippet": "down with our students and talks about the mindset it takes. Mesa School of Business co-founder, Ankit Agarwal, sat down with Sambhav Jain, co ...",
+      "link": "https://www.linkedin.com/posts/mesa-school-of-business_some-of-the-best-learning-at-mesa-does-not-activity-7493161652943540224-VU-D",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How is the student life at Mesa School of Business ...",
+      "snippet": "How is the student life at Mesa School of Business, and how does it contribute to a holistic MBA experience?",
+      "link": "https://www.quora.com/How-is-the-student-life-at-Mesa-School-of-Business-and-how-does-it-contribute-to-a-holistic-MBA-experience",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mesa School of Business - 2026 Company Profile & Team",
+      "snippet": "Mesa School of Business is a series A company based in Bengaluru (India), founded in 2022 by Ankit Agarwal. It operates as a Startup-focused ...",
+      "link": "https://tracxn.com/d/companies/mesa-school-of-business/__bbzc34h7X4LYtiRh2ey-0bz1nrgHvzNaGhA9oeh0D-U",
+      "date": "Aug 20, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Inside Mesa School of Business, Where Students Are ...",
+      "snippet": "At Mesa School of Business in Bengaluru, students learn by building real startups through incubators and sprint programs, turning ideas into ...",
+      "link": "https://www.brut.media/in/articles/inside-mesa-school-of-business-where-students-are-building-real-startups",
+      "date": "Apr 28, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mesa Startup Lab: In-House Startup Incubator in India",
+      "snippet": "Mesa Startup Lab (MSL) is Mesa School of Business's in-house startup incubator: a 12-month founder track inside Mesa's full-time PGP or Forge program in ...",
+      "link": "https://mesaschool.co/msl/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mesa School of Business Employees, Location, Alumni",
+      "snippet": "Welcome to Mesa School of Business - India's only business school for the startup leaders of tomorrow! Founded by alumni from Harvard Business School (HBS) ...",
+      "link": "https://in.linkedin.com/school/mesa-school-of-business/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Pragya Mathur's Post",
+      "snippet": "I'm excited to share that I've joined Mesa School of Business as Associate Director, Founder's Office! I may be the first and only Mesa employee",
+      "link": "https://www.linkedin.com/posts/pragyamathur4_im-excited-to-share-that-ive-joined-mesa-activity-7497895968751702016-iaea",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "#mesaschoolofbusiness #mesa #startup #education #partnership",
+      "snippet": "Mesa School of Business has picked the right gap to fill. I have met some teachers there and also a couple of students. The focus and approach ...",
+      "link": "https://www.linkedin.com/posts/nsodhi4696_mesaschoolofbusiness-mesa-startup-activity-7185978277348405248-qJyL",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Joining Mesa School of Business as Founder-in-Residence",
+      "snippet": "From Pause to Purpose: Joining Mesa School of Business as Founder-in-Residence. View profile for Siddharth Singh Chauhan. Siddharth Singh ...",
+      "link": "https://www.linkedin.com/posts/siddharth-s-chauhan_mesastartuplab-indiastartups-dreamingunapologetically-activity-7356269105915547648-vX1q",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Varun Limaye - Co-Founder @MesaSchool",
+      "snippet": "See who in Varun's network is hiring. Varun can introduce you to 10+ people at Mesa School of Business.",
+      "link": "https://in.linkedin.com/in/varunlimaye",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Hashir Jaleel - Growth & Marketing @ Mesa School",
+      "snippet": "View Hashir's full profile. Hashir can introduce you to 10+ people at Mesa School of Business.",
+      "link": "https://in.linkedin.com/in/hashirjaleel",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Tariq Musthafa - Director, Undergraduate Program at Mesa ...",
+      "snippet": "Mesa School of Business Employee Directory. Tariq Musthafa. Avatar of Tariq ... Number of Employees. 11-50. Industry. Colleges & Universities Education ...",
+      "link": "https://www.zoominfo.com/p/Tariq-Musthafa/3176670243",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mesa School of Business — Business School in Bangalore",
+      "snippet": "© 2026 Mesa School of Business. Terms of use Privacy policy. ×. Final Round ... LinkedIn URL (https://www.linkedin.com/in/john-doe/). Please enter a valid ...",
+      "link": "https://www.<b>linkedin</b>.com/in/john-",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mesa School of Business — Business School in Bangalore",
+      "snippet": "We offer various financing options for our students, each designed with flexibility ... © 2026 Mesa School of Business. Terms of use Privacy policy. ×. Final ...",
+      "link": "https://mesaschool.co/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Meet Priyal and Sidak - they're the founders of @cozybear.in, a ...",
+      "snippet": "m Mesa SCHOOL OF BUSINESS. miocoworks's profile picture. miocoworks ... (EBC Space, Managed Offices, Coworking Space, Flexible Workspace, Office ...",
+      "link": "https://www.instagram.com/reel/DMfyPFxyQ2C/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mesa School of Business Employees, Location, Alumni",
+      "snippet": "Welcome to Mesa School of Business - India's only business school for the startup leaders of tomorrow! Founded by alumni from Harvard Business School (HBS) ...",
+      "link": "https://in.linkedin.com/school/mesa-school-of-business/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Undergraduate Entrepreneurship Program",
+      "snippet": "© 2026 Mesa School of Business. Terms of use Privacy policy. ×. Undergraduate Program. Full Name. Please enter a valid Full Name. Email. Please enter a valid ...",
+      "link": "https://mesaschool.co/ug/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Take a tour of our campus | Mesa School of Business",
+      "snippet": "a peek into our classrooms, dedicated spaces for work, and on-campus gym & sports facilities ... mesa-school-of-business/",
+      "link": "https://www.youtube.com/watch?v=00_WSTpwywU",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mesa School of Business",
+      "snippet": "... with a heavy focus on learning-by-doing, industry exposure and 1:1 industry mentorship. Mesa School Of Business Raises INR 34 Crore | ...",
+      "link": "https://www.facebook.com/mesa.school/videos/a-business-school-that-backs-your-startup/3810474385756680/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "India's First Ever B School Campus in WeWork India by ...",
+      "snippet": "... WeWork India - India's leading flexible workspace. Situated in Salarpuria Symbiosis, Mesa School of Business intends to create a uniquely ...",
+      "link": "https://www.rprealtyplus.com/realty-spotlight/indias-first-ever-b-school-campus-in-wework-india-by-mesa-school-of-business-111067.html",
+      "date": "Jun 16, 2023"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Join India's first startup B-school | Mesa School of Business",
+      "snippet": "Mesa School of Business, India's first startup focus business school. ... We have access to multiple meeting rooms across the campus. For ...",
+      "link": "https://www.facebook.com/mesa.school/videos/join-indias-first-startup-b-school/656356620805768/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mesa School of Business — Business School in Bangalore",
+      "snippet": "... Mesa School of Business. What is the average CTC after Mesa's PGP in Startup Leadership & Entrepreneurship? Graduates of Mesa's PGP in Startup Leadership ...",
+      "link": "https://mesaschool.co/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mesa School of Business Employees, Location, Alumni",
+      "snippet": "Welcome to Mesa School of Business - India's only business school for the startup leaders of tomorrow! Founded by alumni from Harvard Business School (HBS) ...",
+      "link": "https://in.linkedin.com/school/mesa-school-of-business/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Take a tour of our campus | Mesa School of Business",
+      "snippet": "a peek into our classrooms, dedicated spaces for work, and on-campus gym & sports facilities ... mesa-school-of-business/",
+      "link": "https://www.youtube.com/watch?v=00_WSTpwywU",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Undergraduate Entrepreneurship Program",
+      "snippet": "© 2026 Mesa School of Business. Terms of use Privacy policy. ×. Undergraduate Program. Full Name. Please enter a valid Full Name. Email. Please enter a valid ...",
+      "link": "https://mesaschool.co/ug/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "India's First Ever B School Campus in WeWork India by ...",
+      "snippet": "... WeWork India - India's leading flexible workspace. Situated in Salarpuria Symbiosis, Mesa School of Business intends to create a uniquely ...",
+      "link": "https://www.rprealtyplus.com/realty-spotlight/indias-first-ever-b-school-campus-in-wework-india-by-mesa-school-of-business-111067.html",
+      "date": "Jun 16, 2023"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Which is better, Mesa School of Business or Masters' Union?",
+      "snippet": "Which is better, Mesa School of Business or Masters' Union?",
+      "link": "https://www.quora.com/Which-is-better-Mesa-School-of-Business-or-Masters-Union",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mesa Startup Lab: In-House Startup Incubator in India",
+      "snippet": "Mesa Startup Lab (MSL) is Mesa School of Business's in-house startup incubator: a 12-month founder track inside Mesa's full-time PGP or Forge program in ...",
+      "link": "https://mesaschool.co/msl/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mesa School of Business: Courses, Fees, Admission 2026, ...",
+      "snippet": "Mesa School of Business is a Bengaluru-based, VC-backed institute specializing in entrepreneurship, startup leadership, and venture building.",
+      "link": "https://www.shiksha.com/college/mesa-school-of-business-adugodi-bangalore-214001",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Best Startup Leadership PGP & UG ... - Mesa School of Business",
+      "snippet": "Looking for top-tier talent built for the startup grind? Our students are execution-first professionals, problem solvers, and strategic thinkers, ...",
+      "link": "https://mesaschool.co/hire-from-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Mesa Startup Placement Outcomes: CTC & Career Results",
+      "snippet": "Mesa's B2K Analytics-audited outcomes: 26L average CTC, 45L highest, and a 2.8X pay jump as graduates move into founder-facing startup roles nationwide.",
+      "link": "https://mesaschool.co/outcomes/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Mesa School of Business — Business School in Bangalore",
+      "snippet": "Business Management & Entrepreneurship … several students came away with hiring opportunities. AI product managers and Career Outcomes. Hiring partners 100 % ...",
+      "link": "https://mesaschool.co/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Mesa Startup Lab: In-House Startup Incubator in India",
+      "snippet": "Mesa prepares you for the exact formats founders use to hire cases, take-homes, audits, role-plays, and founder-style interviews",
+      "link": "https://mesaschool.co/msl/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Future Founder's Summer School for High School Students",
+      "snippet": "Join a young entrepreneurs program through our summer school. Learn business, startups, and leadership with hands-on experience and expert guidance.",
+      "link": "https://mesaschool.co/future-founders-summer-school/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Mesa Alumni: Startup Placements & Founder Outcomes",
+      "snippet": "See where Mesa alumni build and lead: a B2K Analytics-audited 26L average CTC, a 2.8X pay jump, and 58% landing founder-facing roles at top startups.",
+      "link": "https://mesaschool.co/alumni/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Build a ₹25L+ Venture: Forge Program for Freshers — Mesa",
+      "snippet": "Join a venture builder program designed to help you build and launch startups with expert mentorship, real-world execution, and business support.",
+      "link": "https://mesaschool.co/forge/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Mesa Startup Garage",
+      "snippet": "Join founders, operators, and startup leaders across Mesa programs — for co-founder searches, hiring, referrals, and advice when things get hard. 04. Mesa ...",
+      "link": "https://mesaschool.co/online-startup-garage/",
+      "date": ""
+    }
+  ]
+}

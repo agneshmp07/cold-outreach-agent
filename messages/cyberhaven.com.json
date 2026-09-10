@@ -1,0 +1,86 @@
+{
+  "client": "Zylabs",
+  "client_domain": "zylabs.ai",
+  "company_name": "Cyberhaven",
+  "disqualifiers": [],
+  "generated_from": {
+    "trigger_count": 3,
+    "top_score": 7,
+    "pain_hypothesis": "With an established engineering hub in Bangalore and rapid headcount expansion following fresh capital, Cyberhaven faces the operational complexity of efficiently sourcing and coordinating campus recruitment drives across Indian engineering colleges.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "scaling pipeline after your series d",
+      "body": "Following your Series D round, Cyberhaven is likely scaling sales targets quickly. At this growth stage, outbound teams often struggle to identify in-market buyers before competitors do and build tailored proposals at speed.\n\nWe are building Zylabs to automate buying trigger tracking, personalized outreach, and proposal creation.\n\nWhat currently breaks in your outbound process when trying to expand enterprise pipeline?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[7/10] Closed a $100M Series D funding round at a $1B valuation to support growth efforts.",
+      "trigger_link": "A $100M Series D funding round means Cyberhaven is rapidly scaling revenue targets and needs efficient outbound pipelines.",
+      "word_count": 62,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "handling outbound during record growth",
+      "body": "Coming off your record business growth through January 2026, keeping up with buyer research and customized sales proposals usually becomes a manual bottleneck for growing revenue teams.\n\nFor companies expanding at your rate, outbound reps often spend more time building account dossiers than having sales conversations. Does that match what your sales team is experiencing right now?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[6/10] Announced record business growth for the fiscal year ending January 31, 2026.",
+      "trigger_link": "Record business growth increases sales volume, which often leads to manual bottlenecks in research and proposal generation.",
+      "word_count": 59,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "buyer triggers for global pipeline",
+      "body": "As Cyberhaven expands across global locations like your Bangalore hub, consistent outbound prospecting becomes harder to maintain manually.\n\nWe build software that maps in-market buying signals for target accounts and generates personalized outreach along with custom proposals.\n\nIf we mapped target accounts showing active buying triggers in your market and generated customized proposal drafts for them, would you be willing to take a look? No commitments attached.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[5/10] Maintains an active hiring hub in Bangalore, India, listed alongside its global locations.",
+      "trigger_link": "Managing global footprint and hiring expansion requires repeatable, automated sales workflows to generate pipeline across regions.",
+      "word_count": 69,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw the Series D milestone for Cyberhaven. Congrats on the growth! Would love to connect here on LinkedIn as you scale.",
+      "trigger_used": "[7/10] Closed a $100M Series D funding round at a $1B valuation to support growth efforts.",
+      "trigger_link": "Series D funding signals quick team scaling and need for outbound pipeline expansion.",
+      "char_count": 119,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting! Given Cyberhaven's record growth through early 2026, I was curious—how are your sales reps currently tracking buying signals across target enterprise accounts without spending hours on manual research?",
+      "trigger_used": "[6/10] Announced record business growth for the fiscal year ending January 31, 2026.",
+      "trigger_link": "Record business growth tests whether outbound prospecting processes can keep pace with revenue goals.",
+      "char_count": 224,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Noticed Cyberhaven's expanding footprint in locations like Bangalore. We are currently building tooling to automate trigger-based outbound and proposal generation. As we test workflows for multi-region teams, I would be happy to share what we learn along the way if useful.",
+      "trigger_used": "[5/10] Maintains an active hiring hub in Bangalore, India, listed alongside its global locations.",
+      "trigger_link": "Global sales expansion provides useful insights on trigger-based prospecting across regions.",
+      "char_count": 273,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": []
+}

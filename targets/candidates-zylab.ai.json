@@ -1,0 +1,41 @@
+{
+  "client": "ZyLab",
+  "client_domain": "zylab.ai",
+  "min_score": 5,
+  "resolved": true,
+  "queries": [
+    "site:linkedin.com/jobs \"video editor\" \"tiktok ads\"",
+    "site:lever.co OR site:boards.greenhouse.io \"product photographer\"",
+    "site:apply.workable.com \"creative strategist\" \"meta ads\"",
+    "inurl:careers \"product photography\" \"dtc\"",
+    "site:linkedin.com/jobs \"ugc creator\" \"e-commerce\"",
+    "site:linkedin.com/jobs \"content creator\" \"shopify\"",
+    "site:boards.greenhouse.io \"video editor\" \"performance marketing\""
+  ],
+  "note": "These queries surface direct-to-consumer brands and ad agencies currently hiring for manual photo and video content creation, but they will not filter out enterprise brands with larger budgets.",
+  "results_seen": 69,
+  "rejected_count": 63,
+  "rejection_reasons": {
+    "not a company - a host, a form link or a social post": 26,
+    "no signal in the snippet": 37
+  },
+  "candidates": [
+    {
+      "company": "Dr.Delagen",
+      "domain": "drdelagen.com",
+      "score": 8,
+      "name_from": "title",
+      "evidence": [
+        "Active visual ad campaigns on social media",
+        "Job openings for Content Creators or Video Editors"
+      ],
+      "title": "Dr.Delagen hiring AI Expert Video Editor Meta Ads | Higgsfield ...",
+      "snippet": "Meta & Tiktok Ads Specialist (Paid Ads). teraleads. Pakistan 8 hours ago. AI ... Video Editor / Content Creator / Social Media Video Editor. Video Editor / ...",
+      "link": "https://pk.linkedin.com/jobs/view/ai-expert-video-editor-meta-ads-higgsfield-google-flow-runaway-etc-at-dr-delagen-4431931934",
+      "date": "",
+      "query": "site:linkedin.com/jobs \"video editor\" \"tiktok ads\"",
+      "hits": 1,
+      "domain_source": "https://drdelagen.com/?srsltid=AfmBOor3Z_HizZQrnQYpRG2HuYICfD89EYEUkXk1Tf4Xz1IBAbH0yKox"
+    }
+  ]
+}

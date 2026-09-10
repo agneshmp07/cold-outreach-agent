@@ -1,0 +1,166 @@
+# Rejected results
+
+_51 of 62 result(s) thrown away._
+
+## Why
+
+- no signal in the snippet: 41 (66%)
+- not a company - a host, a form link or a social post: 10 (16%)
+
+> If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
+
+## What was thrown away
+
+- **Greenhouse** — no signal found in the title or snippet
+  - Business Analyst (New Office in Johor Bahru) | Careers - AvePoint
+  - https://job-boards.greenhouse.io/avepoint/jobs/7850331
+- **Greenhouse** — no signal found in the title or snippet
+  - Project Manager (New Office in Johor Bahru) | Careers | AvePoint
+  - https://boards.greenhouse.io/avepoint/jobs/7850346
+- **Greenhouse** — no signal found in the title or snippet
+  - Support Engineer (New Office in Johor Bahru) | Careers | AvePoint
+  - https://job-boards.greenhouse.io/avepoint/jobs/7850359
+- **Greenhouse** — no signal found in the title or snippet
+  - Job Application for People and Office Manager at Majority
+  - https://job-boards.greenhouse.io/rebtel/jobs/8702393002
+- **Greenhouse** — no signal found in the title or snippet
+  - IntelliCorp integration - Greenhouse Support
+  - https://support.greenhouse.io/hc/en-us/articles/360056496632-IntelliCorp-integration
+- **Greenhouse** — no signal found in the title or snippet
+  - Job Application for HR Professional and Office Manager at Graham ...
+  - https://job-boards.greenhouse.io/grahamcapitalmanagement/jobs/4723536005?gh_jid=4723536005
+- **Greenhouse** — no signal found in the title or snippet
+  - Job Application for Business Leader - Walloon at Jensen Hughes
+  - https://job-boards.greenhouse.io/jensenhughes/jobs/5018923008
+- **Greenhouse** — no signal found in the title or snippet
+  - First Advantage integration (legacy) - Greenhouse Support
+  - https://support.greenhouse.io/hc/en-us/articles/360035001972-First-Advantage-integration-legacy
+- **Greenhouse** — no signal found in the title or snippet
+  - Job Application for Open Application at Definitive Healthcare, Sweden
+  - http://job-boards.greenhouse.io/monocl/jobs/4759347004
+- **Greenhouse** — no signal found in the title or snippet
+  - Head of Country Commercial Management - Admin Services
+  - https://job-boards.greenhouse.io/tide/jobs/7792468003
+- **Lever** — no signal found in the title or snippet
+  - New Zealand Trade and Enterprise - Office Manager - Santa Monica
+  - https://jobs.lever.co/newzealandtradeandenterprise/9d25ead5-8f06-4645-a73b-3b505f517ece
+- **Lever** — no signal found in the title or snippet
+  - Supplier and Procurement Manager - QSIC - Lever
+  - https://jobs.lever.co/qsic/a965875b-87b8-4a3f-b548-b7a61d2d90b3
+- **Lever** — no signal found in the title or snippet
+  - Vidsy - VP Partnerships - Lever
+  - https://jobs.lever.co/vidsy/d463c560-d894-4b47-ae06-64723aeb6604
+- **Lever** — no signal found in the title or snippet
+  - Motion Graphics Designer - Vidsy - Lever
+  - https://jobs.lever.co/vidsy/c3f2811e-1636-4791-ad2c-74815a45ca4e?utm_source=artblast.co&utm_medium=referral
+- **Lever** — no signal found in the title or snippet
+  - Vidsy - Social Creative - Lever
+  - https://jobs.lever.co/vidsy/0f12d441-98ea-4aeb-a4bb-01486e1d0da2
+- **Lever** — no signal found in the title or snippet
+  - Vidsy - Creative - Lever
+  - https://jobs.lever.co/vidsy/dc1bdf82-f186-4331-89a7-c3e274628e7a
+- **Hughesmarino** — no signal found in the title or snippet
+  - San Diego Sublease Listing Service
+  - https://hughesmarino.com/san-diego/services/available-subleases/
+- **Bizjournals** — no signal found in the title or snippet
+  - Reebok lists office in Boston's Seaport for sublease ...
+  - https://www.bizjournals.com/boston/news/2022/10/13/reebok-puts-up-seaport-office-for-sublease-includ.html
+- **Cushmanwakefield** — no signal found in the title or snippet
+  - 140 Kendrick Street Office for sublease 21978 SF ...
+  - https://www.cushmanwakefield.com/en/united-states/properties/for-lease/office/ma/needham/140-kendrick-street/s81427s122106601-l
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Today we announced our plan to relocate our global ...
+  - https://www.facebook.com/HaemoneticsCorp/posts/today-we-announced-our-plan-to-relocate-our-global-headquarters-from-braintree-t/2142247575833312/
+- **Colliers** — no signal found in the title or snippet
+  - One-Of-A-Kind Corporate Headquarters Facility For Lease
+  - https://www.colliers.com/en/properties/one-of-a-kind-corporate-headquarters-facility-for-lease/usa-illinois/usa1010615
+- **Costar** — no signal found in the title or snippet
+  - Zillow Lists More Than Half Its Headquarters Office for ...
+  - https://www.costar.com/article/1272062433/zillow-lists-more-than-half-its-headquarters-office-for-sublease-amid-layoffs
+- **Retail Officespace** — no signal found in the title or snippet
+  - Brooklyn Office Space for Lease in NYC
+  - https://www.retail-officespace.com/brooklyn-office-space/
+- **Primemanhattan** — no signal found in the title or snippet
+  - Midtown Office Space Listings
+  - https://www.primemanhattan.com/neighborhood/office-space-in-midtown-manhattan.php
+- **(unknown)** — not a company - a host, a form link or a social post
+  - What are the benefits of adopting a hybrid work model for companies?
+  - https://www.quora.com/What-are-the-benefits-of-adopting-a-hybrid-work-model-for-companies
+- **(unknown)** — not a company - a host, a form link or a social post
+  - What are some benefits of adopting a hybrid work model, and how can ...
+  - https://www.quora.com/What-are-some-benefits-of-adopting-a-hybrid-work-model-and-how-can-they-impact-employee-satisfaction-and-productivity
+- **(unknown)** — not a company - a host, a form link or a social post
+  - What is a hybrid work model in today's workplace?
+  - https://www.facebook.com/groups/hrhelpph/posts/1638517307123937/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Hagit Tenne-Pereg's Post
+  - https://www.linkedin.com/posts/hagit-tenne-pereg-3898965_come-work-with-us-were-opening-a-new-activity-7502724529962582016-GcVr
+- **and** — no signal found in the title or snippet
+  - and Hiring in Aberdeen, SD!  Comstock Construction is ...
+  - https://www.facebook.com/comstockconst/videos/comstock-construction-is-hiring-in-aberdeen/1322380275925627/
+- **Decagon** — no signal found in the title or snippet
+  - Expanding our team in Toronto - Decagon
+  - https://decagon.ai/blog/expanding-our-team-in-toronto
+- **(unknown)** — not a company - a host, a form link or a social post
+  - We're excited to announce the opening of our new office in ...
+  - https://www.facebook.com/mouserelectronics/posts/were-excited-to-announce-the-opening-of-our-new-office-in-poole-marking-another-/1504724571695091/
+- **Threads** — no signal found in the title or snippet
+  - OPENING A NEW OFFICE SOON ‼️‼️ Looking for remote ...
+  - https://www.threads.com/@thefernandaramirez/post/DcW-SCSAYqU/opening-a-new-office-soon-looking-for-remote-agents-part-time-dm-or-fill-out/
+- **Builtin** — no signal found in the title or snippet
+  - 3 Tech Companies You Need to Watch in 2024
+  - https://builtin.com/articles/3-tech-companies-you-need-watch-2024-and-beyond
+- **Applydigital** — no signal found in the title or snippet
+  - Here's What We Accomplished in 2024 — and What We're ...
+  - https://www.applydigital.com/insights/learn/here-s-what-we-accomplished-in-2024-and-what-we-re-looking-forward-to-next-year/
+- **Cerris** — no signal found in the title or snippet
+  - MW Builders Expands into Dallas Market
+  - https://cerris.com/mw-builders-expands-into-dallas-market/
+- **🚨 WE'RE** — no signal found in the title or snippet
+  - 🚨 WE'RE HIRING IN Worthington! 🚨 Janna Bidlack is ...
+  - https://www.instagram.com/p/DYsFNQoHItq/
+- **Nytimes** — no signal found in the title or snippet
+  - When Your Office Move Means Less Space: Strategic ...
+  - https://www.nytimes.com/2012/05/
+- **Daleoffice** — no signal found in the title or snippet
+  - Calculating the true benefit of downsizing your office
+  - https://daleoffice.co.uk/calculating-the-benefit-of-downsizing-your-office/
+- **Alignable** — no signal found in the title or snippet
+  - We're considering downsizing our office space, what changes ...
+  - https://www.alignable.com/forum/were-considering-downsizing-our-office-space-what-changes-are-you
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Downsizing Office Space to Scale with AI | John P. posted on the ...
+  - https://www.linkedin.com/posts/johnperez_were-doing-something-that-would-have-sounded-activity-7469762313756123136-hbtF
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Anyone setting up a home office? I am downsizing mine ...
+  - https://www.facebook.com/groups/655105881294465/posts/3170101819794846/
+- **Edes** — no signal found in the title or snippet
+  - Downsizing Your London Office : Strategies for a Seamless ...
+  - https://www.edes.com/news/mastering-office-downsizing-strategies-for-a-seamless-transition
+- **(unknown)** — not a company - a host, a form link or a social post
+  - r/homeoffice - Setup Critique
+  - https://www.reddit.com/r/homeoffice/comments/1rh1356/setup_critique/
+- **Relogix** — no signal found in the title or snippet
+  - Discover how to use Utilization Study data to rightsize your ...
+  - https://www.relogix.com/case-studies/how-a-financial-services-company-used-data-to-rightsize-their-workplace/
+- **Houzz** — no signal found in the title or snippet
+  - Do you ever dream of downsizing?
+  - https://www.houzz.com/discussions/2619262/do-you-ever-dream-of-downsizing
+- **Timesonline** — no signal found in the title or snippet
+  - Nova to rent out part of headquarters
+  - https://www.timesonline.com/story/news/2009/03/17/nova-to-rent-out-part/18403614007/
+- **Microbotmedical** — no signal found in the title or snippet
+  - stemcells logo
+  - https://ir.microbotmedical.com/static-files/755f045b-e162-41e5-b245-f9615fed21f9
+- **Onecle** — no signal found in the title or snippet
+  - Texas Lease - Sample Contracts and Business Forms
+  - https://contracts.onecle.com/type/107.shtml
+- **Imgix** — no signal found in the title or snippet
+  - 1Q23 Minneapolis Office Market Report - Imgix
+  - https://nmrk.imgix.net/uploads/fields/pdf-market-reports/1Q23_Minneapolis_Office_Market_Report.pdf
+- **Streetsmartidaho** — no signal found in the title or snippet
+  - “What Bed Bath & Beyond's Headquarters Move Could Mean for ...
+  - https://streetsmartidaho.com/what-bed-bath-beyonds-headquarters-move-could-mean-for-boise-commercial-real-estate/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Amazon's industrial footprint in Columbus
+  - https://www.facebook.com/ColumbusBusinessFirst/posts/as-amazon-aims-to-sublease-at-least-10-million-square-feet-of-its-industrial-foo/10159292629666379/

@@ -1,160 +1,187 @@
 # Rejected results
 
-_49 of 51 result(s) thrown away._
+_58 of 59 result(s) thrown away._
 
 ## Why
 
-- not a company - a host, a form link or a social post: 29 (57%)
-- no signal in the snippet: 20 (39%)
+- not a company - a host, a form link or a social post: 45 (76%)
+- no signal in the snippet: 13 (22%)
 
 > If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
 
 ## What was thrown away
 
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Cloud kitchen serving traditional meals in Bangalore - Facebook
-  - https://www.facebook.com/groups/1121799551805770/posts/1897354547583596/
+  - Purchase Executive - Bengaluru - Brik Oven - 3 to 5 years of ...
+  - https://www.naukri.com/job-listings-290925500814
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Bangalore Cloud Kitchen • 4.7K reels on Instagram
-  - https://www.instagram.com/popular/bangalore-cloud-kitchen/?hl=en
-- **Justdial** — no signal found in the title or snippet
-  - Cloud Kitchen and Tiffin Services in Dwarka,Delhi - Justdial
-  - https://www.justdial.com/Delhi/Cloud-Kitchen-and-Tiffin-Services-Near-Vegas-Mall-Dwarka/011PXX11-XX11-230915153034-Y4J6_BZDET
+  - Purchase Executive - Gandhinagar - Chatkazz Food & Spices LLP ...
+  - https://www.naukri.com/job-listings-purchase-executive-chatkazz-food-spices-llp-gandhinagar-2-to-5-years-270826010814?src=companyPageJobsMob&sid=17880737117777631&xp=4&px=1
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Hidden cloud kitchen but BIG on taste Crisp N Bites Kitchen serving ...
-  - https://www.instagram.com/reel/DXBYF7Yk8k2/
+  - Purchase Executive - Gurugram - RSPL Group - 1 to 3 years of ...
+  - https://www.naukri.com/job-listings-purchase-executive-rspl-group-gurugram-1-to-3-years-040826022642
 - **(unknown)** — not a company - a host, a form link or a social post
-  - New Cloud Kitchen in Vasai Virar delivering delicious Food ...
-  - https://www.facebook.com/yogita.naik.37/posts/new-cloud-kitchen-in-vasai-virar-delivering-delicious-food-desserts-siddhi-tanaw/4186016364864624/
+  - 1378 Fmcg Purchase Job Vacancies In Chennai - Naukri.com
+  - https://www.naukri.com/fmcg-purchase-jobs-in-chennai
+- **Koppal In Karnataka** — no signal found in the title or snippet
+  - Raw Material Jobs In Koppal In Karnataka - Naukri.com
+  - https://www.naukri.com/raw-material-jobs-in-koppal-in-karnataka
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Cloud Kitchen Promotion Reel - Instagram
-  - https://www.instagram.com/popular/cloud-kitchen-promotion-reel/
+  - 2456 Purchase Job Vacancies In Chengalpattu Chennai - Naukri.com
+  - https://www.naukri.com/purchase-jobs-in-chengalpattu-chennai
+- **Asangaon Maharashtra** — no signal found in the title or snippet
+  - Manager Purchase Stores Jobs In Asangaon Maharashtra
+  - https://www.naukri.com/manager-purchase-stores-jobs-in-asangaon-maharashtra
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Cloud Kitchen Rental - Instagram
-  - https://www.instagram.com/popular/cloud-kitchen-rental/
-- **Hinoida** — no signal found in the title or snippet
-  - Home Chefs / Cloud Kitchens | Find Local Businesses in Noida
-  - https://hinoida.com/category/home-chefs-cloud-kitchens
+  - 3519 Purchase Job Vacancies In Gummidipoondi Tn - Naukri.com
+  - https://www.naukri.com/purchase-jobs-in-gummidipoondi-tn
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Bangalore cloud kitchen delivery services available | Bengaluru ...
-  - https://www.facebook.com/groups/1146301908764687/posts/26949033981398126/
-- **Mangokurry** — no signal found in the title or snippet
-  - Cloud Kitchen -Start With This Guide - Mango Kurry
-  - https://mangokurry.in/blog/cloud-kitchen-delivery-start-guide/
-- **United States** — no signal found in the title or snippet
-  - 8000+ Procurement Manager Food Jobs in United States - LinkedIn
-  - https://www.linkedin.com/jobs/procurement-manager-food-jobs
-- **Team Housing Solutions** — no signal found in the title or snippet
-  - Food Procurement Manager at Team Housing Solutions, Inc.
-  - https://www.linkedin.com/jobs/view/food-procurement-manager-at-team-housing-solutions-inc-4436411686
-- **Food People** — no signal found in the title or snippet
-  - Food People hiring Procurement Manager - Restaurants in Dubai ...
-  - https://www.linkedin.com/jobs/view/4375529099/
-- **Monster Energy** — no signal found in the title or snippet
-  - Procurement Manager, Commodities at Monster Energy - LinkedIn
-  - https://www.linkedin.com/jobs/view/procurement-manager-commodities-at-monster-energy-4401576515
-- **Fort Worth** — no signal found in the title or snippet
-  - 992 Purchasing Materials Manager jobs in Fort Worth - LinkedIn
-  - https://www.linkedin.com/jobs/purchasing-materials-manager-jobs-fort-worth-tx
-- **Chipotle Mexican Grill** — no signal found in the title or snippet
-  - Procurement Manager at Chipotle Mexican Grill - Jobs - LinkedIn
-  - https://www.linkedin.com/jobs/view/procurement-manager-at-chipotle-mexican-grill-4432907568
-- **Shake Shack** — no signal found in the title or snippet
-  - Shake Shack hiring Procurement Manager - Protein in Atlanta, GA
-  - https://www.linkedin.com/jobs/view/procurement-manager-protein-at-shake-shack-4460786123
+  - 4795 Manager Purchase Job Vacancies In Renigunta - Naukri.com
+  - https://www.naukri.com/manager-purchase-jobs-in-renigunta
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Procurement Manager, Foodservice - AVI Foodsystems - LinkedIn
-  - https://www.linkedin.com/jobs/view/procurement-manager-foodservice-at-avi-foodsystems-4429400359
+  - 2402 Purchase Job Vacancies In Chennai Thiruvanmiyur - Naukri.com
+  - https://www.naukri.com/purchase-jobs-in-chennai-thiruvanmiyur
+- **Karnataka** — no signal found in the title or snippet
+  - Food Service Manager jobs in Karnataka - LinkedIn
+  - https://in.linkedin.com/jobs/food-service-manager-jobs-karnataka
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Purchasing Manager at Pollo Tropical — Miami, FL | LinkedIn Jobs
-  - https://www.linkedin.com/jobs/view/purchasing-manager-at-pollo-tropical-4453274615
+  - 45 Chef De Cuisine Banquet jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/chef-de-cuisine-banquet-jobs
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Restaurant Purchasing Manager - Self Opportunity, Inc. - LinkedIn
-  - https://www.linkedin.com/jobs/view/restaurant-purchasing-manager-at-self-opportunity-inc-4453255021
-- **Tripadvisor** — no signal found in the title or snippet
-  - Picture of Mikado Restaurant & Sushi Bar, Abu Dhabi - Tripadvisor
-  - https://www.tripadvisor.in/LocationPhotoDirectLink-g294013-d9729481-i206522777-Mikado_Restaurant_Sushi_Bar-Abu_Dhabi_Emirate_of_Abu_Dhabi.html
-- **Magicpin** — no signal found in the title or snippet
-  - Photos of Shuchi Ruchi Multicuisine Family Restaurant ... - magicpin
-  - https://magicpin.in/Rangareddy/Ragannaguda/Restaurant/Shuchi-Ruchi-Multicuisine-Family-Restaurant/store/627836/photos?srsltid=AfmBOorZKclWamJSFTJsUEnnQ-3gM5QO5xYusCsS_vlkkyNjDrXl8mVT
-- **Indiatoday** — no signal found in the title or snippet
-  - Help is on hand for concerned Mumbaikar in the form of Trim With ...
-  - https://www.indiatoday.in/magazine/your-week/story/19991220-help-is-on-hand-for-concerned-mumbaikar-in-the-form-of-trim-with-taste-781305-1999-12-19
-- **Tripadvisor** — no signal found in the title or snippet
-  - Mikado Restaurant & Sushi Bar - Emirate of Abu Dhabi - Tripadvisor
-  - https://www.tripadvisor.in/Restaurant_Review-g294013-d9729481-Reviews-Mikado_Restaurant_Sushi_Bar-Abu_Dhabi_Emirate_of_Abu_Dhabi.html
-- **Restaurant Guru** — no signal found in the title or snippet
-  - Koshe Kosha, Digha (কষে কষা, দীঘা) - Restaurant Guru
-  - https://restaurant-guru.in/Koshe-Kosha-Digha-%E0%A6%95%E0%A7%8B%E0%A6%B7%E0%A7%87-%E0%A6%95%E0%A6%B7%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%98%E0%A6%BE-Digha
-- **Indads** — no signal found in the title or snippet
-  - Welcome to 'Just Kerela' restaurant at Chakala, Andheri East ...
-  - https://mumbai.indads.in/item/318216/
-- **Sunstaronline** — no signal found in the title or snippet
-  - Masala Hut Restaurant: Best Restaurant in Pala, Kottayam
-  - https://sunstaronline.in/
-- **Restaurant Guru** — no signal found in the title or snippet
-  - Koshe Kosha - Serampore, Kolkata - Restaurant menu, prices and ...
-  - https://restaurant-guru.in/Koshe-Kosha-Serampore-India
+  - 361 Cook Supervisor jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/cook-supervisor-jobs
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Thane's only place to serve delicious kebabs & Mediterranean food ...
-  - https://www.instagram.com/reel/DG5XPGEvC1L/
+  - Commi 2continental cuisine - Regenta Central - LinkedIn
+  - https://in.linkedin.com/jobs/view/commi-2continental-cuisine-at-regenta-central-4349524061
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Come join us at our newly opened storefront - 5925(A) North Clinton ...
-  - https://www.instagram.com/p/DbwTmI9FX-w/
+  - 89 Chef Executif jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/chef-executif-jobs
+- **Courtyard by Marriott** — no signal found in the title or snippet
+  - Courtyard by Marriott hiring Sous Chef - Indian Cuisine - LinkedIn
+  - https://www.linkedin.com/jobs/view/4410912504/
+- **Selbiroji Hospitality** — no signal found in the title or snippet
+  - Selbiroji Hospitality hiring Chief Vibe Office (Restaurant Manager) in ...
+  - https://in.linkedin.com/jobs/view/chief-vibe-office-restaurant-manager-at-selbiroji-hospitality-4248110873
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Cravings Station - Instagram
-  - https://www.instagram.com/popular/cravings-station/
+  - 138 Cooks jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/cooks-jobs
 - **(unknown)** — not a company - a host, a form link or a social post
-  - We're officially open! Come by, grab your favorite drink, and enjoy a ...
-  - https://www.instagram.com/p/DWkpYOaEoIF/
+  - 411 All 3 jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/all-3-jobs
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Sunsit&Tea | Authentic Taiwanese Milktea | A place to sit awhile and ...
-  - https://www.instagram.com/reel/DcWPVtxysVk/
+  - 2 Vision Dr Jobs jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/vision-dr-jobs-jobs
 - **(unknown)** — not a company - a host, a form link or a social post
-  - MMMatcha Bar where every cup is crafted from premium matcha ...
-  - https://www.instagram.com/reel/DZvAif-keFy/
+  - GRAND OPENING OF CAFE MAVERICK &JAY SPORTS   #pizza ...
+  - https://www.instagram.com/reel/DF14-OvtY3H/?hl=en
 - **(unknown)** — not a company - a host, a form link or a social post
-  - SuperSpy (@superspy_minihotpot) · Mandaluyong - Instagram
-  - https://www.instagram.com/superspy_minihotpot/
+  - Monkey Bar, delivered. The cravings don't wait, and now ... - Instagram
+  - https://www.instagram.com/p/Da5HRXWlB8P/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Pwede pa ba kami makisali? Ngayon lang nagka-Canva pro eh But ...
-  - https://www.instagram.com/p/DRlgqEBgblX/?hl=ne
+  - Zaika- Restaurant, Banquets & Apartments is delivering ... - Facebook
+  - https://www.facebook.com/zaikabhayander/videos/contactless-delivery-by-zaika/2967055240068898/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Reel by MetroManila TouristClub (@touristclubmetromanila) · July 7 ...
-  - https://www.instagram.com/reel/Daf9YZpS26x/
+  - Exciting news, food lovers! Cafe Ravli is officially launching our ...
+  - https://www.instagram.com/reel/DZZC0j6Pf3p/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Our kind of addiction >>> Start your day with daily doze of Matcha ...
-  - https://www.instagram.com/reel/DW1KpQMk7cK/
+  - Your favorite Indian flavors, just a few taps away! Order now on ...
+  - https://www.facebook.com/khushitbilisi/videos/your-favorite-indian-flavors-just-a-few-taps-away-order-now-on-glovo-wolt-or-bol/1930237514571535/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Manager - Mohali,Noida,Rudrapur - Atithi Industrial Solutions - 4 to 7 ...
-  - https://www.naukri.com/job-listings-manager-atithi-industrial-solutions-noida-mohali-rudrapur-4-to-7-years-200826036212
+  - "🍽️ Just one call and delicious food will be at your doorstep! Or ...
+  - https://www.facebook.com/bhojanbutwal/posts/%EF%B8%8F-just-one-call-and-delicious-food-will-be-at-your-doorstep-or-drop-by-and-enjoy/555912426961616/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Looking for a Reliable Vegetable Vendor for Restaurant Supply in ...
-  - https://www.reddit.com/r/surat/comments/1uu5hcx/looking_for_a_reliable_vegetable_vendor_for/
+  - Express cravings, sorted. 🍽️   2 Mocktails + 1 Appetiser + 1 Main + ...
+  - https://www.instagram.com/reel/DT7q4NkCNZz/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Looking for a vegetable vendor/supplier for a restaurant - Facebook
-  - https://www.facebook.com/groups/484920106304329/posts/967001304762871/
+  - Starting Monday, July 27, Mod India Restaurant will be open 7 days ...
+  - https://www.facebook.com/Modindiaus/posts/starting-monday-july-27-mod-india-restaurant-will-be-open-7-days-a-week-that-mea/1667174248747139/
+- **Restaurantindia** — no signal found in the title or snippet
+  - Restaurants Unlock 2020
+  - https://www.restaurantindia.in/news/restaurants-unlock-2020.n19390
 - **(unknown)** — not a company - a host, a form link or a social post
-  - From a vegetable vendor to a restaurant owner: Leelavathi's ...
-  - https://www.linkedin.com/pulse/from-vegetable-vendor-restaurant-owner-leelavathis-inspiring-yjxhc
+  - South Indian Food To Your Doorstep - Pinterest
+  - https://www.pinterest.com/pin/1056094181343193535/
 - **(unknown)** — not a company - a host, a form link or a social post
-  - 5 years of serving fresh fruits and vegetables with quick 1-day ...
-  - https://www.instagram.com/reel/DOvNhKqErhX/
+  - Dispatch Executive - QSR/Food Industry South Goa - LinkedIn
+  - https://www.linkedin.com/jobs/view/4438609246/
+- **jobmygoal** — no signal found in the title or snippet
+  - jobmygoal hiring Warehouse dispatch executive in Thane ... - LinkedIn
+  - https://in.linkedin.com/jobs/view/warehouse-dispatch-executive-at-jobmygoal-4448307204
+- **Lucknow** — no signal found in the title or snippet
+  - 9 Service Delivery Coordinator Jobs in Lucknow - LinkedIn
+  - https://in.linkedin.com/jobs/service-delivery-coordinator-jobs-lucknow
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Vegetable Vendor, Who Broke Down On Camera, Meets Rahul ...
-  - https://www.youtube.com/watch?v=GGauirzLjc0
+  - Home Delivery Coordinator/ Logistics (LOCAL ONLY) - LinkedIn
+  - https://www.linkedin.com/jobs/view/home-delivery-coordinator-logistics-local-only-at-luxium-solutions-4427307381
 - **(unknown)** — not a company - a host, a form link or a social post
-  - POV: In a world of 10 mins delivery, you like Sabzi Mandi! Weekend ...
-  - https://www.facebook.com/thekunalkapur/videos/pov-in-a-world-of-10-mins-delivery-you-like-sabzi-mandi-weekend-calls-for-visiti/7395924153796102/
-- **Flickr** — no signal found in the title or snippet
-  - Vegetable vendor in Nadiad, Gujarat, India | Kitchen Thinker - Flickr
-  - https://www.flickr.com/photos/curcumari/3251032098
+  - PEC Delivery Coordinator - Stand8 Technology Consulting - LinkedIn
+  - https://www.linkedin.com/jobs/view/pec-delivery-coordinator-vehicle-distribution-at-stand8-technology-consulting-4443573632
+- **Atlas** — no signal found in the title or snippet
+  - Atlas hiring Logistics Delivery Coordinator III in Sumner, WA | LinkedIn
+  - https://www.linkedin.com/jobs/view/logistics-delivery-coordinator-iii-at-atlas-4461325506
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Zest Eat gives you the digital presence your business deserves. Join ...
-  - https://www.instagram.com/reel/DVBkUeBjwQh/
+  - Siddhi Products | OEM | JEKVAR® Plastoware & EJEE ... - LinkedIn
+  - https://in.linkedin.com/jobs/view/dispatch-clerk-at-siddhi-products-4309192573
 - **(unknown)** — not a company - a host, a form link or a social post
-  - 95 Year Old Vegetable Vendor in Bhubaneswar - YouTube
-  - https://www.youtube.com/watch?v=CK7FMOWDqF8
-- **Ebay** — no signal found in the title or snippet
-  - Vintage Cotton Print Kitchen Towel Featuring Vegetable Vendor ...
-  - https://www.ebay.com/itm/137173028000
+  - Safety Management Jobs in Pardi (22 Open Roles) | LinkedIn
+  - https://in.linkedin.com/jobs/safety-management-jobs-pardi
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Fast Food Jobs in Thane (99 Open Roles) - LinkedIn
+  - https://in.linkedin.com/jobs/fast-food-jobs-thane
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Restaurant Executive - m farm house of royals - LinkedIn
+  - https://in.linkedin.com/jobs/view/restaurant-executive-at-m-farm-house-of-royals-4347589691
+- **Cafe Bahar in Pune** — no signal found in the title or snippet
+  - Cafe Bahar in Pune hiring sales-service staff with good intent and ...
+  - https://www.facebook.com/cafebaharpune/posts/were-hiring-good-humans-caf%C3%A9-bah%C4%81r-is-looking-for-someone-to-join-our-salesservi/991847573873625/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - **Welcome August – Build Your Dream Team with RestoJobs!** A ...
+  - https://www.instagram.com/p/DbdMZotIAOu/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Hiring Now: Sehaj is Coming to Gledswood Hills! We are looking for ...
+  - https://www.facebook.com/sehajindianfoodandsweets/videos/hiring-now-sehaj-is-coming-to-gledswood-hills-we-are-looking-for-4-5-front-staff/1450213892837046/
+- **We're** — no signal found in the title or snippet
+  - We're Hiring Baristas in Pune! Join our growing team ... - Instagram
+  - https://www.instagram.com/reel/DJbmLu8iaJ8/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Kofteci Foodkrafts | LinkedIn
+  - https://in.linkedin.com/company/kofteci-foodkrafts-private-limited
+- **(unknown)** — not a company - a host, a form link or a social post
+  - BIG NEWS! Rinchen's Momo – Outlet 3 is COMING SOON! Can ...
+  - https://www.facebook.com/rinchen.w.shangdarpa/posts/-big-news-rinchens-momo-outlet-3-is-coming-soon-can-you-guess-the-location-drop-/25828122306821247/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Opening a new outlet is exciting. Finding 10 to 20 reliable, trained ...
+  - https://www.instagram.com/p/DaYDnbgzx84/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 100 Tandoor Chef,tandoor Chef Job Vacancies - Indeed
+  - https://in.indeed.com/q-tandoor-chef,tandoor-chef-jobs.html
+- **SECTOR 27, NOIDA COFFE CAFFE is** — no signal found in the title or snippet
+  - SECTOR 27, NOIDA COFFE CAFFE is hiring for its new ... - Instagram
+  - https://www.instagram.com/reel/Dcj0mxkTgff/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Page 62 - Vegetables Procurement Jobs - 17264 Vegetables ...
+  - https://www.naukri.com/vegetables-procurement-jobs-62
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Page 39 - Purchase Manager Restaurant Hotels Stores Retail Jobs ...
+  - https://www.naukri.com/purchase-manager-restaurant-hotels-stores-retail-jobs-39
+- **Kochi Cochin** — no signal found in the title or snippet
+  - Food Scientist Jobs In Kochi Cochin - Naukri.com
+  - https://www.naukri.com/food-scientist-jobs-in-kochi-cochin
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Purchase Engineer Jobs In Bengaluru-bangalore - Naukri.com
+  - https://www.naukri.com/purchase-engineer-jobs-in-bengaluru-bangalore-3
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Jr Procurement Executive - NRG Foods - 1 to 2 years of experience
+  - https://www.naukri.com/job-listings-jr-procurement-executive-nrg-foods-hyderabad-1-to-2-years-140726027372
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Page 40 - Jcb Procurement Jobs - Naukri.com
+  - https://www.naukri.com/jcb-procurement-jobs-40
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Foods Daawat Basmati Rice Jobs - Naukri.com
+  - https://www.naukri.com/foods-daawat-basmati-rice-jobs
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Promotion In Fmcg Tablet Coating Jobs - Naukri.com
+  - https://www.naukri.com/promotion-in-fmcg-tablet-coating-jobs-157
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 22087 Pulses Food Job Vacancies In September 2026 - Naukri.com
+  - https://www.naukri.com/pulses-food-jobs

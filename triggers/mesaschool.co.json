@@ -1,0 +1,13 @@
+{
+  "company_name": "Mesa School of Business",
+  "triggers": [
+    {
+      "fact": "Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round.",
+      "source_page": "https://entrackr.com/exclusive/exclusive-mesa-school-set-to-raise-rs-100-cr-in-series-a-co-founder-may-sell-29-stake-12513921",
+      "relevance_score": 7
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As Mesa School of Business expands following its Series A funding round, managing campus drives and candidate evaluation across multiple colleges manually could create recruiting bottlenecks.",
+  "no_trigger_found": false
+}

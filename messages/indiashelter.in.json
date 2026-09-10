@@ -1,0 +1,86 @@
+{
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "company_name": "India Shelter Finance Corporation Ltd",
+  "disqualifiers": [],
+  "generated_from": {
+    "trigger_count": 1,
+    "top_score": 7,
+    "pain_hypothesis": "With rapid headcount growth of over 25% annually across regional branches, India Shelter likely faces operational friction in managing and coordinating entry-level campus recruitment drives at scale.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "office space for india shelter's growth",
+      "body": "India Shelter has expanded its team significantly over the past year. As team sizes grow across branches, managing physical workspace commitments often becomes complex.\n\nAt WeWork, we provide flexible, move-in ready office spaces and private setups for scaling teams.\n\nWhat breaks for your operations team today when trying to set up office space for new hires across regional locations?\n\nBest regards,\nagneshmp07@gmail.com",
+      "trigger_used": "[7/10] Increased headcount by 982 employees, representing a 25.72% year-over-year growth to reach approximately 2,700 employees as of July 2026",
+      "trigger_link": "Rapid headcount growth across regions creates an immediate need for scalable, flexible office space.",
+      "word_count": 62,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "managing regional office leases",
+      "body": "When financial services companies scale headcount rapidly across multiple branches, traditional long-term commercial leases usually break under the pressure of unpredictable local space needs.\n\nWeWork provides flexible private offices and memberships that adjust as team sizes change.\n\nDoes finding scalable office space quickly for expanding teams match your current experience at India Shelter?\n\nBest regards,\nagneshmp07@gmail.com",
+      "trigger_used": "[7/10] Increased headcount by 982 employees, representing a 25.72% year-over-year growth to reach approximately 2,700 employees as of July 2026",
+      "trigger_link": "Fast headcount expansion strains static office leases, making flexible workspace solutions necessary.",
+      "word_count": 56,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "flexible workspace for india shelter",
+      "body": "With India Shelter growing its overall headcount significantly, securing office locations without long-term real estate commitments can be difficult.\n\nIf we brought you a flexible workspace layout designed for your regional expansion, would you be willing to take a look? Looking commits you to nothing and costs nothing.\n\nBest regards,\nagneshmp07@gmail.com",
+      "trigger_used": "[7/10] Increased headcount by 982 employees, representing a 25.72% year-over-year growth to reach approximately 2,700 employees as of July 2026",
+      "trigger_link": "Significant team growth requires adaptable office setups that do not tie up capital in long-term commitments.",
+      "word_count": 51,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Hi, noticed India Shelter expanded headcount significantly over the past year. Would love to connect here on LinkedIn.",
+      "trigger_used": "[7/10] Increased headcount by 982 employees, representing a 25.72% year-over-year growth to reach approximately 2,700 employees as of July 2026",
+      "trigger_link": "Headcount growth indicates active hiring and operational expansion.",
+      "char_count": 118,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. As India Shelter scales headcount across locations, how are you currently managing flexible office space requirements for new team members?",
+      "trigger_used": "[7/10] Increased headcount by 982 employees, representing a 25.72% year-over-year growth to reach approximately 2,700 employees as of July 2026",
+      "trigger_link": "Headcount scaling creates immediate challenges around office space allocation.",
+      "char_count": 162,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Seeing India Shelter's headcount expansion. We are currently building out regional workspace models for growing teams. Happy to share what we learn along the way if that helps your operations planning.",
+      "trigger_used": "[7/10] Increased headcount by 982 employees, representing a 25.72% year-over-year growth to reach approximately 2,700 employees as of July 2026",
+      "trigger_link": "Fast-growing companies benefit from insights on flexible workspace management.",
+      "char_count": 201,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": []
+}

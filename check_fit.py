@@ -154,14 +154,32 @@ def serper_search(api_key, query, num=RESULTS_PER_QUERY):
 
 
 def guess_company_name(api_key, domain):
-    data = serper_search(api_key, domain, num=5)
-    kg = data.get("knowledgeGraph") or {}
-    if kg.get("title"):
-        return kg["title"]
+    """
+    Work out the company's name from its OWN site.
+
+    Searching the bare domain is not enough: a query for "mesaschool.co" happily
+    returns a California school district, and then every later search researches
+    the wrong company entirely. So the result must actually live on the domain
+    before its title is trusted.
+    """
+    data = serper_search(api_key, f"site:{domain}", num=5)
     for result in data.get("organic") or []:
-        title = (result.get("title") or "").split("|")[0].split("-")[0].strip()
+        link = (result.get("link") or "").lower()
+        if domain not in link:
+            continue
+        title = (result.get("title") or "")
+        for sep in ("|", " - ", "–", "—", ":"):
+            title = title.split(sep)[0]
+        title = title.strip()
         if 2 < len(title) < 50:
             return title
+
+    # Fall back to the knowledge panel, but only if its website matches.
+    data = serper_search(api_key, domain, num=5)
+    kg = data.get("knowledgeGraph") or {}
+    if kg.get("title") and domain in (kg.get("website") or "").lower():
+        return kg["title"]
+
     return domain.split(".")[0].replace("-", " ").title()
 
 
@@ -216,6 +234,11 @@ THEIR ICP - this is the standard, and the only standard:
 
 COMPANY UNDER TEST: {name} ({domain})
 
+Some search results will be about a DIFFERENT organisation with a similar name.
+Ignore those completely. A fact counts only if the result is plainly about the
+company at {domain}. If most results are about someone else, say so in
+"could_not_find" and return UNCLEAR rather than judging the wrong company.
+
 SEARCH RESULTS - the only facts you may use:
 {format_evidence(evidence)}
 
@@ -238,13 +261,32 @@ Rules:
 7. Do not treat a missing fact as a pass. "No disqualifier found" is only true if
    you looked and the results covered it. If the results are silent on something
    the ICP cares about, say so in could_not_find rather than assuming the best.
+8. JUDGE THE NEED, NOT THE LABEL. An ICP is written from one company's marketing
+   site and will never list every kind of buyer. A company whose industry label
+   is missing from the "Who fits" table may still obviously have the need the
+   product serves - an incubator needs flexible desks even if the table only
+   says "mid-sized growing businesses"; a hospital group needs payroll software
+   even if the table only says "IT services firms".
+   So before deciding a company is out, ask plainly: would this company
+   PLAUSIBLY need what is being sold? If yes, it is not a SKIP just because the
+   segment name does not appear. Set "in_icp" false, explain the mismatch in
+   "why", and let the verdict rules below handle it.
+   The only things that force a SKIP are a real disqualifier and a clear absence
+   of the need. A missing label is neither.
 
 Verdict rules, applied in this order:
-- Any disqualifier from the "Who does NOT fit" section  -> SKIP
-- Not in any "Who fits" segment                          -> SKIP
-- In a fits segment AND the signal is found              -> PROCEED
-- In a fits segment, signal NOT FOUND, size unknown      -> UNCLEAR
-- Everything else                                        -> SKIP
+- Any disqualifier from the "Who does NOT fit" section    -> SKIP
+- The company clearly does NOT have the need at all       -> SKIP
+- In a fits segment AND the signal is found               -> PROCEED
+- In a fits segment, signal NOT FOUND                     -> PROCEED
+- Not in a named segment, but plausibly HAS the need      -> UNCLEAR
+- Cannot tell what the company does at all                -> UNCLEAR
+- Everything else                                         -> UNCLEAR
+
+Note that UNCLEAR means "a human should look", not "no". Use it whenever you
+would otherwise be rejecting a company only because the ICP did not think of
+its category. A wrong SKIP costs a real prospect; a wrong UNCLEAR costs one
+minute of someone's attention.
 
 In "could_not_find", name exactly two things you would want to know and could not
 learn from these results. Be specific.
@@ -381,8 +423,10 @@ def print_result(domain, client, result, quiet):
         print("\nDo not research this one. A SKIP means 'not visibly a buyer',")
         print("not 'has no problem' - but you have more companies than hours.")
     else:
-        print("\nNot enough public information to decide. Either find the size")
-        print("and signal by hand, or move on - unclear is cheap to skip.")
+        print("\nWorth a look, but not an obvious match. Usually this means the")
+        print("company is not in a segment the ICP named, while still plausibly")
+        print("needing what is sold. Decide yourself, then run:")
+        print(f"  python scrape.py {domain}")
 
 
 # ------------------------------------------------------------------------ main

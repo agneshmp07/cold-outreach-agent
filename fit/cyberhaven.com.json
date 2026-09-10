@@ -1,0 +1,120 @@
+{
+  "domain": "cyberhaven.com",
+  "client": "Zylabs",
+  "client_domain": "zylabs.ai",
+  "checked_against": "icp-zylabs.ai.md",
+  "result": {
+    "company_name": "Cyberhaven",
+    "what_they_do": "Cyberhaven provides enterprise data security solutions, tracing data lifecycle and offering insider risk and AI data protection adaptively across enterprise environments.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "None of the provided search results mention employee count or company size.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Enterprise SaaS & Cybersecurity",
+      "in_icp": true,
+      "why": "Cyberhaven develops and sells complex B2B cybersecurity software focused on enterprise data protection and insider risk management.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Website clearly advertises complex B2B offerings and enterprise solution capabilities for data security.",
+      "evidence": "[8]",
+      "status": "VERIFIED"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Cyberhaven operates in the Enterprise SaaS & Cybersecurity segment and advertises complex B2B solutions for enterprise clients. No disqualifying features were found in the provided evidence.",
+    "could_not_find": [
+      "Exact employee headcount to verify if they fall within the 20 - 500 employee range.",
+      "Details on whether they have an active outbound SDR or Account Executive sales team."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Cyberhaven Cyberhaven Trust Center | Powered by SafeBase",
+      "snippet": "Welcome to Cyberhaven's Cyberhaven Trust Center. Our commitment to data privacy and security is embedded in every part of our business.",
+      "link": "https://trust.cyberhaven.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Cyberhaven Cyberhaven Trust Center | Powered by SafeBase",
+      "snippet": "Use this Cyberhaven Trust Center to learn about our security posture and request access to our security documentation.",
+      "link": "https://trust.cyberhaven.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Cyberhaven Cyberhaven Trust Center | Powered by SafeBase",
+      "snippet": "Welcome to Cyberhaven's Cyberhaven Trust Center. Our commitment to data privacy and security is embedded in every part of our business.",
+      "link": "https://trust.cyberhaven.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Cyberhaven Cyberhaven Trust Center | Powered by SafeBase",
+      "snippet": "Welcome to Cyberhaven's Cyberhaven Trust Center. Our commitment to data privacy and security is embedded in every part of our business.",
+      "link": "https://trust.cyberhaven.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Join Our Team: Build the Future of Data Security - Cyberhaven",
+      "snippet": "Take on ambitious challenges with a team that believes in building together. Global hubs, growth opportunities, and meaningful impact.",
+      "link": "https://www.cyberhaven.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us: Mission, Values, Leadership & Investors | Cyberhaven",
+      "snippet": "Discover our mission to protect data wherever it lives and goes. Meet our team, explore our values, and see who backs our vision.",
+      "link": "https://www.cyberhaven.com/about",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Learn About Insider Risk, AI Security & Data Protection - Cyberhaven",
+      "snippet": "Data security insights covering insider risk, AI security, and the future of data protection. Expert analysis for security professionals.",
+      "link": "https://www.cyberhaven.com/blog",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Cyberhaven: Data Security For The Agentic Enterprise",
+      "snippet": "Data security for the agentic enterprise. Cyberhaven traces data's full lifecycle and adapts protection as context changes, everywhere work happens.",
+      "link": "https://www.cyberhaven.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Insider Risk: Why Data Lineage And AI Are The Only Path",
+      "snippet": "So, for our agenda today, we'll define insider risk and data protection in this new era. I'll then share some research from our CyberHaven Labs team about the ...",
+      "link": "https://events.cyberhaven.com/insider-risk-data-lineage-dec-18/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Sensitive Enterprise Data Is Flowing Into AI Tools at Scale",
+      "snippet": "Cyberhaven's 2026 AI Adoption & Risk Report examines how enterprises and employees are adopting AI, how these tools are being used, and the new ...",
+      "link": "https://www.cyberhaven.com/blog/sensitive-data-flowing-into-ai-tools",
+      "date": "Feb 11, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "How to Align GRC, Cybersecurity & Privacy Teams - Cyberhaven",
+      "snippet": "Discover practical strategies for breaking down silos between GRC, security, and privacy teams to strengthen your organization's risk ...",
+      "link": "https://www.cyberhaven.com/blog/grc-cybersecurity-privacy-alignment",
+      "date": "Mar 28, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Rethinking DSPM for the AI Era: Beyond Visibility to Action",
+      "snippet": "Static security is failing in the age of AI. Discover why modern enterprises must move beyond traditional DSPM to protect proprietary data ...",
+      "link": "https://www.cyberhaven.com/blog/rethinking-dspm-ai-data-security",
+      "date": "Jan 26, 2026"
+    }
+  ]
+}

@@ -1,74 +1,127 @@
 # Rejected results
 
-_20 of 20 result(s) thrown away._
+_38 of 42 result(s) thrown away._
 
 ## Why
 
-- not a company - a host, a form link or a social post: 10 (50%)
-- no signal in the snippet: 8 (40%)
-- staffing or recruitment agency: 2 (10%)
+- no signal in the snippet: 20 (48%)
+- not a company - a host, a form link or a social post: 18 (43%)
 
 > If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
 
 ## What was thrown away
 
+- **unearthed** — no signal found in the title or snippet
+  - unearthed hiring Senior Reporting Manager - CSRD in Vienna, Austria
+  - https://uk.linkedin.com/jobs/view/senior-reporting-manager-csrd-at-unearthed-4381469689
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Hempel A/S søger en ESG Controller - Interim i Kongens Lyngby
-  - https://dk.linkedin.com/jobs/view/esg-controller-interim-at-hempel-a-s-4096874979
+  - Sustainability and CSRD reporting Manager - Dublin - LinkedIn Ireland
+  - https://ie.linkedin.com/jobs/view/sustainability-and-csrd-reporting-manager-at-the-panel-4090505298
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Facephi opens Canada subsidiary in digital identity push
-  - https://www.linkedin.com/posts/regtech-analyst_facephi-opens-canada-subsidiary-in-digital-activity-7449760471668322305-gky7
-- **Financialafrik** — no signal found in the title or snippet
-  - Leaders Africa - Page 11 of 161
-  - https://www.financialafrik.com/en/category/leaders-en/page/11/
-- **Biometricupdate** — no signal found in the title or snippet
-  - TECH5 biometrics aimed at UK digital ID management ...
-  - https://www.biometricupdate.com/202102/tech5-biometrics-aimed-at-uk-digital-id-management-market-with-launch-of-new-subsidiary
+  - Sustainability Reporting – Global Policy and Standards Lead, VP
+  - https://ie.linkedin.com/jobs/view/sustainability-reporting-%E2%80%93-global-policy-and-standards-lead-vp-at-state-street-4358640774
+- **Amazon** — no signal found in the title or snippet
+  - Sr. Lead Climate Reporting, WW Sustainability at Amazon - LinkedIn
+  - https://www.linkedin.com/jobs/view/sr-lead-climate-reporting-ww-sustainability-at-amazon-4445263627
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Cambodia Manufacturing Strength Amid Economic ...
-  - https://www.linkedin.com/posts/stephen-higgins-msp_bavet-factory-cluster-activity-7465745950100303873-EDpc
-- **Emergenresearch** — no signal found in the title or snippet
-  - CSP Network Analytics Market Size, Share, Industry ...
-  - https://www.emergenresearch.com/industry-report/communication-service-provider-network-analytics-market?srsltid=AfmBOorkQsG7Nppjjk1w5V3YV4i0Olz9OBRdQsjIYJA7OCYvL4Gb3nqN
+  - CSRD Reporting lead - Global Pharma Co at The Panel — Dublin ...
+  - https://ie.linkedin.com/jobs/view/csrd-reporting-lead-global-pharma-co-at-the-panel-4461776222
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Crane Worldwide Logistics Expands in Batam Market
-  - https://www.linkedin.com/posts/neni-kayan-ariani-73784293_craneworldwidelogistics-batam-logistics-activity-7462101278089785344-z2ih
-- **PTSB** — no signal found in the title or snippet
-  - PTSB hiring Sustainability Manager in Dublin, County Dublin, Ireland
-  - https://ie.linkedin.com/jobs/view/sustainability-manager-at-ptsb-3533299060
+  - Corporate Sustainability Reporting Directive (CSRD) P&C Program ...
+  - https://ch.linkedin.com/jobs/view/corporate-sustainability-reporting-directive-csrd-p-c-program-manager-at-roche-4413424005
 - **(unknown)** — not a company - a host, a form link or a social post
-  - DLF søger en Sustainability Specialist i Roskilde | LinkedIn
-  - https://dk.linkedin.com/jobs/view/sustainability-specialist-at-dlf-4359371476
+  - EY hiring Global Corporate Responsibility - Measurement & Reporting
+  - https://ie.linkedin.com/jobs/view/global-corporate-responsibility-measurement-reporting-manager-at-ey-2751952188
 - **(unknown)** — not a company - a host, a form link or a social post
-  - BearingPoint face angajări pentru postul de EU-CSRD Data ...
-  - https://ro.linkedin.com/jobs/view/eu-csrd-data-specialist-at-bearingpoint-4025478297
-- **Datadog** — no signal found in the title or snippet
-  - Datadog hiring Indirect Tax Manager in New York, NY | LinkedIn
-  - https://www.linkedin.com/jobs/view/indirect-tax-manager-at-datadog-4447046087
+  - Environmental Specialist CSRD at ESB — Ireland | LinkedIn Jobs
+  - https://ie.linkedin.com/jobs/view/environmental-specialist-csrd-at-esb-3872423213
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Global Operations Lead (Tax Technology) at SpaceX — Bastrop, TX
-  - https://www.linkedin.com/jobs/view/global-operations-lead-tax-technology-at-spacex-4445668305
-- **Arada** — staffing or recruitment agency (hires on behalf of others)
-  - Arada hiring Senior Tax Accountant in Dubai, Dubai, United Arab ...
-  - https://www.linkedin.com/jobs/view/4440100846/
-- **ISS Facility Services** — no signal found in the title or snippet
-  - Tax Manager at ISS Facility Services, Singapore
-  - https://sg.linkedin.com/jobs/view/tax-manager-at-iss-facility-services-singapore-4332595371
-- **Esports Foundation** — no signal found in the title or snippet
-  - Esports Foundation hiring Manager Tax & Compliance in Riyadh ...
-  - https://www.linkedin.com/jobs/view/4440588385/
+  - Environmental Sustainability Corporate Reporting Analyst
+  - https://ie.linkedin.com/jobs/view/environmental-sustainability-corporate-reporting-analyst-at-servicenow-4334558444
+- **Chicago** — no signal found in the title or snippet
+  - 25 Oracle Erp Manager jobs in Chicago - LinkedIn
+  - https://www.linkedin.com/jobs/oracle-erp-manager-jobs-chicago-il
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Tax Manager, AWS Tax - myGwork - LinkedIn Singapore
-  - https://sg.linkedin.com/jobs/view/tax-manager-aws-tax-at-mygwork-lgbtq%2B-business-community-4018426089
+  - Project Manager, Corporate Applications (Oracle Cloud) - LinkedIn
+  - https://www.linkedin.com/jobs/view/project-manager-corporate-applications-oracle-cloud-at-healthcare-it-leaders-4446937540
+- **Deloitte** — no signal found in the title or snippet
+  - Oracle HCM Cloud Implementation Project Senior Manager at Deloitte
+  - https://www.linkedin.com/jobs/view/oracle-hcm-cloud-implementation-project-senior-manager-at-deloitte-4457532716
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Client Tax E-Invoicing Senior Associate in Mumbai, Maharashtra, India
-  - https://in.linkedin.com/jobs/view/tax-operations-client-tax-e-invoicing-senior-associate-at-jpmorganchase-4454390431
+  - Oracle Fusion Program Manager - Impact Advisors - LinkedIn
+  - https://www.linkedin.com/jobs/view/oracle-fusion-program-manager-at-impact-advisors-4434705894
 - **(unknown)** — not a company - a host, a form link or a social post
-  - Indirect Tax Executive - Udaipur, Rajasthan, India - LinkedIn
-  - https://in.linkedin.com/jobs/view/indirect-tax-executive-at-secure-4448838408
-- **Thomson Reuters** — staffing or recruitment agency (hires on behalf of others)
-  - Pre Sales Tax Consultant - Chartered Accountant at Thomson Reuters
-  - https://in.linkedin.com/jobs/view/pre-sales-tax-consultant-chartered-accountant-at-thomson-reuters-4436537192
-- **Eton Bridge Partners** — no signal found in the title or snippet
-  - Eton Bridge Partners Ltd hiring Head of Tax & Treasury in ... - LinkedIn
-  - https://uk.linkedin.com/jobs/view/head-of-tax-treasury-at-eton-bridge-partners-ltd-4458192163
+  - Oracle Cloud Fusion ERP Transformation Project Manager - LinkedIn
+  - https://www.linkedin.com/jobs/view/oracle-cloud-fusion-erp-transformation-project-manager-at-atom-4449753526
+- **Ireland** — no signal found in the title or snippet
+  - 2,000+ Product Implementation Manager jobs in Ireland
+  - https://ie.linkedin.com/jobs/product-implementation-manager-jobs
+- **Greater Dublin** — no signal found in the title or snippet
+  - 870 Oracle Project Manager Jobs in Greater Dublin - LinkedIn Ireland
+  - https://ie.linkedin.com/jobs/oracle-project-manager-jobs-greater-dublin
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Senior Program Manager, Oracle Health Support Operations
+  - https://www.linkedin.com/jobs/view/senior-program-manager-oracle-health-support-operations-at-oracle-4458864867
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Enterprise Resources Planning Project Manager - LinkedIn
+  - https://www.linkedin.com/jobs/view/enterprise-resources-planning-project-manager-at-catalyst-acoustics-group-4462547924
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Oracle E-Business Suite (EBS) Test Manager – Financials & Supply ...
+  - https://ie.linkedin.com/jobs/view/oracle-e-business-suite-ebs-test-manager-%E2%80%93-financials-supply-chain-outside-ir35-contract-at-version-1-4352765144
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Expanding operations into Colombia? Address validation is one of ...
+  - https://www.linkedin.com/posts/geopostcodes_expanding-operations-into-colombia-activity-7452253547464708096-KbdU
+- **Thermbond** — no signal found in the title or snippet
+  - Expanding Operations into Argentina: Superflow Argentina
+  - https://thermbond.com/expanding-operations-into-argentina-superflow-argentina/
+- **Staffingindustry** — no signal found in the title or snippet
+  - Nortal acquires Nearsure, expanding operations into Latin America
+  - https://www.staffingindustry.com/editorial/it-staffing-report/nortal-acquires-nearsure-expanding-operations-into-latin-america
+- **(unknown)** — not a company - a host, a form link or a social post
+  - EXCITING NEWS! Ronnybrook Farm Dairy is expanding operations ...
+  - https://www.facebook.com/UlsterCountyExecutive/posts/exciting-news-ronnybrook-farm-dairy-is-expanding-operations-into-ulster-county-t/1618501639941693/
+- **Quizlet** — no signal found in the title or snippet
+  - BUS 4853 Chapter 6 Flashcards - Quizlet
+  - https://quizlet.com/545089635/bus-4853-chapter-6-flash-cards/
+- **Mississippi** — no signal found in the title or snippet
+  - Sipcam Agro USA expanding operations into Waynesboro
+  - https://mississippi.org/news/sipcam-agro-usa-expanding-operations-into-waynesboro/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Desma Rovina D'Souza 's Post - LinkedIn
+  - https://www.linkedin.com/posts/desmarovinadsouza_over-a-month-of-planning-and-coordinating-activity-7498354460893569024-s_ex
+- **Berkeleycountysc** — no signal found in the title or snippet
+  - JBE Inc. Expanding Operations into Berkeley County
+  - https://berkeleycountysc.gov/jbe-inc-expanding-operations-into-berkeley-county/
+- **Chegg** — no signal found in the title or snippet
+  - Solved Global Financial Services is expanding operations - Chegg
+  - https://www.chegg.com/homework-help/questions-and-answers/global-financial-services-expanding-operations-emerging-markets-significant-political-risk-q262021618
+- **Woodsrogers** — no signal found in the title or snippet
+  - International Trade Attorneys - Woods Rogers
+  - https://www.woodsrogers.com/services/corporate-business-transactions/international-trade
+- **Responsible Investor** — no signal found in the title or snippet
+  - ESG round-up: Swedish Pensions Agency launches tender ...
+  - https://www.responsible-investor.com/esg-round-up-swedish-pensions-agency-launches-tender-for-sustainability-analysis-systems/
+- **Fidifocus** — no signal found in the title or snippet
+  - Simplifying the process of sustainability measurement
+  - https://www.fidifocus.org/opinions/simplifying-the-process-of-sustainability-measurement/
+- **Because** — no signal found in the title or snippet
+  - 10 ways SaaS automates hotel ESG reporting and RFPs
+  - https://because.eco/blog/10-ways-saas-automates-hotel-esg-reporting-rfps
+- **(unknown)** — not a company - a host, a form link or a social post
+  - ESG Business Development Manager Expands Team for ...
+  - https://www.linkedin.com/posts/adurell_business-development-manager-esg-activity-7472811368963018752-H41H
+- **Dlapiper** — no signal found in the title or snippet
+  - Horizon – News and Trends in Sustainability Law | July 2026
+  - https://www.dlapiper.com/en-us/insights/publications/horizon/2026/horizon-news-and-trends-in-sustainability-law-july-2026
+- **Lrfoundation** — no signal found in the title or snippet
+  - Accelerating Critical Transformations (ACT) for Ports in the ...
+  - https://www.lrfoundation.org.uk/news/request-for-proposals-accelerating-critical-transformations-act-for-ports-in-the-blue-economy
+- **Siteglobal** — no signal found in the title or snippet
+  - What SITE Members Need to Know About the EU ...
+  - https://siteglobal.com/wp-content/uploads/2025/08/SITE-Foundation-Sustainability-Report.pdf
+- **Gosselingroup** — no signal found in the title or snippet
+  - Sustainability measurement
+  - https://www.gosselingroup.eu/en/news/simplifying-process-of-sustainability-measurement
+- **(unknown)** — not a company - a host, a form link or a social post
+  - A CSRD Roadmap 1756463871 | PDF | Business | Economies
+  - https://www.scribd.com/document/1015838857/A-CSRD-Roadmap-1756463871

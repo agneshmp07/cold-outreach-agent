@@ -4,19 +4,19 @@
   "min_score": 5,
   "resolved": true,
   "queries": [
-    "\"now open\" \"cloud kitchen\" \"home delivery\" \"Bangalore\" OR \"Delhi\" OR \"Mumbai\"",
-    "\"Purchase Manager\" OR \"Procurement Manager\" \"restaurant\" OR \"cloud kitchen\" \"ingredients\" site:linkedin.com/jobs",
-    "\"for home delivery call\" \"menu\" restaurant site:.in -zomato -swiggy",
-    "\"newly opened\" \"cafe\" OR \"restaurant\" \"accepting delivery orders\" site:instagram.com",
-    "\"kitchen manager\" \"inventory\" \"raw materials\" \"cloud kitchen\" site:naukri.com",
-    "\"looking for reliable suppliers\" OR \"vegetable vendor\" \"restaurant\" OR \"kitchen\" India"
+    "site:naukri.com \"restaurant\" \"purchase executive\" OR \"procurement executive\" \"raw materials\"",
+    "site:linkedin.com/jobs \"cloud kitchen manager\" \"Bengaluru\" OR \"Mumbai\" OR \"Delhi\"",
+    "\"grand opening\" OR \"now open\" \"restaurant\" OR \"cafe\" \"doorstep delivery\" \"Mumbai\" OR \"Bengaluru\" OR \"Delhi\"",
+    "site:linkedin.com/jobs \"dispatch executive\" OR \"delivery coordinator\" \"restaurant\" OR \"kitchen\" India",
+    "\"we are hiring\" \"new outlet\" \"restaurant\" OR \"eatery\" \"Bengaluru\" OR \"Hyderabad\" OR \"Pune\"",
+    "site:naukri.com \"kitchen\" OR \"restaurant\" \"vendor selection\" \"vegetables\" OR \"groceries\" OR \"ingredients\""
   ],
-  "note": "These queries surface newly opened Indian restaurants/cloud kitchens, businesses hiring for raw ingredient procurement, and eateries attempting manual home delivery without structured platform partnerships.",
-  "results_seen": 51,
-  "rejected_count": 49,
+  "note": "These queries surface expanding Indian restaurants, cloud kitchens, and eateries currently hiring for raw ingredient procurement, kitchen management, or delivery coordination.",
+  "results_seen": 59,
+  "rejected_count": 58,
   "rejection_reasons": {
-    "not a company - a host, a form link or a social post": 29,
-    "no signal in the snippet": 20
+    "not a company - a host, a form link or a social post": 45,
+    "no signal in the snippet": 13
   },
   "candidates": []
 }

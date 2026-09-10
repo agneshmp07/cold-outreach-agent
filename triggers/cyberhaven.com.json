@@ -1,0 +1,23 @@
+{
+  "company_name": "Cyberhaven",
+  "triggers": [
+    {
+      "fact": "Closed a $100M Series D funding round at a $1B valuation to support growth efforts.",
+      "source_page": "https://siliconangle.com/2025/04/02/cyberhaven-nabs-100m-ai-powered-data-protection-platform/",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Announced record business growth for the fiscal year ending January 31, 2026.",
+      "source_page": "https://www.prnewswire.com/news-releases/cyberhaven-announces-record-year-of-growth-as-enterprises-race-to-secure-ai-and-data-302683323.html",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Maintains an active hiring hub in Bangalore, India, listed alongside its global locations.",
+      "source_page": "https://cyberhaven.com/careers",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "With an established engineering hub in Bangalore and rapid headcount expansion following fresh capital, Cyberhaven faces the operational complexity of efficiently sourcing and coordinating campus recruitment drives across Indian engineering colleges.",
+  "no_trigger_found": false
+}

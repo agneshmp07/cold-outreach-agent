@@ -5,10 +5,10 @@
   "checked_against": "icp-kpmg.com.md",
   "result": {
     "company_name": "KPMG International",
-    "what_they_do": "KPMG International acts as a coordinating entity for a global network of independent member firms providing audit, tax, and advisory services.",
+    "what_they_do": "KPMG International acts as the coordinating entity for a global network of independent member firms that provide audit, tax, and advisory services.",
     "size": {
-      "estimate": "275,288 employees across 145 countries and 46 member firms",
-      "evidence": "[3, 12]",
+      "estimate": "275,288 employees across 145 countries",
+      "evidence": "[3], [12]",
       "status": "VERIFIED"
     },
     "segment": {
@@ -19,16 +19,16 @@
     },
     "signal": {
       "found": false,
-      "what": "None of the specified buying signals (active job postings for 'CSRD Compliance Lead', 'Oracle ERP Integration Manager', or 'Global Tax Director', press releases on expansion, or regulatory filings) were present in the search results.",
+      "what": "None of the specified buying signals (such as active job postings for 'CSRD Compliance Lead', 'Oracle ERP Integration Manager', or cross-border e-invoicing rollout announcements) were present in the search results.",
       "evidence": "None",
       "status": "NOT FOUND"
     },
     "disqualifiers": [],
     "verdict": "SKIP",
-    "reason": "While KPMG matches the 'Multinational Law Firms & Professional Services' segment and its size is verified, no required buying signals were found in the provided search results.",
+    "reason": "KPMG fits the 'Multinational Law Firms & Professional Services' segment and its company size is verified, but no required buying signals were found in the provided search results. Following the evaluation hierarchy, a target in a fit segment with known size but missing buying signals results in SKIP.",
     "could_not_find": [
-      "Specific job postings for required target roles such as Oracle ERP Integration Manager or CSRD Compliance Lead.",
-      "Information regarding KPMG's internal billing mandates or e-invoicing framework requirements."
+      "Active internal job postings for roles such as 'CSRD Compliance Lead' or 'Oracle ERP Integration Manager'.",
+      "Evidence of internal software modernization or cross-border e-invoicing implementation projects within KPMG."
     ]
   },
   "evidence": [
@@ -56,7 +56,7 @@
     {
       "asking_about": "what they do",
       "title": "What we do - KPMG International",
-      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm has ...",
+      "snippet": "KPMG International Limited is a private English company limited by guarantee and does not provide services to clients. For more detail about our structure ...",
       "link": "https://kpmg.com/xx/en/careers/what-we-do.html",
       "date": ""
     },
@@ -83,9 +83,9 @@
     },
     {
       "asking_about": "what they do",
-      "title": "KPMG Career Practice Areas: Insight Becomes Knowledge",
-      "snippet": "... KPMG International Limited, a private English company limited by guarantee. All rights reserved. The KPMG name and logo are trademarks used under license by ...",
-      "link": "https://www.kpmguscareers.com/practice-areas/",
+      "title": "KPMG International",
+      "snippet": "We value our clients by placing them at the centre of everything we do. Read ... KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/in/en.html",
       "date": ""
     },
     {
@@ -125,24 +125,24 @@
     },
     {
       "asking_about": "size",
-      "title": "Experienced Professionals - KPMG Careers",
-      "snippet": "With more than 75 offices and 40,000+ employees and partners throughout the ... KPMG International Limited, a private English company limited by guarantee.",
-      "link": "https://www.kpmguscareers.com/experienced/",
+      "title": "Director, ServiceNow ITSM/ ITOM - KPMG Careers",
+      "snippet": "Additionally, each year KPMG publishes a calendar of holidays to be observed during the year and provides eligible employees ... KPMG International Limited, a ...",
+      "link": "https://www.kpmguscareers.com/jobdetail/?jobId=135637",
       "date": ""
     },
     {
       "asking_about": "size",
-      "title": "KPMG Employee Directory, Headcount & Staff",
-      "snippet": "KPMG International Limited is a private English company limited by guarantee ... Logo of the company LinkedIn that links directly to the LeadIQ LinkedIn page.",
-      "link": "https://leadiq.com/c/kpmg/5a1d7f0524000024005a4432/employee-directory",
-      "date": ""
+      "title": "KPMG's Global CEO Outlook: AI as a workforce transformation",
+      "snippet": "... workforce transformation”. In this video, Colm Gorman, Global Co-Head of People, KPMG International, talks about how CEOs see AI not just as ...",
+      "link": "https://www.linkedin.com/posts/kpmg_ceooutlook-activity-7382127737248894976-Bd-w",
+      "date": "11 months ago"
     },
     {
       "asking_about": "size",
-      "title": "Corporate Responsibility - KPMG International",
-      "snippet": "KPMG employees spent more than 27,000 hours supporting workforce and ... KPMG International Limited, a private English company limited by guarantee.",
-      "link": "https://kpmg.com/us/en/careers-and-culture/corporate-responsibility.html",
-      "date": ""
+      "title": "Does anyone know about KPMG International Limited ...",
+      "snippet": "I just got \"hired\" by KPMG. The hiring manager's name is Matthew S. Smith but I can't find him on LinkedIn or any other social media. They send me the ...",
+      "link": "https://www.reddit.com/r/Big4/comments/y975zp/does_anyone_know_about_kpmg_international_limited/",
+      "date": "3 years ago"
     },
     {
       "asking_about": "the problem area",
@@ -163,6 +163,13 @@
       "title": "How We Work - KPMG International",
       "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
       "link": "https://kpmg.com/us/en/how-we-work.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Digital transformations through a tax planning lens",
+      "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en/articles/2023/digital-transformations-tax-planning-lens.html",
       "date": ""
     },
     {
@@ -194,24 +201,10 @@
       "date": ""
     },
     {
-      "asking_about": "the problem area",
-      "title": "KPMG named a Leader in The Forrester Wave™: Digital ...",
-      "snippet": "KPMG invests $5 billion in digital transformation. Accounting Today. 6y · Public · KPMG International announced that it would be investing $5 ...",
-      "link": "https://es-la.facebook.com/kpmgcambodia/posts/kpmg-named-a-leader-in-the-forrester-wave-digital-process-automation-service-pro/3399656596794091/",
-      "date": "5 years ago"
-    },
-    {
       "asking_about": "the signal",
       "title": "KPMG US - KPMG International",
       "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
       "link": "https://kpmg.com/us/en.html",
-      "date": ""
-    },
-    {
-      "asking_about": "the signal",
-      "title": "AI and technology in Audit - KPMG International",
-      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm ...",
-      "link": "https://kpmg.com/xx/en/what-we-do/services/audit/ai-and-technology.html",
       "date": ""
     },
     {
@@ -223,16 +216,30 @@
     },
     {
       "asking_about": "the signal",
-      "title": "Digital transformation in healthcare - KPMG International",
+      "title": "How We Work - KPMG International",
       "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
-      "link": "https://kpmg.com/us/en/capabilities-services/alliances/kpmg-workday/digital-transformation-healthcare.html",
+      "link": "https://kpmg.com/us/en/how-we-work.html",
       "date": ""
     },
     {
       "asking_about": "the signal",
-      "title": "Work with a recognized leader in advisory services",
+      "title": "AI and technology in Audit - KPMG International",
+      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm ...",
+      "link": "https://kpmg.com/xx/en/what-we-do/services/audit/ai-and-technology.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "KPMG Career Practice Areas: Insight Becomes Knowledge",
+      "snippet": "Digital Nexus, Enterprise Security Services, Internal Audit · Business ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://www.kpmguscareers.com/practice-areas/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Financial services digital transformation - KPMG International",
       "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
-      "link": "https://kpmg.com/us/en/articles/2025/recognized-leader-in-advisory-services.html",
+      "link": "https://kpmg.com/us/en/capabilities-services/alliances/kpmg-workday/digital-transformation-financial-services.html",
       "date": ""
     },
     {
@@ -240,13 +247,6 @@
       "title": "Profile of KPMG",
       "snippet": "Headquartered in Amstelveen, the Netherlands, KPMG operates as a global network of independent member firms affiliated with KPMG International Limited. The firm ...",
       "link": "https://umbrex.com/resources/profiles-of-the-top-consulting-firms/overview-profile-and-history-of-kpmg/",
-      "date": ""
-    },
-    {
-      "asking_about": "the signal",
-      "title": "Tax Enterprise Services - KPMG International",
-      "snippet": "with KPMG International Limited, a private English company limited by guarantee. ... ERP ... Design and develop your desired operating model, including a detailed.",
-      "link": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2020/tax-enterprise-support-services.pdf",
       "date": ""
     },
     {
@@ -272,6 +272,20 @@
     },
     {
       "asking_about": "careers page",
+      "title": "Job search - KPMG International",
+      "snippet": "Join KPMG and discover a career that will help you thrive, learn, and do work that matters. To see all the open roles currently available, use the drop-down ...",
+      "link": "https://kpmg.com/xx/en/careers/job-search.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search KPMG Jobs",
+      "snippet": "Search Jobs · Actuarial Health, Senior Associate · Actuarial P&C Senior Associate · Administrative Concierge · Administrative Concierge, ...",
+      "link": "https://us-talentcommunity.kpmg.com/careers/SearchResults",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
       "title": "Careers and Culture - KPMG International",
       "snippet": "Take your career to the next level. Gain knowledge, enhance skills, and thrive at one of the world's top professional service firms,",
       "link": "https://kpmg.com/us/en/careers-and-culture.html",
@@ -280,36 +294,15 @@
     {
       "asking_about": "careers page",
       "title": "Careers - KPMG International",
-      "snippet": "Join a dynamic team of KPMG professionals at one of the world's leading providers of Audit, Tax and Advisory services. Click here to view our full list of job ...",
-      "link": "https://kpmg.com/dp/en/careers.html",
-      "date": ""
-    },
-    {
-      "asking_about": "careers page",
-      "title": "Careers - KPMG International",
-      "snippet": "Join us and work at the forefront of Audit, Tax and Advisory services. , you will participate in ongoing training seminars",
-      "link": "https://kpmg.com/gr/en/careers.html",
-      "date": ""
-    },
-    {
-      "asking_about": "careers page",
-      "title": "Careers at KPMG",
       "snippet": "At KPMG, we want to support you on your journey to create an impactful career. Join us and you too can do work that matters.",
-      "link": "https://kpmg.com/cn/en/careers.html",
+      "link": "https://kpmg.com/xx/en/careers.html",
       "date": ""
     },
     {
       "asking_about": "careers page",
-      "title": "Careers in Technology, IT, and Data Advisory - KPMG International",
-      "snippet": "Inspired? Get in touch. Reach out if you would like to hear more about our career opportunities within Tech Consulting.",
-      "link": "https://kpmg.com/dk/en/careers/career-in-technology-it-and-data.html",
-      "date": ""
-    },
-    {
-      "asking_about": "careers page",
-      "title": "Job search - KPMG International",
-      "snippet": "Join KPMG and discover a career that will help you thrive, learn, and do work that matters. To see all the open roles currently available, use the drop-down ...",
-      "link": "https://kpmg.com/xx/en/careers/job-search.html",
+      "title": "KPMG US",
+      "snippet": "Realize new professional opportunities at KPMG. Join the KPMG team as we build a brighter future together. With the opportunity to specialize in the topics you' ...",
+      "link": "https://kpmg.com/us/en.html",
       "date": ""
     }
   ]

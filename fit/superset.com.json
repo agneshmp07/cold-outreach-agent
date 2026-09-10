@@ -1,0 +1,318 @@
+{
+  "domain": "superset.com",
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "checked_against": "icp-kpmg.com.md",
+  "result": {
+    "company_name": "super{set}",
+    "what_they_do": "super{set} is a San Francisco-based startup studio that conceives, funds, and builds data and AI-native startups alongside co-founders.",
+    "size": {
+      "estimate": "Unknown",
+      "evidence": "None of the search results state the exact employee headcount or revenue for super{set} itself.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "None",
+      "in_icp": false,
+      "why": "super{set} is a startup studio, not a large/enterprise healthcare system, multinational law firm, or $1B+ industrial manufacturing enterprise.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No buying signals (such as hiring for CSRD Compliance Lead or Oracle ERP Integration Manager) were found for super{set}.",
+      "evidence": "[33], [34], [37]",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Early-stage technology startup studio/organization, matching the 'Who does NOT fit' criteria [1, 6, 8]."
+    ],
+    "verdict": "SKIP",
+    "reason": "super{set} is a startup studio building early-stage AI startups, which does not fit any target ICP segment (Enterprise Healthcare, Multinational Law, or $1B+ Industrial Manufacturing) and falls under the explicitly disqualified early-stage tech startup category.",
+    "could_not_find": [
+      "Exact employee count and annual revenue of super{set}",
+      "Whether super{set} operates across multiple international tax jurisdictions requiring enterprise tax advisory services"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "super{set} | data+AI startup studio in San Francisco | We found ...",
+      "snippet": "super{set} is a team of seasoned operators and AI technologists that co-founds and builds AI-native, high potential businesses.",
+      "link": "https://www.superset.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Careers | super{set} | data+AI startup studio in San Francisco",
+      "snippet": "We co-build with talented founders from day one—investing, sourcing talent, and running playbooks to turn ideas into lasting businesses.",
+      "link": "https://www.superset.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Why I Left Google To Co-found with super{set}",
+      "snippet": "Your co-founders - and super{set} is truly hands-on co-founder, helping build the strongest company possible - are people who've built very ...",
+      "link": "https://www.superset.com/blogs/why-i-left-google-to-co-found-with-super-set",
+      "date": "Sep 19, 2022"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "super{set} Announces Rewire: a Two-Day Summit for ...",
+      "snippet": "19, 2026 (GLOBE NEWSWIRE) -- super{set}, the studio that founds, funds, and builds data and AI-native startups, today announced rewire, a two- ...",
+      "link": "https://finance.yahoo.com/small-business/articles/super-set-announces-rewire-two-130000801.html",
+      "date": "Aug 19, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "super{set}: Funding, Team & Investors",
+      "snippet": "super{set} is a data and AI startup studio based in San Francisco that focuses on founding, funding, and scaling data and AI businesses.",
+      "link": "https://startupintros.com/orgs/super-set",
+      "date": "Jul 13, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Hello Co-founders | Co-found With Us - super{set}",
+      "snippet": "We team up with co-founders who quickly process new info, think on their feet, and stay on-pace—and we'll do our best to keep up. From pre-seed to a success ...",
+      "link": "https://www.superset.com/cofound",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "super{set}",
+      "snippet": "Led by seasoned engineer-entrepreneurs, we build products to solve complex business problems rooted in data. We don't just critique.",
+      "link": "https://venturecapitalcareers.com/companies/super-set",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "super{set} remote jobs and company guide",
+      "snippet": "super{set} is a San Francisco-based startup studio that founds, funds, and builds AI-native data companies alongside co-founders from day one through scale.",
+      "link": "https://wfh.team/companies/super-set",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Super Set Flooring & Tile",
+      "snippet": "A leader in commercial soft flooring and tile installation. For decades, Super Set's service has remained unmatched. As a result, we've grown to one of the ...",
+      "link": "https://www.linkedin.com/company/supersetflooring",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Workplace Experience & Administrative Coordinator - Jobs",
+      "snippet": "Apply for Workplace Experience & Administrative Coordinator at super{set} in San Francisco, CA. Full-time Entry level role.",
+      "link": "https://www.linkedin.com/jobs/view/workplace-experience-administrative-coordinator-at-super-set-4442567966",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Cofounder at super{set} — San Francisco Bay Area",
+      "snippet": "Majordomo is a portfolio company of super{set}, a venture studio that conceives, funds and builds AI-native companies from formation through ...",
+      "link": "https://www.linkedin.com/jobs/view/cofounder-at-super-set-4453665620",
+      "date": "Aug 25, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Superset IDE Boosts Parallel Coding Efficiency for Engineers",
+      "snippet": "Super Set was the first app that made it really, really easy to parallelize work. So I can work on 8 problems at once inside of my desktop ...",
+      "link": "https://www.linkedin.com/posts/y-combinator_superset-is-an-open-source-ide-to-help-engineers-activity-7465114538497957888-Y32z",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Why I Left Google To Co-found with super{set}",
+      "snippet": "Gal Vered of Checksum explains his rationale for leaving Google to co-found a super{set} company.",
+      "link": "https://www.superset.com/blogs/why-i-left-google-to-co-found-with-super-set",
+      "date": "Sep 19, 2022"
+    },
+    {
+      "asking_about": "size",
+      "title": "Super Set Tile & Stone: Employee Directory",
+      "snippet": "How many employees does Super Set Tile & Stone have? Super Set Tile & Stone has 11-50 employees. Sign Up For FreeTo access detailed employee insights.",
+      "link": "https://www.zoominfo.com/pic/super-set-tile--stone/374956816",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Optimizing Superset for Performance: My Personal Setup",
+      "snippet": "There's just a lot of advanced settings you can do. So that is a long tour of advanced super set usage. Hopefully you got some value out of that ...",
+      "link": "https://www.linkedin.com/posts/kiet-ho_at-superset-we-use-the-tool-10-hours-a-activity-7439792029691224064-oDn0",
+      "date": "5 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Patrick McGrorty - Salesforce Certified Administrator and ...",
+      "snippet": "... LinkedIn. View Patrick McGrorty's profile on LinkedIn, a professional ... App Builder Super Set · Salesforce Trailhead Superbadges · See credential ...",
+      "link": "https://www.linkedin.com/in/patrick-mcgrorty-37245a292",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Dr. Metinee Jongsaliswang, Country Managing Partner ...",
+      "snippet": "The firm steadily moved beyond traditional auditing: embracing consulting, risk advisory, tax, legal and financial advisory services — creating ...",
+      "link": "https://www.facebook.com/DeloitteThailand/posts/dr-metinee-jongsaliswang-country-managing-partner-of-deloittethailand-recently-s/1863573264303382/",
+      "date": "5 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "The SAP S/4HANA Cloud LEGO Edition for CFOs!",
+      "snippet": "... Super Set, Not a Random Bag of Bricks! Ever bought a huge LEGO ... Finance leaders' guide to Cloud ERP transformation with Mickaël Quesnot ...",
+      "link": "https://www.linkedin.com/posts/mickaelquesnot_saps4hana-sapcloud-cfo-activity-7374103732550082560-u6Sa",
+      "date": "11 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "What is job role of Advisory Analyst in EY. What skills ...",
+      "snippet": "What is job role of Advisory Analyst in EY. What skills should I develop to be successful in this role?",
+      "link": "https://www.quora.com/What-is-job-role-of-Advisory-Analyst-in-EY-What-skills-should-I-develop-to-be-successful-in-this-role",
+      "date": "10 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Vijay Gopalakrishnan Partner, Offering Leader for AI/Gen ...",
+      "snippet": "Digital portals for tax filing, licensing, and social services. benefits and digital services. digital transformation of public services",
+      "link": "https://www.facebook.com/echelonmag/posts/this-decision-points-panel-is-a-discussion-about-utility-and-use-of-artificial-i/1045176797620233/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "sap-s4hana-cloud-private-edition-and-sap-erp-tailored- ...",
+      "snippet": "Monitoring of XSA services and its applications. Standard Services. Super set will be included in monitoring if selected. n/a n/a. 179 HANA_1 ...",
+      "link": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-s4hana-cloud-private-edition-and-sap-erp-tailored-option-roles-and-responsibilities-english-v3-2026.pdf",
+      "date": "Mar 1, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Patterns: SOA Foundation Service Connectivity Scenario",
+      "snippet": "... super-set of attributes) other business objects through parent/child relationships. However, a business object can only inherit from a single parent ...",
+      "link": "https://www.redbooks.ibm.com/redbooks/pdfs/sg247228.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Bookstore App Workload Analysis | PDF | Osi Model | Routing",
+      "snippet": "term of e-commerce (super set of e-commerce). ➢ E-business is an umbrella ... IT support and services, ERP implementation, change management, network access, ...",
+      "link": "https://www.scribd.com/document/804201824/MIS-by-Aleena-Adnan",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "PraxisInfo Solutions - Home",
+      "snippet": "ERP is known as the super set of SAP. SAP is the biggest provider of ERP software systems all over the world. ERP software is a web-based ...",
+      "link": "https://praxisinfosolutionsindia.weebly.com/",
+      "date": "Apr 2, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Dr. Metinee Jongsaliswang, Country Managing Partner ...",
+      "snippet": "The firm steadily moved beyond traditional auditing: embracing consulting, risk advisory, tax, legal and financial advisory services — creating ...",
+      "link": "https://www.facebook.com/DeloitteThailand/posts/dr-metinee-jongsaliswang-country-managing-partner-of-deloittethailand-recently-s/1863573264303382/",
+      "date": "5 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "The SAP S/4HANA Cloud LEGO Edition for CFOs!",
+      "snippet": "... Super Set, Not a Random Bag of Bricks! Ever bought a huge LEGO ... Finance leaders' guide to Cloud ERP transformation with Mickaël Quesnot ...",
+      "link": "https://www.linkedin.com/posts/mickaelquesnot_saps4hana-sapcloud-cfo-activity-7374103732550082560-u6Sa",
+      "date": "11 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "What is job role of Advisory Analyst in EY. What skills ...",
+      "snippet": "What is job role of Advisory Analyst in EY. What skills should I develop to be successful in this role?",
+      "link": "https://www.quora.com/What-is-job-role-of-Advisory-Analyst-in-EY-What-skills-should-I-develop-to-be-successful-in-this-role",
+      "date": "10 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Vijay Gopalakrishnan Partner, Offering Leader for AI/Gen ...",
+      "snippet": "* Digital portals for tax filing, licensing, and social services. * Digital identity verification for seamless access to government benefits.",
+      "link": "https://www.facebook.com/echelonmag/posts/this-decision-points-panel-is-a-discussion-about-utility-and-use-of-artificial-i/1045176797620233/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "sap-s4hana-cloud-private-edition-and-sap-erp-tailored- ...",
+      "snippet": "Monitoring of XSA services and its applications. Standard Services. Super set will be included in monitoring if selected. n/a n/a. 179 HANA_1 ...",
+      "link": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-s4hana-cloud-private-edition-and-sap-erp-tailored-option-roles-and-responsibilities-english-v3-2026.pdf",
+      "date": "Mar 1, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Patterns: SOA Foundation Service Connectivity Scenario",
+      "snippet": "... super-set of attributes) other business objects through parent/child relationships. However, a business object can only inherit from a single parent ...",
+      "link": "https://www.redbooks.ibm.com/redbooks/pdfs/sg247228.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Bookstore App Workload Analysis | PDF | Osi Model | Routing",
+      "snippet": "term of e-commerce (super set of e-commerce). ➢ E-business is an umbrella ... IT support and services, ERP implementation, change management, network access, ...",
+      "link": "https://www.scribd.com/document/804201824/MIS-by-Aleena-Adnan",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "PraxisInfo Solutions - Home",
+      "snippet": "ERP is known as the super set of SAP. SAP is the biggest provider of ERP software systems all over the world. ERP software is a web-based ...",
+      "link": "https://praxisinfosolutionsindia.weebly.com/",
+      "date": "Apr 2, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers | super{set} | data+AI startup studio in San Francisco",
+      "snippet": "We're actively hiring for roles at both super{set} and across our growing portfolio of AI-native startups. talent, finance, ops, legal—are passionate and ...",
+      "link": "https://www.superset.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs | super{set} Job Board - Companies",
+      "snippet": "Be the first to know about new jobs. Get daily alerts when new jobs match your current filters. Your email. Job function. Job function. Get alerts.",
+      "link": "https://careers.superset.com/jobs",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Checksum | super{set} Job Board - Companies",
+      "snippet": "Search job openings across the super{set} Checksum is a software development company that provides Artificial Intelligence tools for testing and integrating ...",
+      "link": "https://careers.superset.com/companies/checksum",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "RevAmp | super{set} Job Board - Companies",
+      "snippet": "RevAmp is a software development company that provides system integration, CRM, market intelligence, and product analytics solutions. Something looks off?",
+      "link": "https://careers.superset.com/companies/revamp-2",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "super{set} Job Board - Companies",
+      "snippet": "Search job openings across the super{set} network. Super{set} is a startup studio that focuses on founding and building data-driven software companies. Open ...",
+      "link": "https://careers.superset.com/companies/super-set-2",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Kapstan | super{set} Job Board - Companies",
+      "snippet": "Kapstan is an IT company that provides no-code solutions and architected infrastructure provisioning for developers. Something looks off?",
+      "link": "https://careers.superset.com/companies/kapstan",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Senior Fullstack Engineer @ Ketch | super{set} Job Board",
+      "snippet": "This job is no longer accepting applications. We are an early-stage startup disrupting the data privacy and cybersecurity market. This job is no longer ...",
+      "link": "https://careers.superset.com/companies/ketch/jobs/36002367-senior-fullstack-engineer",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Workplace Experience & Administrative Coordinator - Companies",
+      "snippet": "You'll join our team as our Workplace Experience & Administrative Coordinator, reporting to the Chief of Staff. This is more than a support role ...",
+      "link": "https://careers.superset.com/companies/super-set-2/jobs/86878612-workplace-experience-administrative-coordinator",
+      "date": "Jul 20, 2026"
+    }
+  ]
+}

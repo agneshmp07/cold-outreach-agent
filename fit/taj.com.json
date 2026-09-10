@@ -1,0 +1,262 @@
+{
+  "domain": "taj.com",
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "checked_against": "icp-kpmg.com.md",
+  "result": {
+    "company_name": "TAJ (taj.com)",
+    "what_they_do": "Search results show various entities under the name Taj, including a publisher of religious products like the Holy Quran [1, 4], a chain of luxury hotels and resorts (Taj Hotels) [6, 8], and a local jeweler in New York [7].",
+    "size": {
+      "estimate": "25,000 employees for Taj Hotels [9]; size for other Taj entities is unknown.",
+      "evidence": "[9]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "None",
+      "in_icp": false,
+      "why": "None of the entities named Taj operate in Healthcare & Hospital Systems, Multinational Law Firms & Professional Services, or Global Enterprise / Industrial Manufacturing.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No ICP buying signals (job postings for CSRD/Oracle ERP roles or press releases regarding multi-jurisdictional expansion) were found.",
+      "evidence": "None",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Taj Jeweler is a single-location local business [7], and Taj Company sells religious publishing products [1, 4], neither of which represent enterprise B2B advisory clients."
+    ],
+    "verdict": "SKIP",
+    "reason": "The company does not fit into any of KPMG's specified ICP target segments (Healthcare, Law Firms/Professional Services, or Industrial Manufacturing).",
+    "could_not_find": [
+      "Specific information directly linking domain taj.com to an enterprise B2B company.",
+      "Active job postings or filings showing ERP implementations, CSRD compliance requirements, or cross-border tax expansion."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Taj Company presents the Holy Quran with Tajweed Rules and ...",
+      "snippet": "Taj Company presents the Holy Quran with Tajweed Rules and We assure that Quran is authentic book without any errors and It has base around ...",
+      "link": "https://www.facebook.com/tajcompany/videos/taj-company-presents-the-holy-quran-with-tajweed-rules-and-we-assure-that-quran-/455655020949784/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Taj Company: Corporate Fraud Overview | PDF | Quran",
+      "snippet": "The Taj Company was founded in 1929 as a publisher of the Holy Quran but became involved in poor corporate governance and illegal deposit schemes.",
+      "link": "https://www.scribd.com/presentation/316864044/Taj-Company",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Can anyone tell me more about the Taj Company, I have ...",
+      "snippet": "Can anyone tell me more about the Taj Company, I have this giant ceramic jar.",
+      "link": "https://www.facebook.com/groups/2336287406636020/posts/4542944625970276/",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Success stories | Taj Company Ltd.",
+      "snippet": "Taj Company Ltd. is a leader in the creation of religious products, with a deep-rooted commitment to Islamic traditions. Their signature product, the Holy Quran ...",
+      "link": "https://www.datumlabs.io/resources/taj-company-ltd",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Taj Company: Interest Free Investment Scandal in Pakistan",
+      "snippet": "SCANDAL IN THE NAME OF \"INTEREST FREE INVESTMENT\" Taj Company Ltd. was established in May 1929, originally as a publisher of the Holy Quran and ...",
+      "link": "https://www.linkedin.com/posts/muhammad-saleem-khan-622b0a2a5_financialscandal-tajcompany-secp-activity-7382749559136964608-q-6c",
+      "date": "11 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Taj Hotels: Luxury Hotels & Resorts in India & the World",
+      "snippet": "GIFTING. Delight your loved ones with unique Taj experiences ranging across hotels, restaurants and more​. ... WOYAGE. Woyage is a symphony of packages curated ...",
+      "link": "https://www.tajhotels.com/en-in",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Taj Company, 42 W 48th St, New York, NY 10036, US",
+      "snippet": "Taj Company, located in the heart of New York, NY, is a premier jeweler known for its exquisite craftsmanship and unique designs.",
+      "link": "https://www.mapquest.com/us/new-york/taj-company-414269220",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Taj Hotels",
+      "snippet": "Taj Hotels is a chain of luxury hotels and a subsidiary of the Indian Hotels Company Limited, headquartered in Mumbai, India. Incorporated by Jamsetji Tata ...",
+      "link": "https://en.wikipedia.org/wiki/Taj_Hotels",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Taj Hotels Employee Directory, Headcount & Staff",
+      "snippet": "Taj Hotels has approximately 25K employees as of July 2026. These team members are located across 6 continents, including AsiaNorth AmericaEurope. Who are ...",
+      "link": "https://leadiq.com/c/taj-hotels/5a1d7db02400002400572c61/employee-directory",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Taj Heniser - Principal Product Manager @ Microsoft",
+      "snippet": "Taj Heniser. Principal Product Manager @ Microsoft | Early Adopter Program. Greater Seattle Area. 1K followers 500+ connections.",
+      "link": "https://www.linkedin.com/in/tajheniser",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Taj Falaknuma Palace",
+      "snippet": "Employees at Taj Falaknuma Palace. Click here to view Aabid Sheikh's profile ... Head of Sales jobs. 3,383 open jobs · Sales Manager jobs. 15,201 open jobs ...",
+      "link": "https://in.linkedin.com/company/taj-falaknuma-palace-hyderabad",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Megha Gajbhiye - Taj Hotels",
+      "snippet": "Human Resources Specialist at Taj Hotels with hands-on experience in talent acquisition… · Experience: Taj Hotels · Education: Institute of Professional ...",
+      "link": "https://in.linkedin.com/in/megha-gajbhiye-9aa422177",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Taj Hotel Employees Show Courage Under Fire: Empathy ...",
+      "snippet": "During the 2008 Mumbai terror attacks, Taj Hotel employees showed extraordinary courage by staying back to protect guests, guiding them ...",
+      "link": "https://www.linkedin.com/posts/piyush-mishra-bb81131b8_hotel-psychology-organization-activity-7418259610341625856-j21w",
+      "date": "7 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "AI Fires Employee, Raises Questions About Future of Work",
+      "snippet": "View profile for Taj Sarin, CSM · Taj Sarin, CSM. Global AI Speaker & Educator | 'The AI Ninja' | AI Stealth Startups | Futurist | 3D ...",
+      "link": "https://www.linkedin.com/posts/tajsarin_work-ai-future-activity-7495222931682254848-mGSc",
+      "date": "3 weeks ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Arooj Nissar - Human Resources Manager at Taj Hotels",
+      "snippet": "Human Resources Manager at Taj Hotels · People & Performance Leader with 14+ years of experience delivering measurable HR impact across talent, culture, ...",
+      "link": "https://in.linkedin.com/in/arooj-nissar-51670631",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Shabrin taj Taj - Bank Employee at Sbi Bank",
+      "snippet": "Bank Employee at Sbi Bank · Experience: Sbi Bank · Location: Mysore. View Shabrin taj Taj's profile on LinkedIn, a professional community of 1 billion ...",
+      "link": "https://in.linkedin.com/in/shabrin-taj-taj-68563a187",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "TAJ audit response strategy Jamaica - Dawgen Global",
+      "snippet": "The assessment sets out TAJ's determination of the tax liability for a particular period — a determination that may include additional tax, interest, and ...",
+      "link": "https://www.dawgen.global/tag/taj-audit-response-strategy-jamaica/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Kreston Menon Deep Dive—where we explore the topics that ...",
+      "snippet": "UHY James Audit | Tax | Advisory THE GATE SUMMIT Global Accounting, Taxation ... Taj Dubai, Business Bay 4 September 2026. Nominate. Partner ...",
+      "link": "https://www.instagram.com/reel/Da4uQRFDDNK/",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Asif Taj‏ - ‏Fractional CFO | Finance Director",
+      "snippet": "Asif Taj. Fractional CFO | Finance Director | Business Transformation | Cash Flow Optimization. CompassPoint Consulting The Institute of Chartered Accountants ...",
+      "link": "https://ae.linkedin.com/in/asif-taj",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "TAJ audit and investigations division Jamaica - Dawgen Global",
+      "snippet": "The assessment sets out TAJ's determination of the tax liability for a particular period — a determination that may include additional tax, ...",
+      "link": "https://www.dawgen.global/tag/taj-audit-and-investigations-division-jamaica/",
+      "date": "Apr 6, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Umer Akhter | Senior Consultant, ECOVIS Saudi Arabia",
+      "snippet": "SAP will support implementation partner to ensure that the solution is delivered in line with best practices. Mr. Iftikhar Taj (Council Member ...",
+      "link": "https://www.facebook.com/61563448650043/posts/umer-akhter-senior-consultant-ecovis-saudi-arabia-erp-internal-audit-specialistu/122166224270448288/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "E-Invoicing Advisory & Delivery Services - Atlas Agni Taj",
+      "snippet": "Atlas Agni Taj combines deep transactional engineering expertise with strategic corporate tax insight. We deliver secure, compliant, end-to-end e-invoicing ...",
+      "link": "https://atlasagnitaj.com/service/e-invoicing-advisory-delivery/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Citrin Cooperman Announces Strategic Alliance with ...",
+      "snippet": "Digital Services Technology Platforms Digital Transformation Risk Advisory ... Taj Adhav, Founder and Chief Brand Officer, Leasecake. “Through ...",
+      "link": "https://www.citrincooperman.com/In-Focus-Resource-Center/Citrin-Cooperman-Announces-Strategic-Alliance-with-Leasecake-to-Enhance-Lease-Accounting",
+      "date": "Aug 20, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "📢 Tax Relief Alert for Jamaican Businesses ...",
+      "snippet": "Tax Administration Jamaica (TAJ) has launched the Special Arrears Settlement Programme, allowing businesses to clear outstanding principal taxes ...",
+      "link": "https://www.instagram.com/p/DFgkoj1x6um/-tax-relief-alert-for-jamaican-businesses-tax-administration-jamaica-taj-has-lau/",
+      "date": "Jan 31, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "TAJ audit response strategy Jamaica - Dawgen Global",
+      "snippet": "The assessment sets out TAJ's determination of the tax liability for a particular period — a determination that may include additional tax, interest, and ...",
+      "link": "https://www.dawgen.global/tag/taj-audit-response-strategy-jamaica/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Kreston Menon Deep Dive—where we explore the topics that ...",
+      "snippet": "UHY James Audit | Tax | Advisory THE GATE SUMMIT Global Accounting, Taxation ... Taj Dubai, Business Bay 4 September 2026. Nominate. Partner ...",
+      "link": "https://www.instagram.com/reel/Da4uQRFDDNK/",
+      "date": "1 month ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "TAJ audit and investigations division Jamaica - Dawgen Global",
+      "snippet": "The assessment sets out TAJ's determination of the tax liability for a particular period — a determination that may include additional tax, ...",
+      "link": "https://www.dawgen.global/tag/taj-audit-and-investigations-division-jamaica/",
+      "date": "Apr 6, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Asif Taj‏ - ‏Fractional CFO | Finance Director",
+      "snippet": "Asif Taj. Fractional CFO | Finance Director | Business Transformation | Cash Flow Optimization. CompassPoint Consulting The Institute of Chartered Accountants ...",
+      "link": "https://ae.linkedin.com/in/asif-taj",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Umer Akhter | Senior Consultant, ECOVIS Saudi Arabia",
+      "snippet": "SAP will support implementation partner to ensure that the solution is delivered in line with best practices. Mr. Iftikhar Taj (Council Member ...",
+      "link": "https://www.facebook.com/61563448650043/posts/umer-akhter-senior-consultant-ecovis-saudi-arabia-erp-internal-audit-specialistu/122166224270448288/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "E-Invoicing Advisory & Delivery Services - Atlas Agni Taj",
+      "snippet": "Atlas Agni Taj combines deep transactional engineering expertise with strategic corporate tax insight. We deliver secure, compliant, end-to-end e-invoicing ...",
+      "link": "https://atlasagnitaj.com/service/e-invoicing-advisory-delivery/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Citrin Cooperman Announces Strategic Alliance with ...",
+      "snippet": "Digital Services Technology Platforms Digital Transformation Risk Advisory ... Taj Adhav, Founder and Chief Brand Officer, Leasecake. “Through ...",
+      "link": "https://www.citrincooperman.com/In-Focus-Resource-Center/Citrin-Cooperman-Announces-Strategic-Alliance-with-Leasecake-to-Enhance-Lease-Accounting",
+      "date": "Aug 20, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "📢 Tax Relief Alert for Jamaican Businesses ...",
+      "snippet": "Tax Administration Jamaica (TAJ) has launched the Special Arrears Settlement Programme, allowing businesses to clear outstanding principal taxes ...",
+      "link": "https://www.instagram.com/p/DFgkoj1x6um/-tax-relief-alert-for-jamaican-businesses-tax-administration-jamaica-taj-has-lau/",
+      "date": "Jan 31, 2025"
+    }
+  ]
+}

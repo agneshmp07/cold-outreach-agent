@@ -1,0 +1,262 @@
+{
+  "domain": "wowmomos.com",
+  "client": "Blinkit",
+  "client_domain": "blinkit.com",
+  "checked_against": "icp-blinkit.com.md",
+  "result": {
+    "company_name": "Wow! Momo",
+    "what_they_do": "Wow! Momo is an Indian chain of fast food quick-service restaurants (QSR) specializing in momos and related food ventures [1, 2].",
+    "size": {
+      "estimate": "687 to 5,000 employees",
+      "evidence": "SignalHire lists 687 employees [12] and ZoomInfo estimates 1K - 5K employees [15].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "None",
+      "in_icp": false,
+      "why": "Blinkit exclusively sells to individual consumers and households of 1-10 people, whereas Wow! Momo is a large commercial restaurant chain company [1, 2, 12].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None of the ICP buying signals (8-minute delivery claims, 30,000+ catalog count, grocery search prompts, or referral-only hiring notice) apply to Wow! Momo as a prospect.",
+      "evidence": "None",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Wow! Momo is a commercial corporate entity / restaurant chain rather than an individual retail consumer or household."
+    ],
+    "verdict": "SKIP",
+    "reason": "Wow! Momo is a fast-food QSR chain with hundreds of employees, falling outside Blinkit's target ICP segment of individual consumers and household buyers.",
+    "could_not_find": [
+      "Whether individual employees or executives at Wow! Momo reside in local active Blinkit delivery areas.",
+      "Whether Wow! Momo purchases wholesale groceries or commercial supplies from direct retail channels."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Wow! Momo",
+      "snippet": "Wow! Momo is an Indian chain of fast food restaurants headquartered in Kolkata. The chain specializes in momo (specifically Nepali Mo:Mo), momo-filled ...",
+      "link": "https://en.wikipedia.org/wiki/Wow!_Momo",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "WOW! Momo – India's Fastest Growing QSR Chain",
+      "snippet": "Wow! Momo is a chain of fast food restaurants headquartered in Kolkata. Our Other ventures are Wow! China, Wow! Chicken and China Belly.",
+      "link": "https://www.wowmomo.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Wow! Momo",
+      "snippet": "Wow! Momo. Food and Beverage Services. Kolkata, West Bengal 71,770 followers. WOW! Momo is one of the fastest-growing food brands in India. Follow.",
+      "link": "https://in.linkedin.com/company/wow-momo",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Wow! Momo - 2026 Company Profile & Team",
+      "snippet": "Wow! Momo is a series D company based in Kolkata (India), founded in 2008 by Sagar Daryani, Binod Homagai, Murali Krishnan and Shah Miftaur ...",
+      "link": "https://tracxn.com/d/companies/wow-momo/__O3VquWPdTzwoEvQRBPiGT5zfxKdHRBOs4V_mXngwcvM",
+      "date": "Aug 17, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Life at Wow Momo Foods: Culture, Salary, Reviews ...",
+      "snippet": "Wow Momo Foods was founded in 2008. The company has been operating for 18 years primarily in the Hospitality sector. Where is the Wow Momo Foods headquarters ...",
+      "link": "https://www.ambitionbox.com/overview/wow-momo-foods-overview",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Meet Sagar Daryani, co-founder and CEO of Wow! Momo",
+      "snippet": "Meet Sagar Daryani, co-founder and CEO of Wow! Momo - converting roadside cuisine into India's largest homegrown QSR chain from Kolkata.",
+      "link": "https://www.facebook.com/PayU.India/videos/meet-sagar-daryani-co-founder-and-ceo-of-wow-momo-converting-roadside-cuisine-in/692727723808122/",
+      "date": "7 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Wow! Momo Business Model",
+      "snippet": "Wow! Momo is a leading fast-casual restaurant chain in India, known for revolutionizing the culinary landscape with its innovative approach to the traditional ...",
+      "link": "https://vizologi.com/business-strategy-canvas/wow-momo-business-model-canvas/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Invest In Wow! Momo Stock | Buy Pre-IPO Shares",
+      "snippet": "Wow! Momo is a chain of fast-food restaurants that specializes in momos. It operates out of kiosks, food court quick service outlets, shop-in-shop models, ...",
+      "link": "https://equityzen.com/company/wowmomo/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Wow! Momo",
+      "snippet": "Employees at Wow! Momo ; Tarun Sharma. Head of Healthcare and Consumer at… ; Biplob Khotel. General Manager - Retail Operations &… ; Kanishka Mazumdar. Senior VP/ ...",
+      "link": "https://in.linkedin.com/company/wow-momo",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Rajiv Verma - Wow! Momo",
+      "snippet": "Experienced Operations Head with a demonstrated history of working in the food &… · Experience: Wow! Momo · Education: IMT Ghazibad · Location: Gurgaon ...",
+      "link": "https://in.linkedin.com/in/rajiv-verma-28a2131a",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Vikramjit Guha Thakurata - Wow! Momo",
+      "snippet": "Senior Marketing Manager at WOW! MOMO Foods Pvt Ltd · Experienced Marketing Executive with a demonstrated history of working in the food & beverages ...",
+      "link": "https://in.linkedin.com/in/vikramjit-guha-thakurata-992988145",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "List of 687 Wow! Momo Employees - Find Emails & Phones",
+      "snippet": "Wow! Momo employs 687 employees. Reveal contacts of top Wow! Momo managers and employees.",
+      "link": "https://www.signalhire.com/companies/wow-momo/employees",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Sagar Daryani, CEO and founder, Wow! Momo.",
+      "snippet": "... Wow! Momo, shares their remarkable insights and experience from the #ETFnBSummit! ... CMD | PestÖTouch | Pest Control - Pan India - 340 employees.",
+      "link": "https://www.linkedin.com/posts/sagar-j-daryani-950085b7_sagar-daryani-ceo-and-founder-wow-momo-activity-7113637924570566656-FI7r",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Wow Momo Foods Pvt Company Profile",
+      "snippet": "Wow Momo Foods Pvt Profile and History. Based in Kolkata, India, Wow! Momo is a foodtech company and quick service restaurant (QSR) services provider.",
+      "link": "https://www.datanyze.com/companies/wow-momo-foods-pvt/507136194",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Wow Momo Foods Pvt: Employee Directory",
+      "snippet": "Wow Momo Foods Pvt corporate office is located in Bangladesh and has 1K - 5K employees. Likely to Engage tag. Highly Engaged Employees. wow momo foods pvt ltd.",
+      "link": "https://www.zoominfo.com/pic/wow-momo-foods-pvt-ltd/507136194",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Malay Saha - HR Leader | Head of Compensation & Benefits",
+      "snippet": "Currently working as a pivotal HR leader at Wow Momo Foods, spearheading innovative HR initiatives and optimizing operational efficiencies within the ...",
+      "link": "https://in.linkedin.com/in/malay-saha-44a47516",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Wow! Momo",
+      "snippet": "Want to make your Life easy? Wow momo is now delivering the ready to eat products. All you need to do is pick up your phone and order via Swiggy ...",
+      "link": "https://www.facebook.com/WowMomos/posts/want-to-make-your-life-easy-wow-momo-is-now-delivering-the-ready-to-eat-products/3331963860147735/",
+      "date": "6 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Swiggy: Food Instamart Dineout - App Store - Apple",
+      "snippet": "Get North Indian food, Punjabi cuisine, South Indian cuisine, Italian and Bengali cuisine with top chains like Domino's Pizza, Wow Momo, KFC, Burger King ...",
+      "link": "https://apps.apple.com/ae/app/swiggy-food-instamart-dineout/id989540920?platform=ipad",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Spencer's Retails | Order Groceries Online",
+      "snippet": "Get your daily essentials delivered to the doorstep. Stay safe and ... Wow! Momo. . Fast food restaurant. No photo description available ...",
+      "link": "https://www.facebook.com/spencersindia/videos/spencers-retails-order-groceries-online/983114709099396/",
+      "date": "5 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "MORE DELIVERED IN 30 MIN DOWNLOAD OUR CITY APP ...",
+      "snippet": "The best of best burger deals have arrived. Guys, burgers are available for 9 rupees. I just ordered Wow Momo burgers. One Moburg cost me 19 ...",
+      "link": "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en_US",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Fasto try garnu bhayo? Chhaina vane aajai garnu hos. Delivery ...",
+      "snippet": "McDonald's Wow! Momo Subway Olio - The Wood Fired Pizza Cheesy Chicken GetDirect Platehub Zomato Swiggy Mybite Now stop burning money on hidden delivery charges ...",
+      "link": "https://www.instagram.com/reel/DN95euiDuxo/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mo'Go, Moment's in-house delivery fleet, goes the distance just ...",
+      "snippet": "Wow! Momo. 3y · Public · There is no greater feeling than the taste of a delicious Wow! Meal delivered at your doorstep! Nominated: Best ...",
+      "link": "https://www.facebook.com/8cutsburgers/posts/mogo-moments-in-house-delivery-fleet-goes-the-distance-just-for-you-with-a-deliv/2999615650142475/",
+      "date": "5 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "How much do delivery agents earn?",
+      "snippet": "IMI Bhubaneswar'26 | Marketing Intern @ Wow! Momo | President ... groceries and essentials at our doorstep within 10–20 minutes. For ...",
+      "link": "https://www.linkedin.com/posts/rohit-singh1_ever-wondered-how-much-does-your-delivery-activity-7340238623482499072-dNGA",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Online Grocery Shopping and Online Supermarket in India ...",
+      "snippet": "Deliver to Selected Location. Location helps us show availability. Delivers in. 10 mins ... Wow! Momo|; Fortune|; Haldiram's|; Ferrero|; Lay's|; Patanjali| ...",
+      "link": "https://www.bigbasket.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Wow! Momo",
+      "snippet": "Want to make your Life easy? Wow momo is now delivering the ready to eat products. All you need to do is pick up your phone and order via Swiggy ...",
+      "link": "https://www.facebook.com/WowMomos/posts/want-to-make-your-life-easy-wow-momo-is-now-delivering-the-ready-to-eat-products/3331963860147735/",
+      "date": "6 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Swiggy: Food Instamart Dineout - App Store - Apple",
+      "snippet": "Get North Indian food, Punjabi cuisine, South Indian cuisine, Italian and Bengali cuisine with top chains like Domino's Pizza, Wow Momo, KFC, Burger King ...",
+      "link": "https://apps.apple.com/ae/app/swiggy-food-instamart-dineout/id989540920?platform=ipad",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Spencer's Retails | Order Groceries Online",
+      "snippet": "Get your daily essentials delivered to the doorstep. Stay safe and ... Wow! Momo. . Fast food restaurant. No photo description available ...",
+      "link": "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en_US",
+      "date": "5 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "How WOW! Momo Became India's Biggest Momo Brand? ...",
+      "snippet": "How WOW! Momo Became India's Biggest Momo Brand? A small momo stall ... Groceries, snacks, medicines and daily essentials can reach your doorstep ...",
+      "link": "https://www.instagram.com/reel/DGvM3IsoPI0/?hl=en",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mo'Go, Moment's in-house delivery fleet, goes the distance just ...",
+      "snippet": "Wow! Momo. 3y · Public · There is no greater feeling than the taste of a delicious Wow! Meal delivered at your doorstep! Nominated: Best ...",
+      "link": "https://www.facebook.com/8cutsburgers/posts/mogo-moments-in-house-delivery-fleet-goes-the-distance-just-for-you-with-a-deliv/2999615650142475/",
+      "date": "5 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "WOW! Momo – India's Fastest Growing QSR Chain",
+      "snippet": "Wow! Momo is one of India's fastest-growing quick-service restaurant (QSR) brands, famed for transforming a beloved snack — the momo — into a nationwide ...",
+      "link": "https://www.wowmomo.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Two minutes, zero guilt, all chaos - Wow! Momo Instant just ...",
+      "snippet": "Freshly steamed, packed with flavor, and made to satisfy every craving. Every box is a little bundle of happiness. ✨ Which Wow! Momo is your ...",
+      "link": "https://www.instagram.com/p/DRuR-MlgbOq/",
+      "date": "9 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "How much do delivery agents earn?",
+      "snippet": "IMI Bhubaneswar'26 | Marketing Intern @ Wow! Momo | President ... groceries and essentials at our doorstep within 10–20 minutes. For ...",
+      "link": "https://www.linkedin.com/posts/rohit-singh1_ever-wondered-how-much-does-your-delivery-activity-7340238623482499072-dNGA",
+      "date": "1 year ago"
+    }
+  ]
+}

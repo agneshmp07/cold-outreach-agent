@@ -1,0 +1,316 @@
+{
+  "domain": "indiashelter.in",
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "checked_against": "icp-wework.com.md",
+  "result": {
+    "company_name": "India Shelter",
+    "what_they_do": "India Shelter Finance Corporation Ltd is an affordable housing finance company (NBFC) offering secured retail home loans, home equity loans, and loans against property across 15 states in India.",
+    "size": {
+      "estimate": "2,700 - 4,800 employees",
+      "evidence": "India Shelter had 4,800 employees as of March 31, 2026 [14], and LeadIQ lists approximately 2.7K employees [12].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Enterprise and Financial Services",
+      "in_icp": true,
+      "why": "India Shelter operates in Financial Services and has over 1,000 employees across multiple states [2], [9], [14].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Rapid headcount growth of 25.72% year-over-year (adding 982 employees) [14] and ongoing regional expansion [1], [2].",
+      "evidence": "The number of employees increased by 982 or 25.72% compared to the previous year [14].",
+      "status": "VERIFIED"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "India Shelter is a Financial Services firm with 1,000+ employees (2,700 to 4,800 employees) [9], [12], [14], matching the Enterprise and Financial Services segment in the ICP. No disqualifiers are present, and there is a buying signal of rapid headcount growth exceeding 25% [14].",
+    "could_not_find": [
+      "Whether India Shelter is actively looking to downsize or diversify its existing commercial real estate footprint.",
+      "Whether India Shelter's operational policy permits hybrid or flexible work for its corporate workforce."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About Us | India Shelter – Home Loan & Housing Finance ...",
+      "snippet": "India Shelter is a rapidly expanding affordable housing finance company specialising in the housing finance sector. With a strong emphasis on promoting ...",
+      "link": "https://www.indiashelter.in/about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "India Shelter Finance Corporation Ltd",
+      "snippet": "India Shelter Finance Corporation (ISFC) is an affordable housing company with operations across 15 states in India, offering affordable housing and small ...",
+      "link": "https://in.linkedin.com/company/indiashelter-in",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "India Shelter- Best NBFC Housing Finance & Home Loan ...",
+      "snippet": "India Shelter is trusted NBFC housing finance company in India offering affordable home loan solutions with simple eligibility and quick approval.",
+      "link": "https://www.indiashelter.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "IndiaShelter iServe - App Store",
+      "snippet": "Indiashelter Home Finance is a Tech-Enabled Home Finance Company, built around the customer. ... The developer, India Shelter Finance Corporation Limited, ...",
+      "link": "https://apps.apple.com/in/app/indiashelter-iserve/id6511235049",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Vision",
+      "snippet": "We will help middle income families improve quality of and access to housing by providing housing credit. India Shelter Finance Corporation Ltd is the new ...",
+      "link": "https://www.indiashelter.in/vision",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "India Shelter (@indiashelterfinance)",
+      "snippet": "At India Shelter, we believe that the exchange of knowledge and experiences is essential to expanding access to homeownership and creating lasting social impact ...",
+      "link": "https://www.instagram.com/indiashelterfinance/?hl=en",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "India Shelter Finance Corporation Ltd share price",
+      "snippet": "Incorporated in 1998, India Shelter Finance Corporation Limited is engaged in the business of housing finance. Key Points. Business Profile The company ...",
+      "link": "https://www.screener.in/company/INDIASHLTR/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "India Shelter Home Loans 2026 Company Profile",
+      "snippet": "India Shelter Finance Corporation Ltd is engaged in providing secured retail home loans, home equity loans and loans against property to borrowers for a period ...",
+      "link": "https://pitchbook.com/profiles/company/60523-21",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "India Shelter Finance Corporation Ltd",
+      "snippet": "Website: http://www.indiashelter.in. External link for India Shelter Finance Corporation Ltd ; Industry: Financial Services ; Company size: 1,001-5,000 employees.",
+      "link": "http://www.indiashelter.in.",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Aastha Gupta - Executive Vice President-Human Resource ...",
+      "snippet": "Joined as the first employee of India Shelter in 2009. Entrusted with the task of building and managing the entire HR Vertical, I formulated and modified HR ...",
+      "link": "https://in.linkedin.com/in/aastha-gupta-29754115",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Parveen Kumar - India Shelter Finance Corporation Ltd",
+      "snippet": "Bank Employee at India Shelter Finance Corporation Ltd · Experience: India Shelter Finance Corporation Ltd · Location: Ambala. View Parveen Kumar's profile ...",
+      "link": "https://in.linkedin.com/in/parveen-kumar-90aa86285",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "India Shelter Finance Corporation Ltd's employee directory",
+      "snippet": "India Shelter Finance Corporation Ltd has approximately 2.7K employees as of July 2026. These team members are located across 3 continents, including AsiaEurope ...",
+      "link": "https://leadiq.com/c/india-shelter-finance-corporation-ltd/5a1d7c84240000240056563c/employee-directory",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "PANKAJ GUPTA - India Shelter Finance Corporation Ltd",
+      "snippet": "VP Administration at India Shelter Finance Corporation Ltd · Experience: India Shelter ... Handling employees query (600 employee in staff leasing)",
+      "link": "https://in.linkedin.com/in/pankaj-gupta-9a7b5b27",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "India Shelter Finance Corporation Employees",
+      "snippet": "India Shelter Finance Corporation had 4,800 employees as of March 31, 2026. The number of employees increased by 982 or 25.72% compared to the previous year.",
+      "link": "https://stockanalysis.com/quote/nse/INDIASHLTR/employees/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Nitin Goel - Head Credit, Operations & Analytics",
+      "snippet": "View Nitin's full profile. Nitin can introduce you to 10+ people at India Shelter Finance Corporation Ltd.",
+      "link": "https://in.linkedin.com/in/nitin-goel-987180a",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "India Shelter Finance Corporation - Company Profile",
+      "snippet": "As of Jun 30, 2026, the latest employee count at India Shelter Finance Corporation is 2763. When was the latest funding round of India Shelter ...",
+      "link": "https://tracxn.com/d/companies/india-shelter-finance-corporation/__HEQVz-U6vlz3zbpYeR-OtJ7Jh25iTSxVCZ29rc3Y9_M",
+      "date": "Jul 17, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "IPO Notes - Adroit Financial Services",
+      "snippet": "provides workspace solutions in India, including co-working, flexible offices, and supporting services. ... India Shelter Finance Corporation Limited IPO.",
+      "link": "https://www.adroitfinancial.com/e-ipo/ipo-notes",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "📢 𝐈𝐏𝐎 𝐀𝐥𝐞𝐫𝐭 | ESDS Software Solution Ltd. 𝐈𝐬𝐬𝐮𝐞 ...",
+      "snippet": "... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain ... including flexible workspaces, custom office spaces, and mobility solutions.",
+      "link": "https://www.facebook.com/SmifsLimited/posts/-%F0%9D%90%88%F0%9D%90%8F%F0%9D%90%8E-%F0%9D%90%80%F0%9D%90%A5%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AD-esds-software-solution-ltd-%F0%9D%90%88%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%AE%F0%9D%90%9E-%F0%9D%90%8E%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AC-28th-aug-2026%F0%9D%90%88%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%AE%F0%9D%90%9E-%F0%9D%90%82%F0%9D%90%A5%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%9E%F0%9D%90%AC-01st/1771590981644424/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Closes: 31 Aug 2026 Listing: BSE & NSE Watch the short ...",
+      "snippet": "... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain ... including flexible workspaces, custom office spaces, and mobility solutions.",
+      "link": "https://www.facebook.com/01indiapo/posts/kwick-forensic-solutions-ipo-is-coming-with-a-51-cr-ipoprice-band-8590lot-size-1/1051423017809931/",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Furniture on rent… but is Rentomojo's IPO worth considering? ...",
+      "snippet": "... including flexible workspaces, custom office spaces, and mobility solutions. ... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain ...",
+      "link": "https://www.facebook.com/kotakneo/posts/furniture-on-rent-but-is-rentomojos-ipo-worth-considering-rentomojo-is-launching/1623897176447644/",
+      "date": "1 day ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "What made the Merritronix IPO get subscribed a massive 315 ...",
+      "snippet": "Indiqube SpacesBengaluru-centric tech-enabled flexible workspace provider with ... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % ...",
+      "link": "https://www.facebook.com/kotakneo/posts/what-made-the-merritronix-ipo-get-subscribed-a-massive-315-times-in-just-3-dayst/1531420352361994/",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Indiqube Spaces Ltd. IPO is live! Transforming workspaces ...",
+      "snippet": "... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain Suraj Estate Developers IPO listed at ₹ 343.8 for -4.5 % Gain Flair ...",
+      "link": "https://www.facebook.com/gcldreams/posts/indiqube-spaces-ltd-ipo-is-livetransforming-workspaces-across-15-cities-with-84-/1240544694751760/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "CSM Technologies IPO is set to open from 24th June ...",
+      "snippet": "... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain ... Indiqube SpacesBengaluru-centric tech-enabled flexible workspace provider ...",
+      "link": "https://www.facebook.com/kotakneo/posts/csm-technologies-ipo-is-set-to-open-from-24th-june-to-29th-june-the-company-oper/1550063083831054/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "RBI Urges Banks to Enhance Customer Service | PDF",
+      "snippet": "the Indian Ocean region. Prime Minister Narendra Modi held a meeting with ... India Shelter . . . . . . . 829.9 *Galaxy Surfacta . . . . 2048.4 ...",
+      "link": "https://www.scribd.com/document/840457754/Business-Standard-March-18",
+      "date": "Mar 18, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "📢 𝐈𝐏𝐎 𝐀𝐥𝐞𝐫𝐭 | ESDS Software Solution Ltd. 𝐈𝐬𝐬𝐮𝐞 ...",
+      "snippet": "... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain ... including flexible workspaces, custom office spaces, and mobility solutions.",
+      "link": "https://www.facebook.com/SmifsLimited/posts/-%F0%9D%90%88%F0%9D%90%8F%F0%9D%90%8E-%F0%9D%90%80%F0%9D%90%A5%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AD-esds-software-solution-ltd-%F0%9D%90%88%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%AE%F0%9D%90%9E-%F0%9D%90%8E%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AC-28th-aug-2026%F0%9D%90%88%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%AE%F0%9D%90%9E-%F0%9D%90%82%F0%9D%90%A5%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%9E%F0%9D%90%AC-01st/1771590981644424/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Furniture on rent… but is Rentomojo's IPO worth considering? ...",
+      "snippet": "... including flexible workspaces, custom office spaces, and mobility solutions. ... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain ...",
+      "link": "https://www.facebook.com/kotakneo/posts/furniture-on-rent-but-is-rentomojos-ipo-worth-considering-rentomojo-is-launching/1623897176447644/",
+      "date": "1 day ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "IPO Notes - Adroit Financial Services",
+      "snippet": "provides workspace solutions in India, including co-working, flexible offices, and supporting services. ... India Shelter Finance Corporation Limited IPO.",
+      "link": "https://www.adroitfinancial.com/e-ipo/ipo-notes",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Kwick Forensic Solutions IPO is coming with a ...",
+      "snippet": "Indiqube Spaces Bengaluru-centric tech-enabled flexible workspace provider with ... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % ...",
+      "link": "https://www.facebook.com/01indiapo/posts/kwick-forensic-solutions-ipo-is-coming-with-a-51-cr-ipoprice-band-8590lot-size-1/1051423017809931/",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "What made the Merritronix IPO get subscribed a massive 315 ...",
+      "snippet": "Indiqube SpacesBengaluru-centric tech-enabled flexible workspace provider with ... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % ...",
+      "link": "https://www.facebook.com/kotakneo/posts/what-made-the-merritronix-ipo-get-subscribed-a-massive-315-times-in-just-3-dayst/1531420352361994/",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Workmates Core2Cloud Solutions Set to Launch ₹34.9 ...",
+      "snippet": "... including flexible workspaces, custom office spaces, and mobility solutions. ... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % Gain ...",
+      "link": "https://www.facebook.com/01indiapo/posts/workmates-core2cloud-solutions-set-to-launch-349-crore-ipoworkmates-core2cloud-s/813533321598903/",
+      "date": "10 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "CSM Technologies IPO opens for subscription from 24th-29th ...",
+      "snippet": "Indiqube SpacesBengaluru-centric tech-enabled flexible workspace provider with ... India Shelter Finance Cor IPO listed at ₹ 612.7 for 24.3 % ...",
+      "link": "https://www.facebook.com/LakshmishreeGroup/posts/csm-technologies-ipo-opens-for-subscription-from-24th-29th-june-2026technology-d/1576073687897616/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "RBI Urges Banks to Enhance Customer Service | PDF",
+      "snippet": "the Indian Ocean region. Prime Minister Narendra Modi held a meeting with ... India Shelter . . . . . . . 829.9 *Galaxy Surfacta . . . . 2048.4 ...",
+      "link": "https://www.scribd.com/document/840457754/Business-Standard-March-18",
+      "date": "Mar 18, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs & Career Opportunities | Join India Shelter & Build Your Career",
+      "snippet": "Start your career at India Shelter. Explore current openings and job opportunities to build your future and grow your career. Apply now!",
+      "link": "https://www.indiashelter.in/career",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us | India Shelter – Home Loan & Housing Finance Company",
+      "snippet": "Join our dynamic team and be part of something extraordinary. View Openings About Us | India Shelter – Home Loan & Housing Finance Company",
+      "link": "https://www.indiashelter.in/about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Life at India Shelter – Culture, Careers & Growth",
+      "snippet": "Explore life at India Shelter and discover our work culture, employee experiences, and opportunities. Current Openings … 1800-572-8888customer.care@ ...",
+      "link": "https://www.indiashelter.in/life-isfc",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Home Loan: What is it and How Does it Work? - India Shelter",
+      "snippet": "Get a home loan guide covering what is home loan, how it works, and its benefits. Learn the process, eligibility, and tips to choose the ...",
+      "link": "https://www.indiashelter.in/blogs/all-about-home-loan",
+      "date": "Feb 27, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "India Shelter- Best NBFC Housing Finance & Home Loan Company",
+      "snippet": "India Shelter is trusted NBFC housing finance company in India offering affordable home loan solutions with simple eligibility and quick approval.",
+      "link": "https://www.indiashelter.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Beginner's Guide to SIP Investment – How It Works & Benefits",
+      "snippet": "New to SIP? Explore SIP investment for beginners and learn what SIP is, how it works, and its benefits to build wealth over time.",
+      "link": "https://www.indiashelter.in/blogs/beginners-guide-for-sip-investments",
+      "date": "Feb 24, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "India Shelter Blog – Home Loan Guides | Housing Finance Tips",
+      "snippet": "Read expert guides on home loans, property loans, and housing finance. Explore tips, insights, and practical advice for smarter home buying decisions.",
+      "link": "https://www.indiashelter.in/blogs",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Sitemap | Home Loans, Branches, Calculators & Blogs - India Shelter",
+      "snippet": "Explore the India Shelter sitemap to quickly access home loan services, branch pages, EMI calculators, blogs, loan resources and other important website ...",
+      "link": "https://www.indiashelter.in/sitemap",
+      "date": ""
+    }
+  ]
+}
