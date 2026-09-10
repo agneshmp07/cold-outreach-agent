@@ -1,0 +1,378 @@
+{
+  "domain": "cummins.com",
+  "client": "Salesforce",
+  "client_domain": "salesforce.com",
+  "checked_against": "icp-salesforce.com.md",
+  "result": {
+    "company_name": "Cummins Inc.",
+    "what_they_do": "Cummins Inc. provides reliable industrial solutions and power systems engineering [45, 48].",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "None of the search results provide employee headcount or revenue data for Cummins Inc.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Industrial machinery and heavy equipment manufacturing",
+      "in_icp": true,
+      "why": "Matches the 'Also fits' sector for Industrial machinery and heavy equipment manufacturing, as Cummins develops power systems and industrial solutions [45, 48].",
+      "status": "ASSERTED"
+    },
+    "signal": {
+      "found": false,
+      "what": "NOT FOUND",
+      "evidence": "No active buying signals such as Salesforce admin job postings or digital chat support were found in the search results for Cummins Inc.",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "NOT FOUND",
+      "evidence": "No specific CRM software currently in use by Cummins Inc. was mentioned in the search results.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Cummins Inc. plausibly belongs to an ICP-compatible sector (industrial machinery/power systems manufacturing), but the search results focus heavily on generic Investor Relations topics and lack essential facts regarding company size and CRM buying signals.",
+    "could_not_find": [
+      "Total employee headcount and revenue for Cummins Inc.",
+      "Current CRM technology stack or active Salesforce/CRM job postings at Cummins Inc."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Investor Relations Career: Work, Salaries, and Exits",
+      "snippet": "At large, public companies, “investor relations” normally means fielding shareholder questions, preparing documents and presentations for earnings reports, ...",
+      "link": "https://mergersandinquisitions.com/investor-relations-career/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Financial Communications & Investor Relations Consulting",
+      "snippet": "Our investor relations consultants make sure that clients have the support of their financial stakeholders, both on an ongoing basis and through major ...",
+      "link": "https://www.teneo.com/service/strategy-communications/investor-relations-and-financial-communications/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Investor Relations Strategy Consulting",
+      "snippet": "We solve for the most common investor relations pitfalls with a proven five-step approach. If business-as-usual investor relations is a one-way street, our ...",
+      "link": "https://www.bain.com/consulting-services/strategy/investor-relations-strategy/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Investor relations",
+      "snippet": "Investor relations (IR) is a \"strategic management responsibility that is capable of integrating finance, communication, marketing and securities law ...",
+      "link": "https://en.wikipedia.org/wiki/Investor_relations",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What I Wish I Knew When I Started My Investor Relations ...",
+      "snippet": "A unique aspect of an investor relations career is that in our field, there generally isn't a clear path to the leadership position, ...",
+      "link": "https://www.q4inc.com/resource-center/blog/what-i-wish-i-knew-when-i-started-in-investor-relations-part-i",
+      "date": "Aug 21, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "When does a company hire an outside investor relations ...",
+      "snippet": "When does a company hire an outside investor relations firm?",
+      "link": "https://www.quora.com/When-does-a-company-hire-an-outside-investor-relations-firm",
+      "date": "12 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Investor Relations (IR) on Corporate Websites",
+      "snippet": "Both individual and professional investors want the company's own story and investment vision. Investor relations (IR) is one of the \"Big 4 ...",
+      "link": "https://www.nngroup.com/articles/investor-relations-ir/",
+      "date": "May 24, 2009"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Investor Relations Glossary | 5W",
+      "snippet": "Investor relations (IR) is the function that manages communication between a company and the investors, analysts, and financial markets that value it. It ...",
+      "link": "https://www.5wpr.com/glossary/investor-relations/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Investor Relations Management",
+      "snippet": "Investor relations management is the process of building and maintaining ... ✓ Headcount: Is your team growing in line with your company's expansion?",
+      "link": "https://www.linkedin.com/top-content/business-strategy/systematic-investment-planning/investor-relations-management/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn Announces Fourth Quarter and Full Year 2015 ...",
+      "snippet": "In addition, a supplemental presentation will be made available on the investor relations section of the LinkedIn website at http://investors.",
+      "link": "http://investors.\"",
+      "date": "Feb 4, 2016"
+    },
+    {
+      "asking_about": "size",
+      "title": "Martin Lam - Head of Investor Relations at Atlassian",
+      "snippet": "Head of Investor Relations at Atlassian · Experience: Atlassian · Education: University of Notre Dame · Location: San Francisco · 500+ connections on ...",
+      "link": "https://www.linkedin.com/in/martin-lam-b4633531",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "10-K",
+      "snippet": "We webcast our earnings calls and certain events we participate in or host with members of the investment community on our investor relations website.",
+      "link": "https://www.sec.gov/Archives/edgar/data/1271024/000127102416000035/a20151231-10xkdocument.htm",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Tiffany Willis - Global Investor Relations Executive",
+      "snippet": "Tiffany Willis. Global Investor Relations Executive | Board & C-Suite Advisor | Communications & Governance Leader | Adjunct Professor | Keynote Speaker | ...",
+      "link": "https://www.linkedin.com/in/tiffanywilliscpa",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn Employee Statistics (2026): Headcount And ...",
+      "snippet": "... LinkedIn's pressroom, Microsoft Investor Relations, and Revelio Labs. LinkedIn Employee Statistics: Key Figures. 17,500+Full-time employees ...",
+      "link": "https://www.makerstations.io/linkedin-employee/",
+      "date": "Jul 29, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Ascent Investor Relations LLC",
+      "snippet": "About us ; Website: http://www.ascent-ir.com. External link for Ascent Investor Relations LLC ; Industry: Financial Services ; Company size: 11-50 employees.",
+      "link": "http://www.ascent-ir.com.",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Investor Relations in the Age of AI: Why LinkedIn Belongs in the IR ...",
+      "snippet": "Outlined below are five primary ways public companies can use LinkedIn to support their investor relations programs: ... The platform is not limited to an ...",
+      "link": "https://www.igbir.com/investor-relations-in-the-age-of-ai-why-linkedin-belongs-in-the-ir-toolkit/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Salesforce CRM: Try The World's #1 Agentic CRM",
+      "snippet": "Investor Relations. Our Values. Back. Our Values. We are guided by our values ... Salesforce CRM offers AI-powered, customer relationship management (CRM) ...",
+      "link": "https://www.salesforce.com/crm/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "What is AI CRM? Video",
+      "snippet": "Investor Relations. Our Values. Back. Our Values. We are guided by our values ... Discover how to effectively implement a customer relationship management system ...",
+      "link": "https://www.salesforce.com/crm/ai-crm/video/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "A Guide to Modern CRM With Salesforce",
+      "snippet": "AI can help teams work faster and engage customers more ... Investor Relations · Locations · Newsroom & Media · Strategic Partnerships ...",
+      "link": "https://www.cdw.com/content/cdw/en/articles/software/modern-crm-with-salesforce.html",
+      "date": "Jul 14, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "What Is Agentforce? Salesforce AI Agents",
+      "snippet": "Investor Relations Services · CMMC Compliance Consulting · vDPO Services ... Salesforce Foundations includes the agent-building tools at no cost, ...",
+      "link": "https://www.bdemerson.com/article/what-is-agentforce",
+      "date": "Jul 16, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Salesforce Investment Management CRM",
+      "snippet": "Choosing the right AI tools, building Agentforce agents, and connecting AI assistants to live CRM data. ... CRM investor relations is a CRM system ...",
+      "link": "https://ascendix.com/blog/salesforce-investment-management-crm/",
+      "date": "Sep 2, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Salesforce unveils Agentforce IT Service with ambitions to ...",
+      "snippet": "Investor relations · Talent. This website is owned and operated by ... CRM data with fully autonomous agentic AI agents. News Analysis ...",
+      "link": "https://omdia.tech.informa.com/om139358/salesforce-unveils-agentforce-it-service-with-ambitions-to-ignite-the-next-era-of-ai-powered-service-management",
+      "date": "Oct 17, 2025"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Salesforce Statistics: Revenue, Market Share, Customers ...",
+      "snippet": "Salesforce maintains the #1 position in customer relationship management software ... Salesforce investor relations materials; Verified third- ...",
+      "link": "https://www.cirrusinsight.com/blog/salesforce-statistics",
+      "date": "Jan 15, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Private Equity CRM: 10 Best CRMs for 2026",
+      "snippet": "Learn about the leading private equity CRMs of 2026. Discover features that enhance fund management, investor relations, and deal tracking ...",
+      "link": "https://www.creatio.com/glossary/private-equity-crm",
+      "date": "Nov 20, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Salesforce CRM: Try The World's #1 Agentic CRM",
+      "snippet": "Investor Relations. Our Values. Back. Our Values. We are guided by our values ... Salesforce CRM offers AI-powered, customer relationship management (CRM) ...",
+      "link": "https://www.salesforce.com/crm/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "What is Agentforce Video",
+      "snippet": "Investor Relations. Our Values. Back. Our Values. We are guided by our values ... Agentforce helps companies build AI agents that work together with humans to ...",
+      "link": "https://www.salesforce.com/agentforce/video/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "What Is Agentforce? Salesforce AI Agents",
+      "snippet": "Investor Relations Services · CMMC Compliance Consulting · vDPO Services ... Salesforce Foundations includes the agent-building tools at no cost, ...",
+      "link": "https://www.bdemerson.com/article/what-is-agentforce",
+      "date": "Jul 16, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Salesforce: The #1 Agentic AI CRM",
+      "snippet": "Investor Relations. Our Values. Back. Our Values. We are guided by our values ... Customer Service Software · Email Marketing · Ecommerce · Artificial ...",
+      "link": "https://www.salesforce.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "What is Agentforce: autonomous AI agents that accelerate ...",
+      "snippet": "Customer relationship management (CRM) · Human capital management ... Investor relations · Acquisition strategy · Leadership team · Governance ...",
+      "link": "https://www.alithya.com/en/insights/blog-posts/what-agentforce-autonomous-ai-agents-accelerate-salesforce-roi",
+      "date": "Aug 21, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Salesforce Statistics: Revenue, Market Share, Customers ...",
+      "snippet": "Salesforce maintains the #1 position in customer relationship management software ... Salesforce investor relations materials; Verified third- ...",
+      "link": "https://www.cirrusinsight.com/blog/salesforce-statistics",
+      "date": "Jan 15, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Private Equity CRM: 10 Best CRMs for 2026",
+      "snippet": "Learn about the leading private equity CRMs of 2026. Discover features that enhance fund management, investor relations, and deal tracking ...",
+      "link": "https://www.creatio.com/glossary/private-equity-crm",
+      "date": "Nov 20, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "A Guide to Modern CRM With Salesforce",
+      "snippet": "AI can help teams work faster and engage customers more ... Investor Relations · Locations · Newsroom & Media · Strategic Partnerships ...",
+      "link": "https://www.cdw.com/content/cdw/en/articles/software/modern-crm-with-salesforce.html",
+      "date": "Jul 14, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "What Is CRM (Customer Relationship Management)? - Salesforce",
+      "snippet": "Investor Relations. Our Values. Back. Our Values. We are guided by our values ... Shifting to a cloud CRM also means CRM implementation is easy. There's no ...",
+      "link": "https://www.salesforce.com/crm/what-is-crm/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "What Is Customer Relationship Management (CRM)? - IBM",
+      "snippet": "Forrester's CRM Playbook indicates that 61% of global software decision-makers were implementing, had implemented, or were expanding their implementation of ...",
+      "link": "https://www.ibm.com/think/topics/crm",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Streamline Your Entire Business With a Free CRM - HubSpot",
+      "snippet": "Who uses CRM software? Businesses of all sizes can benefit from CRM software ... Investor Relations Investor Relations · Blog Blog · Sustainability ...",
+      "link": "https://www.hubspot.com/products/crm",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Why CRM Should Be a Private Capital Priority - Affinity",
+      "snippet": "Your CRM should also function as a hub for your investor relations. This includes tracking all touchpoints from initial outreach to portfolio ...",
+      "link": "https://www.affinity.co/blog/customer-relationship-management",
+      "date": "Apr 13, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Driving Innovation Through Customer Relationship Management—A ...",
+      "snippet": "The emphasis on the data-driven approach of this study underscores the importance of evidence-based decision-making in CRM implementation and innovation ...",
+      "link": "https://www.mdpi.com/2071-1050/17/8/3663",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Customer Relationship Management (CRM) Software and Examples ...",
+      "snippet": "By the 2000s, cloud-based CRMs like Salesforce enabled scale. Today, CRM software uses AI for predictive lead scoring, churn alerts, and ...",
+      "link": "https://www.linkedin.com/pulse/customer-relationship-management-crm-software-examples-jai-jalan-jujhf",
+      "date": "Aug 20, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Case Study : Open Source Crm Systems - 1313 Words | Bartleby",
+      "snippet": "... cloud computing ... applications, into customer service and support (Salesforce Investor Relations). ... Implementation of Customer Relationship Management ...",
+      "link": "https://www.bartleby.com/essay/Case-Study-Open-Source-Crm-Systems-FKGZZ9WKPT85",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Best CRM for Investor Relations | Private Equity Guide 2025",
+      "snippet": "Deal Flow Management and Investor Relations ... AI Automation Consulting API Integration Services Salesforce Implementation Service Cloud ...",
+      "link": "https://capitalsconsulting.com/resources/best-crm-investor-relations",
+      "date": "Aug 8, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers | Cummins Inc.",
+      "snippet": "Begin your career at Cummins, where you'll be able to develop professionally, grow your career, and take on opportunities across the globe.",
+      "link": "https://www.cummins.com/en-na/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Cummins: Home",
+      "snippet": "At Cummins, we believe your passion is your power. Supercharge your career with the support of a global team that empowers you to do your best work.",
+      "link": "https://jobs.cummins.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Information about Automated-Decision Making Tools for Job ...",
+      "snippet": "Cummins may use automated decision-making tools to help recruiters more effectively assess job applications. These tools help reduce the application review time",
+      "link": "https://www.cummins.com/en-na/careers/adm",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Company Overview | Cummins Inc.",
+      "snippet": "Solving real problems by creating breakthrough solutions that are scalable and sustainable unites our team and propels our progress. View Careers EXPLORE DEI.",
+      "link": "https://www.cummins.com/en-na/company",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "How Cummins employees strengthen communities while building ...",
+      "snippet": "Learn more about How Cummins employees strengthen communities while building careers from Cummins, Inc., an industry leader in reliable ...",
+      "link": "https://www.cummins.com/en-na/news/stories/2026-09-02/community-engagement-employee-volunteerism",
+      "date": "Sep 2, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Life at Cummins",
+      "snippet": "At Cummins, you'll be provided with continuous learning opportunities, supportive benefits and a culture that values your wellbeing, safety and work-life ...",
+      "link": "https://www.cummins.com/en-na/careers/life-at-cummins",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Information about Automated-Decision Making Tools for ... - Cummins",
+      "snippet": "Cummins may use automated decision-making tools to help recruiters more effectively assess job applications. These tools help reduce the application review time",
+      "link": "https://selfscreening.cummins.com/en-na/careers/adm",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Podcast Spotlight: What electrical engineers should know about the ...",
+      "snippet": "electrical engineers are under increasing pressure to design power systems that are reliable, scalable, and ready for the future.",
+      "link": "https://www.cummins.com/en-na/news/2026/08/24/podcast-spotlight-what-electrical-engineers-should-know-about-future-data-center",
+      "date": "Aug 24, 2026"
+    }
+  ]
+}

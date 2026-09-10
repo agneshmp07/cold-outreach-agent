@@ -1,0 +1,316 @@
+{
+  "domain": "apollohospitals.com",
+  "client": "Zoho",
+  "client_domain": "zoho.com",
+  "checked_against": "icp-zoho.com.md",
+  "result": {
+    "company_name": "Apollo Hospitals",
+    "what_they_do": "Apollo Hospitals is a healthcare provider operating hospitals, oncology centers, proton therapy facilities, and administrative healthcare services.",
+    "size": {
+      "estimate": "70,000+ employees",
+      "evidence": "Be one amongst the 70000+ strong family of Apollo Hospitals [33]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Healthcare / Enterprise",
+      "in_icp": false,
+      "why": "Apollo Hospitals is in healthcare with over 70,000 employees, which falls outside the explicit ICP company size bounds (10-1000 employees) and industry categories.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No specific external buying signal (such as explicit job postings for HR Managers/Recruiters or SaaS stack tags) was confirmed in the search results.",
+      "evidence": "Search results mention general careers in administration and healthcare [35, 38, 39] but do not explicitly show the named buying signals.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "The company is not in a named ICP segment due to its size (70,000+ employees) and industry (healthcare), but as a major enterprise organization, it plausibly has operational software and HR system needs.",
+    "could_not_find": [
+      "Specific software product tags or current SaaS infrastructure used by Apollo Hospitals",
+      "Active job listings specifically seeking HR Managers or Sales Operations leads"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "5 Ways to Prioritize Your Health Without Adding More ...",
+      "snippet": "You can prioritize your health by choosing accessible care, focusing on prevention, and making small daily habits like movement, nutrition, and stress ...",
+      "link": "https://newcadencehealthcare.com/5-ways-to-prioritize-your-health-without-adding-more-to-your-to-do-list/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Your business grows when you prioritize your health. | Romeo El Chaer",
+      "snippet": "",
+      "link": "https://www.linkedin.com/posts/romeoelchaer_your-business-grows-when-you-prioritize-your-activity-7308172629033570305-sNu-",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Prioritizing Health and Life Over Company Demands",
+      "snippet": "",
+      "link": "https://www.facebook.com/groups/615154093523910/posts/1224369252602388/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Five Steps to Prioritize Your Health in 2025",
+      "snippet": "Five Steps to Prioritize Your Health in 2025 · 1. Get a medical checkup. · 2. Make sure you're current on vaccines. · 3. Protect your mental health. · 4. Get cancer ...",
+      "link": "https://www.pfizer.com/news/articles/five_steps_prioritize_your_health_2025",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Self-Care Isn't Selfish: How to Prioritize Your Health Every",
+      "snippet": "Self-Care Isn't Selfish: How to Prioritize Your Health Every Day · Make Movement a Daily Habit · Stick to Your Medication Routine · Eat to Feel ...",
+      "link": "https://www.dedicated.care/articles/self-care-isnt-selfish-how-prioritize-your-health-every-day",
+      "date": "Jun 30, 2025"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How to prioritize your health when life and business feel really, ...",
+      "snippet": "How to prioritize your health when life and business feel really, really (really) busy. Right now, as a FT business owner and mom of 2 (one ...",
+      "link": "https://www.instagram.com/reel/DVwGE7XAaj9/",
+      "date": "6 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Why is it important to prioritize your health as a business ...",
+      "snippet": "This blog is packed with insights and actionable tips to help you prioritize your health without sacrificing your business dreams. Ready to ...",
+      "link": "https://www.facebook.com/groups/NextUpAsia/posts/10158318935066657/",
+      "date": "4 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How You Can Prioritize Your Health in Life's Busiest Seasons",
+      "snippet": "Shaela Shares The Surprising Secret to Avoid Burnout & Grow Your Business: How You Can Prioritize Your Health in Life's Busiest Seasons.",
+      "link": "https://elizabethmccravy.com/prioritize-your-health/",
+      "date": "Jan 28, 2025"
+    },
+    {
+      "asking_about": "size",
+      "title": "Yinka Oyedun's Post",
+      "snippet": "Dear Employee, Prioritize Your Health While Building Your Career. When you feel the need to rest, rest. When you notice signs that your ...",
+      "link": "https://www.linkedin.com/posts/yinka-oyedun-6147ab199_dear-employee-prioritize-your-health-while-activity-7467562357439905792-Z5M3",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "How to Prioritize Your Health as a CEO for Better Leadership",
+      "snippet": "As a CEO or leader, the pressure never stops. You're carrying the weight of your team, your customers, and the future of your company.",
+      "link": "https://www.linkedin.com/posts/lewishowes_as-a-ceo-or-leader-the-pressure-never-stops-activity-7364453124876496896-4wnf",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Your health is your most valuable asset. | Vishal Patil",
+      "snippet": "... workforce. What is one step you will take today to prioritize your health or the health of your team? #WorkLifeBalance #EmployeeWellbeing ...",
+      "link": "https://www.linkedin.com/posts/vishal-patil-58378a30b_worklifebalance-employeewellbeing-corporatewellness-activity-7378055049308131328-6oXx",
+      "date": "11 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Strategies for Health and Wellness Prioritization",
+      "snippet": "When you prioritize your health, you're investing in the longevity and success of your startup. It's not selfish. It's strategic. If you enjoyed this and ...",
+      "link": "https://www.linkedin.com/top-content/employee-experience/employee-wellness-initiatives/strategies-for-health-and-wellness-prioritization/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "How to Prioritize Mental Health for Long-Term Well-Being",
+      "snippet": "Steps to prioritize your health and recovery: Set Boundaries: Communicate your needs and delegate tasks to protect your recovery time.",
+      "link": "https://www.linkedin.com/top-content/employee-experience/mental-health-prioritization/how-to-prioritize-mental-health-for-long-term-well-being/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Dana Perino on work-life balance: Prioritize your health",
+      "snippet": "... prioritize your health because you can't show up as your best self otherwise. “There are seasons in your life,” Dana says. “If you think of ...",
+      "link": "https://www.linkedin.com/posts/linkedin-news_does-gen-z-over-prioritize-work-life-balance-activity-7358951127045836801-cT2_",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Don't Put Off Women's Health for Work | Shanell A. Majors ...",
+      "snippet": "To anyone working hard away from home: prioritize your health, choose your medical care wisely, secure your insurance, and work for an ...",
+      "link": "https://www.linkedin.com/posts/shanellmajors_womenhealth-employeewellbeing-hrleadership-activity-7497631434736693248-evg1",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Changing jobs can be thrilling - or terrifying. | Lovel Dhir ...",
+      "snippet": "... Prioritize your health - physical and mental – as well as the energy, as much as your résumé: with intention and care. I have been guilty of ...",
+      "link": "https://www.linkedin.com/posts/lovel_careergrowth-professionaldevelopment-hrinsights-activity-7358952076841766914-j0Ho",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Join a Team That Keeps Things Moving! https://thehroffice. ...",
+      "snippet": "Create a life that empowers you to prioritize your health and happiness! Do you have experience in Customer Service, BPO/VA/QA work, Data ...",
+      "link": "https ... - FacebookB�\u0001Create a ",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Wofai Igbor - Administrative Virtual Assistant || Data Entry",
+      "snippet": "Wofai has managed many daunting tasks of office/business Administration such as: meeting/appointments setting, Email/calendar management, Data Entry, ...",
+      "link": "https://ng.linkedin.com/in/wofai-igbor",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Call center representative jobs in Cherry Hill, New ...",
+      "snippet": "... with immediate vesting to help you save for retirement., • Sick Time Off: Prioritize your health and well-being with paid sick leave based on state laws and ...",
+      "link": "https://jobtoday.com/us/jobs-call-center-representative/nj_cherry-hill",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "AI For Business B0DFRS41PS | PDF",
+      "snippet": "Scenario: You're determined to prioritize your health and fitness, but your ... A well-maintained CRM (customer relationship management) system is. vital ...",
+      "link": "https://www.scribd.com/document/802340971/AI-for-Business-B0DFRS41PS",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Senior systems engineer jobs in West Palm Beach, FL",
+      "snippet": "... prioritize your health with access to a dedicated Health Concierge service. ... based software deployments, and management of cloud infrastructure and services.",
+      "link": "https://www.zippia.com/senior-systems-engineer-west-palm-beach-fl-jobs/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Blog - With Seniors In Mind",
+      "snippet": "And the better you are at surviving, the better care you'll give. Prioritize Your Health. Skipping doctor's appointments, eating dinner out of a bag ...",
+      "link": "https://www.withseniorsinmind.org/blog",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Do you have previous experience in Customer Service, data ...",
+      "snippet": "Create a life that empowers you to prioritize your health and happiness! Do you have experience in Customer Service, BPO/VA/QA work, Data ...",
+      "link": "https://www.facebook.com/groups/155063589982713/posts/1030612529094477/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Top HR Job Consultants in Kolkata",
+      "snippet": "Choose Aabhaar for compassionate and professional nursing services that prioritize your health and well-being during recovery. Mastering Interview Follow-Up ...",
+      "link": "https://www.sulekha.com/hr-jobs-consultants/kolkata",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Join a Team That Keeps Things Moving! https://thehroffice. ...",
+      "snippet": "Create a life that empowers you to prioritize your health and happiness! Do you have experience in Customer Service, BPO/VA/QA work, Data ...",
+      "link": "https://www.facebook.com/TheHROfficeInc/posts/join-a-team-that-keeps-things-moving/1684167083713122/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Wofai Igbor - Administrative Virtual Assistant || Data Entry",
+      "snippet": "Wofai has managed many daunting tasks of office/business Administration such as: meeting/appointments setting, Email/calendar management, Data Entry, ...",
+      "link": "https://ng.linkedin.com/in/wofai-igbor",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Call center representative jobs in Cherry Hill, New ...",
+      "snippet": "... with immediate vesting to help you save for retirement., • Sick Time Off: Prioritize your health and well-being with paid sick leave based on state laws and ...",
+      "link": "https://jobtoday.com/us/jobs-call-center-representative/nj_cherry-hill",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "AI For Business B0DFRS41PS | PDF",
+      "snippet": "Scenario: You're determined to prioritize your health and fitness, but your ... A well-maintained CRM (customer relationship management) system is. vital ...",
+      "link": "https://www.scribd.com/document/802340971/AI-for-Business-B0DFRS41PS",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Senior systems engineer jobs in West Palm Beach, FL",
+      "snippet": "... prioritize your health with access to a dedicated Health Concierge service. ... based software deployments, and management of cloud infrastructure and services.",
+      "link": "https://www.zippia.com/senior-systems-engineer-west-palm-beach-fl-jobs/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Blog - With Seniors In Mind",
+      "snippet": "And the better you are at surviving, the better care you'll give. Prioritize Your Health. Skipping doctor's appointments, eating dinner out of a bag ...",
+      "link": "https://www.withseniorsinmind.org/blog",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Do you have previous experience in Customer Service, data ...",
+      "snippet": "Create a life that empowers you to prioritize your health and happiness! Do you have experience in Customer Service, BPO/VA/QA work, Data ...",
+      "link": "https://www.facebook.com/groups/155063589982713/posts/1030612529094477/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Top HR Job Consultants in Kolkata",
+      "snippet": "Choose Aabhaar for compassionate and professional nursing services that prioritize your health and well-being during recovery. Mastering Interview Follow-Up ...",
+      "link": "https://www.sulekha.com/hr-jobs-consultants/kolkata",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Join Apollo Hospitals",
+      "snippet": "Careers at Apollo Hospitals - Be one amongst the 70000+ strong family of Apollo Hospitals. Join Our Talent Pool Job Search … such a great place to work!! field ...",
+      "link": "https://www.apollohospitals.com/careers/index.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Guidance - Our Hiring process - Apollo Hospitals",
+      "snippet": "Start Searching. There are two ways to search for a career on our website. You can go to the Join our talent pool > Job Search to start your search.",
+      "link": "https://www.apollohospitals.com/careers/career-guidance/our-hiring-process.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Proton Therapy - Apollo Hospitals",
+      "snippet": "Explore career opportunities at Apollo Hospitals. We are looking for management and clinical leaders. Management Oncologists Clinicians ...",
+      "link": "https://www.apollohospitals.com/proton-therapy/careers/",
+      "date": "Aug 9, 2017"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Apollo Hospital Mumbai",
+      "snippet": "Careers · 1. Resident Medical Officer. Qualifications– MBBS ONLY · 2. Anesthesia – Registrar. Qualifications– MBBS+MD/DNB Anesthesia · 3. Pediatrics – Registrar · 4 ...",
+      "link": "https://www.apollohospitals.com/region/mumbai/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Areas - Nurses - Apollo Hospitals",
+      "snippet": "Apollo Hospitals has 10000+ Nurses. Nurses play an integral role in patient care and are also pivotal in the hospital's efforts to improve quality.",
+      "link": "https://www.apollohospitals.com/careers/career-areas/nurses.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Areas - Allied Health Professionals - Apollo Hospitals",
+      "snippet": "Join Our Talent Pool Administrative Services Support Services Allied Health Professionals Nurses Doctors ・ wide range of career opportunities ・ careers@ ...",
+      "link": "https://www.apollohospitals.com/careers/career-areas/allied-health-professionals.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Areas - Administrative Services - Apollo Hospitals",
+      "snippet": "Our Administrative Services work closely with the front line departments to ensure patient safety, clinical quality and patient satisfaction.",
+      "link": "https://www.apollohospitals.com/careers/career-areas/administrative-services.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Athenaa about-us | Apollo Hospitals",
+      "snippet": "Apollo Athenaa is Apollo Hospitals' dedicated cancer centre for women. Multidisciplinary cancer management team of top oncologists and specialists.",
+      "link": "https://www.apollohospitals.com/athenaa/about-us",
+      "date": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "company_name": "CEVA Logistics",
+  "triggers": [
+    {
+      "fact": "CEVA Logistics' subsidiary Colis Privé completed the acquisition of last-mile delivery specialists Paack Iberia and Paack France in August 2026.",
+      "source_page": "https://www.cevalogistics.com/en/news-and-media/newsroom/press-release/colis-prive-completes-purchase-paack-iberia-france",
+      "relevance_score": 4
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "Expanding into Spain and Portugal through the acquisition of Paack Iberia and Paack France may require integrating operations, HR, and customer management software across newly added regional teams.",
+  "no_trigger_found": false
+}

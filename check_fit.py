@@ -52,6 +52,8 @@ QUERY_SHAPES = [
     ('size', '"{name}" employees headcount linkedin'),
     ('the problem area', '"{name}" {problem_terms}'),
     ('the signal', '"{name}" {signal_terms}'),
+    ('what they already use', '"{name}" uses OR implemented OR "case study" '
+                              '{category_terms}'),
     ('careers page', 'site:{domain} careers OR hiring OR about'),
 ]
 
@@ -61,6 +63,7 @@ SCHEMA_EXAMPLE = """{
   "size": {"estimate": "string", "evidence": "string", "status": "VERIFIED|ASSERTED|NOT FOUND"},
   "segment": {"best_match": "string", "in_icp": true, "why": "string", "status": "VERIFIED|ASSERTED"},
   "signal": {"found": true, "what": "string", "evidence": "string", "status": "VERIFIED|ASSERTED|NOT FOUND"},
+  "uses_similar": {"found": true, "what": "string", "evidence": "string", "status": "VERIFIED|ASSERTED|NOT FOUND"},
   "disqualifiers": ["string"],
   "verdict": "PROCEED|SKIP|UNCLEAR",
   "reason": "string",
@@ -123,7 +126,11 @@ def search_terms(client):
     buyers = str(client.get("who_pays_for_it") or client.get("who_buys_it") or "")
     problem = " ".join(sells.split()[:12])
     signal = " ".join((sells + " " + buyers).split()[:12])
-    return problem or "operations", signal or "process"
+    # Words that would appear alongside a competing product. A company already
+    # paying someone in this category has admitted the problem and has budget,
+    # which is worth knowing before writing to them.
+    category = " ".join(sells.split()[:6])
+    return problem or "operations", signal or "process", category or "software"
 
 
 # --------------------------------------------------------------------- search
@@ -184,12 +191,13 @@ def guess_company_name(api_key, domain):
 
 
 def gather(api_key, domain, name, client):
-    problem_terms, signal_terms = search_terms(client)
+    problem_terms, signal_terms, category_terms = search_terms(client)
     evidence = []
     for label, shape in QUERY_SHAPES:
         query = shape.format(name=name, domain=domain,
                              problem_terms=problem_terms,
-                             signal_terms=signal_terms)
+                             signal_terms=signal_terms,
+                             category_terms=category_terms)
         print(f"searching [{label}]: {query}")
         data = serper_search(api_key, query)
         results = data.get("organic") or []
@@ -261,7 +269,23 @@ Rules:
 7. Do not treat a missing fact as a pass. "No disqualifier found" is only true if
    you looked and the results covered it. If the results are silent on something
    the ICP cares about, say so in could_not_find rather than assuming the best.
-8. JUDGE THE NEED, NOT THE LABEL. An ICP is written from one company's marketing
+8. ALREADY USING SOMETHING SIMILAR IS GOOD NEWS, NOT BAD. Fill "uses_similar"
+   if the results show this company already pays for a product in the same
+   category as what is being sold - a named competitor, a platform that does the
+   same job, a tool it appears in a case study for.
+   A company already buying in this category has admitted the problem exists and
+   has a budget line for it. That is the strongest qualification there is, and
+   it RAISES the fit. Never treat it as a reason to skip.
+   The one exception is when the results show the company built the thing itself
+   in-house and clearly has no intention of replacing it, or when the tool they
+   use IS the product being sold. Those are disqualifiers.
+   If nothing turns up, set found false. Absence of evidence is not evidence
+   they have nothing.
+9. THE WHOLE ICP COUNTS. If it has more than one section naming who fits -
+   a "Who fits" table and an "Also fits" section, for example - a match in ANY
+   of them puts the company in the ICP. Set "in_icp" true and name the section
+   it matched in "why". Do not treat the first table as the only one.
+10. JUDGE THE NEED, NOT THE LABEL. An ICP is written from one company's marketing
    site and will never list every kind of buyer. A company whose industry label
    is missing from the "Who fits" table may still obviously have the need the
    product serves - an incubator needs flexible desks even if the table only
@@ -277,6 +301,7 @@ Rules:
 Verdict rules, applied in this order:
 - Any disqualifier from the "Who does NOT fit" section    -> SKIP
 - The company clearly does NOT have the need at all       -> SKIP
+- Already pays for something in this category            -> PROCEED
 - In a fits segment AND the signal is found               -> PROCEED
 - In a fits segment, signal NOT FOUND                     -> PROCEED
 - Not in a named segment, but plausibly HAS the need      -> UNCLEAR
@@ -341,6 +366,15 @@ def to_markdown(domain, client, result, evidence):
               f"[{seg.get('status', 'ASSERTED')}]",
               f"- Why: {seg.get('why', '-')}", ""]
 
+    uses = result.get("uses_similar") or {}
+    if uses.get("found"):
+        lines += ["## Already uses something similar", "",
+                  f"- {uses.get('what', '-')}  [{uses.get('status', 'ASSERTED')}]",
+                  f"- Evidence: {uses.get('evidence', '-')}",
+                  "- They already buy in this category, so the problem and the "
+                  "budget are both established. Write against the alternative, "
+                  "not against inertia.", ""]
+
     sig = result.get("signal") or {}
     lines += ["## Buying signal", "",
               f"- Found: {'yes' if sig.get('found') else 'no'}  "
@@ -391,6 +425,7 @@ def print_result(domain, client, result, quiet):
 
     seg = result.get("segment") or {}
     sig = result.get("signal") or {}
+    uses = result.get("uses_similar") or {}
     size = result.get("size") or {}
 
     print(f"\n{'=' * 60}")
@@ -407,6 +442,11 @@ def print_result(domain, client, result, quiet):
           f"[{sig.get('status', 'NOT FOUND')}]")
     if sig.get("what"):
         print(f"                 {sig['what']}")
+    if uses.get("found"):
+        print(f"  ALREADY USES : {uses.get('what', 'something in this category')} "
+              f"[{uses.get('status', 'ASSERTED')}]")
+        print(f"                 They already buy in this category - they have "
+              f"the problem and a budget.")
 
     for d in result.get("disqualifiers") or []:
         print(f"  DISQUALIFIER : {d}")

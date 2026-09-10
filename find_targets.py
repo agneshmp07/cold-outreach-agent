@@ -331,6 +331,61 @@ def resolve_domain(api_key, company):
 
 # --------------------------------------------------------------------- output
 
+SECTOR_SECTION = "## Also fits — sectors found by sourcing"
+
+
+def write_sectors_into_icp(client, sectors):
+    """
+    Teach the ICP what the sourcing step worked out.
+
+    Without this the two halves of the tool disagree: sourcing proposes hospital
+    chains by reasoning down the value chain, then the fit check flags them as
+    "not in a named segment" because the ICP - written from one marketing site -
+    never mentioned hospitals. The sourcing was right. So its conclusions go
+    into the ICP, and every later fit check knows about them.
+
+    The section is rewritten whole each run, so it never accumulates duplicates.
+    """
+    rel = str(client.get("icp_file") or "").strip()
+    if not rel:
+        return None
+    path = BASE_DIR / rel
+    if not path.exists():
+        return None
+
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return None
+
+    block = [SECTOR_SECTION, "",
+             "> Worked out by find_targets.py from what this company sells. "
+             "These count as fits: a company in one of these sectors is in the "
+             "ICP even if it does not match a row in the table above.", "",
+             "| Sector | Why they buy | Best fit inside it |",
+             "| --- | --- | --- |"]
+    for s in sectors:
+        block.append(f"| {s.get('sector', '')} | {s.get('why_they_buy', '')} | "
+                     f"{s.get('example_of_a_buyer', '')} |")
+    block.append("")
+    new_section = "\n".join(block)
+
+    if SECTOR_SECTION in text:
+        start = text.index(SECTOR_SECTION)
+        rest = text[start + len(SECTOR_SECTION):]
+        next_heading = rest.find("\n## ")
+        end = len(text) if next_heading == -1 else start + len(SECTOR_SECTION) + next_heading + 1
+        text = text[:start] + new_section + text[end:]
+    else:
+        text = text.rstrip() + "\n\n" + new_section
+
+    try:
+        path.write_text(text, encoding="utf-8")
+    except OSError:
+        return None
+    return path
+
+
 def to_markdown(client, sectors, candidates):
     lines = [f"# Prospects for {client['name']}", "",
              f"_{len(candidates)} company(ies) found._", "",
@@ -399,6 +454,11 @@ def main():
     for s in sectors:
         print(f"  - {s['sector']}")
         print(f"    {s.get('why_they_buy', '')}")
+
+    icp_updated = write_sectors_into_icp(client, sectors)
+    if icp_updated:
+        print(f"\n  (added these sectors to {icp_updated.name}, so the fit "
+              f"check knows about them)")
 
     results_block = gather(serper_key, sectors)
     if not results_block.strip():

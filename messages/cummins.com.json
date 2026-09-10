@@ -1,0 +1,89 @@
+{
+  "client": "Salesforce",
+  "client_domain": "salesforce.com",
+  "company_name": "Cummins Inc.",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 3,
+    "top_score": 5,
+    "pain_hypothesis": "Managing marketing, sales, and service operations across multiple global business units without a unified CRM and analytics platform risks disjointed customer tracking and siloed data.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "rotational sales workflows across business units",
+      "body": "Cummins offers a two-year Marketing and Sales development program across U.K. and European business units.\n\nWhen reps move through four six-month assignments across divisions, pipeline context and account history often get fractured between siloed tools.\n\nAt Salesforce, we help enterprise teams consolidate sales workflows and customer data onto a single platform.\n\nWhen reps switch between business units, what breaks first in tracking customer context across divisions?\n\nBest regards,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "Cummins offers a two-year Marketing and Sales development program in the U.K. and Europe featuring four six-month assignments across multiple business units.",
+      "trigger_link": "Rotating commercial staff across multiple business units makes maintaining consistent customer records difficult without a unified CRM platform.",
+      "word_count": 69,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "phased platform launches and customer tracking",
+      "body": "When global industrial manufacturers launch new engine platforms in phases, sales and service visibility often breaks down across business units.\n\nWhen customer inquiries, pipeline updates, and account data live in separate regional tools, account teams usually lose sight of cross-unit demand during early launch phases.\n\nDoes disjointed customer tracking across divisions during new product rollouts match your experience at Cummins, or are your teams already aligned on a single platform?\n\nBest regards,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "Cummins announced a phased launch plan on August 10, 2026, for its Model Year 2027 X10 and X15 engine platforms.",
+      "trigger_link": "Executing phased product rollouts across divisions requires a unified CRM and analytics platform to keep customer tracking aligned.",
+      "word_count": 73,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "emerging digital tools and commercial workflows",
+      "body": "Cummins recently joined Emerald Technology Ventures as a Limited Partner to expand access to digital tools and emerging technologies.\n\nAs you evaluate new technologies, connecting customer records and automated workflows across divisions requires a centralized platform. Salesforce unifies customer data, AI agents, and analytics.\n\nIf we brought you a simple view of how enterprise teams unify sales workflows and automated AI agents without disrupting existing systems, would you be open to looking at it? No cost or commitment attached.\n\nBest regards,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "Cummins joined Emerald Technology Ventures as a Limited Partner on August 28, 2026, to expand access to emerging technologies, startup partnerships, and digital tools.",
+      "trigger_link": "Expanding access to emerging digital tools connects directly to deploying enterprise platforms for AI agents and unified workflows.",
+      "word_count": 82,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw Cummins joined Emerald Technology Ventures to expand access to digital tools. I work on enterprise CRM platforms at Salesforce—would love to connect here.",
+      "trigger_used": "Cummins joined Emerald Technology Ventures as a Limited Partner on August 28, 2026, to expand access to emerging technologies, startup partnerships, and digital tools.",
+      "trigger_link": "Connecting around Cummins' initiative to adopt emerging digital tools.",
+      "char_count": 158,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. With Cummins running its European sales development program across multiple business units, how do your teams keep customer history and pipeline context unified when reps rotate between divisions?",
+      "trigger_used": "Cummins offers a two-year Marketing and Sales development program in the U.K. and Europe featuring four six-month assignments across multiple business units.",
+      "trigger_link": "Cross-unit sales rotations present challenges in unifying customer history across systems.",
+      "char_count": 219,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "With your phased launch plan for the 2027 X10 and X15 platforms underway, we are studying how industrial teams coordinate cross-unit sales workflows. I would be glad to share what we learn as we build out our research on unified CRM platforms if helpful.",
+      "trigger_used": "Cummins announced a phased launch plan on August 10, 2026, for its Model Year 2027 X10 and X15 engine platforms.",
+      "trigger_link": "Managing phased product launches generates useful findings on unifying cross-unit sales workflows.",
+      "char_count": 254,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "WEAK TRIGGERS - the best one scores 5/10. The facts are real but their link to what you sell is loose. Expect a lower reply rate, and read the 'why it connects' line on each message before sending."
+  ]
+}

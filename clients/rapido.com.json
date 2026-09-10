@@ -1,0 +1,26 @@
+{
+  "domain": "rapido.com",
+  "name": "Recharge",
+  "one_liner": "An online store where consumers buy digital gift cards, prepaid payment cards, and mobile top-ups.",
+  "what_you_sell": "Digital gift cards, prepaid payment cards, mobile phone top-ups, and game vouchers.",
+  "target_group": "Partnership managers and channel sales directors at telecom carriers, game publishers, and prepaid financial service providers with 50 to 5,000 employees. A good prospect is a business that issues prepaid cards or digital airtime and needs to reach online consumers globally.",
+  "sells_to_businesses": false,
+  "b2c_note": "The site is a consumer online store, but its business partners are telecom carriers, game publishers, and fintech issuers supplying prepaid inventory for resale.",
+  "business_model": "marketplace",
+  "who_uses_it": "Consumers who want to buy mobile top-ups, game vouchers, and prepaid payment cards online.",
+  "who_pays_for_it": "Individual consumers purchasing cards, alongside telecom carriers and brand partners selling their vouchers on the platform.",
+  "who_buys_it": "Telecom operators, gaming companies, and prepaid card issuers seeking digital retail distribution channels.",
+  "sender": "",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-rapido.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": false,
+  "_claims_to_check": [
+    "Claims to be the largest online store for payment cards, gift cards, and mobile top-ups.",
+    "Claims to have 50+ million customers.",
+    "Claims 99.7% of orders are delivered within 5 seconds.",
+    "Claims to offer over 16,000 products."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

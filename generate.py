@@ -35,10 +35,12 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from triggers import MODEL, ask_gemini, die, genai
+from triggers import (MODEL, ask_gemini, build_corpus, die, flatten_pages,
+                      genai, load_scrape)
 
 BASE_DIR = Path(__file__).resolve().parent
 CLIENTS_DIR = BASE_DIR / "clients"
+DATA_DIR = BASE_DIR / "data"
 TRIGGERS_DIR = BASE_DIR / "triggers"
 OUT_DIR = BASE_DIR / "messages"
 
@@ -52,7 +54,11 @@ MAX_CONNECTION_NOTE_CHARS = 180
 
 # Below this, the triggers are not specific enough to be worth a cold email.
 # This is a refusal, not a warning. --force overrides it.
-MIN_TOP_SCORE = 6
+#
+# Started at 6, lowered to 4. Six blocked too much: a 5/10 trigger is a real
+# fact with a loose connection to what is being sold, which is a weak email
+# rather than a dishonest one. Four still stops the genuinely empty cases.
+MIN_TOP_SCORE = 4
 
 # A phrase this long, repeated across this many of the six messages, means the
 # batch reads like one sentence pasted repeatedly. Detected rather than listed,
@@ -402,13 +408,117 @@ HARD RULES:
 16. If a trigger has no date attached, do not imply it is recent.
 17. Never name an individual in connection with a departure, resignation or
     exit. A leadership vacancy may be referenced without naming who left.
-18. Being early is not a weakness to hide. A founder saying "we are building
+18. IF A TRIGGER SAYS THEY ALREADY USE A COMPETING PRODUCT, do not attack it
+    and do not pretend not to know. Name the category, not the vendor, and ask
+    what it does not do for them - "most teams running something for this end up
+    working around X; is that true for you?". A company already paying for this
+    is easier to talk to than one that has never bought, because you do not have
+    to argue the problem exists. Never claim to be better than a named product;
+    you have no evidence for that.
+19. Being early is not a weakness to hide. A founder saying "we are building
     this, here is what we do not know yet" gets replies. A founder pretending
     to have scale gets deleted. Write like the former.
-19. Write correct English. Every sentence must parse. Check verb forms.
+20. Write correct English. Every sentence must parse. Check verb forms.
 
 Reply with JSON only, matching this shape exactly:
 {SCHEMA_EXAMPLE}"""
+
+
+def load_target_corpus(domain):
+    """
+    Read whatever scrape.py saved about the target company.
+
+    Returns "" for a site that could not be read at all. That is survivable:
+    the no-trigger prompt is told to say even less when it has nothing, which
+    is the honest response to knowing nothing.
+    """
+    path = DATA_DIR / f"{domain}.json"
+    if not path.exists():
+        return ""
+    try:
+        pages = flatten_pages(load_scrape(path))
+    except (SystemExit, Exception):
+        return ""
+    if not pages:
+        return ""
+    try:
+        return build_corpus(pages)[:20000]
+    except Exception:
+        return ""
+
+
+def build_no_trigger_prompt(client, company_name, corpus):
+    """
+    Write when nothing dated or newsworthy was found.
+
+    This is weaker outreach and it says so. There is no hook, so the messages
+    lean on what the company says about ITSELF on its own site, plus an honest
+    question. What it must never do is fill the gap with a fact nobody found -
+    that is the failure this whole pipeline exists to prevent, and it does not
+    become acceptable just because the research came back empty.
+    """
+    return f"""You write cold outreach on behalf of {client['sender']}, who runs
+{client['name']} - {client['one_liner']}.
+
+WHAT {client['name'].upper()} SELLS: {client.get('what_you_sell') or client['one_liner']}
+WHO PAYS: {client.get('who_pays_for_it') or client.get('who_buys_it') or 'not stated'}
+
+TARGET COMPANY: {company_name}
+
+NO TRIGGER WAS FOUND. There is no funding round, no hiring signal, no dated
+news. You are writing without a hook, and you must not invent one.
+
+The only thing you know about this company is what its own website says, below.
+
+WHAT {client['name'].upper()} MAY NOT CLAIM - this overrides everything:
+{format_cannot_claim(client)}
+
+THINGS {client['sender'].upper()} HAS ACTUALLY MADE:
+{format_assets(client)}
+
+Write exactly 3 emails and exactly 3 LinkedIn messages.
+
+EMAILS - one each, in this order:
+- "what-they-do": open by naming, accurately and in your own words, what this
+  company actually does according to their site. Then say in one line what
+  {client['name']} does and why it might matter to a company like theirs. End
+  with one question about how they handle that today.
+- "problem-check": lead with one specific thing that is usually broken for
+  companies of this kind in the area {client['name']} serves. Ask whether it
+  matches their experience. Do not assert that it is their problem.
+- "conditional-ask": if we brought you <what the product produces>, would you
+  look at it? Make clear a yes costs them nothing.
+
+LINKEDIN - one each, in this order:
+- "connection-note": under {MAX_CONNECTION_NOTE_CHARS} characters, references
+  what they do, no pitch, no link.
+- "post-accept-dm": one specific question about how they handle the thing the
+  product addresses.
+- "value-first": offer something from the verified-assets list. If that list is
+  empty, offer to share what {client['sender']} learns as they build instead.
+
+HARD RULES:
+1. Use ONLY what the website below says. No funding, no headcount, no news, no
+   "I saw that...", no "congratulations on...". You did not see anything.
+2. No numbers, percentages or multipliers anywhere.
+3. Do NOT imply this message is prompted by anything recent. There is no recent
+   event. No "following your...", no "after your...", no "with your new...".
+4. Do NOT pretend to have researched them deeply. One accurate sentence about
+   what they do, drawn from their own site, is the whole of your knowledge.
+5. Never offer a document, checklist or guide that is not in the verified list.
+6. Under {MAX_EMAIL_WORDS} words per email. Under {MAX_LINKEDIN_CHARS} per DM.
+7. One question per message. Only one email may ask for a call.
+8. Sign emails as {client['sender']}. Invent no phone number or link.
+9. Leave "trigger_used" empty. Put in "trigger_link" one sentence on why a
+   company like this one might care about what {client['name']} sells.
+10. Write correct English. Every sentence must parse.
+
+Reply with JSON only, matching this shape exactly:
+{SCHEMA_EXAMPLE}
+
+--- THEIR WEBSITE ---
+{corpus or "nothing was scraped - say even less"}
+--- END WEBSITE ---"""
 
 
 def build_proofread_prompt(items):
@@ -604,7 +714,7 @@ def check_message(message, text, label, known_facts, client, overclaim_pattern,
         warnings.append(f"{label}: offers '{asset}' - that is not in "
                         f"verified_assets, so it does not exist. DO NOT SEND.")
 
-    if not message["grounded"]:
+    if known_facts and not message["grounded"]:
         warnings.append(f"{label}: cites a trigger that is not in the triggers "
                         f"file - check it for invented facts")
 
@@ -615,7 +725,8 @@ def check_message(message, text, label, known_facts, client, overclaim_pattern,
     return fake, claim, asset
 
 
-def clean_result(data, source, client, overclaim_pattern, warnings):
+def clean_result(data, source, client, overclaim_pattern, warnings,
+                 no_trigger_flag=False):
     known_facts = [normalise(t.get("fact")) for t in source["triggers"]]
     known_facts = [f for f in known_facts if f]
 
@@ -717,6 +828,7 @@ def clean_result(data, source, client, overclaim_pattern, warnings):
         "client_domain": client["_slug"],
         "company_name": source.get("company_name") or "unknown",
         "disqualifiers": source.get("disqualifiers") or [],
+        "no_trigger": no_trigger_flag,
         "generated_from": {
             "trigger_count": len(source["triggers"]),
             "top_score": max((t.get("relevance_score", 0) for t in source["triggers"]),
@@ -747,6 +859,12 @@ def to_markdown(result):
     lines = [f"# {result['client']} -> {result['company_name']}", "",
              f"_{info['trigger_count']} trigger(s) found, top relevance "
              f"{info['top_score']}/10._", ""]
+
+    if result.get("no_trigger"):
+        lines += ["> **No trigger found.** Nothing dated or newsworthy turned up "
+                  "for this company, so these messages have no hook - they lean "
+                  "on what the company says about itself. Expect a far lower "
+                  "reply rate.", ""]
 
     for d in result.get("disqualifiers") or []:
         why = d.get("why") or ""
@@ -849,8 +967,7 @@ def main():
     if disqualifiers and not force:
         refuse_disqualified(domain, source, disqualifiers)
 
-    if source.get("no_trigger_found") or not triggers:
-        refuse_no_trigger(domain, source, in_path)
+    no_trigger = bool(source.get("no_trigger_found")) or not triggers
 
     warnings = []
     for d in disqualifiers:
@@ -859,7 +976,19 @@ def main():
                         f"DO NOT SEND without checking the source.")
     top_score = max((t.get("relevance_score", 0) for t in triggers), default=0)
 
-    if top_score < MIN_TOP_SCORE:
+    if not no_trigger and top_score < 6:
+        warnings.append(f"WEAK TRIGGERS - the best one scores {top_score}/10. "
+                        f"The facts are real but their link to what you sell is "
+                        f"loose. Expect a lower reply rate, and read the 'why it "
+                        f"connects' line on each message before sending.")
+
+    if no_trigger:
+        warnings.append("NO TRIGGER FOUND - nothing dated or newsworthy was "
+                        "found for this company, so these messages have no hook. "
+                        "They lean on what the company says about itself. Expect "
+                        "a far lower reply rate than trigger-backed messages.")
+
+    if not no_trigger and top_score < MIN_TOP_SCORE:
         if not force:
             die(f"Top trigger for {source.get('company_name') or domain} scores "
                 f"{top_score}/10, below the floor of {MIN_TOP_SCORE}.\n"
@@ -877,10 +1006,17 @@ def main():
     print(f"Read {len(triggers)} trigger(s) from {in_path}")
     print(f"Asking {MODEL} for 3 emails + 3 LinkedIn messages...")
 
-    prompt = build_prompt(client, source.get("company_name") or domain, triggers,
-                          source.get("pain_hypothesis", ""))
+    company_name = source.get("company_name") or domain
+    if no_trigger:
+        print("No trigger found - writing from their website instead.")
+        prompt = build_no_trigger_prompt(client, company_name,
+                                         load_target_corpus(domain))
+    else:
+        prompt = build_prompt(client, company_name, triggers,
+                              source.get("pain_hypothesis", ""))
     result = clean_result(parse_response(ask_gemini(api, prompt), domain),
-                          source, client, overclaim_pattern, warnings)
+                          source, client, overclaim_pattern, warnings,
+                          no_trigger_flag=no_trigger)
     result["generated_from"]["forced"] = force and top_score < MIN_TOP_SCORE
 
     if do_proofread:

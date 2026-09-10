@@ -1,0 +1,26 @@
+{
+  "domain": "zoho.com",
+  "name": "Zoho",
+  "one_liner": "Zoho builds cloud software applications for business operations, including sales, HR, customer support, and accounting.",
+  "what_you_sell": "Cloud-based business management software applications, including CRM, HR software (Zoho People), business email, accounting software, and an all-in-one operational suite (Zoho One).",
+  "target_group": "Zoho sells to businesses ranging from startups to large enterprises across various industries. Good prospects are companies seeking to digitize, unify, or automate operational workflows like CRM, support, accounting, or HR using cloud software. They are suitable candidates when looking to reduce software licensing costs or replace fragmented tools with an integrated platform.",
+  "sells_to_businesses": true,
+  "b2c_note": "N/A",
+  "business_model": "direct",
+  "who_uses_it": "Employees, managers, sales representatives, customer support agents, and HR teams who log in daily to conduct business operations.",
+  "who_pays_for_it": "Business owners, IT leaders, or department heads who purchase software licenses for their organization.",
+  "who_buys_it": "Business owners and corporate executives buying software subscriptions to manage company operations.",
+  "sender": "agnesh_mp@pg27.mesaschool.co",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-zoho.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims to have 130M+ users globally across 150+ countries.",
+    "Claims 50K+ businesses actively manage HR processes with Zoho People.",
+    "Claims 1M+ users rely on Zoho People for HR management.",
+    "Claims to offer 50+ applications in Zoho One starting at a specific undisclosed per-user/month price point."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

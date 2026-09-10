@@ -1,0 +1,169 @@
+{
+  "client": "Zoho",
+  "client_domain": "zoho.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "B2B wholesale distributors and industrial suppliers",
+      "why_they_buy": "They need an affordable, unified platform to connect sales pipelines, back-office accounting, and operational workflows without paying expensive per-seat software fees across large teams.",
+      "example_of_a_buyer": "A 75-person regional industrial hardware distributor looking to replace fragmented spreadsheets and legacy desktop accounting software."
+    },
+    {
+      "sector": "IT service providers and managed service providers (MSPs)",
+      "why_they_buy": "They require integrated CRM, HR, and operational management tools under a single license model to handle client retention and rapid employee scaling.",
+      "example_of_a_buyer": "A 40-person managed service provider experiencing fast headcount growth and seeking to automate employee onboarding and sales pipeline tracking."
+    },
+    {
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why_they_buy": "They need cloud-based business tools to streamline client communication, employee HR, and administrative workflows across distributed office and field teams.",
+      "example_of_a_buyer": "A mid-sized logistics coordinator with 120 employees across three regional fulfillment centers seeking to unify scattered operational software."
+    },
+    {
+      "sector": "Multi-location outpatient clinics and dental groups",
+      "why_they_buy": "They need structured HR onboarding, administrative management, and customer support tools on secure, privacy-focused cloud infrastructure that guarantees user data is never monetized.",
+      "example_of_a_buyer": "A growing healthcare practice group with 15 locations needing to centralize HR processes and employee record-keeping across all sites."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Craftnika",
+      "sector": "B2B wholesale distributors and industrial suppliers",
+      "why": "B2B furniture manufacturer expanding across multiple cities, needing CRM and operational suite software to manage client orders.",
+      "seen_in": "Craftnika Expands Custom Furniture Manufacturing Across 120+ Indian Cities",
+      "domain": "craftnika.com"
+    },
+    {
+      "company": "Inthing",
+      "sector": "B2B wholesale distributors and industrial suppliers",
+      "why": "Fashion and apparel manufacturer expanding into international markets, requiring business email, CRM, and accounting software.",
+      "seen_in": "Inthing Targets Overseas Markets with Scaled Manufacturing Network",
+      "domain": "inthingjeans.com"
+    },
+    {
+      "company": "Food Service India",
+      "sector": "B2B wholesale distributors and industrial suppliers",
+      "why": "Food B2B solution and seasoning provider scaling operations, benefiting from sales CRM and HR management software.",
+      "seen_in": "Food Service India, Chef's Art, seasoning brand aims to target Rs 500 crore turnover in next two years",
+      "domain": "foodserviceindia.com"
+    },
+    {
+      "company": "Bosch India",
+      "sector": "B2B wholesale distributors and industrial suppliers",
+      "why": "Large industrial and consumer technology manufacturer requiring enterprise business management software and employee HR tools.",
+      "seen_in": "Bosch India: Navigating Dual Identities — Brand Positioning Across B2B and Consumer Technology",
+      "domain": "bosch.in"
+    },
+    {
+      "company": "Rajesh Exports",
+      "sector": "B2B wholesale distributors and industrial suppliers",
+      "why": "Gold and jewellery manufacturer and wholesale exporter needing operational suite, accounting, and HR management tools.",
+      "seen_in": "29 Top Wholesale Companies in India · August 2026",
+      "domain": "rajeshindia.com"
+    },
+    {
+      "company": "Mahindra Logistics",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Integrated 3PL logistics provider managing transportation and warehousing operations that require HR, CRM, and accounting software.",
+      "seen_in": "Top 50 3PL Companies in India: Revolutionizing the Logistics ...",
+      "domain": "mahindralogistics.com"
+    },
+    {
+      "company": "Blue Dart",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Express logistics and 3PL provider requiring enterprise-wide HR software, business email, and operational tools.",
+      "seen_in": "Top 10 3PL Logistics Companies Transforming Supply ...",
+      "domain": "bluedart.com"
+    },
+    {
+      "company": "AWL India",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Third-party logistics firm operating warehouses across India needing multi-location HR, sales tracking, and operational software.",
+      "seen_in": "Best 3PL Companies in India - 2026 Reviews",
+      "domain": "awlindia.com<"
+    },
+    {
+      "company": "Yusen Logistics India",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Logistics and supply chain management provider requiring business management suites, accounting, and HR software.",
+      "seen_in": "3PL Companies Directory in India | PDF",
+      "domain": "yusen-logistics.com"
+    },
+    {
+      "company": "VRL Logistics",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Surface logistics and transportation service provider needing enterprise accounting, workforce management, and CRM tools.",
+      "seen_in": "Top 3PL Companies in Delhi 2026",
+      "domain": "vrlgroup.in"
+    },
+    {
+      "company": "OM Trans Logistics",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "3PL and freight forwarding company needing central accounting, HR software, and customer management solutions.",
+      "seen_in": "Top 3PL Companies in Delhi 2026",
+      "domain": "omtrans.in"
+    },
+    {
+      "company": "20Cube 3PL Solutions",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Contract logistics provider scaling operations, benefiting from CRM, operational software, and HR systems.",
+      "seen_in": "Investcorp puts $60M into 20Cube logistics, eyes $1B India bet",
+      "domain": "20cube.com"
+    },
+    {
+      "company": "Total Quality Logistics",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Third-party logistics firm requiring robust sales CRM, corporate email, and accounting software.",
+      "seen_in": "18 Third Party Logistics (3PL) Companies to Know",
+      "domain": "tql.com"
+    },
+    {
+      "company": "CEVA Logistics",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Global logistics provider requiring enterprise HR software, accounting systems, and operational suites.",
+      "seen_in": "A&A's Top 50 Global Third-Party Logistics Providers (3PLs)",
+      "domain": "cevalogistics.com"
+    },
+    {
+      "company": "Kuehne + Nagel",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "Global freight forwarding firm managing worldwide supply chains requiring business communications and management suites.",
+      "seen_in": "A&A's Top 50 Global Third-Party Logistics Providers (3PLs)",
+      "domain": "kuehne-nagel.com"
+    },
+    {
+      "company": "Nippon Express",
+      "sector": "Freight forwarding and third-party logistics (3PL) providers",
+      "why": "International logistics company managing workforce and client accounts needing business software and CRM tools.",
+      "seen_in": "A&A's Top 50 Global Third-Party Logistics Providers (3PLs)",
+      "domain": "nipponexpress.com"
+    },
+    {
+      "company": "Clove Dental",
+      "sector": "Multi-location outpatient clinics and dental groups",
+      "why": "Dental clinic chain operating multiple locations, needing centralized HR software, business email, and administrative CRM.",
+      "seen_in": "Exploring the Evolution and Future of Dental Groups in India",
+      "domain": "clovedental.in"
+    },
+    {
+      "company": "Sabka Dentist",
+      "sector": "Multi-location outpatient clinics and dental groups",
+      "why": "Multi-center dental group requiring central workforce management, accounting software, and patient communication tools.",
+      "seen_in": "Exploring the Evolution and Future of Dental Groups in India",
+      "domain": "sabkadentist.com"
+    },
+    {
+      "company": "Apollo Hospitals",
+      "sector": "Multi-location outpatient clinics and dental groups",
+      "why": "Multispecialty hospital network managing extensive staff, administration, corporate communications, and patient support.",
+      "seen_in": "Apollo Hospitals: Best Hospital in India | Best Multispeciality ...",
+      "domain": "apollohospitals.com"
+    },
+    {
+      "company": "Partha Dental",
+      "sector": "Multi-location outpatient clinics and dental groups",
+      "why": "Multi-branch dental healthcare chain requiring HR software, multi-location administrative tools, and CRM.",
+      "seen_in": "Dental Treatment in India - Best Dentists in India",
+      "domain": "parthadental.com"
+    }
+  ]
+}

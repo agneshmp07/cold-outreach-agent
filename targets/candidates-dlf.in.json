@@ -1,0 +1,162 @@
+{
+  "client": "DLF",
+  "client_domain": "dlf.in",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "IT services and software engineering companies",
+      "why_they_buy": "They need large-scale Grade-A IT park space with high-end infrastructure to accommodate growing engineering workforces and Global Capability Centers.",
+      "example_of_a_buyer": "A US-based enterprise software firm establishing or expanding a 500+ seat offshore development center in Gurugram or Chennai."
+    },
+    {
+      "sector": "Apparel, luxury, and consumer retail chains",
+      "why_they_buy": "They require prime storefront leases in high-footfall tier-1 shopping malls to expand their physical sales footprint and establish regional flagship stores.",
+      "example_of_a_buyer": "A multinational fashion brand scaling its brick-and-mortar presence across major Indian metropolitan shopping centers."
+    },
+    {
+      "sector": "Banking and financial services institutions",
+      "why_they_buy": "They need secure, prestigious commercial office spaces in established business districts for corporate headquarters and regional back-office hubs.",
+      "example_of_a_buyer": "A private sector bank or wealth management institution consolidating city operations into a centralized corporate office in DLF CyberCity."
+    },
+    {
+      "sector": "Business process outsourcing and shared services centers",
+      "why_they_buy": "They require high-density, 24/7 operational office spaces with uninterrupted power backup and robust transport connectivity for large shift-based teams.",
+      "example_of_a_buyer": "A global BPO company opening a new 1,000-seat operational and customer service center in North India."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Uber",
+      "sector": "Technology / Mobility",
+      "why": "Opening two new campuses in India for product development and operations, requiring office space.",
+      "seen_in": "Uber to open 2 campuses in India to support product development, operations",
+      "domain": "uber.com"
+    },
+    {
+      "company": "Amazon",
+      "sector": "E-Commerce & Technology",
+      "why": "Investing heavily in expanding e-commerce, AI, and cloud infrastructure across India.",
+      "seen_in": "Amazon Plans $48 Billion India Investment Through 2030",
+      "domain": "amazon.com"
+    },
+    {
+      "company": "Kroger",
+      "sector": "Retail",
+      "why": "Establishing a new capability center in India for IT and data operations, requiring commercial office space.",
+      "seen_in": "Kroger plans to shift jobs to new capability center in India, analyst says",
+      "domain": "kroger.com"
+    },
+    {
+      "company": "ECCO",
+      "sector": "Footwear & Retail",
+      "why": "Expanding retail footprint across India by opening brand stores in commercial retail malls.",
+      "seen_in": "ECCO Opens 10th Store in India at Phoenix Palladium Ahmedabad",
+      "domain": "ecco.com"
+    },
+    {
+      "company": "Gap",
+      "sector": "Apparel & Retail",
+      "why": "Expanding physical store presence across shopping centers in major Indian cities.",
+      "seen_in": "Retail India News: Gap Expands Bengaluru Presence with New Store",
+      "domain": "gap.com"
+    },
+    {
+      "company": "Dilmah",
+      "sector": "Food & Beverage / Retail",
+      "why": "Launching luxury tea lounges and expanding commercial retail operations across India.",
+      "seen_in": "Dilmah Expands in India: $15 Million Luxury Tea Investment, Innovative Lounges and Much More",
+      "domain": "dilmahtea.com"
+    },
+    {
+      "company": "De Beers",
+      "sector": "Luxury & Jewelry Retail",
+      "why": "Targeting expansion up to 100 retail stores in India for its Forevermark brand.",
+      "seen_in": "Forevermark Diamond Jewellery by De Beers targets 100 India stores, $100 million biz in four years",
+      "domain": "debeers.com"
+    },
+    {
+      "company": "Lexitas",
+      "sector": "Legal & Professional Services",
+      "why": "Setting up a new Global Capability Center, AI Innovation Hub, and Operations Center facility in India.",
+      "seen_in": "Lexitas Expands Global Operations with India Global Capability Center, AI Innovation Hub and Strategic Operations Center in a new facility",
+      "domain": "lexitaslegal.com"
+    },
+    {
+      "company": "Octave",
+      "sector": "Enterprise Software",
+      "why": "Scaling its tech centre in Hyderabad to 2,000 engineers, driving demand for corporate office space.",
+      "seen_in": "How is Octave Scaling Its Hyderabad Tech Centre?",
+      "domain": "octave.co.in"
+    },
+    {
+      "company": "Bank of America",
+      "sector": "Banking & Financial Services",
+      "why": "Expanding corporate investment, joint ventures, and operations requiring office infrastructure in India.",
+      "seen_in": "Bank of America Enters into a Joint Venture Agreement with Jio Financial Services Limited to Acquire up to 49.9% in Jio Credit Limited",
+      "domain": "bankofamerica.com"
+    },
+    {
+      "company": "Jio Financial Services",
+      "sector": "Financial Services",
+      "why": "Growing financial services and joint venture initiatives requiring commercial office presence.",
+      "seen_in": "Bank of America Enters into a Joint Venture Agreement with Jio Financial Services Limited to Acquire up to 49.9% in Jio Credit Limited",
+      "domain": "jfs.in"
+    },
+    {
+      "company": "Mizuho Financial Group",
+      "sector": "Banking & Financial Services",
+      "why": "Expanding corporate and investment banking headcount in India.",
+      "seen_in": "Mizuho targets South Korea and India hires to join top dealmaking ranks",
+      "domain": "mizuhogroup.com"
+    },
+    {
+      "company": "NVIDIA",
+      "sector": "Technology & Semiconductors",
+      "why": "Partnering with industrial leaders in India to scale local AI technology operations.",
+      "seen_in": "NVIDIA and Global Industrial Software Leaders Partner With India’s Largest Manufacturers to Drive AI Boom",
+      "domain": "nvidia.com"
+    },
+    {
+      "company": "Aditya Birla Fashion and Retail",
+      "sector": "Apparel & Retail",
+      "why": "Operates and expands networks of fashion retail stores and luxury labels across malls in India.",
+      "seen_in": "Leading Fashion & Retail Brands India",
+      "domain": "abfrl.com"
+    },
+    {
+      "company": "Fabindia",
+      "sector": "Apparel & Retail",
+      "why": "Major retail brand operating and leasing physical consumer retail stores across Indian cities.",
+      "seen_in": "26 Top and Best Clothing Brands for Women in India for 2026",
+      "domain": "fabindia.com"
+    },
+    {
+      "company": "Zara",
+      "sector": "Apparel & Retail",
+      "why": "Global fashion brand occupying retail mall properties across major Indian markets.",
+      "seen_in": "26 Top and Best Clothing Brands for Women in India for 2026",
+      "domain": "zara.com"
+    },
+    {
+      "company": "HDFC Bank",
+      "sector": "Banking & Financial Services",
+      "why": "Requires corporate real estate and retail branch locations across urban India.",
+      "seen_in": "Top Banking Companies in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "ICICI Bank",
+      "sector": "Banking & Financial Services",
+      "why": "Major financial services provider requiring corporate office space and commercial branch locations.",
+      "seen_in": "Top Banking Companies in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Siemens",
+      "sector": "Industrial Engineering & Software",
+      "why": "Expanding industrial automation and software operations across technological hubs in India.",
+      "seen_in": "NVIDIA and Global Industrial Software Leaders Partner With India’s Largest Manufacturers to Drive AI Boom",
+      "domain": "siemens.com"
+    }
+  ]
+}

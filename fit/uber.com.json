@@ -1,0 +1,378 @@
+{
+  "domain": "uber.com",
+  "client": "DLF",
+  "client_domain": "dlf.in",
+  "checked_against": "icp-dlf.in.md",
+  "result": {
+    "company_name": "Uber",
+    "what_they_do": "Uber develops and operates proprietary technology applications providing ridesharing, meal delivery, and freight logistics services globally.",
+    "size": {
+      "estimate": "30,400 to 166,935 employees",
+      "evidence": "LinkedIn headcount reports 166,935 while recent official filings report 30,400 employees; company profile lists 10,001+ employees [9][10].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Information Technology & Services / Software Engineering Companies",
+      "in_icp": true,
+      "why": "Uber is a major technology and software enterprise matching the IT & Services segment defined in the ICP [7][9].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No specific search result shows job postings for real estate/facilities roles in India or announcements of office expansions in Indian commercial hubs.",
+      "evidence": "Search results list job locations like NYC, Amsterdam, SF, Dallas, Dubai, and Sydney, but show no Indian real estate expansion signals [42][43][44][45][46].",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "No evidence found that Uber is currently leasing from DLF or similar Indian commercial IT park developers.",
+      "evidence": "Search results show Uber for Business partnerships with real estate firms like CBRE and Simon Property Group for rider transportation/delivery, not commercial space leasing [18][19].",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Uber fits the technology and software enterprise segment outlined in the ICP. Per verdict rules, matching a fit segment without disqualifiers results in PROCEED even when specific external buying signals are not found in the search results.",
+    "could_not_find": [
+      "Whether Uber is currently hiring real estate, expansion, or facilities managers based in India.",
+      "Whether Uber is actively searching for commercial office or IT park space in Gurugram, Delhi NCR, or Chennai."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About Us",
+      "snippet": "Want to learn more about Uber? Read about our leadership, customers, the Uber platform, the communities we serve, and more!",
+      "link": "https://www.uber.com/us/en/about/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Uber (company) | Business and Management",
+      "snippet": "Uber functions much like a standard taxicab service, in that clients request transportation to a specified destination in exchange for payment. Despite this \" ...",
+      "link": "https://www.ebsco.com/research-starters/business-and-management/uber-company",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Uber",
+      "snippet": "This is the latest accepted revision, reviewed on 6 September 2026. For other uses, see Über and Uber (disambiguation).",
+      "link": "https://en.wikipedia.org/wiki/Uber",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Uber Technologies Inc Company Profile - Overview",
+      "snippet": "It offers services such as ridesharing, delivery, and freight logistics. Uber's products and services cater to consumers, drivers, merchants, shippers, and ...",
+      "link": "https://www.globaldata.com/company-profile/uber-technologies-inc/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Uber Apps, Products, and Offerings",
+      "snippet": "Need a ride? Food? Money? Explore the many ways people and businesses leverage Uber's apps and technology, and learn how we're innovating transportation.",
+      "link": "https://www.uber.com/us/en/about/uber-offerings/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Uber for Business",
+      "snippet": "Uber for Business makes it easier for companies of any size to manage rides and meal deliveries. Our seamless global platform helps organizations support and ...",
+      "link": "https://www.uber.com/us/en/business/articles/what-is-uber-for-business/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Uber Technologies, Inc. (UBER) Company Profile & Facts",
+      "snippet": "Uber Technologies, Inc. develops and operates proprietary technology applications in the United States, Canada, Latin America, Europe, the Middle East, Africa, ...",
+      "link": "https://finance.yahoo.com/quote/UBER/profile/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Uber",
+      "snippet": "We are Uber. The go-getters. The kind of people who are relentless about our mission to help people go anywhere and get anything and earn their way.",
+      "link": "https://www.linkedin.com/company/uber-com",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Uber",
+      "snippet": "Website: http://www.uber.com. External link for Uber ; Industry: Internet Marketplace Platforms ; Company size: 10,001+ employees ; Headquarters: San Francisco, ...",
+      "link": "http://www.<b>uber</b>.com.",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Uber Employees (166935): Headcount Trends 2026",
+      "snippet": "Uber has 166,935 employees according to LinkedIn, compared with 30,400 reported in its most recent official filings. The LinkedIn figure counts everyone who ...",
+      "link": "https://altindex.com/ticker/uber/employees-linkedin",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Ex-Uber workers crowdsourcing jobs",
+      "snippet": "After Uber laid off 400 people in its marketing department, current and past employees of the ride-hailing giant pulled together to help ...",
+      "link": "https://www.linkedin.com/feed/news/ex-uber-workers-crowdsourcing-jobs-4415667/",
+      "date": "Aug 8, 2019"
+    },
+    {
+      "asking_about": "size",
+      "title": "Uber Cuts 23% of People Team Including HR and Recruitment ...",
+      "snippet": "Uber is cutting 23% of its people team, which includes human resources and recruitment staff. CEO Dara Khosrowshahi said in a memo that the ...",
+      "link": "https://www.linkedin.com/posts/cnbc_uber-slashes-people-division-by-nearly-a-activity-7468024972045688832-uQwS",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Uber reduces its HR workforce by 23% under new leader",
+      "snippet": "Uber Technologies is laying off 23% of its People and Places division, which includes HR and recruitment roles, as part of a restructuring ...",
+      "link": "https://www.linkedin.com/news/story/uber-reduces-its-hr-workforce-by-23-under-new-leader-8933722/",
+      "date": "Jun 3, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Find Employees at Uber on LinkedIn — Free Lookup - Thirdwatch",
+      "snippet": "To find Uber employees, point the scraper at Uber's LinkedIn company page. It surfaces public LinkedIn profiles associated with Uberand returns the actual list ...",
+      "link": "https://thirdwatch.dev/tools/linkedin-employee-finder/uber",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Harry Swinnerton's Post",
+      "snippet": "OK, time to make this LinkedIn official. Last week, my role at Uber was cut, along with around 10% of the company globally.",
+      "link": "https://www.linkedin.com/posts/hjhswinnerton_ok-time-to-make-this-linkedin-official-activity-7503700220241846272-j7cH",
+      "date": "5 hours ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Uber to cut more than 3K jobs in massive restructuring",
+      "snippet": "Uber Technologies will lay off about 3,300 employees, or 10% of staff, in its largest cuts since the COVID-19 pandemic, to better navigate ...",
+      "link": "https://www.linkedin.com/news/story/uber-to-cut-more-than-3k-jobs-in-massive-restructuring-7560948/",
+      "date": "Sep 2, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Explore new property solutions",
+      "snippet": "Whether you manage residential or commercial real estate, get in touch with an Uber for Business specialist to learn more about how we can partner together.",
+      "link": "https://businesses.uber.com/property",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Streamlining transportation and delivery for the modern ...",
+      "snippet": "Through our partnership, Uber for Business and CBRE will not only optimize properties with increased commute and food-delivery options, but also ...",
+      "link": "https://www.uber.com/us/en/blog/u4b-real-estate-cbre-partnership/",
+      "date": "Sep 2, 2020"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "SIMON: More Than Retail Real Estate",
+      "snippet": "‍The only all-luxury shopping destination in the United States. INTRODUCING UBER-LUXURY. WOODBURY COMMON PREMIUM OUTLETS®. CENTRAL VALLEY, NY",
+      "link": "https://business.simon.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Developers Ditch Parking to Make Room for Uber",
+      "snippet": "Developers Ditch Parking to Make Room for Uber. The high cost of developing commercial real estate has started to impact the amount of parking developed with ...",
+      "link": "https://www.naiglobal.com/news/developers-ditch-parking-to-make-room-for-uber/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "The Top Real Estate Stories of 2019",
+      "snippet": "The Top Real Estate Stories of 2019. A boom in urban hotels, a surge in industrial space, the rebirth of aging malls, and Uber's announcement ...",
+      "link": "https://www.dmagazine.com/publications/d-ceo/2020/january-february/the-top-real-estate-stories-of-2019/",
+      "date": "Jan 17, 2020"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Developers Ditch Parking Spaces to Make Room for Uber",
+      "snippet": "As urban real estate becomes ever-more expensive, some property developers are shrinking or killing their parking spaces and offering Uber ...",
+      "link": "https://www.realtor.com/news/trends/developers-ditch-parking-spaces-make-room-uber/",
+      "date": "Nov 22, 2016"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Investors' Guide to Mixed-Use Property for Sale",
+      "snippet": "Residents can enjoy dense, walkable neighborhoods and access Care2Go, CoGo Bike Share, Uber, and the COTA public transport system. And don't forget that ...",
+      "link": "https://rweiler.com/blog/investors-guide-mixed-use-property-for-sale/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "State of Commercial Real Estate 2018 (Part 1: Threats and ...",
+      "snippet": "Airbnb offers different types of experiences, whereas Uber basically offers the same experience as riding in a cab, but does so more efficiently. State of ...",
+      "link": "https://www.fohlio.com/blog/commercial-real-estate-2018-threats-opportunities",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Building new opportunities for real estate at RealComm 2017",
+      "snippet": "The quickly changing real estate market is no exception because with Uber, properties become more accessible (and therefore desirable), tenants ...",
+      "link": "https://www.uber.com/us/en/blog/realcomm-2017-real-estate-and-uber/",
+      "date": "Jun 14, 2017"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "SIMON: More Than Retail Real Estate",
+      "snippet": "‍The only all-luxury shopping destination in the United States. INTRODUCING UBER-LUXURY. WOODBURY COMMON PREMIUM OUTLETS®. CENTRAL VALLEY, NY",
+      "link": "https://business.simon.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Streamlining transportation and delivery for the modern ...",
+      "snippet": "Through our partnership, Uber for Business and CBRE will not only optimize properties with increased commute and food-delivery options, but also ...",
+      "link": "https://www.uber.com/us/en/blog/u4b-real-estate-cbre-partnership/",
+      "date": "Sep 2, 2020"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "The Top Real Estate Stories of 2019",
+      "snippet": "The Top Real Estate Stories of 2019. A boom in urban hotels, a surge in industrial space, the rebirth of aging malls, and Uber's announcement ...",
+      "link": "https://www.dmagazine.com/publications/d-ceo/2020/january-february/the-top-real-estate-stories-of-2019/",
+      "date": "Jan 17, 2020"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Investors' Guide to Mixed-Use Property for Sale",
+      "snippet": "Residents can enjoy dense, walkable neighborhoods and access Care2Go, CoGo Bike Share, Uber, and the COTA public transport system. And don't forget that ...",
+      "link": "https://rweiler.com/blog/investors-guide-mixed-use-property-for-sale/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Explore new property solutions",
+      "snippet": "Whether you manage residential or commercial real estate, get in touch with an Uber for Business specialist to learn more about how we can partner together.",
+      "link": "https://businesses.uber.com/property",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Developers Ditch Parking Spaces to Make Room for Uber",
+      "snippet": "As urban real estate becomes ever-more expensive, some property developers are shrinking or killing their parking spaces and offering Uber ...",
+      "link": "https://www.realtor.com/news/trends/developers-ditch-parking-spaces-make-room-uber/",
+      "date": "Nov 22, 2016"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Big commercial real estate brokerage adds to St. Louis",
+      "snippet": "Listen to your Uber driver, housepainter, or plumber as much as your business leader, analyst, or consultant. All are part of the community ...",
+      "link": "https://www.facebook.com/stlbj/posts/the-st-louis-regions-largest-commercial-real-estate-firm-has-added-to-its-local-/1494344926044886/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Building new opportunities for real estate at RealComm 2017 - Uber",
+      "snippet": "This week, Uber for Business is at RealComm 2017 exploring the intersection of technology and real estate. We've caught up with some of the ...",
+      "link": "https://www.uber.com/us/en/blog/realcomm-2017-real-estate-and-uber/",
+      "date": "Jun 14, 2017"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Investors' Guide to Mixed-Use Property for Sale",
+      "snippet": "Commercial mixed-use office space is primarily a commercial structure with multi-residential family units co-existing in the same building. Shopping Mall ...",
+      "link": "https://rweiler.com/blog/investors-guide-mixed-use-property-for-sale/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Industry and legal experts say the law has inadvertently ensnared ...",
+      "snippet": "... shopping malls may need to be redeveloped for other uses. The ... Uber and Lyft argued that their business model relies on flexible ...",
+      "link": "https://www.facebook.com/theglobeandmail/posts/industry-and-legal-experts-say-the-law-has-inadvertently-ensnared-commercial-pro/576345427860260/",
+      "date": "Feb 10, 2023"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Discover Commercial Real Estate Outlook in 2023 and Beyond",
+      "snippet": "Uber, EA, Intel ... Repurposing of office spaces: As remote work becomes more prevalent; some office spaces are being repurposed for alternative uses.",
+      "link": "https://nakisa.com/resources/future-of-commercial-real-estate-trends-challenges-software/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Commercial Real Estate - Inc. Magazine",
+      "snippet": "Uber is Heading to Oakland and Some Residents Are Unhappy · The company is ... These are just a few of the impressive uses of space by the runners-up to Inc.",
+      "link": "https://www.inc.com/commercial-real-estate",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Say hello to life at the mall. The classic American mall is undergoing ...",
+      "snippet": "And at least parking won't be a problem... for either your (old-fashioned) private vehicle - or an easy place to find an uber! No photo ...",
+      "link": "https://www.facebook.com/cnbc/posts/say-hello-to-life-at-the-mallthe-classic-american-mall-is-undergoing-a-dramatic-/975822631085797/",
+      "date": "Dec 5, 2024"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "SIMON: More Than Retail Real Estate",
+      "snippet": "‍The only all-luxury shopping destination in the United States. INTRODUCING UBER-LUXURY. WOODBURY COMMON PREMIUM OUTLETS®. CENTRAL VALLEY, NY",
+      "link": "https://business.simon.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Top-3 Commercial Real Estate Trends and Challenges in 2024",
+      "snippet": "Uber ... Repurposing of office spaces: As remote work becomes more prevalent; some office spaces are being repurposed for alternative uses.",
+      "link": "https://www.linkedin.com/pulse/top-5-commercial-real-estate-trends-challenges-2024-nakisa-tvime",
+      "date": "Jan 23, 2024"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Uber Careers",
+      "snippet": "Reimagine how people and things move — and help shape the technology behind it. Explore roles across Ridesharing, Uber Eats, Uber for Business, Uber Ads, ...",
+      "link": "https://jobs.uber.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "New York City - Uber Careers",
+      "snippet": "Browse job openings at Uber in New York City, United States. Learn about Uber careers and job opportunities in New York City, from entry level to senior ...",
+      "link": "https://jobs.uber.com/en/locations/new-york-city/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Amsterdam - Uber Careers",
+      "snippet": "Browse job openings at Uber in Amsterdam, Netherlands. Learn about Uber careers and job opportunities in Amsterdam, from entry level to senior positions.",
+      "link": "https://jobs.uber.com/en/locations/amsterdam/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Find your next move - Jobs",
+      "snippet": "Find your next move ; Field Support Operations Launch Lead · Dubai, United Arab Emirates + 5 locations ; Account Manager - SMB · Sydney, Australia ; Security ...",
+      "link": "https://jobs.uber.com/en/jobs/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Dallas - Uber Careers",
+      "snippet": "Browse job openings at Uber in Dallas, United States. Learn about Uber careers and job opportunities in Dallas, from entry level to senior positions.",
+      "link": "https://jobs.uber.com/en/locations/dallas/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "San Francisco Bay Area - Uber Careers",
+      "snippet": "Browse job openings at Uber in the San Francisco Bay Area, United States. 40,000+ global employees here. Join our talent community to stay connected and ...",
+      "link": "https://jobs.uber.com/en/locations/san-francisco-bay-area/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Finance - Uber Careers",
+      "snippet": "Find and apply to jobs on the Uber Finance team. Learn about Finance careers and job opportunities at Uber, from entry level to senior positions.",
+      "link": "https://jobs.uber.com/en/teams/finance/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "How we hire - Uber Careers",
+      "snippet": "Everything you want toknow about hiring. How should I prepare? How do you conduct video interviews? What tools do you use for assessments? Will I speak with ...",
+      "link": "https://jobs.uber.com/en/what-moves-us/how-we-hire/",
+      "date": ""
+    }
+  ]
+}

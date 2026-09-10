@@ -1,0 +1,33 @@
+{
+  "company_name": "Motherson",
+  "triggers": [
+    {
+      "fact": "Samvardhana Motherson International announced the acquisition of Nissin India to strengthen its manufacturing and coating capabilities.",
+      "source_page": "https://projectstoday.ai/news-details/samvardhana-motherson-drives-expansion-with-nissin-india-acquisition-strengthens-coating-capabilities-69f18d79ba82c225b5051178",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Motherson launched a 15 MW solar project in Uttar Pradesh to boost renewable energy use and cut emissions.",
+      "source_page": "https://www.manufacturingtodayindia.com/motherson-launch-15-solar-project",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Samvardhana Motherson International partnered with Hellmann Worldwide to launch a global automotive logistics joint venture.",
+      "source_page": "https://themachinemaker.com/news/motherson-partners-with-hellmann-worldwide-to-launch-global-automotive-logistics-venture/",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Samvardhana Motherson International appointed M/s B S R & Co. LLP as its statutory auditor for a five-year term.",
+      "source_page": "https://scanx.trade/stock-market-news/companies/motherson-appoints-b-s-r-co-llp-as-statutory-auditor/40817057",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Careers page lists 13 open positions in Finance and Control, 12 in IT, and 37 in Environment Health and Safety.",
+      "source_page": "https://careers.motherson.com",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As Motherson rapidly expands through cross-border joint ventures, acquisitions, and renewable energy investments, it faces complex post-merger integration, tax compliance, and ESG reporting requirements.",
+  "no_trigger_found": false
+}

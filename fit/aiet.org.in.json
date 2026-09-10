@@ -1,0 +1,316 @@
+{
+  "domain": "aiet.org.in",
+  "client": "MNGO",
+  "client_domain": "mngo.in",
+  "checked_against": "icp-mngo.in.md",
+  "result": {
+    "company_name": "Alva's Institute of Engineering & Technology",
+    "what_they_do": "An autonomous engineering college in Mangalore, Karnataka, offering undergraduate engineering (B.E.) and postgraduate (MBA) degree programs.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "None of the search results state the annual graduating student count or overall student enrollment figure.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Higher Education / Indian Engineering & Degree Colleges",
+      "in_icp": true,
+      "why": "AIET is an Indian engineering and management degree college established under Alva's Education Foundation [1, 8].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No specific ICP buying signals (e.g., links to Google Forms/PDFs for drive registration, manual TPO placement schedule posts on LinkedIn, or job openings for Placement Officers) were shown in the search results.",
+      "evidence": "Search results mention campus placements and placement officers [20, 22, 27], but do not contain evidence of public manual workflows or open TPO job listings.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "AIET matches the target ICP segment of Indian engineering colleges [1, 8] and shows no disqualifying factors. According to the evaluation rules, being in a target segment with no disqualifiers warrants a PROCEED verdict even when the buying signal is not found.",
+    "could_not_find": [
+      "The annual number of graduating students to verify if it falls within the 500 to 5,000 range.",
+      "Evidence showing the current tools or processes used by AIET's placement cell to run campus placement drives."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Alva's Institute of Engineering & Technology (AIET) – Best ...",
+      "snippet": "Alva's Institute Of Engineering & Technology (AIET) is a premier Engineering Institute of Alva's Education Foundation established in the year 2008. 272 ...",
+      "link": "https://www.aiet.org.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Alva's Institute of Engineering and Technology",
+      "snippet": "Admissions Open at Alva's Institute of Engineering & Technology (Autonomous), Moodbidri, Mangalore! ✓ Top-notch infrastructure ✓ Expert faculty ...",
+      "link": "https://in.linkedin.com/school/aietmijar/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Shape your future with Alva's Institute of Engineering & ...",
+      "snippet": "✨ At Alva's Institute of Engineering & Technology, learning goes beyond classrooms with 40+ clubs, a thriving company ecosystem, student ...",
+      "link": "https://www.facebook.com/aietmijar/posts/every-step-you-take-today-shapes-the-future-you-dream-of-tomorrow-at-alvas-insti/1418315830314873/",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "At Alva's Institute of Engineering and Technology, education ...",
+      "snippet": "Alva's Institute of Engineering & Technology, Moodbidri. 676 likes ... Choosing a college is one of the most important decisions you'll make ...",
+      "link": "https://www.instagram.com/reel/DYPfD-5p8zg/",
+      "date": "4 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Working at Alva's Institute of Engineering & Technology | Glassdoor",
+      "snippet": "See what employees say it's like to work at Alva's Institute of Engineering & Technology. Salaries, reviews, and more - all posted by employees working at ...",
+      "link": "https://www.glassdoor.sg/Overview/Working-at-Alva%E2%80%99s-Institute-of-Engineering-and-Technology-EI_IE638334.11,57.htm",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How's Alva's College?",
+      "snippet": "How's Alva's College?",
+      "link": "https://www.quora.com/Hows-Alvas-College",
+      "date": "12 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Alva's Institute: Engineering Excellence | PDF",
+      "snippet": "faculty. Principal's DESK Alva's Institute of Engineering & Technology (AIET) is having a vision of imparting quality technical education to meet the needs ...",
+      "link": "https://www.scribd.com/document/850579510/Brochure-Compressed-1",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Alva's Institute of Engineering and Technology: Courses, ...",
+      "snippet": "Alva's Institute of Engineering & Technology (AIET) was established by Alva's Education Foundation (AEF). It is located in Mangalore, Karnataka.",
+      "link": "https://www.shiksha.com/college/alva-s-institute-of-engineering-and-technology-mangalore-60049",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Alva's Institute of Engineering and Technology",
+      "snippet": "Employees at Alva's Institute of Engineering and Technology. Click here to view Dr ... Admissions Open at Alva's Institute of Engineering & Technology ...",
+      "link": "https://in.linkedin.com/school/aietmijar/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "u.thippeswamy appi - Student at alva's institute of engineering & ...",
+      "snippet": "Student at alva's institute of engineering & technology · Education: alva's institute of engineering & technology · Location: Karnataka.",
+      "link": "https://www.linkedin.com/in/u-thippeswamy-appi-76570b58",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Contact Us",
+      "snippet": "Alva's Institute Of Engineering & Technology. Address: Shobhavana Campus, Mijar Moodbidri – 574 225. Mangalore, DK Karnataka State – INDIA. Contact Information.",
+      "link": "https://www.aiet.org.in/contact-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Ananya R - Alva's Institute of Engineering and Technology",
+      "snippet": "Attended Alva's Institute of Engineering and Technology · View mutual connections with Ananya · Education · View Ananya's full profile · Message Ananya directly.",
+      "link": "https://in.linkedin.com/in/ananya-r-3b6065342",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "AKASH NAYAK - AIET Student | Odoo Developer",
+      "snippet": "I'm a third-year B.E. AIML student at Alva's Institute of Engineering & Technology, passionate about building intelligent systems and impactful digital ...",
+      "link": "https://in.linkedin.com/in/akash-nayak-19-",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Alva's Institute of Engineering and Technology: Employee ...",
+      "snippet": "alva's institute of engineering & technology. alva's institute of engineering ... Linkedin · Twitter · Instagram · Facebook · Youtube. PxPixel.",
+      "link": "https://www.zoominfo.com/pic/alvas-institute-of-engineering-and-technology/434350835",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Alva's Institute of Engineering and Technology isn't just ...",
+      "snippet": "linkedin.com/in/gretta-soubhie ... Turn your ambition into achievement with an MBA from Alva's Institute of Engineering & Technology.",
+      "link": "https://www.facebook.com/aietmijar/posts/alvas-institute-of-engineering-and-technology-isnt-just-an-institution-its-a-spa/1152965683516557/",
+      "date": "1 tahun lalu"
+    },
+    {
+      "asking_about": "size",
+      "title": "Hrishika Shetty - MBA (Finance) Candidate | B.Com Graduate",
+      "snippet": "MBA (Finance) Candidate | B.Com Graduate · Education: Alva's Institute of Engineering and Technology · Location: Mangaluru · 500+ connections on LinkedIn.",
+      "link": "https://in.linkedin.com/in/hrishikashetty",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Alva's Institute of Engineering & Technology (AIET) – Best ...",
+      "snippet": "Alva's Institute Of Engineering & Technology (AIET) is a premier Engineering Institute of Alva's Education Foundation established in the year 2008. 272 ...",
+      "link": "https://www.aiet.org.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Lead with confidence. Learn with purpose. Achieve with impact. ...",
+      "snippet": "At Alva's Institute of Engineering & Technology – MBA, students are prepared not just to earn a degree, but to learn, lead, grow, and succeed in ...",
+      "link": "https://www.instagram.com/reel/DaAzJlhpb10/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Alva's Institute of Engineering & Technology, Moodbidri",
+      "snippet": "With India's first IBM AI Center, Alva's Institute of Engineering & Technology empowers students with practical AI knowledge, industry exposure, ...",
+      "link": "https://www.facebook.com/aietmijar/posts/from-classrooms-to-boardrooms-build-the-mindset-to-lead-innovate-and-succeed-at-/1414669054012884/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "At Alva's Institute of Engineering and Technology, education is ...",
+      "snippet": "Alva's Institute of Engineering & Technology, Moodbidri's post ... To College Decision-Makers We invite #placementofficers, #principals ...",
+      "link": "https://www.facebook.com/aietmijar/posts/at-alvas-institute-of-engineering-and-technology-education-is-more-than-just-tex/1403535271792929/",
+      "date": "4 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Big news from ASMi B-School! Our students have just gained a ...",
+      "snippet": "This video is an advertisement for the Alva's Institute of Engineering & Technology's (AIET) MBA program, positioning it as a path to becoming a ...",
+      "link": "https://www.facebook.com/tiukolkata/videos/big-news-from-asmi-b-school-our-students-have-just-gained-a-significant-advantag/719885017636137/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Campus Placement",
+      "snippet": "Alva's Institute Of Engineering & Technology (AIET) is a premier Engineering Institute of Alva's Education Foundation. Contact Information.",
+      "link": "https://www.aiet.org.in/campus-placement/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Alvas Engineering college (@alvasengineeringofficial)",
+      "snippet": "At Alva's Institute of Engineering & Technology, our MBA program equips future business leaders with industry-focused learning, practical exposure, and the ...",
+      "link": "https://www.instagram.com/alvasengineeringofficial/reels/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Alva's Institute of Engineering & Technology, Moodbidri",
+      "snippet": "This promotional video showcases the IBM AI Center of Excellence at Alva's Institute of Engineering & Technology, a university campus in ...",
+      "link": "https://www.facebook.com/aietmijar/videos/-engineering-a-greener-tomorrow-starts-todayat-alvas-institute-of-engineering-te/1419608223391604/",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Lead with confidence. Learn with purpose. Achieve with impact. ...",
+      "snippet": "At Alva's Institute of Engineering & Technology – MBA, students are prepared not just to earn a degree, but to learn, lead, grow, and succeed in ...",
+      "link": "https://www.instagram.com/reel/DaAzJlhpb10/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Alva's Institute of Engineering & Technology, Moodbidri",
+      "snippet": "This promotional video showcases the IBM AI Center of Excellence at Alva's Institute of Engineering & Technology, a university campus in ...",
+      "link": "https://www.facebook.com/aietmijar/videos/-engineering-a-greener-tomorrow-starts-todayat-alvas-institute-of-engineering-te/1419608223391604/",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "At Alva's Institute of Engineering and Technology, education is ...",
+      "snippet": "Alva's Institute of Engineering & Technology, Moodbidri's post ... To College Decision-Makers We invite #placementofficers, #principals ...",
+      "link": "https://www.facebook.com/aietmijar/posts/at-alvas-institute-of-engineering-and-technology-education-is-more-than-just-tex/1403535271792929/",
+      "date": "4 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Computer Science & Engineering",
+      "snippet": "Pramod S 3rd Year CSE students completed his Live Project Titled “VS-SMART CCTV for CRIME DETECTION of ALVA'S INSTITUTE OF ENGINEERING & TECHNOLOGY” in Product ...",
+      "link": "https://www.aiet.org.in/dept/computer-science-engineering/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Big news from ASMi B-School! Our students have just gained a ...",
+      "snippet": "This video is an advertisement for the Alva's Institute of Engineering & Technology's (AIET) MBA program, positioning it as a path to becoming a ...",
+      "link": "https://www.facebook.com/tiukolkata/videos/big-news-from-asmi-b-school-our-students-have-just-gained-a-significant-advantag/719885017636137/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Alvas Engineering college (@alvasengineeringofficial)",
+      "snippet": "At Alva's Institute of Engineering & Technology, our MBA program equips future business leaders with industry-focused learning, practical exposure, and the ...",
+      "link": "https://www.instagram.com/alvasengineeringofficial/reels/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "From classroom hustle at Alva's Engineering College to ...",
+      "snippet": "Alva's Institute of Engineering & Technology, Moodbidri's post ... placements following completion of the program. Our internship lasts 8 ...",
+      "link": "https://www.facebook.com/aietmijar/posts/from-classroom-hustle-at-alvas-engineering-college-to-cracking-an-opportunity-at/1396803819132741/",
+      "date": "4 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Alva's Institute of Engineering & Technology, Moodbidri",
+      "snippet": "With India's first IBM AI Center, Alva's Institute of Engineering & Technology empowers students with practical AI knowledge, industry exposure, ...",
+      "link": "https://www.facebook.com/aietmijar/posts/from-classrooms-to-boardrooms-build-the-mindset-to-lead-innovate-and-succeed-at-/1414669054012884/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us - Alva's Institute of Engineering & Technology (AIET)",
+      "snippet": "AIET offers a diverse range of academic programs and career opportunities for aspiring engineers and business leaders. like IT, manufacturing, consulting, and ...",
+      "link": "https://www.aiet.org.in/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "career-net - Alva's Institute of Engineering & Technology (AIET)",
+      "snippet": "Computer Science & Design Computer Science & Engineering (Data Science) Computer Science & Engineering. Campus Operator: 7026262725. Administrative Officer (AO ...",
+      "link": "https://www.aiet.org.in/career-net/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Awareness on Cyber Crime: Prevention and Detection – Webinar",
+      "snippet": "The speaker addressed topics cyber-crime, hacking & punishments to be faced for doing so and how we people should get upgraded along with time progressing.",
+      "link": "https://www.aiet.org.in/dept_post/awareness-on-cyber-crime-prevention-and-detection-webinar/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Contact Us - Alva's Institute of Engineering & Technology (AIET)",
+      "snippet": "Our doors are open to students, parents, recruiters, Learn more about our placements, research opportunities, and collaborations. Phone : 08258- 262724. E-mail ...",
+      "link": "https://www.aiet.org.in/contact-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "[PDF] Report of a Workshop on Research Methodology in Physics",
+      "snippet": "Physics of Alva's Institute of Engineering and Technology has organized a Workshop on Research Methodology in Physics. Dr. Ramaprasad A.T was the coordinator ...",
+      "link": "https://www.aiet.org.in/wp-content/uploads/2020/03/Workshop-on-Research-Methodology-in-Physics_PHY.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Swachh Mijar - Alva's Institute of Engineering & Technology (AIET)",
+      "snippet": "Swachh Mijar is a flagship cleanliness and environmental awareness initiative led by the students and faculty of Alva's Institute of Engineering and ...",
+      "link": "https://www.aiet.org.in/clubs-activities/swachh-mijar/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Best Practices - Alva's Institute of Engineering & Technology (AIET)",
+      "snippet": "Empowering Careers, aimed at tackling unemployment, especially among rural youth and fresh graduates.",
+      "link": "https://www.aiet.org.in/best-practices/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Auto Club - Alva's Institute of Engineering & Technology (AIET)",
+      "snippet": "The aim of the auto Club is to nurture and expand knowledge and to cultivate interest in the automotive culture.",
+      "link": "https://www.aiet.org.in/dept_post/auto-club/",
+      "date": ""
+    }
+  ]
+}

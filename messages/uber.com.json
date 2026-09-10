@@ -1,0 +1,89 @@
+{
+  "client": "DLF",
+  "client_domain": "dlf.in",
+  "company_name": "Uber",
+  "disqualifiers": [],
+  "no_trigger": true,
+  "generated_from": {
+    "trigger_count": 0,
+    "top_score": 0,
+    "pain_hypothesis": "There is no evidence in the provided sources suggesting Uber currently has an unaddressed requirement for commercial office, retail, or residential real estate in India.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "what-they-do",
+      "subject": "Commercial office spaces in India",
+      "body": "Uber provides mobility, delivery, and business travel solutions that help people and organizations move around the world.\n\nDLF develops and manages commercial office properties in India, providing modern infrastructure for technology companies expanding their operational footprint.\n\nHow are you currently handling your corporate office space needs across Indian cities?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "A global technology company like Uber requires commercial office space in key Indian hubs to accommodate its regional corporate workforce and operations.",
+      "word_count": 51,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "Managing office space expansion",
+      "body": "Securing commercial workspace that balances long-term flexibility with high-quality facilities is often a friction point for major technology platforms expanding across Indian metropolitan areas.\n\nDoes that match your experience when evaluating commercial property options in India?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "A global technology company like Uber requires commercial office space in key Indian hubs to accommodate its regional corporate workforce and operations.",
+      "word_count": 38,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "Commercial property options",
+      "body": "If we brought you flexible commercial office space options in prime Indian business locations, would you be open to a brief call to review them, knowing that taking a look costs nothing?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "A global technology company like Uber requires commercial office space in key Indian hubs to accommodate its regional corporate workforce and operations.",
+      "word_count": 34,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Hi team, impressed by how Uber powers global mobility and delivery services. Would love to connect here on LinkedIn.",
+      "trigger_used": "",
+      "trigger_link": "A global technology company like Uber requires commercial office space in key Indian hubs to accommodate its regional corporate workforce and operations.",
+      "char_count": 116,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. How are your teams currently managing corporate office space requirements as your operations expand in India?",
+      "trigger_used": "",
+      "trigger_link": "A global technology company like Uber requires commercial office space in key Indian hubs to accommodate its regional corporate workforce and operations.",
+      "char_count": 132,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Thanks for connecting. As we build and manage new commercial real estate projects across India, I would be happy to share what we learn about office space trends with you along the way. Would that be helpful for your team?",
+      "trigger_used": "",
+      "trigger_link": "A global technology company like Uber requires commercial office space in key Indian hubs to accommodate its regional corporate workforce and operations.",
+      "char_count": 222,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "NO TRIGGER FOUND - nothing dated or newsworthy was found for this company, so these messages have no hook. They lean on what the company says about itself. Expect a far lower reply rate than trigger-backed messages."
+  ]
+}

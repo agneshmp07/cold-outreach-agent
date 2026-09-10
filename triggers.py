@@ -1,25 +1,28 @@
 """
-triggers.py - step 2 of the MNGO outreach generator.
+triggers.py - step 2 of the outreach pipeline.
 
 Takes the text that scrape.py saved for one company, plus recent headlines from
 news.py and the fit evidence from check_fit.py, asks Gemini to pull out
 "triggers" - specific, recent, verifiable facts that justify a cold message
 existing - and writes the result to triggers/<domain>.json.
 
-Target: companies that hire entry-level talent from Indian campuses.
+Triggers are scored against what the CLIENT sells, so the same target company
+produces different triggers for different clients. Pass the client first:
+
+    python triggers.py mngo.in happiestminds.com
 
 Three sources, in descending order of usefulness:
   fit/<domain>.json   the buying signal that qualified this company. Strongest,
-                      because it is evidence of the pain itself rather than a
+                      because it is evidence of the problem itself rather than a
                       proxy for it. Optional - only present if check_fit.py ran.
   news/<domain>.json  dated and externally verifiable. Optional.
   data/<domain>.json  the company's own site. Always required.
 
 The fit source exists because check_fit.py used to find the one fact that made a
-company worth writing to - a campus job post collecting resumes on a Google Form
-- and then nothing downstream could see it. The pipeline would qualify a company
-on evidence it then threw away, and score the company low on corporate news that
-had nothing to do with campus hiring.
+company worth writing to - a job post collecting applications on a Google Form -
+and then nothing downstream could see it. The pipeline qualified a company on
+evidence it then threw away, and scored it low on corporate news that had
+nothing to do with the problem being sold against.
 
 Usage:
     python triggers.py happiestminds.com
@@ -45,6 +48,7 @@ except ImportError:
 
 
 BASE_DIR = Path(__file__).resolve().parent
+CLIENTS_DIR = BASE_DIR / "clients"
 DATA_DIR = BASE_DIR / "data"
 NEWS_DIR = BASE_DIR / "news"
 FIT_DIR = BASE_DIR / "fit"
@@ -76,6 +80,29 @@ SCHEMA_EXAMPLE = """{
 def die(message):
     print(f"ERROR: {message}", file=sys.stderr)
     sys.exit(1)
+
+
+def load_client_profile(slug):
+    """
+    Read the client profile, so the prompt describes whoever is selling.
+
+    Loaded here rather than imported from generate.py, which imports this
+    module. A missing profile is not fatal: the prompt falls back to generic
+    wording and still finds facts, it just cannot score them against a
+    particular product.
+    """
+    if not slug:
+        return None
+    slug = str(slug).strip().lower()
+    if slug.endswith(".json"):
+        slug = slug[:-5]
+    path = CLIENTS_DIR / f"{slug}.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
 
 
 # ---------------------------------------------------------------- input side
@@ -209,7 +236,7 @@ def load_fit(domain):
     This is the highest-value source in the pipeline and the only one that
     touches the pain directly. A scrape shows what a company says about itself;
     news shows what happened to it; the fit check shows a campus job post routing
-    resumes into a Google Form, which IS the problem MNGO solves.
+    applications into a Google Form, which IS the problem being sold against.
 
     Returns "" when no fit file exists, so the stage stays optional and the
     pipeline still runs for a company you never fit-checked.
@@ -265,23 +292,36 @@ def load_fit(domain):
 
 # ------------------------------------------------------------------ the model
 
-def build_prompt(domain, corpus, news_block="", fit_block=""):
+def build_prompt(domain, corpus, news_block="", fit_block="", client=None):
     today = datetime.date.today().isoformat()
-    return f"""You are a research analyst preparing cold outreach for MNGO, campus
-placement infrastructure being built for Indian colleges. The message goes to
-a company that hires entry-level talent from campuses. Today's date is {today}.
 
-Below are up to three sources about a company at {domain}: the fit check that
-qualified this company, recent news, and text scraped from their own website.
+    if client:
+        seller = (f"{client.get('name', 'the client')} - "
+                  f"{client.get('one_liner', '')}")
+        sells = client.get("what_you_sell") or client.get("one_liner") or ""
+        buyers = client.get("who_pays_for_it") or client.get("who_buys_it") or ""
+    else:
+        seller = "a business selling to other businesses"
+        sells = "not stated"
+        buyers = "not stated"
+
+    return f"""You are a research analyst preparing cold outreach. Today is {today}.
+
+WHO IS SELLING: {seller}
+WHAT THEY SELL: {sells}
+WHO PAYS FOR IT: {buyers}
+
+Below are up to three sources about a company at {domain}: a fit check, recent
+news, and text from their own website.
 
 Your job: extract TRIGGERS. A trigger is a specific, recent, verifiable fact
-about this company that would justify a message about campus hiring existing
-right now.
+about this company that would justify a message about what the seller offers
+existing right now.
 
 Good triggers (specific, checkable, time-bound):
-- "A campus hiring post asks candidates to submit resumes through a Google Form"
-- "Hiring 4 backend engineers and 2 SDET roles, posted on their careers page"
 - "Raised a Series B in March 2026, led by Accel"
+- "Opened a second plant in Coimbatore"
+- "Job post collects applications through a Google Form"
 - "Announced a graduate trainee programme for the 2026 batch"
 - "Careers page lists 18 open roles across engineering and operations"
 
@@ -294,63 +334,52 @@ Not triggers (generic, undated, or marketing fluff):
 Hard rules:
 1. Every fact must be supported by the sources below. Do NOT invent, infer, or
    embellish. If the text does not say it, it is not a trigger.
-2. "source_page" must be either the exact PAGE label from the scraped text, or
-   the exact article URL from the news section, or the exact result URL from the
-   fit-check section - whichever the fact came from. A reader must be able to
-   open that source and check the claim.
-3. "relevance_score" is 0-10: how strongly this fact signals ENTRY-LEVEL OR
-   VOLUME HIRING, or manual coordination of it, which is what campus
-   recruitment serves.
-   - Highest (8-10): DIRECT EVIDENCE OF THE PROBLEM. A campus or fresher job
-     post that collects resumes through a Google Form, a personal email address
-     or a spreadsheet; a placement-cell contact chain; a manual drive schedule.
-     This is a company visibly doing by hand the thing MNGO automates, and it
-     is the strongest trigger available. Score it here whenever the fit check
-     found it.
-   - High (7-8): open entry-level roles at volume, graduate or trainee
-     programmes, a funding round, a new office or region.
-   - Medium (4-6): senior leadership appointments, a stated growth strategy,
-     mergers, new product lines that imply team building.
-   - Low (0-3): awards, partnerships, product features, general PR, AI product
-     launches. A company launching a platform is not a campus-hiring signal.
-4. A trigger you cannot connect to campus hiring in ONE plain sentence is not a
-   trigger for this message. A merger or an AI product launch is real news and
-   still scores low here, because the link to campus hiring runs through two or
-   three assumptions. Do not stretch.
-5. Prefer dated facts. A news item from the last few months beats an undated
-   claim on a marketing page. If a fact has no date anywhere in the source,
-   cap its score at 5 - EXCEPT direct evidence of manual campus hiring under
-   rule 3, which is about a visible process rather than an event, and keeps its
-   score without a date.
+2. "source_page" must be the exact PAGE label from the scraped text, the exact
+   article URL from the news section, or the exact result URL from the fit
+   check - whichever the fact came from. A reader must be able to open it.
+3. "relevance_score" is 0-10: how strongly this fact suggests the company needs
+   WHAT THIS SELLER SELLS, right now. Score against that product, nothing else.
+   - Highest (8-10): DIRECT EVIDENCE OF THE PROBLEM the seller solves. A company
+     visibly doing by hand the thing the product automates, or publicly
+     struggling with exactly what it fixes. Equally high: evidence they ALREADY
+     PAY for a product in this category - a named competitor, a platform doing
+     the same job. That company has admitted the problem and has a budget for
+     it, which is the strongest qualification there is.
+   - High (7-8): a change that creates the need - growth, a new site, a new
+     market, a funding round, hiring at volume in the relevant area.
+   - Medium (4-6): leadership changes, stated strategy, mergers, new product
+     lines that only imply the need.
+   - Low (0-3): awards, partnerships, generic PR, product launches unrelated to
+     what the seller offers.
+4. A trigger you cannot connect to what the seller sells in ONE plain sentence
+   is not a trigger. Real news whose link to the product runs through two or
+   three assumptions scores low. Do not stretch.
+5. Prefer dated facts. If a fact has no date anywhere in the source, cap its
+   score at 5 - EXCEPT direct evidence of the problem under rule 3, which is a
+   visible state rather than an event and keeps its score without a date.
 6. DISQUALIFIERS. Some facts are evidence the company does NOT have this
    problem, and they matter more than any trigger. Put them in "disqualifiers",
-   never in "triggers", and give the source and one sentence on why in "why".
-   A fact is a disqualifier when it shows the company has already solved the
-   problem, or does not do the thing the product supports at all. Examples of
-   the shape:
-   - "only accepts applications through employee referrals" - they run no
-     campus drives, so there is no drive to coordinate
-   - "applications go through Workday / SAP / a named applicant tracking system"
-     - they already have the system this product would replace
-   - "the service is not offered in this country / segment"
-   - "they announced they are winding down the relevant business line"
-   Look for these deliberately. A disqualifier found now saves a wasted email;
-   a disqualifier missed becomes a message that argues against its own evidence.
-   If a fact is BOTH a hook and a disqualifier, it is a disqualifier.
-8. Return at most 5 triggers, best first.
-7. If there is no genuine trigger, set "no_trigger_found" to true and return an
-   empty "triggers" list. Returning nothing is the correct, expected answer for
-   a company with a thin website and no news. An empty list is a success, not
-   a failure.
-9. "pain_hypothesis" is one sentence on the campus-hiring pain this company
-   plausibly has, based only on the evidence below - reaching colleges,
-   coordinating drives, comparing candidates across campuses. When the fit
-   check found a signal, build the hypothesis on THAT, not on corporate news.
-   If there are no triggers, say plainly that there is no evidence to support
-   a hypothesis.
+   never in "triggers", with the source and one sentence in "why".
+   A fact is a disqualifier when the company does not do the thing the product
+   supports AT ALL, or has locked itself out of ever buying it: it does not
+   operate in that market, it is winding the relevant business down, it only
+   handles this through a channel the product cannot touch, or it built the
+   system itself in-house and says it will not replace it.
+   Using a COMPETING PRODUCT is NOT a disqualifier - it is a strong trigger, and
+   belongs in the trigger list under rule 3. A company paying a competitor is a
+   company with the problem and the budget. Only an in-house build they clearly
+   will not replace, or the seller's own product, disqualifies.
+   Look for these deliberately. If a fact is BOTH a hook and a disqualifier, it
+   is a disqualifier.
+7. Return at most 5 triggers, best first.
+8. If there is no genuine trigger, set "no_trigger_found" to true and return an
+   empty list. That is the correct answer for a company with a thin website and
+   no news. An empty list is a success, not a failure.
+9. "pain_hypothesis" is one sentence on the problem this company plausibly has
+   in the area the seller serves, based only on the evidence below. If there are
+   no triggers, say plainly that there is no evidence for a hypothesis.
 10. Never name an individual in connection with a departure, resignation or
-   exit - not in a trigger, not in the pain hypothesis. An appointment may name
-   the person, because that is public and positive; an exit may not.
+    exit. An appointment may name the person; an exit may not.
 
 Reply with JSON only, matching this shape exactly:
 {SCHEMA_EXAMPLE}
@@ -469,8 +498,14 @@ def save_result(domain, result):
 # ------------------------------------------------------------------------ main
 
 def main():
-    if len(sys.argv) != 2:
-        sys.exit(f"Usage: python {Path(__file__).name} <domain-or-json-path>")
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if len(args) == 2:
+        client_slug, target = args
+    elif len(args) == 1:
+        client_slug, target = None, args[0]
+    else:
+        sys.exit(f"Usage: python {Path(__file__).name} [<client-domain>] "
+                 f"<target-domain>")
 
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not api_key:
@@ -480,7 +515,8 @@ def main():
             "environment or in a .env file next to this script."
         )
 
-    domain, in_path = resolve_input(sys.argv[1])
+    domain, in_path = resolve_input(target)
+    profile = load_client_profile(client_slug)
 
     pages = flatten_pages(load_scrape(in_path))
     if not pages:
@@ -503,10 +539,16 @@ def main():
     else:
         print("No fit file - run check_fit.py first if you want the buying "
               "signal to count as a trigger.")
+    if profile:
+        print(f"Scoring against what {profile.get('name', client_slug)} sells")
+    else:
+        print("No client given - scoring generically. Pass the client domain "
+              "first for better triggers.")
     print(f"Asking {MODEL} for triggers...")
 
     client = genai.Client(api_key=api_key)
-    prompt = build_prompt(domain, build_corpus(pages), news_block, fit_block)
+    prompt = build_prompt(domain, build_corpus(pages), news_block,
+                          fit_block, profile)
     result = clean_result(parse_response(ask_gemini(client, prompt), domain), domain)
     out_path = save_result(domain, result)
 

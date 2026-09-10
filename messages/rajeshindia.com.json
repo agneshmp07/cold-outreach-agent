@@ -1,0 +1,89 @@
+{
+  "client": "Zoho",
+  "client_domain": "zoho.com",
+  "company_name": "rajeshindia.com",
+  "disqualifiers": [],
+  "no_trigger": true,
+  "generated_from": {
+    "trigger_count": 0,
+    "top_score": 0,
+    "pain_hypothesis": "",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "what-they-do",
+      "subject": "Streamlining operations at Rajesh India",
+      "body": "Hi team,\n\nAs an enterprise managing ongoing business operations in India, keeping separate operational software aligned can be challenging. Zoho provides an integrated cloud suite—spanning CRM, HR, finance, and email—to keep all core departments working on a single platform.\n\nHow are you currently managing operational handoffs between your sales and finance teams?\n\nBest,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "",
+      "trigger_link": "A growing enterprise benefits from unifying CRM, HR, and accounting onto a single cloud platform to eliminate operational silos.",
+      "word_count": 54,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "Fragmented business tools",
+      "body": "Hi team,\n\nFor enterprise teams, operational data often ends up trapped in separate applications for sales, accounting, and HR, leading to duplicate entry and disconnected information.\n\nDoes this match what your teams experience day-to-day?\n\nBest,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "",
+      "trigger_link": "A growing enterprise benefits from unifying CRM, HR, and accounting onto a single cloud platform to eliminate operational silos.",
+      "word_count": 36,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "Unified business management",
+      "body": "Hi team,\n\nIf we brought you a single system that connects your sales, HR, and financial processes in real time, would you take a look? A quick look costs nothing and carries no obligation.\n\nBest,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "",
+      "trigger_link": "A growing enterprise benefits from unifying CRM, HR, and accounting onto a single cloud platform to eliminate operational silos.",
+      "word_count": 36,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Hi, noticed Rajesh India's work running business operations in India. Would love to connect here on LinkedIn.",
+      "trigger_used": "",
+      "trigger_link": "A growing enterprise benefits from unifying CRM, HR, and accounting onto a single cloud platform to eliminate operational silos.",
+      "char_count": 109,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting! How do your teams currently handle tracking customer records across sales and support functions?",
+      "trigger_used": "",
+      "trigger_link": "A growing enterprise benefits from unifying CRM, HR, and accounting onto a single cloud platform to eliminate operational silos.",
+      "char_count": 119,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Hi! As we build out multi-department software workflows at Zoho, I am documenting key operational trends and solutions we discover along the way. I would be happy to share what I learn as we build if that might be useful to you?",
+      "trigger_used": "",
+      "trigger_link": "A growing enterprise benefits from unifying CRM, HR, and accounting onto a single cloud platform to eliminate operational silos.",
+      "char_count": 228,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "NO TRIGGER FOUND - nothing dated or newsworthy was found for this company, so these messages have no hook. They lean on what the company says about itself. Expect a far lower reply rate than trigger-backed messages."
+  ]
+}

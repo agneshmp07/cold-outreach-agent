@@ -1,23 +1,169 @@
 {
   "client": "KPMG",
   "client_domain": "kpmg.com",
-  "min_score": 5,
-  "resolved": true,
-  "queries": [
-    "site:linkedin.com/jobs \"CSRD\" \"Corporate Sustainability Reporting Directive\" \"Manager\" OR \"Lead\"",
-    "site:linkedin.com/jobs \"Oracle ERP\" \"Implementation Manager\" hospital OR healthcare",
-    "site:linkedin.com/jobs \"Global Tax Director\" \"e-invoicing compliance\"",
-    "\"announced the establishment of a new subsidiary in\" OR \"expanding operations into\"",
-    "\"Careers\" \"CSRD Compliance Lead\" manufacturing",
-    "\"request for proposals\" \"CSRD\" \"sustainability reporting\"",
-    "\"we are seeking an\" \"Oracle ERP Integration Manager\" healthcare"
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Global industrial manufacturing and automotive OEMs",
+      "why_they_buy": "They require complex cross-border tax restructuring, mandatory CSRD sustainability reporting, and enterprise-wide Oracle or SAP ERP modernizations across global facilities.",
+      "example_of_a_buyer": "A $2B+ revenue industrial equipment manufacturer with European subsidiaries subject to CSRD ESG compliance mandates."
+    },
+    {
+      "sector": "Multi-hospital health networks and healthcare systems",
+      "why_they_buy": "They need specialized advisory to consolidate fragmented legacy financial back-offices and manage regulatory risk during large-scale system integrations.",
+      "example_of_a_buyer": "A major non-profit health network managing 15+ regional hospitals migrating to a unified cloud ERP platform."
+    },
+    {
+      "sector": "Multinational consumer packaged goods (CPG) producers",
+      "why_they_buy": "They face shifting international e-invoicing mandates, complex cross-border transfer pricing laws, and supply chain audit requirements.",
+      "example_of_a_buyer": "A global food brand operating across 30+ legal jurisdictions deploying standardized global e-invoicing frameworks."
+    },
+    {
+      "sector": "Commercial banking and financial services institutions",
+      "why_they_buy": "They rely on independent statutory audits, capital regulatory compliance support, and enterprise risk management oversight under strict oversight bodies.",
+      "example_of_a_buyer": "A regional commercial bank expanding into wealth management that requires independent risk management auditing and regulatory compliance validation."
+    }
   ],
-  "note": "These queries search job boards, press releases, RFPs, and corporate career pages for evidence of legacy enterprise transitions, global tax expansions, and mandatory regulatory compliance deadlines while excluding IT/software vendors.",
-  "results_seen": 42,
-  "rejected_count": 38,
-  "rejection_reasons": {
-    "no signal in the snippet": 20,
-    "not a company - a host, a form link or a social post": 18
-  },
-  "candidates": []
+  "candidates": [
+    {
+      "company": "Maruti Suzuki",
+      "sector": "Automotive Manufacturing",
+      "why": "Major automotive manufacturer expanding manufacturing plants and requiring supply chain advisory, audit, and tax consulting.",
+      "seen_in": "Top OEM Motor Manufacturers in India | PDF",
+      "domain": "marutisuzuki.com"
+    },
+    {
+      "company": "Tata Motors",
+      "sector": "Automotive Manufacturing",
+      "why": "Global automotive OEM needing digital manufacturing transformations, ERP implementations, and risk advisory services.",
+      "seen_in": "Top OEM Motor Manufacturers in India | PDF",
+      "domain": "tatamotors.com"
+    },
+    {
+      "company": "Mahindra & Mahindra",
+      "sector": "Automotive Manufacturing",
+      "why": "Automotive manufacturer deepening global expansion, requiring cross-border tax, audit, and regulatory compliance consulting.",
+      "seen_in": "Top OEM Motor Manufacturers in India | PDF",
+      "domain": "mahindra.com"
+    },
+    {
+      "company": "Hyundai Motor",
+      "sector": "Automotive Manufacturing",
+      "why": "Multinational automobile OEM requiring digital transformation, enterprise risk management, and tax advisory services.",
+      "seen_in": "Top OEM Motor Manufacturers in India | PDF",
+      "domain": "hyundai.com"
+    },
+    {
+      "company": "Bharat Forge",
+      "sector": "Automotive Components",
+      "why": "Leading auto components manufacturer requiring supply chain optimization, sustainability consulting, and financial audits.",
+      "seen_in": "Top 10 OEM Manufacturing Companies in India for Private ...",
+      "domain": "bharatforge.com"
+    },
+    {
+      "company": "Samvardhana Motherson",
+      "sector": "Automotive Components",
+      "why": "Tier-1 automotive supplier needing regulatory compliance, international tax planning, and ERP implementations.",
+      "seen_in": "Top 20 auto components and ancillaries manufacturing ...",
+      "domain": "motherson.com"
+    },
+    {
+      "company": "Lear Corporation",
+      "sector": "Automotive Components",
+      "why": "Global automotive seating manufacturer requiring digital transformation, sustainability consulting, and risk management.",
+      "seen_in": "Top Companies in the Automotive Seat Market",
+      "domain": "lear.com"
+    },
+    {
+      "company": "Apollo Hospitals",
+      "sector": "Healthcare Systems",
+      "why": "Large healthcare network operator expanding facilities and requiring digital health transformation, risk compliance, and auditing.",
+      "seen_in": "Top 10 Hospitals in India (2026) | Best Multispeciality Care ...",
+      "domain": "apollohospitals.com"
+    },
+    {
+      "company": "Fortis Healthcare",
+      "sector": "Healthcare Systems",
+      "why": "Multi-hospital network needing financial audits, regulatory compliance, and operational advisory services.",
+      "seen_in": "22 Healthcare Companies in India to Know",
+      "domain": "fortishealthcare.com"
+    },
+    {
+      "company": "Max Healthcare",
+      "sector": "Healthcare Systems",
+      "why": "Hospital chain expanding its facility network, requiring IT infrastructure advisory, tax compliance, and risk consulting.",
+      "seen_in": "Top 10 healthcare providers in India",
+      "domain": "maxhealthcare.in"
+    },
+    {
+      "company": "Manipal Hospitals",
+      "sector": "Healthcare Systems",
+      "why": "Multispecialty hospital network requiring internal audits, cybersecurity compliance, and health IT advisory.",
+      "seen_in": "Top Companies in Hospital Chains Worldwide (Aug, 2026)",
+      "domain": "manipalhospitals.com"
+    },
+    {
+      "company": "Narayana Health",
+      "sector": "Healthcare Systems",
+      "why": "Major healthcare provider implementing digital health systems and requiring tax consulting, risk management, and audit services.",
+      "seen_in": "Top Companies in Hospital Chains Worldwide (Aug, 2026)",
+      "domain": "narayanahealth.org"
+    },
+    {
+      "company": "Medicover Hospitals",
+      "sector": "Healthcare Systems",
+      "why": "Multispeciality hospital chain undergoing acquisition and expansion, needing transaction advisory, audit, and tax services.",
+      "seen_in": "Medicover Hospitals",
+      "domain": "medicoverhospitals.in"
+    },
+    {
+      "company": "Procter & Gamble",
+      "sector": "Consumer Packaged Goods",
+      "why": "Multinational CPG giant requiring global tax advisory, supply chain optimization, and sustainability consulting.",
+      "seen_in": "Top CPG (Consumer Packaged Goods) Brands",
+      "domain": "pg.com"
+    },
+    {
+      "company": "Unilever",
+      "sector": "Consumer Packaged Goods",
+      "why": "Global CPG manufacturer implementing digital factory technologies and needing ESG sustainability consulting and tax services.",
+      "seen_in": "Top CPG (Consumer Packaged Goods) Brands",
+      "domain": "unilever.com"
+    },
+    {
+      "company": "Nestlé",
+      "sector": "Consumer Packaged Goods",
+      "why": "Global food and beverage company needing regulatory compliance, ESG/sustainability advisory, and financial auditing.",
+      "seen_in": "Top CPG (Consumer Packaged Goods) Brands",
+      "domain": "nestleusa.com"
+    },
+    {
+      "company": "PepsiCo",
+      "sector": "Consumer Packaged Goods",
+      "why": "Multinational CPG producer requiring enterprise digital transformations, tax consulting, and risk management.",
+      "seen_in": "Top 100 Consumer Goods Companies of 2023",
+      "domain": "pepsico.com"
+    },
+    {
+      "company": "ITC",
+      "sector": "Consumer Packaged Goods",
+      "why": "Diversified consumer goods conglomerate requiring corporate tax advisory, sustainability strategy, and enterprise risk consulting.",
+      "seen_in": "Top FMCG Companies in India List of Brands Products and ...",
+      "domain": "itcportal.com"
+    },
+    {
+      "company": "Godrej Consumer Products",
+      "sector": "Consumer Packaged Goods",
+      "why": "Fast-moving consumer goods company requiring supply chain advisory, ERP implementations, and tax compliance.",
+      "seen_in": "Top Consumer Packaged Goods (Cpg) Companies in India",
+      "domain": "godrejcp.com"
+    },
+    {
+      "company": "HDFC Bank",
+      "sector": "Commercial Banking",
+      "why": "Major commercial bank requiring regulatory compliance advisory, financial auditing, and risk management services.",
+      "seen_in": "Top Banking Companies in India",
+      "domain": "bank.in"
+    }
+  ]
 }

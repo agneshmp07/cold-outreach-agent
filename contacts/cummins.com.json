@@ -1,0 +1,93 @@
+{
+  "client": "Salesforce",
+  "client_domain": "salesforce.com",
+  "company": "Cummins PowerStore Homepage",
+  "domain": "cummins.com",
+  "titles": [
+    "Director of Revenue Operations",
+    "CRM Operations Manager",
+    "Head of Customer Support Operations",
+    "Business Applications Manager",
+    "Head - Sales Operations"
+  ],
+  "why": "Operations and application leads suffer daily from broken cross-departmental workflows, messy pipeline data, and fragmented tools, making them the most eager champions for unified CRM and automation.",
+  "people": [
+    {
+      "name": "Travis Vigil",
+      "role": "Dell Technologies",
+      "linkedin": "https://www.linkedin.com/in/travisvigil",
+      "matched_title": "Director of Revenue Operations",
+      "snippet": "Global strategy and business owner for Dell's $16B+ storage and data protection products including PowerStore, PowerScale, PowerProtect,"
+    },
+    {
+      "name": "Rohith Koushika",
+      "role": "Senior Sales Operations Analyst",
+      "linkedin": "https://www.linkedin.com/in/rohith-koushika-15810533b",
+      "matched_title": "Director of Revenue Operations",
+      "snippet": "Analyst with 7+ years of experience supporting sales teams through data, reporting, and process improvements across multiple segments. Cummins Inc."
+    },
+    {
+      "name": "Brad Lontz",
+      "role": "EVP and CIO at CSAA Insurance Group",
+      "linkedin": "https://www.linkedin.com/in/bradlontz",
+      "matched_title": "Director of Revenue Operations",
+      "snippet": "Cummins Inc. Implemented the first common Sales Force Automation tool and eCommerce site – the “Cummins PowerStore.”"
+    },
+    {
+      "name": "Dale Skey",
+      "role": "Customer Order Management Specialist at Cummins ...",
+      "linkedin": "https://uk.linkedin.com/in/daleskey",
+      "matched_title": "CRM Operations Manager",
+      "snippet": "I am a passionate professional with broad experience in all aspects of identifying and generating new business, cultivating and managing business growth, ..."
+    },
+    {
+      "name": "Kyle Burns",
+      "role": "Microsoft Azure (IAAS, PAAS) Technology Strategy ...",
+      "linkedin": "https://www.linkedin.com/in/kylemburns",
+      "matched_title": "CRM Operations Manager",
+      "snippet": "I delivered technical solutions for multiple clients, supported Cummins' BP2000 project, developed the Cummins Power Store web platform, and enhanced Centra ..."
+    },
+    {
+      "name": "Almarie Stoltz",
+      "role": "Mechanical & Aerospace Engineering Student",
+      "linkedin": "https://www.linkedin.com/in/almarie-stoltz-9b9514387",
+      "matched_title": "Head of Customer Support Operations",
+      "snippet": "Almarie Stoltz. Mechanical & Aerospace Engineering Student | Physics Minor | President, Society of Women Engineers. Cummins Inc. New Mexico State University ..."
+    },
+    {
+      "name": "Janis Krauklis",
+      "role": "Business Development Manager at Cummins ...",
+      "linkedin": "https://uk.linkedin.com/in/janis-krauklis-012906177",
+      "matched_title": "Head of Customer Support Operations",
+      "snippet": "Business Development Manager at Cummins Distribution Europe · Experience: Cummins Distribution Europe · Education: The Open University · Location: City Of ..."
+    },
+    {
+      "name": "Ajith George",
+      "role": "Senior Principal Engineer, Edge Computing Architect",
+      "linkedin": "https://in.linkedin.com/in/geajith",
+      "matched_title": "Business Applications Manager",
+      "snippet": "- Working on Dell EMC PowerStore Management Applications. - Leading the Seamless Migration solution a.ka. Destination Trident, Storage Direct, Cloud and ..."
+    },
+    {
+      "name": "Maia Jamieson",
+      "role": "Finance student at Haslam College of Businees ...",
+      "linkedin": "https://www.linkedin.com/in/maia-jamieson-84982340b",
+      "matched_title": "Head - Sales Operations",
+      "snippet": "Maia can introduce you to 10+ people at Cummins Inc. Sales Operations Intern Cummins Inc. 10+ people at Cummins Inc."
+    }
+  ],
+  "email": {
+    "pattern": "first.last",
+    "examples": [
+      "accommodations@cummins.com",
+      "shalini.g@cummins.com",
+      "hitika.raj@cummins.com"
+    ],
+    "sources": [
+      "https://www.cummins.com/en-na/careers",
+      "https://www.cummins.com/en-na/en/in/company/corporate-responsibility/global-impact/projects/higher-education/india-scholarship-program",
+      "https://www.cummins.com/en-na/en/in/company/corporate-responsibility/global-impact/projects/higher-education/india-scholarship-program"
+    ],
+    "confidence": "reasonable"
+  }
+}

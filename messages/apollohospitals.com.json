@@ -1,0 +1,89 @@
+{
+  "client": "Zoho",
+  "client_domain": "zoho.com",
+  "company_name": "apollohospitals.com",
+  "disqualifiers": [],
+  "no_trigger": true,
+  "generated_from": {
+    "trigger_count": 0,
+    "top_score": 0,
+    "pain_hypothesis": "",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "what-they-do",
+      "subject": "Software operations at Apollo Hospitals",
+      "body": "Apollo Hospitals delivers multi-specialty healthcare and hospital services. Zoho provides a unified suite of cloud applications—covering HR, CRM, and accounting—that helps organizations manage back-office operations cleanly in one place. How are you handling those operational systems across your facilities today?\n\nBest,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "",
+      "trigger_link": "Large healthcare organizations like Apollo Hospitals often need to unify HR, finance, and customer support operations across multiple facilities on a single cloud platform.",
+      "word_count": 42,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "Operational software alignment",
+      "body": "Running separate software tools for staff management, patient communication, and accounting frequently creates fragmented operational data for healthcare organizations. Does that match your experience?\n\nBest,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "",
+      "trigger_link": "Large healthcare organizations like Apollo Hospitals often need to unify HR, finance, and customer support operations across multiple facilities on a single cloud platform.",
+      "word_count": 26,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "Unified operational platform",
+      "body": "If we brought you a fully integrated cloud platform that unifies your HR, business communication, and accounting in one workspace, would you be open to a short call to review it? A quick look costs you nothing.\n\nBest,\nagnesh_mp@pg27.mesaschool.co",
+      "trigger_used": "",
+      "trigger_link": "Large healthcare organizations like Apollo Hospitals often need to unify HR, finance, and customer support operations across multiple facilities on a single cloud platform.",
+      "word_count": 39,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Hi, I know Apollo Hospitals delivers multi-specialty healthcare services across your network. I would love to connect here on LinkedIn.",
+      "trigger_used": "",
+      "trigger_link": "Large healthcare organizations like Apollo Hospitals often need to unify HR, finance, and customer support operations across multiple facilities on a single cloud platform.",
+      "char_count": 135,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting! How does your organization currently handle managing HR, support, and business communications across your systems?",
+      "trigger_used": "",
+      "trigger_link": "Large healthcare organizations like Apollo Hospitals often need to unify HR, finance, and customer support operations across multiple facilities on a single cloud platform.",
+      "char_count": 137,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "As we continue building and refining unified operations software for enterprise organizations, I would be happy to share the key operational insights we gather along the way if that would be helpful to you.",
+      "trigger_used": "",
+      "trigger_link": "Large healthcare organizations like Apollo Hospitals often need to unify HR, finance, and customer support operations across multiple facilities on a single cloud platform.",
+      "char_count": 206,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "NO TRIGGER FOUND - nothing dated or newsworthy was found for this company, so these messages have no hook. They lean on what the company says about itself. Expect a far lower reply rate than trigger-backed messages."
+  ]
+}

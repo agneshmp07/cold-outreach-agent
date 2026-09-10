@@ -1,0 +1,26 @@
+{
+  "domain": "dlf.in",
+  "name": "DLF",
+  "one_liner": "DLF develops, leases, and manages residential, commercial, and retail real estate properties in India.",
+  "what_you_sell": "Commercial office space, retail mall properties, residential developments, and hospitality properties.",
+  "target_group": "DLF sells commercial office leases and retail mall spaces to mid-sized and enterprise companies expanding in India. A ideal target is a company with over 100 employees in technology, financial services, or retail seeking Grade-A office space or prime retail storefronts in major Indian commercial hubs like Gurugram, Delhi, or Chennai.",
+  "sells_to_businesses": true,
+  "b2c_note": "DLF also sells residential homes and apartments directly to individual consumers.",
+  "business_model": "direct",
+  "who_uses_it": "Employees working in corporate office complexes, retail store operators, and residential property buyers.",
+  "who_pays_for_it": "Companies leasing commercial office space, retail brands renting mall space, and individual homebuyers.",
+  "who_buys_it": "Heads of Corporate Real Estate, Facilities Directors, and Retail Expansion Managers looking for office or store space in India.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-dlf.in.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims over 78 years of real estate development and management experience.",
+    "Claims to have delivered 32.63 million square meters of real estate.",
+    "Claims to be the largest publicly listed real estate company in India.",
+    "Claims active property developments spanning 15 states and 24 cities."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

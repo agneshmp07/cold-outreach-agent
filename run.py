@@ -255,7 +255,7 @@ def main():
     step("news.py", target)
 
     say(f"Step 5 of 6 - pulling out what is worth writing about")
-    if step("triggers.py", target) != 0:
+    if step("triggers.py", client_domain, target) != 0:
         sys.exit("\ntriggers.py failed. See the error above.")
 
     say(f"Step 6 of 6 - writing the messages")

@@ -26,6 +26,7 @@ CONTEXT = BASE / "context"
 TARGETS = BASE / "targets"
 MESSAGES = BASE / "messages"
 FIT = BASE / "fit"
+CONTACTS = BASE / "contacts"
 
 st.set_page_config(page_title="Cold Outreach Agent", layout="centered")
 
@@ -302,7 +303,7 @@ if data is None:
              ("Reading their site", "scrape.py", [target_domain]),
              ("Looking for recent news", "news.py", [target_domain]),
              ("Working out what is worth writing about", "triggers.py",
-              [target_domain]),
+              [state.client, target_domain]),
              ("Writing the messages", "generate.py",
               [state.client, target_domain])]
 
@@ -336,12 +337,49 @@ if data is None:
         if script == "news.py":
             continue  # news is optional; a failure here is not fatal
 
+        if script == "triggers.py" and result.returncode != 0:
+            # Usually the scrape came back empty - a JS-only site, or one that
+            # blocks scrapers. That is a thin company to write to, not a reason
+            # to abandon the run: generate.py can still write from whatever is
+            # known, and it labels the result as having no hook.
+            st.warning("**Could not read enough about them to find a hook.** "
+                       "Their site gave up little or nothing. Writing anyway, "
+                       "with no trigger.")
+            with st.expander("Why"):
+                st.code((result.stdout or result.stderr or "").strip())
+            (BASE / "triggers").mkdir(parents=True, exist_ok=True)
+            (BASE / "triggers" / f"{target_domain}.json").write_text(
+                json.dumps({"company_name": target_domain, "triggers": [],
+                            "disqualifiers": [], "pain_hypothesis": "",
+                            "no_trigger_found": True},
+                           indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8")
+            continue
+
+        if script == "scrape.py" and result.returncode != 0:
+            st.warning("**Could not read their website.** Writing from what "
+                       "little is known.")
+            continue
+
         if result.returncode != 0:
             if script == "generate.py":
-                st.warning("**Nothing worth writing was found.**")
-                detail = (result.stdout or "").strip()
-                if detail:
-                    st.code(detail)
+                out = (result.stdout or "").strip()
+                err = (result.stderr or "").strip()
+                # A refusal prints to stdout and says why. A crash prints a
+                # traceback to stderr and nothing to stdout. Calling both
+                # "crashed" made a working quality gate look broken.
+                refusal = out or err
+                if "below the floor" in refusal or "CANNOT WRITE" in refusal:
+                    st.warning("**Stopped before writing.**")
+                    st.code(refusal)
+                elif out:
+                    st.warning("**Nothing worth writing was found.**")
+                    st.code(out)
+                else:
+                    st.error("**generate.py crashed.**")
+                if err:
+                    with st.expander("Error detail", expanded=not out):
+                        st.code(err)
             else:
                 fail(f"{label} failed.", result)
             state.target = None
@@ -355,9 +393,54 @@ if data is None:
 
 st.markdown(f"### {client.get('name')} → {data.get('company_name', target_domain)}")
 
+# Who to send it to. The messages are useless without a recipient, and hunting
+# LinkedIn by hand is the slowest step in the loop.
+contact_path = CONTACTS / f"{target_domain}.json"
+contacts = {}
+if contact_path.exists():
+    try:
+        contacts = json.loads(contact_path.read_text(encoding="utf-8"))
+    except Exception:
+        contacts = {}
+
+if not contacts:
+    if st.button("Find who to send this to", use_container_width=True):
+        with st.spinner("Looking for the right people"):
+            found = run("find_contacts.py", state.client, target_domain)
+        if found.returncode != 0:
+            fail("Could not look for contacts.", found)
+        st.rerun()
+else:
+    people = contacts.get("people") or []
+    with st.expander(f"Who to send it to · {len(people)} found", expanded=True):
+        if contacts.get("why"):
+            st.caption(contacts["why"])
+        for person in people:
+            st.markdown(
+                f'<div class="row"><div class="row-name">{esc(person["name"])}</div>'
+                f'<div class="row-sub">{esc(person["role"])}</div></div>',
+                unsafe_allow_html=True)
+            st.caption(person["linkedin"])
+        if not people:
+            st.caption("Nobody matched those titles publicly. Search LinkedIn "
+                       "for the company and scan the People tab.")
+        email = contacts.get("email") or {}
+        if email.get("pattern"):
+            st.caption(f"Addresses here look like **{email['pattern']}"
+                       f"@{contacts.get('domain')}** — seen in "
+                       f"{', '.join(email.get('examples', [])[:2])}. Check one "
+                       f"before sending; a bounce hurts your domain.")
+        else:
+            st.caption("No public email addresses found. LinkedIn message "
+                       "instead, or use their contact form.")
+
 info = data.get("generated_from") or {}
 if info.get("pain_hypothesis"):
     st.info(info["pain_hypothesis"])
+
+weak = [w for w in (data.get("warnings") or []) if w.startswith("WEAK TRIGGERS")]
+if weak:
+    st.warning(weak[0])
 
 if data.get("no_trigger"):
     st.warning("**No hook found.** Nothing dated or newsworthy turned up for "

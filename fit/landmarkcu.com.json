@@ -1,0 +1,378 @@
+{
+  "domain": "landmarkcu.com",
+  "client": "Salesforce",
+  "client_domain": "salesforce.com",
+  "checked_against": "icp-salesforce.com.md",
+  "result": {
+    "company_name": "Landmark Credit Union",
+    "what_they_do": "Landmark Credit Union is a full-service financial cooperative providing personal and business banking, loans, and digital banking services across 35 branches.",
+    "size": {
+      "estimate": "1,001–5,000 employees",
+      "evidence": "[9] lists company size as 1,001-5,000 employees, confirmed by ZoomInfo in [16].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Retail banking and regional credit unions / Financial Services (500+ employees)",
+      "in_icp": true,
+      "why": "Matches the 'Retail banking and regional credit unions' sector under Also Fits and 'Financial Services' (500+ employees) in the Who Fits table, operating 35 branches with over 360,000 members.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "News coverage and case studies highlighting digital banking innovation and DevOps digital transformation initiatives.",
+      "evidence": "[19] and [22] highlight public announcements regarding Landmark Credit Union's digital banking innovation partnership and DevOps digital transformation.",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": true,
+      "what": "Enterprise financial and digital banking solutions including Blend, Alkami, and Fiserv core processing systems.",
+      "evidence": "[19], [20], and [40] state case studies and relationships with Alkami, Blend, and Fiserv for digital banking modernization.",
+      "status": "VERIFIED"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Landmark Credit Union fits the ICP segment for regional credit unions and financial services companies over 500 employees. It demonstrates clear buying signals with active digital transformation initiatives and uses enterprise banking software platforms.",
+    "could_not_find": [
+      "Active job listings specifically mentioning 'Salesforce Administrator' or CRM operations.",
+      "Details on whether they currently utilize automated AI agents in customer support."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About us",
+      "snippet": "At Landmark Credit Union, we are all about less complicated banking. We make navigating the everyday and achieving your dreams easier than you ever imagined.",
+      "link": "https://landmarkcu.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Landmark Credit Union: Banking Services for Wisconsin ...",
+      "snippet": "Landmark Credit Union provides financial solutions with better rates and lower fees. Visit us today to open a checking, IRA or savings account today.",
+      "link": "https://landmarkcu.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Business Banking",
+      "snippet": "Keep capital handy and earn rewards when you make business purchases. Start ... © 2026 Landmark Credit Union. Legal · Security · Privacy Policy · Children's ...",
+      "link": "https://landmarkcu.com/business-banking/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Landmark Credit Union Reviews: 99 User Ratings",
+      "snippet": "At Landmark Credit Union, they live by the words “You're worth more here.” As a not-for-profit financial cooperative, they return profits to their members, ...",
+      "link": "https://wallethub.com/profile/landmark-credit-union-13313175i",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Privacy Policy",
+      "snippet": "Landmark Credit Union Mobile Application and Digital Banking (“Digital Banking”) – powered by Fiserv – helps you control your credit and/or debit cards through ...",
+      "link": "https://landmarkcu.com/privacy-policy/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "About Landmark Credit Union",
+      "snippet": "Landmark Credit Union is a full service, not-for-profit financial institution serving over 10000 members in Vermillion County and beyond.",
+      "link": "https://www.landmarkcreditunion.com/about-us/about-landmark-cu",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Careers at Landmark",
+      "snippet": "At Landmark Credit Union, associates have access to reimbursement opportunities for training, progression,. Growth & Learning. We are committed to providing ...",
+      "link": "https://landmarkcu.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Landmark Credit Union",
+      "snippet": "Landmark Credit Union is a not-for-profit financial cooperative owned by our customers/members. We return our profits to our members with exceptional rates, ...",
+      "link": "https://www.linkedin.com/company/landmark-credit-union",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Landmark Credit Union",
+      "snippet": "Website: https://landmarkcu.com/careers/. External link for Landmark Credit Union ; Industry: Financial Services ; Company size: 1,001-5,000 employees.",
+      "link": "https://landmarkcu.com/careers/.",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "54 Landmark Credit Union jobs in Milwaukee",
+      "snippet": "Today's top 54 Landmark Credit Union jobs in Milwaukee. Leverage your professional network, and get hired. New Landmark Credit Union jobs added daily.",
+      "link": "https://www.linkedin.com/jobs/landmark-credit-union-jobs-milwaukee-wi",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Landmark Credit Union",
+      "snippet": "Website: https://www.landmarkcreditunion.com/. External link for Landmark Credit Union ; Industry: Financial Services ; Company size: 11-50 employees.",
+      "link": "https://www.landmarkcreditunion.",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Craig Much - VP Commercial Lending @ Landmark Credit ...",
+      "snippet": "With over fifteen years of experience in financial services, currently serving as VP of Business Lending at Landmark Credit Union, contributing to fostering ...",
+      "link": "https://www.linkedin.com/in/craigmuch",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Careers at Landmark",
+      "snippet": "At Landmark Credit Union, associates have access to reimbursement opportunities for training, progression,. Growth & Learning. We are committed to providing ...",
+      "link": "https://landmarkcu.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mark Kennedy - Chief Lending Officer at Landmark Credit ...",
+      "snippet": "Chief Lending Officer at Landmark Credit Union. Landmark Credit Union Keller Graduate School of Management. Greater Milwaukee. 765 followers 500+ connections.",
+      "link": "https://www.linkedin.com/in/mark-kennedy-68411832",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Landmark Credit Union hiring Consumer Loan Specialist in ...",
+      "snippet": "Join or sign in to find your next job. Join to apply for the Consumer Loan Specialist role at Landmark Credit Union.",
+      "link": "https://www.linkedin.com/jobs/view/consumer-loan-specialist-at-landmark-credit-union-4461288614",
+      "date": "Aug 31, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Landmark Credit Union: Employee Directory",
+      "snippet": "Landmark Credit Union corporate office is located in 555 S Executive Dr, Brookfield, Wisconsin, 53005, United States and has 1K - 5K employees. Likely to Engage ...",
+      "link": "https://www.zoominfo.com/pic/landmark-credit-union/69228142",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Landmark Credit Union: Banking Services for Wisconsin ...",
+      "snippet": "Landmark Credit Union provides financial solutions with better rates and lower fees. Visit us today to open a checking, IRA or savings account today.",
+      "link": "https://landmarkcu.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Careers at Landmark",
+      "snippet": "Opportunity is right around the corner, start your search now and apply for an exciting career with Landmark Credit Union. Explore Opportunities. Through ...",
+      "link": "https://landmarkcu.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Landmark Credit Union Showcases Digital Banking ...",
+      "snippet": "Landmark Credit Union Showcases Digital Banking Innovation and Commercial Growth through Alkami Partnership · June 24, 2026 (Plano, Texas) · About ...",
+      "link": "https://www.alkami.com/news/landmark-credit-union-showcases-digital-banking-innovation-and-commercial-growth-through-alkami-partnership/",
+      "date": "Jun 24, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Building trust and loyalty in the age of digital acceleration",
+      "snippet": "Landmark Credit Union is upping the digital ante to remain committed to financial empowerment, lasting relationships, and strong communities.",
+      "link": "https://blend.com/customers/landmark-cu/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Case Study: Business Banking with Landmark Credit Union",
+      "snippet": "As Landmark Credit Union made the strategic move to expand from commercial real estate lending into operating company relationships, ...",
+      "link": "https://www.youtube.com/watch?v=7JAfaOB3hqY",
+      "date": "6 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Landmark Credit Union - DevOps Digital Transformation",
+      "snippet": "Sustainable cloud native DevSecOps in three months. Cloud platform modernization delivers speed, security, and compliance to Landmark Credit Union.",
+      "link": "https://www.nvisia.com/digital-transformation-examples/landmark-credit-union",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Landmark Credit Union Account Data Coverage",
+      "snippet": "BankSync may support connections to Landmark Credit Union accounts through third-party open banking providers. Route account data to Google Sheets, Notion, ...",
+      "link": "https://banksync.io/banks/landmark-credit-union",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "About us",
+      "snippet": "At Landmark Credit Union, we are all about less complicated banking. We make navigating the everyday and achieving your dreams easier than you ever imagined.",
+      "link": "https://landmarkcu.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Landmark Credit Union: Banking Services for Wisconsin ...",
+      "snippet": "Landmark Credit Union provides financial solutions with better rates and lower fees. Visit us today to open a checking, IRA or savings account today.",
+      "link": "https://landmarkcu.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Careers at Landmark",
+      "snippet": "Opportunity is right around the corner, start your search now and apply for an exciting career with Landmark Credit Union. Explore Opportunities. Through ...",
+      "link": "https://landmarkcu.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Landmark Credit Union Showcases Digital Banking ...",
+      "snippet": "Landmark Credit Union Showcases Digital Banking Innovation and Commercial Growth through Alkami Partnership · June 24, 2026 (Plano, Texas) · About ...",
+      "link": "https://www.alkami.com/news/landmark-credit-union-showcases-digital-banking-innovation-and-commercial-growth-through-alkami-partnership/",
+      "date": "Jun 24, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Building trust and loyalty in the age of digital acceleration",
+      "snippet": "Landmark Credit Union is upping the digital ante to remain committed to financial empowerment, lasting relationships, and strong communities.",
+      "link": "https://blend.com/customers/landmark-cu/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Case Study: Business Banking with Landmark Credit Union",
+      "snippet": "As Landmark Credit Union made the strategic move to expand from commercial real estate lending into operating company relationships, ...",
+      "link": "https://www.youtube.com/watch?v=7JAfaOB3hqY",
+      "date": "6 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Landmark Credit Union - DevOps Digital Transformation",
+      "snippet": "Sustainable cloud native DevSecOps in three months. Cloud platform modernization delivers speed, security, and compliance to Landmark Credit Union.",
+      "link": "https://www.nvisia.com/digital-transformation-examples/landmark-credit-union",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Landmark Credit Union Account Data Coverage",
+      "snippet": "BankSync may support connections to Landmark Credit Union accounts through third-party open banking providers. Route account data to Google Sheets, Notion, ...",
+      "link": "https://banksync.io/banks/landmark-credit-union",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "About us",
+      "snippet": "At Landmark Credit Union, we are all about less complicated banking. We make navigating the everyday and achieving your dreams easier than you ever imagined.",
+      "link": "https://landmarkcu.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "How Landmark CU Scaled their Commercial Banking Solutions",
+      "snippet": "— Jeff Luczak, VP of Treasury Management at Landmark Credit Union ... Case Study, Client Success, Resources. August 4, 2026. How Raiz Federal ...",
+      "link": "https://www.alkami.com/resources/client-success/case-study/how-landmark-cu-scaled-their-commercial-banking-solutions/",
+      "date": "Jan 29, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Case Study: Business Banking with Landmark Credit Union - YouTube",
+      "snippet": "... management solutions to successfully support commercial ... Case Study: Business Banking with Landmark Credit Union. @Alkamitech ...",
+      "link": "https://www.youtube.com/watch?v=7JAfaOB3hqY",
+      "date": "Feb 13, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Landmark Credit Union: Banking Services for Wisconsin & Illinois",
+      "snippet": "Landmark Credit Union provides financial solutions with better rates and lower fees. Visit us today to open a checking, IRA or savings account today.",
+      "link": "https://landmarkcu.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Landmark Credit Union - DevOps Digital Transformation - nvisia",
+      "snippet": "nvisia + Landmark Credit Union. Case Study. Jump To ... Cloud platform modernization delivers speed, security, and compliance to Landmark Credit Union.",
+      "link": "https://www.nvisia.com/digital-transformation-examples/landmark-credit-union",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Building trust and loyalty in the age of digital acceleration - Blend",
+      "snippet": "Landmark Credit Union is upping the digital ante to remain committed to financial empowerment, lasting relationships, and strong communities.",
+      "link": "https://blend.com/customers/landmark-cu/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "About us | Landmark Credit Union",
+      "snippet": "With banking options on your terms. All from a strong, stable credit union with great rates and low fees. At Landmark Credit Union, we are all about less ...",
+      "link": "https://landmarkcu.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Landmark Credit Union | Americaneagle.com",
+      "snippet": "Landmark Credit Union currently serves over 360,000 members who live and work in Southern Wisconsin and Northeastern Illinois across 35 branches.",
+      "link": "https://www.americaneagle.com/projects/detail/landmark-credit-union",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Landmark Credit Union Extends Fiserv Relationship to Support Growth",
+      "snippet": "Longtime Fiserv client Landmark Credit Union will expand its relationship with the fintech and move to a new Fiserv core processing system.",
+      "link": "https://www.businesswire.com/news/home/20200108005232/en/Landmark-Credit-Union-Extends-Fiserv-Relationship-to-Support-Growth",
+      "date": "Jan 8, 2020"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at Landmark",
+      "snippet": "Grow and succeed in your career at Landmark, where we put people first. Learn more about our careers, benefits, and culture.",
+      "link": "https://landmarkcu.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About us | Landmark Credit Union",
+      "snippet": "Founded in 1933, Landmark is a Wisconsin-based credit union with 35 branches, 34000+ in-network ATMs, over 375000 members and over $6 billion in assets.",
+      "link": "https://landmarkcu.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "TYME® Advanced ATMs | Landmark Credit Union",
+      "snippet": "These advanced ATMs have superior capabilities that will make your banking easier and faster. They can perform many of the tasks that a teller can saving ...",
+      "link": "https://landmarkcu.com/about-us/tyme-atm/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Managing Money as a Couple | Landmark Credit Union",
+      "snippet": "Money can be a top stressor for couples, but here are a few tips to make sure it doesn't have to be one for you and your significant other.",
+      "link": "https://landmarkcu.com/blog/couples-money-management-tips/",
+      "date": "Feb 3, 2021"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Privacy Policy | Landmark Credit Union",
+      "snippet": "About Us Careers News Locations Schedule Appointment Learn FAQs Calculators Events Blog Rates Your Membership",
+      "link": "https://landmarkcu.com/privacy-policy/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Landmark Credit Union: Banking Services for Wisconsin & Illinois",
+      "snippet": "Landmark Careers – Your Journey Starts Here. Join an organization that was built upon the compelling idea of people helping people. It is a principle we all ...",
+      "link": "https://landmarkcu.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Top Mortgage Myths Debunked - Landmark Credit Union",
+      "snippet": "Let's bust some of the most common mortgage myths. At Landmark, we're here to make the home loan process simple and affordable.",
+      "link": "https://landmarkcu.com/blog/top-mortgage-myths/",
+      "date": "May 2, 2023"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "A Complete Guide to Budgeting: Smart Tips to Manage Your Money",
+      "snippet": "How you can adjust spending habits to reach savings goals. Read about the top budgeting tactics below and see what works for your lifestyle. Pay ...",
+      "link": "https://landmarkcu.com/blog/budgeting-strategy/",
+      "date": "Apr 5, 2024"
+    }
+  ]
+}

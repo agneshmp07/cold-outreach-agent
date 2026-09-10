@@ -1,0 +1,378 @@
+{
+  "domain": "motherson.com",
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "checked_against": "icp-kpmg.com.md",
+  "result": {
+    "company_name": "Anest Iwata Motherson Pvt. Ltd.",
+    "what_they_do": "Manufactures industrial air compressors, vacuum pumps, paint coating equipment, and automated coating systems as a joint venture between Anest Iwata Corp (Japan) and Motherson Group (India).",
+    "size": {
+      "estimate": "INR 100 cr - 500 cr operating revenue (~$12M - $60M USD)",
+      "evidence": "[8] Anest Iwata Motherson's operating revenue range is INR 100 cr - 500 cr for the financial year ending on 31 March, 2024.",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Global Enterprise / Industrial Manufacturing",
+      "in_icp": false,
+      "why": "The company is an industrial equipment manufacturer, but its annual revenue of INR 100 cr - 500 cr (~$12M - $60M) [8] is well below the $1B+ / $2B+ revenue requirement specified in the ICP.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None of the ICP buying signals (e.g., job postings for CSRD Compliance Lead or Oracle ERP Integration Manager, or international expansion announcements) were present in the search results.",
+      "evidence": "N/A",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "No evidence found in search results showing current spend on Big Four or equivalent enterprise audit and advisory vendors.",
+      "evidence": "N/A",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "As a joint-venture industrial equipment manufacturer, the company plausibly has enterprise advisory, audit, or tax needs, but its annual revenue (~$12M - $60M USD) [8] falls short of the ICP's strict $1B+ / $2B+ revenue threshold. Under the verdict rules, a company not strictly in a named segment that plausibly has the need defaults to UNCLEAR for human evaluation.",
+    "could_not_find": [
+      "Details on the specific ERP platform currently implemented or being modernized at Anest Iwata Motherson.",
+      "Confirmation of existing third-party audit or management consulting engagements."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Anest Iwata Motherson: Industrial Air Compressors & Coating ...",
+      "snippet": "Anest Iwata Motherson Pvt. Ltd. is a manufacturer of air compressors, vacuum pumps, and coating equipment, along with a full range of coating automation and ...",
+      "link": "https://anestiwata.motherson.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "BRAND STORY 04 1986-Present",
+      "snippet": "The company founded ANEST IWATA Motherson Private Ltd. jointly with a new partner, the Motherson Group, a leading conglomerate in India, to operate a base ...",
+      "link": "https://www.anestiwata-corp.com/company/brandstory/1986",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Anest Iwata Motherson Pvt. Ltd.",
+      "snippet": "Anest Iwata Motherson Pvt. Ltd. is a joint venture between Anest Iwata, Japan, a world leader in oil free and lubricated compressors and Motherson Group, ...",
+      "link": "https://in.linkedin.com/company/anestiwatamotherson",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Careers",
+      "snippet": "Anest Iwata Motherson Pvt. Ltd. is a manufacturer of air compressors, vacuum pumps, and coating equipment, along with a full range of coating automation and ...",
+      "link": "https://anestiwata.motherson.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Anest Iwata Motherson Pvt. Ltd. - Company Profile & Staff ...",
+      "snippet": "Anest Iwata Motherson Pvt. Ltd. is a joint venture between Anest Iwata, Japan, a world leader in oil free and lubricated compressors and Motherson Group, an ...",
+      "link": "https://contactout.com/company/anest-iwata-motherson-pvt-ltd-7151319",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Corporate Profile",
+      "snippet": "ANEST IWATA will continue to be a company that assists people and their lives. ... ANEST IWATA MOTHERSON. COATING EQUIPMENT (2006). India (2). Taiwan (2). South ...",
+      "link": "https://www.anestiwata-corp.com/sites/default/files/assets/pdf/en/companyprofile_eng_20211125.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Anest Iwata Motherson Leads Oil Free Compressor Market",
+      "snippet": "Anest Iwata Motherson leads the market with advanced oil free lubricated air compressor solutions for industries.",
+      "link": "https://www.engmag.in/a-world-leader-in-oil-free-lubricated-air-compressors-anest-iwata-motherson/",
+      "date": "Jun 7, 2018"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Anest Iwata Motherson Financials | Company Details",
+      "snippet": "Anest Iwata Motherson's operating revenue range is INR 100 cr - 500 cr for the financial year ending on 31 March, 2024. It's EBITDA has increased by 59.62% over ...",
+      "link": "https://www.tofler.in/anest-iwata-motherson-private-limited/company/U34107DL2000PTC108736",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Anest Iwata Motherson Pvt. Ltd.",
+      "snippet": "Employees at Anest Iwata Motherson Pvt. Ltd. ; Vinod Sharma. Regional Manager at Anest Iwata… ; Satish Bindroo. General Manager- Sales & Service at… ; Saurabh R.",
+      "link": "https://in.linkedin.com/company/anestiwatamotherson",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Anest Iwata Motherson Pvt. Ltd.'s Post",
+      "snippet": "Congratulations to Anest Iwata Motherson Pvt Ltd on completing 25 remarkable years of delivering world-class products. We are proud to have been ...",
+      "link": "https://www.linkedin.com/posts/anestiwatamotherson_excellence-years-establishment-activity-7402661566070075392-PIXe",
+      "date": "9 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "ANIL KUMAR - Anest Iwata Motherson Pvt. Ltd.",
+      "snippet": "AGM Engineering at Anest Iwata Motherson Pvt. Ltd. · A challenging determined B.E (Mech), MBA in Project management with 26+ years Experience in Mechanical ...",
+      "link": "https://in.linkedin.com/in/anil-kumar-52970747",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Himanshu Taneja - Senior Manager Maintenance at Anest ...",
+      "snippet": "View Himanshu's full profile. Himanshu can introduce you to 10+ people at Anest Iwata Motherson Pvt. Ltd.",
+      "link": "https://in.linkedin.com/in/himanshu-taneja-67042640",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "virender nehra - Deputy Manager at Anest Iwata Motherson ...",
+      "snippet": "Deputy Manager at Anest Iwata Motherson Limited · With over 13 years of progressive HR experience across manufacturing, export, and consultancy sectors, ...",
+      "link": "https://in.linkedin.com/in/virender-nehra-08818137",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Shashank Kaushik - Graduate Trainee at Anest Iwata ...",
+      "snippet": "As a Management Trainee at Anest Iwata Motherson, I am honing my skills in various facets of business management. I am responsible for creating detailed reports ...",
+      "link": "https://in.linkedin.com/in/skaushik3112",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Manoj Kumar - Service Manager at Anest Iwata Motherson ...",
+      "snippet": "Service Manager. ANEST IWATA MOTHERSON PVT LTD. Apr 2001 - Present 25 years 5 months. Noida Area, India · Maintenance Specialist. Motherson group of companies.",
+      "link": "https://in.linkedin.com/in/manoj-kumar-b28a9186",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Badan Singh - Manager at Anest Iwata Motherson Pvt. Ltd.",
+      "snippet": "View Badan's full profile. Badan can introduce you to 10+ people at Anest Iwata Motherson Pvt. Ltd.",
+      "link": "https://in.linkedin.com/in/badan-singh-194bb21b8",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "ANEST IWATA Corporation Integrated Report",
+      "snippet": "ANEST IWATA MOTHERSON Pvt. Ltd. ANEST IWATA MOTHERSON COATING EQUIPMENT Pvt. Ltd. ANEST IWATA SOUTHEAST ASIA Co., Ltd. ANEST IWATA Korea Corp. ANEST IWATA ...",
+      "link": "https://www.anestiwata-corp.com/sites/default/files/assets/pdf/%E7%B5%B1%E5%90%88%E5%A0%B1%E5%91%8A%E6%9B%B8/2022/Integrated_Report_2022_en.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Anest Iwata Motherson Pvt. Ltd.",
+      "snippet": "Anest Iwata Motherson's specialised Air Compressor Audit measures critical parameters including FAD, demand generation, pressure variations and air leakages ...",
+      "link": "https://in.linkedin.com/company/anestiwatamotherson",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Strategic Joint Venture.",
+      "snippet": "Anest Iwata Motherson (AIM) is a joint venture between Anest Iwata Corp, Japan and Motherson Group, India. AIM manufactures and sells Anest Iwata brand Air ...",
+      "link": "https://anestiwata.motherson.com/company",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Anest Iwata Motherson Pvt. Ltd Air Compressor Division",
+      "snippet": "Online Complaint Registration. And Toll Free Complaint No. Page 24. Anest Iwata Motherson Pvt. Ltd. Air Compressor Division http:// ...",
+      "link": "http://&nbsp;...J",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Air Compressors, Vacuum Pumps and Paint Coating ...",
+      "snippet": "A&A Group proudly supplies Anest Iwata Motherson's (AIM) globally admired range of Air Compressors, Vacuum Pumps, and Paint Coating Equipment & Systems.",
+      "link": "https://www.aagroupindia.com/Air_Compressors.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Anest Iwata",
+      "snippet": "Anest Iwata Motherson Limited (AIM) is a joint venture between Samvardhana Motherson Group, India and Anest Iwata Corp., Japan (AIJ) for manufacturing of ...",
+      "link": "https://www.vaibavsri.com/product-detail.php?page=3",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Anest Iwata Motherson Private Limited - Noida",
+      "snippet": "Anest Iwata Motherson Pvt. Ltd. (AIM) is a strategic joint venture between Anest Iwata Corporation, Japan, a global leader in compressed air and coating ...",
+      "link": "https://www.indiamart.com/anestiwata/aboutus.html?srsltid=AfmBOopUttpxSlYxT-NPriQNjALDCvm7Qhd1YoRjKJ5gow1ftE3Jwh1b",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Corporate Profile",
+      "snippet": "Domestic sales and services. □ Branches & sales offices. □ Service offices. □ Headquarters & plants ... ANEST IWATA MOTHERSON. COATING EQUIPMENT (2006). India ...",
+      "link": "https://www.anestiwata-corp.com/sites/default/files/assets/pdf/en/companyprofile_eng_20211125.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "ANEST IWATA Corporation Integrated Report",
+      "snippet": "ANEST IWATA MOTHERSON Pvt. Ltd. ANEST IWATA MOTHERSON COATING EQUIPMENT Pvt. Ltd. ANEST IWATA SOUTHEAST ASIA Co., Ltd. ANEST IWATA Korea Corp. ANEST IWATA ...",
+      "link": "https://www.anestiwata-corp.com/sites/default/files/assets/pdf/%E7%B5%B1%E5%90%88%E5%A0%B1%E5%91%8A%E6%9B%B8/2022/Integrated_Report_2022_en.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Anest Iwata Motherson Pvt. Ltd.",
+      "snippet": "Anest Iwata Motherson's specialised Air Compressor Audit measures critical parameters including FAD, demand generation, pressure variations and air leakages ...",
+      "link": "https://in.linkedin.com/company/anestiwatamotherson",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Strategic Joint Venture.",
+      "snippet": "Anest Iwata Motherson (AIM) is a joint venture between Anest Iwata Corp, Japan and Motherson Group, India. AIM manufactures and sells Anest Iwata brand Air ...",
+      "link": "https://anestiwata.motherson.com/company",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Anest Iwata Motherson Pvt. Ltd Air Compressor Division",
+      "snippet": "Online Complaint Registration. And Toll Free Complaint No. Page 24. Anest Iwata Motherson Pvt. Ltd. Air Compressor Division http:// ...",
+      "link": "http://&nbsp;...J",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Anest Iwata",
+      "snippet": "Anest Iwata Motherson Limited (AIM) is a joint venture between Samvardhana Motherson Group, India and Anest Iwata Corp., Japan (AIJ) for manufacturing of ...",
+      "link": "https://www.vaibavsri.com/product-detail.php?page=3",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Corporate Profile",
+      "snippet": "Domestic sales and services. □ Branches & sales offices. □ Service offices. □ Headquarters & plants ... ANEST IWATA MOTHERSON. COATING EQUIPMENT (2006). India ...",
+      "link": "https://www.anestiwata-corp.com/sites/default/files/assets/pdf/en/companyprofile_eng_20211125.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Best Actionable Org Charts of All Global Enterprises. ...",
+      "snippet": "Anest Iwata Motherson Private Limited is a joint venture between Anest Iwata Corp and ... and strategic advisory services that include private and public ...",
+      "link": "https://www.bizkonnect.com/orgkonnect-companies",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Anest Iwata Motherson Pvt. Ltd. Information",
+      "snippet": "Anest Iwata Motherson Pvt. Ltd. is an Industrial Machinery Manufacturing, and Compressor Manufacturer company located in Noida, Uttar Pradesh with $12.4 ...",
+      "link": "https://rocketreach.co/anest-iwata-motherson-pvt-ltd-profile_b5c96b34f42e37f4",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] Corporate Profile",
+      "snippet": "Collaboration with Japanese artist Katsuhiko. Hino's personal exhibition. Application of Coating Equipment ... ANEST IWATA MOTHERSON（2000). Australia (1).",
+      "link": "https://www.anestiwata-corp.com/sites/default/files/assets/pdf/en/companyprofile_eng_20211125.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Anest Iwata - Vaibavsri Solutions",
+      "snippet": "Anest Iwata Motherson Limited (AIM) is a joint venture between Samvardhana Motherson Group, India and Anest Iwata Corp., Japan (AIJ) for manufacturing of ...",
+      "link": "https://www.vaibavsri.com/product-detail.php?page=3",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] ANEST IWATA Corporation Integrated Report",
+      "snippet": "Specific markets: Markets for specific uses such as medical settings, vehicle applications, and analytical uses ... 21 ANEST IWATA MOTHERSON Pvt. Ltd ...",
+      "link": "https://www.anestiwata-corp.com/sites/default/files/assets/pdf/%E7%B5%B1%E5%90%88%E5%A0%B1%E5%91%8A%E6%9B%B8/2022/Integrated_Report_2022_en.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] CTM BS (Ind AS ) 2024 - 2025 March 25 Mn(5th May).xlsx - Motherson",
+      "snippet": "The Company uses its technical expertise along with historical and ... 4.Anest Iwata Motherson Private Limited. (iii). Entity is ...",
+      "link": "https://www.motherson.com/storage/annual-report/2024-25/SAMIL-Subsidiaries/CTM_India_Limited_Financial.pdf",
+      "date": "Mar 31, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Samvardhana Motherson International Limited - Rating Rationale",
+      "snippet": "Anest Iwata Motherson Coating Equipment Private Limited (merged with Anest Iwata Motherson Private Limited w.e.f. November 6, 2023) ... Crisil ...",
+      "link": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/SamvardhanaMothersonInternationalLimited_June%2018_%202025_RR_371360.html",
+      "date": "Jun 18, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "CA Divya Khandelwal Vats - Internal Audit Expert and ... - LinkedIn",
+      "snippet": "Internal Audit Expert and Qualified Chartered Accountant || Process Management, Cost Savings, and Business Intelligence || 3+ years of Professional ...",
+      "link": "https://in.linkedin.com/in/ca-divya-khandelwal-vats",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] SAMVARDHANA MOTHERSON FINANCE LIMITED",
+      "snippet": "... implemented various information technology (“IT”) solutions to cover ... Anest Iwata Motherson Coating. Equipment Limited. 49.00%. Anest ...",
+      "link": "http://www.cmlinks.com/pub/dp/dp41404.pdf",
+      "date": "Sep 24, 2011"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] MOTHERSON-2025.pdf - MSE",
+      "snippet": "... implemented several focused projects over the year to enhance ... Anest Iwata Motherson Private Limited (through SMISL). Joint Venture.",
+      "link": "https://www.msei.in/SX-Content/Listing/Annual-Reports/2025/MOTHERSON-2025.pdf",
+      "date": "Aug 5, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Tuscaloosa — Motherson Careers",
+      "snippet": "Here you'll find all the required information about working at Motherson. If you're looking for corporate information please visit our main website. Motherson.",
+      "link": "https://careers.motherson.com/en/location/tuscaloosa",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Marysville — Motherson Careers",
+      "snippet": "Here you'll find all the required information about working at Motherson. If you're looking for corporate information please visit our main website. Motherson.",
+      "link": "https://careers.motherson.com/location/marysville",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Russell Springs — Motherson Careers",
+      "snippet": "Discover all 2 open positions in Russell Springs Latest job offers Assembly Supervisor 2nd Shift Modules & Polymer Products, MDRSC (m/w/d) USA Experienced ...",
+      "link": "https://careers.motherson.com/en/location/russell-springs",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Chattanooga — Motherson Careers",
+      "snippet": "Discover all 1 open positions in Chattanooga Latest job offers HR Generalist Integrated Assemblies, MSAS",
+      "link": "https://careers.motherson.com/en/location/chattanooga",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Troy — Motherson Careers",
+      "snippet": "Here you'll find all the required information about working at Motherson. If you're looking for corporate information please visit our main website. Motherson.",
+      "link": "https://careers.motherson.com/en/location/troy",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "USA - Motherson Careers",
+      "snippet": "Discover all 8 open positions in USA Assembly Supervisor 2nd Shift Modules & Polymer Products, Russell Springs Experienced Manufacturing Engineering. ...",
+      "link": "https://careers.motherson.com/en/country/usa",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Portchester — Motherson Careers",
+      "snippet": "Here you'll find all the required information about working at Motherson. If you're looking for corporate information please visit our main website. Motherson.",
+      "link": "https://careers.motherson.com/location/portchester",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Germany — Motherson Careers",
+      "snippet": "Here you'll find all the required information about working at Motherson. Discover all 106 open positions in Germany. Administration Shop floor Students ...",
+      "link": "https://careers.motherson.com/en/country/germany",
+      "date": ""
+    }
+  ]
+}

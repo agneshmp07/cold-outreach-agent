@@ -1,0 +1,76 @@
+{
+  "domain": "uber.com",
+  "company_name": "uber",
+  "articles": [
+    {
+      "title": "Uber invests $10 million in Indian fleet management startup Carrum Mobility",
+      "snippet": "Indian fleet management startup Carrum Mobility has raised $10 million (about Rs 96 crore) from Uber as part of its Series B funding round,...",
+      "date": "4 hours ago",
+      "source": "Indian Startup News",
+      "link": "https://indianstartupnews.com/funding/uber-invests-10-million-in-indian-fleet-management-startup-carrum-mobility-12511042"
+    },
+    {
+      "title": "Vero, Uber launch pay-per-km rideshare cover",
+      "snippet": "Vero, an Australian motor insurer owned by Suncorp, has teamed up with Uber, the global rideshare platform, and Cover Genius,...",
+      "date": "20 hours ago",
+      "source": "FinTech Global",
+      "link": "https://fintech.global/2026/09/09/vero-uber-launch-pay-per-km-rideshare-cover/"
+    },
+    {
+      "title": "{Funding Alert} Carrum Mobility Raises $10 Mn in Series B Funding Led by Uber",
+      "snippet": "Retail India - The company is further expanding its footprint and expects to launch operations in Chennai during September 2026.",
+      "date": "4 hours ago",
+      "source": "Indian Retailer",
+      "link": "https://www.indianretailer.com/news/funding-alert-carrum-mobility-raises-10-mn-series-b-funding-led-uber"
+    },
+    {
+      "title": "Uber Technologies, Inc. - Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
+      "snippet": "British-built technology debuts on the Uber platform in London, marking the UKs first autonomous ride-hailing service.",
+      "date": "1 week ago",
+      "source": "Uber Investor Relations",
+      "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx"
+    },
+    {
+      "title": "Carrum Mobility raises $10M in Series B led by Uber",
+      "snippet": "Carrum Mobility, a B2B fleet management mobility platform has raised $10 million in a Series B round of funding led by Uber.",
+      "date": "23 hours ago",
+      "source": "YourStory.com",
+      "link": "https://yourstory.com/2026/09/carrum-mobility-raises-10-million-in-series-b-led-by-uber"
+    },
+    {
+      "title": "Carrum Mobility Raises $10 Million From Uber to Expand Business",
+      "snippet": "B2B fleet management startup Carrum Mobility has raised $10 million, or around Rs 96 crore, from Uber in its latest funding round.",
+      "date": "23 hours ago",
+      "source": "Equitypandit",
+      "link": "https://www.equitypandit.com/carrum-mobility-raises-10-million-from-uber-to-expand-business/"
+    },
+    {
+      "title": "Carrum Mobility Raises $10 Mn In Uber-Led Series B Round",
+      "snippet": "Carrum Mobility raises USD 10 million in an Uber-led Series B round to expand fleet operations and technology across India.",
+      "date": "1 day ago",
+      "source": "BW Disrupt",
+      "link": "https://www.bwdisrupt.com/article/carrum-mobility-raises-10-mn-in-uber-led-series-b-round-622925"
+    },
+    {
+      "title": "Wayve and Uber launch the UK's first autonomous ride-hailing service in London",
+      "snippet": "Key takeaways from Pathfounders video on the Wayve and Uber autonomous ride-hailing launch in London (September 2026):.",
+      "date": "3 days ago",
+      "source": "Dealroom",
+      "link": "https://app.dealroom.co/news/note/wayve-and-uber-launch-the-uk-s-first-autonomous-ride-hailing-service-in-london"
+    },
+    {
+      "title": "Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm",
+      "snippet": "Landmark lawsuit claims tech company's pay-setting system has breached privacy laws and pushed down earnings.",
+      "date": "1 week ago",
+      "source": "The Guardian",
+      "link": "https://www.theguardian.com/technology/2026/sep/02/uber-drivers-europe-legal-action-ai-algorithm"
+    },
+    {
+      "title": "WeRide, Uber, and AVOMO receive Spain’s First National Operating Permit for Level 4 Autonomous Passenger Vehicles",
+      "snippet": "The permit authorizes testing of WeRide's GXR autonomous vehicles in Spain and marks the beginning of mapping in the region of Madrid ahead...",
+      "date": "2 hours ago",
+      "source": "Yahoo Finance Australia",
+      "link": "https://au.finance.yahoo.com/news/weride-uber-avomo-receive-spain-092700896.html"
+    }
+  ]
+}

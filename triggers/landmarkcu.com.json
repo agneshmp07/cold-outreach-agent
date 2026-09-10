@@ -1,0 +1,18 @@
+{
+  "company_name": "Landmark Credit Union",
+  "triggers": [
+    {
+      "fact": "Landmark Credit Union acquired North Shore Bank's McHenry branch.",
+      "source_page": "https://landmarkcu.com",
+      "relevance_score": 5
+    },
+    {
+      "fact": "In 2025, Timothy Mackay was appointed as CEO of Landmark Credit Union, succeeding the previous CEO who retired after 12 years in the role.",
+      "source_page": "https://landmarkcu.com/about-us",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As Landmark Credit Union integrates acquired branch locations under new leadership focused on growth, they face the challenge of unifying member data and streamlining service workflows across more than 36 branches and 400,000 members.",
+  "no_trigger_found": false
+}

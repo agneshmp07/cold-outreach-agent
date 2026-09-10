@@ -46,3 +46,14 @@ Before you use it, answer these four. They take five minutes and they are the di
 ## Rule
 
 No company name from this file goes into any prompt file. Prompts read this; they do not contain it.
+
+## Also fits — sectors found by sourcing
+
+> Worked out by find_targets.py from what this company sells. These count as fits: a company in one of these sectors is in the ICP even if it does not match a row in the table above.
+
+| Sector | Why they buy | Best fit inside it |
+| --- | --- | --- |
+| Global industrial manufacturing and automotive OEMs | They require complex cross-border tax restructuring, mandatory CSRD sustainability reporting, and enterprise-wide Oracle or SAP ERP modernizations across global facilities. | A $2B+ revenue industrial equipment manufacturer with European subsidiaries subject to CSRD ESG compliance mandates. |
+| Multi-hospital health networks and healthcare systems | They need specialized advisory to consolidate fragmented legacy financial back-offices and manage regulatory risk during large-scale system integrations. | A major non-profit health network managing 15+ regional hospitals migrating to a unified cloud ERP platform. |
+| Multinational consumer packaged goods (CPG) producers | They face shifting international e-invoicing mandates, complex cross-border transfer pricing laws, and supply chain audit requirements. | A global food brand operating across 30+ legal jurisdictions deploying standardized global e-invoicing frameworks. |
+| Commercial banking and financial services institutions | They rely on independent statutory audits, capital regulatory compliance support, and enterprise risk management oversight under strict oversight bodies. | A regional commercial bank expanding into wealth management that requires independent risk management auditing and regulatory compliance validation. |

@@ -1,0 +1,155 @@
+{
+  "domain": "cevalogistics.com",
+  "client": "Zoho",
+  "client_domain": "zoho.com",
+  "checked_against": "icp-zoho.com.md",
+  "result": {
+    "company_name": "Cevalution (CEVA Logistics)",
+    "what_they_do": "CEVA Logistics is a global logistics company offering supply chain and transport solutions; Cevalution is the system name/portal where their contact-centre operations are run.",
+    "size": {
+      "estimate": ">1,000 employees",
+      "evidence": "The company has 752 open positions across 182 locations in 52 countries [13]. Exact total employee count is not explicitly stated in the text.",
+      "status": "ASSERTED"
+    },
+    "segment": {
+      "best_match": "Logistics / Global Enterprise",
+      "in_icp": false,
+      "why": "Logistics is not explicitly named in the fits table, and the company's enterprise scale (752 open roles across 52 countries [13]) exceeds the maximum 1,000-employee limit defined in the ICP fit segments.",
+      "status": "ASSERTED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No specific job postings for HR Managers, Recruiters, or Sales Operations leads, nor explicit SaaS tech tags were identified in the results.",
+      "evidence": "[10]-[17] show general career categories and open positions, but do not list specific job titles matching the signal criteria.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "CEVA Logistics is a large global logistics company not specifically listed in the target segments, and its size exceeds the defined 10-1000 employee range. However, enterprise organizations plausibly have ongoing operational software, HR, and contact-center needs.",
+    "could_not_find": [
+      "Exact total headcount of CEVA Logistics.",
+      "Specific job listings targeting HR Managers, Recruiters, or Sales Operations leads."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Ceva Logistics — Success Story",
+      "snippet": "... Cevalution, where the contact-centre operation is run. About Ceva Logistics. CEVA Logistics is a global logistics company with a broad service network ...",
+      "link": "https://innthebox.com/en/customers/ceva-logistics",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "CEVA Logistics - 1680 Infostealer Credentials from ...",
+      "snippet": "https://trweb01.cevalogistics.com/cevalution/login. Type: User. 6. occurrences ... They do not store directly personal information, but are based on ...",
+      "link": "https://trweb01.cevalogistics.com/<b>cevalution</b>/login. Type: User. 6. occurrences ... <b>They do</b> not store directly personal information, but are based on&nbsp;...",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Some might say… the cevalution(deffs stole this from my ...",
+      "snippet": "231 likes, 76 comments - ceva.fit on May 26, 2026: \"Some might say… the cevalution(deffs stole this from my brother) \".",
+      "link": "https://www.instagram.com/p/DY1A8ICD7Ka/",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Looking to make your systems work smarter and last longer ...",
+      "snippet": "Our team has commissioned more systems than just about any in the industry. We can fine-tune, optimize, and fully integrate your systems— ...",
+      "link": "https://www.facebook.com/EvolutionMotionSolutions/posts/looking-to-make-your-systems-work-smarter-and-last-longer-as-a-systems-integrato/1005305621638433/",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "ECONOMIC AND SOCIAL COUNCIL",
+      "snippet": "capacity to import at least until 1949, whorl they were equivalent to the c„Tcity, owing to monetary Cevalution and other rstrictive mesureswhich, hivint ...",
+      "link": "https://repositorio.cepal.org/server/api/core/bitstreams/0a01c548-1f0d-4087-aade-e1a85597ae6d/content",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Favorite moto day of the year @glenhelenraceway sat mx 👏👏 ...",
+      "snippet": "CIORAA REKLUSE TEARG ZARG nh-cEvalution E3n 심 5 SATERET ADIRTP . ... companies. We also have tons of ... I need to do a better video for you. Quite a ...",
+      "link": "https://www.instagram.com/reel/DTS-uW8iUqt/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "The FIFA World Cup Round of 32 kickstarts with absolute chaos ...",
+      "snippet": "WATCH | The FIFA World Cup Round of 32 kickstarts with absolute chaos! Penalty shootouts, last-minute winners and giant-upsets —Day 1 had it ...",
+      "link": "https://www.facebook.com/etnow/videos/watch-the-fifa-world-cup-round-of-32-kickstarts-with-absolute-chaospenalty-shoot/2527715737660547/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Lena \"the Hunter\" Ovchynnikova 🇺🇦🇺🇸 | Thank you @gypsithug",
+      "snippet": "Some might say… the cevalution(deffs stole this from my brother). View all 75 comments · taneishagilmour. Weapon. maddiecatania. And now ...",
+      "link": "https://www.instagram.com/reel/CxhexxouTbb/",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "CEVA Logistics - 1680 Infostealer Credentials from ...",
+      "snippet": "... employees and significant exposure of sensitive applications. The most ... https://trweb01.cevalogistics.com/cevalution/login. Type: User. 6. occurrences.",
+      "link": "https://trweb01.cevalogistics.co",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Early Careers - CEVA Logistics",
+      "snippet": "At CEVA Logistics, we encourage you to push boundaries, embrace new challenges, and seize opportunities for personal and professional growth.",
+      "link": "https://www.cevalogistics.com/en/careers/early-careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers in Ocean Freight - CEVA Logistics",
+      "snippet": "Navigate global trade at scale. In Ocean Freight, you connect continents, industries, and economies—playing a key role in how the world moves.",
+      "link": "https://www.cevalogistics.com/en/careers/teams/ocean-freight",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "How do I apply for a job at CEVA Logistics?",
+      "snippet": "At CEVA Logistics, we always lookout for new talent. · Do you want to apply to CEVA to develop your career, learn new skills and be part of a global company?",
+      "link": "https://www.cevalogistics.com/en/faq/apply-job-ceva-logistics",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "CEVA Logistics Careers | RISE IN MOTION",
+      "snippet": "We currently have 752 open positions across 182 locations spread over 52 countries organized in 14 teams.",
+      "link": "https://www.cevalogistics.com/en/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "UK & IRELAND - CEVA Logistics",
+      "snippet": "At CEVA we're always looking for talent to grow with us. It doesn't matter if you're currently studying and looking for an internship or a working student ...",
+      "link": "https://www.cevalogistics.com/en/careers/early-careers/europe/uk-and-ireland",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "USA, CANADA & MEXICO | CEVA Logistics",
+      "snippet": "Across CEVA we're always looking for talent to grow with us. No matter if you're currently studying and looking for an internship or a working student ...",
+      "link": "https://www.cevalogistics.com/en/careers/early-careers/usa-canada-mexico",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Logistics careers at CEVA Logistics",
+      "snippet": "At CEVA Logistics you are responsible for delivering services at the highest quality to our customers demonstrating your skills every day.",
+      "link": "https://www.cevalogistics.com/en/careers/life-at-ceva-logistics",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "GERMANY, AUSTRIA & SWITZERLAND - CEVA Logistics",
+      "snippet": "CAREERS IN WORLD CLASS LOGISTICS. ENTRY-LEVEL JOBS & TRAINEE PROGRAMS After successfully completing your bachelor or master studies, you're now seeking the ...",
+      "link": "https://www.cevalogistics.com/en/careers/early-careers/europe/dach",
+      "date": ""
+    }
+  ]
+}

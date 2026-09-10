@@ -1,0 +1,27 @@
+{
+  "domain": "salesforce.com",
+  "name": "Salesforce",
+  "one_liner": "Salesforce provides enterprise software that unifies customer data, automated AI agents, sales workflows, and analytics on a single platform.",
+  "what_you_sell": "Cloud-based customer relationship management (CRM) software, AI agents (Agentforce), team collaboration tools (Slack), data analytics (Tableau), and industry-specific workflow automation platforms.",
+  "target_group": "Salesforce sells to mid-market and enterprise businesses, educational institutions, and growing small businesses across industries like financial services, retail, manufacturing, and healthcare. Suitable prospects have dedicated sales or service operations, manage large volumes of customer interactions, and need to centralize disconnected systems into a unified platform. Good targets are looking to automate customer service, boost lead conversion, and integrate business workflows across departments.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Sales representatives, customer service agents, marketers, IT managers, and operational teams across an organization.",
+  "who_pays_for_it": "Business executives and technology leaders, such as CIOs, Chief Digital Officers, and heads of sales, service, or marketing.",
+  "who_buys_it": "Businesses that need to manage customer data, streamline sales pipelines, and automate support operations.",
+  "sender": "agnesh_mp@pg27.mesaschool.co",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-salesforce.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Delivers 66% autonomous case resolution with Agentforce",
+    "Generates 15% more marketing pipeline",
+    "Achieves 1.8x higher lead conversion",
+    "Provides a 34% increase in employee productivity",
+    "SMB Growth Kit goes live in just 4 weeks"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

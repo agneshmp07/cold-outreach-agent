@@ -1,0 +1,23 @@
+{
+  "company_name": "Cummins Inc.",
+  "triggers": [
+    {
+      "fact": "Cummins joined Emerald Technology Ventures as a Limited Partner on August 28, 2026, to expand access to emerging technologies, startup partnerships, and digital tools.",
+      "source_page": "https://cummins.com",
+      "relevance_score": 5
+    },
+    {
+      "fact": "Cummins offers a two-year Marketing and Sales development program in the U.K. and Europe featuring four six-month assignments across multiple business units.",
+      "source_page": "https://cummins.com/careers",
+      "relevance_score": 4
+    },
+    {
+      "fact": "Cummins announced a phased launch plan on August 10, 2026, for its Model Year 2027 X10 and X15 engine platforms.",
+      "source_page": "https://investor.cummins.com/news/detail/700/cummins-announces-phased-model-year-2027-product-launch-plan",
+      "relevance_score": 3
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "Managing marketing, sales, and service operations across multiple global business units without a unified CRM and analytics platform risks disjointed customer tracking and siloed data.",
+  "no_trigger_found": false
+}

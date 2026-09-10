@@ -1,0 +1,27 @@
+{
+  "domain": "aiet.org.in",
+  "company_name": "aiet",
+  "articles": [
+    {
+      "title": "Alva’s engineering college launches AI lab in collaboration with IBM Software Labs",
+      "snippet": "Alva's Institute of Engineering and Technology (AIET), Moodbidri, on Wednesday, launched an artificial intelligence (AI) lab developed in...",
+      "date": "1 month ago",
+      "source": "The Hindu",
+      "link": "https://www.thehindu.com/news/cities/Mangalore/alvas-engineering-college-launches-ai-lab-in-collaboration-with-ibm-software-labs/article71253678.ece"
+    },
+    {
+      "title": "Announcing Just Security’s Artificial Intelligence and Emerging Technologies Initiative",
+      "snippet": "We are delighted to announce that Just Security is establishing an Artificial Intelligence and Emerging Technologies (AIET) Initiative...",
+      "date": "20 months ago",
+      "source": "Just Security",
+      "link": "https://www.justsecurity.org/106105/announcement-ai-emerging-technologies-initiative/"
+    },
+    {
+      "title": "Challenges for mitigating bias in algorithmic hiring",
+      "snippet": "This report from The Brookings Institution's Artificial Intelligence and Emerging Technology (AIET) Initiative is part of “AI and Bias,” a...",
+      "date": "81 months ago",
+      "source": "Brookings",
+      "link": "https://www.brookings.edu/articles/challenges-for-mitigating-bias-in-algorithmic-hiring/"
+    }
+  ]
+}

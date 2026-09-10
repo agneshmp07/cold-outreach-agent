@@ -1,0 +1,18 @@
+{
+  "company_name": "Sabka Dentist",
+  "triggers": [
+    {
+      "fact": "Sabka Dentist operates 100 clinics across Mumbai, Pune, Surat, Ahmedabad, and Bangalore with over 500 staff members.",
+      "source_page": "https://sabkadentist.com/about",
+      "relevance_score": 5
+    },
+    {
+      "fact": "Job applicants submit applications on the careers page via a web form or by emailing their CV directly to [email protected]",
+      "source_page": "https://sabkadentist.com/careers",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "Managing hiring and HR administration across 100 multi-city clinics using email and simple web forms creates operational overhead that an integrated HR management suite can eliminate.",
+  "no_trigger_found": false
+}

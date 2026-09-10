@@ -1,0 +1,169 @@
+{
+  "client": "Salesforce",
+  "client_domain": "salesforce.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Retail banking and regional credit unions",
+      "why_they_buy": "They need to unify fragmented account data across physical branches and online channels while deploying AI agents to automate routine customer service cases.",
+      "example_of_a_buyer": "A regional bank with 1,500 employees migrating away from legacy core databases to modernize digital support and cross-sell financial products."
+    },
+    {
+      "sector": "Industrial machinery and heavy equipment manufacturing",
+      "why_they_buy": "They need to digitize complex sales pipelines and connect independent distributor networks to centralized order tracking and field service management.",
+      "example_of_a_buyer": "A mid-market B2B equipment manufacturer with 400 employees selling through an international dealer network with disjointed lead-sharing processes."
+    },
+    {
+      "sector": "Omnichannel consumer goods and apparel retail",
+      "why_they_buy": "They require a single source of truth for customer purchase history across physical and e-commerce storefronts to run personalized marketing and resolve high volumes of support requests.",
+      "example_of_a_buyer": "A fast-growing retail brand with 600 employees operating dozens of brick-and-mortar stores alongside a high-volume direct-to-consumer web store."
+    },
+    {
+      "sector": "Private universities and higher education institutions",
+      "why_they_buy": "They need an integrated system to track constituent relationships across the entire student lifecycle, from initial recruitment to automated campus helpdesk inquiries and alumni donation outreach.",
+      "example_of_a_buyer": "A private university with 2,000 staff members and over 12,000 enrolled students managing operations across multiple decentralized colleges and administrative offices."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Kotak Mahindra Bank",
+      "sector": "Retail banking and regional credit unions",
+      "why": "Retail bank requiring customer relationship management, sales tracking, and service automation for banking clients.",
+      "seen_in": "Best Banks in India 2026: Top Banks for Residents & Expats",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Axis Bank",
+      "sector": "Retail banking and regional credit unions",
+      "why": "Commercial bank managing large-scale customer service, loan pipelines, and customer analytics across branches.",
+      "seen_in": "List of Banks in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "State Bank of India",
+      "sector": "Retail banking and regional credit unions",
+      "why": "Large public sector bank requiring workflow automation, team collaboration, and customer relationship tools.",
+      "seen_in": "List of Banks in India: Public, Private, Foreign, RRBs ...",
+      "domain": "bank.in"
+    },
+    {
+      "company": "HDFC Bank",
+      "sector": "Retail banking and regional credit unions",
+      "why": "Major financial services provider managing omnichannel banking relationships and consumer financial products.",
+      "seen_in": "Best Banks in India 2026: Top Banks for Residents & Expats",
+      "domain": "bank.in"
+    },
+    {
+      "company": "ICICI Bank",
+      "sector": "Retail banking and regional credit unions",
+      "why": "Private bank using digital channels to manage retail banking accounts, customer support, and sales workflows.",
+      "seen_in": "Best Banks in India 2026: Top Banks for Residents & Expats",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Landmark Credit Union",
+      "sector": "Retail banking and regional credit unions",
+      "why": "Expanding credit union needing member relationship management and service workflows across branch locations.",
+      "seen_in": "Landmark Credit Union Expands its Madison-area Footprint with Plans to Open Five Branches by the End of 2027",
+      "domain": "landmarkcu.com"
+    },
+    {
+      "company": "John Deere",
+      "sector": "Industrial machinery and heavy equipment manufacturing",
+      "why": "Agricultural and heavy equipment manufacturer managing complex dealer networks, B2B sales pipelines, and field service.",
+      "seen_in": "Top 30 Industrial Machinery Companies in India",
+      "domain": "deere.com"
+    },
+    {
+      "company": "Caterpillar",
+      "sector": "Industrial machinery and heavy equipment manufacturing",
+      "why": "Construction machinery manufacturer operating global B2B sales pipelines and distributor support networks.",
+      "seen_in": "India Construction Equipment Companies - Top Players' List",
+      "domain": "caterpillar.com"
+    },
+    {
+      "company": "JCB",
+      "sector": "Industrial machinery and heavy equipment manufacturing",
+      "why": "Construction equipment vendor managing field support teams, customer service channels, and dealer communications.",
+      "seen_in": "Top 30 Industrial Machinery Companies in India",
+      "domain": "jcb.com"
+    },
+    {
+      "company": "Thermax",
+      "sector": "Industrial machinery and heavy equipment manufacturing",
+      "why": "Industrial energy and environment equipment manufacturer needing enterprise sales management and data analytics.",
+      "seen_in": "Top 30 Industrial Machinery Companies in India",
+      "domain": "thermaxglobal.com"
+    },
+    {
+      "company": "Cummins",
+      "sector": "Industrial machinery and heavy equipment manufacturing",
+      "why": "Engine and power equipment manufacturer with complex B2B customer support operations and distribution networks.",
+      "seen_in": "Top 30 Industrial Machinery Companies in India",
+      "domain": "cummins.com"
+    },
+    {
+      "company": "Komatsu",
+      "sector": "Industrial machinery and heavy equipment manufacturing",
+      "why": "Heavy machinery manufacturer requiring sales pipeline management and field technician communication tools.",
+      "seen_in": "India Construction Equipment Companies - Top Players' List",
+      "domain": "komatsu.com"
+    },
+    {
+      "company": "Fabindia",
+      "sector": "Omnichannel consumer goods and apparel retail",
+      "why": "Apparel and lifestyle retailer integrating store inventory with digital platforms to optimize customer support.",
+      "seen_in": "Indian Retail Brands Embrace Omni-Channel Strategies to ...",
+      "domain": "fabindia.com"
+    },
+    {
+      "company": "Nykaa",
+      "sector": "Omnichannel consumer goods and apparel retail",
+      "why": "Omnichannel beauty retailer relying on data analytics, targeted marketing, and customer relationship platforms.",
+      "seen_in": "Omnichannel Retailing: How Top Brands Create Seamless ...",
+      "domain": "nykaa.com"
+    },
+    {
+      "company": "CaratLane",
+      "sector": "Omnichannel consumer goods and apparel retail",
+      "why": "Jewelry retailer opening new locations that benefits from clienteling, unified retail data, and automated marketing.",
+      "seen_in": "Retail India News: CaratLane Plans Up to 50 New Stores in FY27",
+      "domain": "caratlane.us"
+    },
+    {
+      "company": "Bata India",
+      "sector": "Omnichannel consumer goods and apparel retail",
+      "why": "Footwear retailer scaling franchise operations needing cross-location team collaboration and supply chain workflows.",
+      "seen_in": "Bata India Bets Big on Franchise Expansion, Targets Faster Growth Across Smaller Cities",
+      "domain": "bata.com"
+    },
+    {
+      "company": "Uniqlo",
+      "sector": "Omnichannel consumer goods and apparel retail",
+      "why": "Global apparel retailer expanding physical store counts requiring retail analytics and automated customer communication.",
+      "seen_in": "Uniqlo Plans to Cross 100 Stores in India by 2031, Strengthens Retail Expansion Strategy",
+      "domain": "uniqlo.com"
+    },
+    {
+      "company": "Blackberrys",
+      "sector": "Omnichannel consumer goods and apparel retail",
+      "why": "Menswear retailer expanding store network that needs customer loyalty management and team collaboration platforms.",
+      "seen_in": "Blackberrys targets nationwide expansion with 70 new stores and ₹100 crore investment in future growth",
+      "domain": "blackberrys.com"
+    },
+    {
+      "company": "O.P. Jindal Global University",
+      "sector": "Private universities and higher education institutions",
+      "why": "Private university requiring student lifecycle management, admissions automation, and alumni engagement.",
+      "seen_in": "Top 40 Private Universities in India 2020: Rankings Overall",
+      "domain": "edu.in"
+    },
+    {
+      "company": "Manipal Academy of Higher Education",
+      "sector": "Private universities and higher education institutions",
+      "why": "Higher education institution managing multi-campus student support, admissions tracking, and institutional analytics.",
+      "seen_in": "Top 353 Private Universities in India",
+      "domain": "manipal.edu"
+    }
+  ]
+}

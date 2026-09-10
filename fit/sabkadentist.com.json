@@ -1,0 +1,316 @@
+{
+  "domain": "sabkadentist.com",
+  "client": "Zoho",
+  "client_domain": "zoho.com",
+  "checked_against": "icp-zoho.com.md",
+  "result": {
+    "company_name": "Sabka Dentist",
+    "what_they_do": "Operates a chain of dental clinics in India providing dental care and clinical treatments [33].",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Search results do not contain headcount or employee count data for Sabka Dentist.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Healthcare / Dental Services",
+      "in_icp": false,
+      "why": "Sabka Dentist operates dental clinics, which is outside the named target industry segments (Business Services, Professional Services/Technology, Financial Services), though a multi-clinic chain plausibly needs HR and operational management software.",
+      "status": "ASSERTED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No specific buying signal (such as hiring for HR Managers, Recruiters, or Sales Operations leads) was found in the search results.",
+      "evidence": "Search result [33] lists an email contact on a careers page, but does not detail active job openings for HR Managers, Recruiters, or Sales Ops leads.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Sabka Dentist is not in a specifically named ICP industry segment, but as a chain of dental clinics, it plausibly has operational and HR management needs.",
+    "could_not_find": [
+      "Exact headcount or employee count for Sabka Dentist.",
+      "Active job listings specifically recruiting HR Managers, Recruiters, or Sales Operations leads."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Do customers use the FAQ on your company's webpage?",
+      "snippet": "I am curious to know if any customer takes advantage of the FAQ links on the website. I noticed that only older individuals call in to ask simple questions ...",
+      "link": "https://www.reddit.com/r/talesfromcallcenters/comments/xf7yjs/do_customers_use_the_faq_on_your_companys_webpage/",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What Is An FAQ Page? (What Is A Frequently Asked ...",
+      "snippet": "Ever wondered how businesses help their customers find answers to common questions quickly and easily? That's where an FAQ page comes in!",
+      "link": "https://www.yotpo.com/glossary/what-is-an-faq-page-what-is-a-frequently-asked-questions-page/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How to Create FAQs That Turn Prospects into Customers",
+      "snippet": "An effective FAQ can also help you increase sales, reduce incoming calls and help you build trust. Here's how: 1. Reduced phone calls and email ...",
+      "link": "https://www.superoffice.com/blog/faq/",
+      "date": "Jan 26, 2021"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Frequently Asked Questions (FAQs)",
+      "snippet": "FAQ · Resources · Career Opportunities · File a Complaint · Data Broker Registry. Frequently Asked Questions (FAQs). The California Privacy Protection Agency's ...",
+      "link": "https://cppa.ca.gov/faq.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "9 clever ways companies are using FAQ Pages to win ...",
+      "snippet": "Thus, FAQ is a very cost-efficient customer service option that every company should adopt. Gives a brand boost. Having a well-organised and ...",
+      "link": "https://www.chatwoot.com/blog/ways-companies-use-faq-pages-to-win-customers",
+      "date": "Nov 15, 2022"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How to Write an FAQ Page–with Examples",
+      "snippet": "What does FAQ mean? It stands for frequently-asked questions, and it's a page on a website that gives quick answers to customer questions. The ...",
+      "link": "https://www.jimdo.com/blog/how-to-write-an-faq-page-with-examples/",
+      "date": "Oct 20, 2021"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "7 Great FAQ Page Examples to Learn From",
+      "snippet": "An FAQ, or Frequently Asked Questions, page is a dedicated page on your website that allows visitors to find answers to all their questions in ...",
+      "link": "https://www.bluleadz.com/blog/the-benefits-of-faq-pages",
+      "date": "Nov 27, 2019"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How to Write FAQ Answers That Improve Leads and Visibility",
+      "snippet": "How do you choose FAQ questions that actually drive leads? Most businesses pick questions based on what they want to say, not what customers ask ...",
+      "link": "https://medium.com/@joosep_41274/how-to-write-faq-answers-that-improve-leads-and-visibility-cddce0672fbc",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn Employee Count vs Real Headcount - Aura Intelligence",
+      "snippet": "FAQ · Team and Core Values · Aura History · Pricing · Contact · Log In · Request ... LinkedIn Employee Count vs Real Headcount: Why Numbers Don't ...",
+      "link": "https://blog.getaura.ai/headcount-data",
+      "date": "Apr 21, 2025"
+    },
+    {
+      "asking_about": "size",
+      "title": "Learning FAQ: Explore Trending Skills insights in ...",
+      "snippet": "Learning FAQ: Explore Trending Skills insights in LinkedIn Learning Career Hub · Employees: The number of employees who have listed an active position in your ...",
+      "link": "https://www.linkedin.com/help/learning/answer/a8385088",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn Number of Employees 2026",
+      "snippet": "In 2026, LinkedIn's headcount grew 0.1% to 23,365 employees, up from 22,757 in 2025. ... FAQ. Newsroom. Latest Articles · Public Labor Statistics · AI Labor ...",
+      "link": "https://www.reveliolabs.com/companies/linkedin/employees",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "The $5000 LinkedIn competition that turned our team into ...",
+      "snippet": "Employee enablement FAQ. When should I get started? Start when you can commit real incentives and sustained effort. ‍. How do I get started ...",
+      "link": "https://www.storyarb.com/playbook/employee-advocacy-faq",
+      "date": "Sep 30, 2025"
+    },
+    {
+      "asking_about": "size",
+      "title": "How to find out how many employees a company has?",
+      "snippet": "FAQ. How do I look up the employees of a company? On LinkedIn, open the ... Start with LinkedIn's headcount range, validate on About/Careers pages, and ...",
+      "link": "https://www.folk.app/articles/how-to-find-out-how-many-employees-a-company-has",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn total employees 2019-2023",
+      "snippet": "... linkedin-number-of-employees-worldwide/. Statista. \"Total ... Help & FAQ · Report Bug · Privacy; Cookie settings; Imprint. ✕. Profit from ...",
+      "link": "https://www.statista.com/statistics/1335973/linkedin-number-of-employees-worldwide/?srsltid=AfmBOop9lyTpi35F5iOw2bFkEHUq33rbUZ3Ydy7NzikrsUvdgU65LqZ7",
+      "date": "Mar 12, 2025"
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn",
+      "snippet": "↑ \"InCareer Discontinuation: Recruiter and Jobs FAQs\". LinkedIn. Retrieved September 4, 2026. ↑ \"Learning FAQ: Access Learning in the Chinese Mainland\".",
+      "link": "https://en.wikipedia.org/wiki/LinkedIn",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "UKG Pro FAQs Answered in New Video",
+      "snippet": "Answering FAQ's about UKG Pro! https://www.",
+      "link": "https://www.linkedin.com/posts/langley-consulting-llc_answering-faqs-about-ukg-pro-activity-7457809558724313088-D6aU",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zoho One - Application FAQ",
+      "snippet": "Are you interested in learning more about the applications in Zoho One? Check out our app FAQ to see exactly what's included in the Operating System for",
+      "link": "https://www.zoho.com/one/applications/faq.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zoho People Reviews in 2026: Alternatives, Pricing, Reviews",
+      "snippet": "Naturally, they also offer a cloud-based Human Resources Management System ... FAQ. As a next step you can visit Zoho People website or read our research on ...",
+      "link": "https://www.selectsoftwarereviews.com/reviews/zoho",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zoho People HR Management Software Implementation",
+      "snippet": "... FAQ Icon. FAQs. Frequently Asked Questions. What is Zoho People? Zoho People is a comprehensive cloud-based HR software and HRMS software platform designed to ...",
+      "link": "https://integscloud.com/zoho-people/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zoho People - Market Share, Competitor Insights in ...",
+      "snippet": "Top industries that use Zoho People for perfomance-management are Digital Marketing (81), Crm (67), Artificial Intelligence (60). faq icon ...",
+      "link": "https://www.6sense.com/tech/perfomance-management/zoho-people-market-share",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zoho People l Zoho Analytics Help",
+      "snippet": "Frequently Asked Questions (FAQ). Free tools. Free dashboard generator · Free sample data generator. Getting Started. Contact Us · Register for Demo · 3-day ...",
+      "link": "https://www.zoho.com/analytics/help/connectors/zoho-people.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zoho People Your Complete Online HR Solution",
+      "snippet": "Zoho is a cloud-based software company that offers a suite of online productivity and ... Zoho´s most helpful FAQ. and used Deluge Scripts. Knowledge Base.",
+      "link": "https://www.creatorscripts.com/software/zohopeople",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zoho Review: Unlocking Efficiency with an All-in-One ...",
+      "snippet": "Ghostwriting FAQ · Content Strategy. Content Strategy; Go to: Content ... Zoho is a global leader in cloud-based business software solutions.",
+      "link": "https://www.thewritersforhire.com/zoho-review-unlocking-efficiency-with-an-all-in-one-business-platform/",
+      "date": "Jan 30, 2025"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "What is Zoho?",
+      "snippet": "It caters to a wide range of business operations including CRM, finance, HR, and project management. ... Zoho FAQ. Related Tools & Terms. Top fractional. Zoho ...",
+      "link": "https://pangea.app/glossary/zoho",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zoho One - Application FAQ",
+      "snippet": "Are you interested in learning more about the applications in Zoho One? Check out our app FAQ to see exactly what's included in the Operating System for",
+      "link": "https://www.zoho.com/one/applications/faq.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zoho People HRMS: Automate HR Operations and ...",
+      "snippet": "faq icon. Zoho People is a cloud-based Human Resource Management System (HRMS) designed to help businesses automate and manage HR operations efficiently.",
+      "link": "https://www.winfomi.com/blog/zoho-people-hr-management",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zoho People Reviews in 2026: Alternatives, Pricing, Reviews",
+      "snippet": "Naturally, they also offer a cloud-based Human Resources Management System ... FAQ. As a next step you can visit Zoho People website or read our research on ...",
+      "link": "https://www.selectsoftwarereviews.com/reviews/zoho",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zoho People HR Management Software Implementation",
+      "snippet": "... FAQ Icon. FAQs. Frequently Asked Questions. What is Zoho People? Zoho People is a comprehensive cloud-based HR software and HRMS software platform designed to ...",
+      "link": "https://integscloud.com/zoho-people/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zoho People l Zoho Analytics Help",
+      "snippet": "How can I analyze the data from the third-party business applications/other data sources along with Zoho People? ... Frequently Asked Questions (FAQ). Free tools.",
+      "link": "https://www.zoho.com/analytics/help/connectors/zoho-people.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zoho People - Market Share, Competitor Insights in ...",
+      "snippet": "Top industries that use Zoho People for perfomance-management are Digital Marketing (81), Crm (67), Artificial Intelligence (60). faq icon ...",
+      "link": "https://www.6sense.com/tech/perfomance-management/zoho-people-market-share",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zoho People Your Complete Online HR Solution",
+      "snippet": "Zoho is a cloud-based software company that offers a suite of online productivity and ... Zoho´s most helpful FAQ. and used Deluge Scripts. Knowledge Base.",
+      "link": "https://www.creatorscripts.com/software/zohopeople",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "What is Zoho?",
+      "snippet": "It caters to a wide range of business operations including CRM, finance, HR, and project management. ... Zoho FAQ. Related Tools & Terms. Top fractional. Zoho ...",
+      "link": "https://pangea.app/glossary/zoho",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "careers - Sabka Dentist – Top Dental Clinic Chain In India",
+      "snippet": "Sabka dentist is the largest chain of dental clinics … and expert dentists. Application for the post of * You can also send your CV on hr@sabkadentist.com",
+      "link": "https://sabkadentist.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "DEBUNKING COMMON MYTHS ABOUT ADULTS BRACES",
+      "snippet": "Uncover the facts about adults braces on our website. We debunk common myths to help you make the right choices for your dental health.",
+      "link": "https://sabkadentist.com/debunking-common-myths-about-adults-braces/",
+      "date": "Nov 17, 2020"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Everything you need to know about oral thrush - Sabka Dentist",
+      "snippet": "Learn about oral thrush, its causes, symptoms, and treatments. Careers About oral thrush. Oral thrush happens when a yeast contamination ...",
+      "link": "https://sabkadentist.com/everything-you-need-to-know-about-oral-thrush/",
+      "date": "Jul 20, 2020"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Everything You Need to Know About Scaling and Polishing Teeth",
+      "snippet": "Learn about the process of scaling and polishing teeth and why it's essential for maintaining good oral hygiene.",
+      "link": "https://sabkadentist.com/everything-you-need-to-know-about-scaling-and-polishing-of-teeth/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "All about Dental Decay | Symptoms | Prevention | Treatment",
+      "snippet": "Discover the causes, symptoms, and prevention of dental decay. Our website provides comprehensive information on all aspects of dental ...",
+      "link": "https://sabkadentist.com/all-about-dental-decay/",
+      "date": "May 8, 2020"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "All About Orthognathic Surgery - Sabka Dentist",
+      "snippet": "Discover the benefits and procedure of orthognathic surgery on our website. Careers All About Orthognathic Surgery",
+      "link": "https://sabkadentist.com/orthognathic-surgery/",
+      "date": "Aug 18, 2020"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Everything You Need to Know About Wisdom Teeth - Sabka Dentist",
+      "snippet": "Explore the topic of wisdom teeth and find out if they are present in everyone. We provides valuable information on this dental issue.",
+      "link": "https://sabkadentist.com/does-everybody-have-wisdom-teeth/",
+      "date": "May 26, 2021"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "What every parent should know about cleft lip and palate",
+      "snippet": "Empower yourself with knowledge about cleft lip and palate. Find treatment options, and expert advice to support your child's needs.",
+      "link": "https://sabkadentist.com/what-parents-need-to-know-about-cleft-lip-or-cleft-palate/",
+      "date": "Jun 19, 2019"
+    }
+  ]
+}

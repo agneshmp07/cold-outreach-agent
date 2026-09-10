@@ -1,0 +1,316 @@
+{
+  "domain": "mahindralogistics.com",
+  "client": "Zoho",
+  "client_domain": "zoho.com",
+  "checked_against": "icp-zoho.com.md",
+  "result": {
+    "company_name": "Mahindra Logistics",
+    "what_they_do": "Mahindra Logistics Limited is an integrated third-party logistics (3PL) solutions provider in India, offering supply chain management, warehousing, transport, freight forwarding, and mobility services.",
+    "size": {
+      "estimate": "3,988 employees",
+      "evidence": "[13]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Logistics & Supply Chain / Enterprise Services",
+      "in_icp": false,
+      "why": "With 3,988 employees, Mahindra Logistics exceeds the ICP's upper headcount limits (10–1000 employees) and operates in 3PL/logistics rather than the specific target segments listed.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Hiring activity for HR roles (HR Business Partner / HRBP).",
+      "evidence": "[27]",
+      "status": "VERIFIED"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Mahindra Logistics falls outside the ICP's target headcount range (3,988 employees vs maximum 1,000 in ICP) and named industry categories. However, as a large cloud-first business actively hiring HR roles, it plausibly has operational needs for enterprise cloud software.",
+    "could_not_find": [
+      "Whether Mahindra Logistics currently suffers from tool fragmentation across sales, support, and accounting.",
+      "Their direct software decision-makers and active budget allocation for replacing operational software."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Mahindra Logistics: Integrated Logistics Solutions, 3PL ...",
+      "snippet": "We are a people-driven company with over 30 ... It has come to our notice that certain individuals and entities are impersonating Mahindra Logistics Ltd.",
+      "link": "https://mahindralogistics.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mahindra Logistics",
+      "snippet": "Mahindra Logistics | 570181 followers on LinkedIn. Igniting Success | We are one of India's largest 3PL providers offering integrated logistics solutions.",
+      "link": "https://in.linkedin.com/company/mahindralogistics",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mahindra Logistics – Integrated 3PL, Cross-Border & ...",
+      "snippet": "Discover Mahindra Logistics' end-to-end services including transport, warehousing, cross-border shipping, and last-mile delivery across ...",
+      "link": "https://www.mahindra.com/our-business/logistics",
+      "date": "6 days ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mahindra Logistics 2026 Company Profile",
+      "snippet": "Mahindra Logistics Ltd is a domestic third-party logistics service provider. It operates in two business segments including Supply Chain Management Business, ...",
+      "link": "https://pitchbook.com/profiles/company/61721-02",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mahindra Logistics",
+      "snippet": "Mahindra Logistics Limited (MLL) is one of India's leading third-party logistics (3PL) solutions provider, offering a wide array of custom-made, ...",
+      "link": "https://www.theclimatepledge.com/content/amazonclimatepledge/us/en/Signatories/mahindra-logistics.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Understanding the logistics industry",
+      "snippet": "For Mahindra Logistics specifically, the focus has been on innovation and reinvention. At MLL, we strongly believe that our competitive advantage is our “asset- ...",
+      "link": "https://mahindralogistics.com/blogs/be-open-to-new-challenges-understanding-the-logistics-industry/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Life at Mahindra Logistics: Culture, Salary, Reviews ...",
+      "snippet": "Mahindra Logistics Limited is a leading 3PL solutions provider with over a decade of experience. We have a strong presence across the country in our two ...",
+      "link": "https://www.ambitionbox.com/overview/mahindra-logistic-overview",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Mahindra Logistics Ltd share price | About Mahindra Logis.",
+      "snippet": "Mahindra Logistics Ltd is an integrated logistics & mobility solutions provider. The company offers Supply Chain expertise to diverse industry verticals ...",
+      "link": "https://www.screener.in/company/MAHLOG/consolidated/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mahindra Logistics",
+      "snippet": "Mahindra Logistics | 570181 followers on LinkedIn. Igniting Success | We are one of India's largest 3PL providers offering integrated logistics solutions.",
+      "link": "https://in.linkedin.com/company/mahindralogistics",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Kishor Sonawane - Mahindra Logistics",
+      "snippet": "Currently with Mahindra Logistics Ltd. – Mobility, I lead enterprise mobility operations with a focus on service reliability, customer satisfaction, business ...",
+      "link": "https://in.linkedin.com/in/kishor-sonawane-55371751",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Shambhavi Kumar - HR Business Partner at Mahindra ...",
+      "snippet": "Message Shambhavi directly. Skip the cold email. Shambhavi can introduce you to 10+ people at Mahindra Logistics.",
+      "link": "https://in.linkedin.com/in/shambhavikumar27",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mahindra Logistics",
+      "snippet": "Transport, logistique, chaîne logistique et stockage · À propos · Lieux · Employés chez Mahindra Logistics · Nouvelles · Inscrivez-vous pour découvrir ce que vous ...",
+      "link": "https://fr.linkedin.com/company/mahindralogistics",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mahindra Logistics (NSE:MAHLOG) Number of Employees",
+      "snippet": "Mahindra Logistics had 3,988 employees as of March 31, 2026. The number of employees increased by 134 or 3.48% compared to the previous year. Employees. 3,988.",
+      "link": "https://stockanalysis.com/quote/nse/MAHLOG/employees/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mahindra Logistics: Employee Directory",
+      "snippet": "Frequently Asked Questions Regarding Mahindra Logistics Employees. How many employees does Mahindra Logistics have? Mahindra Logistics has 51-200 employees.",
+      "link": "https://www.zoominfo.com/pic/mahindra-logistics-ltd/558740232",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "#ignitingsuccess #mahindralogistics | Mahindra Logistics",
+      "snippet": "... LinkedIn. ... View organization page for Mahindra Logistics · Mahindra Logistics.",
+      "link": "https://www.linkedin.com/posts/mahindralogistics_ignitingsuccess-mahindralogistics-activity-7335612985601679360-esj8",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Linkedin Logistics - 2026 Company Profile & Competitors",
+      "snippet": "Logo for Mahindra Logistics. Mahindra Logistics. 2009, Mumbai (India) ... How many employees does Linkedin Logistics have? As of Jul 01 ...",
+      "link": "https://tracxn.com/d/companies/linkedin-logistics/__2J8vc-LP4aMyd51Ik6tP6E20_pLvudN4dVofFZM4XOk",
+      "date": "Jul 10, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mahindra Logistics: Integrated Logistics Solutions, 3PL ...",
+      "snippet": "Steering Success with 100% Line Feeding TAT Adherence for a leading... How Mahindra Logistics optimised supply chain of an FMCG Giant.",
+      "link": "https://mahindralogistics.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mahindra Logistics",
+      "snippet": "Mahindra Logistics | 570181 followers on LinkedIn. Igniting Success | We are one of India's largest 3PL providers offering integrated logistics solutions.",
+      "link": "https://in.linkedin.com/company/mahindralogistics",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Revolutionising Warehouse Management for a Leading ...",
+      "snippet": "Discover how Mahindra Logistics cloud-based Warehouse Management System is revolutionizing warehouse operations for a leading fashion brand.",
+      "link": "https://mahindralogistics.com/revolutionising-warehouse-management-for-a-leading-fashion-brand/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mahindra Logistics - The Core of your Business",
+      "snippet": "Mahindra Logistics Ltd is part of the USD 19 billion Mahindra Group. We provide customized integrated third party supply chain and people ...",
+      "link": "https://www.youtube.com/watch?v=W_EuH_qmocg",
+      "date": "8 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mahindra Logistics – Integrated 3PL, Cross-Border & ...",
+      "snippet": "Discover Mahindra Logistics' end-to-end services including transport, warehousing, cross-border shipping, and last-mile delivery across ...",
+      "link": "https://www.mahindra.com/our-business/logistics",
+      "date": "6 days ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "How Mahindra Logistics is aiming to improve efficiencies ...",
+      "snippet": "MLL is transforming into a cloud-first business, moving all its IT applications to the cloud. Currently, Mahindra Logistics has a hybrid IT ...",
+      "link": "https://cio.economictimes.indiatimes.com/news/strategy-and-management/how-mahindra-logistics-is-aiming-to-improve-efficiencies-using-ml-and-cloud/82364139",
+      "date": "May 3, 2021"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "At Mahindra Logistics, we enable business scalability ...",
+      "snippet": "At Mahindra Logistics, we enable business scalability by leveraging our expansive warehousing network across key regions, enhancing operational ...",
+      "link": "https://www.instagram.com/reel/DG4hL88NJjw/?hl=en",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "How WMS Optimises Warehouse Costs",
+      "snippet": "See how Mahindra Logistics uses Warehouse Management Systems to reduce costs, improve warehouse productivity, and deliver consistent service levels.",
+      "link": "https://mahindralogistics.com/blogs/3-ways-wms-optimises-cost-without-compromising-service-levels/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Challenges of Missing Database Keys in Indian Businesses",
+      "snippet": "✓ Zoho CRM: Customer and sales management. ✓ Freshworks ... Mahindra Logistics | 10-15% | Asset Light | | Stable Returns ...",
+      "link": "https://www.linkedin.com/posts/shubhamgarg53_datamanagement-businessoperations-indianstartups-activity-7465680126878478336-JgTo",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Where Data Meets Action. Every journey generates ...",
+      "snippet": "Let's set up your Zoho CRM the right way with Muxlet today. ... mahindra LOGISTICS Today's supply chain Evolving ProTrucking by mahindra LOGISTICS ...",
+      "link": "https://www.instagram.com/reel/DaPyiupCkhc/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "🚨 We're Hiring at Nutranta Seeds! 🚨 Join our growing team ...",
+      "snippet": "· Proficient in Excel and HR/payroll software (e.g. HRMS, Sage, Zoho People). · ... Mahindra Logistics is hiring for HRBP. Details as below: ...",
+      "link": "https://www.facebook.com/nutrantaseeds/posts/-were-hiring-at-nutranta-seeds-join-our-growing-team-as-a-%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%87%F0%9D%90%AE%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%A7-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%9E/1283524513986347/",
+      "date": "3 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Best Tata CliQ Alternatives & Competitors",
+      "snippet": "... Mahindra Logistics, OnGrid has completed 250M+ verifications. Our intuitive portal streamlines HR processes with candidate collaboration, zero charges for ...",
+      "link": "https://sourceforge.net/software/product/Tata-CliQ/alternatives",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Everything You Need Before Your Placement Interview - IMTIIM",
+      "snippet": "Mahindra Logistics3PL Logistics & Supply Chain IB IndusInd BankPrivate ... ZoZohoSaaS — Business Software Suite PePersistent SystemsIT Services ...",
+      "link": "https://www.imtiim.com/Placement_Bible.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "At #NasscomRetailConfluence2026, Rohith Divakaran ...",
+      "snippet": "... businesses optimize resources, improve network . mahindra LOGISTICS nhau \"140\" Igniting Success With LogiOne, We are empowering businesses ...",
+      "link": "https://www.instagram.com/reel/DZ_8sNdiQAM/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "50+ SaaS Jobs in Delhi, NCR and Gurgaon",
+      "snippet": "Proven working knowledge of Zoho HR systems (People, Payroll, workflows) ... Mahindra Logistics, Titan, Diageo, Ultratech Cement, Bridgestone, and GMMCO.",
+      "link": "https://cutshort.io/jobs/saas-jobs-in-delhi-ncr-gurgaon-noida",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Hire People with Disabilities | Create Job Opportunities for ...",
+      "snippet": "From Nestle, Mahindra Logistics, and goStops, to Accenture, Asian Paints, Pepperfry and Amazon, many world-renowned brands trust Atypical Advantage to help ...",
+      "link": "https://atypicaladvantage.in/hire-fulltime-employees?srsltid=AfmBOor1D6JjFpUkL8nfADjrIAvB1zqaNFaotJdA-RMWobr_9JCiBi1d",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Work With Us - Mahindra Logistics",
+      "snippet": "we are constantly seeking talented individuals … we have a diverse range of job opportunities available. Click here to apply for our Second Career Program.",
+      "link": "https://mahindralogistics.com/work-with-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Covid Impact: Logistics sector witnesses an upsurge in hiring of the ...",
+      "snippet": "“Hiring has seen momentum in roles pertaining to warehousing operations, transportation, automation, vendor management and various roles",
+      "link": "https://mahindralogistics.com/blogs/covid-impact-logistics-sector-witnesses-an-upsurge-in-hiring-of-the-frontline-workers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Mahindra Tracking",
+      "snippet": "Explore our current openings – your next career move starts here! Finance Manager - Revenue. Lead- Corporate reporting. Sales & Marketing Business Development ...",
+      "link": "https://tracking.mahindralogistics.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Mahindra Logistics: Integrated Logistics Solutions, 3PL & Supply ...",
+      "snippet": "We offer air and ocean freight forwarding services. Frontline Worker Hiring in Logistics Covid Impact: Logistics sector witnesses an upsurge in hiring of. Team ...",
+      "link": "https://mahindralogistics.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "[PDF] General information about company - Mahindra Logistics",
+      "snippet": "Name of The Company. Mahindra Logistics Limited. BSE Scrip Code. 540768. NSE Symbol. MAHLOG. MSE Symbol. NOTLISTED.",
+      "link": "https://mahindralogistics.com/tabs/cms/files/Related_Party_Disclosures_for_H1_2024-25.pdf",
+      "date": "Mar 9, 2022"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "After COVID, automobile companies are set to redesign their supply ...",
+      "snippet": "Discover how auto companies are revolutionizing supply chains post-COVID, optimizing logistics for success with Mahindra Logistics.",
+      "link": "https://mahindralogistics.com/blogs/after-covid-automobile-companies-are-set-to-redesign-their-supply-chains/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Inclusion & Diversity at Mahindra Logistics",
+      "snippet": "Mahindra Logistics fosters an inclusive culture, empowering diverse talent. We are focused on promoting gender, generation and social diversity.",
+      "link": "https://mahindralogistics.com/diversity-inclusion/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Unified Supply Chain Visibility | Integrated Warehousing",
+      "snippet": "Explore how integrated warehousing and distribution enhance unified supply chain visibility, streamline operations, and improve efficiency with Mahindra ...",
+      "link": "https://mahindralogistics.com/blogs/unlocking-unified-supply-chain-visibility-through-integrated-warehousing-and-distribution/",
+      "date": ""
+    }
+  ]
+}
