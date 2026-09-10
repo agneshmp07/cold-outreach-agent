@@ -1,0 +1,20 @@
+{
+  "client": "Blinkit",
+  "client_domain": "blinkit.com",
+  "min_score": 5,
+  "resolved": true,
+  "queries": [
+    "site:linkedin.com/jobs \"Key Account Manager\" \"Quick Commerce\"",
+    "site:naukri.com \"Quick Commerce\" \"FMCG\" OR \"D2C\"",
+    "\"expanding into quick commerce\" OR \"launching on quick commerce\"",
+    "site:linkedin.com/jobs \"Manager - Quick Commerce\""
+  ],
+  "note": "These queries search for FMCG and D2C brands actively hiring quick-commerce account managers or announcing quick-commerce distribution expansion.",
+  "results_seen": 40,
+  "rejected_count": 40,
+  "rejection_reasons": {
+    "not a company - a host, a form link or a social post": 25,
+    "no signal in the snippet": 15
+  },
+  "candidates": []
+}

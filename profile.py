@@ -50,6 +50,7 @@ SCHEMA_EXAMPLE = """{
   "who_uses_it": "string",
   "who_pays_for_it": "string",
   "who_buys_it": "string",
+  "target_group": "string",
   "claims_to_check": ["string"],
   "icp": {
     "fits": [
@@ -149,7 +150,13 @@ Rules:
    "implies an established partner network", "quotes a results percentage".
    These are things for the human to CONFIRM or FORBID, not facts you are
    asserting. List at most 5.
-8. "weakest_assumption" is the one thing in your ICP you are least sure about,
+8. "target_group" is the answer to "who does this company sell to?" in two or
+   three plain sentences a person could read aloud. Name the kinds of business
+   or the kinds of role, say roughly how big they are, and say what makes one of
+   them a good prospect rather than a bad one. No tables, no jargon, no
+   marketing adjectives. If the company sells to two different sides, say so and
+   name the side that pays.
+9. "weakest_assumption" is the one thing in your ICP you are least sure about,
    and how the human could check it. Be specific. Do not hedge everything.
 
 Reply with JSON only, matching this shape exactly:
@@ -181,6 +188,8 @@ def icp_markdown(domain, data):
              "> Drafted by profile.py from the company's own website. Read it and "
              "cut what is wrong before trusting it. A generated ICP that nobody "
              "graded is a guess with formatting.", "",
+             (f"## Who this company sells to\n\n{data.get('target_group')}\n"
+              if data.get("target_group") else ""), "",
              f"**This describes who PAYS:** {data.get('who_pays_for_it') or data.get('who_buys_it', 'not stated')}", "",
              f"_Business model: {data.get('business_model', 'not stated')}. "
              f"Day-to-day users: {data.get('who_uses_it', 'not stated')}._", "",
@@ -229,6 +238,7 @@ def client_json(domain, data, icp_path):
         "name": data.get("company_name", domain),
         "one_liner": data.get("one_liner", ""),
         "what_you_sell": data.get("what_you_sell", ""),
+        "target_group": data.get("target_group", ""),
         "business_model": data.get("business_model", ""),
         "who_uses_it": data.get("who_uses_it", ""),
         "who_pays_for_it": data.get("who_pays_for_it", ""),
@@ -268,11 +278,37 @@ def save(domain, data):
     return client_path, icp_path
 
 
+def wrap(text, width=68, indent="  "):
+    """Wrap a paragraph for the terminal."""
+    words, line, lines = str(text or "").split(), "", []
+    for word in words:
+        if len(line) + len(word) + 1 > width:
+            lines.append(indent + line)
+            line = word
+        else:
+            line = f"{line} {word}".strip()
+    if line:
+        lines.append(indent + line)
+    return "\n".join(lines)
+
+
 def print_summary(domain, data, client_path, icp_path):
     icp = data.get("icp") or {}
+    name = data.get("company_name", domain)
+
+    # The target group comes first and in plain words. It is the question people
+    # actually ask - who does this company sell to - and burying it under a
+    # scrape log and three tables is how it gets missed.
     print(f"\n{'=' * 60}")
-    print(f"{data.get('company_name', domain)}")
-    print(f"{'=' * 60}")
+    print(f"{name.upper()} SELLS TO")
+    print(f"{'=' * 60}\n")
+    print(wrap(data.get("target_group")
+               or data.get("who_pays_for_it")
+               or data.get("who_buys_it") or "not stated"))
+
+    print(f"\n{'-' * 60}")
+    print("Detail")
+    print(f"{'-' * 60}")
     print(f"\n  Sells   : {data.get('what_you_sell', '-')}")
     print(f"  Model   : {data.get('business_model', '-')}")
     print(f"  Users   : {data.get('who_uses_it', '-')}")
@@ -301,7 +337,7 @@ def print_summary(domain, data, client_path, icp_path):
             print(f"    - {c}")
 
     print(f"\n{'-' * 60}")
-    print("BEFORE ANYTHING ELSE RUNS, do these two things:")
+    print("Two things before you source targets:")
     print(f"{'-' * 60}")
     print(f"\n1. Open {client_path}")
     print('   - set "sender" to the name that signs the emails')

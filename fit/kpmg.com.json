@@ -1,0 +1,316 @@
+{
+  "domain": "kpmg.com",
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "checked_against": "icp-kpmg.com.md",
+  "result": {
+    "company_name": "KPMG International",
+    "what_they_do": "KPMG International acts as a coordinating entity for a global network of independent member firms providing audit, tax, and advisory services.",
+    "size": {
+      "estimate": "275,288 employees across 145 countries and 46 member firms",
+      "evidence": "[3, 12]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Multinational Law Firms & Professional Services",
+      "in_icp": true,
+      "why": "KPMG is a large multi-jurisdictional professional services network operating across 145 countries.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None of the specified buying signals (active job postings for 'CSRD Compliance Lead', 'Oracle ERP Integration Manager', or 'Global Tax Director', press releases on expansion, or regulatory filings) were present in the search results.",
+      "evidence": "None",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "SKIP",
+    "reason": "While KPMG matches the 'Multinational Law Firms & Professional Services' segment and its size is verified, no required buying signals were found in the provided search results.",
+    "could_not_find": [
+      "Specific job postings for required target roles such as Oracle ERP Integration Manager or CSRD Compliance Lead.",
+      "Information regarding KPMG's internal billing mandates or e-invoicing framework requirements."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About KPMG",
+      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm has ...",
+      "link": "https://kpmg.com/xx/en/about.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "KPMG International | Home",
+      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm has ...",
+      "link": "https://kpmg.com/xx/en.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "KPMG",
+      "snippet": "As of December 2024, KPMG is operated as a network of 46 firms across 145 countries, employing 275,288 people that are affiliated with KPMG International ...",
+      "link": "https://en.wikipedia.org/wiki/KPMG",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What we do - KPMG International",
+      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm has ...",
+      "link": "https://kpmg.com/xx/en/careers/what-we-do.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "KPMG US - KPMG International",
+      "snippet": "... they do business. Read more. Transforming Community Support with Data. See ... KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "KPMG International Limited | Business and Management",
+      "snippet": "KPMG International Limited is a coordinating entity for a global network of independent member firms known as KPMG, which provide audit, tax, and advisory ...",
+      "link": "https://www.ebsco.com/research-starters/business-and-management/kpmg-international-limited",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "KPMG",
+      "snippet": "KPMG is the brand under which the member firms of KPMG International Limited (“KPMG International”) operate and provide professional services. “KPMG” is used to ...",
+      "link": "https://nl.linkedin.com/company/kpmg",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "KPMG Career Practice Areas: Insight Becomes Knowledge",
+      "snippet": "... KPMG International Limited, a private English company limited by guarantee. All rights reserved. The KPMG name and logo are trademarks used under license by ...",
+      "link": "https://www.kpmguscareers.com/practice-areas/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "KPMG",
+      "snippet": "KPMG is the brand under which the member firms of KPMG International Limited (“KPMG International”) operate and provide professional services. “KPMG” is used to ...",
+      "link": "https://nl.linkedin.com/company/kpmg",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "KPMG",
+      "snippet": "KPMG is the brand under which the member firms of KPMG International Limited (“KPMG International”) operate and provide professional services. ... employees ...",
+      "link": "https://www.linkedin.com/company/kpmg/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJA%2FyGnzCS%2B2jLCAQ%2B1OpXA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-background_details_certification",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "KPMG",
+      "snippet": "KPMG is the brand under which the member firms of KPMG International Limited (“KPMG International”) operate and provide professional services. “KPMG” is used to ...",
+      "link": "https://sk.linkedin.com/company/kpmg",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "KPMG",
+      "snippet": "As of December 2024, KPMG is operated as a network of 46 firms across 145 countries, employing 275,288 people that are affiliated with KPMG International ...",
+      "link": "https://en.wikipedia.org/wiki/KPMG",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Linkedin - KPMG International",
+      "snippet": "... KPMG International Limited, a private English company limited by guarantee. All rights reserved. The KPMG name and logo are trademarks used under license by ...",
+      "link": "https://us-talentcommunity.kpmg.com/careers/LinkedinWidget",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Experienced Professionals - KPMG Careers",
+      "snippet": "With more than 75 offices and 40,000+ employees and partners throughout the ... KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://www.kpmguscareers.com/experienced/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "KPMG Employee Directory, Headcount & Staff",
+      "snippet": "KPMG International Limited is a private English company limited by guarantee ... Logo of the company LinkedIn that links directly to the LeadIQ LinkedIn page.",
+      "link": "https://leadiq.com/c/kpmg/5a1d7f0524000024005a4432/employee-directory",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Corporate Responsibility - KPMG International",
+      "snippet": "KPMG employees spent more than 27,000 hours supporting workforce and ... KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en/careers-and-culture/corporate-responsibility.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "KPMG US - KPMG International",
+      "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Tax Transformation",
+      "snippet": "Digital tax compliance and risk management with SAP RAMopens in a new tab ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/de/en/services/tax/tax-transformation.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "How We Work - KPMG International",
+      "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en/how-we-work.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "AI and technology in Audit - KPMG International",
+      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm ...",
+      "link": "https://kpmg.com/xx/en/what-we-do/services/audit/ai-and-technology.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "KPMG Career Practice Areas: Insight Becomes Knowledge",
+      "snippet": "Digital Nexus, Enterprise Security Services, Internal Audit · Business ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://www.kpmguscareers.com/practice-areas/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Financial services digital transformation - KPMG International",
+      "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en/capabilities-services/alliances/kpmg-workday/digital-transformation-financial-services.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Profile of KPMG",
+      "snippet": "Headquartered in Amstelveen, the Netherlands, KPMG operates as a global network of independent member firms affiliated with KPMG International Limited. The firm ...",
+      "link": "https://umbrex.com/resources/profiles-of-the-top-consulting-firms/overview-profile-and-history-of-kpmg/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "KPMG named a Leader in The Forrester Wave™: Digital ...",
+      "snippet": "KPMG invests $5 billion in digital transformation. Accounting Today. 6y · Public · KPMG International announced that it would be investing $5 ...",
+      "link": "https://es-la.facebook.com/kpmgcambodia/posts/kpmg-named-a-leader-in-the-forrester-wave-digital-process-automation-service-pro/3399656596794091/",
+      "date": "5 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "KPMG US - KPMG International",
+      "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "AI and technology in Audit - KPMG International",
+      "snippet": "Member firms of the KPMG network of independent firms are affiliated with KPMG International. KPMG International provides no client services. No member firm ...",
+      "link": "https://kpmg.com/xx/en/what-we-do/services/audit/ai-and-technology.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Tax Transformation",
+      "snippet": "Digital tax compliance and risk management with SAP RAMopens in a new tab ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/de/en/services/tax/tax-transformation.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Digital transformation in healthcare - KPMG International",
+      "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en/capabilities-services/alliances/kpmg-workday/digital-transformation-healthcare.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Work with a recognized leader in advisory services",
+      "snippet": "... Transformation KPMG Managed Services Transactions · View all KPMG ... with KPMG International Limited, a private English company limited by guarantee.",
+      "link": "https://kpmg.com/us/en/articles/2025/recognized-leader-in-advisory-services.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Profile of KPMG",
+      "snippet": "Headquartered in Amstelveen, the Netherlands, KPMG operates as a global network of independent member firms affiliated with KPMG International Limited. The firm ...",
+      "link": "https://umbrex.com/resources/profiles-of-the-top-consulting-firms/overview-profile-and-history-of-kpmg/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Tax Enterprise Services - KPMG International",
+      "snippet": "with KPMG International Limited, a private English company limited by guarantee. ... ERP ... Design and develop your desired operating model, including a detailed.",
+      "link": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2020/tax-enterprise-support-services.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Digital Transformation",
+      "snippet": "... KPMG International Limited, une société de droit anglais (« private company limited by guarantee »). Tous droits réservés. Le nom et le logo KPMG sont des ...",
+      "link": "https://kpmg.com/tn/en/services/advisory/digital-transformation.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Experienced Professionals - KPMG Careers",
+      "snippet": "Be inspired to think beyond. Bring your experienced professional career here to maximize opportunities, explore new ways of thinking, and achieve more.",
+      "link": "http://us-jobs.kpmg.com/careers/WhyKpmg",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "KPMG Careers: Your Career Inspired",
+      "snippet": "Grow into the professional you are meant to be with a career at KPMG. We empower our professionals to take their careers into their own hands.",
+      "link": "https://us-jobs.kpmg.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers and Culture - KPMG International",
+      "snippet": "Take your career to the next level. Gain knowledge, enhance skills, and thrive at one of the world's top professional service firms,",
+      "link": "https://kpmg.com/us/en/careers-and-culture.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - KPMG International",
+      "snippet": "Join a dynamic team of KPMG professionals at one of the world's leading providers of Audit, Tax and Advisory services. Click here to view our full list of job ...",
+      "link": "https://kpmg.com/dp/en/careers.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - KPMG International",
+      "snippet": "Join us and work at the forefront of Audit, Tax and Advisory services. , you will participate in ongoing training seminars",
+      "link": "https://kpmg.com/gr/en/careers.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at KPMG",
+      "snippet": "At KPMG, we want to support you on your journey to create an impactful career. Join us and you too can do work that matters.",
+      "link": "https://kpmg.com/cn/en/careers.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers in Technology, IT, and Data Advisory - KPMG International",
+      "snippet": "Inspired? Get in touch. Reach out if you would like to hear more about our career opportunities within Tech Consulting.",
+      "link": "https://kpmg.com/dk/en/careers/career-in-technology-it-and-data.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Job search - KPMG International",
+      "snippet": "Join KPMG and discover a career that will help you thrive, learn, and do work that matters. To see all the open roles currently available, use the drop-down ...",
+      "link": "https://kpmg.com/xx/en/careers/job-search.html",
+      "date": ""
+    }
+  ]
+}

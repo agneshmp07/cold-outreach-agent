@@ -65,6 +65,9 @@ SCHEMA_EXAMPLE = """{
   "triggers": [
     {"fact": "string", "source_page": "string", "relevance_score": 0}
   ],
+  "disqualifiers": [
+    {"fact": "string", "source_page": "string", "why": "string"}
+  ],
   "pain_hypothesis": "string",
   "no_trigger_found": false
 }"""
@@ -319,18 +322,33 @@ Hard rules:
    cap its score at 5 - EXCEPT direct evidence of manual campus hiring under
    rule 3, which is about a visible process rather than an event, and keeps its
    score without a date.
-6. Return at most 5 triggers, best first.
+6. DISQUALIFIERS. Some facts are evidence the company does NOT have this
+   problem, and they matter more than any trigger. Put them in "disqualifiers",
+   never in "triggers", and give the source and one sentence on why in "why".
+   A fact is a disqualifier when it shows the company has already solved the
+   problem, or does not do the thing the product supports at all. Examples of
+   the shape:
+   - "only accepts applications through employee referrals" - they run no
+     campus drives, so there is no drive to coordinate
+   - "applications go through Workday / SAP / a named applicant tracking system"
+     - they already have the system this product would replace
+   - "the service is not offered in this country / segment"
+   - "they announced they are winding down the relevant business line"
+   Look for these deliberately. A disqualifier found now saves a wasted email;
+   a disqualifier missed becomes a message that argues against its own evidence.
+   If a fact is BOTH a hook and a disqualifier, it is a disqualifier.
+8. Return at most 5 triggers, best first.
 7. If there is no genuine trigger, set "no_trigger_found" to true and return an
    empty "triggers" list. Returning nothing is the correct, expected answer for
    a company with a thin website and no news. An empty list is a success, not
    a failure.
-8. "pain_hypothesis" is one sentence on the campus-hiring pain this company
+9. "pain_hypothesis" is one sentence on the campus-hiring pain this company
    plausibly has, based only on the evidence below - reaching colleges,
    coordinating drives, comparing candidates across campuses. When the fit
    check found a signal, build the hypothesis on THAT, not on corporate news.
    If there are no triggers, say plainly that there is no evidence to support
    a hypothesis.
-9. Never name an individual in connection with a departure, resignation or
+10. Never name an individual in connection with a departure, resignation or
    exit - not in a trigger, not in the pain hypothesis. An appointment may name
    the person, because that is public and positive; an exit may not.
 
@@ -414,9 +432,23 @@ def clean_result(data, domain):
 
     triggers.sort(key=lambda t: t["relevance_score"], reverse=True)
 
+    disqualifiers = []
+    for item in data.get("disqualifiers") or []:
+        if not isinstance(item, dict):
+            continue
+        fact = str(item.get("fact") or "").strip()
+        if not fact:
+            continue
+        disqualifiers.append({
+            "fact": fact,
+            "source_page": str(item.get("source_page") or "unknown").strip(),
+            "why": str(item.get("why") or "").strip(),
+        })
+
     return {
         "company_name": str(data.get("company_name") or domain).strip(),
         "triggers": triggers,
+        "disqualifiers": disqualifiers,
         "pain_hypothesis": str(data.get("pain_hypothesis") or "").strip(),
         "no_trigger_found": len(triggers) == 0,
     }
@@ -485,6 +517,12 @@ def main():
         for trigger in result["triggers"]:
             print(f"  [{trigger['relevance_score']}/10] {trigger['fact']}")
             print(f"          source: {trigger['source_page']}")
+    for d in result.get("disqualifiers") or []:
+        print(f"\n  DISQUALIFIER: {d['fact']}")
+        if d.get("why"):
+            print(f"                {d['why']}")
+        print(f"                source: {d['source_page']}")
+
     if result["pain_hypothesis"]:
         print(f"\n  Pain hypothesis: {result['pain_hypothesis']}")
     print(f"\nSaved to {out_path}")

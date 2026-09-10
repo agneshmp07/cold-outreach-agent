@@ -241,6 +241,33 @@ def load_triggers(path):
     return data
 
 
+def refuse_disqualified(domain, source, disqualifiers):
+    """
+    Evidence that this company does not have the problem beats any hook.
+
+    A disqualifier is not a weak trigger to write around. It is the answer: the
+    company already solved this, or never had it. Writing anyway produces a
+    message that argues against its own cited evidence - the shape a recipient
+    notices immediately, because they know their own setup better than you do.
+    """
+    company = source.get("company_name") or domain
+
+    print(f"\nCANNOT WRITE THESE MESSAGES - {company}")
+    print("\nThe research found evidence this company does NOT have the problem:")
+    for d in disqualifiers:
+        print(f"\n  - {d['fact']}")
+        if d.get("why"):
+            print(f"    {d['why']}")
+        print(f"    source: {d.get('source_page', 'unknown')}")
+
+    print("\nOpen the source and check it. If it is wrong, remove that entry from")
+    print(f"  triggers/{domain}.json  and run this again.")
+    print("If it is right, this company is not a buyer - move on to the next one.")
+    print("\nNothing was written. Use --force to draft anyway, though the drafts")
+    print("will be arguing against their own evidence.")
+    sys.exit(1)
+
+
 def refuse_no_trigger(domain, source, in_path):
     """No trigger, no message. Say what is missing and stop."""
     company = source.get("company_name") or domain
@@ -305,7 +332,7 @@ You are writing on behalf of {client['sender']}, who runs {client['name']} -
 That description is CONTEXT for you, not copy. Do not paste it into the messages.
 
 WHAT {client['name'].upper()} SELLS: {client.get('what_you_sell') or client['one_liner']}
-WHO BUYS IT: {client.get('who_buys_it') or 'not stated'}
+WHO BUYS IT: {client.get('who_pays_for_it') or client.get('who_buys_it') or 'not stated'}
 
 TARGET COMPANY: {company_name}
 
@@ -689,6 +716,7 @@ def clean_result(data, source, client, overclaim_pattern, warnings):
         "client": client["name"],
         "client_domain": client["_slug"],
         "company_name": source.get("company_name") or "unknown",
+        "disqualifiers": source.get("disqualifiers") or [],
         "generated_from": {
             "trigger_count": len(source["triggers"]),
             "top_score": max((t.get("relevance_score", 0) for t in source["triggers"]),
@@ -719,6 +747,12 @@ def to_markdown(result):
     lines = [f"# {result['client']} -> {result['company_name']}", "",
              f"_{info['trigger_count']} trigger(s) found, top relevance "
              f"{info['top_score']}/10._", ""]
+
+    for d in result.get("disqualifiers") or []:
+        why = d.get("why") or ""
+        lines += [f"> :rotating_light: **DISQUALIFIER — DO NOT SEND.** "
+                  f"{d['fact']}{' ' + why if why else ''} "
+                  f"(source: {d.get('source_page', 'unknown')})", ""]
 
     if info.get("forced"):
         lines += ["> **Drafted with --force below the quality floor.** The "
@@ -811,10 +845,18 @@ def main():
     source = load_triggers(in_path)
     triggers = source["triggers"]
 
+    disqualifiers = source.get("disqualifiers") or []
+    if disqualifiers and not force:
+        refuse_disqualified(domain, source, disqualifiers)
+
     if source.get("no_trigger_found") or not triggers:
         refuse_no_trigger(domain, source, in_path)
 
     warnings = []
+    for d in disqualifiers:
+        why = d.get("why") or "evidence this company does not have the problem"
+        warnings.append(f"DISQUALIFIER IGNORED: {d['fact']} - {why}. "
+                        f"DO NOT SEND without checking the source.")
     top_score = max((t.get("relevance_score", 0) for t in triggers), default=0)
 
     if top_score < MIN_TOP_SCORE:

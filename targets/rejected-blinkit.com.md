@@ -1,0 +1,133 @@
+# Rejected results
+
+_40 of 40 result(s) thrown away._
+
+## Why
+
+- not a company - a host, a form link or a social post: 25 (62%)
+- no signal in the snippet: 15 (38%)
+
+> If 'sells this kind of product' is the biggest bucket, the queries are finding vendors rather than sufferers. If 'not a company' is, the signal points at infrastructure - a form host, a social post - and the query needs to name the employer's context instead.
+
+## What was thrown away
+
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 164 Key Account Manager Ecommerce Jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/key-account-manager-ecommerce-jobs
+- **Bengaluru ...** — no signal found in the title or snippet
+  - Key Account Manager Ecommerce Jobs in Bengaluru ... - LinkedIn
+  - https://in.linkedin.com/jobs/key-account-manager-ecommerce-jobs-bengaluru
+- **Washington DC** — no signal found in the title or snippet
+  - 1,000+ Ecommerce Manager jobs in Washington DC-Baltimore Area
+  - https://www.linkedin.com/jobs/ecommerce-manager-jobs-washington-dc-baltimore-area
+- **Origin Nutrition** — no signal found in the title or snippet
+  - Key Account Manager - Quick Commerce at Origin Nutrition - LinkedIn
+  - https://in.linkedin.com/jobs/view/key-account-manager-quick-commerce-at-origin-nutrition-4439820385
+- **Mumbai Metropolitan ...** — no signal found in the title or snippet
+  - 910 Ecommerce Account Manager jobs in Mumbai Metropolitan ...
+  - https://in.linkedin.com/jobs/ecommerce-account-manager-jobs-mumbai-metropolitan-region
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 387 Commerce Specialist jobs in Bengaluru - LinkedIn
+  - https://in.linkedin.com/jobs/commerce-specialist-jobs-bengaluru
+- **San Jose** — no signal found in the title or snippet
+  - 1,000+ Ecommerce Manager jobs in San Jose - LinkedIn
+  - https://www.linkedin.com/jobs/ecommerce-manager-jobs-san-jose-ca
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 1,000+ Key Account Manager Modern Trade jobs in India - LinkedIn
+  - https://in.linkedin.com/jobs/key-account-manager-modern-trade-jobs
+- **The Hershey Company** — no signal found in the title or snippet
+  - The Hershey Company hiring Manager Key Accounts Ecommerce in ...
+  - https://in.linkedin.com/jobs/view/manager-key-accounts-ecommerce-at-the-hershey-company-4426609313
+- **Bengaluru Rural** — no signal found in the title or snippet
+  - 1,000+ Key Account Manager E Commerce jobs in Bengaluru Rural
+  - https://in.linkedin.com/jobs/key-account-manager-e-commerce-jobs-bengaluru-rural-ka?trk=public_jobs_search-for-more-jobs-link
+- **(unknown)** — not a company - a host, a form link or a social post
+  - D2C Quick Commerce Executive - Flipkart & Quick Commerce ...
+  - https://www.naukri.com/job-listings-d2c-quick-commerce-executive-flipkart-quick-commerce-platforms-workradius-ai-technologies-hyderabad-1-to-4-years-270826000006
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Quick Commerce Ads Specialist (Skincare, FMCG Brand) - Navi ...
+  - https://www.naukri.com/job-listings-quick-commerce-ads-specialist-skincare-fmcg-brand-ifc-ventures-navi-mumbai-mumbai-all-areas-2-to-4-years-290826013192
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Accounts Manager - Multi-Entity D2C / Quick Commerce Operations ...
+  - https://www.naukri.com/job-listings-accounts-manager-multi-entity-d2c-quick-commerce-operations-oye-happy-giftcom-pvt-ltd-hyderabad-3-to-8-years-010826008593
+- **Faridabad And Haryana** — no signal found in the title or snippet
+  - E Commerce Manager Jobs In Faridabad And Haryana - Naukri.com
+  - https://www.naukri.com/e-commerce-manager-jobs-in-faridabad-and-haryana
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Store Manager Quick Commerce - Superk - 3 to 5 years of experience
+  - https://www.naukri.com/job-listings-store-manager-quick-commerce-superk-chittoor-3-to-5-years-170626024511
+- **(unknown)** — not a company - a host, a form link or a social post
+  - E-Commerce National Key Account Manager - Navi Mumbai - Loyka
+  - https://www.naukri.com/job-listings-e-commerce-national-key-account-manager-loyka-navi-mumbai-5-to-8-years-070926008911
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Operations Executive - Quick Commerce (B2B) - Ugaoo Agritech
+  - https://www.naukri.com/job-listings-operations-executive-quick-commerce-b2b-ugaoo-com-gurugram-2-to-5-years-310826501294
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 1015 Quick Job Vacancies In Hyderabad Secunderabad - Naukri.com
+  - https://www.naukri.com/quick-jobs-in-hyderabad-secunderabad
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Deputy Key Account Manager-Quick Commerce - Naukri.com
+  - https://www.naukri.com/job-listings-deputy-key-account-manager-quick-commerce-synergy-resource-solutions-ahmedabad-5-to-10-years-070726503151
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Assistant Manager Quick Commerce (Q-Com) Intergrow - Kochi
+  - https://www.naukri.com/job-listings-assistant-manager-quick-commerce-q-com-intergrow-intergrow-brands-pvt-ltd-kochi-5-to-10-years-251125506529
+- **Maction** — no signal found in the title or snippet
+  - D2C Brands Are Launching on Quick Commerce First. Here's Why.
+  - https://maction.com/quick-commerce-product-launch-d2c-india/
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Reliance-owned JioMart opens 600 dark stores in quick commerce ...
+  - https://x.com/madhavchanchani/status/1999308428544737670
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Read the Full Blog: https://maction.com/quick-commerce-product ...
+  - https://www.instagram.com/p/Dcvm4PADDIH/?__d=1%2F
+- **(unknown)** — not a company - a host, a form link or a social post
+  - 5 Quick Commerce Trends Every Brand Should Know | Teaser
+  - https://www.youtube.com/shorts/Pv94SVFmyn4
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Inwess Asset Management's Post - LinkedIn
+  - https://www.linkedin.com/posts/inwess_zomatos-recipe-for-success-mastering-indias-activity-7251957776707379200-v86-
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Quick fashion delivery startup Klydo has paused its consumer ...
+  - https://www.facebook.com/startup.pedia7/posts/quick-fashion-delivery-startup-klydo-has-paused-its-consumer-business-and-is-tak/1505385641602593/
+- **Imarcamplify** — no signal found in the title or snippet
+  - Quick Commerce Advertising: Grow on Blinkit, Zepto & More
+  - https://www.imarcamplify.com/blog/quick-commerce-advertising-how-brand-can-grow
+- **Base** — no signal found in the title or snippet
+  - Quick Commerce Unit Economics: Why Most Brands Get the Math ...
+  - https://base.com/en-IN/blog/quick-commerce-unit-economics-why-most-brands-get-the-math-wrong/
+- **Qsrmedia** — no signal found in the title or snippet
+  - Boba Bhai launches on quick-commerce app Blinkit | QSR Media Asia
+  - https://qsrmedia.asia/food-services/news/boba-bhai-launches-quick-commerce-app-blinkit
+- **Openspacecapital** — no signal found in the title or snippet
+  - SariSuki raises from Openspace, expands into quick commerce
+  - https://www.openspacecapital.com/insights/sarisuki-raises-from-openspace-expands-into-quick-commerce
+- **Amazon** — no signal found in the title or snippet
+  - Sr Program Manager - Quick Commerce NYC Strategy at Amazon
+  - https://www.linkedin.com/jobs/view/sr-program-manager-quick-commerce-nyc-strategy-at-amazon-4465090764
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Growth Performance Manager - Delivery Hero - LinkedIn Singapore
+  - https://sg.linkedin.com/jobs/view/growth-performance-manager-quick-commerce-at-delivery-hero-4367211550
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Finance Manager, Quick Commerce (Amazon Now) - LinkedIn
+  - https://www.linkedin.com/jobs/view/finance-manager-quick-commerce-amazon-now-at-amazon-4455918662
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Quick Commerce And E-commerce Growth Manager - LinkedIn
+  - https://in.linkedin.com/jobs/view/quick-commerce-and-e-commerce-growth-manager-at-i-j-l-son-s-enterprises-4351836226
+- **San Jose** — no signal found in the title or snippet
+  - 1,000+ Ecommerce Manager jobs in San Jose - LinkedIn
+  - https://www.linkedin.com/jobs/ecommerce-manager-jobs-san-jose-ca
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Marketplace Growth Manager (E-commerce & Quick ... - LinkedIn
+  - https://in.linkedin.com/jobs/view/marketplace-growth-manager-e-commerce-quick-commerce-at-growpreneur-4444677472
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Marketplace and Quick Commerce Manager - Jobs - LinkedIn
+  - https://in.linkedin.com/jobs/view/marketplace-and-quick-commerce-manager-at-zoom-into-web-4455861339
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Sr. Program Manager, Quick Commerce Expansion Planning
+  - https://www.linkedin.com/jobs/view/sr-program-manager-quick-commerce-expansion-planning-at-amazon-4461523204
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Ops Manager - Quick Commerce Last Mile, Amazon NOW - LinkedIn
+  - https://in.linkedin.com/jobs/view/ops-manager-quick-commerce-last-mile-amazon-now-at-amazon-4455900348
+- **(unknown)** — not a company - a host, a form link or a social post
+  - Category Manager, Amazon Now Quick Commerce 10 minute delivery
+  - https://in.linkedin.com/jobs/view/category-manager-amazon-now-quick-commerce-10-minute-delivery-at-amazon-4455796153

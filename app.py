@@ -491,6 +491,10 @@ if written_for and written_for != client.get("name"):
         f'Re-run the pipeline to rewrite them for the selected client.</div>',
         unsafe_allow_html=True)
 
+for d in data.get("disqualifiers") or []:
+    st.error(f"DISQUALIFIER — do not send. {d.get('fact', '')} "
+             f"{d.get('why', '')}".strip())
+
 if info.get("forced"):
     st.markdown(
         '<div class="note-block"><strong>Drafted below the quality floor.</strong> '

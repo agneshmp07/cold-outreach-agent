@@ -1,0 +1,24 @@
+{
+  "domain": "kpmg.com",
+  "name": "KPMG",
+  "one_liner": "KPMG provides audit, tax, and advisory services to help organizations manage technology transformations, regulatory compliance, risk, and business operations.",
+  "what_you_sell": "Audit, tax, and advisory services including digital transformations, ERP implementations, risk and regulatory compliance, and sustainability consulting.",
+  "business_model": "direct",
+  "who_uses_it": "Internal operations, finance, IT, tax, legal, and sustainability teams within client organizations.",
+  "who_pays_for_it": "C-suite executives, department heads (CFO, CIO, Chief Sustainability Officer), and board members of enterprise or public sector organizations.",
+  "who_buys_it": "Corporate executive leadership and procurement departments managing enterprise-wide financial, technological, or regulatory transformation projects.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-kpmg.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Operates in 138 countries and territories",
+    "Employs over 276,000 partners and employees globally",
+    "Successfully implemented a repeatable e-invoicing framework across multiple jurisdictions for law firm DLA Piper",
+    "Transformed back-office healthcare operations using Oracle ERP for the Centre for Addiction and Mental Health",
+    "Converted CSRD compliance into real-time sustainability insights for Stolt-Nielsen"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}
