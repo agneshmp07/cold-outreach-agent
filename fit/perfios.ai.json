@@ -1,0 +1,112 @@
+{
+  "domain": "perfios.ai",
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "checked_against": "icp-wework.com.md",
+  "result": {
+    "company_name": "Perfios",
+    "what_they_do": "Perfios is a fintech software company providing financial data analysis, digital onboarding, underwriting, and SME lending solutions for financial institutions [4, 5].",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "The search results do not specify the company's total headcount or employee count.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Technology and Software",
+      "in_icp": true,
+      "why": "Perfios is a software and fintech company, matching the Technology and Software industry segment in the ICP [4, 5].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None found",
+      "evidence": "The provided search results do not show hiring pushes in new cities, hybrid work announcements, real estate downsizing, or rapid headcount growth.",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None found",
+      "evidence": "There is no evidence in the search results that Perfios currently pays for flexible workspace or coworking solutions.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Perfios belongs to the Technology and Software target segment [4, 5], and no disqualifiers were identified in the search results. Per the verdict rules, being in a target segment without a signal still warrants proceeding.",
+    "could_not_find": [
+      "Exact company headcount to verify if they fall within the 50-500 employee range.",
+      "Details on their current office footprint, geographic expansion plans, or hybrid work policies."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "size",
+      "title": "Careers and Perfiosness",
+      "snippet": "At Perfios, I Feel Like I'm Part of a Community, and That I'm Valued. Right from 2008, Perfios has always had a very transparent and collaborative work culture.",
+      "link": "https://perfios.ai/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Careers and Perfiosness - Perfios",
+      "snippet": "Join fellow innovators to create groundbreaking solutions that further financial inclusion to the last mile. Lead with Us. 1.png.",
+      "link": "https://perfios.ai/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers and Perfiosness - Perfios",
+      "snippet": "We're on the lookout for passionate changemakers who will join us in creating industry-defining tech. Technical Architect - Platform Front-end to UX",
+      "link": "https://perfios.ai/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us - Perfios",
+      "snippet": "Perfios Software Solutions empowers global financial institutions by shaping their origination, onboarding, decisioning, underwriting, and monitoring processes ...",
+      "link": "https://perfios.ai/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Best FinTech Software Company -Digital Onboarding, Underwriting ...",
+      "snippet": "Perfios offers accurate and timely financial statement/ data analysis software & tools and SME lending solutions in India.",
+      "link": "https://perfios.ai/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Everything You Need To Know About Health Claims Analytics - Perfios",
+      "snippet": "Discover why health claims analytics is vital in insurance, exploring its benefits, challenges, and future impact for insurers and customers alike.",
+      "link": "https://perfios.ai/resources/blogs/everything-you-need-to-know-about-health-claims-analytics/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us - Perfios",
+      "snippet": "At Perfios Software Solutions Private Limited (referred to as “we”, “us” or “our”), we use cookies to enhance your experience on our website and analyze our ...",
+      "link": "https://perfios.ai/about-us-footer/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Ms. Shalini Warrier talks about alternate data sources at the ... - Perfios",
+      "snippet": "Shalini Warrier talks about alternate data sources at the FINteraction held by Perfios FINteraction is an exclusive forum for our esteemed Perfios clientele. ...",
+      "link": "https://perfios.ai/resources/videos/ms-shalini-warrier-talks-about-alternate-data-sources-at-the-finteraction-held-by-perfios/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Everything You Should Know About 'Buy Now Pay Later' Craze In ...",
+      "snippet": "BNPL lets you shop now and pay later in zero-interest installments, simplifying big or small purchases without upfront costs.",
+      "link": "https://perfios.ai/resources/blogs/everything-you-should-know-about-buy-now-pay-later-craze-in-india/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Life at Perfios",
+      "snippet": "Our 6-month long leadership programme conducted by the IIM Calcutta faculty, tailored specially for Perfians stepping into a new chapter of their career.",
+      "link": "https://perfios.ai/life-at-perfios/",
+      "date": ""
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "domain": "nestle.in",
+  "client": "Procol",
+  "client_domain": "procol.ai",
+  "checked_against": "icp-procol.ai.md",
+  "result": {
+    "company_name": "Nestlé India (nestle.in)",
+    "what_they_do": "Nestlé is a global food and beverage manufacturing company [44], [48].",
+    "size": {
+      "estimate": "Enterprise (500+ employees)",
+      "evidence": "Described as the world's largest food and beverage company [48].",
+      "status": "ASSERTED"
+    },
+    "segment": {
+      "best_match": "Fast-Moving Consumer Goods (FMCG) & Food Manufacturing",
+      "in_icp": true,
+      "why": "Nestlé is an enterprise packaged food and beverage manufacturer in the FMCG sector [44], [48].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Uses SAP ERP software (SAP S/4HANA Cloud) [34] and maintains a dedicated procurement and supply chain division [47].",
+      "evidence": "[34], [47]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "",
+      "evidence": "",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Most search results provided were about unrelated organizations with 'Our Stories' in their name rather than nestle.in, requiring manual verification.",
+    "could_not_find": [
+      "Most search results are about unrelated entities named 'Our Stories' or 'Our Stories Lab' rather than nestle.in.",
+      "Exact headcount and procurement volume specifically for Nestlé India."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Our Stories Lab",
+      "snippet": "Our Stories Lab. Advertising Services. Sri Petaling, Kuala Lumpur 1,942 followers. We craft stories worth telling online. Follow.",
+      "link": "https://www.linkedin.com/company/ourstorieslab",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Our Stories Films",
+      "snippet": "Our Stories Films is an American film studio founded on July 13, 2006, by Robert L. Johnson to produce \"comedic, family-friendly feature films for African ...",
+      "link": "https://en.wikipedia.org/wiki/Our_Stories_Films",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Hashtag Our Stories - Crunchbase Company Profile & ...",
+      "snippet": "Hashtag Our Stories is a social-first, video publisher, focused on stories about local solutions to global problems.",
+      "link": "https://www.crunchbase.com/organization/hashtag-our-stories",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Own Our History. Change the Story.",
+      "snippet": "When we deny our stories, they define us. When we own our stories, we get to write a brave new ending. I know this is true.",
+      "link": "https://brenebrown.com/articles/2015/06/18/own-our-history-change-the-story/",
+      "date": "Jun 18, 2015"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Our Stories",
+      "snippet": "Our StoriesCome view our passion for innovation, compassion for patients through stories about real Daiichi Sankyo global activities and people who embody the ...",
+      "link": "https://www.daiichisankyo.com/our_stories/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Courage to Share Our Stories!",
+      "snippet": "Courage to Share Our Stories! Readers of my Work+Life Fit Blog ... And if they do have flexibility, they don't want to talk about it.",
+      "link": "https://www.fastcompany.com/661075/courage-share-our-stories",
+      "date": "Oct 21, 2007"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Company Brand Video: Our Stories Lab",
+      "snippet": "A short introduction video can tell a lot about your company. Kudos to Our Stories Lab team for writing a great script for their own video ...",
+      "link": "https://www.youtube.com/watch?v=9k7j41wEIpY",
+      "date": "4 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Telling Our Stories",
+      "snippet": "This happens when we share our stories; we discover ourselves and others anew. Sources: Maggie O'Farrell, Hamnet, Kindle edition and Prime Video.",
+      "link": "https://www.franciscanpublishing.com/telling-our-stories/",
+      "date": "Apr 21, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Our Stories (To Tell)",
+      "snippet": "Our Stories (To Tell) is an experience design studio that strongly focuses on building digital products with an 'imperfect' process. At the core of Our ...",
+      "link": "https://sg.linkedin.com/company/our-stories-to-tell",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Best Employee Stories of 2023, Stories Inc",
+      "snippet": "Did you catch our Stories of the Year celebration in December? Visit our blog to see some of our favorite pieces of content we were a part ...",
+      "link": "https://www.linkedin.com/posts/stories-incorporated_best-employee-stories-of-2023-stories-inc-activity-7148327206463688704-9rqB",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Reframing our Stories",
+      "snippet": "About us ; Website: https://www.reframingourstories.com/. External link for Reframing our Stories ; Industry: Education ; Company size: 2-10 employees.",
+      "link": "https://www.linkedin.com/company/reframingourstories",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "How HR protects personal data and builds trust",
+      "snippet": "A few years ago, an employee once said to me, “I trust HR because you keep our stories safe.” That sentence has stayed with me.",
+      "link": "https://www.linkedin.com/posts/tamapo-gazangeni_a-few-years-ago-an-employee-once-said-to-activity-7381014222446604289-CoMZ",
+      "date": "11 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Our Stories Lab: Employee Directory",
+      "snippet": "Our Stories Lab corporate office is located in 22-1 Jln Radin Bagus 3, Kuala Lumpur, Kuala Lumpur, 57000, Malaysia and has 11-50 employees. our stories lab ...",
+      "link": "https://www.zoominfo.com/pic/our-stories-lab/547234653",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "How Stories can Transform Company Culture",
+      "snippet": "If you're part of a team, listen. Because when we share our stories, we don't just pass on lessons, we strengthen the culture that holds us together. …more.",
+      "link": "https://www.linkedin.com/top-content/organizational-culture/exploring-company-culture/how-stories-can-transform-company-culture/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Want to Share Our Stories? Here's How! - TSA",
+      "snippet": "Want to Share Our Stories? Here's How!",
+      "link": "https://www.tsa.gov/about/employee-stories/want-share-our-stories-heres-how",
+      "date": "May 19, 2021"
+    },
+    {
+      "asking_about": "size",
+      "title": "Inside LinkedIn's Culture of Belonging",
+      "snippet": "Number of Employees: 10,000+; Impact: 500 million registered ... An important part of creating a sense of belonging is sharing our stories.",
+      "link": "https://socapglobal.com/2017/06/inside-linkedins-culture-of-belonging/",
+      "date": "Jun 23, 2017"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "ProPhoenix, the public safety software company, was ...",
+      "snippet": "According to a report published on December 8 by cloud platform provider ... ” Creative Commons License REPUBLISH Our stories may be republished ...",
+      "link": "https://www.facebook.com/tallahasseedemocrat/posts/prophoenix-the-public-safety-software-company-was-recently-dropped-by-a-city-in-/1490903943076178/",
+      "date": "1 week ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Dear Brands, it's time to: OWN YOUR DATA. ...",
+      "snippet": "... our stories ... One platform to automate your client, team and client reports. Built to give every stakeholder the ...",
+      "link": "https://www.instagram.com/reel/DaiPr-TPVUC/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "George Sycip - COO Engineering | MBA",
+      "snippet": "Reverse Auctions, eSourcing tools, supplier development. Streamlined and automated workflows to enhance productivity and client/vendor satisfaction.",
+      "link": "https://www.linkedin.com/in/sycip",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "359 Best buyer Jobs in Phoenix, Arizona (July 2026)",
+      "snippet": "We take big swings, set ambitious goals, and challenge each other to make data- and process-driven decisions in everything we do. Here are a few of our stories!",
+      "link": "https://jobtoday.com/us/jobs-buyer/az_phoenix?locale=en-US",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "FY25 Arena S.p.A. Società Benefit IMPACT REPORT",
+      "snippet": "Our stories are different but the world we share is the same. Fiscal Year 2025 Arena S.p.A. Società Benefit. ADOPTION OF THE SOCIETÀ BENEFIT.",
+      "link": "https://about.arenasport.com/images/responsibility/Arena-FY25-Impact-Report.pdf",
+      "date": "Aug 10, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Program and Course Finder",
+      "snippet": "... Our Stories · Tuition Free. Info For... Accepted Students · High School Students ... Procurement & Purchasing Management. Degree Type: Continuing Education ...",
+      "link": "https://www.ccbcmd.edu/Programs-and-Courses-Finder/index.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "From New York Mayor Zohran Mamdani's new AI policy for ...",
+      "snippet": "✊ We need stronger protections that honour our stories, our IP and our tikanga in the AI age. via The Spinoff Links in our Highlights ...",
+      "link": "https://www.facebook.com/Reuters/posts/from-new-york-mayor-zohran-mamdanis-new-ai-policy-for-children-to-anthropics-cou/1660031849320874/",
+      "date": "1 week ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Stories, scale and impact: Unlocking India's media and ...",
+      "snippet": "We have talent, technology, and a global appetite for our stories. The next step is not only exporting content. It is building world-class ...",
+      "link": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/insights/media-entertainment/2026/03/ey-stories-scale-and-impact-un-locking-indias-media-and-entertainment-economy.pdf",
+      "date": "Mar 31, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "ProPhoenix, the public safety software company, was ...",
+      "snippet": "According to a report published on December 8 by cloud platform provider ... ” Creative Commons License REPUBLISH Our stories may be republished ...",
+      "link": "https://www.facebook.com/tallahasseedemocrat/posts/prophoenix-the-public-safety-software-company-was-recently-dropped-by-a-city-in-/1490903943076178/",
+      "date": "1 week ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Dear Brands, it's time to: OWN YOUR DATA. ...",
+      "snippet": "... our stories ... One platform to automate your client, team and client reports. Built to give every stakeholder the ...",
+      "link": "https://www.instagram.com/reel/DaiPr-TPVUC/",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "George Sycip - COO Engineering | MBA",
+      "snippet": "Reverse Auctions, eSourcing tools, supplier development. Streamlined and automated workflows to enhance productivity and client/vendor satisfaction.",
+      "link": "https://www.linkedin.com/in/sycip",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "359 Best buyer Jobs in Phoenix, Arizona (July 2026)",
+      "snippet": "We take big swings, set ambitious goals, and challenge each other to make data- and process-driven decisions in everything we do. Here are a few of our stories!",
+      "link": "https://jobtoday.com/us/jobs-buyer/az_phoenix?locale=en-US",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "FY25 Arena S.p.A. Società Benefit IMPACT REPORT",
+      "snippet": "Our stories are different but the world we share is the same. Fiscal Year 2025 Arena S.p.A. Società Benefit. ADOPTION OF THE SOCIETÀ BENEFIT.",
+      "link": "https://about.arenasport.com/images/responsibility/Arena-FY25-Impact-Report.pdf",
+      "date": "Aug 10, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Program and Course Finder",
+      "snippet": "... Our Stories · Tuition Free. Info For... Accepted Students · High School Students ... Procurement & Purchasing Management. Degree Type: Continuing Education ...",
+      "link": "https://www.ccbcmd.edu/Programs-and-Courses-Finder/index.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "From New York Mayor Zohran Mamdani's new AI policy for ...",
+      "snippet": "✊ We need stronger protections that honour our stories, our IP and our tikanga in the AI age. via The Spinoff Links in our Highlights ...",
+      "link": "https://www.facebook.com/Reuters/posts/from-new-york-mayor-zohran-mamdanis-new-ai-policy-for-children-to-anthropics-cou/1660031849320874/",
+      "date": "1 week ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Stories, scale and impact: Unlocking India's media and ...",
+      "snippet": "We have talent, technology, and a global appetite for our stories. The next step is not only exporting content. It is building world-class ...",
+      "link": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/insights/media-entertainment/2026/03/ey-stories-scale-and-impact-un-locking-indias-media-and-entertainment-economy.pdf",
+      "date": "Mar 31, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "IBM Case Studies",
+      "snippet": "Read the Migrato story , Explore our stories , ... IBM becomes data driven and client-first when IBM Consulting uses Adobe Experience Cloud to optimize people, ...",
+      "link": "https://www.ibm.com/case-studies",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Nestlé Advances with Landmark Digital Core Upgrade",
+      "snippet": "Our stories. Close Menu Button Back. Girl giving high five. Go to Our ... Nestlé's SAP Enterprise Resource Planning (ERP) software ...",
+      "link": "https://www.nestle.com/media/news/digital-core-sap-s4hana-cloud-upgrade",
+      "date": "Oct 23, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Senior Buyer Job, Procurement (IT) at Carvana - Tempe, AZ",
+      "snippet": "We take big swings, set ambitious goals, and challenge each other to make data- and process-driven decisions in everything we do. Here are a few of our stories!",
+      "link": "https://www.sonara.ai/job-details/senior-buyer-at-carvana-c23f3b15-6047-f043-9e6b-60ca1f60b4bb",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "We're excited to be at SAP 's Dallas offices today for our hands-on ...",
+      "snippet": "... case study to helping participants understand how Document AI can be ... Read more at the link in our stories! Will businesses trust ...",
+      "link": "https://www.instagram.com/p/DYh2N7EIHnj/",
+      "date": "May 19, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Senior Manager, Digital and AI Services in Rosemead, CA, US",
+      "snippet": "Materializes outcomes for department strategies, visions, and objectives and turn them into effectively implemented tactical plans. ... our Stories ...",
+      "link": "https://www.edisoncareers.com/job/23582276/senior-manager-digital-and-ai-services/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Where Innovation Meets Scale: An Update on McDonald's Digital ...",
+      "snippet": "View Our Stories · Our Stories · Press Releases · Media Assets Library ... Restaurant Platform. Edge, our computing platform developed with ...",
+      "link": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/digitizing-the-arches.html",
+      "date": "Aug 14, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Quick View: Has AI really eaten software? - Janus Henderson",
+      "snippet": "We provide access to some of the industry's most talented and innovative thinkers. Meet our teams Hear our stories. The Brighter Future ...",
+      "link": "https://www.janushenderson.com/corporate/article/quick-view-has-ai-really-eaten-software/",
+      "date": "Feb 4, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Our Case Study - DevOps - Artjoker",
+      "snippet": "... OUR STORIES · CASES · HOW TO · STARTUPS · INSIDE TECHNOLOGY. Featured post image Best AI Tools for Mobile App Development · Company. arrow left. Blog. Partner ...",
+      "link": "https://artjoker.net/case-studies/devops/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Career Areas - Finance, Marketing, IT | Nestlé - Nestle IN",
+      "snippet": "Find the part of Nestlé that serves you best! Career Areas - Administrative, Communications, Engineering, Finance, Human resources, IT and more.",
+      "link": "https://www.nestle.in/jobs/career-area",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Nestlé Careers: Opportunities For Students & Graduates - Nestle IN",
+      "snippet": "Find out about early careers at Nestlé, from graduate programs and internships, to our initiatives to help young people start their careers.",
+      "link": "https://www.nestle.in/jobs/students-graduates",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Nestlé Research & Development Careers",
+      "snippet": "Get a list of jobs in research and development. from scientists and engineers to regulatory experts and culinary chefs – are key to our success.",
+      "link": "https://www.nestle.in/jobs/career-area/research-development",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Nestlé Jobs And Vacancies | Nestle Careers | Join Us Now",
+      "snippet": "Explore diverse Nestle career opportunities in India. Join a global team and discover fulfilling jobs in the food and beverage industry. To know More!",
+      "link": "https://www.nestle.in/jobs",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search for jobs | Nestlé Global - Nestle IN",
+      "snippet": "We have hundreds of jobs at Nestlé worldwide. Search our current opportunities to find the one that's right for you.",
+      "link": "https://www.nestle.in/jobs/search-jobs",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Caring about our people and communities | Nestlé Global",
+      "snippet": "Whether you have years of work experience or you just graduated, there's a job opportunity for you at Nestlé. Search for jobs here.",
+      "link": "https://www.nestle.in/csv/communities/global-youth-initiative-nestle-needs-youth",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Nestlé Supply Chain & Procurement Careers - Nestle IN",
+      "snippet": "We offer rewarding supply chain careers at Nestlé, in customer supply chain, demand and supply planning, procurement and logistics.",
+      "link": "https://www.nestle.in/jobs/career-area/supply-chain-procurement",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers & Job Opportunities | Nestlé IN",
+      "snippet": "As the world's largest food and beverage company, Nestlé has plenty of opportunities for you to make an impact through the work you do in a truly global ...",
+      "link": "https://www.nestle.in/careers2",
+      "date": ""
+    }
+  ]
+}

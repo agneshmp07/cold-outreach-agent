@@ -27,6 +27,7 @@ TARGETS = BASE / "targets"
 MESSAGES = BASE / "messages"
 FIT = BASE / "fit"
 CONTACTS = BASE / "contacts"
+BATCH = BASE / "batch"
 
 st.set_page_config(page_title="Cold Outreach Agent", layout="centered")
 
@@ -72,6 +73,65 @@ st.markdown("""
   .body { white-space: pre-wrap; line-height: 1.7; color: #C8C8D0; }
   .meta { font-size: .72rem; color: #5E5E68; margin-top: 1rem;
           padding-top: .8rem; border-top: 1px solid #1F1F27; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); }
+                    to   { opacity: 1; transform: translateY(0); } }
+  @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes sweep { 0% { background-position: -200% 0; }
+                     100% { background-position: 200% 0; } }
+
+  .msg { animation: rise .45s ease-out both; }
+  .msg:nth-of-type(2) { animation-delay: .07s; }
+  .msg:nth-of-type(3) { animation-delay: .14s; }
+  .row { animation: rise .35s ease-out both; }
+
+  /* the live checklist while the pipeline runs */
+  .steps { background: #131317; border: 1px solid #22222A; border-radius: 12px;
+           padding: 1.1rem 1.3rem; margin-bottom: 1rem; }
+  .stepline { display: flex; align-items: center; gap: .7rem;
+              padding: .38rem 0; font-size: .93rem; }
+  .dot { width: 16px; height: 16px; border-radius: 50%; flex: 0 0 16px;
+         position: relative; }
+  .dot.done { background: #4ADE80; }
+  .dot.done::after { content: ""; position: absolute; left: 5px; top: 2px;
+                     width: 4px; height: 8px; border: solid #0B0B0F;
+                     border-width: 0 2px 2px 0; transform: rotate(45deg); }
+  .dot.now { border: 2px solid #E8674C; border-top-color: transparent;
+             animation: spin .7s linear infinite; }
+  .dot.wait { background: #26262E; }
+  .stepline.done .label { color: #6E6E76; }
+  .stepline.now .label { color: #EDEDED; font-weight: 600; }
+  .stepline.wait .label { color: #45454E; }
+  .stepline.now .label::after { content: ""; display: inline-block;
+        width: 5em; height: .7em; margin-left: .6em; border-radius: 3px;
+        background: linear-gradient(90deg, #22222A, #E8674C, #22222A);
+        background-size: 200% 100%; animation: sweep 1.4s linear infinite;
+        opacity: .5; vertical-align: middle; }
+  .steps-title { font-size: .68rem; letter-spacing: .14em; color: #6E6E76;
+                 text-transform: uppercase; margin-bottom: .6rem; }
+
+  .sc { font-size: .66rem; font-weight: 700; padding: .16rem .5rem;
+        border-radius: 20px; margin-left: .5rem; white-space: nowrap; }
+  .sc-hi { color: #4ADE80; background: rgba(74,222,128,.1);
+           border: 1px solid rgba(74,222,128,.25); }
+  .sc-mid{ color: #E8B34C; background: rgba(232,179,76,.1);
+           border: 1px solid rgba(232,179,76,.25); }
+  .sc-lo { color: #F87171; background: rgba(248,113,113,.1);
+           border: 1px solid rgba(248,113,113,.25); }
+  .note { font-size: .74rem; color: #8C8C94; margin-top: .5rem;
+          padding-left: .7rem; border-left: 2px solid #2A2A33; }
+
+  .pill { font-size: .64rem; letter-spacing: .1em; text-transform: uppercase;
+          padding: .16rem .5rem; border-radius: 20px; font-weight: 600;
+          white-space: nowrap; }
+  .p-ready { color: #4ADE80; background: rgba(74,222,128,.09);
+             border: 1px solid rgba(74,222,128,.22); }
+  .p-soft  { color: #E8B34C; background: rgba(232,179,76,.09);
+             border: 1px solid rgba(232,179,76,.22); }
+  .p-stop  { color: #F87171; background: rgba(248,113,113,.09);
+             border: 1px solid rgba(248,113,113,.22); }
+  .p-none  { color: #6E6E76; background: #17171C; border: 1px solid #26262E; }
+
   .stop { color: #F87171; font-size: .8rem; margin-top: .8rem;
           padding: .55rem .8rem; border-radius: 8px;
           background: rgba(248,113,113,.07);
@@ -86,6 +146,28 @@ st.markdown('<div class="sub">Type your company. Get the people worth writing '
 state = st.session_state
 state.setdefault("client", None)
 state.setdefault("target", None)
+
+
+def render_steps(slot, labels, current, done_count):
+    """
+    Show the pipeline as a live checklist rather than one long spinner.
+
+    Ninety seconds behind a single spinner feels broken. The same ninety
+    seconds with ticks appearing feels like progress, and when something hangs
+    you can see which step it hung on.
+    """
+    rows = []
+    for i, label in enumerate(labels):
+        if i < done_count:
+            state, dot = "done", "done"
+        elif i == current:
+            state, dot = "now", "now"
+        else:
+            state, dot = "wait", "wait"
+        rows.append(f'<div class="stepline {state}"><span class="dot {dot}">'
+                    f'</span><span class="label">{esc(label)}</span></div>')
+    slot.markdown(f'<div class="steps"><div class="steps-title">Working</div>'
+                  f'{"".join(rows)}</div>', unsafe_allow_html=True)
 
 
 def load_client(slug):
@@ -206,6 +288,57 @@ if cand_path.exists():
     except Exception:
         cand_meta, candidates = {}, []
 
+PILL = {"ready": "p-ready", "written, no hook": "p-soft",
+        "unclear fit": "p-soft", "poor fit": "p-soft",
+        "do not send": "p-stop", "nothing written": "p-none",
+        "skipped": "p-none"}
+
+
+def latest_batch(client_slug):
+    """The most recent overnight run for this client, if there is one."""
+    if not BATCH.exists():
+        return None
+    runs = sorted(BATCH.glob(f"{client_slug}-*.json"), reverse=True)
+    for path in runs:
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+    return None
+
+
+batch = latest_batch(state.client)
+if batch and batch.get("rows"):
+    when = str(batch.get("started", ""))[:16].replace("T", " ")
+    with st.expander(f"Overnight run · {batch.get('ready', 0)} ready "
+                     f"of {len(batch['rows'])} · {when}", expanded=True):
+        st.caption("Sorted by how worth reading each one is. Run more with "
+                   f"`python batch.py {state.client} --limit 10 --contacts`")
+        for i, row in enumerate(batch["rows"]):
+            if row.get("outcome") in ("nothing written", "skipped"):
+                continue
+            left, right = st.columns([4, 1])
+            with left:
+                bits = []
+                if row.get("score"):
+                    bits.append(f"trigger {row['score']}/10")
+                if row.get("contacts"):
+                    bits.append(f"{row['contacts']} contact(s)")
+                if row.get("detail"):
+                    bits.append(row["detail"][:110])
+                st.markdown(
+                    f'<div class="row"><div class="row-name">'
+                    f'{esc(row.get("company", ""))} '
+                    f'<span class="pill {PILL.get(row.get("outcome"), "p-none")}">'
+                    f'{esc(row.get("outcome", ""))}</span></div>'
+                    f'<div class="row-sub">{esc(" · ".join(bits))}</div></div>',
+                    unsafe_allow_html=True)
+            with right:
+                if row.get("domain") and st.button("Read", key=f"batch{i}",
+                                                   use_container_width=True):
+                    state.target = row["domain"]
+                    st.rerun()
+
 col1, col2 = st.columns([3, 1])
 with col1:
     manual = st.text_input("Company to write to", placeholder="e.g. Infosys",
@@ -307,9 +440,13 @@ if data is None:
              ("Writing the messages", "generate.py",
               [state.client, target_domain])]
 
-    for label, script, args in steps:
-        with st.spinner(label):
-            result = run(script, *args)
+    labels = [s[0] for s in steps]
+    slot = st.empty()
+
+    for index, (label, script, args) in enumerate(steps):
+        render_steps(slot, labels, index, index)
+        result = run(script, *args)
+        render_steps(slot, labels, index + 1, index + 1)
 
         if script == "check_fit.py" and result.returncode in (1, 2):
             fit_path = FIT / f"{target_domain}.json"
@@ -382,8 +519,11 @@ if data is None:
                         st.code(err)
             else:
                 fail(f"{label} failed.", result)
+            slot.empty()
             state.target = None
             st.stop()
+
+    slot.empty()
 
     try:
         data = json.loads(msg_path.read_text(encoding="utf-8"))
@@ -467,10 +607,20 @@ def show(angle, subject, body, meta, message):
     subj = f'<div class="subject">{esc(subject)}</div>' if subject else ""
     stop_html = "".join(f'<div class="stop">Do not send — {esc(s)}</div>'
                         for s in stops)
+
+    score = message.get("score")
+    badge = ""
+    if score is not None:
+        klass = "sc-hi" if score >= 75 else ("sc-mid" if score >= 55 else "sc-lo")
+        badge = f'<span class="sc {klass}">{score}/100</span>'
+
+    notes = "".join(f'<div class="note">{esc(n)}</div>'
+                    for n in (message.get("score_notes") or []))
+
     st.markdown(
         f'<div class="msg{" blocked" if stops else ""}">'
-        f'<span class="angle">{esc(angle)}</span>{subj}'
-        f'<div class="body">{esc(body)}</div>{stop_html}'
+        f'<span class="angle">{esc(angle)}</span>{badge}{subj}'
+        f'<div class="body">{esc(body)}</div>{stop_html}{notes}'
         f'<div class="meta">{esc(meta)}</div></div>', unsafe_allow_html=True)
 
 
@@ -483,6 +633,97 @@ with tab2:
     for m in data.get("linkedin_messages") or []:
         show(m.get("angle", ""), "", m.get("text", ""),
              f"{m.get('char_count', 0)} characters · {m.get('trigger_link', '')}", m)
+
+if data.get("score") is not None:
+    st.caption(f"These drafts score **{data['score']}/100** "
+               f"({data.get('score_band', '')}). The score is a prediction, not "
+               f"a verdict - log what actually happens below and it becomes "
+               f"checkable.")
+
+# --- what you sent, and what came back -------------------------------------
+LOG = BASE / "sent.jsonl"
+
+
+def log_event(event):
+    with LOG.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(event, ensure_ascii=False) + "\n")
+
+
+def events_for(domain):
+    if not LOG.exists():
+        return []
+    out = []
+    for line in LOG.read_text(encoding="utf-8").splitlines():
+        try:
+            row = json.loads(line)
+        except Exception:
+            continue
+        if row.get("domain") == domain:
+            out.append(row)
+    return out
+
+
+history = events_for(target_domain)
+already_sent = [e for e in history if e.get("type") == "sent"]
+replies = [e for e in history if e.get("type") == "reply"]
+
+with st.expander("Log what you sent" + (f" · {len(already_sent)} sent"
+                                        if already_sent else ""),
+                 expanded=not already_sent):
+    st.caption("Every guess in this tool stays a guess until this has rows in "
+               "it. Ten sends and patterns start to show.")
+
+    angles = [e.get("angle", "") for e in (data.get("emails") or [])]
+    col1, col2 = st.columns(2)
+    with col1:
+        which = st.selectbox("Which one did you send?", angles or ["-"],
+                             key="sent_angle")
+    with col2:
+        to_whom = st.text_input("To whom", key="sent_to",
+                                placeholder="name or email")
+
+    if st.button("Log it as sent", use_container_width=True):
+        picked = next((m for m in (data.get("emails") or [])
+                       if m.get("angle") == which), {})
+        log_event({"type": "sent",
+                   "at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                   "client": data.get("client", ""),
+                   "client_domain": data.get("client_domain", ""),
+                   "domain": target_domain,
+                   "company": data.get("company_name", target_domain),
+                   "angle": which, "to": to_whom, "channel": "email",
+                   "score": picked.get("score"),
+                   "grounded": bool(picked.get("grounded")),
+                   "top_trigger": (data.get("generated_from") or {}).get("top_score", 0),
+                   "no_trigger": bool(data.get("no_trigger"))})
+        st.rerun()
+
+    for e in already_sent:
+        st.caption(f"{e['at'][:10]} · {e.get('angle', '')} · "
+                   f"scored {e.get('score', '-')}/100"
+                   + (f" · to {e['to']}" if e.get("to") else ""))
+
+    if already_sent:
+        st.divider()
+        col3, col4 = st.columns([1, 2])
+        with col3:
+            kind = st.selectbox("Reply?", ["positive", "neutral", "negative",
+                                           "bounced", "none"], key="reply_kind")
+        with col4:
+            note = st.text_input("What did they say", key="reply_note")
+        if st.button("Log the reply", use_container_width=True):
+            last = already_sent[-1]
+            log_event({"type": "reply",
+                       "at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                       "domain": target_domain, "kind": kind, "note": note,
+                       "angle": last.get("angle", ""),
+                       "score": last.get("score"),
+                       "top_trigger": last.get("top_trigger")})
+            st.rerun()
+
+    for e in replies:
+        st.caption(f"{e['at'][:10]} · reply: **{e.get('kind', '')}**"
+                   + (f" — {e['note']}" if e.get("note") else ""))
 
 warnings = data.get("warnings") or []
 if warnings:

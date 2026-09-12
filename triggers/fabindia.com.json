@@ -1,0 +1,18 @@
+{
+  "company_name": "Fabindia",
+  "triggers": [
+    {
+      "fact": "Fabindia launched a new premium western wear sub-brand named 'Fabels' in July 2026 to expand beyond ethnic wear and drive global retail growth.",
+      "source_page": "https://infashionbusiness.com/home/news_details/8103/11",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Fabindia announced plans in November 2025 to scale its retail presence in Tier II and Tier III markets alongside global expansion efforts.",
+      "source_page": "https://www.indianretailer.com/article/retail-business/retail/fabindia-plans-scale-presence-tier-ii-tier-iii-markets-eyes-global",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As Fabindia launches new product categories like Fabels and targets global growth, scaling marketplace distribution and cross-border fulfillment outside its core ethnic store footprint presents an operational challenge.",
+  "no_trigger_found": false
+}

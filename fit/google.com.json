@@ -1,0 +1,380 @@
+{
+  "domain": "google.com",
+  "client": "JumpCloud",
+  "client_domain": "jumpcloud.com",
+  "checked_against": "icp-jumpcloud.com.md",
+  "result": {
+    "company_name": "YouTube Music",
+    "what_they_do": "YouTube Music is a music streaming service operated by Google-owned video platform YouTube [5, 6].",
+    "size": {
+      "estimate": "51-200 employees listed for the specific product unit, though it is part of Google/YouTube which employs thousands globally [12, 13]",
+      "evidence": "[12, 13]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Consumer Digital Media / Music Streaming Platform",
+      "in_icp": false,
+      "why": "YouTube Music is a consumer-facing streaming service operate as a division of Google [5, 6], rather than an independent SMB company (20-1,000 employees) looking for an IT cloud directory solution.",
+      "status": "ASSERTED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None found",
+      "evidence": "N/A",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None found",
+      "evidence": "N/A",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Part of an enterprise organization (Google) with internal global infrastructure rather than an independent SMB company."
+    ],
+    "verdict": "SKIP",
+    "reason": "YouTube Music is a consumer music streaming service operated by YouTube/Google [5, 6]. As a product unit of a massive enterprise corporation, it does not fit the SMB profile (20-1,000 employees) and does not independently procure SMB IT directory or device management tools.",
+    "could_not_find": [
+      "Exact IT infrastructure and device management tools used internally by the YouTube Music team.",
+      "Standalone IT purchasing authority independent of Google corporate IT."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "YouTube Music",
+      "snippet": "With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live performances, covers, ...",
+      "link": "https://music.youtube.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What does YouTube Music do better than any other streaming service?",
+      "snippet": "",
+      "link": "https://www.reddit.com/r/YoutubeMusic/comments/1v0c6q2/what_does_youtube_music_do_better_than_any_other/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "How does YouTube music work and contribute to chart points ...",
+      "snippet": "",
+      "link": "https://www.facebook.com/groups/1160175684381816/posts/2192130304519677/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What is YouTube music?",
+      "snippet": "",
+      "link": "https://www.quora.com/What-is-YouTube-music",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "YouTube Music",
+      "snippet": "YouTube Music is a music streaming service operated by Google-owned video platform YouTube. YouTube Music offers two different versions, including an ...",
+      "link": "https://www.musicbusinessworldwide.com/companies/youtube/youtube-music/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "YouTube Music",
+      "snippet": "YouTube Music is a music streaming service developed by the American video platform YouTube, a subsidiary of Google. The service is designed with an ...",
+      "link": "https://en.wikipedia.org/wiki/YouTube_Music",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "YouTube Music",
+      "snippet": "Discover artists from Foundry, YouTube Music's global artist development program for independent music. · SOFFIE - Ich hoffe du hast Angst (Offizielles ...",
+      "link": "https://www.youtube.com/channel/UCStaiwu-FAgp_RC_tBiLh9A",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Why do you use YouTube Music? : r/YoutubeMusic",
+      "snippet": "I would like to know the reasons why you use YTM.\n\nWhat are the pros and cons compared to Spotify and Apple Music?\n\nThe reason I am asking is that I have ...",
+      "link": "https://support.google.com/youtubemusic/answer/6313529?hl=en",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Matt McLernon - Artist Engagement Lead at YouTube",
+      "snippet": "Artist Engagement Lead at YouTube · Music life - Chapter 2 I'm on the artist relations team at YouTube, helping artists grow their audiences and careers ...",
+      "link": "https://www.linkedin.com/in/mmclernon",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Maddy Smith - Artist Relations Manager at YouTube Music",
+      "snippet": "Maddy Smith. Artist Relations Manager at YouTube Music. YouTube University of Bristol. London, England, United Kingdom.",
+      "link": "https://uk.linkedin.com/in/maddy-smith-31ba4829",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Lisa Taber - YouTube Music + Premium Marketing",
+      "snippet": "YouTube Music + Premium Marketing · Experience: YouTube · Location: New York City Metropolitan Area · 500+ connections on LinkedIn.",
+      "link": "https://www.linkedin.com/in/lisa-taber-5a323827",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "How Many People Work At YouTube 2026",
+      "snippet": "Over 100 million subscribers combined across YouTube Premium and YouTube Music. Women make up 37% of YouTube's workforce, men 63%. White ...",
+      "link": "https://sqmagazine.co.uk/how-many-people-work-at-youtube/",
+      "date": "Sep 17, 2025"
+    },
+    {
+      "asking_about": "size",
+      "title": "YouTube Music: Employee Directory",
+      "snippet": "How many employees does YouTube Music have? YouTube Music has 51-200 employees. Sign Up For FreeTo access detailed employee insights. Who are ...",
+      "link": "https://www.zoominfo.com/pic/youtube-music/1238445824",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Mike Chiavaro - Manager, Music Content Operations ...",
+      "snippet": "I lead a dynamic team of six full-time employees and an extensive extended workforce of over 100 professionals. ... YouTube's Music Products. My role as a subject ...",
+      "link": "https://www.linkedin.com/in/mike-chiavaro",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Melanie McClain - Content Strategy & Editorial ...",
+      "snippet": "My work directly drives YouTube Music growth and Shorts adoption, including leading Weekly Shorts Support programming that generated 10M+ Shorts creations and a ...",
+      "link": "https://www.linkedin.com/in/melanie-n-mcclain",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Work Diaries: Diny Chen, Engineering Program Manager ...",
+      "snippet": "Featured today: Diny Chen is a YouTube Music engineering program manager who, with her team, brings YouTube Music to smart devices such as cars, ...",
+      "link": "https://blog.youtube/inside-youtube/work-diaries-diny-chen-youtube-music/",
+      "date": "Jun 26, 2024"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Jamf vs Iru: Vinyl vs Streaming in Apple MDM",
+      "snippet": "3) Platform, not point product: Iru extends beyond classic MDM to unify ... YouTube Music or Spotify actually work behind the scenes. For Day 1 ...",
+      "link": "https://www.linkedin.com/posts/mike-wheadon-0b595438_the-apple-mdm-industry-is-a-lot-like-comparing-activity-7420108764747317248-7SsF",
+      "date": "7 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Identity Platform Comparison 2026 Guide - M365 FM Podcast",
+      "snippet": "Youtube Music podcast player icon Youtube Music · Spreaker podcast ... Best forIT teams seeking device management, unified SSO, and app access ...",
+      "link": "https://www.m365.fm/blog/identity-platform-comparison-2026-guide-for-microsoft-and-beyond/",
+      "date": "Apr 29, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "YouTube",
+      "snippet": "... YouTube Music, with limits based on daily activity (verification via phone number or channel history increases feature availability and daily usage limits); ...",
+      "link": "https://en.wikipedia.org/wiki/YouTube",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Are there any music platforms which make you immediately ...",
+      "snippet": "ISound Cloud is a stand alone platform ... Permanence and Control When music is streamed through platforms like Spotify or YouTube Music, ...",
+      "link": "https://www.facebook.com/groups/cheekyfest/posts/24919888657696039/",
+      "date": "10 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Homebrew Cask",
+      "snippet": "Identity and access management, Okta Advanced Server Access. okta-verify ... YouTube music client, YouTube Music Desktop App. yuanbao, 2.84.1.621,d17305 ...",
+      "link": "https://formulae.brew.sh/cask/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Nuclear – Popcorn Time for music",
+      "snippet": "Apple Music, Amazon Music, Google Play Music, YouTube Music ... I used Google Music until recently, just to unify the cloud library with my ...",
+      "link": "https://news.ycombinator.com/item?id=18921296",
+      "date": "Jan 16, 2019"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "VA Category Mapping Report",
+      "snippet": "YouTube Music Desktop (YTMDesktop) Technology icon, Collaboration and ... Identity and Access Management, Identity Management. Windsor Probe Technology icon ...",
+      "link": "https://www.oit.va.gov/Services/TRM/ReportVACategoryMapping.aspx?orderby=EntryName&sortOrder=DESC&lastOrderBy=tool_Name",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Custom Channels vs. YouTube Music Comparison",
+      "snippet": "Compare Custom Channels vs. YouTube Music using this comparison chart. Compare price, features, and reviews of the software side-by-side to make the best ...",
+      "link": "https://sourceforge.net/software/compare/Custom-Channels-vs-YouTube-Music/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Jamf vs Iru: Vinyl vs Streaming in Apple MDM",
+      "snippet": "3) Platform, not point product: Iru extends beyond classic MDM to unify ... YouTube Music or Spotify actually work behind the scenes. For Day 1 ...",
+      "link": "https://www.linkedin.com/posts/mike-wheadon-0b595438_the-apple-mdm-industry-is-a-lot-like-comparing-activity-7420108764747317248-7SsF",
+      "date": "7 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "What Is Hybrid Identity Guide - M365 FM Podcast",
+      "snippet": "Youtube Music podcast player icon Youtube Music · Spreaker podcast ... Simplified Management: Unify on-premises and cloud identity operations with ...",
+      "link": "https://www.m365.fm/blog/what-is-hybrid-identity-microsoft-entra-and-modern-identity-management-explained/",
+      "date": "Apr 29, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Are there any music platforms which make you immediately ...",
+      "snippet": "ISound Cloud is a stand alone platform ... Permanence and Control When music is streamed through platforms like Spotify or YouTube Music, ...",
+      "link": "https://www.facebook.com/groups/cheekyfest/posts/24919888657696039/",
+      "date": "10 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "YouTube",
+      "snippet": "... YouTube Music, with limits based on daily activity (verification via phone number or channel history increases feature availability and daily usage limits); ...",
+      "link": "https://en.wikipedia.org/wiki/YouTube",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Custom Channels vs. YouTube Music Comparison",
+      "snippet": "Compare Custom Channels vs. YouTube Music using this comparison chart. Compare price, features, and reviews of the software side-by-side to make the best ...",
+      "link": "https://sourceforge.net/software/compare/Custom-Channels-vs-YouTube-Music/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Homebrew Cask",
+      "snippet": "Identity and access management, Okta Advanced Server Access. okta-verify ... YouTube music client, YouTube Music Desktop App. yuanbao, 2.84.1.621,d17305 ...",
+      "link": "https://formulae.brew.sh/cask/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Introducing CODE OS!  Your catalog. Your growth. ...",
+      "snippet": "... YouTube Music, artist growth, music marketing, music industry, new ... The future of music release management isn't another folder.",
+      "link": "https://www.instagram.com/reel/Dctu4OSv0V8/",
+      "date": "1 week ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Nuclear – Popcorn Time for music",
+      "snippet": "Apple Music, Amazon Music, Google Play Music, YouTube Music ... I used Google Music until recently, just to unify the cloud library with my ...",
+      "link": "https://news.ycombinator.com/item?id=18921296",
+      "date": "Jan 16, 2019"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "UI/ UX Case Study: YouTube Music Redesign | by manying - Medium",
+      "snippet": "UI/ UX Case Study: YouTube Music Redesign · 1. Understanding the basic info and insight about the app · 2. Generate some interview questions · 3.",
+      "link": "https://medium.com/@yapmanying36/ui-ux-case-study-youtube-music-be0fe66eafb3",
+      "date": "Sep 18, 2023"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Why Your Cloud Migration is Killing Your AI Strategy - YouTube Music",
+      "snippet": "With the YouTube Music app, enjoy over 100 million songs at ... case study on the financial costs of premature cloud adoption The ...",
+      "link": "https://music.youtube.com/podcast/d--SHe36WVE",
+      "date": "Nov 15, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Microsoft Graph Automation Architecture Beyond Scripts",
+      "snippet": "Youtube Music podcast player icon Youtube Music ... Uses Microsoft Identity Platform, OAuth 2.0, and OpenID Connect for secure access. ... You might set up a ...",
+      "link": "https://www.m365.fm/beyond-the-script-the-architects-guide-to-microsoft-graph-platforms/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Windows ARM software | ‎Home",
+      "snippet": "Play your favorite songs, podcasts and albums on Windows with Spotify. Pear Desktop logo. Pear Desktop. Open-source, ultimate YouTube music player ...",
+      "link": "https://armrepo.ver.lt/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Creator Economy Blog | Music & Podcast Tips - Disctopia",
+      "snippet": "Keep your catalog on Bandcamp, SoundCloud, Spotify, Apple Music, and YouTube Music, and choose which individual releases to make Disctopia-exclusive.",
+      "link": "https://disctopia.com/insights",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "GitHub - ratatui/awesome-ratatui: A curated list of TUI apps and ...",
+      "snippet": "ytmusic-tui - TUI client for YouTube Music with vim-style keybindings, spotify-player-inspired navigation, and MPRIS2 support. ytsub - A subscriptions only TUI ...",
+      "link": "https://github.com/ratatui/awesome-ratatui",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Your music app connects to 12 streaming services. Each one returns ...",
+      "snippet": "One integration gives you Spotify, Apple Music, YouTube Music, and 9+ more. Our new step-by-step tutorial covers: → Auth setup (one flow for ...",
+      "link": "https://www.instagram.com/p/Dbs59T1gKUd/",
+      "date": "Aug 6, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Download Accelerator Plus (DAP) vs. YouTube Music Comparison",
+      "snippet": "Compare Download Accelerator Plus (DAP) vs. YouTube Music using this comparison chart. Compare price, features, and reviews of the software side-by-side to ...",
+      "link": "https://sourceforge.net/software/compare/Download-Accelerator-Plus-DAP-vs-YouTube-Music/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search for your career at Google.",
+      "snippet": "Join Google Careers and build what's next, today. Explore career opportunities in engineering, design, sales, hardware, and more. Make a global impact with ...",
+      "link": "https://www.google.com/about/careers/applications/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Job Search on Google - Get Your Job Postings on Google Today",
+      "snippet": "Google brings together job postings from across the web. Have your job postings found by millions of job seekers who search on Google every day.",
+      "link": "https://jobs.google.com/about/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Wyoming Administration & Information - For Job Seekers",
+      "snippet": "The State of Wyoming offers a multitude of career opportunities across more than 20 different agencies in locations throughout the state. Explore Job Openings",
+      "link": "https://sites.google.com/wyo.gov/a-i/for-job-seekers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Build for Everyone - Google Careers",
+      "snippet": "Build for Everyone - Google Careers JavaScript must be enabled in order for you to use Google Careers. To view the site, please enable JavaScript",
+      "link": "https://careers.google.com/locations/san-diego/?embed=true&hl=en_US",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Hutto ISD Talent Management and Personnel Support - Careers",
+      "snippet": "Hutto ISD has transitioned to a new hiring platform—Frontline Education! explore opportunities and apply for open positions with us. Phone: 737-327-5192",
+      "link": "https://sites.google.com/huttoisd.net/humanresources/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Find Available Network Operations & Sales Jobs at GFiber",
+      "snippet": "Explore Network Operations, Sales, and Technician roles at GFiber. Build your career delivering fast, reliable broadband.",
+      "link": "https://fiber.google.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers – Google Data Centers",
+      "snippet": "Explore how Google supports workforce development and careers to help guide the next step in our data center future.",
+      "link": "https://www.google.com/about/datacenters/life/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Google Careers Help",
+      "snippet": "Official Google Careers Help Center where you can find tips and tutorials on using Google Careers and other answers to frequently asked questions.",
+      "link": "https://support.google.com/googlecareers/?hl=en",
+      "date": ""
+    }
+  ]
+}

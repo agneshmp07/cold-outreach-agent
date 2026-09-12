@@ -1,0 +1,18 @@
+{
+  "company_name": "L&T Technology Services",
+  "triggers": [
+    {
+      "fact": "Smartworks expanded its partnership with L&T Technology Services by adding over 1,100 seats in Pune.",
+      "source_page": "https://mediabrief.com/smartworks-expands-ltts-partnership/",
+      "relevance_score": 7
+    },
+    {
+      "fact": "LTTS is reshaping its workforce structure and hiring strategy to adapt to AI-led engineering.",
+      "source_page": "https://www.moneycontrol.com/news/business/information-technology/from-pyramid-to-eiffel-tower-ltts-reshapes-workforce-for-ai-led-engineering-ceo-chadha-13899939.html",
+      "relevance_score": 6
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As LTTS expands its regional office footprint with 1,100 new seats and reshapes its talent structure for AI engineering, the HR and leadership teams face increased complexity in manually driving employee engagement, recognition, and performance incentives across growing teams.",
+  "no_trigger_found": false
+}

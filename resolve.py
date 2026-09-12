@@ -114,6 +114,50 @@ def _search(name, api_key):
         return {}
 
 
+def _squash(text):
+    return re.sub(r"[^a-z0-9]", "", str(text or "").lower())
+
+
+LEGAL_SUFFIXES = ("ltd", "limited", "inc", "llc", "llp", "plc", "pvt",
+                  "private", "corp", "corporation", "company", "co", "group",
+                  "technologies", "technology", "solutions", "software",
+                  "systems", "services", "labs", "global", "india")
+
+
+def _core(name):
+    """The distinctive part of a company name, with legal furniture stripped."""
+    words = [w for w in re.split(r"\W+", str(name or "").lower()) if w]
+    kept = [w for w in words if w not in LEGAL_SUFFIXES]
+    return "".join(kept or words)
+
+
+def belongs_to(name, domain, title=""):
+    """
+    Does this domain really belong to the company we searched for?
+
+    Without this check the resolver returns the first plausible domain and moves
+    on, which has produced: a business school resolving to a school district, a
+    hospital group resolving to a payments company, and a firm resolving to the
+    parent that acquired it. Each one silently researched and wrote to the wrong
+    company under the right company's name.
+
+    The test is deliberately loose - a domain rarely spells the name out - but
+    it does require that one recognisably contains the other.
+    """
+    core = _core(name)
+    stem = _squash(domain.split(".")[0])
+    if not core or not stem:
+        return False
+    if core in stem or stem in core:
+        return True
+    # A short domain is often an abbreviation; check the page title instead.
+    squashed_title = _squash(title)
+    if core and squashed_title and (core in squashed_title
+                                    or squashed_title[:len(core)] == core):
+        return True
+    return False
+
+
 def to_domain(text, quiet=False):
     """
     Return a domain for whatever the user typed.
@@ -149,20 +193,33 @@ def to_domain(text, quiet=False):
     kg = data.get("knowledgeGraph") or {}
     candidate = registrable_domain(kg.get("website") or "")
     matched_title = kg.get("title") or ""
-
-    if not candidate or candidate in NOT_A_COMPANY:
+    if candidate and candidate in NOT_A_COMPANY:
         candidate = ""
+    if candidate and not belongs_to(raw, candidate, matched_title):
+        candidate = ""
+
+    if not candidate:
+        rejected = []
         for result in data.get("organic") or []:
             domain = registrable_domain(result.get("link") or "")
-            if domain and domain not in NOT_A_COMPANY:
-                candidate = domain
-                matched_title = result.get("title") or matched_title
+            if not domain or domain in NOT_A_COMPANY:
+                continue
+            title = result.get("title") or ""
+            if belongs_to(raw, domain, title):
+                candidate, matched_title = domain, title
                 break
+            rejected.append(domain)
+
+        if not candidate and rejected and not quiet:
+            print(f'  (ignored {", ".join(rejected[:3])} - none of them look '
+                  f'like "{raw}")')
 
     if not candidate:
         if not quiet:
-            print(f'Could not work out a domain for "{raw}". '
-                  f'Type it in directly, like  example.com')
+            print(f'Could not work out which website belongs to "{raw}". '
+                  f'That is safer than guessing: a wrong domain means '
+                  f'researching and writing to a different company under this '
+                  f'one\'s name. Type the domain in directly, like example.com')
         return ""
 
     cache[key] = candidate

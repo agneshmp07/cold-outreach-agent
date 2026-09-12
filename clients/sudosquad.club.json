@@ -1,0 +1,25 @@
+{
+  "domain": "sudosquad.club",
+  "name": "SudoSquad",
+  "one_liner": "SudoSquad is a multiplayer Sudoku mobile app with real-time duels, daily challenges, and global competitive leaderboards.",
+  "what_you_sell": "A free multiplayer Sudoku mobile app for iOS and Android; the website explicitly states it has no ads or paywalls and lists no products for sale.",
+  "target_group": "SudoSquad does not sell to businesses or charge consumers, so there is no B2B cold outreach target group. It targets individual Sudoku players looking for competitive multiplayer gameplay. Because the app is completely free and ad-free, there are no commercial buyers or enterprise decision-makers.",
+  "sells_to_businesses": false,
+  "b2c_note": "There is no business side mentioned on the website; the app is completely free to consumers with no ads, enterprise plans, or commercial seller options.",
+  "business_model": "direct",
+  "who_uses_it": "Individual Sudoku puzzle players and mobile gamers.",
+  "who_pays_for_it": "No one; the app is entirely free with no ads, paywalls, or paid features.",
+  "who_buys_it": "None; there is no paying buyer mentioned on the website.",
+  "sender": "",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-sudosquad.club.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": false,
+  "_claims_to_check": [
+    "Claims the app has zero ads, zero paywalls, and zero pay-to-win mechanics",
+    "Implies an active global competitive community with live leaderboards and daily arena matches",
+    "Claims every puzzle grid is algorithmically generated and difficulty-rated by actual solve time"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

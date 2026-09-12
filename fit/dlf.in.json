@@ -1,0 +1,366 @@
+{
+  "domain": "dlf.in",
+  "client": "Procol",
+  "client_domain": "procol.ai",
+  "checked_against": "icp-procol.ai.md",
+  "result": {
+    "company_name": "DLF Prime Towers",
+    "what_they_do": "DLF Prime Towers is a commercial real estate development project in Okhla Phase I, New Delhi, providing office spaces and retail shops for rent and sale.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Search results note that the building hosts 180+ companies and 3,000+ total occupants [36], but do not disclose employee headcount for DLF Prime Towers as an operating business entity.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Real Estate & Construction (Single commercial building project)",
+      "in_icp": false,
+      "why": "Procol's ICP targets enterprise real estate developers (250+ employees) that process high volumes of purchase requests across multiple active project sites. DLF Prime Towers is a single commercial real estate property/building project rather than a multi-site enterprise developer.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "NOT FOUND",
+      "evidence": "No procurement job listings, ERP stack mentions, or vendor RFQ signals were found in the search results.",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "NOT FOUND",
+      "evidence": "No mentions of existing e-procurement or sourcing platforms used by DLF Prime Towers were found in the search results.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [
+      "Single commercial property project rather than an enterprise real estate developer managing multiple active construction sites and multi-department purchasing workflows."
+    ],
+    "verdict": "SKIP",
+    "reason": "DLF Prime Towers is a single commercial office building project in New Delhi developed by DLF Group [1, 3], not an enterprise real estate developer managing procurement across multiple project sites. It clearly lacks the need for enterprise procurement software, reverse auctions, and ERP-integrated purchase order workflows.",
+    "could_not_find": [
+      "Whether DLF Prime Towers operates as an independent purchasing entity or is managed centrally by parent company DLF Group.",
+      "The ERP software stack or procurement tools used for facility management operations."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "DLF Prime Towers | Office/Commercial in Okhla Phase I, ...",
+      "snippet": "Located in the bustling commercial hub of Okhla Phase I, Delhi, DLF Prime Towers offers a sought-after address for corporate offices, IT/ITES firms, ...",
+      "link": "https://instaoffice.in/listings/office-commercial/dlf-prime-towers-okhlaphasei",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "DLF Prime Towers , F -79 & 80 , Okhla Industrial Estate ...",
+      "snippet": "DLF Prime Towers , F -79 & 80 , Okhla Industrial Estate, New Delhi, Delhi 110020, India,. New Delhi, DL, 110020 · 22 Units Available · 650000 sqft available in a ...",
+      "link": "https://www.cbre.co.in/properties/office/details/IN-SMPL-17118/dlf-prime-towers-f-79-80-okhla-industrial-estate-new-delhi-delhi-110020-india-new-delhi-dl-110020",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "DLF Prime Tower - The Top Class Ravishing Commercial ...",
+      "snippet": "DLF Group has come up with its newest Commercial Project named DLF Prime Towers Delhi. This Project is placed at Okhla Phase-I. This project ...",
+      "link": "https://www.newswire.com/news/dlf-prime-tower-the-top-class-ravishing-commercial-spaces-30160",
+      "date": "Nov 27, 2013"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "DLF Prime Towers Okhla Phase I, Delhi - 55000 sq.ft.",
+      "snippet": "Yes, DLF Prime Towers provides large, customizable office space for rent in Okhla Phase I, Delhi, specifically suited for enterprises seeking 55,000 sq. ft ...",
+      "link": "https://myhq.in/office-space-for-rent/dlf-prime-towers-okhlaphasei",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "DLF PRIME TOWER",
+      "snippet": "DLF Prime Towers is a fully-fledged commercial development which comprise of retail space and offices in one of the prime spot of South Delhi.",
+      "link": "https://www.facebook.com/p/DLF-PRIME-TOWER-100020778793714/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "DLF Prime Towers Okhla Phase 1, Delhi",
+      "snippet": "DLF Prime Towers Okhla Phase 1, Delhi is Ready To Move Commercial Project. DLF Builders offers Office spaces and Shops for resale/rent in DLF Prime Towers.",
+      "link": "https://www.99acres.com/dlf-prime-towers-okhla-phase-1-south-delhi-npxid-c2805",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Videos from DLF Prime Towers in Okhla Industrial Area Phase 1, ...",
+      "snippet": "Video Tabs in DLF Prime Towers, Delhi, Okhla Industrial Area Phase 1 are sections that allow businesses to showcase videos of their products, services, or ...",
+      "link": "https://www.justdial.com/Delhi/DLF-Prime-Towers-Near-Crowne-Plaza-Hotel-Okhla-Industrial-Area-Phase-1/011PXX11-XX11-170602174553-A5X9_BZDET/videos",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Dlf Prime Towers Commercial Project Delhi",
+      "snippet": "Dlf Prime Towers is a new launch commercial project at Delhi by DLF Group. Dlf Prime Towers offers commercial Hub with lifestyle amenities.",
+      "link": "https://www.dlfproperties.org.in/projects-in-delhi/dlf-prime-towers/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "PrimeTower Infrastructure Pvt Ltd.",
+      "snippet": "DLF Prime Towers. Okhla Phase 1. New Delhi, Delhi 110020, IN. Get directions ... Business Head jobs. 8,316 open jobs · Healthcare Recruiter jobs. 432 open ...",
+      "link": "https://in.linkedin.com/company/primetower-infrastructure-pvt-ltd",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "TrustNCart",
+      "snippet": "DPT-208, Second Floor, DLF Prime Towers,. Delhi, Delhi 110020, IN. Get directions. Employees at TrustNCart. Click here to view Arjit Sengupta's profile. Arjit ...",
+      "link": "https://in.linkedin.com/company/trustncart",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "DLF Prime Towers Reviews by 2 Employees | Rated 5.0/5",
+      "snippet": "DLF Prime Towers is rated 5.0/5, based on 2 employee reviews on AmbitionBox. DLF Prime Towers is highly rated for Skill development with ...",
+      "link": "https://www.ambitionbox.com/reviews/dlf-prime-towers-reviews",
+      "date": "14 thg 9, 2024"
+    },
+    {
+      "asking_about": "size",
+      "title": "United Descaler Private Limited",
+      "snippet": "11-50 employees ... Locations. Primary. 619, 6th Floor, DLF Prime Towers, Okhla Industrial Area, Phase - 1. New Delhi, Delhi 110020, IN. Get directions. Employees ...",
+      "link": "https://in.linkedin.com/company/uniteddescaler",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Italian Sound Design - India",
+      "snippet": "2-10 employees ... Locations. Primary. 604 DLF Prime Towers. Okhla Phase - 1. New Delhi, Delhi 110020, IN. Get directions. Employees at Italian Sound Design - ...",
+      "link": "https://in.linkedin.com/company/isd-india",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Ojas Business Systems",
+      "snippet": "Announcement!! Our India registered office is now at: DLF Prime Towers, Okhla Phase I, New Delhi. Looking forward to the next phase.",
+      "link": "https://au.linkedin.com/company/ojas-business-systems",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Kairosoft AI Solutions Ltd",
+      "snippet": "11-50 employees. Headquarters: Delhi, Delhi. Type: Public Company. Founded: 1987. Locations. Primary. DLF Prime Towers. DPT 612, DLF Prime Towers, Plot No. 79- ...",
+      "link": "https://in.linkedin.com/company/volkai",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Techno Canada Inc.",
+      "snippet": "DLF Prime Towers, Okhla Phase 1. DPT-323. New Delhi, Delhi 110020, IN. Get ... Employees at Techno Canada Inc. Click here to view Roop Chakravorty's ...",
+      "link": "https://ca.linkedin.com/company/techno-canada-inc",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "DLF Prime Towers | Delhi",
+      "snippet": "DLF Prime Towers, Delhi. 596 likes · 166 were here. Presenting DLF Prime Towers – a prominent commercial landmark designed to accommodate your ambitio.",
+      "link": "https://www.facebook.com/DLFPrimeTowersOfficial/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "DLF Prime Towers - Office Spaces In Okhla Phase 1 South Delhi",
+      "snippet": "DLF Prime Towers in Okhla Phase 1 provides premium office spaces in South Delhi starting from Rs. 1.4 Cr*. DLF Prime Towers is one of the new projects in ...",
+      "link": "https://primetowersproject.dlf.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "contact us",
+      "snippet": "OMR India Outsources Pvt. Ltd. H.O.: 503, DLF Prime Towers, Okhla Phase-1, New Delhi-110020 0562-3550410, F 011-47619865 · M.: +91 9319123429 +91 8954800532",
+      "link": "http://www.omrsolutions.com/omr_web/contact/contact_us.php",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "DLF Prime Tower, Okhla",
+      "snippet": "DLF Prime Towers is a commercial development by DLF in Okhla Phase 1 New Delhi. It offers spacious and skill-fully designed Office Spaces and Commercial ...",
+      "link": "http://www.ritypropmart.com/properties/dlf-prime-tower-okhla/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "320 DLF PRIME TOWER OKHLA PHASE 1 DELHI ...",
+      "snippet": "DLF PRIME TOWERS 203 OKHLA PHASE-1 , NEW DELHI, Delhi, India ... Procurement · Regulatory & Government · www.zaubacorp.com. Copyright © 2026 ...",
+      "link": "https://www.zaubacorp.com/company-by-address/320--DLF-PRIME-TOWER-OKHLA-PHASE-1------DELHI--DELHI--INDIA---110020",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Office Spaces In Okhla Phase 1 South Delhi",
+      "snippet": "DLF Prime Towers in Okhla Phase 1 provides premium office spaces in South Delhi starting from Rs. 1.2 Cr*. DLF Prime Towers is one of the new projects in ...",
+      "link": "https://primetowersproject.dlf.in/lp/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Privacy Policy",
+      "snippet": "DLF Prime Towers in Okhla Phase 1 provides premium office spaces in South Delhi starting from Rs. 1.2 Cr*. DLF Prime Towers is one of the new projects in ...",
+      "link": "https://primetowersproject.dlf.in/privacy-policy.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "DLF Prime Towers | Delhi",
+      "snippet": "DLF Prime Towers, Delhi. 596 likes · 166 were here. Presenting DLF Prime Towers – a prominent commercial landmark designed to accommodate your ambitio.",
+      "link": "https://www.facebook.com/DLFPrimeTowersOfficial/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "DLF Prime Towers - Office Spaces In Okhla Phase 1 South Delhi",
+      "snippet": "DLF Prime Towers in Okhla Phase 1 provides premium office spaces in South Delhi starting from Rs. 1.4 Cr*. DLF Prime Towers is one of the new projects in ...",
+      "link": "https://primetowersproject.dlf.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "contact us",
+      "snippet": "OMR India Outsources Pvt. Ltd. H.O.: 503, DLF Prime Towers, Okhla Phase-1, New Delhi-110020 0562-3550410, F 011-47619865 · M.: +91 9319123429 +91 8954800532",
+      "link": "http://www.omrsolutions.com/omr_web/contact/contact_us.php",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "DLF Prime Tower, Okhla",
+      "snippet": "DLF Prime Towers is a commercial development by DLF in Okhla Phase 1 New Delhi. It offers spacious and skill-fully designed Office Spaces and Commercial ...",
+      "link": "http://www.ritypropmart.com/properties/dlf-prime-tower-okhla/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "320 DLF PRIME TOWER OKHLA PHASE 1 DELHI ...",
+      "snippet": "DLF PRIME TOWERS 203 OKHLA PHASE-1 , NEW DELHI, Delhi, India ... Procurement · Regulatory & Government · www.zaubacorp.com. Copyright © 2026 ...",
+      "link": "https://www.zaubacorp.com/company-by-address/320--DLF-PRIME-TOWER-OKHLA-PHASE-1------DELHI--DELHI--INDIA---110020",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Office Spaces In Okhla Phase 1 South Delhi",
+      "snippet": "DLF Prime Towers in Okhla Phase 1 provides premium office spaces in South Delhi starting from Rs. 1.2 Cr*. DLF Prime Towers is one of the new projects in ...",
+      "link": "https://primetowersproject.dlf.in/lp/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Privacy Policy",
+      "snippet": "DLF Prime Towers in Okhla Phase 1 provides premium office spaces in South Delhi starting from Rs. 1.2 Cr*. DLF Prime Towers is one of the new projects in ...",
+      "link": "https://primetowersproject.dlf.in/privacy-policy.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Partition against teach online students",
+      "snippet": "Assume the Fun Into Your Workspace With DLF Prime Towers. The growth mutual regard commercial irrational estate industry of National Capital ...",
+      "link": "https://square-measure-pu.tumblr.com/",
+      "date": "Dec 24, 2016"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Privacy Policy | Mecxgen Solution",
+      "snippet": "DMC Software · Travel CRM. Reach Us. Mecxgen Solution Private Limited, DPT 732, DLF Prime Towers, Pocket F, Okhla Phase I, Okhla Industrial Estate, · New Delhi ...",
+      "link": "https://mecxgen.info/privacy-policy",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] CREATING LIVELIHOOD - SATYAMicroCapital",
+      "snippet": "... DLF Prime Towers, Okhla. Industrial Area, Phase-1, New Delhi-110020. Tel. No.: +91 11 4972-4000. Website : www.satyamicrocapital.com. E-Mail : investors ...",
+      "link": "https://satyamicrocapital.com/wp-content/uploads/2025/10/Annual_Report_24-25.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Product Catalog en Ver4 | PDF | Computing | X86 Architecture - Scribd",
+      "snippet": "Yeongtong-gu, Suwon-si, Gyeonggi-do, DLF Prime Towers ... Compatible with Intel Atom ® Apollo Lake platform Uses processors from the 6th and 7th Gen.",
+      "link": "https://www.scribd.com/document/994578385/product-catalog-en-ver4",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Popular Plastic Bottle Wholesalers in Vaishali Sector 4, Ghaziabad",
+      "snippet": "DLF Prime Towers, Okhla Main Road, Okhla Industrial Area Phase 1 Pocket F ... These dispensers are designed to provide a good, controlled flow of oil, making them ...",
+      "link": "https://www.justdial.com/Ghaziabad/Plastic-Bottle-Wholesalers-in-Vaishali-Sector-4/nct-10374840",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] The Budget overall was good in intent in which all ... - Assocham",
+      "snippet": "DLF Prime Towers in Okhla Phase-1, South Delhi's Central. Business District is just the address your business deserves. 180+ companies | 3000+ employees | ...",
+      "link": "https://www.assocham.org/uploads/files/userfiles-AssochamFeb-20(1).pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] Harnessing the Blue Economy - James Fisher",
+      "snippet": "... Implemented new. Executive Committee. • Focused on business turnarounds ... DLF Prime Towers Okhla. Industrial Area Phase I New Delhi – 110020. India. 49 ...",
+      "link": "https://james-fisher.com/media/dxgbpobp/james_fisher_ara2025.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "ISF Members - Indian Staffing Federation",
+      "snippet": "AgileOne designs and develops global workforce and procurement solutions for Fortune 1000 companies. Our focused and consultative approach provides solutions ...",
+      "link": "https://indianstaffingfederation.org/isf-members/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Career at DLF Groups- DLF India",
+      "snippet": "Careers. Come, grow with us. Joining DLF means becoming a part of India's most established real estate brand. As we continue to expand our reach, ...",
+      "link": "https://www.dlf.in/career-page",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "The Kind of Privacy You Don't Have to Think About - DLF",
+      "snippet": "Discover privacy in apartments at ONE Midtown by DLF secure gated community benefits, smart layouts, and effortless urban living in West Delhi.",
+      "link": "https://www.dlf.in/homes/blogs/the-kind-of-privacy-you-dont-have-to-think-about",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Founder DLF | Life at DLF - DLF India",
+      "snippet": "Careers. Want to join our team? DLF Arrow. Looking for something specific? We'd be delighted to help you. Business Enquiry · Customer Support · Media · Careers.",
+      "link": "https://www.dlf.in/about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "DLF Hospitality",
+      "snippet": "",
+      "link": "https://www.dlf.in/hospitality",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "DLF India | Leading Real Estate Developers",
+      "snippet": "Looking for something specific? We'd be delighted to help you. Business Enquiry · Customer Support · Media · Careers. Sitemap. DLF logo. Call. +91 124 4396 000 ...",
+      "link": "https://www.dlf.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Elevated Living Is About Perspective, Not Just Floors - DLF",
+      "snippet": "High-rise living in Delhi offers open views, better natural light, and reduced noise, creating a more spacious and calmer everyday living ...",
+      "link": "https://www.dlf.in/homes/blogs/elevated-living-beyond-floor-levels",
+      "date": "Mar 17, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "What Gurugram Already Knows About DLF Luxury Homes, Mumbai ...",
+      "snippet": "Careers. Sitemap. DLF logo. Call. +91 124 4396 000. ABOUT DLF. Who We Are · Chairman's Message · Leadership · Sustainability · DLF Foundation.",
+      "link": "https://www.dlf.in/homes/blogs/dlf-luxury-homes-mumbai",
+      "date": "Aug 21, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Future-Proof Home Essentials for 2026 and Beyond (Updated) - DLF",
+      "snippet": "Discover future-proof home essentials for 2026 smart technology, sustainable design, and flexible layouts for energy-efficient, ...",
+      "link": "https://www.dlf.in/homes/blogs/future-proof-home-essentials",
+      "date": "Apr 30, 2026"
+    }
+  ]
+}

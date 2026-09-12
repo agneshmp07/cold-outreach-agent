@@ -1,0 +1,126 @@
+{
+  "domain": "genpact.com",
+  "client": "MoveInSync",
+  "client_domain": "moveinsync.com",
+  "checked_against": "icp-moveinsync.com.md",
+  "result": {
+    "company_name": "Genpact",
+    "what_they_do": "Genpact is a global professional services firm providing AI, digital operations, analytics, and business process services [5], [11], [12].",
+    "size": {
+      "estimate": "140,000+ employees",
+      "evidence": "[5]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Business Process Outsourcing (BPO) and ITES",
+      "in_icp": true,
+      "why": "Matches the 'Business Process Outsourcing (BPO) and Contact Centers' and 'Information Technology & ITES' segments in the ICP with well over 1,000 employees and delivery operations in India [5], [10].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No specific transport management or night shift job postings were visible in the search results.",
+      "evidence": "",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "No employee commute management tools or managed fleet vendors mentioned in search results.",
+      "evidence": "",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Genpact fits the BPO/ITES sector criteria with a workforce of over 140,000 employees and substantial operational footprint in India [5], [10]. Under the verdict rules, being in a matching ICP segment without an explicit buying signal yields PROCEED.",
+    "could_not_find": [
+      "Details on whether Genpact provides dedicated corporate cab/shuttle fleets for its shift employees in India",
+      "Active job listings specifically for transport management, facility operations, or rotational shift roles"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "the Genpact alumni network",
+      "snippet": "Welcome to the Genpact alumni network - Reignite. Keep meaningful connections alive, build new ones, access exclusive alumni events, and remain part of the ...",
+      "link": "https://alumni.genpact.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "the Genpact alumni network",
+      "snippet": "Welcome to the Genpact alumni network - Reignite. Keep meaningful connections alive, build new ones, access exclusive alumni events, and remain part of the ...",
+      "link": "https://alumni.genpact.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "the Genpact alumni network",
+      "snippet": "Welcome to the Genpact alumni network - Reignite. Keep meaningful connections alive, build new ones, access exclusive alumni events, and remain part of the ...",
+      "link": "https://alumni.genpact.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "the Genpact alumni network",
+      "snippet": "Welcome to the Genpact alumni network - Reignite. Keep meaningful connections alive, build new ones, access exclusive alumni events, and remain part of the ...",
+      "link": "https://alumni.genpact.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers | Pursue a Better You - Genpact",
+      "snippet": "With over 140,000 employees across more than 30 countries, there are always rewarding roles available across our Data, Tech, AI services and Digital Operations ...",
+      "link": "https://www.genpact.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Experience Team Candidates | Careers - Genpact",
+      "snippet": "Interested in shaping experience-led transformation at Genpact? Explore opportunities within our Experience capability and apply today.",
+      "link": "https://www.genpact.com/careers/experience",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Join our Campus Community | Careers - Genpact",
+      "snippet": "We're hiring! We're always looking for talented people. Our campus programs give you unrivaled career opportunities and a world-class learning experience with ...",
+      "link": "https://www.genpact.com/careers/campus",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Who We Are | Careers - Genpact",
+      "snippet": "We're hiring! We're always looking for talented people. Problem solvers, innovators, and change-makers. We help some of the world's biggest companies run ...",
+      "link": "https://www.genpact.com/careers/who-we-are",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Genpact - Search for Jobs",
+      "snippet": "Our teams bring deep expertise to shape what AI can do and change how businesses actually run. Join us to build the career you want — and be ...",
+      "link": "https://www.genpact.com/careers/job-search",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "India Employment Candidates | Genpact Careers",
+      "snippet": "We're hiring! We're always looking for talented people. Join us. requires trust in AI What We Do Industries Industries Banking and Capital Markets. Employees ...",
+      "link": "https://www.genpact.com/careers/india-employment-candidates",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Analytics for Real-World Impact | Who We Are - Genpact",
+      "snippet": "As an analyst at Genpact, you'll be at the heart of many growth stories: for Genpact, our clients, and all our communities and the environment. Our global team ...",
+      "link": "https://www.genpact.com/careers/who-we-are/analytics",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us - Genpact",
+      "snippet": "Genpact is the Agentic Operations company. We're hiring! We're always looking for talented people. Join us. Genpact, the Agentic Operations company … transform ...",
+      "link": "https://www.genpact.com/about-us",
+      "date": ""
+    }
+  ]
+}

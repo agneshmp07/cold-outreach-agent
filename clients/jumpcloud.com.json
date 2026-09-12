@@ -1,0 +1,27 @@
+{
+  "domain": "jumpcloud.com",
+  "name": "JumpCloud",
+  "one_liner": "JumpCloud provides a cloud directory platform that manages user identities, access permissions, and devices across multiple operating systems.",
+  "what_you_sell": "A cloud directory platform that unifies identity, access, and device management.",
+  "target_group": "JumpCloud sells to small to mid-market companies, typically ranging from 20 to 1,000 employees, in cloud-centric industries like technology, digital services, and modern media. Good prospects have remote or hybrid workforces using a mix of operating systems (macOS, Windows, Linux) and cloud applications like Google Workspace. Bad prospects are legacy, on-premise, single-OS environments that do not manage remote access or multiple platforms.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "IT administrators, system specialists, and security engineers who manage user access and company devices.",
+  "who_pays_for_it": "IT Directors, VPs of Infrastructure/IT, and Chief Information Security Officers (CISOs).",
+  "who_buys_it": "IT and Security department leaders.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-jumpcloud.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims over 250,000 organizations use JumpCloud.",
+    "Claims active customers in over 160 countries.",
+    "Claims to natively govern autonomous AI agent identities alongside human identities.",
+    "Implies Google selected JumpCloud as their primary unified control plane partner.",
+    "Claims over $400M raised since launch."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

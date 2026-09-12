@@ -1,0 +1,18 @@
+{
+  "company_name": "BlackRock",
+  "triggers": [
+    {
+      "fact": "BlackRock appointed Dixit Joshi as Managing Director for Middle East Technology and Advisory Solutions and Digital Assets in September 2026 to expand its platform from Dubai.",
+      "source_page": "https://www.zawya.com/en/press-release/people-in-the-news/blackrock-appoints-dixit-joshi-as-managing-director-middle-east-technology-and-advisory-solutions-and-digital-assets-480593",
+      "relevance_score": 7
+    },
+    {
+      "fact": "BlackRock operates 100+ offices across over 38 locations globally.",
+      "source_page": "https://blackrock.com/about-us",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As BlackRock expands its Middle East regional team footprint and oversees more than 100 global office locations, real estate and operations leaders face challenges efficiently provisioning flexible office space and managing enterprise space management technology.",
+  "no_trigger_found": false
+}

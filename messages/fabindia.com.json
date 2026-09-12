@@ -1,0 +1,87 @@
+{
+  "client": "Amazon",
+  "client_domain": "amazon.com",
+  "company_name": "Fabindia",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 2,
+    "top_score": 6,
+    "pain_hypothesis": "As Fabindia launches new product categories like Fabels and targets global growth, scaling marketplace distribution and cross-border fulfillment outside its core ethnic store footprint presents an operational challenge.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "fabels global retail push",
+      "body": "With Fabindia launching Fabels to expand beyond ethnic wear into global markets, scaling international distribution is likely top of mind.\n\nWhen introducing a new sub-brand globally, what breaks first in your cross-border marketplace listings and fulfillment setup today?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Fabindia launched a new premium western wear sub-brand named 'Fabels' in July 2026 to expand beyond ethnic wear and drive global retail growth.",
+      "trigger_link": "Expanding a new sub-brand globally requires cross-border marketplace distribution and fulfillment infrastructure.",
+      "word_count": 40,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "managing cross-border retail growth",
+      "body": "For retail brands executing global expansion plans, managing international shipping logistics and product visibility across new regions is usually where operations strain first.\n\nDoes that match what your team is experiencing as you scale online presence globally?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Fabindia announced plans in November 2025 to scale its retail presence in Tier II and Tier III markets alongside global expansion efforts.",
+      "trigger_link": "Global retail expansion requires reliable third-party marketplace listing services and shipping fulfillment.",
+      "word_count": 39,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "international reach for fabels",
+      "body": "Now that Fabindia is launching Fabels to drive global retail growth, establishing efficient international distribution channels is critical.\n\nIf we brought you a way to list Fabels on our global marketplace and leverage our cross-border fulfillment network, would you be open to taking a look? Reviewing it commits you to nothing and costs nothing.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Fabindia launched a new premium western wear sub-brand named 'Fabels' in July 2026 to expand beyond ethnic wear and drive global retail growth.",
+      "trigger_link": "Launching western wear globally connects directly to utilizing global online marketplace listings and cross-border fulfillment.",
+      "word_count": 56,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw Fabindia's plans for global expansion alongside scaling in Tier II and III markets. Would love to connect.",
+      "trigger_used": "Fabindia announced plans in November 2025 to scale its retail presence in Tier II and Tier III markets alongside global expansion efforts.",
+      "trigger_link": "Global expansion relies on digital marketplace channels to reach new shoppers.",
+      "char_count": 110,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. As you expand Fabels globally beyond ethnic wear, how is your team handling cross-border marketplace listings and international fulfillment?",
+      "trigger_used": "Fabindia launched a new premium western wear sub-brand named 'Fabels' in July 2026 to expand beyond ethnic wear and drive global retail growth.",
+      "trigger_link": "New brand launches benefit from established marketplace listing and fulfillment systems.",
+      "char_count": 163,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "As Fabindia scales its global footprint, we are working closely with retail brands on cross-border merchant setups. Happy to share what we learn about international marketplace logistics as we build out these workflows, if useful.",
+      "trigger_used": "Fabindia announced plans in November 2025 to scale its retail presence in Tier II and Tier III markets alongside global expansion efforts.",
+      "trigger_link": "Scaling globally connects to building effective marketplace and logistics channels.",
+      "char_count": 230,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": []
+}

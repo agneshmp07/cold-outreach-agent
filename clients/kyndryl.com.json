@@ -1,0 +1,27 @@
+{
+  "domain": "kyndryl.com",
+  "name": "Kyndryl",
+  "one_liner": "We design, build, manage, and modernize enterprise technology systems and IT infrastructure.",
+  "what_you_sell": "IT infrastructure management, cloud consulting, mainframe modernization, cybersecurity, and digital workplace services.",
+  "target_group": "We sell to CIOs, CTOs, and IT Executives at large enterprise organizations with over 5,000 employees. A good prospect operates complex hybrid clouds, legacy mainframes, or mission-critical data centers in regulated sectors like banking, healthcare, and manufacturing. Bad prospects are cloud-native startups or mid-market companies that lack legacy infrastructure complexity.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Enterprise IT operations staff, system administrators, and technology infrastructure managers.",
+  "who_pays_for_it": "Chief Information Officers, Chief Technology Officers, and VP-level IT leaders at enterprise organizations.",
+  "who_buys_it": "Large enterprise organizations with complex, mission-critical IT infrastructure and legacy systems.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-kyndryl.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "implies it is the world's largest provider of IT infrastructure services",
+    "claims to serve thousands of enterprise customers in over 60 countries",
+    "claims to have over 7,500 mainframe experts",
+    "quotes achieving more than 10,000 certifications and 200 customer launches with AWS",
+    "implies it powers core operational systems for global stock markets, banks, and airlines"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

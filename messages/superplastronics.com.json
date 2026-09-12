@@ -1,0 +1,90 @@
+{
+  "client": "Procol",
+  "client_domain": "procol.ai",
+  "company_name": "Super Plastronics Private Limited",
+  "disqualifiers": [],
+  "no_trigger": true,
+  "generated_from": {
+    "trigger_count": 0,
+    "top_score": 0,
+    "pain_hypothesis": "There is no evidence in the provided sources to suggest a specific procurement pain hypothesis.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "what-they-do",
+      "subject": "Sourcing and procurement at Super Plastronics",
+      "body": "Super Plastronics manufactures appliances and consumer electronics across India for major global brands.\n\nProcol provides e-procurement software that automates vendor sourcing, purchase requests, reverse auctions, and accounts payable processing to streamline procurement for electronics manufacturers.\n\nHow does your sourcing team currently manage purchase requests and vendor negotiations across your production lines?\n\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "A large-scale electronics and appliance manufacturer with expansive sourcing needs can benefit from automated purchasing workflows and vendor auctions to control costs.",
+      "word_count": 52,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "Managing vendor sourcing workflows",
+      "body": "In manufacturing enterprises, procurement teams often deal with slow manual purchase request approvals and scattered vendor bids for raw materials and components.\n\nDoes this match your team's experience when coordinating procurement across your facilities?\n\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "A large-scale electronics and appliance manufacturer with expansive sourcing needs can benefit from automated purchasing workflows and vendor auctions to control costs.",
+      "word_count": 35,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "Automated procurement workflows",
+      "body": "If we brought you automated vendor sourcing workflows and streamlined invoice processing for your procurement operations, would you be open to taking a brief look?\n\nA quick review costs you nothing and requires no commitment.\n\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "A large-scale electronics and appliance manufacturer with expansive sourcing needs can benefit from automated purchasing workflows and vendor auctions to control costs.",
+      "word_count": 36,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Hi! I follow Super Plastronics' manufacturing of appliances and white goods in India. Would love to connect with leaders in your network.",
+      "trigger_used": "",
+      "trigger_link": "A large-scale electronics and appliance manufacturer with expansive sourcing needs can benefit from automated purchasing workflows and vendor auctions to control costs.",
+      "char_count": 137,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting!\n\nHow is your finance and sourcing team currently handling invoice processing and vendor reverse auctions across your manufacturing supply chains?",
+      "trigger_used": "",
+      "trigger_link": "A large-scale electronics and appliance manufacturer with expansive sourcing needs can benefit from automated purchasing workflows and vendor auctions to control costs.",
+      "char_count": 168,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Hi again,\n\nSince we are currently building new automation features for enterprise procurement and purchasing workflows, I would be happy to share the insights and learnings we gather along the way if that would be useful for your team.\n\nWould you be interested in receiving these updates as we uncover best practices in sourcing automation?",
+      "trigger_used": "",
+      "trigger_link": "A large-scale electronics and appliance manufacturer with expansive sourcing needs can benefit from automated purchasing workflows and vendor auctions to control costs.",
+      "char_count": 340,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "NO TRIGGER FOUND - nothing dated or newsworthy was found for this company, so these messages have no hook. They lean on what the company says about itself. Expect a far lower reply rate than trigger-backed messages.",
+    "linkedin 3 (value-first): 340 chars (limit 300) - LinkedIn will truncate or reject it"
+  ]
+}

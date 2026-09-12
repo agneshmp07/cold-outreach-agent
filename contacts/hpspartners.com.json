@@ -1,0 +1,57 @@
+{
+  "client": "Octus",
+  "client_domain": "octus.com",
+  "company": "Hpspartners",
+  "domain": "hpspartners.com",
+  "titles": [
+    "Head of Credit Research",
+    "Vice President - Restructuring & Debt Advisory",
+    "Senior Credit Analyst",
+    "Portfolio Manager - Private Credit",
+    "AVP - Structured Credit"
+  ],
+  "why": "Credit analysts and deal leads waste hours manually tracking covenant changes, deal documents, and restructuring developments across fragmented sources to make time-sensitive investment and advisory decisions.",
+  "people": [
+    {
+      "name": "Colbert Cannon",
+      "role": "named on their site",
+      "linkedin": "https://www.hpspartners.com/insights-and-news/s9ep85-mark-rubenstein",
+      "matched_title": "from their website",
+      "snippet": "On this week's episode, host Colbert Cannon sits down with Mark Rubenstein, Head of Strategic Investment Partners North America at HPS."
+    },
+    {
+      "name": "Mark Rubenstein",
+      "role": "named on their site",
+      "linkedin": "https://www.hpspartners.com/insights-and-news/s9ep85-mark-rubenstein",
+      "matched_title": "from their website",
+      "snippet": "On this week's episode, host Colbert Cannon sits down with Mark Rubenstein, Head of Strategic Investment Partners North America at HPS."
+    },
+    {
+      "name": "Strategic Investment",
+      "role": "named on their site",
+      "linkedin": "https://www.hpspartners.com/insights-and-news/s9ep85-mark-rubenstein",
+      "matched_title": "from their website",
+      "snippet": "On this week's episode, host Colbert Cannon sits down with Mark Rubenstein, Head of Strategic Investment Partners North America at HPS."
+    },
+    {
+      "name": "Partners North",
+      "role": "named on their site",
+      "linkedin": "https://www.hpspartners.com/insights-and-news/s9ep85-mark-rubenstein",
+      "matched_title": "from their website",
+      "snippet": "On this week's episode, host Colbert Cannon sits down with Mark Rubenstein, Head of Strategic Investment Partners North America at HPS."
+    },
+    {
+      "name": "Privacy Policy",
+      "role": "named on their site",
+      "linkedin": "https://www.hpspartners.com/privacy-policy",
+      "matched_title": "from their website",
+      "snippet": "This U.S. Privacy Policy describes the types of personal information we collect on https://www.hpspartners.com/en/home/ (the “Site”), how we use the information ..."
+    }
+  ],
+  "email": {
+    "pattern": "",
+    "examples": [],
+    "sources": [],
+    "confidence": "low"
+  }
+}

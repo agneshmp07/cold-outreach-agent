@@ -35,6 +35,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from score import score_batch
 from triggers import (MODEL, ask_gemini, build_corpus, die, flatten_pages,
                       genai, load_scrape)
 
@@ -878,15 +879,22 @@ def to_markdown(result):
     if info.get("pain_hypothesis"):
         lines += [f"**Pain hypothesis:** {info['pain_hypothesis']}", ""]
 
+    if result.get("score") is not None:
+        lines += [f"_Drafts score **{result['score']}/100** "
+                  f"({result.get('score_band', '')})._", ""]
+
     lines += ["## Emails", ""]
     for i, email in enumerate(result["emails"], start=1):
-        lines += [f"### {i}. {email['angle']}{flags_for(email)}",
+        lines += [f"### {i}. {email['angle']} · {email.get('score', '-')}/100"
+                  f"{flags_for(email)}",
                   f"**Subject:** {email['subject']}", "",
                   email["body"], ""]
         if email["trigger_used"]:
             lines += [f"> Trigger: {email['trigger_used']}  "]
         if email.get("trigger_link"):
             lines += [f"> Why it connects: {email['trigger_link']}  "]
+        for note in email.get("score_notes") or []:
+            lines += [f"> - {note}  "]
         lines += [f"> {email['word_count']} words", ""]
 
     lines += ["## LinkedIn", ""]
@@ -933,8 +941,11 @@ def console_marks(message):
 
 def print_summary(result):
     print(f"\n{result['client']} -> {result['company_name']}")
+    if result.get("score") is not None:
+        print(f"  Drafts score {result['score']}/100 ({result.get('score_band', '')})")
     for i, email in enumerate(result["emails"], start=1):
-        print(f"  Email {i} ({email['angle']}){console_marks(email)}")
+        print(f"  Email {i} ({email['angle']}) "
+              f"{email.get('score', '-')}/100{console_marks(email)}")
         print(f"    subject: {email['subject']}")
         print(f"    {email['word_count']} words")
     for i, msg in enumerate(result["linkedin_messages"], start=1):
@@ -1022,6 +1033,8 @@ def main():
     if do_proofread:
         print("Proofreading...")
         run_proofread(api, result, result["warnings"])
+
+    score_batch(result)
 
     json_path, md_path = save_result(domain, result)
     print_summary(result)

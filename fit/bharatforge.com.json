@@ -1,0 +1,147 @@
+{
+  "domain": "bharatforge.com",
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "checked_against": "icp-kpmg.com.md",
+  "result": {
+    "company_name": "Bharat Forge",
+    "what_they_do": "Manufactures high-performance, safety-critical components and engineering solutions for sectors including automotive, construction, mining, and energy [1, 10, 12].",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Search results mention it is a global company publicly traded on BSE and NSE [10, 13], but exact revenue or headcount figures are not provided.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Global industrial manufacturing and automotive OEMs",
+      "in_icp": true,
+      "why": "Bharat Forge is a global leader in manufacturing critical automotive and industrial components, matching the 'Global industrial manufacturing and automotive OEMs' sector in the 'Also fits' section [1, 10, 12].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "None of the specified buying signals (job postings for CSRD/Oracle ERP roles, press releases on foreign expansion, or subsidiary tax filings) were found in the results.",
+      "evidence": "Search results mention integrated annual reporting and sustainability capitals [9, 11] but do not provide explicit evidence for the named buying signals.",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "No mention of existing enterprise ERP platforms or external advisory partners.",
+      "evidence": "Search results do not list current advisory vendors or ERP software.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Bharat Forge matches the 'Global industrial manufacturing and automotive OEMs' segment in the ICP 'Also fits' section [10, 12]. Per the verdict rules, a company in a fits segment with no disqualifiers proceeds even if no specific buying signal is found.",
+    "could_not_find": [
+      "Exact annual revenue figures and global employee headcount to confirm standard enterprise sizing.",
+      "Current enterprise software stack (e.g., SAP or Oracle ERP) and existing external advisory vendor partnerships."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Critical and Safety Component Manufacturer",
+      "snippet": "Bharat Forge, a leading forging company, manufactures an extensive array of critical and safety components for several sectors. Construction, Mining and ...",
+      "link": "https://www.bharatforge.com/businesses/overview",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Critical and Safety Component Manufacturer",
+      "snippet": "Bharat Forge, a leading forging company, manufactures an extensive array of critical and safety components for several sectors.",
+      "link": "https://www.bharatforge.com/businesses/overview",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Bharat Forge",
+      "snippet": "In September, nine long-serving employees (each with over 15 years ... Critical and Safety Component Manufacturer - Bharat Forge · Leading Automotive ...",
+      "link": "https://grokipedia.com/page/Bharat_Forge",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Mr. Amit B. Kalyani - Pune",
+      "snippet": "The Kalyani group operates in the sectors of specialty steel, hi-tech metallurgical manufacturing, automotive components and infrastructure along with specialty ...",
+      "link": "https://www.bharatforge.com/sustainability/amit-b-kalyani",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Mr. Baba Kalyani - Pune",
+      "snippet": "Critical and Safety Component Manufacturer. Full Service Supply Capability Legacy. Automotive Power Oil & Gas. Chairman & Managing Director. International ...",
+      "link": "https://www.bharatforge.com/sustainability/babasaheb-n-kalyani",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Artificial Intelligence (AI) & Machine Learning (ML)",
+      "snippet": "Bharat Forge, a leading forging company, manufactures an extensive array of critical and safety components for several sectors.",
+      "link": "https://www.bharatforge.com/technology-innovation/incubation-centre",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Critical and Safety Component Manufacturer",
+      "snippet": "Bharat Forge, a leading forging company, manufactures an extensive array of critical and safety components for several sectors.",
+      "link": "https://www.bharatforge.com/businesses/overview",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Bharat Forge",
+      "snippet": "For career opportunities, please write to us at careers@kalyani.in. Apply ... About Bharat Forge · Our Presence · Vision & Mission · Leadership · Supervisory ...",
+      "link": "https://www.bharatforge.com/careers/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About the Report | Bharat Forge",
+      "snippet": "Learn about the scope, reporting basis, principles and integrated thinking behind Bharat Forge's Integrated Annual Report 2025-26.",
+      "link": "https://www.bharatforge.com/AR2026/about-the-report.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About the Company - Bharat Forge",
+      "snippet": "Bharat Forge Limited is a global leader in high‑performance, safety-critical components and solutions across a wide spectrum of industries including automotive, ...",
+      "link": "https://www.bharatforge.com/AR2025/about-the-company.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About the Report - Bharat Forge",
+      "snippet": "The Report covers the six capitals – financial, manufactured, human, intellectual, social & relationship and natural – that we use in our business. Further, we ...",
+      "link": "https://www.bharatforge.com/AR2025/about-the-report.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Bharat Forge",
+      "snippet": "Bharat Forge Limited, with 6 decades of manufacturing legacy, is a global engineering and manufacturing company. It provides high-performance, safety-critical ...",
+      "link": "https://www.bharatforge.com/AR2026/about-bharat-forge.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "[PDF] General information about company - Bharat Forge",
+      "snippet": "General information about company. Name of The Company. Bharat Forge. Limited. BSE Scrip Code. 500493. NSE Symbol. BHARATFORG. MSE Symbol. NA. Date of Start of ...",
+      "link": "https://www.bharatforge.com/assets/pdf/corporateGovernance/half-yearly-related-party-transactions-disclosure-mar22.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Investors - Overview - Bharat Forge",
+      "snippet": "Bharat Forge Ltd. is a constantly expanding company and a preferred technology and engineering-driven development partner. financial analysts",
+      "link": "https://www.bharatforge.com/investors/overview",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "KCMI - Kalyani Centre for Manufacturing Innovation - Bharat Forge",
+      "snippet": "KCMI will act an incubator for new technologies. It will also adopt advanced technologies in manufacturing sectors to develop new products.",
+      "link": "https://www.bharatforge.com/technology-innovation/kcmi",
+      "date": ""
+    }
+  ]
+}

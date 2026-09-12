@@ -49,3 +49,14 @@ Before you use it, answer these four. They take five minutes and they are the di
 ## Rule
 
 No company name from this file goes into any prompt file. Prompts read this; they do not contain it.
+
+## Also fits — sectors found by sourcing
+
+> Worked out by find_targets.py from what this company sells. These count as fits: a company in one of these sectors is in the ICP even if it does not match a row in the table above.
+
+| Sector | Why they buy | Best fit inside it |
+| --- | --- | --- |
+| Direct-to-Consumer (D2C) Apparel and Footwear Brands | They constantly launch seasonal SKUs and require a continuous high volume of visual ad creative to prevent ad fatigue on social channels without traditional photoshoot costs. | A 10-employee online activewear brand running heavy Meta and TikTok ad campaigns that needs fast studio-style lifestyle photos and short promo videos for monthly collection drops. |
+| Cosmetics and Skincare Brands | Their marketing heavily relies on high-quality visual proof, lifestyle imagery, and promotional video variations for fast-paced social media testing. | An e-commerce skincare startup with 5 to 25 employees scaling paid social ad spend while lacking a full-time in-house creative production team. |
+| Performance Marketing and Social Media Agencies | They manage ad creative for multiple retail and D2C clients and need to rapidly generate and scale video and image ad variations to maintain client ROI. | A 10-person boutique digital agency specializing in paid social campaigns for a portfolio of Shopify-based consumer brands. |
+| Consumer Health and Nutrition Brands | Frequent new product launches and bundle promotions demand fresh product packshots and promo video clips to maintain high conversion rates online. | A bootstrapped dietary supplement brand with under 20 employees that regularly launches new flavors and needs promotional video assets for digital marketing. |

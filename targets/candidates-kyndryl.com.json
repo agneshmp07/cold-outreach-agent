@@ -1,0 +1,169 @@
+{
+  "client": "Kyndryl",
+  "client_domain": "kyndryl.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Retail and Commercial Banking",
+      "why_they_buy": "They must maintain round-the-clock operational continuity for legacy mainframe core banking platforms while modernizing into hybrid cloud architectures under strict regulatory oversight.",
+      "example_of_a_buyer": "A century-old multinational bank with over 20,000 employees running COBOL-based core transaction mainframes alongside newly acquired digital banking applications."
+    },
+    {
+      "sector": "Health Insurance and Payor Organizations",
+      "why_they_buy": "They need to maintain heavy legacy mainframe claims engines while securing sensitive patient and financial data across hybrid cloud environments.",
+      "example_of_a_buyer": "A multi-state health insurance enterprise managing legacy claims processing mainframes for millions of policyholders while attempting to reduce technical debt."
+    },
+    {
+      "sector": "Telecommunications Service Providers",
+      "why_they_buy": "They operate mission-critical legacy billing and operations support infrastructure that requires continuous IT management and cloud modernization without service downtime.",
+      "example_of_a_buyer": "A national wireless carrier with tens of millions of subscribers relying on legacy mainframe BSS/OSS infrastructure to manage billing and network operations."
+    },
+    {
+      "sector": "Automotive and Heavy Machinery Manufacturing",
+      "why_they_buy": "They depend on complex global supply chain and ERP legacy IT systems that must be modernised and integrated with cloud capabilities without risking assembly line shutdowns.",
+      "example_of_a_buyer": "A global vehicle manufacturer operating dozens of plants worldwide with legacy enterprise resource planning systems across legacy data centers."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "State Bank of India",
+      "sector": "Retail and Commercial Banking",
+      "why": "Major public sector bank requiring core banking infrastructure management, mainframe modernization, and cybersecurity.",
+      "seen_in": "List of banks in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "HDFC Bank",
+      "sector": "Retail and Commercial Banking",
+      "why": "Leading private bank needing high-availability IT infrastructure, digital workplace services, and hybrid cloud solutions.",
+      "seen_in": "List of banks in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "ICICI Bank",
+      "sector": "Retail and Commercial Banking",
+      "why": "Commercial bank operating large-scale digital banking platforms that require robust cybersecurity and cloud management.",
+      "seen_in": "List of banks in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Axis Bank",
+      "sector": "Retail and Commercial Banking",
+      "why": "Retail and commercial bank reliant on enterprise cloud consulting and hybrid IT infrastructure management.",
+      "seen_in": "Best Banks in India 2026: Top Banks for Residents & Expats",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Bank of Baroda",
+      "sector": "Retail and Commercial Banking",
+      "why": "Public sector commercial bank needing IT infrastructure support and legacy system/mainframe modernization.",
+      "seen_in": "Best Banks in India 2026: Top Banks for Residents & Expats",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Kotak Mahindra Bank",
+      "sector": "Retail and Commercial Banking",
+      "why": "Private banking institution requiring digital workplace solutions and cloud infrastructure consulting.",
+      "seen_in": "Top Banking Companies in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Canara Bank",
+      "sector": "Retail and Commercial Banking",
+      "why": "Large public sector bank requiring network cybersecurity, cloud migration, and enterprise IT management.",
+      "seen_in": "Best Banks in India 2026: Top Banks for Residents & Expats",
+      "domain": "bank.in"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "sector": "Retail and Commercial Banking",
+      "why": "Global financial services firm with high-scale cloud architecture, cybersecurity, and data center management needs.",
+      "seen_in": "Largest banks and bank holding companies by market cap",
+      "domain": "chase.com"
+    },
+    {
+      "company": "ManipalCigna Health Insurance",
+      "sector": "Health Insurance and Payor Organizations",
+      "why": "Health insurer managing sensitive healthcare data requiring specialized cybersecurity and cloud compliance management.",
+      "seen_in": "List of insurance companies in India",
+      "domain": "google.com"
+    },
+    {
+      "company": "Star Health and Allied Insurance",
+      "sector": "Health Insurance and Payor Organizations",
+      "why": "Standalone health insurer needing digital workplace services and cloud infrastructure optimization for claim processing.",
+      "seen_in": "India Health And Medical Insurance Companies",
+      "domain": "google.com"
+    },
+    {
+      "company": "ICICI Lombard",
+      "sector": "Health Insurance and Payor Organizations",
+      "why": "General and health insurance provider requiring enterprise cloud management and customer data security.",
+      "seen_in": "Best Health Insurance Companies in India for 2026",
+      "domain": "icicilombard.com"
+    },
+    {
+      "company": "UnitedHealth Group",
+      "sector": "Health Insurance and Payor Organizations",
+      "why": "Massive healthcare payor relying on modern hybrid cloud infrastructure, mainframe modernization, and enterprise cybersecurity.",
+      "seen_in": "Top 25 Health Insurance Companies in the U.S.",
+      "domain": "unitedhealthgroup.com"
+    },
+    {
+      "company": "CVS Health",
+      "sector": "Health Insurance and Payor Organizations",
+      "why": "Healthcare payor and provider requiring extensive digital workplace, cloud, and cybersecurity infrastructure management.",
+      "seen_in": "Top 25 Health Insurance Companies in the U.S.",
+      "domain": "cvshealth.com"
+    },
+    {
+      "company": "Trinity Health",
+      "sector": "Health Insurance and Payor Organizations",
+      "why": "Large healthcare system needing IT infrastructure management and technology support services.",
+      "seen_in": "Layoff Tracker—Trinity Health outsourcing hits 557 staff",
+      "domain": "trinity-health.org"
+    },
+    {
+      "company": "Bharti Airtel",
+      "sector": "Telecommunications Service Providers",
+      "why": "Major telecommunications provider requiring core network IT management, cloud consulting, and enterprise cybersecurity.",
+      "seen_in": "Top 10 Telecom Service Providers in India (Updated)",
+      "domain": "airtel.in"
+    },
+    {
+      "company": "Vodafone Idea",
+      "sector": "Telecommunications Service Providers",
+      "why": "Telecom operator seeking cost-effective IT infrastructure management and digital workplace transformation.",
+      "seen_in": "Vodafone Idea flags Airtel’s 5G priority plans; Jio backs network slicing",
+      "domain": "myvi.in"
+    },
+    {
+      "company": "BSNL",
+      "sector": "Telecommunications Service Providers",
+      "why": "State-owned telecommunications firm needing legacy infrastructure modernization and nationwide IT network management.",
+      "seen_in": "India Telecom MNO Companies - Top Players' List",
+      "domain": "bsnl.in"
+    },
+    {
+      "company": "Reliance Jio",
+      "sector": "Telecommunications Service Providers",
+      "why": "Large-scale telecom operator relying on modern enterprise cloud architecture and continuous cybersecurity monitoring.",
+      "seen_in": "Top 10 Telecom Service Providers in India (Updated)",
+      "domain": "jio.com"
+    },
+    {
+      "company": "Tata Communications",
+      "sector": "Telecommunications Service Providers",
+      "why": "Global digital ecosystem enabler requiring hybrid cloud infrastructure management and cybersecurity integration.",
+      "seen_in": "Top 10 Telecom Service Providers in India (Updated)",
+      "domain": "tatacommunications.com"
+    },
+    {
+      "company": "Tata Motors",
+      "sector": "Automotive and Heavy Machinery Manufacturing",
+      "why": "Automotive manufacturer requiring smart factory cloud solutions, digital workplace tools, and ERP infrastructure support.",
+      "seen_in": "Automotive industry in India",
+      "domain": "tatamotors.com"
+    }
+  ]
+}

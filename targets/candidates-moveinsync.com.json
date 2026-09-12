@@ -1,0 +1,169 @@
+{
+  "client": "MoveInSync",
+  "client_domain": "moveinsync.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Business Process Outsourcing (BPO) and Contact Centers",
+      "why_they_buy": "They operate 24/7 multi-shift operations requiring safe, round-the-clock employee transit, strict safety compliance for late-night shifts, and automated multi-vendor cab billing.",
+      "example_of_a_buyer": "A global BPO enterprise with 5,000+ employees operating 24/7 customer support centers across multiple delivery hubs in India or Southeast Asia."
+    },
+    {
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why_they_buy": "They run massive captive technology facilities for global parent companies and need automated AI routing and centralized fleet management to optimize high commute spending across thousands of engineers.",
+      "example_of_a_buyer": "A US Fortune 500 retail corporation's offshore technology center employing 3,000+ staff on staggered shift schedules across multiple office towers."
+    },
+    {
+      "sector": "Commercial Banking and Financial Operations",
+      "why_they_buy": "They maintain large back-office processing and market-clearing operations with late-night shifts that demand end-to-end live tracking, security escort integration, and complete audit compliance.",
+      "example_of_a_buyer": "A multinational bank operating a centralized operational hub with 2,000+ back-office employees working rotational and late-night shifts."
+    },
+    {
+      "sector": "Healthcare Administrative and Revenue Cycle Services",
+      "why_they_buy": "They rely on high-volume, round-the-clock physical office teams for medical coding and claims processing that depend on managed, automated shuttle and cab fleets to ensure shift punctuality.",
+      "example_of_a_buyer": "A healthcare administrative services firm with 1,500+ night-shift medical coders operating out of a centralized campus."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Genpact",
+      "sector": "Business Process Outsourcing (BPO) and Contact Centers",
+      "why": "Large global BPO firm operating high-density delivery centers in India requiring employee transportation.",
+      "seen_in": "Top 10 BPO Companies in India",
+      "domain": "genpact.com"
+    },
+    {
+      "company": "WNS",
+      "sector": "Business Process Outsourcing (BPO) and Contact Centers",
+      "why": "Major business process management company with substantial shift-based call center operations in India.",
+      "seen_in": "Top 50 call centers in India",
+      "domain": "wns.com"
+    },
+    {
+      "company": "Teleperformance",
+      "sector": "Business Process Outsourcing (BPO) and Contact Centers",
+      "why": "Global BPO provider employing a massive contact center workforce across multiple office sites.",
+      "seen_in": "Teleperformance wants all BPO staff to be AI-enabled",
+      "domain": "tp.com"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Financial institution operating extensive Global Capability Centers across major Indian tech hubs.",
+      "seen_in": "Top Global Capability Centers in Bengaluru | PDF",
+      "domain": "chase.com"
+    },
+    {
+      "company": "Goldman Sachs",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Investment bank with a large global capability and engineering presence in India.",
+      "seen_in": "Top Global Capability Centers in Bengaluru | PDF",
+      "domain": "goldmansachs.com"
+    },
+    {
+      "company": "Wells Fargo",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Operates large financial and technology delivery centers in India with substantial employee headcounts.",
+      "seen_in": "Top Global Capability Centers in Bengaluru | PDF",
+      "domain": "wellsfargo.com"
+    },
+    {
+      "company": "Morgan Stanley",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Financial services firm maintaining substantial capability center operations in India.",
+      "seen_in": "Top Global Capability Centers in Bengaluru | PDF",
+      "domain": "morganstanley.com"
+    },
+    {
+      "company": "Microsoft",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Technology giant maintaining large global development centers and corporate campuses in India.",
+      "seen_in": "Top Bangalore Global Capability Centers (GCCs ...",
+      "domain": "microsoft.com"
+    },
+    {
+      "company": "Amazon",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Global e-commerce and cloud enterprise with large corporate campuses and development centers in India.",
+      "seen_in": "Top Bangalore Global Capability Centers (GCCs ...",
+      "domain": "amazon.com"
+    },
+    {
+      "company": "Bosch",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Engineering conglomerate running major R&D and capability centers in Bangalore.",
+      "seen_in": "Top Bangalore Global Capability Centers (GCCs ...",
+      "domain": "bosch.us"
+    },
+    {
+      "company": "Siemens",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Industrial tech company maintaining ER&D and manufacturing capability facilities in Bengaluru.",
+      "seen_in": "Complete List of Global Capability Centers (GCC) in India",
+      "domain": "siemens.com"
+    },
+    {
+      "company": "Honeywell",
+      "sector": "Global Capability Centers (GCCs) and Offshore R&D",
+      "why": "Industrial and technology enterprise operating Global Capability Centers in India.",
+      "seen_in": "Complete List of Global Capability Centers (GCC) in India",
+      "domain": "honeywell.com"
+    },
+    {
+      "company": "ICICI Bank",
+      "sector": "Commercial Banking and Financial Operations",
+      "why": "Large private bank with extensive corporate office networks and operational facilities across India.",
+      "seen_in": "List of top Banking & Finance companies hiring in India",
+      "domain": "bank.in"
+    },
+    {
+      "company": "Bajaj Finance",
+      "sector": "Commercial Banking and Financial Operations",
+      "why": "Major non-banking financial enterprise employing large operational teams across commercial offices.",
+      "seen_in": "Top 10 Banking And Finance Companies (BFSI Companies)",
+      "domain": "bajajfinserv.in"
+    },
+    {
+      "company": "Standard Chartered",
+      "sector": "Commercial Banking and Financial Operations",
+      "why": "International bank operating large offshore technology and shared services hubs in India.",
+      "seen_in": "FACTBOX India's largest banking and financial services tech hubs",
+      "domain": "sc.com"
+    },
+    {
+      "company": "Revolut",
+      "sector": "Commercial Banking and Financial Operations",
+      "why": "Fintech company expanding its Global Capability Center in India to thousands of staff.",
+      "seen_in": "Revolut to base 40% of its global workforce in India by 2026",
+      "domain": "revolut.com"
+    },
+    {
+      "company": "Access Healthcare",
+      "sector": "Healthcare Administrative and Revenue Cycle Services",
+      "why": "Healthcare RCM BPO operating large delivery facilities for medical billing and accounts receivable.",
+      "seen_in": "Access Healthcare | Transforming Revenue Cycle Management",
+      "domain": "accesshealthcare.com"
+    },
+    {
+      "company": "R1 RCM",
+      "sector": "Healthcare Administrative and Revenue Cycle Services",
+      "why": "Healthcare revenue cycle management company running outsourced operational delivery centers.",
+      "seen_in": "Top 10 Healthcare RCM Companies for 2026",
+      "domain": "r1rcm.com"
+    },
+    {
+      "company": "Firstsource",
+      "sector": "Healthcare Administrative and Revenue Cycle Services",
+      "why": "BPO service provider managing healthcare administrative and revenue cycle operational teams.",
+      "seen_in": "Firstsource and Prosper AI Partner to Advance Healthcare Revenue Cycle Management with Next-Level Voice AI Capabilities",
+      "domain": "firstsource.com"
+    },
+    {
+      "company": "TruBridge",
+      "sector": "Healthcare Administrative and Revenue Cycle Services",
+      "why": "Healthcare revenue cycle firm establishing a dedicated Global Capability Center in Chennai.",
+      "seen_in": "TruBridge Launches Chennai Global Capability Center (GCC) to Accelerate Healthcare Revenue Cycle Innovation and Operational Excellence",
+      "domain": "trubridge.com"
+    }
+  ]
+}

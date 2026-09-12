@@ -1,41 +1,169 @@
 {
   "client": "ZyLab",
   "client_domain": "zylab.ai",
-  "min_score": 5,
-  "resolved": true,
-  "queries": [
-    "site:linkedin.com/jobs \"video editor\" \"tiktok ads\"",
-    "site:lever.co OR site:boards.greenhouse.io \"product photographer\"",
-    "site:apply.workable.com \"creative strategist\" \"meta ads\"",
-    "inurl:careers \"product photography\" \"dtc\"",
-    "site:linkedin.com/jobs \"ugc creator\" \"e-commerce\"",
-    "site:linkedin.com/jobs \"content creator\" \"shopify\"",
-    "site:boards.greenhouse.io \"video editor\" \"performance marketing\""
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Direct-to-Consumer (D2C) Apparel and Footwear Brands",
+      "why_they_buy": "They constantly launch seasonal SKUs and require a continuous high volume of visual ad creative to prevent ad fatigue on social channels without traditional photoshoot costs.",
+      "example_of_a_buyer": "A 10-employee online activewear brand running heavy Meta and TikTok ad campaigns that needs fast studio-style lifestyle photos and short promo videos for monthly collection drops."
+    },
+    {
+      "sector": "Cosmetics and Skincare Brands",
+      "why_they_buy": "Their marketing heavily relies on high-quality visual proof, lifestyle imagery, and promotional video variations for fast-paced social media testing.",
+      "example_of_a_buyer": "An e-commerce skincare startup with 5 to 25 employees scaling paid social ad spend while lacking a full-time in-house creative production team."
+    },
+    {
+      "sector": "Performance Marketing and Social Media Agencies",
+      "why_they_buy": "They manage ad creative for multiple retail and D2C clients and need to rapidly generate and scale video and image ad variations to maintain client ROI.",
+      "example_of_a_buyer": "A 10-person boutique digital agency specializing in paid social campaigns for a portfolio of Shopify-based consumer brands."
+    },
+    {
+      "sector": "Consumer Health and Nutrition Brands",
+      "why_they_buy": "Frequent new product launches and bundle promotions demand fresh product packshots and promo video clips to maintain high conversion rates online.",
+      "example_of_a_buyer": "A bootstrapped dietary supplement brand with under 20 employees that regularly launches new flavors and needs promotional video assets for digital marketing."
+    }
   ],
-  "note": "These queries surface direct-to-consumer brands and ad agencies currently hiring for manual photo and video content creation, but they will not filter out enterprise brands with larger budgets.",
-  "results_seen": 69,
-  "rejected_count": 63,
-  "rejection_reasons": {
-    "not a company - a host, a form link or a social post": 26,
-    "no signal in the snippet": 37
-  },
   "candidates": [
     {
-      "company": "Dr.Delagen",
-      "domain": "drdelagen.com",
-      "score": 8,
-      "name_from": "title",
-      "evidence": [
-        "Active visual ad campaigns on social media",
-        "Job openings for Content Creators or Video Editors"
-      ],
-      "title": "Dr.Delagen hiring AI Expert Video Editor Meta Ads | Higgsfield ...",
-      "snippet": "Meta & Tiktok Ads Specialist (Paid Ads). teraleads. Pakistan 8 hours ago. AI ... Video Editor / Content Creator / Social Media Video Editor. Video Editor / ...",
-      "link": "https://pk.linkedin.com/jobs/view/ai-expert-video-editor-meta-ads-higgsfield-google-flow-runaway-etc-at-dr-delagen-4431931934",
-      "date": "",
-      "query": "site:linkedin.com/jobs \"video editor\" \"tiktok ads\"",
-      "hits": 1,
-      "domain_source": "https://drdelagen.com/?srsltid=AfmBOor3Z_HizZQrnQYpRG2HuYICfD89EYEUkXk1Tf4Xz1IBAbH0yKox"
+      "company": "82°E",
+      "sector": "Direct-to-Consumer (D2C) Skincare & Cosmetics",
+      "why": "D2C skincare brand requiring frequent product photography and promotional video content for e-commerce and social channels.",
+      "seen_in": "122 D2C Brands That Are Disrupting India's Consumer ...",
+      "domain": "82e.com"
+    },
+    {
+      "company": "Bacca Bucci",
+      "sector": "Direct-to-Consumer (D2C) Footwear",
+      "why": "D2C footwear brand that needs AI-powered product photography and promotional videos to market its shoe collections.",
+      "seen_in": "122 D2C Brands That Are Disrupting India's Consumer ...",
+      "domain": "baccabucci.com"
+    },
+    {
+      "company": "Arata",
+      "sector": "Direct-to-Consumer (D2C) Personal Care",
+      "why": "Direct-to-consumer hair and skin care brand requiring ongoing video and visual assets for digital marketing.",
+      "seen_in": "India's Top D2C Brands Reshaping Retail with Innovation ...",
+      "domain": "arata.in"
+    },
+    {
+      "company": "Snitch",
+      "sector": "Direct-to-Consumer (D2C) Menswear",
+      "why": "Fast-growing D2C menswear brand requiring high-volume product photography and promotional videos for fast-changing apparel catalogs.",
+      "seen_in": "Snitch Raises $40M to Scale Offline Stores and Expand Globally",
+      "domain": "snitch.com"
+    },
+    {
+      "company": "Bewakoof",
+      "sector": "Direct-to-Consumer (D2C) Apparel",
+      "why": "E-commerce fashion brand with an extensive catalog needing scalable product photography and promotional video assets.",
+      "seen_in": "Top Companies in D2C Apparel Brands (Jul, 2026)",
+      "domain": "bewakoof.com"
+    },
+    {
+      "company": "Everlane",
+      "sector": "Direct-to-Consumer (D2C) Apparel",
+      "why": "Online apparel retailer that continuously creates product media and promotional campaigns for its clothing lines.",
+      "seen_in": "Top Companies in D2C Apparel Brands (Jul, 2026)",
+      "domain": "everlane.com"
+    },
+    {
+      "company": "The Souled Store",
+      "sector": "Direct-to-Consumer (D2C) Apparel",
+      "why": "Pop-culture clothing brand needing frequent product photography and video ads for digital marketing campaigns.",
+      "seen_in": "Top Companies in D2C Apparel Brands (Jul, 2026)",
+      "domain": "thesouledstore.com"
+    },
+    {
+      "company": "Crepdog Crew",
+      "sector": "Streetwear & Sneaker Retail",
+      "why": "Streetwear fashion brand relying heavily on visual product imagery and promo videos to scale e-commerce sales.",
+      "seen_in": "Crepdog Crew Targets ₹600 Crore Revenue as India’s Premium Streetwear Giant Accelerates Expansion",
+      "domain": "crepdogcrew.com"
+    },
+    {
+      "company": "Insight Cosmetics",
+      "sector": "Cosmetics",
+      "why": "Beauty brand rapidly expanding its footprint, requiring frequent product photography and social promotional videos.",
+      "seen_in": "Insight Cosmetics to scale to 60 EBOs by 2026, accelerates offline expansion",
+      "domain": "insightcosmetics.in"
+    },
+    {
+      "company": "Mamaearth",
+      "sector": "Cosmetics & Skincare",
+      "why": "D2C personal care brand relying on continuous digital media creation, promotional videos, and product visuals across channels.",
+      "seen_in": "Top 50 Cosmetic Brands in India Complete List 2026",
+      "domain": "mamaearth.in"
+    },
+    {
+      "company": "Plum",
+      "sector": "Direct-to-Consumer (D2C) Beauty & Skincare",
+      "why": "Pureplay beauty and skincare brand requiring ongoing product photography and digital ad videos for expansion.",
+      "seen_in": "Beauty brand Plum plans fresh fundraise to fuel offline expansion",
+      "domain": "plumgoodness.com"
+    },
+    {
+      "company": "RAS Luxury Skincare",
+      "sector": "Premium Skincare",
+      "why": "D2C luxury skincare brand requiring high-quality product photography and engaging social media video content.",
+      "seen_in": "How RAS Luxury Skincare Is Spearheading the Clean Luxury Beauty Movement in India and Beyond",
+      "domain": "rasluxuryoils.com"
+    },
+    {
+      "company": "SUGAR Cosmetics",
+      "sector": "Cosmetics",
+      "why": "Color cosmetics brand requiring constant product photography, video tutorials, and promo content for digital channels.",
+      "seen_in": "Best Makeup Products & Brands in India (2026 List)",
+      "domain": "sugarcosmetics.com"
+    },
+    {
+      "company": "Typsy Beauty",
+      "sector": "Cosmetics",
+      "why": "Makeup brand requiring high-volume promotional videos, product photography, and digital marketing content.",
+      "seen_in": "Best Makeup Products & Brands in India (2026 List)",
+      "domain": "typsybeauty.com"
+    },
+    {
+      "company": "WATConsult",
+      "sector": "Performance & Social Media Marketing Agency",
+      "why": "Digital agency producing high-volume social video and visual content for diverse client ad campaigns.",
+      "seen_in": "Top 7 Performance Marketing Agencies in India",
+      "domain": "watconsult.com"
+    },
+    {
+      "company": "Social Beat",
+      "sector": "Performance Marketing & Social Media Agency",
+      "why": "Performance and video marketing agency needing scalable media generation tools for client campaigns.",
+      "seen_in": "Top 7 Performance Marketing Agencies in India",
+      "domain": "socialbeat.in"
+    },
+    {
+      "company": "Schbang",
+      "sector": "Digital Marketing Agency",
+      "why": "Digital marketing agency executing full-funnel content and social media campaigns requiring video and photo production tools.",
+      "seen_in": "Top 10 Performance Marketing Agencies in India for D2C…",
+      "domain": "schbang.com"
+    },
+    {
+      "company": "iProspect India",
+      "sector": "Performance Marketing Agency",
+      "why": "Performance agency managing digital ad campaigns that need continuous video and image creative generation.",
+      "seen_in": "Top 7 Performance Marketing Agencies in India",
+      "domain": "iprospect.com"
+    },
+    {
+      "company": "Wellbeing Nutrition",
+      "sector": "Direct-to-Consumer (D2C) Health & Supplements",
+      "why": "D2C health supplement brand needing clean product photography and promotional video marketing for health products.",
+      "seen_in": "Wellbeing Nutrition is a D2C nutraceutical company, offering ...",
+      "domain": "wellbeingnutrition.com"
+    },
+    {
+      "company": "Forest Essentials",
+      "sector": "Skincare & Cosmetics",
+      "why": "Luxury skincare brand needing high-end product photography and promotional video content for e-commerce marketing.",
+      "seen_in": "Top 50 Cosmetic Brands in India Complete List 2026",
+      "domain": "forestessentialsindia.com"
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "client": "Xoxoday",
+  "client_domain": "xoxoday.com",
+  "company_name": "L&T Technology Services",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 2,
+    "top_score": 7,
+    "pain_hypothesis": "As LTTS expands its regional office footprint with 1,100 new seats and reshapes its talent structure for AI engineering, the HR and leadership teams face increased complexity in manually driving employee engagement, recognition, and performance incentives across growing teams.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "scaling team recognition in pune",
+      "body": "Now that LTTS is adding over 1,100 seats in Pune, your regional footprint is growing quickly.\n\nWhen teams expand at this pace, managing employee recognition and incentive distribution manually often starts to break down.\n\nWhat is currently breaking for you when it comes to keeping employee engagement and rewards aligned across your expanding locations?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Smartworks expanded its partnership with L&T Technology Services by adding over 1,100 seats in Pune.",
+      "trigger_link": "Adding over 1,100 new office seats in Pune increases the operational burden of manually managing employee recognition and engagement programs across expanding teams.",
+      "word_count": 56,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "incentive tracking during workforce shifts",
+      "body": "As engineering organizations shift toward AI-led models, traditional performance incentive structures and recognition programs usually fail to keep up with new role metrics.\n\nHR and operations leaders often find themselves managing fragmented spreadsheets and delayed reward approvals during these workforce shifts.\n\nDoes that match what you are seeing at LTTS, or is incentive management running smoothly?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "LTTS is reshaping its workforce structure and hiring strategy to adapt to AI-led engineering.",
+      "trigger_link": "Reshaping workforce structures for AI engineering requires updated performance incentive and recognition workflows to retain and motivate evolving tech talent.",
+      "word_count": 58,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "automated recognition for expanded teams",
+      "body": "With LTTS expanding by over 1,100 seats in Pune, managing employee engagement across growing offices requires more administrative effort.\n\nIf we brought you software to automate employee recognition and reward payouts across all your locations, would you be open to taking a brief look?\n\nTaking a look costs nothing and commits you to nothing.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Smartworks expanded its partnership with L&T Technology Services by adding over 1,100 seats in Pune.",
+      "trigger_link": "Expanding regional seat capacity requires streamlined software to handle employee rewards and recognition without administrative friction.",
+      "word_count": 56,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Noticed LTTS is reshaping its workforce strategy for AI-led engineering. Would love to connect and follow your team's growth.",
+      "trigger_used": "LTTS is reshaping its workforce structure and hiring strategy to adapt to AI-led engineering.",
+      "trigger_link": "Reshaping talent strategy creates opportunities to rethink how employee performance and rewards are handled.",
+      "char_count": 125,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting! With LTTS expanding by over 1,100 seats in Pune, I'm curious—how are you currently handling employee recognition and rewards across your growing team locations?",
+      "trigger_used": "Smartworks expanded its partnership with L&T Technology Services by adding over 1,100 seats in Pune.",
+      "trigger_link": "Adding 1,100 new seats creates logistical complexity for employee recognition programs.",
+      "char_count": 183,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "We are currently building automated incentive and recognition systems for engineering teams adapting to AI workflows. As we learn what works best for peer companies during this transition, would you be interested if I shared those insights with you?",
+      "trigger_used": "LTTS is reshaping its workforce structure and hiring strategy to adapt to AI-led engineering.",
+      "trigger_link": "Workforce restructuring around AI engineering requires rethinking engagement models, making cross-industry insights valuable.",
+      "char_count": 249,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "'over 1,100 seats in pune,' appears in 3 of 6 messages (limit 2) - the batch reads like one sentence pasted repeatedly"
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "domain": "ares.com",
+  "client": "Octus",
+  "client_domain": "octus.com",
+  "checked_against": "icp-octus.com.md",
+  "result": {
+    "company_name": "Ares Management (ares.com)",
+    "what_they_do": "Ares Management is an alternative asset manager operating in bank loans, high-yield bonds, direct lending, private credit, and middle-market investments.",
+    "size": {
+      "estimate": "Not specified in search results",
+      "evidence": "Search results mention investment programs and career fields but do not disclose exact employee count or AUM figures [41, 44].",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Private Credit & CLO Asset Management",
+      "in_icp": true,
+      "why": "Ares actively pursues opportunities in bank loans, high-yield bonds, direct lending, and other forms of corporate credit [43, 45].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Careers page advertising roles in Credit.",
+      "evidence": "Ares careers page lists active hiring/roles within their Credit practice group [41].",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None explicitly mentioned for Ares Management",
+      "evidence": "The search results do not state which credit market intelligence tools or covenant databases Ares currently uses.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Ares Management strictly matches the primary ICP segment of Private Credit Asset Management, focusing on direct lending and non-investment grade corporate credit, with active hiring in Credit.",
+    "could_not_find": [
+      "Exact full-time headcount or total AUM metrics for Ares Management",
+      "Current credit analytics software platforms used internally by Ares analysts"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Investor Relations Career: Work, Salaries, and Exits",
+      "snippet": "At large, public companies, “investor relations” normally means fielding shareholder questions, preparing documents and presentations for earnings reports, ...",
+      "link": "https://mergersandinquisitions.com/investor-relations-career/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Financial Communications & Investor Relations Consulting",
+      "snippet": "Our investor relations consultants make sure that clients have the support of their financial stakeholders, both on an ongoing basis and through major ...",
+      "link": "https://www.teneo.com/service/strategy-communications/investor-relations-and-financial-communications/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Investor relations",
+      "snippet": "Investor relations (IR) is a \"strategic management responsibility that is capable of integrating finance, communication, marketing and securities law ...",
+      "link": "https://en.wikipedia.org/wiki/Investor_relations",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Investor Relations Strategy Consulting",
+      "snippet": "We solve for the most common investor relations pitfalls with a proven five-step approach. If business-as-usual investor relations is a one-way street, our ...",
+      "link": "https://www.bain.com/consulting-services/strategy/investor-relations-strategy/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Have Investors? Here Is How To Manage Investor Relations",
+      "snippet": "What are Investor Relations? · Communicating with the company on behalf of investors and vice versa. · Reporting relevant financial and ...",
+      "link": "https://www.forafinancial.com/blog/small-business/manage-investor-relations/",
+      "date": "Jan 8, 2020"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Investor Relations (IR) on Corporate Websites",
+      "snippet": "Both individual and professional investors want the company's own story and investment vision. Investor relations (IR) is one of the \"Big 4 ...",
+      "link": "https://www.nngroup.com/articles/investor-relations-ir/",
+      "date": "May 24, 2009"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "When does a company hire an outside investor relations ...",
+      "snippet": "When does a company hire an outside investor relations firm?",
+      "link": "https://www.quora.com/When-does-a-company-hire-an-outside-investor-relations-firm",
+      "date": "12 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "The role of Investor Relations (IR) in listed companies ...",
+      "snippet": "When Investor Relations is involved early and regarded as a strategic partner, it helps companies strengthen long-term value creation. At DHL ...",
+      "link": "https://www.linkedin.com/posts/melaniekreis_the-role-of-investor-relations-ir-in-listed-activity-7479881723296559104-7SEP",
+      "date": "2 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Investor Relations Management",
+      "snippet": "Investor relations management is the process of building and maintaining ... ✓ Headcount: Is your team growing in line with your company's expansion?",
+      "link": "https://www.linkedin.com/top-content/business-strategy/systematic-investment-planning/investor-relations-management/",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn Announces Fourth Quarter and Full Year 2015 ...",
+      "snippet": "In addition, a supplemental presentation will be made available on the investor relations section of the LinkedIn website at http://investors.",
+      "link": "https://news.linkedin.com/2016/linkedin-announces-fourth-quarter-and-full-year-2015-results",
+      "date": "Feb 4, 2016"
+    },
+    {
+      "asking_about": "size",
+      "title": "Tiffany Willis - Global Investor Relations Executive",
+      "snippet": "Tiffany Willis. Global Investor Relations Executive | Board & C-Suite Advisor | Communications & Governance Leader | Adjunct Professor | Keynote Speaker | ...",
+      "link": "https://www.linkedin.com/in/tiffanywilliscpa",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Ascent Investor Relations LLC",
+      "snippet": "About us ; Website: http://www.ascent-ir.com. External link for Ascent Investor Relations LLC ; Industry: Financial Services ; Company size: 11-50 employees.",
+      "link": "https://www.linkedin.com/company/ascent-investors-relations-llc",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "10-K",
+      "snippet": "We webcast our earnings calls and certain events we participate in or host with members of the investment community on our investor relations website.",
+      "link": "https://www.sec.gov/Archives/edgar/data/1271024/000127102416000035/a20151231-10xkdocument.htm",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "LinkedIn Employee Statistics (2026): Headcount And ...",
+      "snippet": "... LinkedIn's pressroom, Microsoft Investor Relations, and Revelio Labs. LinkedIn Employee Statistics: Key Figures. 17,500+Full-time employees ...",
+      "link": "https://www.makerstations.io/linkedin-employee/",
+      "date": "Jul 29, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Scott Kozak - Director of Investor Relations",
+      "snippet": "Director, Investor Relations, Marketing & Employee Engagement. Assure ... Allianz is a global leader in the financial services industry with 156,000 employees in ...",
+      "link": "https://www.linkedin.com/in/scotthlkozak",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Investor Relations in the Age of AI: Why LinkedIn Belongs in the IR ...",
+      "snippet": "Outlined below are five primary ways public companies can use LinkedIn to support their investor relations programs: ... The platform is not limited to an ...",
+      "link": "https://www.igbir.com/investor-relations-in-the-age-of-ai-why-linkedin-belongs-in-the-ir-toolkit/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Private Credit Portfolio Analytics & Deal Intelligence",
+      "snippet": "Investor Relations. Investor Portal · Fundraising. Investment Management ... Compare your deals against the private credit market on leverage, interest coverage, ...",
+      "link": "https://www.allvuesystems.com/solutions/portfolio-intelligence/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Lending Solutions",
+      "snippet": "Combine market intelligence, reference data, analytics, and workflow ... Investor Relations; Overview(opens in a new tab) · News Releases(opens in a new ...",
+      "link": "https://www.spglobal.com/market-intelligence/en/solutions/lending-solutions",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Private Credit Under the Microscope – Separating ...",
+      "snippet": "Utilizing leveraged loan data, we find that credit episode was ... Investor Relations · Media Inquiries · Diversity & Inclusion · Careers.",
+      "link": "https://privatebank.jpmorgan.com/nam/en/insights/markets-and-investing/private-credit-under-the-microscope-separating-headlines-from-fundamentals",
+      "date": "Mar 12, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Hebbia | AI built for the rigor of finance",
+      "snippet": "... Credit investor relations / SEC filings — confirmed (company-disclosed; FDIC application pending, approval timeline multi-year per management)Nov-2025 ...",
+      "link": "https://www.hebbia.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Private credit database for firms and investors",
+      "snippet": "Global private credit data, insights, and market intelligence. Preqin Pro ... Strengthen investor relations · Drive deeper performance analysis · Find ...",
+      "link": "https://www.preqin.com/data/private-credit",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Research",
+      "snippet": "... Investor Relations · News · Sponsorship. Other IB websites. Barclays Indices · Barclays Investment Managers · Barclays Japan · Barclays Live · BARX · BARX ...",
+      "link": "https://www.ib.barclays/research.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "LPC Data - Syndicated Loans | Data Analytics",
+      "snippet": "Essential capital markets analysis and intelligence, covering the ... Investor Relations · Office locations · Security Centre · LSEG home page. Privacy ...",
+      "link": "https://www.lseg.com/en/data-analytics/investment-banking/lpc",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "US leveraged loans opened 2026 with negative January ...",
+      "snippet": "... credit ratings, setting up investor relations departments to liaise with creditors and constant monitoring of leverage ratios and other loan ...",
+      "link": "https://www.facebook.com/PitchBookData/posts/us-leveraged-loans-opened-2026-with-negative-january-returns-and-weakness-concen/1244842627815007/",
+      "date": "5 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Private Credit Portfolio Analytics & Deal Intelligence",
+      "snippet": "Investor Relations. Investor Portal · Fundraising. Investment Management ... Compare your deals against the private credit market on leverage, interest coverage, ...",
+      "link": "https://www.allvuesystems.com/solutions/portfolio-intelligence/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Lending Solutions",
+      "snippet": "Combine market intelligence, reference data, analytics, and workflow ... Investor Relations; Overview(opens in a new tab) · News Releases(opens in a new ...",
+      "link": "https://www.spglobal.com/market-intelligence/en/solutions/lending-solutions",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Private Credit Under the Microscope – Separating ...",
+      "snippet": "Utilizing leveraged loan data, we find that credit episode was ... Investor Relations · Media Inquiries · Diversity & Inclusion · Careers.",
+      "link": "https://privatebank.jpmorgan.com/nam/en/insights/markets-and-investing/private-credit-under-the-microscope-separating-headlines-from-fundamentals",
+      "date": "Mar 12, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Private credit database for firms and investors",
+      "snippet": "Global private credit data, insights, and market intelligence. Preqin Pro ... Strengthen investor relations · Drive deeper performance analysis · Find ...",
+      "link": "https://www.preqin.com/data/private-credit",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Best Investor Relations (IR) Software Reviews 2026",
+      "snippet": "Nasdaq IR Insight is a software designed to support investor relations professionals by providing tools for monitoring, analyzing, and managing shareholder data ...",
+      "link": "https://www.gartner.com/reviews/market/investor-relations-ir-software",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Research",
+      "snippet": "... Investor Relations · News · Sponsorship. Other IB websites. Barclays Indices · Barclays Investment Managers · Barclays Japan · Barclays Live · BARX · BARX ...",
+      "link": "https://www.ib.barclays/research.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "LPC Data - Syndicated Loans | Data Analytics",
+      "snippet": "Essential capital markets analysis and intelligence, covering the ... Investor Relations · Office locations · Security Centre · LSEG home page. Privacy ...",
+      "link": "https://www.lseg.com/en/data-analytics/investment-banking/lpc",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "PEI Private Credit",
+      "snippet": "PEI Private Credit is the world's leading business intelligence platform for private credit markets. ... Investor Relations Network. Financial Services. London, ...",
+      "link": "https://uk.linkedin.com/showcase/pei-private-credit/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Market Intelligence | S&P Global",
+      "snippet": "\"Investor Relations Solutions. Investor Relations Solutions · M&A ... How AI can help analysts focus on credit decisions rather than data gathering and ...",
+      "link": "https://www.spglobal.com/market-intelligence/en",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Expert Insights with Clemens Thym: Turn AI-Driven Data into Trusted ...",
+      "snippet": "Join Clemens Thym, Head of Credit Solutions, S&P Global Market Intelligence ... Investor Relations; Overview(opens in a new tab) · News Releases(opens in a new ...",
+      "link": "https://www.spglobal.com/market-intelligence/en/news-insights/videos/turn-ai-driven-data-into-trusted-credit-risk-decisions-expert-insights-with-clemens-thym",
+      "date": "Jun 16, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Private Credit Portfolio Analytics & Deal Intelligence - Allvue Systems",
+      "snippet": "Investor Relations. Investor Portal · Fundraising ... MCP for Nexius Intelligence brings that dataset directly into the AI tools your team already uses ...",
+      "link": "https://www.allvuesystems.com/solutions/portfolio-intelligence/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "ICE Private Credit Intelligence",
+      "snippet": "Investor Relations · Contact · Careers ... By interacting with this website, you also consent to the uses and disclosures as described in the Privacy Policy.",
+      "link": "https://status.ice.com/private-credit",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "CreditCompanion boosts credit research efficiency with AI-powered ...",
+      "snippet": "How can sell-side credit research keep pace with faster decision cycles and fragmented data? Our latest case study explores how CreditCompanion™, ...",
+      "link": "https://www.linkedin.com/posts/s%26p-global-market-intelligence_creditcompanion-ai-credit-activity-7442978818568421376-4u68",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Intercontinental Exchange Launches ICE Private Credit Intelligence ...",
+      "snippet": "Apollo Global Management, Inc. Investor Relations · Overview · News & Events · Overview · Press Releases · Events · Presentations · 2025 ...",
+      "link": "https://ir.apollo.com/news-events/press-releases/detail/613/intercontinental-exchange-launches-ice-private-credit",
+      "date": "Mar 17, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "spgi-20201231 - SEC.gov",
+      "snippet": "Access to more than 10 years of the Company's filings made with the SEC is available through the Company's Investor Relations website. Go to http://investor.",
+      "link": "https://www.sec.gov/Archives/edgar/data/64040/000006404021000063/spgi-20201231.htm",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Top 25 Generative AI Finance Use Cases - AIMultiple",
+      "snippet": "In a case study, the investor relations team anticipates a strong market reaction to the company's quarterly financial results and needs to ...",
+      "link": "https://aimultiple.com/generative-ai-finance",
+      "date": "Sep 2, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Ares Management",
+      "snippet": "Apply for roles in Credit, Private Equity, Real Assets, Secondaries, Wealth Management, Technology and Corporate Functions—each",
+      "link": "https://www.ares.com/us/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Early Careers - Ares Management",
+      "snippet": "Explore Opportunities at Ares. Summer Internship Program is. All majors are welcome. We aspire to attract and hire the best talent from the broadest pipelines ...",
+      "link": "https://www.ares.com/us/careers/early-careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Creating enduring value through the power of relationships",
+      "snippet": "Founding of Ares. Ares is established to pursue opportunities in bank loans, high yield bonds, direct lending and other forms of credit and structured equity.",
+      "link": "https://www.ares.com/us/who-we-are/our-story",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Ares Management",
+      "snippet": "Ares Diversified Credit Fund (CADC) is a continuously offered, diversified, unlisted closed-end management investment company. Careers A team built on ...",
+      "link": "https://www.ares.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Ares Capital Corporation: Investor Relations",
+      "snippet": "Ares Capital is a leading specialty finance company focused on providing direct loans and other investments in private middle market companies",
+      "link": "https://arcc.ares.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Josh Jobs - Ares Management",
+      "snippet": "Jobs is a Managing Director in the Ares Global Client Solutions Group, where he focuses on consultant client management in North America.",
+      "link": "https://www.ares.com/us/who-we-are/our-people/josh-jobs-801187",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Michael Lynton - Ares Management",
+      "snippet": "Mr. Lynton is a Director of Ares Management Corporation. Mr. Lynton currently serves as the Chairman of Snap Inc., Warner Music Group and Schrödinger, ...",
+      "link": "https://www.ares.com/us/who-we-are/our-people/michael-lynton-michael-lynton-0",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "News and Insights - Ares Management",
+      "snippet": "interested in learning more about Ares, its services, and investment opportunities. offered, diversified, unlisted closed-end management investment company",
+      "link": "https://www.ares.com/us/news-and-insights",
+      "date": ""
+    }
+  ]
+}

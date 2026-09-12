@@ -1,0 +1,23 @@
+{
+  "company_name": "UnitedHealth Group",
+  "triggers": [
+    {
+      "fact": "Optum appointed Shobhit Varshney as Chief AI Officer to lead the organization's AI strategy and platform in August 2026.",
+      "source_page": "https://www.digitalhealthnews.com/unitedhealth-group-optum-strengthens-ai-leadership-with-shobhit-varshney-s-appointment",
+      "relevance_score": 5
+    },
+    {
+      "fact": "UnitedHealth Group's careers portal lists 497 open Technology job roles, including positions in network infrastructure, security and risk, and architecture.",
+      "source_page": "https://careers.unitedhealthgroup.com",
+      "relevance_score": 5
+    },
+    {
+      "fact": "UnitedHealthcare launched an AI companion application called Avery on March 26, 2026, to handle coverage details, cost estimates, and care scheduling.",
+      "source_page": "https://www.unitedhealthgroup.com/newsroom/2026/2026-03-26-uhc-introduces-ai-companion-empowering-people-with-simpler-navigation-personal-experience.html",
+      "relevance_score": 4
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "UnitedHealth Group requires extensive IT infrastructure management, cloud consulting, and cybersecurity support to reliably power its expanding digital applications and enterprise AI platforms.",
+  "no_trigger_found": false
+}

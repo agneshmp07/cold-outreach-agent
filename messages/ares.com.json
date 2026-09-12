@@ -1,0 +1,87 @@
+{
+  "client": "Octus",
+  "client_domain": "octus.com",
+  "company_name": "Ares Management",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 5,
+    "top_score": 8,
+    "pain_hypothesis": "As Ares expands its credit practice and deploys billions in new debt capital, investment teams face increased pressure to efficiently analyze legal documents, covenants, and credit market news across large volumes of deals.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "asset-based finance expansion at Ares",
+      "body": "With Ares deploying $12.7 billion in asset-based finance, your investment teams are likely scaling deal execution and portfolio oversight.\n\nWhen managing debt documentation, legal covenants, and credit market news at this volume, what usually breaks first in your review workflow?\n\nWe build Octus to help credit teams streamline covenant tracking and deal document review.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[8/10] Ares Management Corporation raised $12.7 billion to invest in asset-based finance.",
+      "trigger_link": "Deploying a large asset-based finance fund increases the volume of legal documents and credit covenants the team needs to monitor.",
+      "word_count": 56,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "credit practice workflows at Ares",
+      "body": "When credit practices scale rapidly, tracking debt covenants and parsing complex legal documents across private credit deals usually gets fragmented across spreadsheets and manual feeds.\n\nDoes that match what you are seeing as Ares recruits for open roles across its credit practice, or do you already have a smooth workflow for document review?\n\nAt Octus, we are building a credit market intelligence and document management platform specifically for sub-investment grade debt.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[7/10] Ares is actively recruiting professionals for open roles within its Credit practice.",
+      "trigger_link": "As Ares hires new credit professionals, standardizing legal document review and covenant tracking across expanding deal teams becomes challenging.",
+      "word_count": 73,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "Asia credit deal analysis",
+      "body": "Following E.G. Morse taking on leadership of Asia credit at Ares, your regional credit operations are likely scaling deal evaluation.\n\nIf we brought you automated covenant analysis and credit document tools tailored for debt deals in your market, would you be willing to look at it? A yes commits you to nothing—we are early stage at Octus and looking for direct feedback from credit leaders.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[6/10] Ares appointed E.G. Morse as partner and head of Asia credit.",
+      "trigger_link": "Expanding Asia credit leadership requires tracking regional debt documentation and covenant intelligence efficiently.",
+      "word_count": 67,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw Brent Canada took on Head of Infrastructure Debt at Ares. Would love to connect as we build tools for credit deal docs and covenants.",
+      "trigger_used": "[6/10] Ares appointed Brent Canada as Head of Ares Infrastructure Debt.",
+      "trigger_link": "New leadership in infrastructure debt involves managing large volumes of debt documentation and covenants.",
+      "char_count": 137,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. As Ares recruits for open roles in its Credit practice, how are your teams currently parsing legal documents and tracking deal covenants? Is that mostly handled manually today?",
+      "trigger_used": "[7/10] Ares is actively recruiting professionals for open roles within its Credit practice.",
+      "trigger_link": "Recruiting new credit professionals creates a need for consistent document intelligence and covenant tracking tools.",
+      "char_count": 199,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Noticed Ares Capital established a $1B commercial paper program. We are building Octus for debt document tools and covenant tracking. As we build, happy to share what we learn about market document workflows if you are open to it.",
+      "trigger_used": "[5/10] Ares Capital Corporation established a $1 billion commercial paper program to issue short-term, unsecured notes.",
+      "trigger_link": "Issuing commercial paper and managing credit facilities requires efficient market data and credit intelligence.",
+      "char_count": 230,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": []
+}

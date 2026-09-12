@@ -1,0 +1,18 @@
+{
+  "company_name": "HPS Investment Partners",
+  "triggers": [
+    {
+      "fact": "BlackRock completed its acquisition of HPS Investment Partners on July 1, 2025, expanding its private market capabilities.",
+      "source_page": "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-acquires-hps-investment-partners",
+      "relevance_score": 6
+    },
+    {
+      "fact": "HPS Investment Partners manages $197B in assets under management specializing in private and liquid credit.",
+      "source_page": "https://hpspartners.com",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "Managing $197B in alternative credit across private and liquid debt markets requires active monitoring of covenants, restructuring data, and legal documentation across complex loan portfolios.",
+  "no_trigger_found": false
+}

@@ -5,46 +5,66 @@
   "checked_against": "icp-zylab.ai.md",
   "result": {
     "company_name": "Dr.Delagen",
-    "what_they_do": "Sells Korean-inspired physical skincare products, such as collagen masks, directly to consumers via their online store.",
+    "what_they_do": "Dr.Delagen (formerly Skynflow) is a D2C skincare brand that manufactures and sells physical beauty and skincare products, such as collagen night masks.",
     "size": {
-      "estimate": "NOT FOUND",
-      "evidence": "Search results mention hiring positions like Talent Manager and Customer Care Manager, but do not state total employee count.",
+      "estimate": "Unknown",
+      "evidence": "Search results mention a 'fast-growing company in the skincare and e-commerce sector' but do not state the exact headcount [20].",
       "status": "NOT FOUND"
     },
     "segment": {
       "best_match": "E-commerce & Direct-to-Consumer (D2C)",
       "in_icp": true,
-      "why": "The company operates an e-commerce site selling physical consumer products (collagen skincare masks) directly to retail customers [5, 10, 23].",
-      "status": "ASSERTED"
+      "why": "They are a direct-to-consumer e-commerce brand selling physical consumer products requiring lifestyle photography and ad visuals [3], [8], [20].",
+      "status": "VERIFIED"
     },
     "signal": {
+      "found": true,
+      "what": "Actively recruiting brand ambassadors/influencers and running social media campaigns on Facebook and Instagram.",
+      "evidence": "[2], [5], [18]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
       "found": false,
-      "what": "No specific ICP buying signal (Meta/TikTok ad library campaigns, job postings for Content Creators/Video Editors, or frequent new SKU drops) was confirmed.",
-      "evidence": "Search results show social media posts and ambassador calls [20, 21], but no evidence from Meta/TikTok Ad Library, job listings for Content Creators/Video Editors [23], or frequent SKU drops.",
+      "what": "No specific AI media generation software or done-for-you content agencies mentioned in search results.",
+      "evidence": "N/A",
       "status": "NOT FOUND"
     },
     "disqualifiers": [],
-    "verdict": "UNCLEAR",
-    "reason": "Dr.Delagen fits the E-commerce & D2C segment as a physical skincare product seller [10, 23], but company size is unknown and no explicit buying signal from the ICP list was verified in the results.",
+    "verdict": "PROCEED",
+    "reason": "Dr.Delagen fits the primary ICP segment as a D2C e-commerce brand selling physical skincare products that need ongoing visual marketing assets, with active social media presence and ambassador recruitment signals.",
     "could_not_find": [
-      "Exact employee count to verify if they fall within the 2-50 employee limit.",
-      "Explicit evidence of active social media ad campaigns (e.g. Meta Ad Library) or job postings specifically for Content Creators or Video Editors."
+      "Exact employee count to verify they fall in the 2-50 employee range.",
+      "Whether they currently subscribe to any AI video generation or product photography software."
     ]
   },
   "evidence": [
     {
       "asking_about": "what they do",
       "title": "Skynflow is now Dr.Delagen®",
-      "snippet": "Skynflow is now Dr.Delagen®. Over the past months, unauthorized sellers began using the Skynflow name on Amazon to market cheap imitations that were not from us ...",
-      "link": "https://drdelagen.com/en-gb/pages/skynflow-is-now-dr-delagen?srsltid=AfmBOop_1rh-geR6GpMLOffqzItHHnBwJYeRPhzxRfVOZ4zIGv8XQnUL",
+      "snippet": "... Skynflow is now Dr.Delagen. Free US shipping with orders $60+. 60 Day Money Back Guarantee. Skynflow is now Dr.Delagen. Free US shipping with orders $60+ ...",
+      "link": "https://drdelagen.com/?srsltid=AfmBOop-Mg5RmW83K5nDnc9hHq6XI6Z18vBow-6oXr3fEvymHZZRFZIj",
       "date": ""
     },
     {
       "asking_about": "what they do",
       "title": "Skynflow is now Dr. Delagen. Discover why we rebranded—and ...",
       "snippet": "Skynflow is now Dr. Delagen. Discover why we rebranded—and explore our upgraded formula drdelagen.com.",
-      "link": "https://www.facebook.com/drdelagen/posts/skynflow-is-now-dr-delagen-discover-why-we-rebrandedand-explore-our-upgraded-for/122220311498590699/",
+      "link": "https://www.facebook.com/drdelagen/posts/skynflow-is-now-dr-delagen-discover-why-we-rebrandedand-explore-our-upgraded-for/122220311198590699/",
+      "date": "Jun 30, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Collagen and niacinamide restoring night mask – Dr.Delagen",
+      "snippet": "Skynflow is now Dr.Delagen: upgraded formula 2.0 and new look! See what ... By “improved,” we do not mean that the formula has been fundamentally changed.",
+      "link": "https://drdelagen.com/en-eu/products/overnight-hydrolyzed-collagen-mask?srsltid=AfmBOoqhgkN4JcOBE1SzaIqMy6fwzNxrK_m8crcN-23OsFe-uDCUdbl1",
       "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Skynflow Is Now Dr.Delagen: Real Skincare Or Overstated Beauty ...",
+      "snippet": "Skynflow is now Dr.Delagen. The real collagen mask has ambitious wrinkle claims, mixed guarantee periods, documentary hurdles, and possible ...",
+      "link": "https://malwaretips.com/blogs/skynflow-dr-delagen-real-skincare-overstated-beauty-claims/",
+      "date": "6 days ago"
     },
     {
       "asking_about": "what they do",
@@ -52,6 +72,13 @@
       "snippet": "Skynflow is Now Dr.Delagen. 14K followers. 32 following. Korean ... ‍♀️ Just peel, chill, and let it do its magic. Ready to level ...",
       "link": "https://www.instagram.com/drdelagen/",
       "date": "Jun 29, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Who we are – Dr.Delagen",
+      "snippet": "Skynflow is now Dr.Delagen. Free US shipping with orders $60+. 60 Day ... Moreover, our commitment to ethical beauty is absolute: we do not test on ...",
+      "link": "https://drdelagen.com/pages/about-us?srsltid=AfmBOorA522AM4U-Z8_dQRiwYxACWQAZ01HsUPx7a62yUplV51e7X9fu",
+      "date": ""
     },
     {
       "asking_about": "what they do",
@@ -63,30 +90,9 @@
     {
       "asking_about": "what they do",
       "title": "Skynflow is now Dr.Delagen®",
-      "snippet": "Skynflow is now Dr.Delagen. Free US shipping with orders $60+. 60 Day ... I find the mask is fantastic, do it 3 times a week and my skin is soft to touch.",
-      "link": "https://drdelagen.com/?srsltid=AfmBOorONVHwXrmnNV-YHyggcODfEsKmxvrWkqCdSScJVo8b_VoV1-Yt",
+      "snippet": "Skynflow is now Dr.Delagen®. Over the past months, unauthorized sellers began using the Skynflow name on Amazon to market cheap imitations that were not from us ...",
+      "link": "https://drdelagen.com/en-au/pages/skynflow-is-now-dr-delagen?srsltid=AfmBOorXUBJ3xc_FA08nzdCC4aphItJDswoK68alVOzBgC4aCfFyZyKU",
       "date": ""
-    },
-    {
-      "asking_about": "what they do",
-      "title": "Skynflow is NOW @drdelagen ... - Instagram",
-      "snippet": "If you see Skynflow products on random websites or marketplaces, they are not the original ones. Skynflow is now Dr.Delagen #drdelagen #skynflow · June 27.",
-      "link": "https://www.instagram.com/reel/DarFaR0SXRA/",
-      "date": ""
-    },
-    {
-      "asking_about": "what they do",
-      "title": "B0tox who?? Just wrap your face in collagen with the Korean ...",
-      "snippet": "... co/Hphcbv NIDA Skincare. 00:09. Get my faves here ➡️ http ... I'm glowing more than I did when I was twenty. Are we joking? This ...",
-      "link": "https://www.facebook.com/drdelagen/videos/rebrand-offer-b3g3-free-gifts-/2045542789426855/",
-      "date": "Jun 26, 2026"
-    },
-    {
-      "asking_about": "what they do",
-      "title": "Skynflow Is Now Dr.Delagen: Real Skincare Or Overstated Beauty ...",
-      "snippet": "Skynflow is now Dr.Delagen. The real collagen mask has ambitious wrinkle claims, mixed guarantee periods, documentary hurdles, and possible ...",
-      "link": "https://malwaretips.com/blogs/skynflow-dr-delagen-real-skincare-overstated-beauty-claims/",
-      "date": "4 days ago"
     },
     {
       "asking_about": "size",
@@ -98,22 +104,8 @@
     {
       "asking_about": "size",
       "title": "Skynflow is now Dr.Delagen®",
-      "snippet": "Innovative Korean products to simplify your skincare routine. Skynflow is now Dr.Delagen. Expert skincare for your face, inspired by Korean Beauty ・ info@ ...",
-      "link": "https://drdelagen.com/?srsltid=AfmBOorN5k9m_C0A8SR0510C9nccs6lxIoaAX9vywIphIXclmI7IGTMQ",
-      "date": ""
-    },
-    {
-      "asking_about": "the problem area",
-      "title": "Skynflow is Now Dr.Delagen on Instagram",
-      "snippet": "... products on random websites or marketplaces, they are not the original ones. Skynflow is now Dr.Delagen #drdelagen #skynflow\".",
-      "link": "https://www.instagram.com/reel/DaGFf86M85-/",
-      "date": "Jun 27, 2026"
-    },
-    {
-      "asking_about": "the problem area",
-      "title": "Skynflow is now Dr.Delagen®",
-      "snippet": "Skynflow is now Dr.Delagen. Free US shipping with orders $60+. 60 Day ... This product is not intended to diagnose, treat, cure or prevent any disease.",
-      "link": "https://drdelagen.com/?srsltid=AfmBOorQLg45Gcwhg83a04Lsq05SFVNR1wCQIgueCQsfzlJ-Da0XCXMT",
+      "snippet": "Discover the latest biotechnologies and innovations in the world of skincare: your skin will be the envy of everyone!",
+      "link": "https://drdelagen.com/?srsltid=AfmBOoq6y6Uj30QTkq8wn-8gDFqx2tstVI2OCtJK3lgrC9CslDcc8B5h",
       "date": ""
     },
     {
@@ -121,27 +113,13 @@
       "title": "Skynflow Is Now Dr.Delagen: Real Skincare Or Overstated Beauty ...",
       "snippet": "Skynflow is now Dr.Delagen. The real collagen mask has ambitious wrinkle claims, mixed guarantee periods, documentary hurdles, and possible ...",
       "link": "https://malwaretips.com/blogs/skynflow-dr-delagen-real-skincare-overstated-beauty-claims/",
-      "date": "4 days ago"
+      "date": "6 days ago"
     },
     {
       "asking_about": "the problem area",
       "title": "Customer Reviews – Dr.Delagen",
       "snippet": "Skynflow is now Dr.Delagen. Free US shipping with orders $60+. 60 Day ... Am very happy with the products. Anonymous review photo. E. Elaine Drake ...",
-      "link": "https://drdelagen.com/pages/customer-reviews?srsltid=AfmBOoqP7QSbqKP3_7grjqDmXgNqGg3bPyXhHjWPpTZ8LArq2eSH7ClY",
-      "date": ""
-    },
-    {
-      "asking_about": "the signal",
-      "title": "Skynflow is Now Dr.Delagen on Instagram",
-      "snippet": "... products on random websites or marketplaces, they are not the original ones. Skynflow is now Dr.Delagen #drdelagen #skynflow\".",
-      "link": "https://www.instagram.com/reel/DaGFf86M85-/",
-      "date": "Jun 27, 2026"
-    },
-    {
-      "asking_about": "the signal",
-      "title": "Skynflow is now Dr.Delagen®",
-      "snippet": "Skynflow is now Dr.Delagen. Free US shipping with orders $60+. 60 Day ... This product is not intended to diagnose, treat, cure or prevent any disease.",
-      "link": "https://drdelagen.com/?srsltid=AfmBOopc8uXnmYf2D8hxUPKbjHK3CKFigcjwtbp9H-JBS04exgrifF-K",
+      "link": "https://drdelagen.com/pages/customer-reviews?srsltid=AfmBOoo6VlWWq4QBmTyzf0-p-xqWO1PGHNHbPPBQqrP2qThQoZz8MDmI",
       "date": ""
     },
     {
@@ -149,69 +127,76 @@
       "title": "Skynflow Is Now Dr.Delagen: Real Skincare Or Overstated Beauty ...",
       "snippet": "Skynflow is now Dr.Delagen. The real collagen mask has ambitious wrinkle claims, mixed guarantee periods, documentary hurdles, and possible ...",
       "link": "https://malwaretips.com/blogs/skynflow-dr-delagen-real-skincare-overstated-beauty-claims/",
-      "date": "4 days ago"
+      "date": "6 days ago"
     },
     {
       "asking_about": "the signal",
       "title": "Customer Reviews – Dr.Delagen",
       "snippet": "Skynflow is now Dr.Delagen. Free US shipping with orders $60+. 60 Day ... Am very happy with the products. Anonymous review photo. E. Elaine Drake ...",
-      "link": "https://drdelagen.com/pages/customer-reviews?srsltid=AfmBOop5_qeLLAUGl55MqM7jg6hh0cT53KkWQe8yezCvtcq4Gp5XnpjW",
+      "link": "https://drdelagen.com/pages/customer-reviews?srsltid=AfmBOooepSERqaY2sDeulehu1mikdaCDqsjkriq7NQ8DG4xMXZoQUJMq",
       "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Skynflow is now Dr. Delagen. Discover why we rebranded—and ...",
+      "snippet": "Skynflow is now Dr. Delagen. Discover why we rebranded—and explore our upgraded formula drdelagen.com.",
+      "link": "https://www.facebook.com/drdelagen/posts/skynflow-is-now-dr-delagen-discover-why-we-rebrandedand-explore-our-upgraded-for/122220311198590699/",
+      "date": "Jun 30, 2026"
     },
     {
       "asking_about": "careers page",
       "title": "Who we are – Dr.Delagen",
       "snippet": "Our mission is to support you on your skincare journey with smart, high-performance solutions for healthy, glowing skin wherever you are.",
-      "link": "https://drdelagen.com/pages/about-us?srsltid=AfmBOopqUUwRYV5JrVQljwNSYzpFJK26oimbEum7AWsLBhDDKMBfWy00",
+      "link": "https://drdelagen.com/pages/about-us?srsltid=AfmBOooYyk5G1JtOoTxdYnz3kjx-ZSu7vui3WTSiPk4oBl-YPBlhEO8H",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "Ambassador Do's / Don'ts – Dr.Delagen",
-      "snippet": "Ambassador Do's. DO: Post original Skynflow content daily on any social media platform (Instagram, TikTok, FaceBook, Snapchat, YouTube, X, Pinterest, LTK, ...",
-      "link": "https://drdelagen.com/pages/ambassador-rules?srsltid=AfmBOoqioc-btCWv_BJS_Vtnk-9QgOfLiUEt2_3hc1lqey_4491P8uSi",
+      "snippet": "Ask live host about any order issues on Skynflow live, spam comment, accuse live host of “ignoring” questions, or be offensive to the brand or live host in any ...",
+      "link": "https://drdelagen.com/pages/ambassador-rules?srsltid=AfmBOoo5pnUduB-tRBIinf7ojPEfZ-KMrOROI-FgMNgGKK_wDBPVVhyB",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "We're looking for Brand Ambassadors – Dr.Delagen",
-      "snippet": "We're looking for enthusiastic brand ambassadors and influencers to represent our brand and share our vision with the world. Fill out the form below",
-      "link": "https://drdelagen.com/pages/looking-for-brand-ambassadors?srsltid=AfmBOopVYsgmzHKi5I8f93K8gE1EiLMgsAcfxaoedY1RDccgkoT6ALl4",
+      "snippet": "We're looking for enthusiastic brand ambassadors and influencers to represent our brand and share our vision with the world. Fill out the form below and tell us ...",
+      "link": "https://drdelagen.com/pages/looking-for-brand-ambassadors?srsltid=AfmBOorilYivPcyUkT7NxP1ei6mGhdzvbwSX44aSssVo2v71np7D67nn",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "5 Reasons Why Skynflow Night Mask Is The Perfect Holiday Gift",
-      "snippet": "It works for every skin type and every aging concern: dark spots, fine lines, saggy skin, and dryness. Skynflow Collagen Mask is suitable for ...",
-      "link": "https://drdelagen.com/pages/5rw-gift?srsltid=AfmBOoqvtQsnm-v7XEa4SpJ1Yk1FMoRXGCEesoOpkv3vRUP5J5sCNrXV",
+      "snippet": "Skynflow Collagen Mask is suitable for all skin types and all ages. You don't need to worry about the ingredients, as they are safe even for the ...",
+      "link": "https://drdelagen.com/pages/5rw-gift?srsltid=AfmBOorSXG1DJfv3MJhpUg4YfMbpSo7Ce-devWzhOZHqDIBc9LBxG4Vc",
       "date": "Nov 27, 2025"
     },
     {
       "asking_about": "careers page",
       "title": "Work with us – Dr.Delagen",
-      "snippet": "Welcome to the SkynFlow Careers section! We are a fast-growing company in the skincare and e-commerce sector, Customer Care Manager : Talent Manager : to look ...",
-      "link": "https://drdelagen.com/pages/work-with-us?srsltid=AfmBOorIaqDan2pdZlrb1-W4lVjqMdBwgw5HXpMvkL-KOfBJYCggLoxd",
+      "snippet": "Welcome to the SkynFlow Careers section! We are a fast-growing company in the skincare and e-commerce sector, and we believe that success comes from the ...",
+      "link": "https://drdelagen.com/pages/work-with-us?srsltid=AfmBOooQtyEJmPo68wwmDDUDYpgEFW9D2ia7IoNWTU936djcqc5NMSc8",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "Customer Reviews – Dr.Delagen",
-      "snippet": "Before & After and Skincare Advisor for 40+ With consistent use, the formulation will diminish the look of sagging skin, fine lines, and wrinkles. All of my ...",
-      "link": "https://drdelagen.com/pages/customer-reviews?srsltid=AfmBOorgWYk3UZ1xmZ2gY5l0I6bU9-qvo4dXz4XF0JOMRlmotZvphIn3",
+      "snippet": "I'm 51 and have lost over 100 lbs in the last 14 months. I love a lot about that except what is happening to my neck. With this cream, I noticed some results ...",
+      "link": "https://drdelagen.com/pages/customer-reviews?srsltid=AfmBOoohc_VycdZi1xfXqd_ZBSuc9GTqYirA6Gd1ltCMCaK3HXKr20u_",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "Contact us – Dr.Delagen",
-      "snippet": "Our support team is available Monday to Sunday, from 9:00 AM to 7:00 PM. Mon – Fri / 9:00 AM – 5:00 PM. We are looking for Brand Ambassadors",
-      "link": "https://drdelagen.com/pages/contact-us?srsltid=AfmBOooxH43UBw9lXDMV-wLoWn7d2M_AAXIF8H8LOMOtEMeBbsKE6s9J",
+      "snippet": "Our support team is available Monday to Sunday, from 9:00 AM to 7:00 PM (GMT+8). Send us a message.",
+      "link": "https://drdelagen.com/pages/contact-us?srsltid=AfmBOooAg7K7b17cWCdZMelsjjoSSyeh7-pHe-2IlU6Tz5BHcObapTOG",
       "date": ""
     },
     {
       "asking_about": "careers page",
       "title": "The only one solution that work – Dr.Delagen",
       "snippet": "This Liquid-to-Film Matrix created a physical network that held my skin in place all night, visibly flattening and filling out my stubborn expression lines in ...",
-      "link": "https://drdelagen.com/pages/testimonial-v1?srsltid=AfmBOoq-cT03T0TcsmydEIRBgI3gKvfiexOAp_cXucm3BzPKYoVvoI_Z",
+      "link": "https://drdelagen.com/pages/testimonial-v1?srsltid=AfmBOoqx0WnziR4k-XDjb645xNk_vEpbynP-dO4lM9dEBdOVrFU2787f",
       "date": ""
     }
   ]

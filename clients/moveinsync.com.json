@@ -1,0 +1,27 @@
+{
+  "domain": "moveinsync.com",
+  "name": "MoveInSync",
+  "one_liner": "MoveInSync provides software and managed fleet operations to automate enterprise employee transportation.",
+  "what_you_sell": "SaaS platform (MoveInSync Ion) for employee commute scheduling, routing, and automated billing, alongside end-to-end managed fleet transportation services (MoveInSync One).",
+  "target_group": "MoveInSync sells to large enterprise businesses with heavy office-based or multi-shift workforces that provide transportation for their employees. They target Facility Managers, Workplace Operations Heads, and Corporate Security Directors at organizations with over 1,000 employees. Good prospects manage vendor fleets, corporate cabs, or fixed-route shuttles across multiple office locations.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Enterprise employees booking rides, drivers operating corporate cabs or shuttles, and workplace transport administrators.",
+  "who_pays_for_it": "Enterprise organizations that manage and fund commute transportation for their workforce.",
+  "who_buys_it": "Heads of Workplace Operations, Facility Managers, and Corporate Safety & Security Directors at large enterprises.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-moveinsync.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims a guaranteed 20%+ cost reduction on employee transport.",
+    "Claims 99% automated routing and billing.",
+    "Claims to be the world's largest employee commute platform with 400+ enterprise clients.",
+    "Claims a ~50% market share in the employee transportation space.",
+    "Claims a fleet of 9,500+ vehicles including 925+ EVs."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

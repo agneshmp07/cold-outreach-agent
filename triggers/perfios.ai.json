@@ -1,0 +1,23 @@
+{
+  "company_name": "Perfios",
+  "triggers": [
+    {
+      "fact": "Perfios appointed Veena Rao as Chief Operating Officer to drive global FinTech expansion and scale international operations.",
+      "source_page": "https://ibsintelligence.com/ibsi-news/perfios-ai-taps-veena-rao-as-coo-to-fuel-global-fintech-expansion/",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Perfios appointed Nitin Chugh as Managing Director and Group CEO to lead its next phase of growth.",
+      "source_page": "https://bfsi.eletsonline.com/perfios-appoints-nitin-chugh-as-md-group-ceo-to-drive-next-phase-of-growth/",
+      "relevance_score": 5
+    },
+    {
+      "fact": "Perfios employs over 1,400 staff members and operates across 18+ international countries.",
+      "source_page": "https://perfios.ai/careers",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As Perfios expands its operations and leadership globally across 18+ markets, managing flexible workspace and regional office footprint for over 1,400 employees creates operational complexity.",
+  "no_trigger_found": false
+}

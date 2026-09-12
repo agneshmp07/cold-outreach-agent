@@ -1,0 +1,27 @@
+{
+  "domain": "milton.com",
+  "name": "Zainab Azim for Mayor of Milton",
+  "one_liner": "A municipal campaign site promoting Zainab Azim for Mayor of Milton, Ontario.",
+  "what_you_sell": "The website does not sell any product or service; it is a political campaign website for Zainab Azim's 2026 candidacy for Mayor of Milton.",
+  "target_group": "The campaign targets residents, voters, and political donors located in Milton, Ontario ahead of the 2026 municipal election. A good prospect is a local resident interested in municipal governance, transit improvements, and local economic growth. The campaign does not sell products or services to businesses.",
+  "sells_to_businesses": false,
+  "b2c_note": "There is no commercial business side to this organisation, as it is a municipal political campaign focused entirely on local voters and residents.",
+  "business_model": "direct",
+  "who_uses_it": "Milton residents, voters, and volunteers visiting the site to view candidate plans, event schedules, and news updates.",
+  "who_pays_for_it": "Individual campaign donors and financial supporters contributing to the mayoral campaign.",
+  "who_buys_it": "Individual campaign donors and voters in Milton, Ontario.",
+  "sender": "",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-milton.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": false,
+  "_claims_to_check": [
+    "Claims Zainab Azim was named Milton Citizen of the Year in 2022",
+    "Claims she was recognized by the Italian Prime Minister in 2019",
+    "Claims she spoke at the UN World Space Forum in Vienna",
+    "Claims she was Milton's youngest-ever Official Bellringer",
+    "Claims hundreds of neighbours attended free events hosted by the campaign"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

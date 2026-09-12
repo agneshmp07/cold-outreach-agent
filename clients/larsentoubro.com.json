@@ -1,0 +1,27 @@
+{
+  "domain": "larsentoubro.com",
+  "name": "Larsen & Toubro Limited",
+  "one_liner": "Larsen & Toubro provides engineering, procurement, construction, heavy manufacturing, and technology services to enterprise and government clients globally.",
+  "what_you_sell": "Engineering, procurement, and construction (EPC) services, heavy manufacturing, precision engineering, defense equipment, and technology consulting services.",
+  "target_group": "Larsen & Toubro sells to large enterprises, energy developers, and government or defense authorities. These buyers operate in heavy industry, energy, utilities, public transit, defense, or high-tech sectors with multi-million dollar project budgets. A good prospect is an enterprise or government entity undertaking large-scale infrastructure, gas compression, defense procurement, or hyperscale data center construction.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Project managers, plant engineers, corporate IT teams, and public infrastructure operators working within L&T-built facilities or systems.",
+  "who_pays_for_it": "Enterprise executives, government procurement authorities, defense agencies, and energy project developers.",
+  "who_buys_it": "Enterprise executives, government procurement authorities, defense agencies, and energy project developers.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-larsentoubro.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "implies it is constructing India's largest NVIDIA B300 AI Factory with Together AI",
+    "claims it will achieve carbon neutrality by 2040 and water neutrality by 2035",
+    "claims to serve customers in more than 50 countries",
+    "claims to employ more than 50,000 professionals globally",
+    "claims Hyderabad Metro Rail is the world's largest metro project in public-private partnership mode"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

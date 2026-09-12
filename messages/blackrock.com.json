@@ -1,0 +1,89 @@
+{
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "company_name": "BlackRock",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 2,
+    "top_score": 7,
+    "pain_hypothesis": "As BlackRock expands its Middle East regional team footprint and oversees more than 100 global office locations, real estate and operations leaders face challenges efficiently provisioning flexible office space and managing enterprise space management technology.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "dubai expansion and office provisioning",
+      "body": "With BlackRock expanding its Middle East technology and digital assets platform from Dubai, regional team footprint is likely growing.\n\nAs you scale teams into new regional hubs, setting up traditional real estate often delays operational onboarding.\n\nWhat usually breaks for your team today when provisioning space for new regional units?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "BlackRock appointed Dixit Joshi as Managing Director for Middle East Technology and Advisory Solutions and Digital Assets in September 2026 to expand its platform from Dubai.",
+      "trigger_link": "Expanding regional operations in Dubai creates an immediate need for flexible office space provisioning.",
+      "word_count": 52,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "space management across global locations",
+      "body": "Managing workspace needs across a global footprint often leads to underutilised long-term leases and fragmented space management tools.\n\nWith BlackRock operating over 100 offices globally, does managing flexible desk allocation and room utilisation across sites match that experience, or do you have a smooth process in place?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "BlackRock operates 100+ offices across over 38 locations globally.",
+      "trigger_link": "Operating 100+ global office locations creates complex challenges around enterprise space management and lease flexibility.",
+      "word_count": 49,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "flexible workspace for middle east expansion",
+      "body": "Following BlackRock's expansion of its technology platform in Dubai, local space demands can be hard to forecast precisely.\n\nIf we brought you flexible, turnkey office space options in the region with zero long-term lease commitment, would you be open to taking a look?\n\nA yes costs nothing and commits you to nothing.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "BlackRock appointed Dixit Joshi as Managing Director for Middle East Technology and Advisory Solutions and Digital Assets in September 2026 to expand its platform from Dubai.",
+      "trigger_link": "Expanding regional hubs requires flexible office space solutions without upfront long-term lease commitments.",
+      "word_count": 54,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw BlackRock's platform expansion in Dubai. Would love to connect as you scale regional operations.",
+      "trigger_used": "BlackRock appointed Dixit Joshi as Managing Director for Middle East Technology and Advisory Solutions and Digital Assets in September 2026 to expand its platform from Dubai.",
+      "trigger_link": "Expanding regional operations in Dubai creates immediate workspace needs.",
+      "char_count": 100,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. Given BlackRock operates over 100 offices globally, how do your operations teams handle overflow headcount when entering new markets before securing long-term space?",
+      "trigger_used": "BlackRock operates 100+ offices across over 38 locations globally.",
+      "trigger_link": "Managing 100+ offices globally requires strategies for handling regional headcount overflow.",
+      "char_count": 188,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "We are currently mapping how enterprise real estate teams across 100+ location footprints handle space utilization. We do not have a report ready yet, but I would be glad to share what we learn as we gather insights. Open to comparing notes?",
+      "trigger_used": "BlackRock operates 100+ offices across over 38 locations globally.",
+      "trigger_link": "Operating 100+ office locations aligns with industry insights on enterprise space management.",
+      "char_count": 241,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "email 1 (trigger-direct): grammar - 'regional team footprint is likely growing' (Missing article or determiner before 'regional team footprint' (e.g., 'the regional team footprint' or 'their regional team footprint').)"
+  ]
+}

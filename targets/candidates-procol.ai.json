@@ -1,0 +1,169 @@
+{
+  "client": "Procol",
+  "client_domain": "procol.ai",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Packaged food and personal care manufacturers",
+      "why_they_buy": "They procure massive volumes of volatile raw ingredients and packaging materials from hundreds of vendors, requiring reverse auctions and ERP integration to protect gross margins.",
+      "example_of_a_buyer": "A multi-factory packaged food enterprise with 1,000+ employees using SAP to source agricultural inputs and flexible packaging through frequent RFQs."
+    },
+    {
+      "sector": "Real estate developers and general construction contractors",
+      "why_they_buy": "They process high volumes of decentralized purchase requests across multiple construction sites and need to reduce PR-to-PO cycle times while running transparent auctions for bulk materials like steel and cement.",
+      "example_of_a_buyer": "A large-scale residential real estate developer with over 250 employees managing multiple concurrent township projects with site-level purchasing needs."
+    },
+    {
+      "sector": "Consumer electronics and home appliance manufacturers",
+      "why_they_buy": "Sourcing multi-item bills of materials across large component supplier networks requires automated workflows and bidding tools to compress purchasing cycle times and lower direct costs.",
+      "example_of_a_buyer": "An established electrical appliance manufacturer with 500+ employees expanding production lines and looking to automate component sourcing and invoice matching."
+    },
+    {
+      "sector": "Agrochemical and specialty chemical producers",
+      "why_they_buy": "High-volume purchasing of chemical feedstocks and regional freight transport demands automated vendor onboarding, compliance tracking, and reverse auctions for transport logistics.",
+      "example_of_a_buyer": "A multi-facility agrochemical company running an enterprise ERP system that procures bulk raw materials and manages complex regional transport routes."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Nestle India",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Major packaged food manufacturer requiring automated purchasing workflows for raw agricultural inputs and packaging materials.",
+      "seen_in": "List of Top Consumer Food Companies in India 2025",
+      "domain": "nestle.in"
+    },
+    {
+      "company": "Britannia Industries",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Large food manufacturing enterprise that needs vendor sourcing and automated accounts payable processing.",
+      "seen_in": "TOP 7 BEST FOOD MANUFACTURING COMPANIES IN ...",
+      "domain": "britannia.co.in"
+    },
+    {
+      "company": "PepsiCo",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Global food and beverage manufacturer setting up new plants and requiring scalable vendor management platforms.",
+      "seen_in": "PepsiCo Bets on India with Rs 5,700 Crore Investment Plan",
+      "domain": "pepsico.com"
+    },
+    {
+      "company": "Emami Agrotech",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Branded foods producer expanding into new product categories, creating large-scale raw material and packaging procurement demands.",
+      "seen_in": "Emami Agrotech Launches WeMe to Dominate India's Snacking Market with ₹750 Crore Investment",
+      "domain": "emamiagrotech.in"
+    },
+    {
+      "company": "Mamaearth",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Fast-growing cosmetic and personal care brand managing third-party manufacturing partners and packaging suppliers.",
+      "seen_in": "Top 50 Cosmetic Brands in India Complete List 2026",
+      "domain": "mamaearth.in"
+    },
+    {
+      "company": "Vasa Cosmetics",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Private label cosmetic manufacturer purchasing chemical raw materials and packaging supplies at volume.",
+      "seen_in": "Top 10 Private Label Cosmetic Manufacturers in India - 2026",
+      "domain": "vasacosmetics.com"
+    },
+    {
+      "company": "Clarion Cosmetics",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Personal care manufacturer requiring streamlined purchase requests and vendor auctions for raw formulations.",
+      "seen_in": "List of Cosmetic Manufacturers in India | PDF",
+      "domain": "clarionindia.in"
+    },
+    {
+      "company": "Dabur India",
+      "sector": "Packaged food and personal care manufacturers",
+      "why": "Consumer goods manufacturer with widespread sourcing requirements for herbal inputs, chemicals, and packaging.",
+      "seen_in": "Personal Care Companies",
+      "domain": "dabur.com"
+    },
+    {
+      "company": "Larsen & Toubro",
+      "sector": "Real estate developers and general construction contractors",
+      "why": "Major engineering and construction contractor managing complex, high-volume procurement of building materials and sub-contractors.",
+      "seen_in": "Reviewing the Top Construction Companies in India in 2026",
+      "domain": "larsentoubro.com"
+    },
+    {
+      "company": "DLF",
+      "sector": "Real estate developers and general construction contractors",
+      "why": "Large real estate developer needing enterprise purchasing software to handle sub-contractor biddings and construction supplies.",
+      "seen_in": "Top Builders in India: Leading Real Estate Developers List",
+      "domain": "dlf.in"
+    },
+    {
+      "company": "Godrej Properties",
+      "sector": "Real estate developers and general construction contractors",
+      "why": "Major property developer that requires efficient vendor sourcing, auctions, and purchase request processing across multiple projects.",
+      "seen_in": "Top 10 Indian Real Estate Developers: Performance and ...",
+      "domain": "godrejproperties.com"
+    },
+    {
+      "company": "Shapoorji Pallonji",
+      "sector": "Real estate developers and general construction contractors",
+      "why": "Diversified construction and engineering company needing automated accounts payable and purchasing workflows.",
+      "seen_in": "Reviewing the Top Construction Companies in India in 2026",
+      "domain": "shapoorjipallonji.com"
+    },
+    {
+      "company": "Sobha",
+      "sector": "Real estate developers and general construction contractors",
+      "why": "Real estate developer and contractor requiring streamlined procurement for raw materials and fittings across housing developments.",
+      "seen_in": "Top Construction - Real Estate Companies in India",
+      "domain": "sobha.com"
+    },
+    {
+      "company": "Oberoi Realty",
+      "sector": "Real estate developers and general construction contractors",
+      "why": "Premium real estate builder needing procurement automation for materials, fixtures, and specialized construction vendors.",
+      "seen_in": "Top 10 Builders in India 2026 | Best Indian Developers",
+      "domain": "oberoirealty.com"
+    },
+    {
+      "company": "BNW Developments",
+      "sector": "Real estate developers and general construction contractors",
+      "why": "Real estate firm executing massive residential construction programs requiring multi-vendor procurement management.",
+      "seen_in": "BNW Developments to build 10,000 homes in UAE",
+      "domain": "bnw.ae"
+    },
+    {
+      "company": "LG Electronics",
+      "sector": "Consumer electronics and home appliance manufacturers",
+      "why": "Global appliances manufacturer building new production plants that require component sourcing and vendor management.",
+      "seen_in": "LG Electronics breaks ground on $600 mn home appliance plant in India",
+      "domain": "lg.com"
+    },
+    {
+      "company": "Samsung Electronics",
+      "sector": "Consumer electronics and home appliance manufacturers",
+      "why": "Major consumer electronics producer requiring automated purchase workflows and supplier management for manufacturing units.",
+      "seen_in": "Top 10 Home Appliances Companies in India",
+      "domain": "samsung.com"
+    },
+    {
+      "company": "Novamax Technologies",
+      "sector": "Consumer electronics and home appliance manufacturers",
+      "why": "Home appliance maker investing in expansion, needing software for raw material, tooling, and component purchasing.",
+      "seen_in": "Novamax Builds Consumer Appliances Portfolio with New DMIC Expansion",
+      "domain": "cleanersolutions.org"
+    },
+    {
+      "company": "Super Plastronics",
+      "sector": "Consumer electronics and home appliance manufacturers",
+      "why": "TV and appliance manufacturer expanding production capacity and managing supplier sourcing for electronic parts.",
+      "seen_in": "Super Plastronics to increase TV making capacity, expand consumer electronics",
+      "domain": "superplastronics.com"
+    },
+    {
+      "company": "Midea Group",
+      "sector": "Consumer electronics and home appliance manufacturers",
+      "why": "Home appliance producer establishing manufacturing operations and setting up local supply chain networks.",
+      "seen_in": "China's Midea Group nears India manufacturing JV for home appliances",
+      "domain": "midea.com"
+    }
+  ]
+}

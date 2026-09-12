@@ -1,0 +1,112 @@
+{
+  "domain": "fabindia.com",
+  "client": "Amazon",
+  "client_domain": "amazon.com",
+  "checked_against": "icp-amazon.com.md",
+  "result": {
+    "company_name": "Fabindia",
+    "what_they_do": "Fabindia is a platform and brand for products made from traditional hand-based techniques, including apparel, garments, and home decor.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "The search results do not mention employee count or revenue size.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Apparel, Footwear, & Fashion Accessories Brands",
+      "in_icp": true,
+      "why": "Fabindia produces and sells physical clothing and fashion products through direct consumer retail and online listings.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "The company operates a direct-to-consumer e-commerce shop featuring a catalog of physical products available for online purchase.",
+      "evidence": "[5][7][8][10]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "NOT FOUND",
+      "evidence": "NOT FOUND",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Fabindia is a physical apparel and fashion brand with an active e-commerce catalog, directly matching the ICP criteria for apparel and consumer goods brands seeking sales channel and fulfillment infrastructure.",
+    "could_not_find": [
+      "Exact employee count to verify if within the 5-200 employee range",
+      "Whether Fabindia currently sells on third-party marketplace platforms or uses external fulfillment services"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Fabindia Blog - Trendy Fashion & Home Decor Tips | Fabindia ...",
+      "snippet": "Fabindia is India's largest private platform for products that are made from traditional techniques, skills and hand-based processes.",
+      "link": "https://blog.fabindia.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Chelsea Boots or Loafers: Which one do stylish men ...",
+      "snippet": "Both have their place, depending on the look you want to achieve [FabIndia Blog]. Is it true that loafers are just fancy slippers for men?",
+      "link": "https://smart.dhgate.com/chelsea-boots-or-loafers-which-one-do-stylish-men-actually-prefer/",
+      "date": "Mar 24, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Fabindia",
+      "snippet": "Fabindia offers careers for fresh graduates, as well as individuals with work experience. Business Finance or Financial Planning. Garment construction and ...",
+      "link": "https://www.fabindia.com/careers?srsltid=AfmBOorltE_C8lB6OAOAFnmc3yJ-XA_DM-eso75Qq09qj7MwUAQyVlW_",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us - Fabindia",
+      "snippet": "Fabindia is India's largest private platform for products ・ links thousands of craft based rural producers ・ skilled, sustainable rural employment,",
+      "link": "https://www.fabindia.com/about-us?srsltid=AfmBOopXG6wwjRyRnukky42_Bs0KSyUWI4M5XmrJaVArpKP6FyWH52hJ",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Multi Cotton Chikankari Hop -About Shirt - Fabindia",
+      "snippet": "Multi Cotton Chikankari Hop -About Shirt for Kids Online from Fabindia at ₹1799. Playful charm meets breathable cotton in this shirt designed for young ...",
+      "link": "https://www.fabindia.com/multi-cotton-chikankari-hop-about-shirt-20253440?srsltid=AfmBOoqP759pc5s8fw6nEJMqtZOg4q_BMHaB-xB7TMljX7fzPzDilGPT",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About FabFamily - Fabindia's Loyalty Program",
+      "snippet": "Welcome to FabFamily—Fabindia's loyalty program with exclusive benefits, Fabcoins, and experiences.",
+      "link": "https://www.fabfamily.fabindia.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Navy Cotton Skip-About Pant for Kids Online at Fabindia",
+      "snippet": "Shop Navy Cotton Skip-About Pant for Kids Online from Fabindia at ₹1399. These cotton trousers are made for everyday wear and are easy and comfortable to wear. ...",
+      "link": "https://www.fabindia.com/navy-cotton-skip-about-pant-20260578?srsltid=AfmBOoo3kdplnVJr6LaT5XLqlQtqjTgfQ5g1aQTVkg0xzPWw06kS2KSK",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Offwhite Cotton Skip-About Pant for Kids Online at Fabindia",
+      "snippet": "Built for daily wear, these cotton pants for boys sit comfortably at the waist with an adjustable fit that feels secure without being tight.",
+      "link": "https://www.fabindia.com/offwhite-cotton-skip-about-pant-20300106?srsltid=AfmBOor43lV-a1UGdVGB8ITTbuVH09AwEXW2cnBG7bKVb3TwzmNitY_1",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Fabindia's Loyalty Program - FabFamily",
+      "snippet": "We may share the information with companies that provide support services to us (such as credit card processors, mailing houses, human resource support, ...",
+      "link": "https://fabfamily.fabindia.com/privacypolicy",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Black Cotton Skip About Pant for Kids Online at Fabindia",
+      "snippet": "These solid cotton pants have a straight leg opening that falls to the ankle, on a half-elasticated waist for easy, comfortable wear.",
+      "link": "https://www.fabindia.com/black-cotton-skip-about-pant-20299802?srsltid=AfmBOorScacwtyGSmOjDHtd_vdNtVsFlDOotJPzCEovxhl_lB9pD8fw_",
+      "date": ""
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "domain": "trinity-health.org",
+  "client": "Kyndryl",
+  "client_domain": "kyndryl.com",
+  "checked_against": "icp-kyndryl.com.md",
+  "result": {
+    "company_name": "ZScaler (trinity-health.org)",
+    "what_they_do": "Trinity Health operates health systems, hospitals, and senior care services. Note that most search results were for Zscaler, Inc. (zscaler.com), a separate cloud security company.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Results for trinity-health.org do not state the employee headcount.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Healthcare and Life Sciences",
+      "in_icp": true,
+      "why": "Trinity Health is a healthcare organization operating regional systems, fitting Healthcare and Life Sciences.",
+      "status": "ASSERTED"
+    },
+    "signal": {
+      "found": false,
+      "what": "NOT FOUND",
+      "evidence": "No buying signals found for trinity-health.org in the search results.",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "NOT FOUND",
+      "evidence": "No existing tool usage found for trinity-health.org in the provided search results.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Most search results (40 out of 48) refer to Zscaler, Inc. (zscaler.com) rather than the target domain trinity-health.org, making it impossible to evaluate the target company accurately.",
+    "could_not_find": [
+      "Search results were predominantly about a different organization (Zscaler Inc.) rather than trinity-health.org",
+      "Exact employee count and IT infrastructure details for Trinity Health (trinity-health.org)"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "what is Zscaler",
+      "snippet": "is it the physical firewall in the cloud ? can someone explain it in layman's terms ?",
+      "link": "https://www.reddit.com/r/Zscaler/comments/17qi6dz/what_is_zscaler/",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "About Zscaler",
+      "snippet": "Learn about Zscaler—our mission to secure users, apps, and data in the cloud, and our vision for a safer, zero trust-driven digital future.",
+      "link": "https://www.zscaler.com/company/about-zscaler",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Zscaler",
+      "snippet": "Zscaler, Inc is an American cloud security company based in San Jose, California. The company offers cloud-based services to protect enterprise networks and ...",
+      "link": "https://en.wikipedia.org/wiki/Zscaler",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Zscaler, Inc.",
+      "snippet": "Zscaler is a leading cloud enterprise security provider helping global businesses adopt zero trust for secure digital transformation.",
+      "link": "https://www.zscaler.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Zscaler",
+      "snippet": "Zscaler (NASDAQ: ZS) is a pioneer and global leader in zero trust security. The world's largest businesses, critical infrastructure organizations, ...",
+      "link": "https://www.linkedin.com/company/zscaler",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What is Zscaler and How Does It Work? 2024 Guide",
+      "snippet": "Zscaler is a cloud-based cybersecurity platform that provides secure internet and application access. It offers services like secure web ...",
+      "link": "https://www.vendr.com/blog/what-is-zscaler",
+      "date": "Feb 10, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Zscaler Inc Company Profile - Overview",
+      "snippet": "Zscaler Inc (Zscaler) is a provider of IT security services. The company offers cloud-based internet security, web security, firewalls, sandboxing, ...",
+      "link": "https://www.globaldata.com/company-profile/zscaler-inc/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What is Zscaler, How it Works, and What it Does for IT ...",
+      "snippet": "Zscaler is a cloud-native security platform that delivers protection and access control from the cloud instead of through traditional ...",
+      "link": "https://technologymatch.com/blog/what-is-zscaler-how-it-works-and-what-it-does-for-it-leaders",
+      "date": "Nov 28, 2025"
+    },
+    {
+      "asking_about": "size",
+      "title": "Zscaler",
+      "snippet": "About us ; Website: https://www.zscaler.com. External link for Zscaler ; Industry: Computer and Network Security ; Company size: 5,001-10,000 employees.",
+      "link": "https://www.linkedin.com/company/zscaler",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Zscaler (ZS) Employee Count & Headcount Trends",
+      "snippet": "Zscaler has 9,069 employees according to LinkedIn, compared with 7,348 reported in its most recent official filings. The LinkedIn figure counts everyone who ...",
+      "link": "https://altindex.com/ticker/zs/employees-linkedin",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Staff People Analytics Analyst - Recruiting at Zscaler",
+      "snippet": "Apply for Staff People Analytics Analyst - Recruiting at Zscaler in San Jose, CA. Full-time Mid-Senior level role. See responsibilities, qualifications ...",
+      "link": "https://www.linkedin.com/jobs/view/staff-people-analytics-analyst-recruiting-at-zscaler-4446115863",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Kamal KC - Staff Software Engineer at Zscaler",
+      "snippet": "Staff Software Engineer at Zscaler · Experience: Zscaler · Education: North Carolina State University · Location: San Jose · 168 connections on LinkedIn.",
+      "link": "https://www.linkedin.com/in/kc002",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Zscaler Employee Directory, Headcount & Staff",
+      "snippet": "Zscaler has approximately 8.9K employees as of July 2026. These team members are located across 6 continents, including North AmericaAsiaEurope. Who are ...",
+      "link": "https://leadiq.com/c/zscaler/5a1d8818240000240061e858/employee-directory",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Lindsey Allen - Global Director, Employee Relations",
+      "snippet": "Experience ; Global Employee Relations Director. Sprinklr. Oct 2025 - Present 1 year ; Sr. Employee Relations Manager, People Relations Business Partner. Zscaler.",
+      "link": "https://www.linkedin.com/in/lindseyallenphr?trk=public_post_comment_actor-image",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Senior Workplace Experience Specialist - Zscaler",
+      "snippet": "Join us at Zscaler. We are looking for a Senior Workplace Experience Specialist to join our team. This is an on-site role based in San Jose, CA ...",
+      "link": "https://www.linkedin.com/jobs/view/senior-workplace-experience-specialist-at-zscaler-4443557546",
+      "date": "Sep 3, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Carlos Rodríguez, PMP®'s Post",
+      "snippet": "As both a F1 enthusiast and a proud Zscaler employee, it's exciting to see our company join forces with the Aston Martin F1 Team.",
+      "link": "https://www.linkedin.com/posts/juancarlosrodriguez17_as-both-a-f1-enthusiast-and-a-proud-zscaler-activity-7476617506904813569-_0mB",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Leading Cloud Enterprise Security Provider for Zero Trust",
+      "snippet": "Zscaler is a leading cloud enterprise security provider helping global businesses adopt zero trust for secure digital transformation.",
+      "link": "https://www.zscaler.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Bill Lapp, Senior Director of Solution Engineering at Zscaler ...",
+      "snippet": "Zscaler helps the world's leading organizations transform their networks for the cloud by establishing fast, secure connections between users ...",
+      "link": "https://www.facebook.com/Zscaler/posts/bill-lapp-senior-director-of-solution-engineering-at-zscaler-discusses-the-chall/10159366320829720/",
+      "date": "5 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zscaler: Leveraging zero trust for cloud connectivity",
+      "snippet": "We take a look at Zscaler, the company helping IT move away from network infrastructure to the cloud using the principles of zero trust.",
+      "link": "https://technologymagazine.com/cloud-and-cybersecurity/zscaler-leveraging-zero-trust-for-cloud-connectivity",
+      "date": "Jul 25, 2022"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Embrace Zero Trust for Public Sector Cybersecurity",
+      "snippet": "Zscaler enables the government and federal cybersecurity by securely connecting users to applications regardless of device, location, or network.",
+      "link": "https://www.zscaler.com/industries/public-sector",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Transform the way your business connects with Zscaler ...",
+      "snippet": "Transform the way your business connects with Zscaler Zero Trust Exchange the world's most trusted cloud native security platform.",
+      "link": "https://www.facebook.com/Sanfertech/posts/transform-the-way-your-business-connects-with-zscaler-zero-trust-exchange-the-wo/1415297523495087/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Cloud Security Specialist - Customer Success Center",
+      "snippet": "Master the Zscaler Zero Trust Exchange. This course empowers administrators to configure ZIdentity, ZIA, ZPA, and ZDX. Gain expertise in device management, ...",
+      "link": "https://customer.zscaler.com/page/cloud-security-specialist",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Zscaler Case Study | National Regulator",
+      "snippet": "Zscaler has improved our user experience by up to 30% for both remote and on-premises employees by reducing latency and improving bandwidth usage. Senior ...",
+      "link": "https://www.zscaler.com/customers/national-government-regulator",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Senior Professional Services Consultant - Zero Trust Cloud ...",
+      "snippet": "Lead enterprise customer engagements implementing Zscaler Zero Trust Cloud and Cloud Connector solutions across AWS, Azure, and GCP.",
+      "link": "https://builtin.com/job/senior-professional-services-consultant/10837926",
+      "date": "Aug 25, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Leading Cloud Enterprise Security Provider for Zero Trust",
+      "snippet": "Zscaler is a leading cloud enterprise security provider helping global businesses adopt zero trust for secure digital transformation.",
+      "link": "https://www.zscaler.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Bill Lapp, Senior Director of Solution Engineering at Zscaler ...",
+      "snippet": "Zscaler helps the world's leading organizations transform their networks for the cloud by establishing fast, secure connections between users ...",
+      "link": "https://www.facebook.com/Zscaler/posts/bill-lapp-senior-director-of-solution-engineering-at-zscaler-discusses-the-chall/10159366320829720/",
+      "date": "5 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zscaler: Leveraging zero trust for cloud connectivity",
+      "snippet": "We take a look at Zscaler, the company helping IT move away from network infrastructure to the cloud using the principles of zero trust.",
+      "link": "https://technologymagazine.com/cloud-and-cybersecurity/zscaler-leveraging-zero-trust-for-cloud-connectivity",
+      "date": "Jul 25, 2022"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Embrace Zero Trust for Public Sector Cybersecurity",
+      "snippet": "Zscaler enables the government and federal cybersecurity by securely connecting users to applications regardless of device, location, or network.",
+      "link": "https://www.zscaler.com/industries/public-sector",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Transform the way your business connects with Zscaler ...",
+      "snippet": "Transform the way your business connects with Zscaler Zero Trust Exchange the world's most trusted cloud native security platform.",
+      "link": "https://www.facebook.com/Sanfertech/posts/transform-the-way-your-business-connects-with-zscaler-zero-trust-exchange-the-wo/1415297523495087/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Cloud Security Specialist - Customer Success Center",
+      "snippet": "Master the Zscaler Zero Trust Exchange. This course empowers administrators to configure ZIdentity, ZIA, ZPA, and ZDX. Gain expertise in device management, ...",
+      "link": "https://customer.zscaler.com/page/cloud-security-specialist",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Zscaler Case Study | National Regulator",
+      "snippet": "Zscaler has improved our user experience by up to 30% for both remote and on-premises employees by reducing latency and improving bandwidth usage. Senior ...",
+      "link": "https://www.zscaler.com/customers/national-government-regulator",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Senior Professional Services Consultant - Zero Trust Cloud ...",
+      "snippet": "Lead enterprise customer engagements implementing Zscaler Zero Trust Cloud and Cloud Connector solutions across AWS, Azure, and GCP.",
+      "link": "https://builtin.com/job/senior-professional-services-consultant/10837926",
+      "date": "Aug 25, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Zscaler Case Study",
+      "snippet": "Discover how Zscaler leverages its unified zero trust platform internally to secure cloud workloads, branch offices, and data while serving ...",
+      "link": "https://www.zscaler.com/customers/zscaler",
+      "date": "Dec 23, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Carrier Customer Case Study - Zscaler, Inc.",
+      "snippet": "Zscaler is universally recognized as the leader in zero trust. Leveraging the largest security cloud on the planet, Zscaler anticipates, secures, and simplifies ...",
+      "link": "https://www.zscaler.com/resources/videos/carrier-accelerates-secure-digital-transformation-zscaler",
+      "date": "May 26, 2023"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Inter Case Study | Customer Stories - Zscaler, Inc.",
+      "snippet": "Zscaler enables us to be both fast-moving and secure. Customer Case Study ...",
+      "link": "https://www.zscaler.com/customers/inter",
+      "date": "Nov 17, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Zscaler CEO: Firewalls Are Going The Way Of The Mainframe - CRN",
+      "snippet": "Zscaler CEO: Firewalls Are Going The Way Of The Mainframe. By ... CyberPower: Case Study - Powering Customer Success. CRN AWARDS. Sign ...",
+      "link": "https://www.crn.com/news/security/zscaler-ceo-firewalls-are-going-the-way-of-the-mainframe",
+      "date": "Jun 16, 2023"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Main Line Health Case Study - Zscaler, Inc.",
+      "snippet": "“With Zscaler, we're able to handle everything—from secure access for staff to vendor management to robust data protection. The zero trust model ensures that ...",
+      "link": "https://www.zscaler.com/customers/main-line-health",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Protecting the Modern Enterprise: Zero Trust Architecture With Zscaler",
+      "snippet": "NTT DATA successfully implemented a Zscaler identity-based zero trust solution to allow employees to work securely anywhere, any time on any device.",
+      "link": "https://www.nttdata.com/en-us/insights/case-studies/zscaler-client-story",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Careem Case Study | Customer Stories - Zscaler, Inc.",
+      "snippet": "Discover how Careem, a ride-hailing pioneer, was able to improve operations, productivity, and security with the Zscaler Zero Trust Exchange.",
+      "link": "https://www.zscaler.com/customers/careem",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Transform the way your business connects with Zscaler Zero Trust ...",
+      "snippet": "Secure Digital Transformation | Zscaler Cloud Security. Ben Monk and ... Zero Trust Security An Enterprise Guide SDP Case Study In this case study ...",
+      "link": "https://www.facebook.com/Sanfertech/posts/transform-the-way-your-business-connects-with-zscaler-zero-trust-exchange-the-wo/1415297523495087/",
+      "date": "Aug 28, 2025"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs at Trinity Health Of New England Of New England",
+      "snippet": "Discover your perfect job and take your career to the next level. Clinical Support · Nursing · Nursing Support · Finance & Revenue Management.",
+      "link": "https://jobs.trinity-health.org/newengland",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs at Trinity Health Senior Communities | THSC Careers",
+      "snippet": "Explore all careers. We give you the tools you need to discover your perfect job match, and the freedom and support to take your career to the next level.",
+      "link": "https://jobs.trinity-health.org/thsc",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs at PACE - Trinity Health Careers",
+      "snippet": "Explore your future at PACE (Program of All-inclusive Care for the Elderly). Find A Job About Nursing Benefits ・ a managed-care program ・ medical, social, ...",
+      "link": "https://jobs.trinity-health.org/pace",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Trinity Health Michigan Careers",
+      "snippet": "Explore all careers. We give you the tools you need to discover your perfect job match, and the freedom and support to take your career to the next level.",
+      "link": "https://jobs.trinity-health.org/trinityhealthmichigan",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs at Holy Cross Health",
+      "snippet": "Explore all careers. We give you the tools you need to discover your perfect job match, and the freedom and support to take your career to the next level.",
+      "link": "https://jobs.trinity-health.org/holycrosshealth",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at Mount Carmel | Mount Carmel Health System",
+      "snippet": "Join the Mount Carmel Team. Jobs for Ages 16+ Get your career started with roles designed for first-time and early career job seekers. We are an Equal ...",
+      "link": "https://jobs.trinity-health.org/mountcarmel",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Jobs at Saint Joseph Health System",
+      "snippet": "Join FirstChoice, travel nursing careers by SJHS and Trinity Health. Explore FirstChoice Careers. FirstChoice Careers. DISCOVER NEARBY CAREER OPPORTUNITIES.",
+      "link": "https://jobs.trinity-health.org/sjhs",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "MercyOne - Job Search - Careers In Central Iowa",
+      "snippet": "Explore careers at MercyOne in across Central Iowa. Joining MercyOne means joining a rich history of excellence in healthcare. Your future works here.",
+      "link": "https://jobs.trinity-health.org/mercyone/central-iowa",
+      "date": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "company_name": "Dr. Delagen",
+  "triggers": [
+    {
+      "fact": "Skynflow announced its rebranding to Dr. Delagen on June 30, 2026, introducing an upgraded product formula and new brand look.",
+      "source_page": "https://www.facebook.com/drdelagen/posts/skynflow-is-now-dr-delagen-discover-why-we-rebrandedand-explore-our-upgraded-for/122220311198590699/",
+      "relevance_score": 7
+    },
+    {
+      "fact": "The company rebranded to Dr.Delagen after unauthorized sellers began using the Skynflow name on Amazon to market cheap imitations.",
+      "source_page": "https://drdelagen.com/en-au/pages/skynflow-is-now-dr-delagen?srsltid=AfmBOorXUBJ3xc_FA08nzdCC4aphItJDswoK68alVOzBgC4aCfFyZyKU",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "Following its recent rebranding from Skynflow to Dr. Delagen, the brand needs to produce updated product photography and promotional videos reflecting its new name and visual identity.",
+  "no_trigger_found": false
+}

@@ -1,0 +1,378 @@
+{
+  "domain": "chase.com",
+  "client": "Kyndryl",
+  "client_domain": "kyndryl.com",
+  "checked_against": "icp-kyndryl.com.md",
+  "result": {
+    "company_name": "Chase (chase.com)",
+    "what_they_do": "Provides commercial and personal banking services including credit cards, consumer banking, mortgages, and investment management services.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Result [41] lists 7,369 job openings across JPMorgan Chase, but no total employee count for chase.com is stated in the results.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Retail and Commercial Banking",
+      "in_icp": true,
+      "why": "Chase operates as a enterprise bank providing commercial and personal banking services, matching the Retail and Commercial Banking sector in the ICP.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "NONE",
+      "evidence": "No explicit buying signals such as mainframe modernization job postings or digital transformation press releases for chase.com were identified in the results.",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "NONE",
+      "evidence": "No results specifically mention existing third-party IT infrastructure management or mainframe vendors used by chase.com.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Most of the provided search results pertain to generic credit card topics and other organizations rather than chase.com specifically.",
+    "could_not_find": [
+      "Most search results returned information about other credit card companies and general financial products rather than chase.com specifically.",
+      "Exact total employee headcount for Chase / JPMorgan Chase."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Credit cards: Find the Right Card For You at Creditcards.com",
+      "snippet": "Find the best credit cards by comparing a variety of offers for balance transfers, rewards, low interest, and more. Apply online at CreditCards.com.",
+      "link": "https://www.creditcards.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Credit card",
+      "snippet": "By contrast, credit cards allow consumers to build a continuing debt balance, subject to interest charged at a specific rate. Moreover, a credit card differs ...",
+      "link": "https://en.wikipedia.org/wiki/Credit_card",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What is a Corporate Credit Card & How Do They Work?",
+      "snippet": "Designed for larger corporations, corporate credit cards help businesses track expenses and manage payables.",
+      "link": "https://www.jpmorgan.com/insights/treasury/cards-expense-management/what-is-a-corporate-credit-card-and-how-do-they-work",
+      "date": "Mar 21, 2024"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What is a Corporate Credit Card? (2026 Guide)",
+      "snippet": "Corporate credit cards give finance teams real-time spend visibility, automated receipts, and policy enforcement. Learn how they work and ...",
+      "link": "https://www.spendesk.com/blog/what-is-a-corporate-credit-card/",
+      "date": "Aug 3, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "What Is A Business Credit Card And How Do They Work?",
+      "snippet": "Credit cards are an integral part of our daily lives — a convenient way to pay for essentials (and splurges) with just a tap or swipe. Similarly ...",
+      "link": "https://www.bankrate.com/credit-cards/business/business-credit-cards-and-how-they-work/",
+      "date": "Aug 22, 2025"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "List of Credit Card Companies & Major Cards in 2026",
+      "snippet": "Credit card companies are the banks and credit unions that issue credit cards to consumers and small business owners. Credit card companies also service ...",
+      "link": "https://wallethub.com/edu/cc/credit-card-companies/20409",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Apply for a Business Credit Card",
+      "snippet": "Business credit cards offer rewards such as cash back or points on purchases. These can be used to offset expenses or reinvest in your business. With the ...",
+      "link": "https://www.capitalontap.com/us/business-credit-cards/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Credit cards | Consumer Financial Protection Bureau",
+      "snippet": "Find resources to manage your credit cards, whether you're shopping for a new card or getting a handle on an existing one.",
+      "link": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+      "date": "Jan 8, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Credit.com",
+      "snippet": "201-500 employees. Headquarters: Salt Lake City, Utah. Type: Privately Held. Specialties: Credit Cards, Credit Reports, Debt Resources, Loan Resources & Tools ...",
+      "link": "https://www.linkedin.com/company/credit-com",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Extend",
+      "snippet": "Shared credit cards, manual tracking, receipts chased after the fact, spend that's hard to see until it's already happened. If that sounds familiar ...",
+      "link": "https://www.linkedin.com/company/paywithextend",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "What to Know About a Corporate Credit Card",
+      "snippet": "Employers and employees use corporate credit cards to streamline expenses, make travel arrangements and pay for things like client meals and ...",
+      "link": "https://www.linkedin.com/pulse/what-know-corporate-credit-card-get-ahead-by-linkedin-news",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Credit One Bank",
+      "snippet": "Financial Services, Credit Cards, and Online Banking. Locations. Primary. 6801 S. Cimarron Rd. Las Vegas, NV 89113, US. Get directions. Employees at Credit One ...",
+      "link": "https://www.linkedin.com/company/creditonebank",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "7 Corporate Credit Card Policy Rules to Implement",
+      "snippet": "... employees who must wait for their money. When a company provides credit cards to its employees, setting expectations about how and when to ...",
+      "link": "https://www.concur.com/blog/article/7-corporate-credit-card-policy-rules-to-implement",
+      "date": "Apr 12, 2024"
+    },
+    {
+      "asking_about": "size",
+      "title": "Credit cards can be a great tool for your business — if used ...",
+      "snippet": "Some credit cards come with special perks for their customers, such as access to concert tickets or airline lounges. Perks and awards for ...",
+      "link": "https://www.linkedin.com/pulse/credit-cards-can-great-tool-your-business-used-right-way-marks-cpa-ge81e",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "GCA Declines Out-of-Policy Card Purchases Automatically",
+      "snippet": "... credit cards.",
+      "link": "https://www.linkedin.com/posts/bank-of-america-business_what-happens-when-an-employee-tries-to-make-activity-7452783090353123328-M6tv",
+      "date": "4 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Card Integrity",
+      "snippet": "Card Integrity offers comprehensive monitoring and validation services around corporate credit cards, from p-cards (a.k.a. procurement cards) to travel ...",
+      "link": "https://www.linkedin.com/company/card-integrity",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mainframe Modernization Services & Managed Support",
+      "snippet": "Digital Workplace ... How to Use The Work Number® for Commercial Verifications (mortgage lenders, pre-employment, property leasing, credit cards, ...",
+      "link": "https://dexian.com/it-consulting-solutions/mainframe/",
+      "date": "5 days ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Why banks prefer a mainframe hybrid cloud architecture",
+      "snippet": "... credit cards). All these applications must work together to share ... Digital modernization eases cloud deployment, but greenfield ...",
+      "link": "https://dxc.com/insights/knowledge-base/blogs/mainframe-hybrid-cloud-is-the-preferred-choice-for-banks",
+      "date": "Feb 16, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Multinational investment bank",
+      "snippet": "... services, including personal, corporate and investment banking, credit cards, and wealth management to more than 48 million customers worldwide. It ...",
+      "link": "https://www.kyndryl.com/us/en/customer-stories/multinational-investment-bank",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Mainframe Modernization Market to Reach $16.95 Billion ...",
+      "snippet": "Credit cards · Compare Credit Cards · Best 0% APR cards · Best balance ... Cloud-Native and Digital Transformation Solutions | Research by SNS ...",
+      "link": "https://finance.yahoo.com/technology/articles/mainframe-modernization-market-reach-16-120000572.html",
+      "date": "Aug 27, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "IT Services Contracts Analysis: Digital Transformation, 2024–25",
+      "snippet": "... credit cards, financial intermediation, portfolio management, and insurance policies. ... service management, cybersecurity, enterprise ...",
+      "link": "https://omdia.tech.informa.com/om127919/it-services-contracts-analysis-digital-transformation-202425",
+      "date": "May 30, 2025"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "How Next-gen Technologies Can Modernize Specialty ...",
+      "snippet": "Credit Cards and Payments · HealthCare; Insurance. back; Insurance; Life-Annuity ... Digital workplace platform and cloud infrastructure service management: ...",
+      "link": "https://marketingable.mphasis.com/home/thought-leadership/blog/how-next-gen-technologies-can-modernize-specialty-insurance.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Custom Banking Software Development",
+      "snippet": "Cloud-native microservices architecture replaces mainframe infrastructure ... credit cards, and subscription services without centralized visibility or control.",
+      "link": "https://www.techaheadcorp.com/industries/banking/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Senior Manager @ Capital One",
+      "snippet": "Credit cards, loans, and banking services. Compensation Overview. $209k ... Security consulting for business and technology teams covering infrastructure security ...",
+      "link": "https://simplify.jobs/p/75726b53-cd8b-48e0-a3f1-4a598917abd9/Senior-Manager",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mainframe Modernization Services & Managed Support",
+      "snippet": "Digital Workplace ... How to Use The Work Number® for Commercial Verifications (mortgage lenders, pre-employment, property leasing, credit cards, ...",
+      "link": "https://dexian.com/it-consulting-solutions/mainframe/",
+      "date": "5 days ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Why banks prefer a mainframe hybrid cloud architecture",
+      "snippet": "... credit cards). All these applications must work together to share ... Digital modernization eases cloud deployment, but greenfield ...",
+      "link": "https://dxc.com/insights/knowledge-base/blogs/mainframe-hybrid-cloud-is-the-preferred-choice-for-banks",
+      "date": "Feb 16, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Multinational investment bank",
+      "snippet": "... services, including personal, corporate and investment banking, credit cards, and wealth management to more than 48 million customers worldwide. It ...",
+      "link": "https://www.kyndryl.com/us/en/customer-stories/multinational-investment-bank",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Mainframe Modernization Market to Reach $16.95 Billion ...",
+      "snippet": "Credit cards · Compare Credit Cards · Best 0% APR cards · Best balance ... Cloud-Native and Digital Transformation Solutions | Research by SNS ...",
+      "link": "https://finance.yahoo.com/technology/articles/mainframe-modernization-market-reach-16-120000572.html",
+      "date": "Aug 27, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "IT Services Contracts Analysis: Digital Transformation, 2024–25",
+      "snippet": "... credit cards, financial intermediation, portfolio management, and insurance policies. ... infrastructure, and cybersecurity services, as ...",
+      "link": "https://omdia.tech.informa.com/om127919/it-services-contracts-analysis-digital-transformation-202425",
+      "date": "May 30, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "How Next-gen Technologies Can Modernize Specialty ...",
+      "snippet": "Credit Cards and Payments · HealthCare; Insurance. back; Insurance; Life-Annuity ... Digital workplace platform and cloud infrastructure service management: ...",
+      "link": "https://marketingable.mphasis.com/home/thought-leadership/blog/how-next-gen-technologies-can-modernize-specialty-insurance.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Custom Banking Software Development",
+      "snippet": "Cloud-native microservices architecture replaces mainframe infrastructure ... credit cards, and subscription services without centralized visibility or control.",
+      "link": "https://www.techaheadcorp.com/industries/banking/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Royal Cyber Inc.",
+      "snippet": "... Mainframe modernization doesn't mean choosing between ... credit cards, healthcare, and financial transactions. The IBM z16's ...",
+      "link": "https://www.facebook.com/RoyalCyber/posts/heading-to-%F0%9D%97%A6%F0%9D%97%9B%F0%9D%97%94%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%A3%F0%9D%97%B6%F0%9D%98%81%F0%9D%98%81%F0%9D%98%80%F0%9D%97%AF%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B4%F0%9D%97%B5-%F0%9D%97%A0%F0%9D%97%B2%F0%9D%97%B2%F0%9D%98%81-%F0%9D%98%82%F0%9D%98%80-%F0%9D%97%AE%F0%9D%98%81-%F0%9D%97%95%F0%9D%97%BC%F0%9D%97%BC%F0%9D%98%81%F0%9D%97%B5-%F0%9D%9F%AD%F0%9D%9F%AD%F0%9D%9F%AE-lets-explore-whats-next-for-ibm-/1652255140242601/",
+      "date": "4 weeks ago"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "How a US bank modernized its mainframe applications with IBM ...",
+      "snippet": "It offers a full range of personal and commercial banking services, including checking and savings accounts, loans, credit cards, mortgages and wealth ...",
+      "link": "https://www.ibm.com/case-studies/blog/how-a-us-bank-modernized-its-mainframe-applications-with-ibm-consulting-and-microsoft-azure",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Mainframe - based Credit Card Products - Mphasis",
+      "snippet": "Base2000® is the FIS KORDOBA card solution for issuing all kinds of credit cards. The card management system is used in many countries ...",
+      "link": "https://www.mphasis.com/fr/home/thought-leadership/blog/mainframe-based-credit-card-products.html",
+      "date": "Oct 21, 2022"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Cloud computing - technology guide #3 Flashcards - Quizlet",
+      "snippet": "Study with Quizlet and memorise flashcards containing terms like what is cloud computing, what does IT infrastructure consist of, what is IT infrastructure ...",
+      "link": "https://quizlet.com/ca/690610362/cloud-computing-technology-guide-3-flash-cards/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Are there similarities between cloud computing and mainframe?",
+      "snippet": "Mainframes still best for large batch systems. Jon McCombs ▻ ACP/TPF/ALCSers. 9y · Public · \"Credit cards, insurance companies, banks ...",
+      "link": "https://www.facebook.com/groups/ProfessionalMainframers/posts/2595240937497596/",
+      "date": "Oct 5, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Cloud Essentials Study Guide Flashcards in L Chism's ... - Brainscape",
+      "snippet": "Which of the following types of cloud computing would MOST likely be implemented? ... Handling credit cards for purchasing cloud services. B. Keeping track ...",
+      "link": "https://www.brainscape.com/flashcards/cloud-essentials-study-guide-7402986/packs/12103076",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "How mainframes process 68% of IT workloads with 8% of costs",
+      "snippet": "Just to clarify; when it comes to payments processing, databases are mostly on the mainframe but the interaction with debit and credit cards ...",
+      "link": "https://www.linkedin.com/posts/meredithstowell_mainframe-cloud-ai-activity-7300653311731347457-djkA",
+      "date": "Feb 26, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Engineering is in our DNA I Make Mainframe Modernization a part of ...",
+      "snippet": "Credit Cards and Payments · Insurance. back; Insurance; Health (Javelina); Life ... Empowering IT Infrastructure Management with Mphasis's Hybrid Cloud Solutions.",
+      "link": "https://stageorama.mphasis.com/home/thought-leadership/video/make-mainframe-modernization-cloud-part-2.html",
+      "date": "Jul 6, 2022"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Introducing Open Source AWS CardDemo for Mainframe ...",
+      "snippet": "As a back-office user you can manage accounts, credit cards, transactions and bill payments. Back office user applicaton flow. When you log ...",
+      "link": "https://aws.amazon.com/blogs/opensource/introducing-open-source-aws-carddemo-for-mainframe-modernization/",
+      "date": "Dec 15, 2022"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Candidate Experience page Careers - JPMorgan Chase",
+      "snippet": "All Jobs (7369) · New Jobs (3849) · Software Engineering (1110) · Associate Bankers (482) · Advisors (436) · Product Management (307) · Originations (293) ...",
+      "link": "https://jobs.chase.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Hiring Employees 101: Steps for Growing Your Team - Chase Bank",
+      "snippet": "Expanding your business through hiring employees involves balancing legal registrations, strategic recruitment and structured onboarding.",
+      "link": "https://www.chase.com/personal/credit-cards/education/basics/hiring-employees-101-steps-for-growing-your-team",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Diversity, Opportunity and Inclusion | JPMorganChase",
+      "snippet": "We're proud to support our employees with opportunities to grow and thrive. We're looking for talented people like you from across the globe.",
+      "link": "https://hbcustudent.chase.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "The 2026 US Labor Market Is 'Not Collapsing': Jobs, Unemployment ...",
+      "snippet": "Recent jobs reports in 2026 showed slower payroll gains and falling participation, despite low unemployment.",
+      "link": "https://www.chase.com/personal/investments/learning-and-insights/article/labor-market-2026-jobs-unemployment-wage-growth-trends",
+      "date": "Jul 14, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Chase Customer Service: We can help you!",
+      "snippet": "Get the banking services help you need with Chase Customer Service. We'll help you find answers to your questions today!",
+      "link": "https://www.chase.com/digital/customer-service",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "How to Talk to Loved Ones About Estate Planning - Chase Bank",
+      "snippet": "If they haven't started planning their estate yet, think about some of the key matters you want to discuss. Health issues, medical insurance ...",
+      "link": "https://www.chase.com/personal/investments/learning-and-insights/article/how-to-talk-to-loved-ones-about-estate-planning",
+      "date": "Apr 6, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Brochures - For Experienced Professionals - Chase",
+      "snippet": "There are numerous job areas at Chase, including: Accounting/Finance Administrative Audit/Risk Branch Banking Collections Credit Customer Service Digital Human ...",
+      "link": "http://paths.chase.com/i/408775/3",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "SECURITY CENTER Scam Watch: How to spot fraud and scams",
+      "snippet": "Watch out for scammers fraud on your account. Don't fall for it – it's a scam! We will never ask you to send money to yourself.",
+      "link": "https://www.chase.com/digital/resources/privacy-security/security/how-to-spot-scams",
+      "date": ""
+    }
+  ]
+}

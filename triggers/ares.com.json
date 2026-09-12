@@ -1,0 +1,33 @@
+{
+  "company_name": "Ares Management",
+  "triggers": [
+    {
+      "fact": "Ares Management Corporation raised $12.7 billion to invest in asset-based finance.",
+      "source_page": "https://legal.economictimes.indiatimes.com/news/international/kirkland-ellis-helps-ares-management-raise-record-127-billion-for-asset-based-finance/131740279",
+      "relevance_score": 8
+    },
+    {
+      "fact": "Ares is actively recruiting professionals for open roles within its Credit practice.",
+      "source_page": "https://ares.com/careers",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Ares appointed E.G. Morse as partner and head of Asia credit.",
+      "source_page": "https://www.abfjournal.com/ares-appoints-morse-goel-and-fong-to-new-positions-in-asia/",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Ares appointed Brent Canada as Head of Ares Infrastructure Debt.",
+      "source_page": "https://scanx.trade/stock-market-news/companies/ares-appoints-brent-canada-as-head-of-infrastructure-debt/43324851",
+      "relevance_score": 6
+    },
+    {
+      "fact": "Ares Capital Corporation established a $1 billion commercial paper program to issue short-term, unsecured notes.",
+      "source_page": "https://pluang.com/en/news-feed/ares-capital-luncurkan-program-commercial-paper-1-miliar",
+      "relevance_score": 5
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "As Ares expands its credit practice and deploys billions in new debt capital, investment teams face increased pressure to efficiently analyze legal documents, covenants, and credit market news across large volumes of deals.",
+  "no_trigger_found": false
+}

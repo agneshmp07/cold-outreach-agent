@@ -1,0 +1,27 @@
+{
+  "domain": "octus.com",
+  "name": "Octus",
+  "one_liner": "Octus provides credit market news, covenant analysis, and legal document tools for professionals working in sub-investment grade debt.",
+  "what_you_sell": "A credit market intelligence, data, and document management platform covering leveraged loans, high-yield bonds, private credit, and bankruptcy restructurings.",
+  "target_group": "Octus sells to buy-side investment firms, investment banks, law firms, and advisory practices involved in sub-investment grade credit. Good prospects actively manage, advise on, or litigate leveraged loans, private credit, high-yield bonds, or Chapter 11 bankruptcies. Bad prospects are consumer finance companies, equity-focused investment funds, or general corporate legal teams without dedicated credit practices.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Credit analysts, financial analysts, legal analysts, portfolio managers, investment bankers, and restructuring attorneys.",
+  "who_pays_for_it": "Asset management firms, investment banks, corporate law firms, and financial advisory firms.",
+  "who_buys_it": "Institutional buy-side asset managers, investment banks, corporate law firms, and financial advisory practices operating in credit markets.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-octus.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims 100% of the top 10 asset managers and CLO managers are clients.",
+    "Claims to have over 44,000 global subscribers.",
+    "Claims to host a repository of over 11 million deal documents covering 28,000 issuers.",
+    "Claims to publish over 60,000 stories globally every year.",
+    "Implies direct, permissioned integration capabilities with Harvey AI, Perplexity, and Claude."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

@@ -1,0 +1,322 @@
+{
+  "domain": "bajajfinserv.com",
+  "client": "Xoxoday",
+  "client_domain": "xoxoday.com",
+  "checked_against": "icp-xoxoday.com.md",
+  "result": {
+    "company_name": "Bajaj Finserv",
+    "what_they_do": "India's non-banking financial conglomerate offering loans, credit cards, insurance, investments, payments, and wealth management solutions [3, 4].",
+    "size": {
+      "estimate": "10,001+ to 113,732 employees",
+      "evidence": "LinkedIn lists company size as 10,001+ employees [2] and Yahoo Finance reports 113,732 full-time employees [7].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Financial Services & FinTech",
+      "in_icp": false,
+      "why": "Bajaj Finserv is in Financial Services, but its employee size (10,001+ to 113,732) exceeds the 250 - 5,000 employee size bracket specified in the ICP's Financial Services & FinTech table, and it is a domestic Indian financial institution rather than a multi-currency cross-border entity.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Active internal employee recognition programs (#KudosAward) and customer loyalty reward platform initiatives.",
+      "evidence": "LinkedIn posts highlight employee recognition with #KudosAward and #Recognition [22], and corporate web pages detail 'Rewards as a Platform' for customer loyalty [19, 27].",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None identified in search results",
+      "evidence": "Search results mention tech stack usage of Yellow.ai for CX [33], but show no evidence of third-party reward payout software.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "Bajaj Finserv exceeds the ICP size criteria for Financial Services (113,732 vs 250–5,000 employees), but plausibly has the need as shown by active employee recognition programs and customer loyalty reward engines.",
+    "could_not_find": [
+      "Whether Bajaj Finserv currently uses an in-house build or third-party SaaS tool to manage employee recognition and customer rewards.",
+      "Whether Bajaj Finserv has any multi-currency or international payout requirements outside India."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "About Us - Bajaj Finance",
+      "snippet": "Aiming to be a well-diversified company, in 2017, we picked up a nearly 11% stake ... investor.service@bajajfinserv.in. Corporate Identity Number (CIN).",
+      "link": "https://www.aboutbajajfinserv.com/finance-about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Bajaj Finserv",
+      "snippet": "http://www.bajajfinserv.in. External link for Bajaj Finserv. Industry: Financial Services. Company size: 10,001+ employees. Headquarters: Pune, Maharashtra.",
+      "link": "https://in.linkedin.com/company/bajaj-finserv-lending",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Bajaj Finserv",
+      "snippet": "www.bajajfinserv.in. Contents. 1 History; 2 Employees; 3 Subsidiaries. 3.1 Bajaj Finance. 3.1.1 Bajaj Housing Finance. 3.2 Bajaj Life Insurance; 3.3 Bajaj ...",
+      "link": "https://en.wikipedia.org/wiki/Bajaj_Finserv",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Bajaj Finserv: Loans, Cards, Insurance, Investments ...",
+      "snippet": "Bajaj Finserv is India&#39;s most diversified non-banking finance company. Loans, Cards, Insurance, Investments, Payments and more",
+      "link": "https://www.bajajfinserv.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Bajaj Finance Limited",
+      "snippet": "Corporate Office Address : 4th Floor, Bajaj Finserv Corporate Office, Off Pune-Ahmednagar Road, Viman Nagar, Pune – 411 014. +91-8698010101. wecare@bajajfinserv ...",
+      "link": "https://www.bajajgroup.company/core-companies/bajaj-finance-limited/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Bajaj Finserv Ltd Company Profile - Overview",
+      "snippet": "Website www.bajajfinserv.in. Telephone 91 20 71576064. No of Employees 169. Industry Financial Services. Ticker Symbol & Exchange BAJAJFINSV (NSE). Revenue ( ...",
+      "link": "https://www.globaldata.com/company-profile/bajaj-finserv-ltd/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Bajaj Finserv Ltd. (BAJAJFINSV.BO) company profile and ...",
+      "snippet": "91 20 7150 5700 https://www.bajajfinserv.in. Sector: Financial Services. Industry: Financial Conglomerates. Full-time employees: 113,732. Description. Bajaj ...",
+      "link": "https://nz.finance.yahoo.com/quote/BAJAJFINSV.BO/profile/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Bajaj Finserv Ventures – About Us",
+      "snippet": "Along with our investment in technology companies and real estate, we will ... investors@bajajfinserv.in. Bajaj Finserv Ventures Limited. Sr. No. 208/1B ...",
+      "link": "https://www.aboutbajajfinserv.com/ventures-about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Bajaj Finserv",
+      "snippet": "http://www.bajajfinserv.in. External link for Bajaj Finserv. Industry: Financial Services. Company size: 10,001+ employees. Headquarters: Pune, Maharashtra.",
+      "link": "https://in.linkedin.com/company/bajaj-finserv-lending",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "SAHIBJEET SINGH - Strategic Talent Acquisition & HRBP",
+      "snippet": "10+ people at Bajaj Finserv. HR professional with 5+ years of experience, currently working at Bajaj Finance Limited, AOP headcount finalisation, and attrition ...",
+      "link": "https://in.linkedin.com/in/sahibjeetsinghhr",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Khusbu Sharma - HR Business Partner",
+      "snippet": "Human Resources Business Partner Bajaj Finance Limited Sep 2023 - Present. Headcount analysis, employee queries and other employee. including sourcing ...",
+      "link": "https://in.linkedin.com/in/khusbu-sharma-70a97712b",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Rutinder Negi - Deputy Chief @ Bajaj Finserv",
+      "snippet": "Deputy Chief @ Bajaj Finserv ・ 4K followers 500+ ・ professional with more than 20 years of diverse experience. Senior head Bajaj Finserv",
+      "link": "https://in.linkedin.com/in/rutinder-negi-31279622",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Atul Gupta - Finance | Payments | Design Thinking",
+      "snippet": "Head: Business Design Unit. Bajaj Finserv. Feb 2026 - Present 8 months. Pune City, Maharashtra, India. Bajaj FInance Ltd. 9 years. Head Product: Payments. Bajaj ...",
+      "link": "https://in.linkedin.com/in/hratulgupta",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Ganesh N Yadav - Opening and Managing ...",
+      "snippet": "Experience · Bajaj Finserv. 13 years 1 month. Assistant General Manager. Bajaj Finserv · Asst. Manager - Administration, Facilities & Project Management. HDFC ...",
+      "link": "https://in.linkedin.com/in/ganesh-n-yadav-90264a2a",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Arun Menon - Managing HR Transformation in Bajaj Finance",
+      "snippet": "* Manages recruitment and selection of all new Company employees and contract staff. * Provide consultation to management on employee relations issues, and ...",
+      "link": "https://in.linkedin.com/in/arunmenonv",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Uday Kiran Poodipeddi - Bajaj Finserv",
+      "snippet": "10K followers 500+ connections … to 10+ people at Bajaj Finserv. Head - Talent Acquisition, Employee Relations, Employee Engagement and Talent Management",
+      "link": "https://in.linkedin.com/in/uday-kiran-poodipeddi-a352a310",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Prateek Balaji's Post",
+      "snippet": "... BajajFinserv #Award #Gratitude #Personalization #DataVisualization #AceAchiever | 18 comments on LinkedIn.",
+      "link": "https://www.linkedin.com/posts/prateek-balaji_machinelearning-datascience-digitaltransformation-activity-7317860245966331904-8KWM",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "https://cont-sites.bajajfinserv.in/myaccount/",
+      "snippet": "No information is available for this page.",
+      "link": "https://cont-sites.bajajfinserv.in/myaccount/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Rewards as a Platform l The New Pillar of Customer Loyalty ...",
+      "snippet": "Rewards as a Platform: Customer Loyalty and Engagement. The New Pillar of ... TICC@bajajfinserv.in. Corporate Office. 4th Floor, Bajaj Finserv Corporate ...",
+      "link": "https://www.aboutbajajfinserv.com/ticc/rewards-as-platform",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Team meetings in #NewNormal",
+      "snippet": "While you remotely work from home, stay connected with your co-workers virtually with the latest laptops on easy EMIs ... ly/3gvnCIs #BajajFinserv ...",
+      "link": "https://www.facebook.com/bajaj.finance.in/videos/team-meetings-in-newnormal/277558769994985/",
+      "date": "6 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Bajaj Finserv ESOP Financing  | Features & Benefits Explained",
+      "snippet": "... employee stock options while meeting your financial needs with ease! Open demat now: https://bit.ly/4roITrp #BajajFinserv #ESOPFinancing ...",
+      "link": "https://www.youtube.com/watch?v=1-cEsLdRX9c",
+      "date": "5 months ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Kunal Deshmukh's Post",
+      "snippet": "... BajajFinserv #Recognition #Achievement #ProfessionalGrowth #Teamwork #CareerGrowth. ... Employee Experience · Workplace Trends · Fundraising ...",
+      "link": "https://www.linkedin.com/posts/kunal-deshmukh01_kudosaward-bajajfinserv-recognition-activity-7497510500579053568-jPK2",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Bajaj Finserv for Business: India's first UPI app with EMI ...",
+      "snippet": "Bajaj Finserv for Business - Payment solutions to help your business go digital ... Email ID: investors@bajajfinserv.in. Corporate Identity Number (CIN).",
+      "link": "https://business.bajajfinserv.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Login",
+      "snippet": "Login Enter Your Username Enter Your Password Forgot Password? Sign In",
+      "link": "https://www.knowlens.com/bajajfinserv",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Prateek Balaji's Post",
+      "snippet": "... BajajFinserv #Award #Gratitude #Personalization #DataVisualization #AceAchiever | 18 comments on LinkedIn.",
+      "link": "https://www.linkedin.com/posts/prateek-balaji_machinelearning-datascience-digitaltransformation-activity-7317860245966331904-8KWM",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "https://cont-sites.bajajfinserv.in/myaccount/",
+      "snippet": "No information is available for this page.",
+      "link": "https://cont-sites.bajajfinserv.in/myaccount/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Rewards as a Platform l The New Pillar of Customer Loyalty ...",
+      "snippet": "Rewards as a Platform: Customer Loyalty and Engagement. The New Pillar of ... TICC@bajajfinserv.in. Corporate Office. 4th Floor, Bajaj Finserv Corporate ...",
+      "link": "https://www.aboutbajajfinserv.com/ticc/rewards-as-platform",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "How To Raise Queries Regarding Rewards | Bajaj Finserv App",
+      "snippet": "Like, Share and Comment on our videos. Connect with us on:- Facebook: / bajajfinserv ; Linkedin: / bajaj-finserv-lending ; Twitter: / ...",
+      "link": "https://www.youtube.com/watch?v=RZoG_SPSrN0",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Bajaj Finserv ESOP Financing  | Features & Benefits Explained",
+      "snippet": "... employee stock options while meeting your financial needs with ease! Open demat now: https://bit.ly/4roITrp #BajajFinserv #ESOPFinancing ...",
+      "link": "https://www.youtube.com/watch?v=1-cEsLdRX9c",
+      "date": "5 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Kunal Deshmukh's Post",
+      "snippet": "... BajajFinserv #Recognition #Achievement #ProfessionalGrowth #Teamwork #CareerGrowth. ... Employee Experience · Workplace Trends · Fundraising ...",
+      "link": "https://www.linkedin.com/posts/kunal-deshmukh01_kudosaward-bajajfinserv-recognition-activity-7497510500579053568-jPK2",
+      "date": "2 weeks ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Bajaj Finserv for Business: India's first UPI app with EMI ...",
+      "snippet": "Bajaj Finserv for Business - Payment solutions to help your business go digital ... Email ID: investors@bajajfinserv.in. Corporate Identity Number (CIN).",
+      "link": "https://business.bajajfinserv.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Login",
+      "snippet": "Login Enter Your Username Enter Your Password Forgot Password? Sign In",
+      "link": "https://www.knowlens.com/bajajfinserv",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Bajaj Finserv scales in revenue and CX with Yellow.ai",
+      "snippet": "Bajaj Finserv scales in revenue and CX with Yellow.ai. Founded. 2007. Website. www.bajajfinserv.in. Channels. Website, PWA, WhatsaApp, Alexa & Google. Use Cases.",
+      "link": "https://yellow.ai/case-study/how-bajaj-finserv-boosts-cx/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Bajaj Finance Case Study: Business Model, Financials, Competitors ...",
+      "snippet": "Bajaj Finance Case Study: Business Model, Financials, Competitors, and KPIs - Pocketful blog is a high-quality image in the Bestof ...",
+      "link": "https://sandbox.dss.ucdavis.edu/competitors-of-bajaj-finance/bajaj-finance-case-study-business-model-financials-competitors-and-kpis-pocketful-blog",
+      "date": "Oct 19, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "https://businessloan.bajajfinserv.in/",
+      "snippet": "No information is available for this page. · Learn why",
+      "link": "https://businessloan.bajajfinserv.in/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Social as a Platform l A Strategic Pillar for Customer ... - Bajaj Finserv",
+      "snippet": "TICC@bajajfinserv.in. Corporate Office. 4th Floor, Bajaj Finserv Corporate Office, Off Pune-Ahmednagar Road, Viman Nagar, Pune (M.H) - 411014. Corporate ...",
+      "link": "https://www.aboutbajajfinserv.com/ticc/social-as-a-platform",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Bajaj Finserv Success Story | Instant Loans | EMI | Business Model",
+      "snippet": "Bajaj Finserv - Company Highlights ; Founder, Jamnalal Bajaj ; Founded, May 2007 ; Parent Organization, Bajaj Group ; Website, bajajfinserv.in ...",
+      "link": "https://startuptalky.com/bajaj-finserv-success-story/",
+      "date": "Apr 27, 2021"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Bajaj Finserv Atom - LinkedIn",
+      "snippet": "... case study program offers a chance to peek in the future and be ready today ... #atomceoschallenge #atomseason9 #bajajfinserv #letsgoatomic #grandfinale # ...",
+      "link": "https://in.linkedin.com/company/bajaj-finserv-atom",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Megatrends | Where Vision Meets Transformation - Bajaj Finserv",
+      "snippet": "Our focus on aligning advanced solutions with business objectives enables ... TICC@bajajfinserv.in. Corporate Office. 4th Floor, Bajaj Finserv Corporate ...",
+      "link": "https://www.aboutbajajfinserv.com/ticc/megatrends",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Digital-first Engagement Driving Financial Inclusion - Bajaj Finserv",
+      "snippet": "It is a single, seamless interface that brings together customer service, loans, deposits, payments, investments and insurance. We are now deploying AI-enabled ...",
+      "link": "https://www.bajajfinserv.in/finance-digital-annual-report-fy26/digital-first-engagement-driving-financial-inclusion.html",
+      "date": ""
+    }
+  ]
+}

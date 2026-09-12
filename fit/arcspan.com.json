@@ -1,0 +1,280 @@
+{
+  "domain": "arcspan.com",
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "checked_against": "icp-wework.com.md",
+  "result": {
+    "company_name": "ArcSpan",
+    "what_they_do": "ArcSpan is a B2B audience data technology company that provides an AI-powered audience monetization platform for digital publishers.",
+    "size": {
+      "estimate": "11-50 employees (approx. 17 employees)",
+      "evidence": "LeadIq states ArcSpan has approximately 17 employees as of July 2026 [10], and ZoomInfo lists 11-50 employees [13].",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Technology and Software",
+      "in_icp": false,
+      "why": "ArcSpan is a tech/software company with ~17 employees, which is below the 50-500 employee size criteria for the Technology and Software ICP segment.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": false,
+      "what": "",
+      "evidence": "",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "",
+      "evidence": "",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "UNCLEAR",
+    "reason": "ArcSpan is a tech software firm with a distributed team across North America, Europe, and Africa [10], so it plausibly needs flexible office solutions, but its headcount (17 employees) falls below the 50-500 employee threshold for the Technology and Software segment in the ICP.",
+    "could_not_find": [
+      "Whether ArcSpan enforces a mandatory fully remote / no-office policy",
+      "Whether ArcSpan is actively planning to open or lease physical office space in new cities"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "ArcSpan: AI-Powered Audience Monetization for Publishers",
+      "snippet": "ArcSpan's AI platform helps premium publishers maximize ad revenue with real-time audience intelligence, first-party identity, and autonomous deal ...",
+      "link": "https://arcspan.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "ArcSpan",
+      "snippet": "ArcSpan AMS is a leading audience monetization platform that empowers publishers to take control of their first-party data and drive sustainable revenue growth.",
+      "link": "https://www.linkedin.com/company/arcspan",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "ArcSpan Introduces Publisher Custom Content Taxonomies",
+      "snippet": "ArcSpan continues to deliver industry-leading data monetization solutions to help publishers boost revenue and implement high-quality, cost- ...",
+      "link": "https://arcspan.com/arcspan-introduces-publisher-custom-content-taxonomies-ai-powered-large-language-modeling-llm-improves-the-accuracy-and-scale-of-high-value-1p-audience-segments-and-data-attribute",
+      "date": "Jan 8, 2024"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "ArcSpan Technologies - Crunchbase Company Profile & ...",
+      "snippet": "ArcSpan Technologies is a B2B audience data technology company building an enterprise-class addressable audience data monetization platform.",
+      "link": "https://www.crunchbase.com/organization/arcspan-media",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "ArcSpan Launches Next-Gen DMP for First Party Publisher ...",
+      "snippet": "The ArcSpan AMS customer platform has been purpose-built for publishers' revenue operations teams to organize, build, manage and transact ...",
+      "link": "https://arcspan.com/arcspan-launches-next-gen-dmp-for-first-party-publisher-monetization-brings-needed-tech-to-upgrade-pubs-data-ops-and-boost-sales-results",
+      "date": "Jun 2, 2023"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Data decisioning with ArcSpan - Transcend.io",
+      "snippet": "ArcSpan Technologies is a B2B audience data technology company building an enterprise-class addressable audience data monetization platform.",
+      "link": "https://transcend.io/integrations/arc-span",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "ArcSpan Technologies Jobs and Careers | Welcome to the Jungle ...",
+      "snippet": "Apply for jobs at ArcSpan Technologies on Welcome to the Jungle (formerly Otta}. To make digital marketing work better for publishers, retail media, ...",
+      "link": "https://app.welcometothejungle.com/companies/ArcSpan-Technologies",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Careers at ArcSpan | Join Our AdTech Innovation Team",
+      "snippet": "Join ArcSpan and build the future of publisher audience monetization. We hire passionate people in AI, data, and digital advertising. View open positions.",
+      "link": "https://arcspan.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Jose Cabal-Ugaz - Director of Engineering at ArcSpan",
+      "snippet": "Director of Engineering at ArcSpan | Driving Publisher Revenue through Data & Platforms | 10+ Years in Product Development · View mutual connections with Jose.",
+      "link": "https://www.linkedin.com/in/jcabalugaz",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "ArcSpan Employee Directory, Headcount & Staff",
+      "snippet": "ArcSpan has approximately 17 employees as of July 2026. These team members are located across 3 continents, including North AmericaAfricaEurope. Who are ...",
+      "link": "https://leadiq.com/c/arcspan/60c0fd1f3b112d2d986054b1/employee-directory",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Bill Bledsoe (he/him) - Ad Tech Product Management Leader",
+      "snippet": "Ad Tech Product Management Leader - ArcSpan (ex Microsoft - Best Buy - AT&T) · Over 20 years of success in technical product management and commerce/media ...",
+      "link": "https://www.linkedin.com/in/billbledsoe",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Christopher Guenther - FirstPartyCapital",
+      "snippet": "Christopher can introduce you to 10+ people at ArcSpan. Continue with ... ArcSpan. Sep 2021 - Present 5 years 1 month. New York, United States. Volunteer ...",
+      "link": "https://www.linkedin.com/in/guenther",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "ArcSpan Technologies Inc: Employee Directory",
+      "snippet": "How many employees does ArcSpan Technologies Inc have? ArcSpan Technologies Inc has 11-50 employees. Sign Up For FreeTo access detailed employee insights. Who ...",
+      "link": "https://www.zoominfo.com/pic/arcspan/2605413",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Compliant",
+      "snippet": "ArcSpan. Advertising Services. New York, NY. SASIG Events. Technology ... Head jobs · Manager jobs · Sales And Marketing Specialist jobs · Head of Marketing jobs ...",
+      "link": "https://www.linkedin.com/company/compliant",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Supply Chain Automation Outpaces Technician Demand",
+      "snippet": "Supply Chain Automation Outpaces Technician Demand. View organization page for ArcSpan Advisory · ArcSpan Advisory. 22 followers. 2mo.",
+      "link": "https://www.linkedin.com/posts/arcspan-advisory_ai-skilled-supply-chain-roles-have-surged-activity-7476291957984518144-PUlI",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Sell or Invest in ArcSpan Stock Pre-IPO",
+      "snippet": "Company Profile: ArcSpan provides data-driven tools that help digital publishers optimize audience engagement and advertising revenue.",
+      "link": "https://www.nasdaqprivatemarket.com/company/arcspan/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "ArcSpan: AI-Powered Audience Monetization for Publishers",
+      "snippet": "ArcSpan's AI platform helps premium publishers maximize ad revenue with real-time audience intelligence, first-party identity, and autonomous deal ...",
+      "link": "https://arcspan.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "ArcSpan: AI-Powered Audience Monetization for Publishers",
+      "snippet": "ArcSpan's AI platform helps premium publishers maximize ad revenue with real-time audience intelligence, first-party identity, and autonomous deal ...",
+      "link": "https://arcspan.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Publisher Case Studies & Results | ArcSpan",
+      "snippet": "LADbible Group Onboards ArcSpan AMS in 28 Days and Generates 30%+ Increase in Audience Cohort Sizes. Read case study ... Solutions. Resources. Customer Portal.",
+      "link": "https://arcspan.com/case-studies",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "ArcSpan Introduces Publisher Custom Content Taxonomies",
+      "snippet": "ArcSpan releases an AI-powered custom content taxonomy tool using LLM technology to improve the accuracy and scale of high-value first-party ...",
+      "link": "https://arcspan.com/arcspan-introduces-publisher-custom-content-taxonomies-ai-powered-large-language-modeling-llm-improves-the-accuracy-and-scale-of-high-value-1p-audience-segments-and-data-attribute",
+      "date": "Jan 8, 2024"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "ArcSpan: AI-Powered Audience Monetization for Publishers",
+      "snippet": "ArcSpan's AI platform helps premium publishers maximize ad revenue with real-time audience intelligence, first-party identity, and autonomous deal ...",
+      "link": "https://arcspan.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Publisher Monetization News & Insights - ArcSpan",
+      "snippet": "ArcSpan's latest news and insights on publisher monetization, first-party data, programmatic advertising, AI audience solutions, and ad industry",
+      "link": "https://arcspan.com/blog",
+      "date": "Jun 15, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "ArcSpan's Toolkit Aims to Turn Publisher Audiences into Revenue ...",
+      "snippet": "ArcSpan's new funding fuels AI tools that help publishers package first‑party data into high‑yield, advertiser‑ready audiences.",
+      "link": "https://influencermarketinghub.com/arcspan-toolkit-for-publisher-audiences/",
+      "date": "Jul 31, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Steve Hochman | Sustainable Supply Chain Pioneer | Ex-Nike VP",
+      "snippet": "agile-to-scale $1 billion digital solutions engineering firm. Led e-commerce store and general company operations. zero to 90 employees in 18 months.",
+      "link": "https://www.linkedin.com/in/stevehochman",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "IAB Annual Report 2022",
+      "snippet": "In addition, IAB Tech Lab hosted several events to accelerate industry standards implementation including ... ArcSpan Technologies",
+      "link": "https://www.iab.com/news/iab-annual-report-2022/",
+      "date": "Jan 21, 2023"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Incontext Archive - Digital Content Next",
+      "snippet": "Most of the respondents were office workers so popular uses include drafting written content, brainstorming ideas, and conducting background research.",
+      "link": "https://digitalcontentnext.org/incontext-archive/2024/page/17/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers at ArcSpan | Join Our AdTech Innovation Team",
+      "snippet": "Join ArcSpan and build the future of publisher audience monetization. We hire passionate people in AI, data, and digital advertising. View open positions.",
+      "link": "https://arcspan.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "ArcSpan Technologies Names Data Science and Video ...",
+      "snippet": "JOIN OUR TEAM! ArcSpan Technologies Names Data Science and Video Measurement Veteran Kathryn Burns to VP, Product Former OpenSlate Product Leader Joins ArcSpan ...",
+      "link": "https://www.arcspan.com/arcspan-technologies-names-data-science-and-video-measurement-veteran-kathryn-burns-to-vp-product/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Publisher Revenue: Risk + Replacement Playbook - ArcSpan",
+      "snippet": "ArcSpan is an innovative new audience monetization platform focused on the needs of the world's finest publishers. The AMS platform helps publishers ...",
+      "link": "https://www.arcspan.com/arcspan-revenue-at-risk-analysis/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Peter Gosling, Author at ArcSpan Technologies",
+      "snippet": "We help you solve critical revenue operations roadblocks to maximize your addressable audience eCPMs, fill-rates, and yield. Schedule a call with one of our ...",
+      "link": "https://www.arcspan.com/author/petegoslingmedia-com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Why publishers need to get taxonomies right to succeed - ArcSpan",
+      "snippet": "Some Advertisers and Publishers are looking to newer solutions, such as clean rooms and identity solution partners, to express their targeting.",
+      "link": "https://www.arcspan.com/importance-of-taxonomies/",
+      "date": "Jun 13, 2022"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Privacy Policy | ArcSpan Technologies",
+      "snippet": "Read ArcSpan's privacy policy to understand how we collect, use, and protect your personal data in compliance with applicable privacy regulations.",
+      "link": "https://arcspan.com/privacy-policy",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Contact ArcSpan | Schedule a Publisher Revenue Consultation",
+      "snippet": "Ready to grow your audience revenue? Schedule a call with an ArcSpan publisher monetization specialist and learn how AMS boosts your eCPMs and fill rates.",
+      "link": "https://arcspan.com/contact",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "ArcSpan Launches Next-Gen DMP for First Party Publisher ...",
+      "snippet": "“AMS solves publishers' critical need for a next-gen first party DMP that delivers greater audience data accuracy and scale to help publishers ...",
+      "link": "https://arcspan.com/arcspan-launches-next-gen-dmp-for-first-party-publisher-monetization-brings-needed-tech-to-upgrade-pubs-data-ops-and-boost-sales-results",
+      "date": "Jun 2, 2023"
+    }
+  ]
+}

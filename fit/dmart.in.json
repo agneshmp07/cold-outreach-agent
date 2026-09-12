@@ -1,0 +1,119 @@
+{
+  "domain": "dmart.in",
+  "client": "Ninjacart",
+  "client_domain": "ninjacart.com",
+  "checked_against": "icp-ninjacart.com.md",
+  "result": {
+    "company_name": "DMart Ready",
+    "what_they_do": "DMart Ready (dmart.in) is an online grocery and supermarket retail platform selling food, household essentials, fresh grocery items, and personal care products directly to consumers.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Search results do not contain information about company size or employee headcount.",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Independent Grocery Retailers and Supermarket Chains",
+      "in_icp": true,
+      "why": "DMart Ready is a supermarket grocery retail business selling food and grocery items.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Listed grocery products including agricultural fresh store items such as Tamarind online.",
+      "evidence": "[1]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None",
+      "evidence": "Search results do not provide details on current supply chain or wholesale procurement solutions used.",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "DMart Ready fits the ICP as a supermarket chain and grocery retail platform selling grocery items, with verified produce listings (tamarind) in search results.",
+    "could_not_find": [
+      "Exact employee count and company size for DMart Ready.",
+      "Details about DMart Ready's current fresh produce supply chain and wholesale procurement partners."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "the problem area",
+      "title": "Buy Tamarind Online On DMart Ready",
+      "snippet": "Buy Tamarind : 500 gms On DMart Ready. Min. 7%* Off on Groceries, Personal Care, Household Essentianls. Ready To Cook Beverages Biscuits & Cookies Bath & Body ...",
+      "link": "https://www.dmart.in/product/tamarind?srsltid=AfmBOooshe2M6iBEaY2iLsP2ef5zZXFEEElkg0XOH0IbyX1kkB2_i06S",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Buy Tamarind Online On DMart Ready",
+      "snippet": "Buy Tamarind : 500 gms On DMart Ready. Min. 7%* Off on Groceries, Personal Care, Household Essentianls & More. Order now.",
+      "link": "https://www.dmart.in/product/tamarind?srsltid=AfmBOoqFe0gfxqOii87dlAf06dbmFj88dIZRokdEbIt9EbOrj2Xp2rfX",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Buy Tamarind Online On DMart Ready",
+      "snippet": "Buy Tamarind : 500 gms On DMart Ready. Min. 7%* Off on Groceries, Personal Care, Household Essentianls. Grocery Ready To Cook Beverages Biscuits & Cookies Bath ...",
+      "link": "https://www.dmart.in/product/tamarind?srsltid=AfmBOoqE9J7OJipKp5aA5eQ0sark30_T1FP8kqsIJWUmwEZNceBOjv6j",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Compound Interest A Mathematical Story About Saving ... - DMart",
+      "snippet": "Buy Compound Interest A Mathematical Story About Saving And Growing Money By Abbas Kazerooni Children S Picture Book On Dmart Ready.",
+      "link": "https://www.dmart.in/product/compound-interest-a-mathematical-story-about-saving-and-growing-money-by-abbas-kazerooni-ppicturebooks50xx30125?srsltid=AfmBOoqp99r3Pvhtp6PnJ17WsTCIPSiowiGd-Q5FxU-w32cJzHTaj6Ut",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Its All About Money By Archit Mehrotra Non Fiction ... - DMart",
+      "snippet": "Buy Its All About Money By Archit Mehrotra Non Fiction Personal Finance On Dmart Ready. *Min. 7% Off on Groceries, Personal Care, Household Essentianls ...",
+      "link": "https://www.dmart.in/product/its-all-about-money-by-archit-mehrotra-pbusiness-economics30xx10425?srsltid=AfmBOorl2GMJpxN6h2ah9W4PthkPp0UC7kMTLeL968_-RlUJP2tRpxfp",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Chicken Soup For The Soul Series Think Possible 101 ... - DMart",
+      "snippet": "Buy Chicken Soup For The Soul Series Think Possible 101 Stories About Using A Positive Attitude To Improve Your Life On Dmart Ready. *Min. 7% Off on ...",
+      "link": "https://www.dmart.in/product/chicken-soup-for-the-soul-series-think-possible-101-stories-about-using-a-positive-attitude-to-improve-your-life-phistory-politics23xx40526?srsltid=AfmBOoqqji3yFNzOSRJGur3S0j0CjPVzdudFLyYo1anaQVMJSPQebrlF",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Privacy Policy - Static | DMart.in",
+      "snippet": "We employ other companies and individuals to help support our Service, and perform functions on our behalf.",
+      "link": "https://www.dmart.in/service/privacy--policy?srsltid=AfmBOoqalSg_xRylMxQO664Sf4Mg_GAqZ7rMosfSwA5ieOifW_O5HRXl",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Everest Sabji Masala Online at Best Price | DMart Ready",
+      "snippet": "Buy Everest Sabji Masala online at DMart Ready at the best price. Get the best price on every order. Enjoy fast doorstep delivery.",
+      "link": "https://www.dmart.in/product/everest-sabji-masala-pmasala0ever1xx120219?srsltid=AfmBOorHGUEJhvNKZjk-eKGtaUeBKM8I3-goUjTHoGrFab1ZJFReX6gu",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Kimirica Love Story Hand Cream Trio Gift Set : 1 Unit - DMart",
+      "snippet": "Kimirica is a luxury lifestyle brand rooted in thoughtful self-care. With unique fragrances, premium vegan formulations, and beautifully designed products,",
+      "link": "https://www.dmart.in/product/kimirica-love-story-hand-cream-trio-gift-set-pgiftsets3xx110925?selectedProd=1804523&srsltid=AfmBOornYGzKkumGDtF-A_h4rTtdG4LFIRSIVRfB7UvGUWK-4IdKrQzt",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "HyFun French Fries : 425 g - DMart",
+      "snippet": "Made from premium quality fresh potatoes. Perfect for snacks, meals, or parties. Ready-to-cook convenience for quick meals. Great addition to burgers and wraps.",
+      "link": "https://www.dmart.in/product/hyfun-french-fries-pfries1xx211124?selectedProd=1666032&srsltid=AfmBOooMonYdhNMQ5mypfNogTwXf19QY_59Aw6O9Oiyoiky6Igh5ho16",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Buy Assal Aaswad Methi Thepla Online On DMart Ready",
+      "snippet": "Buy Assal Aaswad Methi Thepla : 300 gms On DMart Ready. Min. 7%* Off on Groceries, Personal Care, Household Essentianls & More. Order now.",
+      "link": "https://www.dmart.in/product/assal-aaswad-methi-thepla-psqshsyrp0assa3xx200423?selectedProd=1297502&srsltid=AfmBOoqNYphzp5D8psGPXzwozKQdDdkKpWRbl5X-x9WbpqxTnTrhpDJH",
+      "date": ""
+    }
+  ]
+}

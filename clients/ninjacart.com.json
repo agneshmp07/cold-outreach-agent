@@ -1,0 +1,26 @@
+{
+  "domain": "ninjacart.com",
+  "name": "Ninjacart",
+  "one_liner": "Ninjacart connects farmers directly to fresh produce retailers, wholesalers, and traders through a digital supply chain and credit network.",
+  "what_you_sell": "Fresh produce B2B supply chain fulfillment, agricultural trade marketplace, and trade credit services.",
+  "target_group": "Ninjacart sells to fresh produce retailers, agricultural traders, and food wholesalers in India. These range from small local grocery shop owners to regional produce distribution businesses. A good prospect is a business dealing in fresh fruits and vegetables that deals with daily procurement inefficiencies, price volatility, or supply chain wastage.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "marketplace",
+  "who_uses_it": "Farmers, fresh produce shop owners, production traders, wholesalers, importers, and exporters.",
+  "who_pays_for_it": "Fresh produce retailers, wholesalers, traders, importers, and exporters who buy produce or use fulfillment and credit services.",
+  "who_buys_it": "Fresh produce retailers, food wholesalers, and agricultural traders.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-ninjacart.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Implies it offers lower costs to retailers while simultaneously giving higher prices to farmers.",
+    "Implies nationwide scale and supply chain coverage across India.",
+    "Implies a leadership position in fruit and vegetable supply chains, particularly in South Indian cities.",
+    "Claims to offer accessible trade financing and credit to all types of agri businesses."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

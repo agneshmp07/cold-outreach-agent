@@ -1,0 +1,169 @@
+{
+  "client": "Ninjacart",
+  "client_domain": "ninjacart.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why_they_buy": "They need reliable daily store-door delivery of fresh fruits and vegetables to reduce procurement hassle, wastage, and wholesale market travel costs.",
+      "example_of_a_buyer": "A multi-location neighborhood supermarket chain that sources fresh produce daily and wants to bypass traditional mandi middlemen."
+    },
+    {
+      "sector": "Hotels, Restaurants, and Commercial Catering (HoReCa)",
+      "why_they_buy": "They require consistent, quality-graded bulk daily supplies of fresh ingredients alongside flexible trade credit to manage cash flow.",
+      "example_of_a_buyer": "A regional casual dining chain or institutional caterer managing high-volume kitchen operations across a major city."
+    },
+    {
+      "sector": "Agri-Commodity Wholesale Traders",
+      "why_they_buy": "They need scalable cross-regional fulfillment logistics, payment risk mitigation, and trade finance to execute larger produce trades.",
+      "example_of_a_buyer": "A regional produce trader selling high volumes of seasonal fruits across state lines who lacks an in-house distribution network."
+    },
+    {
+      "sector": "Fresh Produce Exporters",
+      "why_they_buy": "They need consistent bulk supply of export-grade produce with reliable quality control and trade financing support to meet international buyer commitments.",
+      "example_of_a_buyer": "An agricultural export business shipping premium table grapes or onions to overseas retail markets."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Reliance Retail",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Operates major retail supermarket chains requiring B2B fresh produce supply chain fulfillment.",
+      "seen_in": "Grocery Store Chains in India List | PDF",
+      "domain": "relianceretail.com"
+    },
+    {
+      "company": "DMart",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Large supermarket chain that buys high volumes of fresh produce and groceries for retail.",
+      "seen_in": "Category:Supermarkets of India",
+      "domain": "dmart.in"
+    },
+    {
+      "company": "BigBasket",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Major e-grocery retailer requiring direct sourcing and B2B fresh produce fulfillment services.",
+      "seen_in": "Top Grocery Retail companies in India - September, 2026",
+      "domain": "bigbasket.com"
+    },
+    {
+      "company": "JioMart",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Large grocery retail platform sourcing produce and agri-commodities at wholesale scale.",
+      "seen_in": "Top Grocery Retail companies in India - September, 2026",
+      "domain": "jiomart.com"
+    },
+    {
+      "company": "Spencer's Retail",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Supermarket chain requiring reliable fresh produce supply chain solutions and procurement.",
+      "seen_in": "India Supermarket Industry Market | 2019 – 2030",
+      "domain": "spencersonline.com"
+    },
+    {
+      "company": "LuLu Group International",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Hypermarket chain operator requiring large-scale agri-commodity and fresh produce sourcing.",
+      "seen_in": "Category:Supermarkets of India",
+      "domain": "luluretail.com"
+    },
+    {
+      "company": "More",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Supermarket chain requiring daily fresh produce fulfillment and trade credit services.",
+      "seen_in": "Category:Supermarkets of India",
+      "domain": "more.in"
+    },
+    {
+      "company": "Future Retail",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Retail group operating supermarket chains that purchase produce and grocery inventory.",
+      "seen_in": "Grocery Store Chains in India List | PDF",
+      "domain": "verlinvest.com"
+    },
+    {
+      "company": "HyperCity",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Hypermarket store chain sourcing fresh produce and consumer staples for retail.",
+      "seen_in": "Category:Supermarkets of India",
+      "domain": "hypercityng.com"
+    },
+    {
+      "company": "Vijetha",
+      "sector": "Independent Grocery Retailers and Supermarket Chains",
+      "why": "Supermarket chain operator requiring bulk fresh produce sourcing and logistics.",
+      "seen_in": "Supermarket and hypermarket operators Companies in India",
+      "domain": "google.com"
+    },
+    {
+      "company": "Superplum",
+      "sector": "Fresh Produce Exporters",
+      "why": "Fresh produce brand and exporter needing supply chain infrastructure and farmer sourcing networks.",
+      "seen_in": "Fresh produce brand Superplum plans focus on export of mangoes, lychees",
+      "domain": "superplum.com"
+    },
+    {
+      "company": "Kay Bee Exports",
+      "sector": "Fresh Produce Exporters",
+      "why": "Exporter of fresh fruits and vegetables sourcing high-quality produce and supply chain fulfillment.",
+      "seen_in": "Kay Bee Exports: Trusted Fruits & Vegetables Exporter in India",
+      "domain": "kaybeeexports.com"
+    },
+    {
+      "company": "Geewin Exim",
+      "sector": "Fresh Produce Exporters",
+      "why": "Exports fresh vegetables and agricultural products, benefiting from marketplace supply and credit.",
+      "seen_in": "Fresh Vegetables Exporters from India",
+      "domain": "geewinexim.com"
+    },
+    {
+      "company": "Aworld Exports",
+      "sector": "Fresh Produce Exporters",
+      "why": "Fresh fruit and vegetable exporter requiring bulk produce procurement and fulfillment services.",
+      "seen_in": "Aworld Exports: Fruits and Vegetables Export Company in India",
+      "domain": "aworldexports.com"
+    },
+    {
+      "company": "Adrianna Springs Impex",
+      "sector": "Fresh Produce Exporters",
+      "why": "Trader and exporter of fresh vegetables and fruits seeking trade marketplace access and supply.",
+      "seen_in": "Vegetables Exporters in India - Adrianna Springs Exporters In ...",
+      "domain": "adriannasprings.com"
+    },
+    {
+      "company": "Elevex Ventures",
+      "sector": "Fresh Produce Exporters",
+      "why": "Exporter of fresh fruits and vegetables requiring reliable produce supply chain and sourcing.",
+      "seen_in": "Fresh Fruits & Vegetables Exporter and Supplier in India",
+      "domain": "elevexventures.com"
+    },
+    {
+      "company": "Bahuvida",
+      "sector": "Agri-Commodity Wholesale Traders",
+      "why": "Bulk agro-commodity trading company involved in grain trading requiring B2B marketplace tools.",
+      "seen_in": "Agro Commodities",
+      "domain": "bahuvida.co.in"
+    },
+    {
+      "company": "AWL Agri Business",
+      "sector": "Agri-Commodity Wholesale Traders",
+      "why": "Major food FMCG and edible oil company trading bulk agri-commodities and requiring trade services.",
+      "seen_in": "AWL Agri Business Limited",
+      "domain": "awl.in"
+    },
+    {
+      "company": "Tata International",
+      "sector": "Agri-Commodity Wholesale Traders",
+      "why": "International trading arm sourcing and trading grains, pulses, and agricultural commodities.",
+      "seen_in": "Agri Trading | Key Businesses",
+      "domain": "tatainternational.com"
+    },
+    {
+      "company": "Anik Group",
+      "sector": "Agri-Commodity Wholesale Traders",
+      "why": "Focuses on domestic and international trading of bulk agricultural commodities.",
+      "seen_in": "agri commodities",
+      "domain": "anikgroup.com"
+    }
+  ]
+}

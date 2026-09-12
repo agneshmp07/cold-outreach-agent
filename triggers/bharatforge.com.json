@@ -1,0 +1,18 @@
+{
+  "company_name": "Bharat Forge",
+  "triggers": [
+    {
+      "fact": "Bharat Forge published an Integrated Annual Report for 2025-26 covering financial, manufactured, human, intellectual, social & relationship, and natural capitals.",
+      "source_page": "https://www.bharatforge.com/AR2026/about-the-report.html",
+      "relevance_score": 7
+    },
+    {
+      "fact": "Bharat Forge signed a long-term contract with Embraer for landing gear forgings.",
+      "source_page": "https://www.sttinfo.fi/tiedote/72038715/bharat-forge-signs-long-term-contract-with-embraer-for-landing-gear-forgings?publisherId=58763726&lang=en",
+      "relevance_score": 6
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "Bharat Forge requires advisory support to manage ESG compliance, integrated reporting, and complex supply chain risk as it expands its international aerospace contracts.",
+  "no_trigger_found": false
+}

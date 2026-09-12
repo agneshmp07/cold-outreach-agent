@@ -1,0 +1,90 @@
+{
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "company_name": "ArcSpan",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 1,
+    "top_score": 7,
+    "pain_hypothesis": "With employees distributed across North America, Europe, and Africa, ArcSpan likely needs flexible coworking memberships and on-demand meeting spaces across multiple regions without committing to permanent regional office leases.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "workspace for arcspan's distributed team",
+      "body": "ArcSpan's team is spread across North America, Europe, and Africa. At this stage of distributed growth, setting up physical workspace across three continents often gets complicated.\n\nWhen your team members need reliable on-demand desks or professional meeting rooms in their local cities, what usually breaks in your current setup?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "ArcSpan has approximately 17 employees distributed across 3 continents, including North America, Africa, and Europe, as of July 2026.",
+      "trigger_link": "Having a team distributed across North America, Europe, and Africa creates a need for flexible local desk access and meeting spaces across multiple regions without long-term leases.",
+      "word_count": 51,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "managing global workspace access",
+      "body": "For companies with team members spread across North America, Europe, and Africa, coordinating individual workspace stipends or short-term leases across time zones usually creates a heavy administrative burden.\n\nDoes that match what you are experiencing at ArcSpan, or have you found a simple way to manage workspace access for distributed employees?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "ArcSpan has approximately 17 employees distributed across 3 continents, including North America, Africa, and Europe, as of July 2026.",
+      "trigger_link": "Having a team distributed across North America, Europe, and Africa creates a need for flexible local desk access and meeting spaces across multiple regions without long-term leases.",
+      "word_count": 53,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "flexible space across continents",
+      "body": "With ArcSpan's team distributed across North America, Europe, and Africa, managing workspace needs per region can get complicated.\n\nIf we provided your global team with flexible, on-demand workspace and meeting access across all your key regions under a single plan, would you be open to taking a look? Reviewing it costs nothing and commits you to nothing.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "ArcSpan has approximately 17 employees distributed across 3 continents, including North America, Africa, and Europe, as of July 2026.",
+      "trigger_link": "Having a team distributed across North America, Europe, and Africa creates a need for flexible local desk access and meeting spaces across multiple regions without long-term leases.",
+      "word_count": 59,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Noticed ArcSpan's team is distributed across North America, Europe, and Africa. Would love to connect with you here on LinkedIn.",
+      "trigger_used": "ArcSpan has approximately 17 employees distributed across 3 continents, including North America, Africa, and Europe, as of July 2026.",
+      "trigger_link": "Having a team distributed across North America, Europe, and Africa creates a need for flexible local desk access and meeting spaces across multiple regions without long-term leases.",
+      "char_count": 128,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. Given that ArcSpan has employees across North America, Europe, and Africa, how are you currently handling on-demand workspace and meeting space requests for team members in different regions?",
+      "trigger_used": "ArcSpan has approximately 17 employees distributed across 3 continents, including North America, Africa, and Europe, as of July 2026.",
+      "trigger_link": "Having a team distributed across North America, Europe, and Africa creates a need for flexible local desk access and meeting spaces across multiple regions without long-term leases.",
+      "char_count": 214,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "As ArcSpan grows across North America, Europe, and Africa, managing international office needs comes up fast. We are currently gathering insights on how small distributed teams handle regional workspace access. Would you be open to hearing what we learn as we build this out?",
+      "trigger_used": "ArcSpan has approximately 17 employees distributed across 3 continents, including North America, Africa, and Europe, as of July 2026.",
+      "trigger_link": "Having a team distributed across North America, Europe, and Africa creates a need for flexible local desk access and meeting spaces across multiple regions without long-term leases.",
+      "char_count": 275,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "'across north america, europe, and' appears in 6 of 6 messages (limit 2) - the batch reads like one sentence pasted repeatedly",
+    "'north america, europe, and africa,' appears in 4 of 6 messages (limit 2) - the batch reads like one sentence pasted repeatedly"
+  ]
+}

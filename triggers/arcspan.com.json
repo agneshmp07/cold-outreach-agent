@@ -1,0 +1,13 @@
+{
+  "company_name": "ArcSpan",
+  "triggers": [
+    {
+      "fact": "ArcSpan has approximately 17 employees distributed across 3 continents, including North America, Africa, and Europe, as of July 2026.",
+      "source_page": "https://leadiq.com/c/arcspan/60c0fd1f3b112d2d986054b1/employee-directory",
+      "relevance_score": 7
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "With employees distributed across North America, Europe, and Africa, ArcSpan likely needs flexible coworking memberships and on-demand meeting spaces across multiple regions without committing to permanent regional office leases.",
+  "no_trigger_found": false
+}

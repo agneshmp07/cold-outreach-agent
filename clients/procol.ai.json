@@ -1,0 +1,27 @@
+{
+  "domain": "procol.ai",
+  "name": "Procol",
+  "one_liner": "Procol provides procurement software that automates purchase requests, vendor sourcing, reverse auctions, and invoice processing for enterprise finance and sourcing teams.",
+  "what_you_sell": "An enterprise e-procurement software platform that automates purchasing workflows, vendor sourcing, auctions, purchase requests, and accounts payable processing.",
+  "target_group": "Procol sells to enterprise companies in manufacturing, fast-moving consumer goods, real estate, chemicals, and agriculture that manage large supplier networks and purchase order volumes. Good prospects run enterprise ERP systems like SAP and have dedicated procurement teams looking to reduce purchasing cycle times and spend. Bad prospects are small businesses or pure digital companies without complex physical supply chains or high purchasing volume.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Procurement managers, strategic sourcing leaders, accounts payable staff, and supply chain managers.",
+  "who_pays_for_it": "Chief Financial Officers, Heads of Strategic Sourcing, and Chief Procurement Officers.",
+  "who_buys_it": "Enterprise Chief Financial Officers and Heads of Procurement.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-procol.ai.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims over $30B+ spend managed under Procol's system.",
+    "Claims $1B+ returned to customers in savings.",
+    "Claims 250+ enterprise customers across 10+ countries.",
+    "Claims 95% faster freight procurement and 40% time savings from PR to PO.",
+    "Claims full implementation and live deployment in 4 to 6 weeks."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

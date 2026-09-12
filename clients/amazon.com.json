@@ -1,0 +1,27 @@
+{
+  "domain": "amazon.com",
+  "name": "Amazon",
+  "one_liner": "Amazon operates a global online marketplace and service platform connecting retail buyers with third-party product sellers, advertisers, and digital content creators.",
+  "what_you_sell": "Online marketplace listing services, shipping and fulfillment software, advertising space, self-publishing tools, and business purchasing solutions.",
+  "target_group": "Amazon targets physical product brands, third-party merchants, and consumer goods manufacturers that want to sell products online. These businesses typically range from emerging consumer brands to established wholesale product companies with shippable inventory. A good prospect is a business with physical products suited for e-commerce distribution seeking a high-traffic sales channel and logistics support.",
+  "sells_to_businesses": true,
+  "b2c_note": "While Amazon's main website serves retail consumers, its primary paid business revenue model includes third-party sellers, advertisers, vendors, and business procurement buyers.",
+  "business_model": "marketplace",
+  "who_uses_it": "Individual consumers shopping for physical goods, streaming digital content, or ordering household items.",
+  "who_pays_for_it": "Third-party merchants, product brands, publishers, and advertisers paying listing fees, transaction cuts, fulfillment fees, and ad placements.",
+  "who_buys_it": "Consumer product brands, independent merchants, manufacturers, and digital content creators looking to sell products or advertise online.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-amazon.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims to have met its 100% renewable energy goal 7 years early.",
+    "Claims AI visual dubbing lip-sync technology enhances global customer viewing experience.",
+    "Implies over 100,000 U.S. Whole Foods Market team members will gain access to comprehensive Amazon benefits.",
+    "Claims to offer students at 132 universities across 18 countries a full free year of Kiro from AWS.",
+    "Quotes an investment of over $230 million in higher pay and benefits for Whole Foods Market team members."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

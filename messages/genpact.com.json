@@ -1,0 +1,89 @@
+{
+  "client": "MoveInSync",
+  "client_domain": "moveinsync.com",
+  "company_name": "Genpact",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 4,
+    "top_score": 5,
+    "pain_hypothesis": "Managing employee commute transport across a large global workforce of over 140,000 employees introduces operational complexity and high fleet costs that require automated scheduling, routing, and billing.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "gcc commute operations",
+      "body": "Following Dinesh Jain taking over as Global Capability Center Lead, Genpact is expanding its center operations.\n\nAt this stage of center growth, enterprise teams usually face operational friction in employee transport. MoveInSync provides software and managed fleet services to automate employee commute scheduling, routing, and billing.\n\nWhat breaks for your team today in managing large-scale employee transport across centers?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Appointed Dinesh Jain as Global Capability Center (GCC) Lead on November 11, 2025.",
+      "trigger_link": "Expanding Global Capability Centers requires scaling employee commute operations and transport scheduling.",
+      "word_count": 61,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "employee commute transport overhead",
+      "body": "For enterprise organizations with over 140,000 employees, commute transport routing and billing is usually broken, creating high fleet costs and heavy manual administration.\n\nMoveInSync provides an automated commute platform and managed fleet operations to streamline employee transport.\n\nDoes that match what your operations team experiences when coordinating workforce commute logistics?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Careers page notes a workforce of over 140,000 employees across more than 30 countries.",
+      "trigger_link": "Managing employee commute transport across a global workforce of 140,000 people creates significant billing and routing complexity.",
+      "word_count": 52,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "fleet transport costs and billing",
+      "body": "With Ajith Madhavan appointed as VP to strengthen Finance and Operations leadership, operational costs and fleet transport spending are likely under focus.\n\nIf we brought you automated employee commute scheduling, routing, and billing with zero cost and no commitment to look, would you be open to taking a look?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Appointed Ajith Madhavan as Vice President to strengthen Finance and Operations leadership in June 2026.",
+      "trigger_link": "New leadership in finance and operations often looks to optimize fleet transport spend and automate manual billing.",
+      "word_count": 51,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw Genpact appointed Sumita Pandit as CFO. Would love to connect as you evolve your finance leadership.",
+      "trigger_used": "Appointed Sumita Pandit as Chief Financial Officer, effective September 9, 2026.",
+      "trigger_link": "A new Chief Financial Officer oversees major operational expenditure including workforce fleet transport costs.",
+      "char_count": 104,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. With over 140,000 employees across 30 countries, how is Genpact currently handling the operational complexity of employee commute transport and billing?",
+      "trigger_used": "Careers page notes a workforce of over 140,000 employees across more than 30 countries.",
+      "trigger_link": "Coordinating daily commutes for a workforce of 140,000 employees creates recurring operational and administrative hurdles.",
+      "char_count": 175,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Congrats on appointing Dinesh Jain as GCC Lead. We are building commute automation for enterprise centers. While we do not have a formal guide to send, would you be interested if I shared what we learn about simplifying center transport operations as we build?",
+      "trigger_used": "Appointed Dinesh Jain as Global Capability Center (GCC) Lead on November 11, 2025.",
+      "trigger_link": "GCC leadership manages infrastructure and operational processes like employee transportation.",
+      "char_count": 260,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "WEAK TRIGGERS - the best one scores 5/10. The facts are real but their link to what you sell is loose. Expect a lower reply rate, and read the 'why it connects' line on each message before sending."
+  ]
+}

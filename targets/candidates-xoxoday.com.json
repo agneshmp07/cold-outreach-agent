@@ -1,0 +1,169 @@
+{
+  "client": "Xoxoday",
+  "client_domain": "xoxoday.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Global IT Services & Software Development",
+      "why_they_buy": "They employ large, globally distributed remote workforces across multiple currency zones that require automated peer recognition, spot bonuses, and retention rewards.",
+      "example_of_a_buyer": "A 2,500-person offshore software development consultancy with engineering hubs in Poland, India, and North America using Workday and Salesforce."
+    },
+    {
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why_they_buy": "They rely heavily on multi-tiered indirect distribution networks and require automated software engines to pay out channel partner incentives, dealer SPIFFs, and sales rebates globally.",
+      "example_of_a_buyer": "A mid-sized automotive aftermarket parts manufacturer distributing products through 5,000+ independent regional dealers and distributors worldwide."
+    },
+    {
+      "sector": "Retail Financial Services & FinTech Neobanks",
+      "why_they_buy": "They need enterprise-compliant, instant multi-currency reward payouts to power customer acquisition, card-linked loyalty programs, and user referral campaigns.",
+      "example_of_a_buyer": "A scale-up cross-border remittance or neobanking platform operating across Europe and Latin America running high-volume user referral incentive programs."
+    },
+    {
+      "sector": "Pharmaceutical & Medical Device Manufacturers",
+      "why_they_buy": "They manage large regional field sales forces and third-party healthcare distribution reps who require compliant, automated commission tracking and reward fulfillment.",
+      "example_of_a_buyer": "A medical equipment manufacturer with 1,200 employees and hundreds of independent sales agents distributed across multiple regional healthcare systems."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "L&T Technology Services",
+      "sector": "Global IT Services & Software Development",
+      "why": "Employs a massive engineering and IT workforce that requires structured employee recognition programs.",
+      "seen_in": "List of Indian IT companies",
+      "domain": "ltts.com"
+    },
+    {
+      "company": "Uber",
+      "sector": "Global IT Services & Software Development",
+      "why": "Expanding technology operations and workforce in India needing employee engagement and performance rewards.",
+      "seen_in": "Uber to open 2 campuses in India to support product development, operations",
+      "domain": "uber.com"
+    },
+    {
+      "company": "T-Mobile",
+      "sector": "Global IT Services & Software Development",
+      "why": "Opening new global technology hubs with growing staff requiring employee motivation and milestone rewards.",
+      "seen_in": "T-Mobile opens first India tech hub in Hyderabad",
+      "domain": "t-mobile.com"
+    },
+    {
+      "company": "IBM",
+      "sector": "Global IT Services & Software Development",
+      "why": "Large global technology workforce expanding regional offices, benefiting from automated employee recognition.",
+      "seen_in": "Global firms back UP growth story at Bengaluru roadshow; IBM, Cognizant announce major expansion plans",
+      "domain": "ibm.com"
+    },
+    {
+      "company": "BMW Group",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Global automotive manufacturer with large employee base and broad dealership network for channel incentives.",
+      "seen_in": "The BMW Group’s IT and Software Hubs",
+      "domain": "bmwgroup.com"
+    },
+    {
+      "company": "Robert Bosch",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Major automotive supplier relying on distributor channel incentives and factory staff recognition.",
+      "seen_in": "Top 10 Auto Parts Manufacturing Companies Worldwide",
+      "domain": "bosch.us"
+    },
+    {
+      "company": "Samvardhana Motherson International",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Large auto component manufacturer managing extensive manufacturing teams and global supply networks.",
+      "seen_in": "Top 20 Indian Auto Component Manufacturers",
+      "domain": "motherson.com"
+    },
+    {
+      "company": "Bharat Forge",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Industrial component manufacturer with large plant workforce suited for safety and performance incentives.",
+      "seen_in": "Top 10 OEM Manufacturing Companies in India for Private ...",
+      "domain": "bharatforge.com"
+    },
+    {
+      "company": "Dixon Technologies",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Contract electronics manufacturer with expansive shop-floor staff requiring employee engagement tools.",
+      "seen_in": "Top 10 OEM Manufacturing Companies in India for Private ...",
+      "domain": "dixoninfo.com"
+    },
+    {
+      "company": "Uno Minda",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Auto parts manufacturer using partner networks and distribution incentives to drive component sales.",
+      "seen_in": "Top 20 Indian Auto Component Manufacturers",
+      "domain": "unominda.com"
+    },
+    {
+      "company": "JBM Group",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Automotive component supplier managing large production teams requiring operational incentives.",
+      "seen_in": "10 Largest Automotive Components Suppliers in 2025",
+      "domain": "jbmgroup.com"
+    },
+    {
+      "company": "ExxonMobil",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Energy and lubricant manufacturer with extensive distributor channels needing channel partner rewards.",
+      "seen_in": "ExxonMobil to build lubricant manufacturing plant in India",
+      "domain": "exxonmobil.com"
+    },
+    {
+      "company": "Xiaomi",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Consumer tech brand with vast retail partner networks needing channel incentive programs and consumer loyalty.",
+      "seen_in": "Xiaomi says doubling down on AI, smart home ecosystem, eyes India, Europe expansion",
+      "domain": "mi.com"
+    },
+    {
+      "company": "Hisense",
+      "sector": "Consumer Durables & Automotive Parts Manufacturing",
+      "why": "Consumer electronics manufacturer expanding production and retail distribution incentives.",
+      "seen_in": "AP: Hisense Inaugurates First Manufacturing Facility in India at Sri City",
+      "domain": "hisense-usa.com"
+    },
+    {
+      "company": "Chime",
+      "sector": "Retail Financial Services & FinTech Neobanks",
+      "why": "Digital banking provider needing customer referral rewards and employee recognition platforms.",
+      "seen_in": "17 Fintech Banks and Neobanks to Know 2026",
+      "domain": "google.com"
+    },
+    {
+      "company": "Nubank",
+      "sector": "Retail Financial Services & FinTech Neobanks",
+      "why": "Fast-growing digital bank leveraging consumer loyalty programs and digital reward payouts.",
+      "seen_in": "More neobanks are becoming mobile networks — and Nubank wants a piece of the action",
+      "domain": "nubank.com.br"
+    },
+    {
+      "company": "Papara",
+      "sector": "Retail Financial Services & FinTech Neobanks",
+      "why": "Expanding neobank using digital incentives for user acquisition and partner rewards.",
+      "seen_in": "Papara Acquires Rebellion: Fintech Unicorn Emerges",
+      "domain": "google.com"
+    },
+    {
+      "company": "Transasia Bio-Medicals",
+      "sector": "Pharmaceutical & Medical Device Manufacturers",
+      "why": "Medical diagnostics manufacturer with field sales reps and distributor networks needing sales incentives.",
+      "seen_in": "Top Medical Devices Manufacturing Companies in India",
+      "domain": "transasia.co.in"
+    },
+    {
+      "company": "Zimmer Biomet",
+      "sector": "Pharmaceutical & Medical Device Manufacturers",
+      "why": "Medical device manufacturer expanding technical workforce needing employee recognition and engagement.",
+      "seen_in": "Medical device maker Zimmer Biomet to hire 500 in 3 years for tech centre in India",
+      "domain": "zimmerbiomet.com"
+    },
+    {
+      "company": "Haleon",
+      "sector": "Pharmaceutical & Medical Device Manufacturers",
+      "why": "Consumer healthcare company with sales reps and retail pharmacy channels needing incentive automation.",
+      "seen_in": "Global consumer healthcare company starts work on first India mfg plant in MP’s Pithampur",
+      "domain": "haleon.com"
+    }
+  ]
+}

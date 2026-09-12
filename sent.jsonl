@@ -1,0 +1,1 @@
+{"type": "sent", "at": "2026-09-12T04:41:41+00:00", "client": "WeWork", "domain": "perfios.ai", "angle": "trigger-direct", "to": "test", "channel": "email", "company": "Perfios", "top_trigger": 6, "no_trigger": false, "batch_score": 86, "score": 88, "grounded": true, "words": 51}

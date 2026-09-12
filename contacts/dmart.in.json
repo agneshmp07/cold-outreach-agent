@@ -1,0 +1,43 @@
+{
+  "client": "Ninjacart",
+  "client_domain": "ninjacart.com",
+  "company": "Buy Tamarind Online On DMart Ready",
+  "domain": "dmart.in",
+  "titles": [
+    "Fresh Produce Buyer",
+    "Procurement Manager - Fresh Produce",
+    "Director of Supply Chain Operations",
+    "Category Manager - Fruits & Vegetables",
+    "Import Export Manager - Produce"
+  ],
+  "why": "Procurement, sourcing, and logistics managers face the daily stress of stock spoilage, unreliable supplier fulfillment, and tight trade credit windows that limit their buying capacity.",
+  "people": [
+    {
+      "name": "Asiantic Foods",
+      "role": "Owner at Asiantic Foods",
+      "linkedin": "https://in.linkedin.com/in/asiantic-foods-56a6b6103",
+      "matched_title": "Fresh Produce Buyer",
+      "snippet": "We are Manufacture and Supplier of Dehydrated ONION. Tamarind Powder. We are Manufacture and Supplier of Dehydrated ONION. Tamarind Powder."
+    },
+    {
+      "name": "Avenue EcommerceLtd",
+      "role": "DMart",
+      "linkedin": "https://in.linkedin.com/in/ransleen-sebastian-9b437652",
+      "matched_title": "Director of Supply Chain Operations",
+      "snippet": "Learning & Development . Experience in Retail . Training experience in Last Mile . Worked in Flipkart, Bigbasket Present in DMart Ready."
+    },
+    {
+      "name": "Dharmesh Dudhat",
+      "role": "Manager at Agriculture products Peanut ...",
+      "linkedin": "https://in.linkedin.com/in/dharmesh-dudhat-21150a17b",
+      "matched_title": "Director of Supply Chain Operations",
+      "snippet": "... Supply Chain Management Company for Foods & Agro Products. We focus on ... Tamarind etc • Grain ( Sorgham, green millet, Barley, rice, corn, chick peas ..."
+    }
+  ],
+  "email": {
+    "pattern": "",
+    "examples": [],
+    "sources": [],
+    "confidence": "low"
+  }
+}

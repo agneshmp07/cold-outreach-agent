@@ -1,0 +1,155 @@
+{
+  "client": "JumpCloud",
+  "client_domain": "jumpcloud.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "B2B SaaS and Software Development Companies",
+      "why_they_buy": "They employ distributed engineering teams using mixed macOS and Linux devices alongside cloud workspaces, requiring unified identity management and endpoint control without legacy on-premise Active Directory.",
+      "example_of_a_buyer": "A Series B software company with 150 remote employees running on MacBooks and Linux workstations that needs SOC 2 compliance and streamlined onboarding."
+    },
+    {
+      "sector": "Digital Marketing, Design, and Media Agencies",
+      "why_they_buy": "Their creative and client-facing staff predominantly use macOS devices across remote locations, making centralized device management and rapid access revocation essential as project teams scale.",
+      "example_of_a_buyer": "A 75-person hybrid digital agency operating entirely on Google Workspace and Mac hardware, needing to secure client data across distributed employee laptops."
+    },
+    {
+      "sector": "Fintech and Digital Health Platforms",
+      "why_they_buy": "They face strict regulatory compliance mandates that require enforced device encryption, strict access policies, and audit logs across non-standard, modern device fleets.",
+      "example_of_a_buyer": "A 120-employee telehealth startup scaling rapidly that needs to enforce password policies, multi-factor authentication, and disk encryption across all employee Mac and Windows endpoints."
+    },
+    {
+      "sector": "Video Game Development and Interactive Entertainment Studios",
+      "why_they_buy": "Their technical staff rely on high-performance Linux and macOS workstations alongside Windows PCs, requiring cross-platform access control and secure remote device management.",
+      "example_of_a_buyer": "An independent game studio with 90 remote developers and artists working across Windows, Mac, and Linux environments."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Zoho",
+      "sector": "B2B SaaS",
+      "why": "A multi-product SaaS company with thousands of employees needing unified identity, access, and endpoint management.",
+      "seen_in": "36 SaaS Companies in India to Know in 2026",
+      "domain": "zoho.com"
+    },
+    {
+      "company": "MediBuddy",
+      "sector": "Digital Healthcare Platform",
+      "why": "A healthcare technology provider needing secure identity governance and device management for distributed corporate and healthcare staff.",
+      "seen_in": "100 Top Healthcare IT Companies in India · September 2026",
+      "domain": "google.com"
+    },
+    {
+      "company": "Practo",
+      "sector": "Digital Healthcare",
+      "why": "A digital health platform that requires access control and endpoint security for remote and in-office personnel.",
+      "seen_in": "Top 11 HealthTech Startups In India",
+      "domain": "google.com"
+    },
+    {
+      "company": "PharmEasy",
+      "sector": "HealthTech / E-Pharmacy",
+      "why": "An e-commerce health platform managing remote and office teams needing centralized cloud identity and access controls.",
+      "seen_in": "Top 11 HealthTech Startups In India",
+      "domain": "google.com"
+    },
+    {
+      "company": "Innovaccer",
+      "sector": "Healthcare Data Platform",
+      "why": "A healthcare SaaS provider subject to compliance standards requiring secure access management and endpoint policy enforcement.",
+      "seen_in": "Top 11 HealthTech Startups In India",
+      "domain": "innovaccer.com"
+    },
+    {
+      "company": "Juego Studios",
+      "sector": "Video Game Development",
+      "why": "A game development studio managing distributed development workstations that need device and access security.",
+      "seen_in": "Best Game Development Companies in India 2026",
+      "domain": "juegostudio.com"
+    },
+    {
+      "company": "Ubisoft",
+      "sector": "Video Game Development",
+      "why": "A major game publisher with global development studios needing unified identity, device control, and directory services.",
+      "seen_in": "Video games in India",
+      "domain": "ubisoft.com"
+    },
+    {
+      "company": "Chargebee",
+      "sector": "B2B SaaS",
+      "why": "A subscription billing SaaS platform that needs identity and device management for its growing tech workforce.",
+      "seen_in": "36 SaaS Companies in India to Know in 2026",
+      "domain": "chargebee.com"
+    },
+    {
+      "company": "Druva",
+      "sector": "Cloud Data Protection",
+      "why": "A data security SaaS company requiring internal user authentication and endpoint device security across distributed teams.",
+      "seen_in": "SaaS Companies India Sheet1 | PDF | Cloud Computing",
+      "domain": "druva.com"
+    },
+    {
+      "company": "LaunchDarkly",
+      "sector": "Software Development SaaS",
+      "why": "A feature management platform with cloud infrastructure that requires centralized access management for developers.",
+      "seen_in": "Top SaaS Startups in India",
+      "domain": "launchdarkly.com"
+    },
+    {
+      "company": "MongoDB",
+      "sector": "Database Software",
+      "why": "A developer platform provider with global employees needing secure SSO, cloud directory services, and endpoint management.",
+      "seen_in": "Top SaaS Startups in India",
+      "domain": "mongodb.com"
+    },
+    {
+      "company": "HealthifyMe",
+      "sector": "Digital Health & Fitness",
+      "why": "A health tech startup requiring identity provisioning and endpoint security for corporate employees and coaches.",
+      "seen_in": "Top 11 HealthTech Startups In India",
+      "domain": "google.com"
+    },
+    {
+      "company": "Nykaa",
+      "sector": "E-Commerce & Retail",
+      "why": "A retail tech and e-commerce platform requiring user authentication and corporate device administration.",
+      "seen_in": "Financial Technology and Services Startups funded by ...",
+      "domain": "nykaa.com"
+    },
+    {
+      "company": "Zomato",
+      "sector": "Food Delivery & Consumer Tech",
+      "why": "A large technology consumer platform requiring secure identity and device management for its corporate workforce.",
+      "seen_in": "Financial Technology and Services Startups funded by ...",
+      "domain": "eternal.com"
+    },
+    {
+      "company": "PhonePe",
+      "sector": "Fintech",
+      "why": "A financial technology platform requiring stringent access controls, identity management, and secure device policies.",
+      "seen_in": "28 Fintech Companies in India to Know",
+      "domain": "phonepe.com"
+    },
+    {
+      "company": "Nazara Technologies",
+      "sector": "Interactive Entertainment",
+      "why": "A gaming company requiring centralized cloud directory services and device management for its studio personnel.",
+      "seen_in": "Best Game Development Companies in India 2026",
+      "domain": "nazara.com"
+    },
+    {
+      "company": "Moonfrog Labs",
+      "sector": "Mobile Game Development",
+      "why": "A mobile game studio requiring secure access control and endpoint device provisioning for engineering and design staff.",
+      "seen_in": "Best Game Development Companies in India 2026",
+      "domain": "moonfroglabs.com"
+    },
+    {
+      "company": "Saber Interactive",
+      "sector": "Video Game Development",
+      "why": "A game development studio managing creative teams and hardware endpoints needing centralized access security.",
+      "seen_in": "Saber Interactive announces new John Wick action game for PlayStation, Xbox and PC: What we know so far",
+      "domain": "saber.games"
+    }
+  ]
+}

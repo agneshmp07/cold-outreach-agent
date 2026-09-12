@@ -1,0 +1,378 @@
+{
+  "domain": "superplastronics.com",
+  "client": "Procol",
+  "client_domain": "procol.ai",
+  "checked_against": "icp-procol.ai.md",
+  "result": {
+    "company_name": "Super Plastronics Private Limited",
+    "what_they_do": "Super Plastronics Private Limited (SPPL) is a consumer electronics and appliance manufacturing company in India that serves as the official brand licensee for Kodak, Thomson, and Blaupunkt smart TVs and appliances.",
+    "size": {
+      "estimate": "501 to 1,000 employees",
+      "evidence": "[12], [15]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Consumer electronics and home appliance manufacturers",
+      "in_icp": true,
+      "why": "It is a consumer electronics manufacturer with 500+ employees expanding production lines for smart TVs and appliances, matching the 'Consumer electronics and home appliance manufacturers' category in the ICP 'Also fits' section.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Press releases regarding new manufacturing facility launches or supply chain expansion (plans to invest Rs 700 crore in UP to set up new TV and consumer appliance plants).",
+      "evidence": "[20], [28]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None found",
+      "evidence": "N/A",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "Super Plastronics Private Limited fits the ICP under the Consumer Electronics & Home Appliance Manufacturers sector with 501-1,000 employees, and exhibits a clear buying signal via press releases detailing a Rs 700 crore investment to set up new manufacturing plants.",
+    "could_not_find": [
+      "Specific ERP tech stack details confirming integration with SAP or Oracle.",
+      "Active job listings for Strategic Sourcing or Procurement roles."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "Super Plastronics Private Limited",
+      "snippet": "Ltd (SPPL) is a manufacturing company established in 1990 with its Head Office in Noida. ... © 2024 Super Plastronics Private Limited. Home · Shop · About Us ...",
+      "link": "https://superplastronics.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "SUPER PLASTRONICS PRIVATE LIMITED - Company ...",
+      "snippet": "SUPER PLASTRONICS PRIVATE LIMITED is a Private Limited Company and was incorporated on Aug 27, 1997 in India. It is registered at Registrar ...",
+      "link": "https://tracxn.com/d/legal-entities/india/super-plastronics-private-limited/__konjqM3skz0v55g6UWKbYlSL36BVc9Rnj5Bqr2EuYnA",
+      "date": "Jul 18, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "About Us | SHOPSPPL",
+      "snippet": "This website is fully managed by Super Plastronics Private Limited (SPPL), the official brand licensee in India for renowned brands such as Thomson, Kodak ...",
+      "link": "https://shopsppl.in/about?srsltid=AfmBOoqXelji0Yb4Gmmaa81cm_Wv6HV3ZCwSykhwGgqtG5v7Rb-ClVkY",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "SUPER PLASTRONICS PRIVATE LIMITED",
+      "snippet": "SUPER PLASTRONICS PRIVATE LIMITED's NIC code is 2520 (which is part of its CIN). As per the NIC code, it is inolved in Manufacture of plastic products.",
+      "link": "https://www.zaubacorp.com/SUPER-PLASTRONICS-PRIVATE-LIMITED-U25201DL1997PTC089294",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Super Plastronics Private Limited - Trader",
+      "snippet": "Super Plastronics Private Limited has gained an admirable position in manufacturing, wholesaling, retailing and service providing of Kodak LED TV, SVL LED TV ...",
+      "link": "https://www.indiamart.com/superplastronics/profile.html?srsltid=AfmBOor2w606V5ebkREsiqFt-MXX5Elm14Bq55Pd_K__78o7Z5EenfaW",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "1 Super Plastronics Private Limited Jobs in India",
+      "snippet": "Super Plastronics Private Limited (SPPL) is a manufacturing company established in 1990 with its Head Office in Noida. SPPL is a proud brand licensee of 5 ...",
+      "link": "https://cutshort.io/company/super-plastronics-private-limited-31-hIonulnS",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Super Plastronics Company Profile Funding & Investors",
+      "snippet": "The company was one of the largest manufacturers of CRT TV cabinets in the ... Super Plastronics Private Limited. Headquarters. : New Delhi, Delhi, India.",
+      "link": "https://yourstory.com/companies/super-plastronics",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Super Plastronics Private Limited - The Economic Times",
+      "snippet": "Super Plastronics Private Limited is majorly in Manufacturing (Metals & Chemicals, and products thereof) business from last 29 years and currently, company ...",
+      "link": "https://economictimes.indiatimes.com/company/super-plastronics-private-limited/U25201DL1997PTC089294",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Ritu Chaudhary - HR Manager at Super Plastronics Private ...",
+      "snippet": "Ritu Chaudhary. HR Manager at Super Plastronics Private Limited (SPPL). Super Plastronics Pvt Ltd J.C. Bose University of Science and Technology, ...",
+      "link": "https://in.linkedin.com/in/ritu-chaudhary-60533a189",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Archana Taneja - Super Plastronics Private Limited",
+      "snippet": "Archana Taneja · Customer Service at Super Plastronics Private Limited - India · View mutual connections with Archana · Experience · Education · View Archana's full ...",
+      "link": "https://in.linkedin.com/in/archana-taneja-597900164",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "ravi kumar - HR Assistant | Recruitment & Employee ...",
+      "snippet": "Super Plastronics Private Limited - India ... As an HR Assistant, I support the HR department in daily administrative and recruitment activities. My ...",
+      "link": "https://in.linkedin.com/in/ravi-kumar-416003113",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Super Plastronics Pvt: Employee Directory",
+      "snippet": "Super Plastronics Pvt has 501-1,000 employees. super plastronics pvt ltd. super plastronics private limited - india ... Linkedin · Twitter · Instagram · Facebook ...",
+      "link": "https://www.zoominfo.com/pic/super-plastronics-pvt-ltd/1308802535",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Nisha Kanwar - tallercaller executive at naw dhram energy ...",
+      "snippet": "Experience ; Quality Engineer. Super Plastronics Private Limited - India. Nov 2025 ; Quality Executive. KAPOOR INDUSTRIES LIMITED. May 2024 ; PQC. Autonix Lighting.",
+      "link": "https://in.linkedin.com/in/nisha-kanwar-a9b0a93b1",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Faruk Uddin Email & Phone Number @ Super Plastronics ...",
+      "snippet": "Faruk Uddin is listed as Team Manager at Super Plastronics Private Limited - India, a with 159 employees, based in Bengaluru, Karnataka, India. AeroLeads shows ...",
+      "link": "https://aeroleads.com/in/faruk-uddin-b8a459178",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Super Plastronics Company Profile Funding & Investors",
+      "snippet": "Super Plastronics Private Limited. Headquarters. : New Delhi, Delhi, India. Founding Date. : 1st Jun 1990. No. of Employees. : 501 to 1000. Core Team. : 1.",
+      "link": "https://yourstory.com/companies/super-plastronics",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Amit K Sundriyal - Studio Charcoal",
+      "snippet": "Senior Operations Manager. Super Plastronics Private Limited. Jun 2022 - Dec 2024 2 years 7 months.",
+      "link": "https://in.linkedin.com/in/amit-k-sundriyal-b4644319",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Super Plastronics Private Limited",
+      "snippet": "E-Waste · Shipping And Return Policy · Refund Policy · Warranty Details. © 2024 Super Plastronics Private Limited. Home · Shop · About Us · Our Brands.",
+      "link": "https://superplastronics.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "About Us | SHOPSPPL",
+      "snippet": "Welcome to Shop SPPL, the official e-commerce platform of Super Plastronics Private Limited (SPPL). SPPL is the exclusive brand licensee for the ...",
+      "link": "https://shopsppl.in/about?srsltid=AfmBOoplTnUuxbcZuHLx7HbVZPXaGbCMAq9SbFH2-fSTCZToW8YixCTW",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "SUPER PLASTRONICS PRIVATE LIMITED - Company ...",
+      "snippet": "SUPER PLASTRONICS PRIVATE LIMITED is a Private Limited Company and was incorporated on Aug 27, 1997 in India. It is registered at Registrar ...",
+      "link": "https://tracxn.com/d/legal-entities/india/super-plastronics-private-limited/__konjqM3skz0v55g6UWKbYlSL36BVc9Rnj5Bqr2EuYnA",
+      "date": "Jul 18, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Super Plastronics aims to invest Rs 700 crore in UP to set ...",
+      "snippet": "The QLED TVs, manufactured in India by Super Plastronics Private Limited (SPPL) come in three variants – 50-inch priced Rs 33,999, 55-inch ...",
+      "link": "https://telecom.economictimes.indiatimes.com/news/devices/super-plastronics-aims-to-invest-rs-700-crore-in-up-to-set-up-new-tv-and-consumer-appliance-plants/100074265",
+      "date": "May 8, 2023"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "SUPER PLASTRONICS PRIVATE LIMITED",
+      "snippet": "SUPER PLASTRONICS PRIVATE LIMITED (CIN: U25201DL1997PTC089294) is a Private company incorporated on 27 Aug 1997. It is classified as Non-government company ...",
+      "link": "https://www.zaubacorp.com/SUPER-PLASTRONICS-PRIVATE-LIMITED-U25201DL1997PTC089294",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "SPPL bets on AI-led innovation, make in India to power ...",
+      "snippet": "Super Plastronics Private Limited (SPPL), the exclusive licensee for Kodak and Blaupunkt TVs in India, is doubling down on artificial ...",
+      "link": "https://www.moneycontrol.com/technology/sppl-bets-on-ai-led-innovation-make-in-india-to-power-next-phase-of-smart-tv-growth-article-13459248.html",
+      "date": "Aug 16, 2025"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Terms And Conditions - SPPL",
+      "snippet": "Super Plastronics Private Limited (SPPL). Terms and Conditions. Welcome to Superplastronics! These terms and conditions outline the rules and regulations ...",
+      "link": "https://superplastronics.com/terms-and-conditions/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "In The Press | SHOPSPPL",
+      "snippet": "Welcome to Shop SPPL, the official e-commerce platform of Super Plastronics Private Limited (SPPL). SPPL is the exclusive brand licensee for the ...",
+      "link": "https://shopsppl.in/news-media?srsltid=AfmBOoo2aHzHV1dsBvXog_uPh9QerolvLnVti6ApFgkWPhYKVuh2LQwW",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Super Plastronics Private Limited",
+      "snippet": "E-Waste · Shipping And Return Policy · Refund Policy · Warranty Details. © 2024 Super Plastronics Private Limited. Home · Shop · About Us · Blaupunkt · Our ...",
+      "link": "https://superplastronics.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "About Us | SHOPSPPL",
+      "snippet": "Welcome to Shop SPPL, the official e-commerce platform of Super Plastronics Private Limited (SPPL). SPPL is the exclusive brand licensee for the ...",
+      "link": "https://shopsppl.in/about?srsltid=AfmBOopIpLm89HBdlH_93l6_jw4PnmOM04iLd9StLmTz8EQo7wUFJiNX",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "SUPER PLASTRONICS PRIVATE LIMITED - Company ...",
+      "snippet": "SUPER PLASTRONICS PRIVATE LIMITED is a Private Limited Company and was incorporated on Aug 27, 1997 in India. It is registered at Registrar ...",
+      "link": "https://tracxn.com/d/legal-entities/india/super-plastronics-private-limited/__konjqM3skz0v55g6UWKbYlSL36BVc9Rnj5Bqr2EuYnA",
+      "date": "Jul 18, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Super Plastronics aims to invest Rs 700 crore in UP to set ...",
+      "snippet": "The QLED TVs, manufactured in India by Super Plastronics Private Limited (SPPL) come in three variants – 50-inch priced Rs 33,999, 55-inch ...",
+      "link": "https://telecom.economictimes.indiatimes.com/news/devices/super-plastronics-aims-to-invest-rs-700-crore-in-up-to-set-up-new-tv-and-consumer-appliance-plants/100074265",
+      "date": "May 8, 2023"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "SUPER PLASTRONICS PRIVATE LIMITED",
+      "snippet": "SUPER PLASTRONICS PRIVATE LIMITED (CIN: U25201DL1997PTC089294) is a Private company incorporated on 27 Aug 1997. It is classified as Non-government company ...",
+      "link": "https://www.zaubacorp.com/SUPER-PLASTRONICS-PRIVATE-LIMITED-U25201DL1997PTC089294",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "SPPL bets on AI-led innovation, make in India to power ...",
+      "snippet": "Super Plastronics Private Limited (SPPL), the exclusive licensee for Kodak and Blaupunkt TVs in India, is doubling down on artificial ...",
+      "link": "https://www.moneycontrol.com/technology/sppl-bets-on-ai-led-innovation-make-in-india-to-power-next-phase-of-smart-tv-growth-article-13459248.html",
+      "date": "Aug 16, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Terms And Conditions - SPPL",
+      "snippet": "Super Plastronics Private Limited (SPPL). Terms and Conditions. Welcome to Superplastronics! These terms and conditions outline the rules and regulations ...",
+      "link": "https://superplastronics.com/terms-and-conditions/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "About Us - SPPL",
+      "snippet": "SPPL is a proud brand licensee of 5 major global brands, viz: Thomson, Kodak, Blaupunkt. Super Plastronics Private Limited (SPPL) is one of India's leading ...",
+      "link": "https://superplastronics.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "About Us - SPPL - Super Plastronics",
+      "snippet": "SPPL is a proud brand licensee of 5 major global brands, viz: Thomson, Kodak, Blaupunkt. Super Plastronics Private Limited (SPPL) is one of India's leading ...",
+      "link": "https://superplastronics.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Super Plastronics aims to invest Rs 700 crore in UP to set up new ...",
+      "snippet": "SPPL India launches Thomson QLED 4K smart TV with Google TV support. The QLED TVs, manufactured in India by Super Plastronics Private Limited ( ...",
+      "link": "https://telecom.economictimes.indiatimes.com/news/devices/super-plastronics-aims-to-invest-rs-700-crore-in-up-to-set-up-new-tv-and-consumer-appliance-plants/100074265",
+      "date": "May 8, 2023"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "SPPL bets on AI-led innovation, make in India to power next phase ...",
+      "snippet": "Super Plastronics Private Limited (SPPL), the exclusive licensee for Kodak and Blaupunkt TVs in India, is doubling down on artificial ...",
+      "link": "https://www.moneycontrol.com/technology/sppl-bets-on-ai-led-innovation-make-in-india-to-power-next-phase-of-smart-tv-growth-article-13459248.html",
+      "date": "Aug 16, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "In The Press | SHOPSPPL",
+      "snippet": "Welcome to Shop SPPL, the official e-commerce platform of Super Plastronics Private Limited (SPPL). SPPL is the exclusive brand licensee for the ...",
+      "link": "https://shopsppl.in/news-media?srsltid=AfmBOooHB_G2pdzngQL28T5683WPEY2_s6W8yiyzxZGEGAjQ3BNjgDLu",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "How Noida-based SPPL is the brains and brawn behind Thomson ...",
+      "snippet": "Super Plastronics Private Limited (SPPL) has been one of the flag bearers of the local consumer electronics manufacturing scene. Roots of ...",
+      "link": "https://theprint.in/opinion/printech/how-noida-based-sppl-is-the-brains-and-brawn-behind-thomson-kodak-and-blaupunkt-smart-tvs/1199880/",
+      "date": "Nov 6, 2022"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Licensed Dolby manufacturers",
+      "snippet": "SUPER PLASTRONICS PRIVATE LIMITED SURESOFT SYSTEMS PVT LTD Suzhou RAKEN ... This website uses cookies and other tracking technologies to enhance user ...",
+      "link": "https://professional.dolby.com/licensing/licensed-dolby-manufacturers/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Media Archives - Page 5 of 5 - SPPL - Super Plastronics",
+      "snippet": "E-Waste · Shipping And Return Policy · Refund Policy · Warranty Details. © 2024 Super Plastronics Private Limited. Home · Shop · About Us · Blaupunkt · Our ...",
+      "link": "https://superplastronics.com/category/media/page/5/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "[PDF] SKYWAYS AIR SERVICES LIMITED SSf€= - NSE",
+      "snippet": "... uses its capital. The Company served 9,504 customers in 65 ... Super Plastronics Private Limited as. Company Secretary from September.",
+      "link": "https://nsearchives.nseindia.com/corporate/SKYWAYS_08092026180346_1.pdf",
+      "date": "3 days ago"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "careers - SPPL - Super Plastronics",
+      "snippet": "About Us · Contact Us · Our Brands · Media · Manufacturing Capabilities · Careers · Tech Visit. Important Links. Terms And Conditions · Privacy Policy · E-Waste ...",
+      "link": "https://superplastronics.com/careers/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Career - SPPL - Super Plastronics",
+      "snippet": "We are hiring for Sr. Executive – PR for our corporate office Okhla Phase -II, New Delhi. Job Descriptions. *Research, outline, write, edit and proofread ...",
+      "link": "https://superplastronics.com/career/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us - SPPL - Super Plastronics",
+      "snippet": "Super Plastronics Private Limited (SPPL) is one of India's leading original equipment manufacturing companies. SPPL started off as a plastic injection molding ...",
+      "link": "https://superplastronics.com/about-us/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "TV set makers ramp up capacity eyeing sops - SPPL",
+      "snippet": "Television makers in India are ramping up manufacturing, expecting the government's new production-linked incentive (PLI) scheme to be ...",
+      "link": "https://superplastronics.com/tv-set-makers-ramp-up-capacity-eyeing-sops/",
+      "date": "May 23, 2021"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Sample Page - SPPL",
+      "snippet": "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes).",
+      "link": "https://superplastronics.com/sample-page/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "E-Waste - SPPL - Super Plastronics",
+      "snippet": "Electronic waste, or E-waste, is a term for electronic products that have become unwanted, non-working or obsolete, and have essentially reached the end of ...",
+      "link": "https://superplastronics.com/e-waste/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Privacy Policy - SPPL - Super Plastronics",
+      "snippet": "Super Plastronics Private Limited (SPPL) Privacy Policy. Our Commitment To Privacy At SPPL, we put our top priority on protecting your personal information.",
+      "link": "https://superplastronics.com/privacy-policies/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Our Brands - SPPL - Super Plastronics",
+      "snippet": "About Us · Contact Us · Our Brands · Media · Manufacturing Capabilities · Careers · Tech Visit. Important Links. Terms And Conditions · Privacy Policy · E-Waste ...",
+      "link": "https://superplastronics.com/our-brands/",
+      "date": ""
+    }
+  ]
+}

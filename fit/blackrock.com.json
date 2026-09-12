@@ -1,0 +1,322 @@
+{
+  "domain": "blackrock.com",
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "checked_against": "icp-wework.com.md",
+  "result": {
+    "company_name": "BlackRock Alumni Network",
+    "what_they_do": "Provides a global corporate alumni platform and network to keep former BlackRock employees, contractors, and interns connected through events, news, and networking opportunities [1, 2].",
+    "size": {
+      "estimate": "19,800 employees",
+      "evidence": "[13]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Enterprise and Financial Services",
+      "in_icp": true,
+      "why": "It is part of BlackRock, an enterprise financial services organization with well over 1,000 employees [13].",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Hiring across multiple global metro areas including Chicago, San Francisco, Mexico City, Saudi Arabia, and Japan [35, 36, 37, 38, 40].",
+      "evidence": "[35, 36, 37, 38, 40]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": null,
+      "evidence": "No mention in search results of flexible workspace providers currently used [1-40].",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "BlackRock fits the Enterprise and Financial Services segment with 19,800 employees [13]. There are no disqualifiers, and job listings show active hiring across multiple global cities [35-40], matching the ICP buying signal for geographic expansion.",
+    "could_not_find": [
+      "Specific details regarding BlackRock's current corporate real estate downsizing or lease renewal plans.",
+      "Whether the alumni network team manages separate office/event space distinct from main corporate headquarters."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "BlackRock Alumni Network: Home",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Frequently Asked Questions - BlackRock Alumni Network",
+      "snippet": "The BlackRock Alumni Network is a global network for former BlackRock employees (including consultants, contractors, and interns) to connect with fellow alumni, ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/faq/faq",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "News Article - BlackRock Alumni Network",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/news/details",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "[PageSlug] - BlackRock Alumni Network",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/pages/alumni-spotlight",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Terms of Use",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/faq/terms",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "The 10 Best Corporate Alumni Networks",
+      "snippet": "The BlackRock Alumni Network, also known as #OneBlackRock, is a unique opportunity for former and current BlackRock employees to connect.",
+      "link": "https://enterprisealumni.com/blog/10-best-alumni-networks",
+      "date": "Aug 17, 2026"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Grateful for the 𝗕𝗹𝗮𝗰𝗸𝗥𝗼𝗰𝗸 𝗔𝗹𝘂𝗺𝗻𝗶 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ...",
+      "snippet": "Grateful for the BlackRock Alumni Network for reconnecting me with the company where my career started — and with the ...",
+      "link": "https://www.linkedin.com/posts/jameslavela_grateful-for-the%F0%9D%97%95%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B8%F0%9D%97%A5%F0%9D%97%BC%F0%9D%97%B0%F0%9D%97%B8-%F0%9D%97%94%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%BA%F0%9D%97%BB%F0%9D%97%B6-activity-7437193787212189696-nVWb",
+      "date": "6 months ago"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "The BlackRock Alumni Network and our employee-led ...",
+      "snippet": "The BlackRock Alumni Network and our employee-led Women's Initiative & Allies Network partnered to celebrate International Women's Day (#IWD) ...",
+      "link": "https://www.instagram.com/p/C40zmXsRP9B/?hl=en",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Join the BlackRock Alumni Network",
+      "snippet": "We invite all former BlackRock employees to join the BlackRock Alumni Network: a network launched to create a community that gives alumni ...",
+      "link": "https://www.linkedin.com/posts/blackrock_join-the-blackrock-alumni-network-activity-7026376077199441920--eV7",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Grateful for the 𝗕𝗹𝗮𝗰𝗸𝗥𝗼𝗰𝗸 𝗔𝗹𝘂𝗺𝗻𝗶 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 ...",
+      "snippet": "Grateful for the BlackRock Alumni Network for reconnecting me with the company where my career started — and with the ...",
+      "link": "https://www.linkedin.com/posts/jameslavela_grateful-for-the%F0%9D%97%95%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B8%F0%9D%97%A5%F0%9D%97%BC%F0%9D%97%B0%F0%9D%97%B8-%F0%9D%97%94%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%BA%F0%9D%97%BB%F0%9D%97%B6-activity-7437193787212189696-nVWb",
+      "date": "6 months ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Jillian Kaminski's Post",
+      "snippet": "As we approach year 4️⃣ of the BlackRock Alumni Network, I want to thank all of our alumni and employees around the globe for attending ...",
+      "link": "https://www.linkedin.com/posts/jillian-kaminski-457684a0_as-we-approach-year-4of-the-blackrock-activity-7279947718771240960-FQAY",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Marie Chandoha - BlackRock Alumni Network",
+      "snippet": "I joined the BlackRock Alumni Network to stay connected with BlackRock and meet fellow alumni. Join me and the #1BLK community.",
+      "link": "https://www.linkedin.com/posts/mariechandoha_blackrock-alumni-network-activity-6887505941378539520-oUxb",
+      "date": "4 years ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "The 10 Best Corporate Alumni Networks",
+      "snippet": "1. BlackRock Alumni Network. BlackRock_network 19,800 Employees | World's leading providers of investment, advisory and risk management ...",
+      "link": "https://enterprisealumni.com/blog/10-best-alumni-networks",
+      "date": "Aug 17, 2026"
+    },
+    {
+      "asking_about": "size",
+      "title": "Frequently Asked Questions - BlackRock Alumni Network",
+      "snippet": "The BlackRock Alumni Network is a global network for former BlackRock employees (including consultants, contractors, and interns) to connect with fellow alumni, ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/faq/faq",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Riaz Hakkim's Post",
+      "snippet": "Had a blast at the ✨#Diwali Celebration✨ hosted by the BlackRock Alumni Network and AMP, BlackRock's employee network for Asian & Middle ...",
+      "link": "https://www.linkedin.com/posts/riaz-hakkim_had-a-great-time-at-the-blackrock-alumni-activity-7257951325475205120-mv9N",
+      "date": "1 year ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "Marla Sofer's Post",
+      "snippet": "Nearly 20% of my life! Getting together with the BlackRock Alumni Network last night felt like a family reunion. ❓ Why is that? Because I ...",
+      "link": "https://www.linkedin.com/posts/marlasofer_i-spent-9-fabulous-years-with-blackrock-activity-7194274918916595712-YN8b",
+      "date": "2 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "BlackRock Alumni Network: Home",
+      "snippet": "Welcome to the BlackRock Alumni Network. Join our community to connect with fellow alumni, gain access to exclusive content and events, and remain a part of ...",
+      "link": "https://alumni.blackrock.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "BlackRock Alumni Privacy Notice",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni.",
+      "link": "https://alumni.blackrock.com/alumni/anon/policies/privacy-policy",
+      "date": "Mar 24, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Contacts and Locations",
+      "snippet": "BlackRock Alumni Network · BlackRock · iShares · Aladdin · Our Company · Local ... Since 1999, we've been a leading provider of financial technology, and our ...",
+      "link": "https://www.blackrock.com/corporate/about-us/who-we-are/contacts-and-locations",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Join the BlackRock Alumni Network",
+      "snippet": "We invite all former BlackRock employees to join the BlackRock Alumni Network: a network launched to create a community that gives alumni ...",
+      "link": "https://www.linkedin.com/posts/blackrock_join-the-blackrock-alumni-network-activity-7026376077199441920--eV7",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Frequently Asked Questions - BlackRock Alumni Network",
+      "snippet": "Who is eligible for the BlackRock Alumni Network? The network is for former employees including contractors, consultants, and interns of BlackRock. There is no ...",
+      "link": "https://play.google.com/store/apps/details?id=com.blackrock.alumni&hl=en_US",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "[PageSlug] - BlackRock Alumni Network",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/pages/alumni-spotlight",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "BlackRock Alumni Network | AlmaConnect",
+      "snippet": "AlmaConnect is a social network with a mission to power private alumni networks using technology, for bringing them together as a group & connect in a ...",
+      "link": "https://blackrock.almaconnect.com/about",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Terms of Use",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/faq/terms",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "BlackRock Alumni Network: Home",
+      "snippet": "Welcome to the BlackRock Alumni Network. Join our community to connect with fellow alumni, gain access to exclusive content and events, and remain a part of ...",
+      "link": "https://alumni.blackrock.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "BlackRock Alumni Privacy Notice",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni.",
+      "link": "https://alumni.blackrock.com/alumni/anon/policies/privacy-policy",
+      "date": "Mar 24, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Contacts and Locations",
+      "snippet": "BlackRock Alumni Network · BlackRock · iShares · Aladdin · Our Company · Local ... Since 1999, we've been a leading provider of financial technology, and our ...",
+      "link": "https://www.blackrock.com/corporate/about-us/who-we-are/contacts-and-locations",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Join the BlackRock Alumni Network",
+      "snippet": "We invite all former BlackRock employees to join the BlackRock Alumni Network: a network launched to create a community that gives alumni ...",
+      "link": "https://www.linkedin.com/posts/blackrock_join-the-blackrock-alumni-network-activity-7026376077199441920--eV7",
+      "date": "3 years ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Frequently Asked Questions - BlackRock Alumni Network",
+      "snippet": "Who is eligible for the BlackRock Alumni Network? The network is for former employees including contractors, consultants, and interns of BlackRock. There is no ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/faq/faq",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "[PageSlug] - BlackRock Alumni Network",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/pages/alumni-spotlight",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Terms of Use",
+      "snippet": "The BlackRock Alumni Network provides opportunities to stay in touch with BlackRock and connect with fellow alumni. As a member, you will gain access to a ...",
+      "link": "https://alumni.blackrock.com/alumni/anon/faq/terms",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "BlackRock Alumni Network | AlmaConnect",
+      "snippet": "BlackRock - AlmaConnect is the private alumni network for connecting alumni, employees & management of BlackRock. Help each other in careers by advising & ...",
+      "link": "https://blackrock.almaconnect.com/about",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "BlackRock Careers",
+      "snippet": "Browse available job openings at BlackRock. firefighters, nurses, teachers and factory workers. All roles we are recruiting for externally are posted on our ...",
+      "link": "https://careers.blackrock.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "27 jobs found for digital assets - BlackRock Careers",
+      "snippet": "27 jobs found for digital assets · Director, Digital Assets · Administrative Business Lead, Global Marketing & Digital Wealth · Index Projections and ...",
+      "link": "https://careers.blackrock.com/search-jobs?k=digital+assets&l=&orgIds=45831",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search Chicago Jobs at BlackRock",
+      "snippet": "Jobs in Chicago · Associate/Vice President, Sales Specialist – US Wealth Advisory · Account Executive, Preqin Sales, Vice President · Associate, Software Engineer ...",
+      "link": "https://careers.blackrock.com/location/chicago-jobs/45831/6252001-4896861-4887398/4",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search San Francisco Jobs at BlackRock",
+      "snippet": "Jobs in San Francisco · Senior Engineering Team Director - Aladdin Engineering ETF Systems Engineering · Director, Institutional Sales - Foundations, Endowments ...",
+      "link": "https://careers.blackrock.com/location/san-francisco-jobs/45831/6252001-5332921-5391959/4",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search Mexico Jobs at BlackRock",
+      "snippet": "Search Mexico Jobs at BlackRock. Engagement, Associate Location: Mexico City, Mexico City Team: Sales & Relationship Mgmt. Vice President – Mexico City. ...",
+      "link": "https://careers.blackrock.com/location/mexico-jobs/45831/3996063/2",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search Saudi Arabia Jobs at BlackRock",
+      "snippet": "Search Saudi Arabia Jobs at BlackRock. Advisory Director, Sign up to get information on open roles, Join our Talent Community for experienced professionals",
+      "link": "https://careers.blackrock.com/location/saudi-arabia-jobs/45831/102358/2",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search Wilmington Jobs at BlackRock",
+      "snippet": "Jobs in Wilmington · Filtered By · Implementation Consultant, Director (New York/Princeton/Delaware) · Veterans Transition Program-Client Service Associate.",
+      "link": "https://careers.blackrock.com/location/wilmington-jobs/45831/6252001-4142224-4145381/4",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search Japan Jobs at BlackRock",
+      "snippet": "Search Japan Jobs at BlackRock. Business Development, Director Location: Corporate Security, Vice President",
+      "link": "https://careers.blackrock.com/location/japan-jobs/45831/1861060/2",
+      "date": ""
+    }
+  ]
+}

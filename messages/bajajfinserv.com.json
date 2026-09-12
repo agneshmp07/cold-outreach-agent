@@ -1,0 +1,89 @@
+{
+  "client": "Xoxoday",
+  "client_domain": "xoxoday.com",
+  "company_name": "bajajfinserv.com",
+  "disqualifiers": [],
+  "no_trigger": true,
+  "generated_from": {
+    "trigger_count": 0,
+    "top_score": 0,
+    "pain_hypothesis": "",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "what-they-do",
+      "subject": "Employee and channel incentives at Bajaj Finserv",
+      "body": "Hi team,\n\nBajaj Finserv provides financial services across India, including lending, insurance, and wealth management products.\n\nXoxoday offers a platform to automate employee recognition, sales incentives, and channel partner payouts, which can help streamline reward distribution across large distribution networks.\n\nHow are you currently managing sales incentives and partner payouts across your organization?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "Financial services organizations often manage large partner networks and sales teams that require reliable, automated incentive payouts.",
+      "word_count": 55,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "Managing partner payouts and sales rewards",
+      "body": "Hi team,\n\nManaging channel partner rewards and sales commissions manually often leads to administrative friction, delayed payouts, and limited visibility for reward recipients.\n\nDoes this match your experience when coordinating incentive programs across your distribution teams?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "Financial services organizations often manage large partner networks and sales teams that require reliable, automated incentive payouts.",
+      "word_count": 38,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "Automated sales incentives and rewards",
+      "body": "Hi team,\n\nIf we brought you an automated workflow for sales incentives, channel payouts, and employee rewards with an integrated global digital catalog, would you be open to taking a brief look?\n\nA yes costs nothing and carries no obligation.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "",
+      "trigger_link": "Financial services organizations often manage large partner networks and sales teams that require reliable, automated incentive payouts.",
+      "word_count": 42,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Hi, following Bajaj Finserv's work in providing lending, insurance, and financial services across India. Would love to connect here.",
+      "trigger_used": "",
+      "trigger_link": "Financial services organizations often manage large partner networks and sales teams that require reliable, automated incentive payouts.",
+      "char_count": 132,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting! Quick question: how does your team currently handle sales incentive distributions and channel partner payouts across your networks?",
+      "trigger_used": "",
+      "trigger_link": "Financial services organizations often manage large partner networks and sales teams that require reliable, automated incentive payouts.",
+      "char_count": 154,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Hi, as we build out automated workflows for sales incentives and partner payouts, I am gathering insights on what works best for financial enterprise teams. Would you be interested if I share what we learn as we build?",
+      "trigger_used": "",
+      "trigger_link": "Financial services organizations often manage large partner networks and sales teams that require reliable, automated incentive payouts.",
+      "char_count": 218,
+      "grounded": false,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "NO TRIGGER FOUND - nothing dated or newsworthy was found for this company, so these messages have no hook. They lean on what the company says about itself. Expect a far lower reply rate than trigger-backed messages."
+  ]
+}

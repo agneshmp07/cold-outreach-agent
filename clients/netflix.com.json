@@ -1,0 +1,25 @@
+{
+  "domain": "netflix.com",
+  "name": "Netflix",
+  "one_liner": "Netflix is an ad-free streaming service that offers on-demand movies, TV shows, and original content for a fixed monthly fee.",
+  "what_you_sell": "A direct-to-consumer video streaming subscription service for TV shows, movies, anime, and documentaries.",
+  "target_group": "Netflix sells subscriptions directly to individual members of the public seeking video entertainment. There are no business buyers or corporate tiers described in the scraped text.",
+  "sells_to_businesses": false,
+  "b2c_note": "The scraped text describes a purely direct-to-consumer subscription product with zero ads and no business, advertiser, or enterprise offering mentioned.",
+  "business_model": "direct",
+  "who_uses_it": "Individual consumers and families watching video content on smartphones, tablets, laptops, TVs, or streaming devices.",
+  "who_pays_for_it": "Individual consumer account holders paying a monthly subscription fee ranging from ₹149 to ₹649.",
+  "who_buys_it": "Individual consumers.",
+  "sender": "",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-netflix.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": false,
+  "_claims_to_check": [
+    "Claims content can be watched completely without a single ad.",
+    "Claims subscription plans start at ₹149 per month.",
+    "Claims new TV shows and movies are added every week."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

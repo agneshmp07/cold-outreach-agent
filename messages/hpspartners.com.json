@@ -1,0 +1,89 @@
+{
+  "client": "Octus",
+  "client_domain": "octus.com",
+  "company_name": "HPS Investment Partners",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 2,
+    "top_score": 6,
+    "pain_hypothesis": "Managing $197B in alternative credit across private and liquid debt markets requires active monitoring of covenants, restructuring data, and legal documentation across complex loan portfolios.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "credit market intelligence at hps",
+      "body": "Now that HPS is part of BlackRock and expanding its private market capabilities, managing intelligence across growing portfolios gets increasingly complex.\n\nWe build Octus to streamline covenant analysis, credit market news, and legal document tracking for sub-investment grade debt.\n\nAs you scale private and liquid credit operations post-acquisition, what currently breaks for your team when managing complex loan documentation?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "BlackRock completed its acquisition of HPS Investment Partners on July 1, 2025, expanding its private market capabilities.",
+      "trigger_link": "The acquisition expands HPS's private credit operations, increasing the operational need for streamlined covenant analysis and document tracking.",
+      "word_count": 61,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "tracking loan covenants across credit portfolios",
+      "body": "Managing alternative credit portfolios often creates bottlenecks when manually tracking covenants and legal documentation across liquid and private debt deals.\n\nWe are building Octus to aggregate credit market news, restructuring data, and covenant analysis into one workflow for sub-investment grade debt.\n\nDoes manual covenant tracking and document review match your team's experience, or do you already have a smooth setup for this?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "HPS Investment Partners manages $197B in assets under management specializing in private and liquid credit.",
+      "trigger_link": "Managing $197B in credit assets requires constant monitoring of covenants and legal documentation across extensive deal flow.",
+      "word_count": 64,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "covenant analysis for hps credit portfolios",
+      "body": "With BlackRock completing its acquisition of HPS to expand private market capabilities, maintaining visibility across credit documentation is essential.\n\nOctus provides credit market intelligence, covenant analysis, and legal document tools designed for sub-investment grade debt.\n\nIf we brought you automated covenant tracking and market analysis for your credit portfolios, would you be open to reviewing it? A yes commits you to nothing.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "BlackRock completed its acquisition of HPS Investment Partners on July 1, 2025, expanding its private market capabilities.",
+      "trigger_link": "Expanding private market operations creates immediate demand for centralized covenant analysis and credit intelligence tools.",
+      "word_count": 64,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw HPS manages $197B across private and liquid credit. Would love to connect with peers focused on debt markets.",
+      "trigger_used": "HPS Investment Partners manages $197B in assets under management specializing in private and liquid credit.",
+      "trigger_link": "Connecting directly with investment professionals managing large credit assets.",
+      "char_count": 113,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. Following the BlackRock acquisition, how is your team currently handling covenant tracking and legal document analysis across your credit portfolios?",
+      "trigger_used": "BlackRock completed its acquisition of HPS Investment Partners on July 1, 2025, expanding its private market capabilities.",
+      "trigger_link": "Post-acquisition portfolio expansion prompts reviews of debt tracking and covenant workflows.",
+      "char_count": 172,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Managing $197B in credit assets involves heavy document management. We are building Octus to simplify covenant analysis for sub-investment grade debt. As we research credit workflows, would you be interested if I shared what we learn from other credit managers?",
+      "trigger_used": "HPS Investment Partners manages $197B in assets under management specializing in private and liquid credit.",
+      "trigger_link": "Insights gathered while building credit document tools are directly relevant to teams managing large debt portfolios.",
+      "char_count": 261,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "email 1 (trigger-direct): grammar - 'We build Octus' (Incorrect verb tense; should be 'We are building Octus' or 'We built Octus'.)"
+  ]
+}

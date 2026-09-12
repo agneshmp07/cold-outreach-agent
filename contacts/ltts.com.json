@@ -1,0 +1,68 @@
+{
+  "client": "Xoxoday",
+  "client_domain": "xoxoday.com",
+  "company": "LTTS' Investor and Analyst Day (IAD) 2021",
+  "domain": "ltts.com",
+  "titles": [
+    "Director of Total Rewards",
+    "Sales Operations Manager",
+    "Channel Marketing Manager",
+    "Customer Loyalty Manager",
+    "Manager - Rewards & Recognition"
+  ],
+  "why": "These operational managers and department leads bear the daily friction of manually calculating sales incentives, coordinating partner spiffs, and fulfilling employee rewards across fragmented systems.",
+  "people": [
+    {
+      "name": "Mahalakshmi Srinivasan",
+      "role": "OD at L&T Technology Services (LTTS)",
+      "linkedin": "https://in.linkedin.com/in/mahalakshmi-srinivasan-8b77a913",
+      "matched_title": "Manager - Rewards & Recognition",
+      "snippet": "Group Manager - OD at L&T Technology Services (LTTS). L&T Technology Services D.G.Vaishnav College. Mumbai, Maharashtra, India. 2K followers 500+ connections."
+    },
+    {
+      "name": "Sonal Vaidya",
+      "role": "Global Head - Organisation Development ...",
+      "linkedin": "https://in.linkedin.com/in/sonal-vaidya-15562523",
+      "matched_title": "Manager - Rewards & Recognition",
+      "snippet": "Elevating L&T Technology Services Limited to #1 position amongst 71 winners at BEST Award 2021 Competed against 3000 global organisations & succeeded in ..."
+    },
+    {
+      "name": "Muralidharan K",
+      "role": "L&T Technology Services",
+      "linkedin": "https://in.linkedin.com/in/muralidharan-k-266b8039",
+      "matched_title": "Manager - Rewards & Recognition",
+      "snippet": "Muralidharan K is the Global Head of Digital Manufacturing Services at L&T Technology Services (LTTS), where he leads global initiatives that help ..."
+    },
+    {
+      "name": "Suresh Ranganathan",
+      "role": "Area Vice President @ LTTS",
+      "linkedin": "https://www.linkedin.com/in/suhari",
+      "matched_title": "Manager - Rewards & Recognition",
+      "snippet": "Senior executive with award-winning success leading the sales, solutioning, and delivery of major Telecom/Networking contracts for a Fortune 500 enterprise ..."
+    },
+    {
+      "name": "Rajat Das",
+      "role": "Area Director, Sales at L&T Technology Services",
+      "linkedin": "https://www.linkedin.com/in/rajat-das-274b601",
+      "matched_title": "Manager - Rewards & Recognition",
+      "snippet": "The Estrellas Awards by LTTS celebrate exceptional employee achievements aligned with the mission of “Engineering the Change.” In 2023, Rajat Das received the ..."
+    },
+    {
+      "name": "Suresh R",
+      "role": "Group Manager HR at L&T Technology Services Limited",
+      "linkedin": "https://in.linkedin.com/in/suresh-r-6aa64110",
+      "matched_title": "Manager - Rewards & Recognition",
+      "snippet": "Group Manager HR. L&T Technology Services Limited. Mar 2021 - Present 5 years 7 months. Bangarapet, Karnataka, India. HR Business Partner."
+    }
+  ],
+  "email": {
+    "pattern": "",
+    "examples": [
+      "investor@ltts.com"
+    ],
+    "sources": [
+      "https://www.ltts.com/investors/financial-information"
+    ],
+    "confidence": "low"
+  }
+}

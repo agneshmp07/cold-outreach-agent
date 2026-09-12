@@ -1,0 +1,364 @@
+{
+  "domain": "unitedhealthgroup.com",
+  "client": "Kyndryl",
+  "client_domain": "kyndryl.com",
+  "checked_against": "icp-kyndryl.com.md",
+  "result": {
+    "company_name": "UnitedHealth Group",
+    "what_they_do": "UnitedHealth Group is a multinational healthcare and health insurance company specializing in health insurance plans (UnitedHealthcare) and health services and data analytics (Optum).",
+    "size": {
+      "estimate": "330,000+ employees",
+      "evidence": "[8], [14]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Health Insurance and Payor Organizations / Healthcare and Life Sciences",
+      "in_icp": true,
+      "why": "UnitedHealth Group matches the 'Health Insurance and Payor Organizations' sector in the 'Also fits' section, as well as the 'Healthcare and Life Sciences' category in the main fits table, operating enterprise health insurance and healthcare services at massive scale.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Active job postings for executive engineering roles specifically citing mainframe modernization, cloud migrations, and legacy platform modernization.",
+      "evidence": "[23], [27]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": true,
+      "what": "Uses external IT consulting and integration partners such as Tricension for data integration between critical business systems and MSH Talent for digital transformation consulting.",
+      "evidence": "[22], [37]",
+      "status": "VERIFIED"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "UnitedHealth Group is a top-tier fit for Kyndryl. It is a major healthcare and health insurance enterprise with over 330,000 employees, fitting both the Healthcare and Health Insurance segments. Active job postings directly confirm ongoing mainframe modernization and cloud migration initiatives.",
+    "could_not_find": [
+      "Specific budget allocated for third-party IT infrastructure outsourcing contracts.",
+      "The exact percentage of legacy mainframe workloads compared to public cloud infrastructure currently operating."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "UnitedHealth Group: Helping People Live Healthier Lives",
+      "snippet": "UnitedHealth Group helps people live healthier lives and helps make the health system work better for everyone.",
+      "link": "https://www.unitedhealthgroup.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "About us",
+      "snippet": "UnitedHealthcare is the health benefits business of UnitedHealth Group, a health care and well-being company working to help build a modern, high-performing ...",
+      "link": "https://www.uhc.com/about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "UnitedHealth Group | Consumer Health | Research Starters",
+      "snippet": "UnitedHealth Group is the largest healthcare provider in the United States, holding over 15.3% of the health insurance market as of 2021.",
+      "link": "https://www.ebsco.com/research-starters/consumer-health/unitedhealth-group",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "UnitedHealth Group",
+      "snippet": "UnitedHealth Group Incorporated is an American multinational company based in Eden Prairie, Minnesota, specializing in health insurance and health care services ...",
+      "link": "https://en.wikipedia.org/wiki/UnitedHealth_Group",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "UnitedHealth Group",
+      "snippet": "UnitedHealth Group is a health care and well-being company with a mission to help people live healthier lives and help make the health system work better ...",
+      "link": "https://www.linkedin.com/company/unitedhealth-group",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "UnitedHealth Group | History, Growth, & Controversies",
+      "snippet": "UnitedHealth Group is the largest health insurance provider in the United States, serving more than 29 million Americans, and more than 50 ...",
+      "link": "https://www.britannica.com/money/UnitedHealth-Group",
+      "date": "3 days ago"
+    },
+    {
+      "asking_about": "size",
+      "title": "UnitedHealth Group",
+      "snippet": "Website: https://www.unitedhealthgroup.com/. External link for UnitedHealth Group ; Industry: Hospitals and Health Care ; Company size: 10,001+ employees.",
+      "link": "https://www.unitedhealthgroup.co",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "UnitedHealth Group Breaks Through Noise on Social ...",
+      "snippet": "Minnesota-based UnitedHealth Group is a global healthcare company sustaining a workforce of 340,000 employees, most of whom report into one ...",
+      "link": "https://www.linkedin.com/business/marketing/blog/customer-stories/unitedhealth-group-breaks-through-noise-on-social-media-using-linkedin-articles",
+      "date": "Dec 15, 2021"
+    },
+    {
+      "asking_about": "size",
+      "title": "Cortney F. - Director, Labor Relations | Employee Relations",
+      "snippet": "As Associate Director of Labor Relations at UnitedHealth Group, my role centers on fostering effective employee relations and advancing human resources ...",
+      "link": "https://www.linkedin.com/in/cocofletch08",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "UnitedHealthcare",
+      "snippet": "Browse recommended jobs for you. View all updates, news, and articles. Join now. Similar pages. UnitedHealth Group. Hospitals and Health Care. Eden Prairie ...",
+      "link": "https://www.linkedin.com/company/unitedhealthcare",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "New hire social media announcement materials and ...",
+      "snippet": "Congratulations on joining UnitedHealth Group and our family of businesses. Here, you'll take on rewarding work with a collaborative, global team.",
+      "link": "https://www.unitedhealthgroup.com/careers/en/policies/new-hire-social-media-announcement-materials-and-guidance.html",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "UnitedHealthcare Community & State",
+      "snippet": "... UnitedHealth Group family of businesses, is dedicated to improving care for ... Head jobs. 1,018,536 open jobs · Director jobs. 1,220,357 open jobs ...",
+      "link": "https://www.linkedin.com/company/uhccs",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "UnitedHealth Group — Employees, Headcount & Contacts",
+      "snippet": "Find decision-makers, verified emails and direct phone numbers for UnitedHealth Group. Browse employees, headcount and similar companies on SalesQL.",
+      "link": "https://salesql.com/directory/companies/unitedhealth-group-ee43003cfaba",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Raelyn Trende - SVP, Strategy, Talent and Innovation",
+      "snippet": "Optum is a part of UnitedHealth Group; Fortune 5, largest diversified healthcare company with over 330K employees and revenue of $257B. In this role, I'm the ...",
+      "link": "https://www.linkedin.com/in/rtrende",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Search our Job Opportunities at UnitedHealth Group",
+      "snippet": "Search our Job Opportunities at UnitedHealth Group.",
+      "link": "https://careers.unitedhealthgroup.com/search-jobs?acm=81405,9255136,81368,9255200&alrpm=ALL&ascf=[%7B%22key%22:%22ALL%22,%22value%22:%22%22%7D]",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Best Vendors for Compliance, Security, and Growth in 2026",
+      "snippet": "Part of UnitedHealth Group and formally established in 2011, Optum ... cloud infrastructure management, cybersecurity, application management, ...",
+      "link": "https://helpware.com/blog/healthcare-it-services-companies",
+      "date": "Apr 1, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "UnitedHealth Group: Helping People Live Healthier Lives",
+      "snippet": "At UnitedHealth Group, our team members help people get care, navigate benefits, manage costs and live healthier lives. Build a career with us and help make ...",
+      "link": "https://www.unitedhealthgroup.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Ram Kumar - AI Operations & Infrastructure Modernization ...",
+      "snippet": "- Redesigned UnitedHealth Group's Public Key Infrastructure from legacy physical hardware to a cloud-based, micro-segmented architecture — cutting annual ...",
+      "link": "https://in.linkedin.com/in/ramkumar24021979",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Top Healthcare IT Consulting Companies in 2026",
+      "snippet": "A subsidiary of UnitedHealth Group, Optum blends deep clinical knowledge with powerful data infrastructure, offering consulting services ...",
+      "link": "https://www.derivetech.com/blog/top-healthcare-it-consulting-companies",
+      "date": "Sep 1, 2026"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Technology & Analytics",
+      "snippet": "The Technology & Analytics Program at UnitedHealth Group harnesses technology talent to revolutionize health care, empowering team members to innovate and ...",
+      "link": "https://www.unitedhealthgroup.com/careers/en/work/early-careers/technology-and-analytics.html",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "UnitedHealth Group Technographics, Software Purchases ...",
+      "snippet": "Explore UnitedHealth Group' software investments and digital transformations, including technology executives driving change.",
+      "link": "https://www.appsruntheworld.com/customers-database/customers/view/unitedhealth-group-incorporated-united-states",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "6 Best Digital Transformation Consulting Firms - MSH Talent",
+      "snippet": "... UnitedHealth Group, Condé Nast, Hain Celestial, Prospero. Services Offered: Application modernization · AI implementation consulting · Cloud migration and ...",
+      "link": "https://www.talentmsh.com/insights/best-digital-transformation-consulting-firms",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "VP of Engineering - Optum Insight Payer Market",
+      "snippet": "... cloud migrations, mainframe modernization and other infrastructure services ... UnitedHealth Group is a drug - free workplace. Candidates are ...",
+      "link": "https://careers.unitedhealthgroup.com/job/eden-prairie/vp-of-engineering-optum-insight-payer-market/34088/98893883440",
+      "date": "Aug 7, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Best Vendors for Compliance, Security, and Growth in 2026",
+      "snippet": "Part of UnitedHealth Group and formally established in 2011, Optum ... cloud infrastructure management, cybersecurity, application management, ...",
+      "link": "https://helpware.com/blog/healthcare-it-services-companies",
+      "date": "Apr 1, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Ram Kumar - AI Operations & Infrastructure Modernization ...",
+      "snippet": "- Redesigned UnitedHealth Group's Public Key Infrastructure from legacy physical hardware to a cloud-based, micro-segmented architecture — cutting annual ...",
+      "link": "https://in.linkedin.com/in/ramkumar24021979",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Top Healthcare IT Consulting Companies in 2026",
+      "snippet": "A subsidiary of UnitedHealth Group, Optum blends deep clinical knowledge with powerful data infrastructure, offering consulting services ...",
+      "link": "https://www.derivetech.com/blog/top-healthcare-it-consulting-companies",
+      "date": "Sep 1, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Vice President, Software Engineering",
+      "snippet": "Proven track record modernizing large scale legacy platforms and establishing AI enabled, cloud ... UnitedHealth Group is a drug - free workplace.",
+      "link": "https://careers.unitedhealthgroup.com/job/minnetonka/vice-president-software-engineering/34088/94973582960",
+      "date": "May 11, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "6 Best Digital Transformation Consulting Firms - MSH Talent",
+      "snippet": "... UnitedHealth Group, Condé Nast, Hain Celestial, Prospero. Services Offered: Application modernization · AI implementation consulting · Cloud migration and ...",
+      "link": "https://www.talentmsh.com/insights/best-digital-transformation-consulting-firms",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Senior AI/ML Engineer - Remote",
+      "snippet": "Learn more about applying for Senior AI/ML Engineer - Remote at UnitedHealth Group.",
+      "link": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-ai-ml-engineer-remote/34088/94485284848",
+      "date": "Apr 28, 2026"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Senior Manager, Software Engineering- Remote",
+      "snippet": "... modernization initiatives involving APIs, microservices, cloud platforms, and digital ... UnitedHealth Group is a drug-free workplace. Candidates ...",
+      "link": "https://www.dice.com/job-detail/b6f01425-f805-46dc-a273-fb9b5f166011",
+      "date": "3 days ago"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Case Study: UnitedHealth Group Innovation Training - Ideas To Go",
+      "snippet": "UnitedHealth Group Case Study · Empower an internal movement to disrupt healthcare. · The Challenge · What Success Looked Like · How We Got There · The Results.",
+      "link": "https://www.ideastogo.com/case-study-unitedhealth-group",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "UnitedHealth Group Standardizes on Verint Knowledge ...",
+      "snippet": "... Management at UnitedHealth Group. “In a highly regulated industry, the ... Case Study. Sky logo. Sky Deutschland Increases Customer Satisfaction to 70%+ ...",
+      "link": "https://www.verint.com/case-studies/unitedhealth-group-standardizes-on-verint-knowledge-management-enterprise-wide/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Technology and data - UnitedHealth Group",
+      "snippet": "Design and support our IT infrastructure so our team can deliver scalable and high-quality healthcare services. ... UnitedHealth Group is an Equal Employment ...",
+      "link": "https://www.unitedhealthgroup.com/careers/en/work/technology.html",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "UnitedHealth Group - Business Breakdowns, EP.219 - YouTube",
+      "snippet": "This is Zack Fuss. Today, we're tackling a giant in a controversial and incredibly complex industry, UnitedHealth Group. At its recent apex, ...",
+      "link": "https://www.youtube.com/watch?v=bUFxUfm2YIo",
+      "date": "Jul 12, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Meeting market demands with enterprise-enabled agility | Brokers",
+      "snippet": "UnitedHealth Group also includes Optum, a leading health solutions and care delivery organization. ... * This case study is true. Results ...",
+      "link": "https://www.uhc.com/agents-brokers/employer-sponsored-plans/news-strategies/enterprise-enabled-collaboration",
+      "date": "Dec 19, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Prashant Bhalla - Director Software Engineering at UnitedHealth ...",
+      "snippet": "Recognized for establishing and leading the Technology Integration and Migration Office within Optum/UnitedHealth Group, managing delivery and financial budgets ...",
+      "link": "https://www.linkedin.com/in/prashantbhalla",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "UnitedHealth Data Integration Case Study - Tricension",
+      "snippet": "How Tricension Helped UnitedHealth Group Unify Data Flow Between Critical Business Systems. UHG is among the largest healthcare and insurance providers in ...",
+      "link": "https://www.tricension.com/case-studies/how-tricension-helped-unitedhealth-group-unify-data-flow-between-critical-business-systems",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Center for Health Care Research - UnitedHealth Group",
+      "snippet": "UnitedHealth Group Research archive and library, citations, methodology, health care issues like Affordability, Access and Experience.",
+      "link": "https://www.unitedhealthgroup.com/newsroom/research-reports/research-library.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Job seeker resources - UnitedHealth Group",
+      "snippet": "If selected, a recruiter may schedule a phone, video or in-person interview. Prepare by researching our organization and reviewing common interview questions.",
+      "link": "https://www.unitedhealthgroup.com/careers/en/job-seeker-resources.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers - Search our Job Opportunities at UnitedHealth Group",
+      "snippet": "Join our talent community Search JobsOpen. Admin Support Services (3) Advanced Practice Clinicians (17) Brand Optum Care Solutions. Occupational Therapist. ...",
+      "link": "https://careers.unitedhealthgroup.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B%22key%22:%22custom_fields.Entity%22,%22value%22:%22LHC+Group%22%7D]",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Work Here - UnitedHealth Group",
+      "snippet": "Join us and use your skills to help shape the future of healthcare. Job seeker resources Learn more about our family of businesses. Join our talent community ...",
+      "link": "https://www.unitedhealthgroup.com/careers/ie-uk/work.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Tips from recent hires: Navigate the UnitedHealth Group hiring ...",
+      "snippet": "Join our talent application review, assessment, interview, decision and onboarding. Gain insights from recent hires on customizing your resume, researching the ...",
+      "link": "https://www.unitedhealthgroup.com/careers/en/job-seeker-resources/blog/2025-08-01-tips-from-recent-hires.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Search Las Vegas Jobs at UnitedHealth Group",
+      "snippet": "Clinical › Corporate and business operations › Customer and support services › Early careers› Sales and account management › Technology and data› Physicians›",
+      "link": "https://careers.unitedhealthgroup.com/location/las-vegas-jobs/34088/6252001-5509151-5506956/4",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Work here - UnitedHealth Group",
+      "snippet": "Explore career opportunities at Optum. From customer service and corporate roles to technology and more. Learn about our culture, benefits and how to apply.",
+      "link": "https://www.unitedhealthgroup.com/careers/in/work.html",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "UnitedHealth Group",
+      "snippet": "Search our Job Opportunities at UnitedHealth Group. Clinical › Corporate and business operations › Customer and support services › Early careers› Sales and ...",
+      "link": "https://careers.unitedhealthgroup.com/search-jobs",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Early careers - UnitedHealth Group",
+      "snippet": "Recruiting for these programs typically takes place between September - November and January - March. Explore our graduate and internship programs.",
+      "link": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html",
+      "date": ""
+    }
+  ]
+}

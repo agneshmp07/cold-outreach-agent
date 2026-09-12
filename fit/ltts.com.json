@@ -1,0 +1,168 @@
+{
+  "domain": "ltts.com",
+  "client": "Xoxoday",
+  "client_domain": "xoxoday.com",
+  "checked_against": "icp-xoxoday.com.md",
+  "result": {
+    "company_name": "L&T Technology Services (LTTS)",
+    "what_they_do": "Global provider of digital engineering, product development, and ER&D consulting services.",
+    "size": {
+      "estimate": "NOT FOUND",
+      "evidence": "Search results mention global operations and careers in Americas and India but do not state the total headcount [4, 11, 15, 18].",
+      "status": "NOT FOUND"
+    },
+    "segment": {
+      "best_match": "Global IT Services & Software Development",
+      "in_icp": true,
+      "why": "LTTS matches the 'Global IT Services & Software Development' sector in the 'Also fits' section of the ICP as a global digital engineering and technology consultancy operating across multiple regions [4, 11, 15, 18].",
+      "status": "ASSERTED"
+    },
+    "signal": {
+      "found": false,
+      "what": "No specific buying signals like openings for Sales Operations Manager, Channel Program Manager, or Employee Engagement Specialist were found in the results.",
+      "evidence": "Careers snippets only show roles for DevOps Security Architect, Mechanical Engineer, and Design Engineers [17, 18].",
+      "status": "NOT FOUND"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None found",
+      "evidence": "Search results do not mention any existing reward, incentive, or recognition software [1-18].",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "LTTS fits the 'Global IT Services & Software Development' target sector in the ICP with distributed international teams [4, 11, 15, 18]. According to verdict rules, a company in a fit segment with no disqualifiers proceeds even if specific buying signals are not explicitly found in search results.",
+    "could_not_find": [
+      "Exact employee count to verify if it falls within the 500-10,000 range specified in the ICP table.",
+      "Details on HRMS or CRM platforms used by LTTS (such as Workday or Salesforce)."
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "LTTS' Investor and Analyst Day (IAD) 2021",
+      "snippet": "INVESTOR & ANALYST. DAY (IAD) 2021. Virtual Event. LTTS' Investor and Analyst Day (IAD) 2021.",
+      "link": "https://www.ltts.com/IAD2021",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "IAD 2021 Feedback",
+      "snippet": "LTTS' Investor and Analyst Day (IAD) 2021. INVESTOR & ANALYST. DAY (IAD) 2021 ... 1). Did our leadership presentations provide clarity on the company's strategy?",
+      "link": "https://www.ltts.com/IAD2021/feedback",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "Alind Saxena's Instagram, Twitter & Facebook on ...",
+      "snippet": "LTTS' Investor and Analyst Day (IAD) 2021. www.ltts.com · PST PS Technology and L&T Technology Services partner to transform Railways with Advanced ...",
+      "link": "https://www.idcrawl.com/alind-saxena",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "L&T Technology Services",
+      "snippet": "... company specializing in digital engineering, product development, and consulting services. ... LTTS' Investor and Analyst Day (IAD) 2021 · [PDF] ...",
+      "link": "https://grokipedia.com/page/L&T_Technology_Services",
+      "date": "7 thg 11, 2025"
+    },
+    {
+      "asking_about": "size",
+      "title": "LTTS' Investor and Analyst Day (IAD) 2021",
+      "snippet": "LTTS' Investor and Analyst Day (IAD) 2021. Contact Details. Mr. Pinku Pappan. Head - Investor Relations. pinku.pappan@ltts.com. Mr. Gaurav Dharmarajan. Investor ...",
+      "link": "https://www.ltts.com/IAD2021",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "LTTS' Investor and Analyst Day (IAD) 2021",
+      "snippet": "INVESTOR & ANALYST. DAY (IAD) 2021. Virtual Event. LTTS' Investor and Analyst Day (IAD) 2021.",
+      "link": "https://www.ltts.com/IAD2021",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "IAD 2021 Feedback",
+      "snippet": "LTTS' Investor and Analyst Day (IAD) 2021. INVESTOR & ANALYST. DAY (IAD) 2021. Virtual Event. EngineeringScale. We'd love to hear from you. You must have ...",
+      "link": "https://www.ltts.com/IAD2021/feedback",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "LTTS' Investor and Analyst Day (IAD) 2021",
+      "snippet": "INVESTOR & ANALYST. DAY (IAD) 2021. Virtual Event. LTTS' Investor and Analyst Day (IAD) 2021.",
+      "link": "https://www.ltts.com/IAD2021",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "IAD 2021 Feedback",
+      "snippet": "LTTS' Investor and Analyst Day (IAD) 2021. INVESTOR & ANALYST. DAY (IAD) 2021. Virtual Event. EngineeringScale. We'd love to hear from you. You must have ...",
+      "link": "https://www.ltts.com/IAD2021/feedback",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "LTTS' Investor and Analyst Day (IAD) 2021",
+      "snippet": "This year during our Investor and Analyst Day (IAD) 2021, we articulated our vision around the biggest bets in today's market for a connected tomorrow.",
+      "link": "https://www.ltts.com/IAD2021",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Americas | L&T Technology Services",
+      "snippet": "Join our talent pool by simply submitting your resume. We'll inform you about the new jobs matching your profile and update you if you are the best fit for one ...",
+      "link": "https://www.ltts.com/careers/americas",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers | L&T Technology Services",
+      "snippet": "We offer exciting opportunities for talented engineers to grow and develop their skills. Join our team and work on challenging projects. Join our community of ...",
+      "link": "https://www.ltts.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Home",
+      "snippet": "We will keep you informed about job opportunities and events that match your interests. Already a member? View Profile. Careers Home ...",
+      "link": "https://jobs.ltts.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "About Us | L&T Technology Services",
+      "snippet": "LTTS is a global leader in AI, Digital & ER&D Consulting Services · Our Journey Toward Engineering Innovation and Excellence · Our Vision, Mission, Values.",
+      "link": "https://www.ltts.com/about-us",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers India | L&T Technology Services",
+      "snippet": "Join our talent pool by simply submitting your resume. We'll inform you about the new jobs matching your profile and update you if you are the best fit for one ...",
+      "link": "https://www.ltts.com/careers/india",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers Diversity | L&T Technology Services",
+      "snippet": "At LTTS, individuals are defined by innovative ideas, exceptional skills, and a shared passion for purpose-driven engineering. Mobility Automotive Aerospace ...",
+      "link": "https://www.ltts.com/careers/diversity",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Design Engineers | L&T Technology Services",
+      "snippet": "Careers job opportunities Design Engineers Footer Navigation Industry Mobility Aerospace Automotive Railway Trucks & Off-Highway Vehicles Sustainability ...",
+      "link": "https://www.ltts.com/careers/job-opportunities/design-engineers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "america",
+      "snippet": "Join Our Talent Community View All Jobs Jobs INDIA. US Mechanical Engineer Asset Management. US DevOps Decurity Architect DevOps Decurity Architect",
+      "link": "https://jobs.ltts.com/go/AMERICA/4637210/",
+      "date": ""
+    }
+  ]
+}

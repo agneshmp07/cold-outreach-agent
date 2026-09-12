@@ -1,0 +1,27 @@
+{
+  "domain": "infosys.com",
+  "name": "Infosys",
+  "one_liner": "Infosys provides IT consulting, cloud services, digital transformation, and custom AI integration to global businesses.",
+  "what_you_sell": "Enterprise IT consulting, digital transformation services, cloud solutions (Infosys Cobalt), AI platforms and integration (Infosys Topaz), digital marketing suites (Infosys Aster), and application modernization across platforms like SAP, Oracle, Microsoft, AWS, and Salesforce.",
+  "target_group": "Infosys sells to large global enterprises with complex IT architectures and multi-national operations. Good prospects are Fortune 500 or global equivalent companies in sectors like financial services, manufacturing, retail, and healthcare that need end-to-end cloud modernization or custom enterprise AI deployments. Small businesses and companies looking for turnkey off-the-shelf software products are poor prospects.",
+  "sells_to_businesses": true,
+  "b2c_note": "Infosys sells IT consulting and enterprise services strictly to corporate and institutional clients.",
+  "business_model": "direct",
+  "who_uses_it": "Enterprise IT teams, software engineers, operations staff, and marketing personnel within client organizations.",
+  "who_pays_for_it": "Enterprise C-suite executives and department leaders, including Chief Information Officers, Chief Technology Officers, Chief Digital Officers, and Chief Marketing Officers.",
+  "who_buys_it": "Global enterprise businesses requiring large-scale IT modernization, custom cloud architecture, and AI platform integration.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-infosys.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims over $20.3 billion in total annual revenue",
+    "Claims a client base of 2,027 companies across 59 countries",
+    "Claims to be the fastest growing IT services brand globally with a 15% CAGR in brand value",
+    "Quotes a new enterprise AI services market opportunity of over $300 billion",
+    "Claims over 328,000 global employees"
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

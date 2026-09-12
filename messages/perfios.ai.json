@@ -1,0 +1,164 @@
+{
+  "client": "WeWork",
+  "client_domain": "wework.com",
+  "company_name": "Perfios",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 3,
+    "top_score": 6,
+    "pain_hypothesis": "As Perfios expands its operations and leadership globally across 18+ markets, managing flexible workspace and regional office footprint for over 1,400 employees creates operational complexity.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "scaling perfios's global workspace",
+      "body": "With Veena Rao joining as COO to drive global expansion, Perfios is scaling its international presence.\n\nWhen expanding operations into new markets, setting up physical offices usually slows momentum down or locks you into rigid leases. What breaks for your team today when setting up space for local hubs?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[6/10] Perfios appointed Veena Rao as Chief Operating Officer to drive global FinTech expansion and scale international operations.",
+      "trigger_link": "As Perfios expands its global FinTech operations under a new COO, securing adaptable workspace across international markets becomes a key operational priority.",
+      "word_count": 51,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null,
+      "score": 88,
+      "score_parts": {
+        "trigger strength": 18,
+        "grounding": 10,
+        "connection": 10,
+        "specificity": 20,
+        "the ask": 10,
+        "brevity": 10,
+        "opener": 10
+      },
+      "score_notes": []
+    },
+    {
+      "angle": "problem-check",
+      "subject": "regional office footprint across markets",
+      "body": "For companies operating across 18+ countries with over 1,400 staff, real estate management often becomes fragmented. Operations teams usually end up juggling disparate long-term leases and inconsistent office setups in every new country.\n\nDoes that match what you are seeing at Perfios, or do you have regional workspace management streamlined?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[5/10] Perfios employs over 1,400 staff members and operates across 18+ international countries.",
+      "trigger_link": "Managing footprint and flexible workspace options for over 1,400 employees across 18+ countries often creates real estate management complexity.",
+      "word_count": 52,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null,
+      "score": 82,
+      "score_parts": {
+        "trigger strength": 18,
+        "grounding": 10,
+        "connection": 10,
+        "specificity": 14,
+        "the ask": 10,
+        "brevity": 10,
+        "opener": 10
+      },
+      "score_notes": []
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "flexible workspace for perfios's next growth phase",
+      "body": "With Nitin Chugh coming on board as Group CEO to drive Perfios's next phase of growth, office needs will likely evolve quickly across your teams.\n\nIf we brought you a flexible workspace strategy that lets your teams expand into new markets with move-in ready offices without long-term lease commitments, would you be open to taking a look? A yes commits you to nothing and costs nothing.\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "[5/10] Perfios appointed Nitin Chugh as Managing Director and Group CEO to lead its next phase of growth.",
+      "trigger_link": "A new Group CEO leading a next phase of growth requires rapid operational scaling without committing capital upfront to long-term leases.",
+      "word_count": 68,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null,
+      "score": 87,
+      "score_parts": {
+        "trigger strength": 18,
+        "grounding": 10,
+        "connection": 10,
+        "specificity": 19,
+        "the ask": 10,
+        "brevity": 10,
+        "opener": 10
+      },
+      "score_notes": []
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Congrats on bringing on Veena Rao to lead global expansion at Perfios. I follow growth strategies in international FinTech and would love to connect.",
+      "trigger_used": "[6/10] Perfios appointed Veena Rao as Chief Operating Officer to drive global FinTech expansion and scale international operations.",
+      "trigger_link": "Global FinTech expansion requires scalable, turn-key workspace solutions for regional teams.",
+      "char_count": 149,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null,
+      "score": 80,
+      "score_parts": {
+        "trigger strength": 18,
+        "grounding": 10,
+        "connection": 10,
+        "specificity": 19,
+        "the ask": 3,
+        "brevity": 10,
+        "opener": 10
+      },
+      "score_notes": [
+        "no question - nothing to reply to"
+      ]
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. With Perfios supporting over 1,400 employees across 18+ countries, how is your team currently handling on-demand workspace and desk allocation for remote or expanding regional hubs?",
+      "trigger_used": "[5/10] Perfios employs over 1,400 staff members and operates across 18+ international countries.",
+      "trigger_link": "Managing international presence for 1,400+ employees across 18+ countries requires flexible workspace coordination.",
+      "char_count": 204,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null,
+      "score": 81,
+      "score_parts": {
+        "trigger strength": 18,
+        "grounding": 10,
+        "connection": 10,
+        "specificity": 13,
+        "the ask": 10,
+        "brevity": 10,
+        "opener": 10
+      },
+      "score_notes": []
+    },
+    {
+      "angle": "value-first",
+      "text": "Saw Nitin Chugh step in as Group CEO for your next phase of growth. As we work with expanding tech companies to solve flexible workspace scaling across global hubs, we're tracking what works best for regional office setups. Happy to share what we learn along the way if useful.",
+      "trigger_used": "[5/10] Perfios appointed Nitin Chugh as Managing Director and Group CEO to lead its next phase of growth.",
+      "trigger_link": "Growth phases require agile office deployment and strategic workspace scaling.",
+      "char_count": 277,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null,
+      "score": 80,
+      "score_parts": {
+        "trigger strength": 18,
+        "grounding": 10,
+        "connection": 10,
+        "specificity": 19,
+        "the ask": 3,
+        "brevity": 10,
+        "opener": 10
+      },
+      "score_notes": [
+        "no question - nothing to reply to"
+      ]
+    }
+  ],
+  "warnings": [],
+  "score": 86,
+  "score_band": "strong",
+  "best_message": {
+    "kind": "email",
+    "angle": "trigger-direct",
+    "score": 88
+  }
+}

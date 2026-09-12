@@ -1,0 +1,25 @@
+{
+  "domain": "trunativ.co",
+  "name": "TruNativ",
+  "one_liner": "TruNativ sells natural health supplements, cooking proteins, collagen, and zero-calorie sugar replacers.",
+  "what_you_sell": "Nutritional supplements including whey protein, collagen peptides, zero-calorie sugar substitutes, and cooking protein powders.",
+  "target_group": "TruNativ sells directly to individual health-conscious consumers in India purchasing personal nutrition products. The scraped site does not mention selling to businesses, corporate buyers, or wholesale partners. Consequently, there is no B2B target group supported by the site content.",
+  "sells_to_businesses": false,
+  "b2c_note": "There is no business side mentioned in the scraped text; TruNativ operates strictly as a direct-to-consumer brand selling supplements to retail consumers.",
+  "business_model": "direct",
+  "who_uses_it": "Individual consumers in India looking for health, wellness, and fitness supplements.",
+  "who_pays_for_it": "Individual retail consumers ordering directly through the website.",
+  "who_buys_it": "Individual retail shoppers (no business buyers are mentioned on the website).",
+  "sender": "",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-trunativ.co.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": false,
+  "_claims_to_check": [
+    "Claims products contain clinically researched ingredients.",
+    "Claims products contain no added sugar and no harmful fillers.",
+    "Claims Everyday Protein is India's first multipurpose cooking protein."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}

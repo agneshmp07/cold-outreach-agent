@@ -1,0 +1,76 @@
+{
+  "domain": "google.com",
+  "company_name": "google",
+  "articles": [
+    {
+      "title": "Google, Y Combinator back Aqua’s alts platform launch",
+      "snippet": "Aqua has introduced its turnkey alternative investments platform (TAIP), supported by funding of $18.8m.",
+      "date": "9 hours ago",
+      "source": "Private Banker International",
+      "link": "https://www.privatebankerinternational.com/news/google-back-aquas-alts-platform/"
+    },
+    {
+      "title": "Google announces Solar API expansion, 150MW solar project and new climate initiatives in India",
+      "snippet": "Google has announced five new sustainability and clean-energy initiatives in India. The announcements form part of efforts related to...",
+      "date": "11 hours ago",
+      "source": "FoneArena.com",
+      "link": "https://www.fonearena.com/blog/492073/google-india-solar-api-expansion-150mw-solar-project-new-climate-initiatives.html"
+    },
+    {
+      "title": "How Apple iPhone Duo got Samsung and Google in an 'ugly fight'",
+      "snippet": "Tech News News: Apple's launch of its first foldable phone, iPhone Duo has triggered a social media exchange between Samsung and Duolingo...",
+      "date": "16 hours ago",
+      "source": "The Times of India",
+      "link": "https://timesofindia.indiatimes.com/technology/tech-news/how-apple-iphone-duo-got-samsung-and-google-in-an-ugly-fight/articleshow/133993704.cms"
+    },
+    {
+      "title": "Exclusive | Google Cloud, Accenture Launch Unit to Put AI Engineers On-Site With Customers",
+      "snippet": "Google Cloud and Accenture are the latest companies to bet that forward-deployed engineers are key to unlocking business value from...",
+      "date": "2 days ago",
+      "source": "WSJ",
+      "link": "https://www.wsj.com/cio-journal/google-cloud-accenture-launch-unit-to-put-ai-engineers-on-site-with-customers-698a8628"
+    },
+    {
+      "title": "Google commits €13bn for Finland AI infrastructure expansion",
+      "snippet": "Tech giant Google plans to invest at least €13bn ($15.12bn) in Finland's digital infrastructure across 2027 and 2028, in what the company...",
+      "date": "5 hours ago",
+      "source": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-commits-13bn-finland-ai-151312387.html"
+    },
+    {
+      "title": "Samsung’s first Android XR glasses with a color display may launch in late 2027",
+      "snippet": "While we're still waiting on Samsung's first Android XR glasses to arrive, an update on the first pair with a color display has found its...",
+      "date": "5 hours ago",
+      "source": "9to5Google",
+      "link": "https://9to5google.com/2026/09/10/samsungs-first-android-xr-glasses-with-a-color-display-may-launch-in-late-2027/"
+    },
+    {
+      "title": "Google announces historic €13 billion AI and data center expansion in Finland",
+      "snippet": "Google will invest at least €13 billion ($15.1 billion) in Finland across 2027 and 2028 to expand its regional infrastructure for artificial...",
+      "date": "1 day ago",
+      "source": "Adgully.com",
+      "link": "https://www.adgully.com/post/20349/google-announces-historic-eur13-billion-ai-and-data-center-expansion-in-finland"
+    },
+    {
+      "title": "Accenture, Google Cloud Launch Gemini Enterprise Business Group",
+      "snippet": "Accenture and Google Cloud's partnership will create a 1000-person forward engineering workforce.",
+      "date": "1 day ago",
+      "source": "Analytics India Magazine",
+      "link": "https://analyticsindiamag.com/ai-news/accenture-google-cloud-launch-gemini-enterprise-business-group"
+    },
+    {
+      "title": "Google unveils 13 billion euro AI expansion in Finland",
+      "snippet": "Google will invest at least 13 billion euros in data centers and other digital infrastructure to power its AI ambitions in Finland,...",
+      "date": "1 day ago",
+      "source": "Tech Xplore",
+      "link": "https://techxplore.com/news/2026-09-google-invest-billion-euros-ai.html"
+    },
+    {
+      "title": "Accenture, Google Cloud launch Gemini Enterprise business group By Investing.com",
+      "snippet": "NEW YORK & SUNNYVALE, Calif. - Accenture (NYSE:ACN) and Google Cloud announced today the launch of the Accenture Gemini Enterprise Business...",
+      "date": "2 days ago",
+      "source": "Investing.com India",
+      "link": "https://in.investing.com/news/stock-market-news/accenture-google-cloud-launch-gemini-enterprise-business-group-93CH-5584680"
+    }
+  ]
+}

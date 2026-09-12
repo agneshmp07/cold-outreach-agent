@@ -1,0 +1,364 @@
+{
+  "domain": "hpspartners.com",
+  "client": "Octus",
+  "client_domain": "octus.com",
+  "checked_against": "icp-octus.com.md",
+  "result": {
+    "company_name": "HPS Investment Partners",
+    "what_they_do": "HPS Investment Partners is a global credit-focused alternative investment manager specializing in private credit, liquid credit solutions, and CLO management.",
+    "size": {
+      "estimate": "501-1,000 employees / $148B+ AUM",
+      "evidence": "[7], [14], [16]",
+      "status": "VERIFIED"
+    },
+    "segment": {
+      "best_match": "Private credit and CLO asset managers",
+      "in_icp": true,
+      "why": "HPS is a major alternative asset manager focused on sub-investment grade credit, private lending, and managing broadly syndicated CLO portfolios.",
+      "status": "VERIFIED"
+    },
+    "signal": {
+      "found": true,
+      "what": "Public announcements and ratings for new CLO issuances (e.g., $404.75M broadly syndicated CLO HPS Loan Management 2025-26 Ltd.).",
+      "evidence": "[21], [28]",
+      "status": "VERIFIED"
+    },
+    "uses_similar": {
+      "found": false,
+      "what": "None explicitly named in the provided search results.",
+      "evidence": "None",
+      "status": "NOT FOUND"
+    },
+    "disqualifiers": [],
+    "verdict": "PROCEED",
+    "reason": "HPS Investment Partners directly fits the ICP target segment for Private Credit & CLO Asset Managers, manages sub-investment grade credit, and shows active buying signals via recent CLO issuances.",
+    "could_not_find": [
+      "Specific credit intelligence tools or covenant analysis software currently used by their credit teams",
+      "Internal team distribution between private credit analysts and liquid credit portfolio managers"
+    ]
+  },
+  "evidence": [
+    {
+      "asking_about": "what they do",
+      "title": "HPS Investment Partners | Leading alternative credit manager",
+      "snippet": "... we do to the largest institutions in the world. Choose a partner committed ... © 2026 HPS Investment Partners, LLC. All rights reserved. Terms of Use ...",
+      "link": "https://www.hpspartners.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "HPS Investment Partners, LLC",
+      "snippet": "HPS Investment Partners is a leading global investment manager that seeks to provide creative capital solutions and generate attractive risk-adjusted returns ...",
+      "link": "https://www.linkedin.com/company/hps-investment-partners-llc",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "HPS Investment Partners",
+      "snippet": "HPS Investment Partners, LLC (HPS) is an American investment firm headquartered in New York City. The firm focuses on investments in private credit, ...",
+      "link": "https://en.wikipedia.org/wiki/HPS_Investment_Partners",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "BlackRock Completes Acquisition of HPS",
+      "snippet": "BlackRock acquires HPS Investment Partners, expanding private market capabilities across BlackRock's comprehensive global platform.",
+      "link": "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-acquires-hps-investment-partners",
+      "date": "Jul 1, 2025"
+    },
+    {
+      "asking_about": "what they do",
+      "title": "HPS Investment Partners LLC - Company Profile and News",
+      "snippet": "HPS Investment Partners LLC serves institutional investors, financial advisors, and individual investors across Western Europe, North America, and Australia.",
+      "link": "https://www.bloomberg.com/profile/company/3511538Z:US",
+      "date": ""
+    },
+    {
+      "asking_about": "what they do",
+      "title": "HPS Investment Partners - Company Database",
+      "snippet": "HPS Investment Partners is a leading global investment firm that seeks to provide creative capital solutions and generate attractive risk-adjusted returns ...",
+      "link": "https://www.wallstreetoasis.com/company/hps-investment-partners",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "HPS Investment Partners, LLC",
+      "snippet": "Website: http://www.hpspartners.com/. External link for HPS Investment Partners, LLC ; Industry: Financial Services ; Company size: 501-1,000 employees.",
+      "link": "https://www.linkedin.com/company/hps-investment-partners-llc",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Aman Malik - HPS Investment Partners, LLC",
+      "snippet": "Managing Director at HPS Investment Partners, LLC · Experience: HPS Investment Partners, LLC · Education: Harvard Business School · Location: New York ...",
+      "link": "https://www.linkedin.com/in/aman-malik-809b5116",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Team and Culture",
+      "snippet": "Ms. Andrioti is a Managing Director at HPS Investment Partners. Prior to joining HPS in 2018, Ms. Andrioti worked as an Associate at Finisterre Capital. Prior ...",
+      "link": "https://www.hpspartners.com/our-story/team-culture",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Kevin Collins, CFA - Vice President at HPS Investment ...",
+      "snippet": "Vice President at HPS Investment Partners, LLC · Experience: HPS Investment Partners, LLC · Education: Cornell Johnson Graduate School of Management ...",
+      "link": "https://www.linkedin.com/in/kevin-collins-cfa-901ab161",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "HPS Investment Partners: Employee Directory",
+      "snippet": "How many employees does HPS Investment Partners have? HPS Investment Partners has 501-1,000 employees. Sign Up For FreeTo access detailed employee insights. Who ...",
+      "link": "https://www.zoominfo.com/pic/hps-investment-partners/479709460",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "Hugh Lawson - Managing Director, HPS Investment ...",
+      "snippet": "Mr. Lawson is a Managing Director (Partner) at HPS Investment Partners, a part of BlackRock, and Co-CEO of the HPS Real Assets Lending Company LP (HREAL) ...",
+      "link": "https://www.linkedin.com/in/hughlawson",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "John Christmas - HPS Investment Partners, LLC",
+      "snippet": "Experience · Head Of Business Development. HPS Investment Partners, LLC. Feb 2018 - Present 8 years 8 months · Managing Director, Alternative Investments.",
+      "link": "https://www.linkedin.com/in/john-christmas-9170806",
+      "date": ""
+    },
+    {
+      "asking_about": "size",
+      "title": "HPS Investment Partners, LLC",
+      "snippet": "As of July 2026, HPS Investment Partners, LLC has approximately 950 employees across 5 continents, including North AmericaEuropeAsia. Key team members include ...",
+      "link": "https://leadiq.com/c/hps-investment-partners-llc/5a1d988e2300005200873ba4",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "HPS Investment Partners | Leading alternative credit manager",
+      "snippet": "© 2026 HPS Investment Partners, LLC. All rights reserved. Terms of Use · Privacy Policy · Cookie Policy · Cookie Settings · Legal Disclosures · SFDR Disclosures ...",
+      "link": "https://www.hpspartners.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "BlackRock to Acquire HPS Investment Partners to Deliver ...",
+      "snippet": "HPS Investment Partners is a leading global credit investment manager that provides creative capital solutions across $148 billion in client ...",
+      "link": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2024/BlackRock-to-Acquire-HPS-Investment-Partners-to-Deliver-Integrated-Solutions-Across-Public-and-Private-Markets/default.aspx",
+      "date": "Dec 3, 2024"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Our History",
+      "snippet": "© 2026 HPS Investment Partners, LLC. All rights reserved. Terms of Use · Privacy Policy · Cookie Policy · Cookie Settings · Legal Disclosures · SFDR Disclosures ...",
+      "link": "https://www.hpspartners.com/our-story/history",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "HPS Investment Partners, LLC",
+      "snippet": "HPS Investment Partners is a leading global investment manager that seeks to provide creative capital solutions and generate attractive risk-adjusted returns ...",
+      "link": "https://www.linkedin.com/company/hps-investment-partners-llc",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Liquid credit solutions",
+      "snippet": "With approximately $27 billion of assets under management, our Liquid Credit platform ... © 2026 HPS Investment Partners, LLC. All rights reserved. Terms of Use ...",
+      "link": "https://www.hpspartners.com/our-solutions/liquid-credit",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Team :: Private Credit",
+      "snippet": "Michael Fenstermacher. Managing Director. Mr. Fenstermacher is a Managing Director at HPS Investment Partners and Co-Head of North American Core Senior Lending.",
+      "link": "https://www.hlend.com/about/team",
+      "date": ""
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "Presale: HPS Loan Management 2025-26 Ltd./HPS Loa",
+      "snippet": "HPS Loan Management 2025-26 Ltd. is a $404.75 million broadly syndicated CLO managed by HPS Investment Partners LLC. This is HPS Investment ...",
+      "link": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3414683",
+      "date": "Jul 29, 2025"
+    },
+    {
+      "asking_about": "the problem area",
+      "title": "hps-20241231",
+      "snippet": "We are externally managed by our adviser, HPS Advisors, LLC (the “Adviser”), a wholly-owned subsidiary of HPS Investment Partners, LLC (the “Administrator ...",
+      "link": "https://www.sec.gov/Archives/edgar/data/1989817/000198981725000023/hps-20241231.htm",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "HPS Investment Partners | Leading alternative credit manager",
+      "snippet": "© 2026 HPS Investment Partners, LLC. All rights reserved. Terms of Use · Privacy Policy · Cookie Policy · Cookie Settings · Legal Disclosures · SFDR Disclosures ...",
+      "link": "https://www.hpspartners.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "BlackRock to Acquire HPS Investment Partners to Deliver ...",
+      "snippet": "HPS Investment Partners is a leading global credit investment manager that provides creative capital solutions across $148 billion in client ...",
+      "link": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2024/BlackRock-to-Acquire-HPS-Investment-Partners-to-Deliver-Integrated-Solutions-Across-Public-and-Private-Markets/default.aspx",
+      "date": "Dec 3, 2024"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Team :: Private Credit",
+      "snippet": "Michael Fenstermacher. Managing Director. Mr. Fenstermacher is a Managing Director at HPS Investment Partners and Co-Head of North American Core Senior Lending.",
+      "link": "https://www.hlend.com/about/team",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Team and Culture",
+      "snippet": "Andrew is a Managing Director at HPS Investment Partners. Prior to joining HPS in 2017, Mr. Andrew worked as an Analyst at JPMorgan in Leveraged Finance. Mr.",
+      "link": "https://www.hpspartners.com/our-story/team-culture",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "AI Disruption and Credit Risk in Private Credit Portfolios",
+      "snippet": "View organization page for HPS Investment Partners, LLC. HPS Investment Partners, LLC. 56,588 followers. 3mo. Report this post; Close menu.",
+      "link": "https://www.linkedin.com/posts/hps-investment-partners-llc_concerns-about-ais-disruption-have-led-to-activity-7442987949136420864-39oO",
+      "date": "5 months ago"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "Presale: HPS Loan Management 2025-26 Ltd./HPS Loa",
+      "snippet": "HPS Loan Management 2025-26 Ltd. is a $404.75 million broadly syndicated CLO managed by HPS Investment Partners LLC. This is HPS Investment ...",
+      "link": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3414683",
+      "date": "Jul 29, 2025"
+    },
+    {
+      "asking_about": "the signal",
+      "title": "hps-20241231",
+      "snippet": "We are externally managed by our adviser, HPS Advisors, LLC (the “Adviser”), a wholly-owned subsidiary of HPS Investment Partners, LLC (the “Administrator ...",
+      "link": "https://www.sec.gov/Archives/edgar/data/1989817/000198981725000023/hps-20241231.htm",
+      "date": ""
+    },
+    {
+      "asking_about": "the signal",
+      "title": "MIFIDPRU-8-Disclosure-HPS-UK- ...",
+      "snippet": "1.2. The Firm is a limited liability partnership and its members are HPS Investment Partners (UK) I, Ltd. (“HPSUK I”) and HPS Investment Partners (UK) II, Ltd.",
+      "link": "https://www.hpspartners.com/wp-content/uploads/MIFIDPRU-8-Disclosure-HPS-UK-23vf.pdf",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "AI and Private Credit: Assessing Risk and Finding Opportunity",
+      "snippet": "The data and information in this material, which has been prepared by HPS Investment Partners, LLC (“HPS”), are presented for informational ...",
+      "link": "https://www.hpspartners.com/insights-and-news/ai-and-private-credit-assessing-risk-and-finding-opportunity",
+      "date": "Aug 13, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "HPS Investment Partners | Leading alternative credit manager",
+      "snippet": "Our people and their ideas drive our business. Intellectually curious ... © 2026 HPS Investment Partners, LLC. All rights reserved. Terms of Use ...",
+      "link": "https://www.hpspartners.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Our History | HPS Investment Partners",
+      "snippet": "As part of the transaction, HPS's management team assumed leadership of a newly formed Private Financing Solutions business ... © 2026 HPS Investment Partners, ...",
+      "link": "https://www.hpspartners.com/our-story/history",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "AI Disruption and Credit Risk in Private Credit Portfolios - LinkedIn",
+      "snippet": "Insightful perspective from HPS Investment Partners, LLC on the ... The output mirrors the format your credit team already uses, and ...",
+      "link": "https://www.linkedin.com/posts/hps-investment-partners-llc_concerns-about-ais-disruption-have-led-to-activity-7442987949136420864-39oO",
+      "date": "Mar 26, 2026"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "BlackRock to Acquire HPS Investment Partners to Deliver Integrated ...",
+      "snippet": "HPS Investment Partners, LLC is a leading global, credit-focused alternative investment firm that seeks to provide creative capital solutions ...",
+      "link": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2024/BlackRock-to-Acquire-HPS-Investment-Partners-to-Deliver-Integrated-Solutions-Across-Public-and-Private-Markets/default.aspx",
+      "date": "Dec 3, 2024"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "EX-99.1 - SEC.gov",
+      "snippet": "HPS Investment Partners, LLC is a leading global, credit-focused alternative investment firm that seeks to provide creative capital solutions ...",
+      "link": "https://www.sec.gov/Archives/edgar/data/2012383/000119312525153573/d78785dex991.htm",
+      "date": "Jul 1, 2025"
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "Portfolio :: Private Credit | HPS Corporate Lending Fund",
+      "snippet": "Securities offered through HPS Securities, LLC Member: FINRA/SIPC. HPS Securities, LLC is an affiliate of HPS Investment Partners, LLC and HPS Advisors, LLC.",
+      "link": "https://www.hlend.com/portfolio?page=1&col=investment_type&dir=desc",
+      "date": ""
+    },
+    {
+      "asking_about": "what they already use",
+      "title": "AI Impact on Private Credit Investment Landscape - LinkedIn",
+      "snippet": "AI Impact on Private Credit Investment Landscape. View organization page for HPS Investment Partners, LLC. HPS Investment Partners, LLC. 57,152 ...",
+      "link": "https://www.linkedin.com/posts/hps-investment-partners-llc_ai-private-credit-assessing-risk-finding-activity-7493648830396059648-Sj9q",
+      "date": "Aug 13, 2026"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Careers | HPS Investment Partners",
+      "snippet": "Build your career at a leading alternative credit firm, with a dynamic work environment and opportunities to learn and grow.",
+      "link": "https://www.hpspartners.com/careers",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Job Opportunities | HPS Investment Partners",
+      "snippet": "Build your career at a leading alternative credit firm, with a dynamic work environment and opportunities to learn and grow.",
+      "link": "https://www.hpspartners.com/open-roles",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Our Story - HPS Investment Partners",
+      "snippet": "As one of the largest global investment managers focused on alternative credit, we help our partners capitalize on the potential of a growing asset class.",
+      "link": "https://www.hpspartners.com/our-story",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "HPS Investment Partners | Leading alternative credit manager",
+      "snippet": "We partner with investors and portfolio companies to customize alternative credit capital solutions that aim to deliver compelling, risk-adjusted returns.",
+      "link": "https://www.hpspartners.com/",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Our History | HPS Investment Partners",
+      "snippet": "Since 2007, we have helped institutional and individual investors and portfolio companies achieve their goals through alternative credit solutions.",
+      "link": "https://www.hpspartners.com/our-story/history",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "S5:EP43 Erik Hirsch - HPS Investment Partners",
+      "snippet": "On this week's episode, host Colbert Cannon speaks with Erik Hirsch, the Vice Chairman and Head of Strategic Initiatives at Hamilton Lane.",
+      "link": "https://www.hpspartners.com/insights-and-news/s5ep43-erik-hirsch",
+      "date": "Feb 9, 2022"
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Engagement | HPS Investment Partners",
+      "snippet": "The Center's goal is to develop and prepare highly capable students to pursue careers in finance and enhance diversity across the industry. Equity Alliance.",
+      "link": "https://www.hpspartners.com/our-story/engagement",
+      "date": ""
+    },
+    {
+      "asking_about": "careers page",
+      "title": "Privacy Policy | HPS Investment Partners",
+      "snippet": "This U.S. Privacy Policy describes the types of personal information we collect. Team & Culture Engagement History Insights & News The HPScast LinkedIn Careers ...",
+      "link": "https://www.hpspartners.com/privacy-policy",
+      "date": ""
+    }
+  ]
+}

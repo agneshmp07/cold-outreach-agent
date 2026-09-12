@@ -1,0 +1,87 @@
+{
+  "client": "KPMG",
+  "client_domain": "kpmg.com",
+  "company_name": "Bharat Forge",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 2,
+    "top_score": 7,
+    "pain_hypothesis": "Bharat Forge requires advisory support to manage ESG compliance, integrated reporting, and complex supply chain risk as it expands its international aerospace contracts.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "landing gear supply chain compliance",
+      "body": "With your long-term Embraer contract for landing gear forgings, Bharat Forge is expanding its international aerospace footprint.\n\nAs global aerospace delivery obligations scale, complex cross-border compliance and supply chain risk tracking often become friction points. When expanding contract commitments across jurisdictions, what usually breaks first in your risk oversight process?\n\nBest regards,\nagneshmp07@gmail.com",
+      "trigger_used": "Bharat Forge signed a long-term contract with Embraer for landing gear forgings.",
+      "trigger_link": "Expanding international aerospace supply chain contracts increases regulatory compliance and cross-border risk management requirements.",
+      "word_count": 53,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "integrated reporting data collection",
+      "body": "Multi-capital reporting often breaks down at the data collection stage, where operational metrics from natural and manufactured capitals have to be verified alongside financial figures.\n\nFor enterprise organizations managing multi-capital reporting frameworks, reconciling disparate sustainability data across business units is frequently a bottleneck. Does that match your experience at Bharat Forge?\n\nBest regards,\nagneshmp07@gmail.com",
+      "trigger_used": "Bharat Forge published an Integrated Annual Report for 2025-26 covering financial, manufactured, human, intellectual, social & relationship, and natural capitals.",
+      "trigger_link": "Integrated annual reporting across six capitals requires robust ESG data aggregation and sustainability governance advisory.",
+      "word_count": 54,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "embraer contract supply chain risk",
+      "body": "Following your long-term agreement with Embraer for landing gear forgings, international contract expansion brings complex trade compliance and supply risk requirements.\n\nIf we brought you an outline of common regulatory compliance friction points for global aerospace component suppliers, would you be willing to look at it? A yes commits you to nothing and costs nothing.\n\nBest regards,\nagneshmp07@gmail.com",
+      "trigger_used": "Bharat Forge signed a long-term contract with Embraer for landing gear forgings.",
+      "trigger_link": "Long-term global aerospace supply contracts require continuous operational risk assessment and international tax strategy.",
+      "word_count": 58,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw Bharat Forge published its Integrated Annual Report across the six capitals. Interested in following your multi-capital reporting strategy.",
+      "trigger_used": "Bharat Forge published an Integrated Annual Report for 2025-26 covering financial, manufactured, human, intellectual, social & relationship, and natural capitals.",
+      "trigger_link": "Publishing integrated annual reports requires sustainability consulting and reporting risk advisory.",
+      "char_count": 143,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. With the Embraer landing gear forgings contract expanding your aerospace operations, how are you currently managing international cross-border compliance risk across your supply chain?",
+      "trigger_used": "Bharat Forge signed a long-term contract with Embraer for landing gear forgings.",
+      "trigger_link": "Aerospace manufacturing contracts create complex international tax and regulatory compliance requirements.",
+      "char_count": 207,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Following your Integrated Annual Report covering natural and manufactured capitals, we are building insights on ESG data auditing frameworks. Would you be open to hearing what we learn as we build them out?",
+      "trigger_used": "Bharat Forge published an Integrated Annual Report for 2025-26 covering financial, manufactured, human, intellectual, social & relationship, and natural capitals.",
+      "trigger_link": "Integrated annual reporting creates ongoing governance and sustainability framework advisory needs.",
+      "char_count": 206,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": []
+}

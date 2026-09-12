@@ -1,0 +1,28 @@
+{
+  "company_name": "Genpact",
+  "triggers": [
+    {
+      "fact": "Appointed Sumita Pandit as Chief Financial Officer, effective September 9, 2026.",
+      "source_page": "https://www.prnewswire.com/news-releases/genpact-appoints-sumita-pandit-as-chief-financial-officer-302872147.html",
+      "relevance_score": 5
+    },
+    {
+      "fact": "Careers page notes a workforce of over 140,000 employees across more than 30 countries.",
+      "source_page": "https://www.genpact.com/careers",
+      "relevance_score": 5
+    },
+    {
+      "fact": "Appointed Ajith Madhavan as Vice President to strengthen Finance and Operations leadership in June 2026.",
+      "source_page": "https://www.cxodigitalpulse.com/genpact-appoints-ajith-madhavan-as-vice-president-to-strengthen-finance-and-operations-leadership/",
+      "relevance_score": 4
+    },
+    {
+      "fact": "Appointed Dinesh Jain as Global Capability Center (GCC) Lead on November 11, 2025.",
+      "source_page": "https://media.genpact.com/2025-11-11-Genpact-Appoints-Dinesh-Jain-as-Global-Capability-Center-Lead",
+      "relevance_score": 4
+    }
+  ],
+  "disqualifiers": [],
+  "pain_hypothesis": "Managing employee commute transport across a large global workforce of over 140,000 employees introduces operational complexity and high fleet costs that require automated scheduling, routing, and billing.",
+  "no_trigger_found": false
+}

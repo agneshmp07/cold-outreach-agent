@@ -1,0 +1,155 @@
+{
+  "client": "Amazon",
+  "client_domain": "amazon.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Consumer Electronics & Mobile Accessories Manufacturers",
+      "why_they_buy": "They need rapid, high-volume direct-to-consumer distribution and turnkey fulfillment without building out their own global logistics network.",
+      "example_of_a_buyer": "An emerging hardware brand with 20 employees launching a proprietary line of smartphone chargers and audio accessories."
+    },
+    {
+      "sector": "Shelf-Stable Packaged Food & Beverage Producers",
+      "why_they_buy": "They require standardized nationwide shipping infrastructure and access to Prime subscribers to compete directly with national consumer packaged goods brands.",
+      "example_of_a_buyer": "A regional specialty coffee roaster looking to expand nationwide without opening new physical distribution hubs."
+    },
+    {
+      "sector": "Apparel, Footwear, & Fashion Accessories Brands",
+      "why_they_buy": "They leverage high buyer traffic and built-in advertising channels to clear seasonal inventory and acquire new customer segments efficiently.",
+      "example_of_a_buyer": "A bootstrapped direct-to-consumer activewear brand scaling past two million dollars in annual revenue and seeking cross-border logistics."
+    },
+    {
+      "sector": "Independent Book Publishing Houses & Micro-Publishers",
+      "why_they_buy": "They need print-on-demand distribution and digital Kindle marketplace access to eliminate upfront inventory printing and storage costs.",
+      "example_of_a_buyer": "A small non-fiction publishing company managing a backlist of 40 titles seeking automated global order fulfillment."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Stuffcool",
+      "sector": "Consumer Electronics & Mobile Accessories Manufacturers",
+      "why": "Manufactures mobile accessories that can be listed on Amazon's marketplace using its fulfillment and advertising services.",
+      "seen_in": "[sector: Consumer Electronics & Mobile Accessories Manufacturers] Top 10 Mobile Accessories Companies in India",
+      "domain": "stuffcool.com"
+    },
+    {
+      "company": "Zebronics",
+      "sector": "Consumer Electronics & Mobile Accessories Manufacturers",
+      "why": "Produces consumer electronics and IT peripherals that can leverage Amazon listing, advertising, and logistics software.",
+      "seen_in": "[sector: Consumer Electronics & Mobile Accessories Manufacturers] Top 10 Mobile Accessories Companies in India",
+      "domain": "zebronics.com"
+    },
+    {
+      "company": "Ambrane",
+      "sector": "Consumer Electronics & Mobile Accessories Manufacturers",
+      "why": "Manufactures mobile accessories and smart electronics that require e-commerce marketplace distribution and advertising space.",
+      "seen_in": "[sector: Consumer Electronics & Mobile Accessories Manufacturers] Ambrane invests ₹50 crore to set up automated manufacturing unit in Haryana",
+      "domain": "ambraneindia.com"
+    },
+    {
+      "company": "Novamax Technologies",
+      "sector": "Consumer Electronics & Mobile Accessories Manufacturers",
+      "why": "Produces consumer home appliances that can utilize Amazon marketplace listing services and B2B business purchasing solutions.",
+      "seen_in": "[sector: Consumer Electronics & Mobile Accessories Manufacturers] Novamax Builds Consumer Appliances Portfolio with New DMIC Expansion",
+      "domain": "cleanersolutions.org"
+    },
+    {
+      "company": "Dabur India",
+      "sector": "Shelf-Stable Packaged Food & Beverage Producers",
+      "why": "Manufactures shelf-stable packaged foods and consumer goods suitable for Amazon marketplace sales and targeted ad space.",
+      "seen_in": "[sector: Shelf-Stable Packaged Food & Beverage Producers] » List of the most important India canned food manufacturers",
+      "domain": "dabur.com"
+    },
+    {
+      "company": "Haldiram's",
+      "sector": "Shelf-Stable Packaged Food & Beverage Producers",
+      "why": "Produces packaged snacks and foods that can leverage Amazon shipping software and marketplace distribution.",
+      "seen_in": "[sector: Shelf-Stable Packaged Food & Beverage Producers] Top 10 Food & Beverage Companies India FY 2026 Adani ...",
+      "domain": "haldirams.com"
+    },
+    {
+      "company": "MTR Foods",
+      "sector": "Shelf-Stable Packaged Food & Beverage Producers",
+      "why": "Produces shelf-stable packaged foods that can benefit from Amazon online listings and logistics services.",
+      "seen_in": "[sector: Shelf-Stable Packaged Food & Beverage Producers] Top 10 Food & Beverage Companies India FY 2026 Adani ...",
+      "domain": "mtrfoods.com"
+    },
+    {
+      "company": "Britannia Industries",
+      "sector": "Shelf-Stable Packaged Food & Beverage Producers",
+      "why": "Manufactures packaged food products requiring broad online channel listing and advertising solutions.",
+      "seen_in": "[sector: Shelf-Stable Packaged Food & Beverage Producers] Top 10 Food Brands in India 2026",
+      "domain": "britannia.co.in"
+    },
+    {
+      "company": "Parle Products",
+      "sector": "Shelf-Stable Packaged Food & Beverage Producers",
+      "why": "Produces high-volume packaged food items that can utilize Amazon fulfillment software and business purchasing solutions.",
+      "seen_in": "[sector: Shelf-Stable Packaged Food & Beverage Producers] Top 10 Food Brands in India 2026",
+      "domain": "parleproducts.com"
+    },
+    {
+      "company": "Bewakoof",
+      "sector": "Apparel, Footwear, & Fashion Accessories Brands",
+      "why": "Direct-to-consumer apparel brand that can expand market reach through Amazon marketplace listings and ad placement.",
+      "seen_in": "[sector: Apparel, Footwear, & Fashion Accessories Brands] Apparel Brands Sector in India",
+      "domain": "bewakoof.com"
+    },
+    {
+      "company": "Snitch",
+      "sector": "Apparel, Footwear, & Fashion Accessories Brands",
+      "why": "Designs and sells men's fashion apparel that can leverage Amazon fulfillment software and digital ad space.",
+      "seen_in": "[sector: Apparel, Footwear, & Fashion Accessories Brands] Apparel Brands Sector in India",
+      "domain": "snitch.com"
+    },
+    {
+      "company": "Charles & Keith",
+      "sector": "Apparel, Footwear, & Fashion Accessories Brands",
+      "why": "Retailer of fashion accessories and footwear looking to drive sales via Amazon online listing and fulfillment tools.",
+      "seen_in": "[sector: Apparel, Footwear, & Fashion Accessories Brands] Charles & Keith to open 6-7 India stores this year; opens 24th outlet in the country",
+      "domain": "charleskeith.com"
+    },
+    {
+      "company": "Fabindia",
+      "sector": "Apparel, Footwear, & Fashion Accessories Brands",
+      "why": "Offers ethnic apparel and lifestyle products that can benefit from Amazon marketplace presence and shipping services.",
+      "seen_in": "[sector: Apparel, Footwear, & Fashion Accessories Brands] 26 Top and Best Clothing Brands for Women in India for 2026",
+      "domain": "fabindia.com"
+    },
+    {
+      "company": "Zubaan",
+      "sector": "Independent Book Publishing Houses & Micro-Publishers",
+      "why": "Independent publishing house that can utilize Amazon self-publishing tools and online marketplace listings to distribute books.",
+      "seen_in": "[sector: Independent Book Publishing Houses & Micro-Publishers] 5 Indian Independent Publishers We Love",
+      "domain": "zubaanbooks.com"
+    },
+    {
+      "company": "Speaking Tiger Books",
+      "sector": "Independent Book Publishing Houses & Micro-Publishers",
+      "why": "Independent book publisher that can use Amazon self-publishing tools, marketplace listings, and order fulfillment.",
+      "seen_in": "[sector: Independent Book Publishing Houses & Micro-Publishers] Discover Indie Book Publishing Companies in India",
+      "domain": "speakingtigerbooks.com"
+    },
+    {
+      "company": "Blaft",
+      "sector": "Independent Book Publishing Houses & Micro-Publishers",
+      "why": "Indie publisher that can sell titles via Amazon marketplace listing services and fulfillment tools.",
+      "seen_in": "[sector: Independent Book Publishing Houses & Micro-Publishers] Meet 5 indie book publishers in India bringing some spark ...",
+      "domain": "blaft.com"
+    },
+    {
+      "company": "Akashic Books",
+      "sector": "Independent Book Publishing Houses & Micro-Publishers",
+      "why": "Small independent press that can leverage Amazon self-publishing tools and fulfillment software for book distribution.",
+      "seen_in": "[sector: Independent Book Publishing Houses & Micro-Publishers] 30 Best Small and Indie Literary Publishers",
+      "domain": "akashicbooks.com"
+    },
+    {
+      "company": "Tiny Fox Press",
+      "sector": "Independent Book Publishing Houses & Micro-Publishers",
+      "why": "Indie literary publisher that can utilize Amazon self-publishing solutions and online marketplace services.",
+      "seen_in": "[sector: Independent Book Publishing Houses & Micro-Publishers] 30 Best Small and Indie Literary Publishers",
+      "domain": "tinyfoxpress.com"
+    }
+  ]
+}

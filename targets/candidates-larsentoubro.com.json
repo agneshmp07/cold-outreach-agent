@@ -1,0 +1,169 @@
+{
+  "client": "Larsen & Toubro Limited",
+  "client_domain": "larsentoubro.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Offshore oil and gas operators",
+      "why_they_buy": "They need turnkey EPC contracts and heavy fabrication for complex offshore extraction platforms, pipelines, and gas compression facilities.",
+      "example_of_a_buyer": "A state-owned or international energy firm expanding offshore gas production with a multi-billion dollar field development project."
+    },
+    {
+      "sector": "Naval forces and defense procurement agencies",
+      "why_they_buy": "They require specialized heavy engineering, military vessel construction, weapon systems integration, and precision defense manufacturing.",
+      "example_of_a_buyer": "A national ministry of defense issuing tenders for new offshore patrol vessels, submarines, or modern radar defense networks."
+    },
+    {
+      "sector": "Metropolitan transit and airport infrastructure authorities",
+      "why_they_buy": "They require large-scale civil engineering, heavy civil construction, and systems integration for complex public transportation networks.",
+      "example_of_a_buyer": "A municipal transport development corporation planning high-speed rail lines, metro corridors, or greenfield airport expansions."
+    },
+    {
+      "sector": "Hyperscale data center developers",
+      "why_they_buy": "They need massive physical infrastructure construction, high-voltage power substations, and integrated enterprise IT capabilities to build large compute campuses.",
+      "example_of_a_buyer": "A global cloud provider or specialized infrastructure firm building a multi-hundred megawatt AI data center facility."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Oil and Natural Gas Corporation",
+      "sector": "Offshore oil and gas operators",
+      "why": "Exploration and production company developing offshore oil and gas assets requiring EPC and heavy offshore platforms.",
+      "seen_in": "List of oil exploration and production companies",
+      "domain": "globaldata.com"
+    },
+    {
+      "company": "Oil India",
+      "sector": "Offshore oil and gas operators",
+      "why": "National oil and gas exploration company investing in offshore wells, pipelines, and energy infrastructure.",
+      "seen_in": "List of oil exploration and production companies",
+      "domain": "oil-india.com"
+    },
+    {
+      "company": "Reliance Industries",
+      "sector": "Offshore oil and gas operators",
+      "why": "Energy and petrochemical conglomerate developing upstream oil and gas fields and refining facilities.",
+      "seen_in": "List of oil exploration and production companies",
+      "domain": "ril.com"
+    },
+    {
+      "company": "Bharat Petroleum",
+      "sector": "Offshore oil and gas operators",
+      "why": "State-owned oil refining and exploration company expanding energy production and processing infrastructure.",
+      "seen_in": "List of oil exploration and production companies",
+      "domain": "bharatpetroleum.in"
+    },
+    {
+      "company": "Hindustan Petroleum",
+      "sector": "Offshore oil and gas operators",
+      "why": "Oil refining and E&P company investing in large-scale petroleum processing and storage infrastructure.",
+      "seen_in": "List of oil exploration and production companies",
+      "domain": "hindustanpetroleum.com"
+    },
+    {
+      "company": "Nayara Energy",
+      "sector": "Offshore oil and gas operators",
+      "why": "Downstream and upstream energy operator expanding refining and energy infrastructure assets.",
+      "seen_in": "List of oil exploration and production companies",
+      "domain": "nayaraenergy.com"
+    },
+    {
+      "company": "GAIL",
+      "sector": "Offshore oil and gas operators",
+      "why": "Natural gas processing and distribution company requiring large EPC projects and pipeline construction.",
+      "seen_in": "List of oil exploration and production companies",
+      "domain": "gailonline.com"
+    },
+    {
+      "company": "Hindustan Oil Exploration Company",
+      "sector": "Offshore oil and gas operators",
+      "why": "Private exploration and production player developing offshore and onshore oil and gas blocks.",
+      "seen_in": "HOEC",
+      "domain": "hoec.com"
+    },
+    {
+      "company": "Vedanta Oil & Gas",
+      "sector": "Offshore oil and gas operators",
+      "why": "Upstream oil and gas producer investing $5 billion to expand production capacity and field infrastructure.",
+      "seen_in": "Vedanta Oil & Gas To Invest $5 Billion To Boost Production Fivefold",
+      "domain": "vedantalimited.com"
+    },
+    {
+      "company": "Shell",
+      "sector": "Offshore oil and gas operators",
+      "why": "Global energy major developing upstream oil, gas, and LNG infrastructure projects.",
+      "seen_in": "List of top Oil & Gas companies in India",
+      "domain": "shell.us"
+    },
+    {
+      "company": "Vår Energi",
+      "sector": "Offshore oil and gas operators",
+      "why": "Offshore E&P operator advancing offshore drilling plans and field development projects.",
+      "seen_in": "Rig market update: Noble, Ventura Offshore gain work as Vår Energi advances drilling plans",
+      "domain": "varenergi.no"
+    },
+    {
+      "company": "GMR Group",
+      "sector": "Metropolitan transit and airport infrastructure authorities",
+      "why": "Infrastructure developer constructing and modernizing major international airports and transit hubs.",
+      "seen_in": "GMR Group | Airports, Energy & Infrastructure Leadership",
+      "domain": "gmrgroup.com"
+    },
+    {
+      "company": "Delhi International Airport Limited",
+      "sector": "Metropolitan transit and airport infrastructure authorities",
+      "why": "Airport operator managing major airport expansions, terminal transfers, and transit link projects.",
+      "seen_in": "India's airport metro infrastructure is starting to look straight out ...",
+      "domain": "newdelhiairport.in"
+    },
+    {
+      "company": "ST Telemedia Global Data Centres",
+      "sector": "Hyperscale data center developers",
+      "why": "Data center developer constructing hyperscale digital and power infrastructure facilities.",
+      "seen_in": "Top 10: Data Centre Companies in India",
+      "domain": "sttgdc.com"
+    },
+    {
+      "company": "Yotta Data Services",
+      "sector": "Hyperscale data center developers",
+      "why": "Hyperscale data center developer building large-scale digital infrastructure campuses.",
+      "seen_in": "Top 10: Data Centre Companies in India",
+      "domain": "yotta.com"
+    },
+    {
+      "company": "CtrlS Datacenters",
+      "sector": "Hyperscale data center developers",
+      "why": "Rated-4 data center operator building high-density, high-capacity hyperscale facilities.",
+      "seen_in": "Top 10: Data Centre Companies in India",
+      "domain": "ctrls.com"
+    },
+    {
+      "company": "Nxtra Data",
+      "sector": "Hyperscale data center developers",
+      "why": "Data center subsidiary of Airtel expanding nationwide hyperscale and edge data facilities.",
+      "seen_in": "Top 20 Companies in Data Centers & AI Infra in India",
+      "domain": "nxtra.in"
+    },
+    {
+      "company": "Sify Technologies",
+      "sector": "Hyperscale data center developers",
+      "why": "ICT and data center operator building AI-ready hyperscale and built-to-suit data facilities.",
+      "seen_in": "Top Data Center Service Providers in India",
+      "domain": "sifytechnologies.com"
+    },
+    {
+      "company": "AdaniConneX",
+      "sector": "Hyperscale data center developers",
+      "why": "Hyperscale data center developer building large-scale data center campuses.",
+      "seen_in": "Top 20 Companies in Data Centers & AI Infra in India",
+      "domain": "adaniconnex.com"
+    },
+    {
+      "company": "AirTrunk",
+      "sector": "Hyperscale data center developers",
+      "why": "Hyperscale data center specialist expanding multi-hundred megawatt campuses across Asia-Pacific.",
+      "seen_in": "Top 22 Hyper Scale Data Center Companies - Inven 2026",
+      "domain": "airtrunk.com"
+    }
+  ]
+}

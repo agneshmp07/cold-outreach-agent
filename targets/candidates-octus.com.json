@@ -1,0 +1,169 @@
+{
+  "client": "Octus",
+  "client_domain": "octus.com",
+  "method": "sector",
+  "sectors": [
+    {
+      "sector": "Private credit and CLO asset managers",
+      "why_they_buy": "They need continuous credit intelligence, covenant analysis, and debt tracking to underwrite new direct loans and monitor portfolio risk in sub-investment grade debt.",
+      "example_of_a_buyer": "An alternative asset management firm with $500M+ AUM actively deploying capital into private credit funds or issuing Collateralized Loan Obligations (CLOs)."
+    },
+    {
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why_they_buy": "Their attorneys require searchable credit document databases, precedent debt covenants, and court filings to structure complex debt agreements and represent clients in Chapter 11 proceedings.",
+      "example_of_a_buyer": "An Am Law 200 firm with dedicated, multi-attorney bankruptcy, restructuring, or leveraged finance practice groups."
+    },
+    {
+      "sector": "Investment banks and debt capital markets advisory boutiques",
+      "why_they_buy": "They need market intelligence and deal document comparables to structure leveraged buyouts, issue high-yield bonds, and advise corporate clients on liability management.",
+      "example_of_a_buyer": "A mid-market investment bank with an active Leveraged Finance (LevFin) or Debt Advisory desk pitching debt issuances."
+    },
+    {
+      "sector": "Distressed debt and special situations hedge funds",
+      "why_they_buy": "They rely on fast covenant analysis and legal docket tracking to spot mispriced default risks and trade non-investment grade corporate debt around bankruptcy events.",
+      "example_of_a_buyer": "An event-driven or special situations fund actively purchasing defaulted corporate bonds or participating in debtor-in-possession (DIP) financing."
+    }
+  ],
+  "candidates": [
+    {
+      "company": "Ares Management",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Manages large private debt, alternative credit, and junior lending funds requiring credit market intelligence.",
+      "seen_in": "Top Private Credit Firms | PEI Private Credit 200",
+      "domain": "ares.com"
+    },
+    {
+      "company": "Blackstone",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Active direct lender and private debt manager requiring comprehensive deal data and loan management tools.",
+      "seen_in": "Top Private Credit Firms | PEI Private Credit 200",
+      "domain": "blackstoneproducts.com"
+    },
+    {
+      "company": "Kotak Alternate Asset Managers",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Leading private credit manager investing in debt deals and enforcing share pledges in restructurings.",
+      "seen_in": "Private Credit Funds in India | Private Credit Investment Firms",
+      "domain": "kotakalternateasset.com"
+    },
+    {
+      "company": "HPS Investment Partners",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Major private debt manager requiring credit intelligence and leveraged finance document tracking.",
+      "seen_in": "Top Private Credit Firms | PEI Private Credit 200",
+      "domain": "hpspartners.com"
+    },
+    {
+      "company": "Monroe Capital",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Asset manager specializing in middle-market private credit and direct lending strategies.",
+      "seen_in": "The Top Private Credit Firms of 2025",
+      "domain": "monroecap.com"
+    },
+    {
+      "company": "Churchill Asset Management",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Provides private credit and capital solutions across the full middle-market capital structure.",
+      "seen_in": "Churchill Asset Management | Leading Private Capital Manager",
+      "domain": "churchillam.com"
+    },
+    {
+      "company": "Invesco",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Operates private credit, stressed debt, and special situations investment strategies.",
+      "seen_in": "Invesco Private Credit",
+      "domain": "invesco.com"
+    },
+    {
+      "company": "Blue Owl",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Direct lender providing structured investment and credit solutions to private companies.",
+      "seen_in": "Credit",
+      "domain": "blueowl.com"
+    },
+    {
+      "company": "Varde Partners",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Alternative asset manager focused on private credit, distressed debt, and structured finance.",
+      "seen_in": "India Private Credit: Deals & Rankings H1'26",
+      "domain": "varde.com"
+    },
+    {
+      "company": "Golub Capital",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Direct lender and private credit asset manager requiring leveraged loan portfolio tracking.",
+      "seen_in": "Golub Capital - Direct Lender and Private Credit Asset Manager",
+      "domain": "golubcapital.com"
+    },
+    {
+      "company": "Pemberton Asset Management",
+      "sector": "Private credit and CLO asset managers",
+      "why": "European private credit manager originating direct loans and managing credit funds.",
+      "seen_in": "Pemberton Asset Management: Home Page",
+      "domain": "pembertonam.com"
+    },
+    {
+      "company": "Barings",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Global asset manager launching and managing investment grade CLO strategies.",
+      "seen_in": "Standard Chartered Partners Barings to Launch Investment Grade CLO Strategy Under VCC Platform",
+      "domain": "barings.com"
+    },
+    {
+      "company": "Wellington Management",
+      "sector": "Private credit and CLO asset managers",
+      "why": "Expands CLO management business and requires credit-worthiness analysis on underlying assets.",
+      "seen_in": "Wellington Management Expands Its CLO Business",
+      "domain": "wellington.com"
+    },
+    {
+      "company": "Jones Day",
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why": "Advises clients on banking, restructuring, leveraged finance, and bankruptcy disputes.",
+      "seen_in": "Jones Day Recognized by IBLJ as Among Top Foreign ...",
+      "domain": "jonesday.com"
+    },
+    {
+      "company": "White & Case",
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why": "Represents financial institutions and funds in leveraged financing, debt capital markets, and restructurings.",
+      "seen_in": "India",
+      "domain": "whitecase.com"
+    },
+    {
+      "company": "DLA Piper",
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why": "Represents creditors and financial stakeholders in cross-border restructurings and insolvency matters.",
+      "seen_in": "Restructuring Lawyers",
+      "domain": "dlapiper.com"
+    },
+    {
+      "company": "Trilegal",
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why": "Handles high-value corporate debt restructurings, insolvencies, and special situations.",
+      "seen_in": "Top-Tier Corporate Law Firm in India - Trilegal",
+      "domain": "trilegal.com"
+    },
+    {
+      "company": "Latham & Watkins",
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why": "Advises on debt capital market offerings, bank finance, and complex corporate restructurings.",
+      "seen_in": "India Practice Lawyers",
+      "domain": "lw.com"
+    },
+    {
+      "company": "Khaitan & Co",
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why": "Provides legal services in restructuring and insolvency for distressed businesses and lenders.",
+      "seen_in": "Restructuring And Insolvency Law in India",
+      "domain": "khaitanco.com"
+    },
+    {
+      "company": "Kirkland & Ellis",
+      "sector": "Corporate law firms (restructuring and leveraged finance practices)",
+      "why": "Advises corporate, PE, and lender clients on leveraged finance and bankruptcy restructurings.",
+      "seen_in": "The top India-focused foreign law firms - 2025",
+      "domain": "kirkland.com"
+    }
+  ]
+}

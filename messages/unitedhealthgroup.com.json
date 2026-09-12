@@ -1,0 +1,89 @@
+{
+  "client": "Kyndryl",
+  "client_domain": "kyndryl.com",
+  "company_name": "UnitedHealth Group",
+  "disqualifiers": [],
+  "no_trigger": false,
+  "generated_from": {
+    "trigger_count": 3,
+    "top_score": 5,
+    "pain_hypothesis": "UnitedHealth Group requires extensive IT infrastructure management, cloud consulting, and cybersecurity support to reliably power its expanding digital applications and enterprise AI platforms.",
+    "forced": false
+  },
+  "emails": [
+    {
+      "angle": "trigger-direct",
+      "subject": "optum's ai strategy and infrastructure",
+      "body": "Optum's appointment of a Chief AI Officer in August 2026 signals a serious move toward scaling enterprise AI platforms across the organization.\n\nAs enterprise AI initiatives expand, underlying hybrid cloud systems and legacy environments often face unforeseen integration and latency strain.\n\nWhen rolling out new AI strategies across extensive health systems, what breaks first in your underlying IT infrastructure?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "Optum appointed Shobhit Varshney as Chief AI Officer to lead the organization's AI strategy and platform in August 2026.",
+      "trigger_link": "Scaling enterprise AI platforms requires modern hybrid cloud infrastructure and reliable IT systems management.",
+      "word_count": 61,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "problem-check",
+      "subject": "network and security hiring strain",
+      "body": "When enterprise infrastructure scales quickly, network security architecture and risk controls usually lag behind open headcounts, leaving existing engineering teams stretched thin.\n\nWe design, build, manage, and modernize enterprise technology systems for large health organizations.\n\nDoes this infrastructure lag match your experience at UnitedHealth Group right now?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "UnitedHealth Group's careers portal lists 497 open Technology job roles, including positions in network infrastructure, security and risk, and architecture.",
+      "trigger_link": "A high volume of open network and security roles indicates rapid infrastructure expansion that puts heavy pressure on existing systems.",
+      "word_count": 49,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "conditional-ask",
+      "subject": "supporting uhc's avery infrastructure",
+      "body": "UnitedHealthcare launched the Avery AI companion in March 2026 to handle real-time coverage details, cost estimates, and scheduling.\n\nSupporting high-demand patient apps requires continuous cloud management and high-uptime cybersecurity backends.\n\nIf we brought you an architectural strategy for modernizing cloud environments to handle consumer AI application workloads smoothly, would you be open to reviewing it? A quick look commits you to nothing.\n\nCould we set up a brief call next week if that sounds useful?\n\nBest,\nagneshmp07@gmail.com",
+      "trigger_used": "UnitedHealthcare launched an AI companion application called Avery on March 26, 2026, to handle coverage details, cost estimates, and care scheduling.",
+      "trigger_link": "Consumer-facing AI applications require high-availability cloud backend management and robust cybersecurity.",
+      "word_count": 77,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "linkedin_messages": [
+    {
+      "angle": "connection-note",
+      "text": "Saw Optum appointed a Chief AI Officer in August 2026 to lead AI strategy. Would love to connect with tech leaders at UnitedHealth Group.",
+      "trigger_used": "Optum appointed Shobhit Varshney as Chief AI Officer to lead the organization's AI strategy and platform in August 2026.",
+      "trigger_link": "Enterprise AI expansion requires robust infrastructure modernization.",
+      "char_count": 137,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "post-accept-dm",
+      "text": "Thanks for connecting. With UnitedHealthcare launching Avery in March 2026 to handle real-time coverage and scheduling, backend systems face new demands. How are your teams handling cloud infrastructure resiliency as consumer AI tool usage grows?",
+      "trigger_used": "UnitedHealthcare launched an AI companion application called Avery on March 26, 2026, to handle coverage details, cost estimates, and care scheduling.",
+      "trigger_link": "Deploying consumer AI tools requires secure and resilient backend IT infrastructure.",
+      "char_count": 246,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    },
+    {
+      "angle": "value-first",
+      "text": "Noticed UnitedHealth Group has 497 open tech roles across network infrastructure and security. As we manage and modernize enterprise systems for large organizations, we're tracking what works in scaling hybrid infrastructure. Happy to share what we learn along the way if useful.",
+      "trigger_used": "UnitedHealth Group's careers portal lists 497 open Technology job roles, including positions in network infrastructure, security and risk, and architecture.",
+      "trigger_link": "High volume hiring in network and security roles creates opportunities to share insights on infrastructure modernization.",
+      "char_count": 279,
+      "grounded": true,
+      "invented_number": null,
+      "overclaim": null,
+      "asset_claim": null
+    }
+  ],
+  "warnings": [
+    "WEAK TRIGGERS - the best one scores 5/10. The facts are real but their link to what you sell is loose. Expect a lower reply rate, and read the 'why it connects' line on each message before sending."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "domain": "xoxoday.com",
+  "name": "Xoxoday",
+  "one_liner": "Xoxoday provides software for businesses to manage employee recognition, sales incentives, channel partner payouts, and customer loyalty programs.",
+  "what_you_sell": "A B2B SaaS platform suite (Empuls, Plum, Loyalife) for employee recognition, sales commission and incentive automation, channel partner rewards, and customer loyalty programs with an integrated global digital reward catalog.",
+  "target_group": "Xoxoday sells to mid-market and enterprise businesses with distributed workforces, multi-country sales teams, or large channel partner networks. Ideal target companies operate in multiple currencies and need to automate recognition, sales quotas, or loyalty rewards. They are good prospects if they are currently managing global incentive payouts through fragmented regional vendors or manual gift card processes.",
+  "sells_to_businesses": true,
+  "b2c_note": "",
+  "business_model": "direct",
+  "who_uses_it": "Employees giving peer recognition, sales representatives tracking quotas, channel partners redeeming points, and customers receiving reward payouts.",
+  "who_pays_for_it": "Enterprise department heads including HR leaders, Sales Operations directors, Channel Marketing managers, and Customer Success/Retention executives.",
+  "who_buys_it": "Mid-market and enterprise businesses that need to deliver digital rewards, incentives, or payouts across multiple regions and currencies.",
+  "sender": "agneshmp07@gmail.com",
+  "cannot_claim": [],
+  "verified_assets": [],
+  "icp_file": "context/icp-xoxoday.com.md",
+  "exclude_file": "context/exclude.txt",
+  "reviewed": true,
+  "_claims_to_check": [
+    "Claims to serve 5,000+ enterprise customers across 150+ to 175+ countries.",
+    "Claims to have distributed over $5 Billion in rewards.",
+    "Claims to process 1 Million transactions daily across 65 Million+ end users.",
+    "Claims a global catalog of 10M+ reward options and 1M+ merchants.",
+    "Implies built-in AI predictive analytics for employee attrition, churn risk, and fraud detection across all tiers."
+  ],
+  "_note": "Fill in sender and cannot_claim, then set reviewed to true. Nothing downstream will run until you do. See _claims_to_check for what the tool noticed your site implies."
+}
